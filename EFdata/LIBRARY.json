@@ -1,0 +1,146 @@
+{
+    "_LIBRARY": {
+        "eflist": {},
+        "eftext": {
+            "STextBox1": {
+                "src": "$$EFX.html_text",
+                "xname": "STextBox1"
+            }
+        },
+        "efinput": {},
+        "eftable": {
+            "STable1": {
+                "src": "$$EFX.html_table_ted1",
+                "xname": "STable1"
+            }
+        },
+        "efdata": {
+            "TEDTableData": {
+                "rowdata": [
+                    [
+                        {"value": "{{$EFO_LV_H1_A|name}}"},
+						{"value": "{{$EFO_LV_H1_B|name}}"},
+						{"value": "{{$EFO_LV_H1_C|name}}"},
+						{"value": "{{$EFO_LV_H1_D|name}}"}                        
+                    ],
+                    [
+                        {
+                            "value": "{{$EFO_S_A?_T?_V1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_S_A?_T?_V1_A|name}}",
+                                "{{$EFO_S_A?_T?_V1_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_S_A?_T?_V1_A|name}}",
+                                "{{$EFO_S_A?_T?_V1_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_LV_O1_A|name}}",
+                                "{{$EFO_LV_O1_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "{{$EFO_S_A?_T?_V2|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_S_A?_T?_V2_A|name}}",
+                                "{{$EFO_S_A?_T?_V2_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_S_A?_T?_V2_A|name}}",
+                                "{{$EFO_S_A?_T?_V2_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_LV_O1_A|name}}",
+                                "{{$EFO_LV_O1_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "{{$EFO_S_A?_T?_V3|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_S_A?_T?_V3_A|name}}",
+                                "{{$EFO_S_A?_T?_V3_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_S_A?_T?_V3_A|name}}",
+                                "{{$EFO_S_A?_T?_V3_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_LV_O1_A|name}}",
+                                "{{$EFO_LV_O1_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "{{$EFO_S_A?_T?_V4|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_S_A?_T?_V4_A|name}}",
+                                "{{$EFO_S_A?_T?_V4_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_S_A?_T?_V4_A|name}}",
+                                "{{$EFO_S_A?_T?_V4_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        },
+                        {
+                            "value": "$LIST",
+                            "options": [
+                                "{{$EFO_LV_O1_A|name}}",
+                                "{{$EFO_LV_O1_B|name}}"
+                            ],
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        }
+                    ]
+                ]
+            }
+        }
+    }
+}

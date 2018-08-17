@@ -1,0 +1,12 @@
+{
+    "MODULEDATA":"v1.0.0",
+    "SScene1": {
+        "STextBox1": {
+            "$$REF":"$$EFL.eftext.STextBox1"
+        },
+        "STable1": {
+            "$$REF":"$$EFL.eftable.STable1",
+            "xname":"STABLE1"            
+        }
+    }
+}

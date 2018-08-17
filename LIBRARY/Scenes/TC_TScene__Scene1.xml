@@ -1,0 +1,45 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5b6f4696-000004c8" lastModified="1534351548">
+  <timeline>
+    <DOMTimeline name="TC_TScene__Scene1">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
+                  <matrix>
+                    <Matrix a="16.4389953613281" d="3.16949462890625" tx="138.05" ty="142.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.15" y="50.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STable1">
+                  <matrix>
+                    <Matrix a="8.33949279785156" d="3.03999328613281" tx="543.05" ty="524"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" current="true" isSelected="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn" name="SBoundry" selected="true">
+                  <transformationPoint>
+                    <Point x="960" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

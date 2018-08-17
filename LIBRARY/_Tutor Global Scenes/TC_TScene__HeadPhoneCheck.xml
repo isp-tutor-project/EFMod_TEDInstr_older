@@ -1,0 +1,68 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TScene__HeadPhoneCheck" itemID="5ae37628-0000040b" lastModified="1524856360">
+  <timeline>
+    <DOMTimeline name="TC_TScene__HeadPhoneCheck">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene_HeadPhoneCheck/Headphones.png">
+                  <matrix>
+                    <Matrix tx="763" ty="244"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene_HeadPhoneCheck/cmulogo.png">
+                  <matrix>
+                    <Matrix tx="813" ty="980"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene_HeadPhoneCheck/ieslogo.png">
+                  <matrix>
+                    <Matrix tx="646" ty="980"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene_HeadPhoneCheck/klahrlogo.png">
+                  <matrix>
+                    <Matrix tx="1192" ty="980"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMStaticText fontRenderingMode="standard" width="391.75" height="83.8" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="760.95" ty="543.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Put on your headphones &#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="40.9" size="29" bitmapSize="580" face="Arial-Black"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>and then</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="40.9" size="29" bitmapSize="580" face="Arial-Black"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="398.1" height="40.9" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="760.95" ty="630.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Click Anywhere To Begin</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="40.9" size="29" bitmapSize="580" face="Arial-Black"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

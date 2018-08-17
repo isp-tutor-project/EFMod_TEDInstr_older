@@ -1,0 +1,115 @@
+<!- EDFORGE EXTERNAL ->
+
+<style id="internalStyle">
+    [eftable].outerContainer {
+        table-layout: fixed;
+        position: absolute;
+        box-sizing: border-box;
+
+        border: 3px solid black;
+        border-radius: 6px;
+        border-spacing: 0px;
+        font-size: 13px;
+        width: 500px;
+        height: 300px;
+        user-select: none;
+        background-color: azure;
+        box-shadow: 6px 6px 4px 4px #3a2c2c66;
+    }
+
+    [eftable] th,
+    [eftable] td {
+        display: table-cell;
+        padding: 10px;
+        border-right: 2px solid rgba(128, 128, 128, 0.486);
+        border-bottom: 2px solid rgba(128, 128, 128, 0.486);
+        text-align: center;
+    }
+
+    [eftable] th:last-child,
+    [eftable] td:last-child {
+        border-right: none;
+    }
+
+    [eftable] tr:last-child td {
+        border-bottom: none;
+    }
+
+    [eftable] .list {
+        font-weight: bold;
+        width: 100%;
+        border: 0px;
+        background-color: azure;
+        color: rgb(0, 0, 0);
+    }
+
+    [eftable] option {
+        background-color: #ffffff;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+    }
+
+    input,
+    textarea,
+    select,
+    button {
+        font-size: inherit;
+    }
+</style>
+
+<style id="customStyle">
+    [efcontrolname] .header {
+        font-weight: bold;
+        font-size: 1.2em;
+        background-color: blue;
+        color: white;
+    }
+
+    [efcontrolname] .body {
+        font-weight: bold;
+        font-size: 0.9em;
+    }
+
+
+    [efcontrolname] .listCol {
+        overflow: hidden;
+        white-space: nowrap;
+    }
+</style>
+
+
+<table eftable efcontrolname datasource="$$EFL.TEDTableData" class="outerContainer" id="controlContainer">
+    <tbody class="body">
+        <tr class="header">
+            <th style="width:22%"></th>
+            <th style="width:22%"></th>
+            <th style="width:22%"></th>
+            <th class="listCol" style="width:0%"></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="listCol"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="listCol"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="listCol"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="listCol"></td>
+        </tr>
+    </tbody>
+</table>

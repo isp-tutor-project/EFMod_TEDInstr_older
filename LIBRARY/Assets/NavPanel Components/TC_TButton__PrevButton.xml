@@ -1,0 +1,103 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/NavPanel Components/TC_TButton__PrevButton" itemID="5b68a25d-00000547" symbolType="button" lastModified="1533586273" lastUniqueIdentifier="15">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TButton__PrevButton" currentFrame="4">
+      <layers>
+        <DOMLayer name="SpinButtonUp" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/NavPanel Components/TC_TButton__Button Assets/navbackup">
+                  <matrix>
+                    <Matrix tx="-47" ty="-75.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="108.85" y="86"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="SpinButtonOver" color="#4FFFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/NavPanel Components/TC_TButton__Button Assets/navbackover">
+                  <matrix>
+                    <Matrix tx="-47" ty="-75.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="108.85" y="86"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="SpinButtonDown" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/NavPanel Components/TC_TButton__Button Assets/navbackdown">
+                  <matrix>
+                    <Matrix tx="-47" ty="-75.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="108.85" y="86"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="SpinButtonFocus" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/NavPanel Components/TC_TButton__Button Assets/navbackhit">
+                  <matrix>
+                    <Matrix tx="-47" ty="-75.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="108.85" y="86"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="SpinButtonDisabled" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/NavPanel Components/TC_TButton__Button Assets/navbackdisabled">
+                  <matrix>
+                    <Matrix tx="-47" ty="-75.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="108.85" y="86.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

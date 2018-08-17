@@ -1,0 +1,36 @@
+{
+	"MODULEDATA": "v1.0.0",
+	"SScene1": {
+		"SInput1": {
+			"$$REF": "$$EFL.efinput.SInput1"
+		},
+		"SListBox1": {
+			"$$REF": "$$EFL.eflist.SListBox1"
+		},
+		"STextBox1": {
+			"$$REF": "$$EFL.eftext.STextBox1"
+		},
+		"SShape1": {
+			"xname": "SShape1"
+		},
+		"SShape2": {
+			"xname": "SShape2"
+		}
+	},
+	"SScene2": {
+		"SInput1": {
+			"$$REF": "$$EFL.efinput.SInput1"
+		},
+		"STextBox1": {
+			"$$REF": "$$EFL.eftext.STextBox1"
+		},
+		"SShape1": {
+			"xname": "SShape1"
+		},
+		"SShape2": {
+			"xname": "SShape3"
+		}
+	},
+	"SScene3": {},
+	"SScene4": {}
+}

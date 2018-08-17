@@ -1,0 +1,56 @@
+{
+	"SScene1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "<p>There   are{{var1}}  <span id='item1' day='test'></span> parameters which can be manipulated   when  using  SSML.</p>",
+					"templates": {
+						"var1": {
+							"values": {
+								"valname1": "multiple",
+								"valname2": "several",
+								"valname3": "some"
+							},
+							"volume": 0.8,
+							"notes": ""
+						}
+					},
+					"text": "There are{{var1}}parameters which can be manipulated when using SSML.",
+					"cueSet": "a................b.....................................................z",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						70,
+						0,
+						0
+					],
+					"volume": 1
+				}
+			},
+			"track2": {
+				"en": {
+					"html": "$$EFL.eftext.STextBox1",
+					"templates": {
+						"var1": {
+							"values": {
+								"valname1": "value1",
+								"valname2": "value2",
+								"valname3": "value3"
+							},
+							"volume": 0.8,
+							"notes": ""
+						}
+					},
+					"text": " This div element has position: absolute; This is a test this is the problem Pitta salad Green salad Halloumi We make the text super long so we can see how the layout worksThen we see if line breaks make a difference ",
+					"cueSet": "a................b.....................................................z",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": 1
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/NavPanel Components/TC_TObject__backMask" itemID="5b6f3c37-000002d0" lastModified="1534016567">
+  <timeline>
+    <DOMTimeline name="TC_TObject__backMask">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix d="0.842803955078125" tx="-1.45" ty="-451.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="453.15" y="673.6"/>
+                  </transformationPoint>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#B9DBFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!18055 15235[18055 15049 17939 14659!17939 14659[17779 14122 17499 13674!17499 13674[17127 13081 16599 12743!16599 12743[15950 12330 15102 12328!15102 12328/2803 12313!2803 12313[1563 12314 772 11727!772 11727[463 11497 261 11203!261
+ 11203[89 10953 30 10715!30 10715/29 15055!29 15055[30 15272 79 15304!79 15304[106 15321 174 15322!174 15322[217 15323 346 15320!346 15320/18055 15330!18055 15330/18055 15235"/>
+                    <Edge cubics="!18055 15330(;18055,15330 18055,15235 18055,15235q18055 15330 18055 15235);"/>
+                    <Edge cubics="!15102 12328(;15102,12328 2803,12313 2803,12313q15102 12328 2803 12313);"/>
+                    <Edge cubics="!18055 15235(;18055,14944 17556,12333 15102,12328q18055 15235Q18055 15049q17939 14659Q17779 14122q17499 13674Q17127 13081q16599 12743Q15950 12330q15102 12328);"/>
+                    <Edge cubics="!2803 12313(;943,12315 170,11280 30,10715q2803 12313Q1563 12314q772 11727Q463 11497q261 11203Q89 10953q30 10715);"/>
+                    <Edge cubics="!29 15055(;30,15364 55,15321 346,15320q29 15055Q30 15272q79 15304Q106 15321q174 15322Q217 15323q346 15320);"/>
+                    <Edge cubics="!30 10715(;30,10715 29,15055 29,15055q30 10715 29 15055);"/>
+                    <Edge cubics="!346 15320(;346,15320 18055,15330 18055,15330q346 15320 18055 15330);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,80 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TScene__SoundCheck" itemID="5ae37634-0000040d" lastModified="1534016097">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TScene__SoundCheck">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon0.png">
+                  <matrix>
+                    <Matrix tx="632" ty="939"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon3.png">
+                  <matrix>
+                    <Matrix tx="996" ty="939"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon4.png">
+                  <matrix>
+                    <Matrix tx="874" ty="939"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon5.png">
+                  <matrix>
+                    <Matrix tx="753" ty="939"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/icon6.png">
+                  <matrix>
+                    <Matrix tx="1238" ty="939"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/iconStar.png">
+                  <matrix>
+                    <Matrix tx="1117" ty="939"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Scene Assets/TC_TScene__SoundCheck/SpkrIcon.png">
+                  <matrix>
+                    <Matrix tx="760" ty="350"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMStaticText fontRenderingMode="standard" width="560.8" height="83.8" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="679.6" ty="225.25"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Adjust your volume until&#xD;you can hear the voice comfortably</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="40.9" size="29" bitmapSize="580" face="Arial-Black"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" left="-48.05" width="240.1" height="40.9" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="888" ty="683.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>SOUND CHECK</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="40.9" size="29" bitmapSize="580" face="Arial-Black"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

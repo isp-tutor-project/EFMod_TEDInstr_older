@@ -1,0 +1,74 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/NavPanel Components/TC_TButton__Button Assets/NextButtonDisabled" itemID="53469c53-000003b0" lastModified="1397139109">
+  <timeline>
+    <DOMTimeline name="NextButtonDisabled">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#CCCCCC"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="30">
+                        <fill>
+                          <SolidColor color="#EEEEEE"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!0 0|1569 0!1569 0|785 838!785 838|0 0"/>
+                    <Edge cubics="!0 0(;0,0 1569,0 1569,0q0 0 1569 0);"/>
+                    <Edge cubics="!1569 0(;1569,0 785,838 785,838q1569 0 785 838);"/>
+                    <Edge cubics="!785 838(;785,838 0,0 0,0q785 838 0 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="171.95" objectHeight="171.95" x="-53" y="-74" endAngle="0">
+                  <matrix>
+                    <Matrix tx="6" ty="-1"/>
+                  </matrix>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="10.6">
+                      <fill>
+                        <SolidColor color="#EEEEEE"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMOvalObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="98" objectHeight="33.2" x="-95" y="-5.2" lockFlag="true">
+                  <matrix>
+                    <Matrix a="0" b="1" c="-1" d="0" tx="50.4" ty="-31.05"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

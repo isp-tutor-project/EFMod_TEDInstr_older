@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/NavPanel Components/TC_TObject__NavBackground" itemID="5b6f441f-0000043d" lastModified="1534018591">
+  <timeline>
+    <DOMTimeline name="TC_TObject__NavBackground">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="1920" objectHeight="1200" x="-1" y="1" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="10" bottomRightRadius="10">
+                  <matrix>
+                    <Matrix tx="1" ty="-1"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#D5E9FD"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="2.5" pixelHinting="true">
+                      <fill>
+                        <SolidColor color="#AAAAAA"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

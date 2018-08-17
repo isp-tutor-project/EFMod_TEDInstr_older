@@ -1,0 +1,146 @@
+{
+	"SScene1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "<p>There   are{{var1}}  <span id='item1' day='test'></span> parameters which can be manipulated   when  using  SSML.</p>",
+					"templates": {
+						"var1": {
+							"values": {
+								"valname1": "multiple",
+								"valname2": "several",
+								"valname3": "some"
+							},
+							"volume": 0.8,
+							"notes": ""
+						}
+					},
+					"text": "There are{{var1}}parameters which can be manipulated when using SSML.",
+					"cueSet": "a................b.....................................................z",
+					"segments": [
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"id": "0",
+								"SSML": "There are",
+								"cues": [
+									{
+										"name": "a",
+										"offset": 0,
+										"relTime": 0
+									}
+								],
+								"duration": 613.9583333333334,
+								"trim": 70,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "var1",
+							"valname1": {
+								"id": "1a",
+								"SSML": "multiple",
+								"cues": [],
+								"duration": 645.375,
+								"trim": 0,
+								"volume": 0.8
+							},
+							"valname2": {
+								"id": "1b",
+								"SSML": "several",
+								"cues": [],
+								"duration": 598.3333333333334,
+								"trim": 0,
+								"volume": 0.8
+							},
+							"valname3": {
+								"id": "1c",
+								"SSML": "some",
+								"cues": [],
+								"duration": 556.9166666666666,
+								"trim": 0,
+								"volume": 0.8
+							}
+						},
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"id": "2",
+								"SSML": "parameters which can be manipulated when using SSML.",
+								"cues": [
+									{
+										"name": "b",
+										"offset": 0,
+										"relTime": 0
+									}
+								],
+								"duration": 3423.4583333333335,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						70,
+						0,
+						0
+					],
+					"volume": 1
+				}
+			},
+			"track2": {
+				"en": {
+					"html": "$$EFL.eftext.STextBox1",
+					"templates": {
+						"var1": {
+							"values": {
+								"valname1": "value1",
+								"valname2": "value2",
+								"valname3": "value3"
+							},
+							"volume": 0.8,
+							"notes": ""
+						}
+					},
+					"text": " This div element has position: absolute; This is a test this is the problem Pitta salad Green salad Halloumi We make the text super long so we can see how the layout worksThen we see if line breaks make a difference ",
+					"cueSet": "a................b.....................................................z",
+					"segments": [
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"id": "0",
+								"SSML": " This div element has position: absolute; This is a test this is the problem Pitta salad Green salad Halloumi We make the text super long so we can see how the layout worksThen we see if line breaks make a difference ",
+								"cues": [
+									{
+										"name": "a",
+										"offset": 0,
+										"relTime": 0
+									},
+									{
+										"name": "b",
+										"offset": 0.0787037037037037,
+										"relTime": 956.2827932098766
+									},
+									{
+										"name": "z",
+										"offset": 0.3287037037037037,
+										"relTime": 3993.886959876543
+									}
+								],
+								"duration": 12150.416666666666,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": 1
+				}
+			}
+		}
+	}
+}
