@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_HTMLControls/TC_THtmlList1__CustomList1" itemID="5b707bd7-000006c8" lastModified="1534098391">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_HTMLControls/TC_THtmlList1__CustomList1" itemID="5b707bd7-000006c8" lastModified="1534618188">
   <timeline>
     <DOMTimeline name="TC_THtmlList1__CustomList1">
       <layers>
@@ -8,7 +8,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlList__Assets/listbox" name="SControlContainer">
                   <transformationPoint>
-                    <Point x="239.95" y="33.95"/>
+                    <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

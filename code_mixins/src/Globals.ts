@@ -1,4 +1,4 @@
-namespace EFTut_Suppl.EFMOD_CODETEST {
+namespace EFTut_Suppl.EFMOD_TEDInstr {
 
     export class Globals {
 

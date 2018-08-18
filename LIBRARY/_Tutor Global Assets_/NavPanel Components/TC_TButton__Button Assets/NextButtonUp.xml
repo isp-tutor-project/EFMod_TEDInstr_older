@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/NavPanel Components/TC_TButton__Button Assets/NextButtonUp" itemID="53469c78-000003dc" lastModified="1401481127">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonUp" itemID="53469c78-000003dc" lastModified="1401481127">
   <timeline>
     <DOMTimeline name="NextButtonUp">
       <layers>
@@ -36,7 +36,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/NavPanel Components/TC_TButton__Button Assets/NextOutline" centerPoint3DX="39.2" centerPoint3DY="20.95">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextOutline" centerPoint3DX="39.2" centerPoint3DY="20.95">
                   <transformationPoint>
                     <Point x="39.2" y="20.95"/>
                   </transformationPoint>

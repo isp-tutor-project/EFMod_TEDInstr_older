@@ -1,8 +1,10 @@
-declare namespace EFTut_Suppl.EFMOD_CODETEST {
+declare namespace EFTut_Suppl.EFMOD_TEDInstr {
     class CONST {
         static readonly TUTORCONTAINER: string;
         static readonly NEXTSCENE: string;
         static readonly PREVSCENE: string;
+        static readonly NAVSCENE: string;
+        static readonly NAVTUTOR: string;
         static readonly MOUSE_MOVE: string;
         static readonly MOUSE_DOWN: string;
         static readonly MOUSE_UP: string;
@@ -11,7 +13,7 @@ declare namespace EFTut_Suppl.EFMOD_CODETEST {
         static readonly CLICK: string;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_CODETEST {
+declare namespace EFTut_Suppl.EFMOD_TEDInstr {
     class $Common {
         [key: string]: any;
         $onCreateScene(): void;
@@ -31,13 +33,13 @@ declare namespace EFTut_Suppl.EFMOD_CODETEST {
         $timedEvents(id: string): void;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_CODETEST {
+declare namespace EFTut_Suppl.EFMOD_TEDInstr {
     class Globals {
         $var1: string;
         [key: string]: any;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_CODETEST {
+declare namespace EFTut_Suppl.EFMOD_TEDInstr {
     class SNavigator {
         [key: string]: any;
         $onCreateScene(): void;
@@ -56,9 +58,8 @@ declare namespace EFTut_Suppl.EFMOD_CODETEST {
         $timedEvents(id: string): void;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_CODETEST {
+declare namespace EFTut_Suppl.EFMOD_TEDInstr {
     class SScene1 {
-        $var1: string;
         [key: string]: any;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -76,27 +77,8 @@ declare namespace EFTut_Suppl.EFMOD_CODETEST {
         $timedEvents(id: string): void;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_CODETEST {
-    class SScene2 {
-        [key: string]: any;
-        $onCreateScene(): void;
-        $preEnterScene(): void;
-    }
-}
-declare namespace EFTut_Suppl.EFMOD_CODETEST {
-    class SScene3 {
-        [key: string]: any;
-        $onCreateScene(): void;
-        $preEnterScene(): void;
-        $preExitScene(): void;
-        $onexit(): void;
-        $demoInitScene(): void;
-        $logScene(): void;
-        $rewindScene(): void;
-    }
-}
-declare namespace EFTut_Suppl.EFMOD_CODETEST {
-    class SScene4 {
+declare namespace EFTut_Suppl.EFMOD_TEDInstr {
+    class SScene_1a {
         [key: string]: any;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -105,5 +87,12 @@ declare namespace EFTut_Suppl.EFMOD_CODETEST {
         $demoInitScene(): void;
         $logScene(): void;
         $rewindScene(): void;
+        $resolveTemplate(templID: string): any;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
     }
 }

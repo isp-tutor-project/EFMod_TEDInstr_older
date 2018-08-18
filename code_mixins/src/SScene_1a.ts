@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMOD_TEDInstr {
 
-    export class SScene1 {
+    export class SScene_1a {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]

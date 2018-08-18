@@ -9,15 +9,14 @@
 
         top: 0px;
         left: 0px;
-        height: 55px;
+        height: 44px;
         width: 400px;
 
         font-family: Arial;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     /*hide original SELECT element:*/
-
     [eflist].outerContainer select {
         display: none;
     }
@@ -25,7 +24,7 @@
 
     [eflist] .listbox {
         display: table-cell;
-        height: inherit;
+        height: 40px;
         width: inherit;
         box-sizing: border-box;
         vertical-align: middle;
@@ -71,7 +70,7 @@
 
 <style id="customStyle">
     [efcontrolname] .listbox {
-        border-radius: 4px;
+        border-radius: 10px;
     }
 </style>
 
@@ -93,7 +92,7 @@
 
     /*style the arrow inside the select element:*/
 
-    var arrowScale = 4.5;
+    var arrowScale = 3.5;
 
     var arrowNormal = {
         selector: ".listbox::after",
@@ -137,15 +136,16 @@
 
     selElement = controlContainer.getElementsByTagName("select")[0];
 
-    /* create a new DIV that will act as the selected item:*/
+    /*for each element, create a new DIV that will act as the selected item:*/
     efListBox = document.createElement("DIV");
     efListBox.setAttribute("class", "listbox color");
     efListBox.innerHTML = selElement.options[selElement.selectedIndex].innerHTML;
     controlContainer.appendChild(efListBox);
 
+
     // update the arrow icon based on the box height
     // the arrow size is based on the height of the outerContainer
-    // It is generated using the way border joints are painted. i.e. beveled ends
+    // It is based on the way border joints are painted. i.e. beveled ends
     // 
     var hBox = parseInt(window.getComputedStyle(efListBox).height);
     var hArrow = hBox / arrowScale;
@@ -163,7 +163,7 @@
     addRule(arrowActive.selector, arrowActive.styles);
 
 
-    /* create a new DIV that will contain the option list:*/
+    /*for each element, create a new DIV that will contain the option list:*/
     efListOptions = document.createElement("DIV");
     efListOptions.setAttribute("class", "listoptions color hideoptions");
 

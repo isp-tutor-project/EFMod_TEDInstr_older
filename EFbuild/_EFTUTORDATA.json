@@ -8,5 +8,13 @@
 			"$$REF": "$$EFL.eftable.STable1",
 			"xname": "STABLE1"
 		}
+	},
+	"SScene1a": {
+		"SListBox1": {
+			"$$REF": "$$EFL.eftext.STextBox1"
+		},
+		"SListBox2": {
+			"$$REF": "$$EFL.eftable.STable1"
+		}
 	}
 }

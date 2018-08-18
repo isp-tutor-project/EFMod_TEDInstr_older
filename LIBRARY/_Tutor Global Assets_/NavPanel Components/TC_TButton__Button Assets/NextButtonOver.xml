@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/NavPanel Components/TC_TButton__Button Assets/icons/SpinFocusOutline" itemID="5345b97d-00001a70" lastModified="1397078414">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonOver" itemID="53469c70-000003d1" lastModified="1398217480">
   <timeline>
-    <DOMTimeline name="SpinFocusOutline">
+    <DOMTimeline name="NextButtonOver">
       <layers>
         <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
           <frames>
@@ -9,14 +9,14 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#0066FF"/>
+                      <SolidColor color="#FFFF00"/>
                     </FillStyle>
                   </fills>
                   <strokes>
                     <StrokeStyle index="1">
-                      <SolidStroke scaleMode="normal" weight="35.75">
+                      <SolidStroke scaleMode="normal" weight="30">
                         <fill>
-                          <SolidColor color="#0066FF"/>
+                          <SolidColor color="#FFFF00"/>
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
@@ -28,6 +28,19 @@
                     <Edge cubics="!785 838(;785,838 0,0 0,0q785 838 0 0);"/>
                   </edges>
                 </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Outline" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons/SpinOutline" centerPoint3DX="39.2" centerPoint3DY="20.95">
+                  <transformationPoint>
+                    <Point x="39.2" y="20.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

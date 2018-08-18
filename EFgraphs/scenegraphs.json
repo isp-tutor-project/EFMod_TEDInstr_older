@@ -37,7 +37,86 @@
 		}
 	},
 	
+    
+	"SScene1a":
+	{	
+		"COMMENT":"science area topic selection...",
+		"type":"animation",
+		"version":"0.1.0",
 	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Welcome...",
+					"type":"node",
+					"subtype":"module", 
+					"name":"SELECTAREA",
+					"edges":
+							[
+								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" }
+							]
+					},
+															
+			"SELECTTOPIC":{"COMMENT":"Welcome...",
+					"type":"node",
+					"subtype":"module", 
+					"name":"SELECTTOPIC",
+					"edges":
+							[
+								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" },
+								{"constraint":""            ,"edge":"NEXTSCENE" }
+							]
+					},					
+										
+			"NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+					 "type":"node",
+					"subtype":"module", 
+					 "name":"NEXTSCENE",
+					 "edges":
+							[
+							]
+					}															
+		},		
+			
+		"CModules":
+		{		
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+		
+			"SELECTAREA":
+			{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"trackname":"track1", "autostep":false, "features":""}
+				]
+            },
+			"SELECTTOPIC":
+			{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"trackname":"track2", "autostep":false, "features":""}
+				]
+            },
+            "NEXTSCENE":{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"actionname":"NEXTSCENE", "features":""}
+				]
+            }
+		}
+	},
+	
+	
+    
 
 	"SScene1":
 	{	

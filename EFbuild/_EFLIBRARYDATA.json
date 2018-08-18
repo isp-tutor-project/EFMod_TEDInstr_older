@@ -1,6 +1,33 @@
 {
 	"_LIBRARY": {
-		"eflist": {},
+		"eflist": {
+			"SListBox1": {
+				"src": "$$EFX.html_list_std",
+				"datasource": "myvar",
+				"htmlData": {
+					"style": {
+						"[slistbox1] .listbox": {
+							"border-radius": "10px"
+						}
+					},
+					"html": "\n    <select datasource=\"myvar\">\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n        <option value=\"isSwedish\">Volvo</option>\n    </select>\n"
+				},
+				"placeholder": "Example Placeholder"
+			},
+			"SListBox2": {
+				"src": "$$EFX.html_list_std",
+				"datasource": "myvar",
+				"htmlData": {
+					"style": {
+						"[slistbox2] .listbox": {
+							"border-radius": "10px"
+						}
+					},
+					"html": "\n    <select datasource=\"myvar\">\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n        <option value=\"isSwedish\">Volvo</option>\n    </select>\n"
+				},
+				"placeholder": "Example Placeholder"
+			}
+		},
 		"eftext": {
 			"STextBox1": {
 				"src": "$$EFX.html_text",
@@ -57,7 +84,98 @@
 			}
 		},
 		"efdata": {
-			"TEDTableData": {
+			"nulllist": {
+				"listdata": {
+					"options": [],
+					"placeHolder": "empty"
+				}
+			},
+			"TEDScienceAreas": {
+				"listdata": {
+					"options": [
+						{
+							"name": "{{$EFO_S_A1|name}}",
+							"value": "PhysicsChemistryTopics"
+						},
+						{
+							"name": "{{$EFO_S_A2|name}}",
+							"value": "HeatTempTopics"
+						},
+						{
+							"name": "{{$EFO_S_A3|name}}",
+							"value": "ForcesMotionTopics"
+						},
+						{
+							"name": "{{$EFO_S_A4|name}}",
+							"value": "PlantGrowthTopics"
+						}
+					],
+					"placeHolder": "{{$EFO_S_PH1|name}}"
+				}
+			},
+			"PhysicsChemistryTopics": {
+				"listdata": {
+					"options": [
+						{
+							"name": "{{$EFO_S_A1_T1|name}}",
+							"value": "t1"
+						},
+						{
+							"name": "{{$EFO_S_A1_T2|name}}",
+							"value": "t2"
+						}
+					],
+					"placeHolder": "{{$EFO_LV_PH1|name}}"
+				}
+			},
+			"HeatTempTopics": {
+				"listdata": {
+					"options": [
+						{
+							"name": "{{$EFO_S_A2_T1|name}}",
+							"value": "t1"
+						},
+						{
+							"name": "{{$EFO_S_A2_T2|name}}",
+							"value": "t2"
+						}
+					],
+					"placeHolder": "{{$EFO_LV_PH1|name}}"
+				}
+			},
+			"ForcesMotionTopics": {
+				"listdata": {
+					"options": [
+						{
+							"name": "{{$EFO_S_A3_T1|name}}",
+							"value": "t1"
+						},
+						{
+							"name": "{{$EFO_S_A3_T2|name}}",
+							"value": "t2"
+						}
+					],
+					"placeHolder": "{{$EFO_LV_PH1|name}}"
+				}
+			},
+			"PlantGrowthTopics": {
+				"listdata": {
+					"options": [
+						{
+							"name": "{{$EFO_S_A4_T1|name}}",
+							"value": "t1"
+						},
+						{
+							"name": "{{$EFO_S_A4_T2|name}}",
+							"value": "t2"
+						}
+					],
+					"placeHolder": "{{$EFO_LV_PH1|name}}"
+				}
+			}
+		},
+		"TEDTableData": {
+			"tabledata": {
 				"rowdata": [
 					[
 						{
