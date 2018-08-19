@@ -1,23 +1,26 @@
 
 
-namespace EFTut_Suppl.EFMOD_TEDInstr {
+namespace EFTut_Suppl.EFMod_TEDInstr {
 
-    export class SScene_1a {
+    export class SScene1a {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
         // 
         [key: string]: any;
 
-        
         //***********************************************
         // Tutor graph methods
         //
         
-        public $onCreateScene() {            
+        public $onCreateScene() {     
+            this.sceneState.sceneComplete = false;      
+            this.SListBox2.enableList(false); 
+            this.$updateNav();
         }
 
         public $onEnterScene() {
+
         }
         
         public $preEnterScene() {
@@ -84,6 +87,51 @@ namespace EFTut_Suppl.EFMOD_TEDInstr {
         }
 
         public $timedEvents(id:string) {
+        }
+
+
+
+        //***********************************************
+        // Scene State methods
+        //
+
+        public $queryFinished() : boolean {             
+
+            if(this.sceneState.scienceArea && this.sceneState.scienceTopic) {
+                this.sceneComplete = true;
+            }
+
+            this.$updateNav();
+
+            return this.sceneComplete;
+        }
+
+
+        public $onSelect(target:string) {            
+
+            switch(target) {
+
+                case "SListBox1":
+                    this.sceneState.scienceArea = this.SListBox1.optionName;
+                    this.SListBox2.initFromDataSource(this.SListBox1.optionValue);                    
+                    this.nextTrack();
+                    break;
+
+                case "SListBox2":
+                    this.sceneState.scienceTopic = this.SListBox2.name;
+                    break;
+            }
+            this.$updateNav();
+        }
+
+
+        public $onClick(target:string) {            
+
+            switch(target) {
+
+                case "ComponentA":
+                    break;
+            }
         }
     }
 }

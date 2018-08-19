@@ -54,7 +54,7 @@
 					"name":"SELECTAREA",
 					"edges":
 							[
-								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" }
+								{"constraint":"","edge":"SELECTTOPIC" }
 							]
 					},
 															

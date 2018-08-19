@@ -3,27 +3,27 @@
 		"eflist": {
 			"SListBox1": {
 				"src": "$$EFX.html_list_std",
-				"datasource": "myvar",
+				"datasource": "$$EFL.TEDScienceAreas",
 				"htmlData": {
 					"style": {
 						"[slistbox1] .listbox": {
-							"border-radius": "10px"
+							"border-radius": "4px"
 						}
 					},
-					"html": "\n    <select datasource=\"myvar\">\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n        <option value=\"isSwedish\">Volvo</option>\n    </select>\n"
+					"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
 				},
 				"placeholder": "Example Placeholder"
 			},
 			"SListBox2": {
 				"src": "$$EFX.html_list_std",
-				"datasource": "myvar",
+				"datasource": "$$nullList",
 				"htmlData": {
 					"style": {
 						"[slistbox2] .listbox": {
-							"border-radius": "10px"
+							"border-radius": "4px"
 						}
 					},
-					"html": "\n    <select datasource=\"myvar\">\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n        <option value=\"isSwedish\">Volvo</option>\n    </select>\n"
+					"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
 				},
 				"placeholder": "Example Placeholder"
 			}
@@ -61,6 +61,7 @@
 			"STable1": {
 				"src": "$$EFX.html_table_ted1",
 				"xname": "STable1",
+				"datasource": "$$EFL.TEDTableData",
 				"htmlData": {
 					"style": {
 						"[stable1] .header": {
@@ -79,8 +80,7 @@
 						}
 					},
 					"html": "\n    <tbody class=\"body\">\n        <tr class=\"header\">\n            <th style=\"width:22%\"></th>\n            <th style=\"width:22%\"></th>\n            <th style=\"width:22%\"></th>\n            <th class=\"listCol\" style=\"width:0%\"></th>\n        </tr>\n        <tr>\n            <td></td>\n            <td></td>\n            <td></td>\n            <td class=\"listCol\"></td>\n        </tr>\n        <tr>\n            <td></td>\n            <td></td>\n            <td></td>\n            <td class=\"listCol\"></td>\n        </tr>\n        <tr>\n            <td></td>\n            <td></td>\n            <td></td>\n            <td class=\"listCol\"></td>\n        </tr>\n        <tr>\n            <td></td>\n            <td></td>\n            <td></td>\n            <td class=\"listCol\"></td>\n        </tr>\n    </tbody>\n"
-				},
-				"datasource": "$$EFL.TEDTableData"
+				}
 			}
 		},
 		"efdata": {
@@ -95,19 +95,19 @@
 					"options": [
 						{
 							"name": "{{$EFO_S_A1|name}}",
-							"value": "PhysicsChemistryTopics"
+							"value": "$$EFL.PhysicsChemistryTopics"
 						},
 						{
 							"name": "{{$EFO_S_A2|name}}",
-							"value": "HeatTempTopics"
+							"value": "$$EFL.HeatTempTopics"
 						},
 						{
 							"name": "{{$EFO_S_A3|name}}",
-							"value": "ForcesMotionTopics"
+							"value": "$$EFL.ForcesMotionTopics"
 						},
 						{
 							"name": "{{$EFO_S_A4|name}}",
-							"value": "PlantGrowthTopics"
+							"value": "$$EFL.PlantGrowthTopics"
 						}
 					],
 					"placeHolder": "{{$EFO_S_PH1|name}}"

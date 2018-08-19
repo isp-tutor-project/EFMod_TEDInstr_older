@@ -1,6 +1,6 @@
 
 
-namespace EFTut_Suppl.EFMOD_TEDInstr {
+namespace EFTut_Suppl.EFMod_TEDInstr {
 
     export class SScene1 {
 

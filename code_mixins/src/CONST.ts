@@ -1,5 +1,5 @@
 
-namespace EFTut_Suppl.EFMOD_TEDInstr {
+namespace EFTut_Suppl.EFMod_TEDInstr {
 
 	export class CONST {
 
@@ -17,7 +17,8 @@ namespace EFTut_Suppl.EFMOD_TEDInstr {
 		static readonly MOUSE_CLICK:string 		= "click";				// Click event from the button 
 		static readonly DOUBLE_CLICK:string 	= "dblclick";			// Click event from the button 
 
-		static readonly CLICK:string 			= "click";				// Click event from the button 
+		static readonly CLICK:string 			= "click";				// Click event 
+		static readonly CHANGED:string 			= "changed";	        // Change event
 					
 	}
 

@@ -1,4 +1,4 @@
-declare namespace EFTut_Suppl.EFMOD_TEDInstr {
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class CONST {
         static readonly TUTORCONTAINER: string;
         static readonly NEXTSCENE: string;
@@ -11,9 +11,10 @@ declare namespace EFTut_Suppl.EFMOD_TEDInstr {
         static readonly MOUSE_CLICK: string;
         static readonly DOUBLE_CLICK: string;
         static readonly CLICK: string;
+        static readonly CHANGED: string;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_TEDInstr {
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class $Common {
         [key: string]: any;
         $onCreateScene(): void;
@@ -31,15 +32,16 @@ declare namespace EFTut_Suppl.EFMOD_TEDInstr {
         $nodeConstraint(constrainId: string): boolean;
         $cuePoints(id: string): void;
         $timedEvents(id: string): void;
+        $updateNav(): void;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_TEDInstr {
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class Globals {
         $var1: string;
         [key: string]: any;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_TEDInstr {
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SNavigator {
         [key: string]: any;
         $onCreateScene(): void;
@@ -58,7 +60,7 @@ declare namespace EFTut_Suppl.EFMOD_TEDInstr {
         $timedEvents(id: string): void;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_TEDInstr {
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene1 {
         [key: string]: any;
         $onCreateScene(): void;
@@ -77,8 +79,8 @@ declare namespace EFTut_Suppl.EFMOD_TEDInstr {
         $timedEvents(id: string): void;
     }
 }
-declare namespace EFTut_Suppl.EFMOD_TEDInstr {
-    class SScene_1a {
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
+    class SScene1a {
         [key: string]: any;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -94,5 +96,8 @@ declare namespace EFTut_Suppl.EFMOD_TEDInstr {
         $nodeConstraint(constrainId: string): boolean;
         $cuePoints(trackID: string, cueID: string): void;
         $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
     }
 }

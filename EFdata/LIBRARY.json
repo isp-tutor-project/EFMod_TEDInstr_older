@@ -3,7 +3,7 @@
         "eflist": {
             "SListBox1": {
                 "src": "$$EFX.html_list_std",
-                "datasource": "TEDScienceAreas"
+                "datasource": "$$EFL.TEDScienceAreas"
             },
             "SListBox2": {
                 "src": "$$EFX.html_list_std",
@@ -20,7 +20,8 @@
         "eftable": {
             "STable1": {
                 "src": "$$EFX.html_table_ted1",
-                "xname": "STable1"
+                "xname": "STable1",
+                "datasource":"$$EFL.TEDTableData"
             }
         },
         "efdata": {
@@ -28,7 +29,7 @@
                 "listdata": {
                     "options": [
                     ],
-                    "placeHolder": "empty"
+                    "placeHolder": ""
                 }
             },
             "TEDScienceAreas": {
@@ -36,25 +37,27 @@
                     "options": [
                         {
                             "name": "{{$EFO_S_A1|name}}",
-                            "value": "PhysicsChemistryTopics"
+                            "value": "$$EFL.area1"
                         },
                         {
                             "name": "{{$EFO_S_A2|name}}",
-                            "value": "HeatTempTopics"
+                            "value": "$$EFL.area2"
                         },
                         {
                             "name": "{{$EFO_S_A3|name}}",
-                            "value": "ForcesMotionTopics"
+                            "value": "$$EFL.area3"
                         },
                         {
                             "name": "{{$EFO_S_A4|name}}",
-                            "value": "PlantGrowthTopics"
+                            "value": "$$EFL.area4"
                         }
                     ],
                     "placeHolder": "{{$EFO_S_PH1|name}}"
                 }
             },
-            "PhysicsChemistryTopics": {
+            "area1": {
+                "description":"PhysicsChemistryTopics",
+                "areaOfScience":"area1",
                 "listdata": {
                     "options": [
                         {
@@ -69,7 +72,9 @@
                     "placeHolder": "{{$EFO_LV_PH1|name}}"
                 }
             },
-            "HeatTempTopics": {
+            "area2": {
+                "description":"HeatTempTopics",
+                "areaOfScience":"area2",
                 "listdata": {
                     "options": [
                         {
@@ -84,7 +89,9 @@
                     "placeHolder": "{{$EFO_LV_PH1|name}}"
                 }
             },
-            "ForcesMotionTopics": {
+            "area3": {
+                "description":"ForcesMotionTopics",
+                "areaOfScience":"area3",
                 "listdata": {
                     "options": [
                         {
@@ -99,7 +106,9 @@
                     "placeHolder": "{{$EFO_LV_PH1|name}}"
                 }
             },
-            "PlantGrowthTopics": {
+            "area4": {
+                "description":"PlantGrowthTopics",
+                "areaOfScience":"area4",
                 "listdata": {
                     "options": [
                         {

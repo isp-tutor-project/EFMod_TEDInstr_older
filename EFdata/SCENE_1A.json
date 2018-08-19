@@ -2,10 +2,10 @@
     "MODULEDATA":"v1.0.0",
     "SScene1a": {
         "SListBox1": {
-            "$$REF":"$$EFL.eftext.STextBox1"
+            "$$REF":"$$EFL.eflist.SListBox1"
         },
         "SListBox2": {
-            "$$REF":"$$EFL.eftable.STable1"
+            "$$REF":"$$EFL.eflist.SListBox2"
         }
     }
 }

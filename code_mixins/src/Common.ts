@@ -1,5 +1,5 @@
 
-namespace EFTut_Suppl.EFMOD_TEDInstr {
+namespace EFTut_Suppl.EFMod_TEDInstr {
     
     export class $Common {
 
@@ -9,11 +9,6 @@ namespace EFTut_Suppl.EFMOD_TEDInstr {
         [key: string]: any;
     
         // Place any common code here 
-
-        // public $var1:string = "test1";
-        // public $var2:string = "test2";
-        // public $var3:string = "test3";
-        // public $var4:string = "";
 
         // Place empty defaults here - these just avoid unnecessary exceptions for missing methods.
 
@@ -60,6 +55,22 @@ namespace EFTut_Suppl.EFMOD_TEDInstr {
         public $cuePoints(id:string) { /* empty */  }
 
         public $timedEvents(id:string) { /* empty */  }
+
+
+        //***********************************************
+        // Scene State methods
+        //
+
+		public $updateNav() : void {
+
+			// Update the Navigation
+			//
+			if(!this.sceneState.fComplete)
+				this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);		
+			else	
+                this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);		
+		}
+
 
     }   
 }

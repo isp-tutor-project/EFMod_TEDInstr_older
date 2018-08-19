@@ -1,10 +1,10 @@
 {
-	"SScene1": {
+	"SScene1a": {
 		"tracks": {
 			"track1": {
 				"en": {
-					"html": "<p>First select an area of science which you would like to work in</p>",
-					"text": "First select an area of science which you would like to work in",
+					"html": "<p>First select an area of science in which you would like to work</p>",
+					"text": "First select an area of science in which you would like to work",
 					"volume": 1,
 					"cueSet": "...............................................................",
 					"segments": [],
@@ -17,10 +17,10 @@
 			},
 			"track2": {
 				"en": {
-					"html": "<p>Now select a topic within {{selectedArea}} that you would like to work with</p>",
-					"text": "Now select a topic within{{selectedArea}}that you would like to work with",
+					"html": "<p>Now select a topic within {{areaOfScience}}.</p>",
+					"text": "Now select a topic within{{areaOfScience}}.",
 					"templates": {
-						"selectedArea": {
+						"areaOfScience": {
 							"values": {
 								"area1": "Physics and Chemistry",
 								"area2": "Heat and Temperature",

@@ -77,7 +77,7 @@
           <Include href="Assets/TC_TTEDExpt_type1.xml" loadImmediate="false" itemID="5b706306-00000572" lastModified="1534092038"/>
           <Include href="Scene Assets/TC_TScene__SignIn/IconSignIn.xml" loadImmediate="false" itemID="5ae36986-00000383" lastModified="1524853134"/>
           <Include href="Scenes/TC_TScene__Scene1.xml" loadImmediate="false" itemID="5b6f4696-000004c8" lastModified="1534351548"/>
-          <Include href="Scenes/TC_TScene__Scene1a.xml" loadImmediate="false" itemID="5b788299-0000047c" lastModified="1534624421"/>
+          <Include href="Scenes/TC_TScene__Scene1a.xml" loadImmediate="false" itemID="5b788299-0000047c" lastModified="1534708435"/>
           <Include href="Scenes/TC_TScene__Scene2.xml" loadImmediate="false" itemID="5b6f4963-000004fb" lastModified="1534020172"/>
           <Include href="Scenes/TC_TScene__Scene3.xml" loadImmediate="false" itemID="5b6f4a5e-00000520" lastModified="1534020248"/>
           <Include href="Scenes/TC_TScene__Scene4.xml" loadImmediate="false" itemID="5b6f4d04-00000545" lastModified="1534091894"/>
@@ -89,7 +89,7 @@
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1534019964"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="4">
+          <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="Actions" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>

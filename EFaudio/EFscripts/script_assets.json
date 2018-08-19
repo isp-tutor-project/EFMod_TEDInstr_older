@@ -1,10 +1,10 @@
 {
-	"SScene1": {
+	"SScene1a": {
 		"tracks": {
 			"track1": {
 				"en": {
-					"html": "<p>First select an area of science which you would like to work in</p>",
-					"text": "First select an area of science which you would like to work in",
+					"html": "<p>First select an area of science in which you would like to work</p>",
+					"text": "First select an area of science in which you would like to work",
 					"volume": 1,
 					"cueSet": "...............................................................",
 					"segments": [
@@ -12,9 +12,9 @@
 							"templateVar": "__novar",
 							"__novar": {
 								"id": "0",
-								"SSML": "First select an area of science which you would like to work in",
+								"SSML": "First select an area of science in which you would like to work",
 								"cues": [],
-								"duration": 3084.4166666666665,
+								"duration": 3337.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -29,8 +29,8 @@
 			},
 			"track2": {
 				"en": {
-					"html": "<p>Now select a topic within {{selectedArea}} that you would like to work with</p>",
-					"text": "Now select a topic within{{selectedArea}}that you would like to work with",
+					"html": "<p>Now select a topic within {{selectedArea}}.</p>",
+					"text": "Now select a topic within{{selectedArea}}.",
 					"templates": {
 						"selectedArea": {
 							"values": {
@@ -52,7 +52,7 @@
 								"id": "0",
 								"SSML": "Now select a topic within",
 								"cues": [],
-								"duration": 1774.375,
+								"duration": 1657.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -87,7 +87,7 @@
 								"id": "1d",
 								"SSML": "Plant growth",
 								"cues": [],
-								"duration": 773.1666666666666,
+								"duration": 866.9166666666666,
 								"trim": 0,
 								"volume": 0.8
 							}
@@ -96,9 +96,9 @@
 							"templateVar": "__novar",
 							"__novar": {
 								"id": "2",
-								"SSML": "that you would like to work with",
+								"SSML": ".",
 								"cues": [],
-								"duration": 1531.2916666666667,
+								"duration": 407.9583333333333,
 								"trim": 0,
 								"volume": 1
 							}
