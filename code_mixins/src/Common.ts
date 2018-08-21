@@ -16,6 +16,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // Tutor graph methods
         //
         
+        public $preCreateScene() { /* empty */  }
         public $onCreateScene() { /* empty */  }
 
         public $preEnterScene() { /* empty */  }
@@ -65,7 +66,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
 			// Update the Navigation
 			//
-			if(!this.sceneState.fComplete)
+			if(!this.sceneState.sceneComplete)
 				this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);		
 			else	
                 this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);		

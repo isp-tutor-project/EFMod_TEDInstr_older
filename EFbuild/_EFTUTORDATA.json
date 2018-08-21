@@ -2,19 +2,19 @@
 	"MODULEDATA": "v1.0.0",
 	"SScene1": {
 		"STextBox1": {
-			"$$REF": "$$EFL.eftext.STextBox1"
+			"$$REF": "$EFL_eftext.STextBox1"
 		},
 		"STable1": {
-			"$$REF": "$$EFL.eftable.STable1",
+			"$$REF": "$EFL_eftable.STable1",
 			"xname": "STABLE1"
 		}
 	},
 	"SScene1a": {
 		"SListBox1": {
-			"$$REF": "$$EFL.eflist.SListBox1"
+			"$$REF": "$EFL_eflist.SListBox1"
 		},
 		"SListBox2": {
-			"$$REF": "$$EFL.eflist.SListBox2"
+			"$$REF": "$EFL_eflist.SListBox2"
 		}
 	}
 }

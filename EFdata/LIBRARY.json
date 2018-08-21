@@ -3,7 +3,7 @@
         "eflist": {
             "SListBox1": {
                 "src": "$$EFX.html_list_std",
-                "datasource": "$$EFL.TEDScienceAreas"
+                "datasource": "$EFL_TEDScienceAreas"
             },
             "SListBox2": {
                 "src": "$$EFX.html_list_std",
@@ -13,7 +13,8 @@
         "eftext": {
             "STextBox1": {
                 "src": "$$EFX.html_text",
-                "xname": "STextBox1"
+                "xname": "STextBox1",
+                "datasource": "$EFL_scenePrompt1"
             }
         },
         "efinput": {},
@@ -21,14 +22,13 @@
             "STable1": {
                 "src": "$$EFX.html_table_ted1",
                 "xname": "STable1",
-                "datasource":"$$EFL.TEDTableData"
+                "datasource": "$EFL_TEDTableData"
             }
         },
         "efdata": {
-            "nulllist" : {
+            "nulllist": {
                 "listdata": {
-                    "options": [
-                    ],
+                    "options": [],
                     "placeHolder": ""
                 }
             },
@@ -37,227 +37,234 @@
                     "options": [
                         {
                             "name": "{{$EFO_S_A1|name}}",
-                            "value": "$$EFL.area1"
+                            "value": "$EFL_area1"
                         },
                         {
                             "name": "{{$EFO_S_A2|name}}",
-                            "value": "$$EFL.area2"
+                            "value": "$EFL_area2"
                         },
                         {
                             "name": "{{$EFO_S_A3|name}}",
-                            "value": "$$EFL.area3"
+                            "value": "$EFL_area3"
                         },
                         {
                             "name": "{{$EFO_S_A4|name}}",
-                            "value": "$$EFL.area4"
+                            "value": "$EFL_area4"
                         }
                     ],
                     "placeHolder": "{{$EFO_S_PH1|name}}"
                 }
             },
             "area1": {
-                "description":"PhysicsChemistryTopics",
-                "areaOfScience":"area1",
+                "description": "PhysicsChemistryTopics",
+                "areaOfScience": "area1",
                 "listdata": {
                     "options": [
                         {
                             "name": "{{$EFO_S_A1_T1|name}}",
-                            "value": "t1"
+                            "value": "$EFO_S_A1_T1"
                         },
                         {
                             "name": "{{$EFO_S_A1_T2|name}}",
-                            "value": "t2"
+                            "value": "$EFO_S_A1_T2"
                         }
                     ],
                     "placeHolder": "{{$EFO_LV_PH1|name}}"
                 }
             },
             "area2": {
-                "description":"HeatTempTopics",
-                "areaOfScience":"area2",
+                "description": "HeatTempTopics",
+                "areaOfScience": "area2",
                 "listdata": {
                     "options": [
                         {
                             "name": "{{$EFO_S_A2_T1|name}}",
-                            "value": "t1"
+                            "value": "$EFO_S_A2_T1"
                         },
                         {
                             "name": "{{$EFO_S_A2_T2|name}}",
-                            "value": "t2"
+                            "value": "$EFO_S_A2_T2"
                         }
                     ],
                     "placeHolder": "{{$EFO_LV_PH1|name}}"
                 }
             },
             "area3": {
-                "description":"ForcesMotionTopics",
-                "areaOfScience":"area3",
+                "description": "ForcesMotionTopics",
+                "areaOfScience": "area3",
                 "listdata": {
                     "options": [
                         {
                             "name": "{{$EFO_S_A3_T1|name}}",
-                            "value": "t1"
+                            "value": "$EFO_S_A3_T1"
                         },
                         {
                             "name": "{{$EFO_S_A3_T2|name}}",
-                            "value": "t2"
+                            "value": "$EFO_S_A3_T2"
                         }
                     ],
                     "placeHolder": "{{$EFO_LV_PH1|name}}"
                 }
             },
             "area4": {
-                "description":"PlantGrowthTopics",
-                "areaOfScience":"area4",
+                "description": "PlantGrowthTopics",
+                "areaOfScience": "area4",
                 "listdata": {
                     "options": [
                         {
                             "name": "{{$EFO_S_A4_T1|name}}",
-                            "value": "t1"
+                            "value": "$EFO_S_A4_T1"
                         },
                         {
                             "name": "{{$EFO_S_A4_T2|name}}",
-                            "value": "t2"
+                            "value": "$EFO_S_A4_T2"
                         }
                     ],
                     "placeHolder": "{{$EFO_LV_PH1|name}}"
                 }
-            }
-        },
-        "TEDTableData": {
-            "tabledata": {
-                "rowdata": [
-                    [
-                        {
-                            "value": "{{$EFO_LV_H1_A|name}}"
-                        },
-                        {
-                            "value": "{{$EFO_LV_H1_B|name}}"
-                        },
-                        {
-                            "value": "{{$EFO_LV_H1_C|name}}"
-                        },
-                        {
-                            "value": "{{$EFO_LV_H1_D|name}}"
-                        }
-                    ],
-                    [
-                        {
-                            "value": "{{$EFO_S_A?_T?_V1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_S_A?_T?_V1_A|name}}",
-                                "{{$EFO_S_A?_T?_V1_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_S_A?_T?_V1_A|name}}",
-                                "{{$EFO_S_A?_T?_V1_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_LV_O1_A|name}}",
-                                "{{$EFO_LV_O1_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        }
-                    ],
-                    [
-                        {
-                            "value": "{{$EFO_S_A?_T?_V2|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_S_A?_T?_V2_A|name}}",
-                                "{{$EFO_S_A?_T?_V2_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_S_A?_T?_V2_A|name}}",
-                                "{{$EFO_S_A?_T?_V2_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_LV_O1_A|name}}",
-                                "{{$EFO_LV_O1_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        }
-                    ],
-                    [
-                        {
-                            "value": "{{$EFO_S_A?_T?_V3|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_S_A?_T?_V3_A|name}}",
-                                "{{$EFO_S_A?_T?_V3_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_S_A?_T?_V3_A|name}}",
-                                "{{$EFO_S_A?_T?_V3_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_LV_O1_A|name}}",
-                                "{{$EFO_LV_O1_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        }
-                    ],
-                    [
-                        {
-                            "value": "{{$EFO_S_A?_T?_V4|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_S_A?_T?_V4_A|name}}",
-                                "{{$EFO_S_A?_T?_V4_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_S_A?_T?_V4_A|name}}",
-                                "{{$EFO_S_A?_T?_V4_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        },
-                        {
-                            "value": "$LIST",
-                            "options": [
-                                "{{$EFO_LV_O1_A|name}}",
-                                "{{$EFO_LV_O1_B|name}}"
-                            ],
-                            "placeHolder": "{{$EFO_LV_PH1|name}}"
-                        }
+            },
+
+            "scenePrompt1": {
+                "textdata": {
+                    "html":"<p>Does the{{$EFO_S_A?_T?|name}}affect the{{$EFO_S_A?|name}}</p>"
+                }
+            },
+
+            "TEDTableData": {
+                "tabledata": {
+                    "rowdata": [
+                        [
+                            {
+                                "value": "{{$EFO_LV_H1_A|name}}"
+                            },
+                            {
+                                "value": "{{$EFO_LV_H1_B|name}}"
+                            },
+                            {
+                                "value": "{{$EFO_LV_H1_C|name}}"
+                            },
+                            {
+                                "value": "{{$EFO_LV_H1_D|name}}"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "{{$EFO_S_A?_T?_V1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_S_A?_T?_V1_A|name}}",
+                                    "{{$EFO_S_A?_T?_V1_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_S_A?_T?_V1_A|name}}",
+                                    "{{$EFO_S_A?_T?_V1_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_LV_O1_A|name}}",
+                                    "{{$EFO_LV_O1_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "{{$EFO_S_A?_T?_V2|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_S_A?_T?_V2_A|name}}",
+                                    "{{$EFO_S_A?_T?_V2_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_S_A?_T?_V2_A|name}}",
+                                    "{{$EFO_S_A?_T?_V2_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_LV_O1_A|name}}",
+                                    "{{$EFO_LV_O1_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "{{$EFO_S_A?_T?_V3|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_S_A?_T?_V3_A|name}}",
+                                    "{{$EFO_S_A?_T?_V3_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_S_A?_T?_V3_A|name}}",
+                                    "{{$EFO_S_A?_T?_V3_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_LV_O1_A|name}}",
+                                    "{{$EFO_LV_O1_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "{{$EFO_S_A?_T?_V4|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_S_A?_T?_V4_A|name}}",
+                                    "{{$EFO_S_A?_T?_V4_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_S_A?_T?_V4_A|name}}",
+                                    "{{$EFO_S_A?_T?_V4_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            },
+                            {
+                                "value": "$LIST",
+                                "options": [
+                                    "{{$EFO_LV_O1_A|name}}",
+                                    "{{$EFO_LV_O1_B|name}}"
+                                ],
+                                "placeHolder": "{{$EFO_LV_PH1|name}}"
+                            }
+                        ]
                     ]
-                ]
+                }
             }
         }
     }

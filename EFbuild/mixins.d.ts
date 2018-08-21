@@ -3,6 +3,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         static readonly TUTORCONTAINER: string;
         static readonly NEXTSCENE: string;
         static readonly PREVSCENE: string;
+        static readonly HIDE: boolean;
+        static readonly SHOW: boolean;
         static readonly NAVSCENE: string;
         static readonly NAVTUTOR: string;
         static readonly MOUSE_MOVE: string;
@@ -17,6 +19,7 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class $Common {
         [key: string]: any;
+        $preCreateScene(): void;
         $onCreateScene(): void;
         $preEnterScene(): void;
         $onEnterScene(): void;
@@ -44,7 +47,7 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SNavigator {
         [key: string]: any;
-        $onCreateScene(): void;
+        $preCreateScene(): void;
         $onEnterScene(): void;
         $preEnterScene(): void;
         $preExitScene(): void;
@@ -63,6 +66,7 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene1 {
         [key: string]: any;
+        $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
         $preEnterScene(): void;

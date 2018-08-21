@@ -14,7 +14,7 @@
 								"id": "0",
 								"SSML": "First select an area of science in which you would like to work",
 								"cues": [],
-								"duration": 3337.75,
+								"duration": 3126.2083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -29,10 +29,10 @@
 			},
 			"track2": {
 				"en": {
-					"html": "<p>Now select a topic within {{selectedArea}}.</p>",
-					"text": "Now select a topic within{{selectedArea}}.",
+					"html": "<p>Now select a topic within the area {{areaOfScience}}</p>",
+					"text": "Now select a topic within the area{{areaOfScience}}",
 					"templates": {
-						"selectedArea": {
+						"areaOfScience": {
 							"values": {
 								"area1": "Physics and Chemistry",
 								"area2": "Heat and Temperature",
@@ -50,20 +50,20 @@
 							"templateVar": "__novar",
 							"__novar": {
 								"id": "0",
-								"SSML": "Now select a topic within",
+								"SSML": "Now select a topic within the area",
 								"cues": [],
-								"duration": 1657.875,
+								"duration": 2221.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "selectedArea",
+							"templateVar": "areaOfScience",
 							"area1": {
 								"id": "1a",
 								"SSML": "Physics and Chemistry",
 								"cues": [],
-								"duration": 1283.25,
+								"duration": 1359.625,
 								"trim": 0,
 								"volume": 0.8
 							},
@@ -71,7 +71,7 @@
 								"id": "1b",
 								"SSML": "Heat and Temperature",
 								"cues": [],
-								"duration": 1257.2916666666667,
+								"duration": 1132.7083333333333,
 								"trim": 0,
 								"volume": 0.8
 							},
@@ -79,7 +79,7 @@
 								"id": "1c",
 								"SSML": "Forces and Motion",
 								"cues": [],
-								"duration": 1087.6666666666667,
+								"duration": 1218.0416666666667,
 								"trim": 0,
 								"volume": 0.8
 							},
@@ -91,23 +91,41 @@
 								"trim": 0,
 								"volume": 0.8
 							}
-						},
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0,
+						0
+					]
+				}
+			}
+		}
+	},
+	"SScene1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "<p>In this table, click on the one variable that the question is testing in this experiment</p>",
+					"text": "In this table, click on the one variable that the question is testing in this experiment",
+					"volume": 1,
+					"cueSet": "...............................................................",
+					"segments": [
 						{
 							"templateVar": "__novar",
 							"__novar": {
-								"id": "2",
-								"SSML": ".",
+								"id": "0",
+								"SSML": "In this table, click on the one variable that the question is testing in this experiment",
 								"cues": [],
-								"duration": 407.9583333333333,
+								"duration": 4660.166666666667,
 								"trim": 0,
 								"volume": 1
 							}
 						}
 					],
 					"timedSet": [],
+					"templates": {},
 					"trim": [
-						0,
-						0,
 						0
 					]
 				}

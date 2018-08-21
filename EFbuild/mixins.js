@@ -7,6 +7,8 @@ var EFTut_Suppl;
         CONST.TUTORCONTAINER = "STutorContainer";
         CONST.NEXTSCENE = "nextbutton";
         CONST.PREVSCENE = "prevbutton";
+        CONST.HIDE = false;
+        CONST.SHOW = true;
         CONST.NAVSCENE = "SCENE";
         CONST.NAVTUTOR = "TUTOR";
         CONST.MOUSE_MOVE = "mousemove";
@@ -24,6 +26,7 @@ var EFTut_Suppl;
     var EFMod_TEDInstr;
     (function (EFMod_TEDInstr) {
         class $Common {
+            $preCreateScene() { }
             $onCreateScene() { }
             $preEnterScene() { }
             $onEnterScene() { }
@@ -43,7 +46,7 @@ var EFTut_Suppl;
             $cuePoints(id) { }
             $timedEvents(id) { }
             $updateNav() {
-                if (!this.sceneState.fComplete)
+                if (!this.sceneState.sceneComplete)
                     this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);
                 else
                     this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);
@@ -69,10 +72,9 @@ var EFTut_Suppl;
     var EFMod_TEDInstr;
     (function (EFMod_TEDInstr) {
         class SNavigator {
-            $onCreateScene() {
-                console.log("$Navigator created");
+            $preCreateScene() {
                 this.connectNavButton(EFMod_TEDInstr.CONST.NEXTSCENE, "Snext");
-                this.connectNavButton(EFMod_TEDInstr.CONST.PREVSCENE, "Sback");
+                this.showHideNavButton(EFMod_TEDInstr.CONST.PREVSCENE, EFMod_TEDInstr.CONST.HIDE);
                 this.setNavigationTarget(EFMod_TEDInstr.CONST.NAVSCENE);
             }
             $onEnterScene() {
@@ -123,6 +125,9 @@ var EFTut_Suppl;
     var EFMod_TEDInstr;
     (function (EFMod_TEDInstr) {
         class SScene1 {
+            $preCreateScene() {
+                this.STable1.setOntology(this.getTutorState("areaTopic"));
+            }
             $onCreateScene() {
             }
             $onEnterScene() {
@@ -179,7 +184,6 @@ var EFTut_Suppl;
         class SScene1a {
             $onCreateScene() {
                 this.sceneState.sceneComplete = false;
-                this.SListBox2.enableList(false);
                 this.$updateNav();
             }
             $onEnterScene() {
@@ -187,6 +191,8 @@ var EFTut_Suppl;
             $preEnterScene() {
             }
             $preExitScene() {
+                this.setTutorState("areaOfScience", this.sceneState.areaOfScience);
+                this.setTutorState("areaTopic", this.sceneState.areaTopic);
             }
             $demoInitScene() {
             }
@@ -198,6 +204,11 @@ var EFTut_Suppl;
                 return this["$" + templID];
             }
             $nodePreEnter(nodeId) {
+                switch (nodeId) {
+                    default:
+                        this.sceneState.areaChanged = false;
+                        break;
+                }
             }
             $nodePreExit(nodeId) {
             }
@@ -207,6 +218,11 @@ var EFTut_Suppl;
             }
             $nodeConstraint(constrainId) {
                 let result = false;
+                switch (constrainId) {
+                    case "AREA_CHANGED":
+                        result = this.sceneState.areaChanged;
+                        break;
+                }
                 return result;
             }
             $cuePoints(trackID, cueID) {
@@ -226,24 +242,29 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                if (this.sceneState.scienceArea && this.sceneState.scienceTopic) {
-                    this.sceneComplete = true;
+                if (this.sceneState.areaOfScience && this.sceneState.areaTopic) {
+                    this.sceneState.sceneComplete = true;
                 }
                 this.$updateNav();
-                return this.sceneComplete;
+                return this.sceneState.sceneComplete;
             }
             $onSelect(target) {
                 switch (target) {
                     case "SListBox1":
-                        this.sceneState.scienceArea = this.SListBox1.optionName;
-                        this.SListBox2.initFromDataSource(this.SListBox1.optionValue);
-                        this.nextTrack();
+                        if (this.sceneState.areaOfScience != this.SListBox1.selected.value.areaOfScience) {
+                            this.sceneState.areaOfScience = this.SListBox1.selected.value.areaOfScience;
+                            this.sceneState.areaChanged = true;
+                            this.sceneState.areaTopic = null;
+                            this.SListBox2.initFromDataSource(this.SListBox1.selected.data.value);
+                            this.nextTrack();
+                        }
                         break;
                     case "SListBox2":
-                        this.sceneState.scienceTopic = this.SListBox2.name;
+                        this.sceneState.areaTopic = this.SListBox2.selected.data.value;
+                        this.nextTrack();
                         break;
                 }
-                this.$updateNav();
+                this.$queryFinished();
             }
             $onClick(target) {
                 switch (target) {

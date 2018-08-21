@@ -14,6 +14,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // Tutor graph methods
         //
         
+        public $preCreateScene() {
+            this.STable1.setOntology(this.getTutorState("areaTopic"));
+        }
+
         public $onCreateScene() {            
         }
 

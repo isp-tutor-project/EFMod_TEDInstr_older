@@ -17,8 +17,8 @@
 			},
 			"track2": {
 				"en": {
-					"html": "<p>Now select a topic within {{areaOfScience}}.</p>",
-					"text": "Now select a topic within{{areaOfScience}}.",
+					"html": "<p>Now select a topic within the area {{areaOfScience}}</p>",
+					"text": "Now select a topic within the area{{areaOfScience}}",
 					"templates": {
 						"areaOfScience": {
 							"values": {
@@ -37,7 +37,24 @@
 					"timedSet": [],
 					"trim": [
 						0,
-						0,
+						0
+					]
+				}
+			}
+		}
+	},
+	"SScene1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "<p>In this table, click on the one variable that the question is testing in this experiment</p>",
+					"text": "In this table, click on the one variable that the question is testing in this experiment",
+					"volume": 1,
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"templates": {},
+					"trim": [
 						0
 					]
 				}

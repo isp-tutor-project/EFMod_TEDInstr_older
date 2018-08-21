@@ -15,7 +15,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         
         public $onCreateScene() {     
             this.sceneState.sceneComplete = false;      
-            this.SListBox2.enableList(false); 
             this.$updateNav();
         }
 
@@ -27,6 +26,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
 
         public $preExitScene() {
+            this.setTutorState("areaOfScience", this.sceneState.areaOfScience);
+            this.setTutorState("areaTopic", this.sceneState.areaTopic);
         }
 
         public $demoInitScene() {
@@ -48,6 +49,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // Scene graph methods
         //
         public $nodePreEnter(nodeId:string) {
+
+            switch(nodeId) {
+                default:
+                this.sceneState.areaChanged = false;
+                break;
+            }
         }
 
         public $nodePreExit(nodeId:string) {
@@ -63,6 +70,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             let result:boolean = false;
 
+            switch(constrainId) {
+                case "AREA_CHANGED":
+                result = this.sceneState.areaChanged;
+                break;
+            }
             return result;
         }
 
@@ -97,13 +109,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            if(this.sceneState.scienceArea && this.sceneState.scienceTopic) {
-                this.sceneComplete = true;
+            if(this.sceneState.areaOfScience && this.sceneState.areaTopic) {
+                this.sceneState.sceneComplete = true;
             }
 
             this.$updateNav();
 
-            return this.sceneComplete;
+            return this.sceneState.sceneComplete;
         }
 
 
@@ -112,16 +124,26 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(target) {
 
                 case "SListBox1":
-                    this.sceneState.scienceArea = this.SListBox1.optionName;
-                    this.SListBox2.initFromDataSource(this.SListBox1.optionValue);                    
-                    this.nextTrack();
+
+                    if(this.sceneState.areaOfScience != this.SListBox1.selected.value.areaOfScience) {
+
+                        this.sceneState.areaOfScience = this.SListBox1.selected.value.areaOfScience;
+                        this.sceneState.areaChanged   = true;
+                        this.sceneState.areaTopic     = null;
+
+                        this.SListBox2.initFromDataSource(this.SListBox1.selected.data.value);                    
+
+                        this.nextTrack();
+                    }
                     break;
 
                 case "SListBox2":
-                    this.sceneState.scienceTopic = this.SListBox2.name;
+                    this.sceneState.areaTopic = this.SListBox2.selected.data.value;
+
+                    this.nextTrack();
                     break;
             }
-            this.$updateNav();
+            this.$queryFinished();
         }
 
 

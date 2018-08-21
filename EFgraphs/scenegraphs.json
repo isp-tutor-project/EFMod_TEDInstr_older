@@ -65,16 +65,17 @@
 					"edges":
 							[
 								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" },
-								{"constraint":""            ,"edge":"NEXTSCENE" }
+								{"constraint":""            ,"edge":"WAITFORNEXT" }
 							]
 					},					
 										
-			"NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+			"WAITFORNEXT":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
 					 "type":"node",
 					"subtype":"module", 
 					 "name":"NEXTSCENE",
 					 "edges":
 							[
+								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" }
 							]
 					}															
 		},		
@@ -109,7 +110,7 @@
 				"reuse":true,
 				"actiontracks":		
 				[
-					{"actionname":"NEXTSCENE", "features":""}
+					{"actionname":"NEXTSCENE", "autostep":false, "features":""}
 				]
             }
 		}
@@ -131,29 +132,20 @@
 			"root":{"COMMENT":"Welcome...",
 					"type":"node",
 					"subtype":"module", 
-					"name":"INTRO1",
-					"edges":
-							[
-								{"constraint":"","edge":"INTRO1" }
-							]
-					},
-															
-			"INTRO1":{"COMMENT":"Welcome...",
-					"type":"node",
-					"subtype":"module", 
-					"name":"INTRO2",
+					"name":"ROOT",
 					"edges":
 							[
 								{"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					
-										
+					},
+															
 			"NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
 					 "type":"node",
 					"subtype":"module", 
 					 "name":"NEXTSCENE",
 					 "edges":
 							[
+                                {"actionname":"NEXTSCENE", "autostep":false, "features":""}
 							]
 					}															
 		},		
@@ -162,7 +154,7 @@
 		{		
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 		
-			"INTRO1":
+			"ROOT":
 			{
 				"COMMENT":"",
 				"type":"module",
