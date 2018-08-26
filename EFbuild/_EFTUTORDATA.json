@@ -1,5 +1,477 @@
 {
 	"MODULEDATA": "v1.0.0",
+	"_ONTOLOGY": {
+		"LV": {
+			"descr": "List Values",
+			"O1": {
+				"descr": "Could/Couldn't lists",
+				"A": {
+					"name": "Could"
+				},
+				"B": {
+					"name": "Could Not"
+				}
+			},
+			"H1": {
+				"descr": "TED List Header Values",
+				"A": {
+					"name": "Variables"
+				},
+				"B": {
+					"name": "Condition 1"
+				},
+				"C": {
+					"name": "Condition 2"
+				},
+				"D": {
+					"name": "Could Cause a Difference"
+				}
+			},
+			"PH1": {
+				"descr": "placeHolder",
+				"name": "Tap to Choose"
+			}
+		},
+		"S": {
+			"name": "Areas of Science",
+			"PH1": {
+				"descr": "placeHolder",
+				"name": "Tap to Choose"
+			},
+			"A1": {
+				"vid": "",
+				"name": "Physics and Chemistry",
+				"T1": {
+					"vid": "",
+					"name": "Crystal Growth",
+					"V1": {
+						"vid": "Svar1",
+						"name": "Water Temperature",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Hot"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Cold"
+						}
+					},
+					"V2": {
+						"vid": "Svar2",
+						"name": "Crystal Type",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Salt"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Brown Sugar"
+						}
+					},
+					"V3": {
+						"vid": "Svar3",
+						"name": "Seed Crystal Size",
+						"A": {
+							"vid": "Svar1a",
+							"name": "None"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "A little"
+						}
+					},
+					"V4": {
+						"vid": "Svar4",
+						"name": "Type of String",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Twine"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Yarn"
+						}
+					}
+				},
+				"T2": {
+					"vid": "",
+					"name": "Soda-Mint Reaction",
+					"V1": {
+						"vid": "Svar1",
+						"name": "Type of Sweetener",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Sugar"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Sugar-Free"
+						}
+					},
+					"V2": {
+						"vid": "Svar2",
+						"name": "Amount of Caffeine",
+						"A": {
+							"vid": "Svar1a",
+							"name": "With Caffeine"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Caffeine Free"
+						}
+					},
+					"V3": {
+						"vid": "Svar3",
+						"name": "Texture of Mint",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Rough"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Smooth"
+						}
+					},
+					"V4": {
+						"vid": "Svar4",
+						"name": "Amount of CO2",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Higher"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Lower"
+						}
+					}
+				}
+			},
+			"A2": {
+				"vid": "",
+				"name": "Heat and Temperature",
+				"T1": {
+					"vid": "",
+					"name": "Melting of Ice",
+					"V1": {
+						"vid": "",
+						"name": "Initial Ice Temperature",
+						"A": {
+							"vid": "Svar1a",
+							"name": "0 degrees"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "-20 degrees"
+						}
+					},
+					"V2": {
+						"vid": "Svar2",
+						"name": "Initial Water Temperature",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Hot"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Cold"
+						}
+					},
+					"V3": {
+						"vid": "Svar3",
+						"name": "Pattern on Glass",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Pattern"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "no Pattern"
+						}
+					},
+					"V4": {
+						"vid": "Svar4",
+						"name": "Shape of Glass",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Short"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Tall"
+						}
+					}
+				},
+				"T2": {
+					"vid": "",
+					"name": "Temperature of a Gas",
+					"V1": {
+						"vid": "Svar1",
+						"name": "Balloon Color",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Black"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Gray"
+						}
+					},
+					"V2": {
+						"vid": "Svar2",
+						"name": "Balloon Material",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Foil"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Latex"
+						}
+					},
+					"V3": {
+						"vid": "Svar3",
+						"name": "Amount of Sunlight",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Full Sun"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Partial Shade"
+						}
+					},
+					"V4": {
+						"vid": "Svar4",
+						"name": "Type of Chair",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Wooden Chair"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Canvas Chair"
+						}
+					}
+				}
+			},
+			"A3": {
+				"vid": "",
+				"name": "Forces and Motion",
+				"T1": {
+					"vid": "",
+					"name": "Inclined Planes",
+					"V1": {
+						"vid": "",
+						"name": "Slope",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Steep"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Not Steep"
+						}
+					},
+					"V2": {
+						"vid": "Svar2",
+						"name": "Color of Ball",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Yellow"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Pink"
+						}
+					},
+					"V3": {
+						"vid": "Svar3",
+						"name": "Starting Position",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Top"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Middle"
+						}
+					},
+					"V4": {
+						"vid": "Svar4",
+						"name": "Ramp Surface",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Rough"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Smooth"
+						}
+					}
+				},
+				"T2": {
+					"vid": "",
+					"name": "Sinking Objects",
+					"V1": {
+						"vid": "Svar1",
+						"name": "Density of Water",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Plain Water"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Salt Water"
+						}
+					},
+					"V2": {
+						"vid": "Svar2",
+						"name": "Shape of Object",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Sphere"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Tear Drop"
+						}
+					},
+					"V3": {
+						"vid": "Svar3",
+						"name": "Volume of Object",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Small"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Large"
+						}
+					},
+					"V4": {
+						"vid": "Svar4",
+						"name": "Density of Object",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Glass"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Lead"
+						}
+					}
+				}
+			},
+			"A4": {
+				"vid": "",
+				"name": "Plant Growth",
+				"T1": {
+					"vid": "",
+					"name": "Flower Reproduction",
+					"V1": {
+						"vid": "",
+						"name": "Number of Bees",
+						"A": {
+							"vid": "Svar1a",
+							"name": "None"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Whole Hive"
+						}
+					},
+					"V2": {
+						"vid": "Svar2",
+						"name": "Amount of Sunlight",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Full Sun"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Partial Shade"
+						}
+					},
+					"V3": {
+						"vid": "Svar3",
+						"name": "Amount of Fertilizer",
+						"A": {
+							"vid": "Svar1a",
+							"name": "None"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Some"
+						}
+					},
+					"V4": {
+						"vid": "Svar4",
+						"name": "Type of Water",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Rain Water"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Tap Water"
+						}
+					}
+				},
+				"T2": {
+					"vid": "",
+					"name": "Algae Growth",
+					"V1": {
+						"vid": "Svar1",
+						"name": "Water Temperature",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Room Temperature"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "Warmer"
+						}
+					},
+					"V2": {
+						"vid": "Svar2",
+						"name": "Amount of Music",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Constant Music"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "No Music"
+						}
+					},
+					"V3": {
+						"vid": "Svar3",
+						"name": "CO2 in Water",
+						"A": {
+							"vid": "Svar1a",
+							"name": "A Lot"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "None"
+						}
+					},
+					"V4": {
+						"vid": "Svar4",
+						"name": "Sunlight Exposure",
+						"A": {
+							"vid": "Svar1a",
+							"name": "Some"
+						},
+						"B": {
+							"vid": "Svar1b",
+							"name": "None"
+						}
+					}
+				}
+			}
+		}
+	},
 	"SScene1": {
 		"STextBox1": {
 			"$$REF": "$EFL_eftext.STextBox1"
@@ -15,6 +487,9 @@
 		},
 		"SListBox2": {
 			"$$REF": "$EFL_eflist.SListBox2"
+		},
+		"SListBox3": {
+			"$$REF": "$EFL_eflist.SListBox3"
 		}
 	}
 }

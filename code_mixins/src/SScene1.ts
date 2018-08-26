@@ -15,10 +15,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         //
         
         public $preCreateScene() {
-            this.STable1.setOntology(this.getTutorState("areaTopic"));
         }
 
         public $onCreateScene() {            
+            this.STable1.listenToCells("click", 0, 1, 0, 4);
+            this.STable1.hideCells(1, 1, 2, 4);
+
         }
 
         public $onEnterScene() {

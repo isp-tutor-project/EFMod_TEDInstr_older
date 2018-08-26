@@ -5,91 +5,87 @@
 				"en": {
 					"html": "<p>First select an area of science in which you would like to work</p>",
 					"text": "First select an area of science in which you would like to work",
-					"volume": 1,
+					"volume": [
+						1
+					],
 					"cueSet": "...............................................................",
 					"segments": [
 						{
 							"templateVar": "__novar",
 							"__novar": {
-								"id": "0",
+								"fileid": "0",
 								"SSML": "First select an area of science in which you would like to work",
 								"cues": [],
-								"duration": 3126.2083333333335,
+								"duration": 3243.4583333333335,
 								"trim": 0,
 								"volume": 1
 							}
 						}
 					],
 					"timedSet": [],
-					"templates": {},
 					"trim": [
 						0
-					]
+					],
+					"templates": {}
 				}
 			},
 			"track2": {
 				"en": {
-					"html": "<p>Now select a topic within the area {{areaOfScience}}</p>",
-					"text": "Now select a topic within the area{{areaOfScience}}",
-					"templates": {
-						"areaOfScience": {
-							"values": {
-								"area1": "Physics and Chemistry",
-								"area2": "Heat and Temperature",
-								"area3": "Forces and Motion",
-								"area4": "Plant growth"
-							},
-							"volume": 0.8,
-							"notes": ""
-						}
+					"html": "<p>Now select a topic within the area {{$EFO_S_A?|name}}</p>",
+					"text": "Now select a topic within the area{{$EFO_S_A?|name}}",
+					"templateRef": {
+						"$EFO_S_A?|name": "$EFM_selectedArea.ontologyKey"
 					},
-					"volume": 1,
+					"volume": [
+						1,
+						1
+					],
 					"cueSet": ".........................................................................",
 					"segments": [
 						{
 							"templateVar": "__novar",
 							"__novar": {
-								"id": "0",
+								"fileid": "0",
 								"SSML": "Now select a topic within the area",
 								"cues": [],
-								"duration": 2221.2916666666665,
+								"duration": 2048.0416666666665,
 								"trim": 0,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "areaOfScience",
-							"area1": {
-								"id": "1a",
+							"templateVar": "$EFO_S_A?|name",
+							"SA1": {
+								"fileid": "1a",
 								"SSML": "Physics and Chemistry",
 								"cues": [],
-								"duration": 1359.625,
+								"duration": 1346.3333333333333,
 								"trim": 0,
-								"volume": 0.8
+								"volume": 1
 							},
-							"area2": {
-								"id": "1b",
+							"SA2": {
+								"fileid": "1b",
 								"SSML": "Heat and Temperature",
 								"cues": [],
-								"duration": 1132.7083333333333,
+								"duration": 1259.125,
 								"trim": 0,
-								"volume": 0.8
+								"volume": 1
 							},
-							"area3": {
-								"id": "1c",
+							"SA3": {
+								"fileid": "1c",
 								"SSML": "Forces and Motion",
 								"cues": [],
-								"duration": 1218.0416666666667,
+								"duration": 1230.4166666666667,
 								"trim": 0,
-								"volume": 0.8
+								"volume": 1
 							},
-							"area4": {
-								"id": "1d",
-								"SSML": "Plant growth",
+							"SA4": {
+								"fileid": "1d",
+								"SSML": "Plant Growth",
 								"cues": [],
-								"duration": 866.9166666666666,
+								"duration": 927.375,
 								"trim": 0,
-								"volume": 0.8
+								"volume": 1
 							}
 						}
 					],
@@ -97,7 +93,154 @@
 					"trim": [
 						0,
 						0
-					]
+					],
+					"templates": {
+						"$EFO_S_A?|name": {
+							"SA1": "Physics and Chemistry",
+							"SA2": "Heat and Temperature",
+							"SA3": "Forces and Motion",
+							"SA4": "Plant Growth"
+						}
+					}
+				}
+			},
+			"track3": {
+				"en": {
+					"html": "<p>Now select a target variable for the topic{{$EFO_S_A?_T?|name}}</p>",
+					"text": "Now select a target variable for the topic{{$EFO_S_A?_T?|name}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1
+					],
+					"cueSet": ".........................................................................",
+					"segments": [
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "0",
+								"SSML": "Now select a target variable for the topic",
+								"cues": [],
+								"duration": 2559.125,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_S_A?_T?|name",
+							"SA1T1": {
+								"fileid": "1a",
+								"SSML": "Crystal Growth",
+								"cues": [],
+								"duration": 875.875,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2": {
+								"fileid": "1b",
+								"SSML": "Soda-Mint Reaction",
+								"cues": [],
+								"duration": 1312.25,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1": {
+								"fileid": "1c",
+								"SSML": "Melting of Ice",
+								"cues": [],
+								"duration": 1081.1666666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2": {
+								"fileid": "1d",
+								"SSML": "Temperature of a Gas",
+								"cues": [],
+								"duration": 1361.5416666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1": {
+								"fileid": "1e",
+								"SSML": "Inclined Planes",
+								"cues": [],
+								"duration": 1164.3333333333333,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2": {
+								"fileid": "1f",
+								"SSML": "Sinking Objects",
+								"cues": [],
+								"duration": 1367.75,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1": {
+								"fileid": "1g",
+								"SSML": "Flower Reproduction",
+								"cues": [],
+								"duration": 1217.6666666666667,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2": {
+								"fileid": "1h",
+								"SSML": "Algae Growth",
+								"cues": [],
+								"duration": 916.9166666666666,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0,
+						0
+					],
+					"templates": {
+						"$EFO_S_A?_T?|name": {
+							"SA1T1": "Crystal Growth",
+							"SA1T2": "Soda-Mint Reaction",
+							"SA2T1": "Melting of Ice",
+							"SA2T2": "Temperature of a Gas",
+							"SA3T1": "Inclined Planes",
+							"SA3T2": "Sinking Objects",
+							"SA4T1": "Flower Reproduction",
+							"SA4T2": "Algae Growth"
+						}
+					}
+				}
+			},
+			"track4": {
+				"en": {
+					"html": "<p>Click Next to continue or modify your selection before continuing</p>",
+					"text": "Click Next to continue or modify your selection before continuing",
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................................................",
+					"segments": [
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "0",
+								"SSML": "Click Next to continue or modify your selection before continuing",
+								"cues": [],
+								"duration": 3681.9166666666665,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
 				}
 			}
 		}
@@ -106,28 +249,30 @@
 		"tracks": {
 			"track1": {
 				"en": {
-					"html": "<p>In this table, click on the one variable that the question is testing in this experiment</p>",
-					"text": "In this table, click on the one variable that the question is testing in this experiment",
-					"volume": 1,
+					"html": "<p>In this table, tap on the one variable that the question is testing in this experiment</p>",
+					"text": "In this table, tap on the one variable that the question is testing in this experiment",
+					"volume": [
+						1
+					],
 					"cueSet": "...............................................................",
 					"segments": [
 						{
 							"templateVar": "__novar",
 							"__novar": {
-								"id": "0",
-								"SSML": "In this table, click on the one variable that the question is testing in this experiment",
+								"fileid": "0",
+								"SSML": "In this table, tap on the one variable that the question is testing in this experiment",
 								"cues": [],
-								"duration": 4660.166666666667,
+								"duration": 4659.166666666667,
 								"trim": 0,
 								"volume": 1
 							}
 						}
 					],
 					"timedSet": [],
-					"templates": {},
 					"trim": [
 						0
-					]
+					],
+					"templates": {}
 				}
 			}
 		}

@@ -48,7 +48,7 @@
 		{	
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
-			"root":{"COMMENT":"Welcome...",
+			"root":{"COMMENT":"Select an area of science...",
 					"type":"node",
 					"subtype":"module", 
 					"name":"SELECTAREA",
@@ -58,24 +58,39 @@
 							]
 					},
 															
-			"SELECTTOPIC":{"COMMENT":"Welcome...",
+			"SELECTTOPIC":{"COMMENT":"Select a topic within that area...",
 					"type":"node",
 					"subtype":"module", 
 					"name":"SELECTTOPIC",
 					"edges":
 							[
 								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" },
-								{"constraint":""            ,"edge":"WAITFORNEXT" }
+								{"constraint":""            ,"edge":"SELECTTV" }
 							]
 					},					
 										
-			"WAITFORNEXT":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+            "SELECTTV":{"COMMENT":"Select a Target Variable within that Topic...",
+                    "type":"node",
+                    "subtype":"module", 
+                    "name":"SELECTV",
+                    "edges":
+                            [
+                                {"constraint":"AREA_CHANGED" ,"edge":"SELECTTOPIC" },
+                                {"constraint":"TOPIC_CHANGED","edge":"SELECTTV" },
+                                {"constraint":""             ,"edge":"WAITFORNEXT" }
+                            ]
+                    },					
+                                        
+            "WAITFORNEXT":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
 					 "type":"node",
 					"subtype":"module", 
 					 "name":"NEXTSCENE",
 					 "edges":
 							[
-								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" }
+								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" },
+                                {"constraint":"TOPIC_CHANGED", "edge":"SELECTTV" },
+                                {"constraint":"VARIABLE_CHANGED", "edge":"WAITFORNEXT" },
+                                {"constraint":"", "edge":"GOTONEXTSCENE" }
 							]
 					}															
 		},		
@@ -104,13 +119,23 @@
 					{"trackname":"track2", "autostep":false, "features":""}
 				]
             },
+			"SELECTV":
+			{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"trackname":"track3", "autostep":false, "features":""}
+				]
+            },
             "NEXTSCENE":{
 				"COMMENT":"",
 				"type":"module",
 				"reuse":true,
 				"actiontracks":		
 				[
-					{"actionname":"NEXTSCENE", "autostep":false, "features":""}
+					{"trackname":"track4", "autostep":false, "features":""}
 				]
             }
 		}
@@ -121,7 +146,7 @@
 
 	"SScene1":
 	{	
-		"COMMENT":"TED Introduction sequence...",
+		"COMMENT":"Click the target variable...",
 		"type":"animation",
 		"version":"0.1.0",
 	
@@ -129,16 +154,114 @@
 		{	
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
-			"root":{"COMMENT":"Welcome...",
+			"root":{"COMMENT":"Click on the TV the question is asking about...",
 					"type":"node",
 					"subtype":"module", 
-					"name":"ROOT",
+					"name":"SELECTTV",
 					"edges":
 							[
-								{"constraint":"","edge":"NEXTSCENE" }
+								{"constraint":"ANS_WRONG","edge":"TVCORRECT" },
+								{"constraint":""         ,"edge":"TVWRONG" }
 							]
 					},
-															
+                                                            
+            "TVWRONG":{"COMMENT":"TV Selection wrong...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"TVWRONG",
+                "edges":
+                        [
+                            {"constraint":"ANS_WRONG","edge":"TVCORRECT" },
+                            {"constraint":""         ,"edge":"TVWRONG" }
+                    ]
+                },					
+                                            
+            "TVCORRECT":{"COMMENT":"TV Selection correct...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"TVCORRECT",
+                "edges":
+                        [
+                            {"constraint":"","edge":"TVALUESELECTION" }
+                        ]
+                },					
+                                                
+            "TVALUESELECTION":{"COMMENT":"TV Selection incorrect...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"VALUESELECTION",
+                "edges":
+                        [
+                            {"constraint":"ANS_WRONG","edge":"TVALCORRECT" },
+                            {"constraint":""         ,"edge":"TVALWRONG" }
+                        ]
+                },					
+
+
+            "TVALWRONG":{"COMMENT":"TV Values Selection wrong...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"TVALWRONG",
+                "edges":
+                        [
+                            {"constraint":"ANS_WRONG","edge":"TVALCORRECT" },
+                            {"constraint":""         ,"edge":"TVALWRONG" }
+                    ]
+                },					
+                                            
+            "TVALCORRECT":{"COMMENT":"TV Values Selection correct...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"TVALCORRECT",
+                "edges":
+                        [
+                            {"constraint":"","edge":"IVALUESELECTION" }
+                        ]
+                },					
+                                                
+            "IVALUESELECTION":{"COMMENT":"IV Selection incorrect...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"VALUESELECTION",
+                "edges":
+                        [
+                            {"constraint":"ANS_WRONG","edge":"IVALCORRECT" },
+                            {"constraint":""         ,"edge":"IVALWRONG" }
+                        ]
+                },					
+
+
+            "IVALWRONG":{"COMMENT":"IV Values Selection wrong...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"IVALWRONG",
+                "edges":
+                        [
+                            {"constraint":"ANS_WRONG","edge":"IVALCORRECT" },
+                            {"constraint":""         ,"edge":"IVALWRONG" }
+                    ]
+                },					
+                                            
+            "IVALCORRECT":{"COMMENT":"IV Values Selection correct...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"IVALCORRECT",
+                "edges":
+                        [
+                            {"constraint":"","edge":"SUMMARY" }
+                        ]
+                },					
+                                                
+            "SUMMARY":{"COMMENT":"IV Values Selection correct...",
+                "type":"node",
+                "subtype":"module", 
+                "name":"IVALCORRECT",
+                "edges":
+                        [
+                            {"constraint":"","edge":"NEXTSCENE" }
+                        ]
+                },					
+                                                
 			"NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
 					 "type":"node",
 					"subtype":"module", 
@@ -154,16 +277,40 @@
 		{		
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 		
-			"ROOT":
+			"SELECTTV":
 			{
 				"COMMENT":"",
 				"type":"module",
 				"reuse":true,
 				"actiontracks":		
 				[
-					{"trackname":"track1", "autostep":true, "features":""}
+					{"trackname":"track1", "autostep":false, "features":""}
 				]
             },
+			"TVCORRECT":
+			{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"trackname":"track2", "autostep":false, "features":""}
+				]
+            },
+			"TVWRONG":
+			{
+				"COMMENT":"",
+				"type":"module",
+				"reuse":true,
+				"actiontracks":		
+				[
+					{"trackname":"track3", "autostep":false, "features":""}
+				]
+            },
+
+
+
+
             "NEXTSCENE":{
 				"COMMENT":"",
 				"type":"module",

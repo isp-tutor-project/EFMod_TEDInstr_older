@@ -33,6 +33,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $resolveTemplate(templID:string) { /* empty */  }
 
+        public $handleEvent() { /* empty */  }           
+
+
         //***********************************************
         // Scene graph methods
         //
@@ -66,7 +69,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
 			// Update the Navigation
 			//
-			if(!this.sceneState.sceneComplete)
+			if(!this.$queryFinished())
 				this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);		
 			else	
                 this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);		

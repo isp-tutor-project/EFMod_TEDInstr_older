@@ -6,6 +6,9 @@
         },
         "SListBox2": {
             "$$REF":"$EFL_eflist.SListBox2"
+        },
+        "SListBox3": {
+            "$$REF":"$EFL_eflist.SListBox3"
         }
     }
 }

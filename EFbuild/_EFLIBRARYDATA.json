@@ -3,7 +3,7 @@
 		"eflist": {
 			"SListBox1": {
 				"src": "$$EFX.html_list_std",
-				"datasource": "$EFL_TEDScienceAreas",
+				"datasource": "$EFL_efdata.AOS",
 				"htmlData": {
 					"style": {
 						"[slistbox1] .listbox": {
@@ -16,10 +16,23 @@
 			},
 			"SListBox2": {
 				"src": "$$EFX.html_list_std",
-				"datasource": "$$nullList",
+				"datasource": "$EFL_efdata.nulllist",
 				"htmlData": {
 					"style": {
 						"[slistbox2] .listbox": {
+							"border-radius": "4px"
+						}
+					},
+					"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
+				},
+				"placeholder": "Example Placeholder"
+			},
+			"SListBox3": {
+				"src": "$$EFX.html_list_std",
+				"datasource": "$EFL_efdata.nulllist",
+				"htmlData": {
+					"style": {
+						"[slistbox3] .listbox": {
 							"border-radius": "4px"
 						}
 					},
@@ -32,6 +45,8 @@
 			"STextBox1": {
 				"src": "$$EFX.html_text",
 				"xname": "STextBox1",
+				"datasource": "$EFL_efdata.scenePrompt1",
+				"ontologyKey": "$$EFM_selectedVariable.ontologyKey",
 				"htmlData": {
 					"style": {
 						"[stextbox1].outerContainer": {
@@ -61,7 +76,8 @@
 			"STable1": {
 				"src": "$$EFX.html_table_ted1",
 				"xname": "STable1",
-				"datasource": "$EFL_TEDTableData",
+				"datasource": "$EFL_efdata.TEDTableData",
+				"ontologyKey": "$$EFM_selectedTopic.ontologyKey",
 				"htmlData": {
 					"style": {
 						"[stable1] .header": {
@@ -90,95 +106,337 @@
 					"placeHolder": ""
 				}
 			},
-			"TEDScienceAreas": {
+			"AOS": {
+				"description": "Areas of Science used in TED",
 				"listdata": {
 					"options": [
 						{
 							"name": "{{$EFO_S_A1|name}}",
-							"value": "$EFL_area1"
+							"value": "$EFL_efdata.AOS.A1",
+							"ontologyKey": "$EFO_S_A1",
+							"id": "area1"
 						},
 						{
 							"name": "{{$EFO_S_A2|name}}",
-							"value": "$EFL_area2"
+							"value": "$EFL_efdata.AOS.A2",
+							"ontologyKey": "$EFO_S_A2",
+							"id": "area2"
 						},
 						{
 							"name": "{{$EFO_S_A3|name}}",
-							"value": "$EFL_area3"
+							"value": "$EFL_efdata.AOS.A3",
+							"ontologyKey": "$EFO_S_A3",
+							"id": "area3"
 						},
 						{
 							"name": "{{$EFO_S_A4|name}}",
-							"value": "$EFL_area4"
+							"value": "$EFL_efdata.AOS.A4",
+							"ontologyKey": "$EFO_S_A4",
+							"id": "area4"
 						}
 					],
 					"placeHolder": "{{$EFO_S_PH1|name}}"
+				},
+				"A1": {
+					"description": "PhysicsChemistryTopics",
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_S_A1_T1|name}}",
+								"value": "$EFL_efdata.AOS.A1.T1",
+								"ontologyKey": "$EFO_S_A1_T1",
+								"id": "topic1"
+							},
+							{
+								"name": "{{$EFO_S_A1_T2|name}}",
+								"value": "$EFL_efdata.AOS.A1.T2",
+								"ontologyKey": "$EFO_S_A1_T2",
+								"id": "topic2"
+							}
+						],
+						"placeHolder": "{{$EFO_LV_PH1|name}}"
+					},
+					"T1": {
+						"description": "Crystal Growth",
+						"listdata": {
+							"options": [
+								{
+									"name": "{{$EFO_S_A1_T1_V1|name}}",
+									"ontologyKey": "$EFO_S_A1_T1_V1"
+								},
+								{
+									"name": "{{$EFO_S_A1_T1_V2|name}}",
+									"ontologyKey": "$EFO_S_A1_T1_V2"
+								},
+								{
+									"name": "{{$EFO_S_A1_T1_V3|name}}",
+									"ontologyKey": "$EFO_S_A1_T1_V3"
+								},
+								{
+									"name": "{{$EFO_S_A1_T1_V4|name}}",
+									"ontologyKey": "$EFO_S_A1_T1_V4"
+								}
+							],
+							"placeHolder": "{{$EFO_LV_PH1|name}}"
+						}
+					},
+					"T2": {
+						"description": "Soda-Mint Reaction",
+						"listdata": {
+							"options": [
+								{
+									"name": "{{$EFO_S_A1_T2_V1|name}}",
+									"ontologyKey": "$EFO_S_A1_T2_V1"
+								},
+								{
+									"name": "{{$EFO_S_A1_T2_V2|name}}",
+									"ontologyKey": "$EFO_S_A1_T2_V2"
+								},
+								{
+									"name": "{{$EFO_S_A1_T2_V3|name}}",
+									"ontologyKey": "$EFO_S_A1_T2_V3"
+								},
+								{
+									"name": "{{$EFO_S_A1_T2_V4|name}}",
+									"ontologyKey": "$EFO_S_A1_T2_V4"
+								}
+							],
+							"placeHolder": "{{$EFO_LV_PH1|name}}"
+						}
+					}
+				},
+				"A2": {
+					"description": "HeatTempTopics",
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_S_A2_T1|name}}",
+								"value": "$EFL_efdata.AOS.A2.T1",
+								"ontologyKey": "$EFO_S_A2_T1",
+								"id": "topic1"
+							},
+							{
+								"name": "{{$EFO_S_A2_T2|name}}",
+								"value": "$EFL_efdata.AOS.A2.T2",
+								"ontologyKey": "$EFO_S_A2_T2",
+								"id": "topic2"
+							}
+						],
+						"placeHolder": "{{$EFO_LV_PH1|name}}"
+					},
+					"T1": {
+						"description": "Crystal Growth",
+						"listdata": {
+							"options": [
+								{
+									"name": "{{$EFO_S_A2_T1_V1|name}}",
+									"ontologyKey": "$EFO_S_A2_T1_V1",
+									"id": "var1"
+								},
+								{
+									"name": "{{$EFO_S_A2_T1_V2|name}}",
+									"ontologyKey": "$EFO_S_A2_T1_V2",
+									"id": "var2"
+								},
+								{
+									"name": "{{$EFO_S_A2_T1_V3|name}}",
+									"ontologyKey": "$EFO_S_A2_T1_V3",
+									"id": "var3"
+								},
+								{
+									"name": "{{$EFO_S_A2_T1_V4|name}}",
+									"ontologyKey": "$EFO_S_A2_T1_V4",
+									"id": "var4"
+								}
+							],
+							"placeHolder": "{{$EFO_LV_PH1|name}}"
+						}
+					},
+					"T2": {
+						"description": "Soda-Mint Reaction",
+						"listdata": {
+							"options": [
+								{
+									"name": "{{$EFO_S_A2_T2_V1|name}}",
+									"ontologyKey": "$EFO_S_A2_T2_V1",
+									"id": "var1"
+								},
+								{
+									"name": "{{$EFO_S_A2_T2_V2|name}}",
+									"ontologyKey": "$EFO_S_A2_T2_V2",
+									"id": "var2"
+								},
+								{
+									"name": "{{$EFO_S_A2_T2_V3|name}}",
+									"ontologyKey": "$EFO_S_A2_T2_V3",
+									"id": "var3"
+								},
+								{
+									"name": "{{$EFO_S_A2_T2_V4|name}}",
+									"ontologyKey": "$EFO_S_A2_T2_V4",
+									"id": "var4"
+								}
+							],
+							"placeHolder": "{{$EFO_LV_PH1|name}}"
+						}
+					}
+				},
+				"A3": {
+					"description": "ForcesMotionTopics",
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_S_A3_T1|name}}",
+								"value": "$EFL_efdata.AOS.A3.T1",
+								"ontologyKey": "$EFO_S_A3_T1",
+								"id": "topic1"
+							},
+							{
+								"name": "{{$EFO_S_A3_T2|name}}",
+								"value": "$EFL_efdata.AOS.A3.T2",
+								"ontologyKey": "$EFO_S_A3_T2",
+								"id": "topic2"
+							}
+						],
+						"placeHolder": "{{$EFO_LV_PH1|name}}"
+					},
+					"T1": {
+						"description": "Crystal Growth",
+						"listdata": {
+							"options": [
+								{
+									"name": "{{$EFO_S_A3_T1_V1|name}}",
+									"ontologyKey": "$EFO_S_A3_T1_V1",
+									"id": "var1"
+								},
+								{
+									"name": "{{$EFO_S_A3_T1_V2|name}}",
+									"ontologyKey": "$EFO_S_A3_T1_V2",
+									"id": "var2"
+								},
+								{
+									"name": "{{$EFO_S_A3_T1_V3|name}}",
+									"ontologyKey": "$EFO_S_A3_T1_V3",
+									"id": "var3"
+								},
+								{
+									"name": "{{$EFO_S_A3_T1_V4|name}}",
+									"ontologyKey": "$EFO_S_A3_T1_V4",
+									"id": "var4"
+								}
+							],
+							"placeHolder": "{{$EFO_LV_PH1|name}}"
+						}
+					},
+					"T2": {
+						"description": "Soda-Mint Reaction",
+						"listdata": {
+							"options": [
+								{
+									"name": "{{$EFO_S_A3_T2_V1|name}}",
+									"ontologyKey": "$EFO_S_A3_T2_V1",
+									"id": "var1"
+								},
+								{
+									"name": "{{$EFO_S_A3_T2_V2|name}}",
+									"ontologyKey": "$EFO_S_A3_T2_V2",
+									"id": "var2"
+								},
+								{
+									"name": "{{$EFO_S_A3_T2_V3|name}}",
+									"ontologyKey": "$EFO_S_A3_T2_V3",
+									"id": "var3"
+								},
+								{
+									"name": "{{$EFO_S_A3_T2_V4|name}}",
+									"ontologyKey": "$EFO_S_A3_T2_V4",
+									"id": "var4"
+								}
+							],
+							"placeHolder": "{{$EFO_LV_PH1|name}}"
+						}
+					}
+				},
+				"A4": {
+					"description": "PlantGrowthTopics",
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_S_A4_T1|name}}",
+								"value": "$EFL_efdata.AOS.A4.T1",
+								"ontologyKey": "$EFO_S_A4_T1",
+								"id": "topic1"
+							},
+							{
+								"name": "{{$EFO_S_A4_T2|name}}",
+								"value": "$EFL_efdata.AOS.A4.T2",
+								"ontologyKey": "$EFO_S_A4_T2",
+								"id": "topic2"
+							}
+						],
+						"placeHolder": "{{$EFO_LV_PH1|name}}"
+					},
+					"T1": {
+						"description": "Crystal Growth",
+						"listdata": {
+							"options": [
+								{
+									"name": "{{$EFO_S_A4_T1_V1|name}}",
+									"ontologyKey": "$EFO_S_A4_T1_V1",
+									"id": "var1"
+								},
+								{
+									"name": "{{$EFO_S_A4_T1_V2|name}}",
+									"ontologyKey": "$EFO_S_A4_T1_V2",
+									"id": "var2"
+								},
+								{
+									"name": "{{$EFO_S_A4_T1_V3|name}}",
+									"ontologyKey": "$EFO_S_A4_T1_V3",
+									"id": "var3"
+								},
+								{
+									"name": "{{$EFO_S_A4_T1_V4|name}}",
+									"ontologyKey": "$EFO_S_A4_T1_V4",
+									"id": "var4"
+								}
+							],
+							"placeHolder": "{{$EFO_LV_PH1|name}}"
+						}
+					},
+					"T2": {
+						"description": "Soda-Mint Reaction",
+						"listdata": {
+							"options": [
+								{
+									"name": "{{$EFO_S_A4_T2_V1|name}}",
+									"ontologyKey": "$EFO_S_A4_T2_V1",
+									"id": "var1"
+								},
+								{
+									"name": "{{$EFO_S_A4_T2_V2|name}}",
+									"ontologyKey": "$EFO_S_A4_T2_V2",
+									"id": "var2"
+								},
+								{
+									"name": "{{$EFO_S_A4_T2_V3|name}}",
+									"ontologyKey": "$EFO_S_A4_T2_V3",
+									"id": "var3"
+								},
+								{
+									"name": "{{$EFO_S_A4_T2_V4|name}}",
+									"ontologyKey": "$EFO_S_A4_T2_V4",
+									"id": "var4"
+								}
+							],
+							"placeHolder": "{{$EFO_LV_PH1|name}}"
+						}
+					}
 				}
 			},
-			"area1": {
-				"description": "PhysicsChemistryTopics",
-				"areaOfScience": "area1",
-				"listdata": {
-					"options": [
-						{
-							"name": "{{$EFO_S_A1_T1|name}}",
-							"value": "$EFO_S_A1_T1"
-						},
-						{
-							"name": "{{$EFO_S_A1_T2|name}}",
-							"value": "$EFO_S_A1_T2"
-						}
-					],
-					"placeHolder": "{{$EFO_LV_PH1|name}}"
-				}
-			},
-			"area2": {
-				"description": "HeatTempTopics",
-				"areaOfScience": "area2",
-				"listdata": {
-					"options": [
-						{
-							"name": "{{$EFO_S_A2_T1|name}}",
-							"value": "$EFO_S_A2_T1"
-						},
-						{
-							"name": "{{$EFO_S_A2_T2|name}}",
-							"value": "$EFO_S_A2_T2"
-						}
-					],
-					"placeHolder": "{{$EFO_LV_PH1|name}}"
-				}
-			},
-			"area3": {
-				"description": "ForcesMotionTopics",
-				"areaOfScience": "area3",
-				"listdata": {
-					"options": [
-						{
-							"name": "{{$EFO_S_A3_T1|name}}",
-							"value": "$EFO_S_A3_T1"
-						},
-						{
-							"name": "{{$EFO_S_A3_T2|name}}",
-							"value": "$EFO_S_A3_T2"
-						}
-					],
-					"placeHolder": "{{$EFO_LV_PH1|name}}"
-				}
-			},
-			"area4": {
-				"description": "PlantGrowthTopics",
-				"areaOfScience": "area4",
-				"listdata": {
-					"options": [
-						{
-							"name": "{{$EFO_S_A4_T1|name}}",
-							"value": "$EFO_S_A4_T1"
-						},
-						{
-							"name": "{{$EFO_S_A4_T2|name}}",
-							"value": "$EFO_S_A4_T2"
-						}
-					],
-					"placeHolder": "{{$EFO_LV_PH1|name}}"
+			"scenePrompt1": {
+				"textdata": {
+					"html": "<p>Does the{{$EFO_S_A?_T?_V?|name}}affect the{{$EFO_S_A?_T?|name}}</p>"
 				}
 			},
 			"TEDTableData": {

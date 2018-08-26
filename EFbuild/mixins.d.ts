@@ -12,6 +12,7 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         static readonly MOUSE_UP: string;
         static readonly MOUSE_CLICK: string;
         static readonly DOUBLE_CLICK: string;
+        static readonly ALL: string;
         static readonly CLICK: string;
         static readonly CHANGED: string;
     }
@@ -29,6 +30,7 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         $logScene(): void;
         $rewindScene(): void;
         $resolveTemplate(templID: string): void;
+        $handleEvent(): void;
         $nodePreEnter(nodeId: string): void;
         $nodePreExit(nodeId: string): void;
         $nodeAction(actionId: string): void;
@@ -94,6 +96,7 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         $logScene(): void;
         $rewindScene(): void;
         $resolveTemplate(templID: string): any;
+        $handleEvent(): void;
         $nodePreEnter(nodeId: string): void;
         $nodePreExit(nodeId: string): void;
         $nodeAction(actionId: string): void;

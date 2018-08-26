@@ -14,7 +14,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         //
         
         public $onCreateScene() {     
-            this.sceneState.sceneComplete = false;      
+            this.setStateValue("sceneComplete", false, "SCN");      
             this.$updateNav();
         }
 
@@ -26,8 +26,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
 
         public $preExitScene() {
-            this.setTutorState("areaOfScience", this.sceneState.areaOfScience);
-            this.setTutorState("areaTopic", this.sceneState.areaTopic);
         }
 
         public $demoInitScene() {
@@ -44,6 +42,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             return this["$"+templID];
         }
 
+        public $handleEvent() {
+
+        }
 
         //***********************************************
         // Scene graph methods
@@ -52,7 +53,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(nodeId) {
                 default:
-                this.sceneState.areaChanged = false;
+                this.clearValueChanged(CONST.ALL);
                 break;
             }
         }
@@ -72,8 +73,16 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(constrainId) {
                 case "AREA_CHANGED":
-                result = this.sceneState.areaChanged;
-                break;
+                    result = this.queryValueChanged("selectedArea");
+                    break;
+
+                case "TOPIC_CHANGED":
+                    result = this.queryValueChanged("selectedTopic");
+                    break;
+
+                case "VARIABLE_CHANGED":
+                    result = this.queryValueChanged("selectedVariable");
+                    break;
             }
             return result;
         }
@@ -109,13 +118,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            if(this.sceneState.areaOfScience && this.sceneState.areaTopic) {
-                this.sceneState.sceneComplete = true;
-            }
+            this.setStateValue("sceneComplete", false, "SCN");      
 
-            this.$updateNav();
+            if (this.getStateValid(["selectedArea","selectedTopic", "selectedVariable"])) {
 
-            return this.sceneState.sceneComplete;
+                this.setStateValue("sceneComplete", true, "SCN");                  
+            }   
+
+            return  this.getStateValue("sceneComplete", "SCN"); 
         }
 
 
@@ -125,25 +135,42 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
                 case "SListBox1":
 
-                    if(this.sceneState.areaOfScience != this.SListBox1.selected.value.areaOfScience) {
+                    if (!this.testStateValue("selectedArea", this.SListBox1.selected)) {
 
-                        this.sceneState.areaOfScience = this.SListBox1.selected.value.areaOfScience;
-                        this.sceneState.areaChanged   = true;
-                        this.sceneState.areaTopic     = null;
+                        this.setStateValue("selectedArea", this.SListBox1.selected);
 
-                        this.SListBox2.initFromDataSource(this.SListBox1.selected.data.value);                    
+                        this.setStateValue("selectedTopic", null);
+                        this.SListBox2.initFromDataSource(this.SListBox1.selected.value);
+                        this.SListBox3.resetInitState();
 
                         this.nextTrack();
                     }
                     break;
 
                 case "SListBox2":
-                    this.sceneState.areaTopic = this.SListBox2.selected.data.value;
 
-                    this.nextTrack();
+                    if (!this.testStateValue("selectedTopic", this.SListBox2.selected)) {
+
+                        this.setStateValue("selectedTopic", this.SListBox2.selected);
+
+                        this.setStateValue("selectedVariable", null);
+                        this.SListBox3.initFromDataSource(this.SListBox2.selected.value);
+
+                        this.nextTrack();
+                    }
                     break;
+
+                case "SListBox3":
+                    if (!this.testStateValue("selectedVariable", this.SListBox3.selected)) {
+
+                        this.setStateValue("selectedVariable", this.SListBox3.selected);                        
+                        this.nextTrack();
+                    }
+                    break;
+
             }
-            this.$queryFinished();
+
+            this.$updateNav();
         }
 
 

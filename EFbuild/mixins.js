@@ -16,6 +16,7 @@ var EFTut_Suppl;
         CONST.MOUSE_UP = "mouseup";
         CONST.MOUSE_CLICK = "click";
         CONST.DOUBLE_CLICK = "dblclick";
+        CONST.ALL = null;
         CONST.CLICK = "click";
         CONST.CHANGED = "changed";
         EFMod_TEDInstr.CONST = CONST;
@@ -36,6 +37,7 @@ var EFTut_Suppl;
             $logScene() { }
             $rewindScene() { }
             $resolveTemplate(templID) { }
+            $handleEvent() { }
             $nodePreEnter(nodeId) { }
             $nodePreExit(nodeId) { }
             $nodeAction(actionId) { }
@@ -46,7 +48,7 @@ var EFTut_Suppl;
             $cuePoints(id) { }
             $timedEvents(id) { }
             $updateNav() {
-                if (!this.sceneState.sceneComplete)
+                if (!this.$queryFinished())
                     this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);
                 else
                     this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);
@@ -126,9 +128,10 @@ var EFTut_Suppl;
     (function (EFMod_TEDInstr) {
         class SScene1 {
             $preCreateScene() {
-                this.STable1.setOntology(this.getTutorState("areaTopic"));
             }
             $onCreateScene() {
+                this.STable1.listenToCells("click", 0, 1, 0, 4);
+                this.STable1.hideCells(1, 1, 2, 4);
             }
             $onEnterScene() {
             }
@@ -183,7 +186,7 @@ var EFTut_Suppl;
     (function (EFMod_TEDInstr) {
         class SScene1a {
             $onCreateScene() {
-                this.sceneState.sceneComplete = false;
+                this.setStateValue("sceneComplete", false, "SCN");
                 this.$updateNav();
             }
             $onEnterScene() {
@@ -191,8 +194,6 @@ var EFTut_Suppl;
             $preEnterScene() {
             }
             $preExitScene() {
-                this.setTutorState("areaOfScience", this.sceneState.areaOfScience);
-                this.setTutorState("areaTopic", this.sceneState.areaTopic);
             }
             $demoInitScene() {
             }
@@ -203,10 +204,12 @@ var EFTut_Suppl;
             $resolveTemplate(templID) {
                 return this["$" + templID];
             }
+            $handleEvent() {
+            }
             $nodePreEnter(nodeId) {
                 switch (nodeId) {
                     default:
-                        this.sceneState.areaChanged = false;
+                        this.clearValueChanged(EFMod_TEDInstr.CONST.ALL);
                         break;
                 }
             }
@@ -220,7 +223,13 @@ var EFTut_Suppl;
                 let result = false;
                 switch (constrainId) {
                     case "AREA_CHANGED":
-                        result = this.sceneState.areaChanged;
+                        result = this.queryValueChanged("selectedArea");
+                        break;
+                    case "TOPIC_CHANGED":
+                        result = this.queryValueChanged("selectedTopic");
+                        break;
+                    case "VARIABLE_CHANGED":
+                        result = this.queryValueChanged("selectedVariable");
                         break;
                 }
                 return result;
@@ -242,29 +251,39 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                if (this.sceneState.areaOfScience && this.sceneState.areaTopic) {
-                    this.sceneState.sceneComplete = true;
+                this.setStateValue("sceneComplete", false, "SCN");
+                if (this.getStateValid(["selectedArea", "selectedTopic", "selectedVariable"])) {
+                    this.setStateValue("sceneComplete", true, "SCN");
                 }
-                this.$updateNav();
-                return this.sceneState.sceneComplete;
+                return this.getStateValue("sceneComplete", "SCN");
             }
             $onSelect(target) {
                 switch (target) {
                     case "SListBox1":
-                        if (this.sceneState.areaOfScience != this.SListBox1.selected.value.areaOfScience) {
-                            this.sceneState.areaOfScience = this.SListBox1.selected.value.areaOfScience;
-                            this.sceneState.areaChanged = true;
-                            this.sceneState.areaTopic = null;
-                            this.SListBox2.initFromDataSource(this.SListBox1.selected.data.value);
+                        if (!this.testStateValue("selectedArea", this.SListBox1.selected)) {
+                            this.setStateValue("selectedArea", this.SListBox1.selected);
+                            this.setStateValue("selectedTopic", null);
+                            this.SListBox2.initFromDataSource(this.SListBox1.selected.value);
+                            this.SListBox3.resetInitState();
                             this.nextTrack();
                         }
                         break;
                     case "SListBox2":
-                        this.sceneState.areaTopic = this.SListBox2.selected.data.value;
-                        this.nextTrack();
+                        if (!this.testStateValue("selectedTopic", this.SListBox2.selected)) {
+                            this.setStateValue("selectedTopic", this.SListBox2.selected);
+                            this.setStateValue("selectedVariable", null);
+                            this.SListBox3.initFromDataSource(this.SListBox2.selected.value);
+                            this.nextTrack();
+                        }
+                        break;
+                    case "SListBox3":
+                        if (!this.testStateValue("selectedVariable", this.SListBox3.selected)) {
+                            this.setStateValue("selectedVariable", this.SListBox3.selected);
+                            this.nextTrack();
+                        }
                         break;
                 }
-                this.$queryFinished();
+                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {

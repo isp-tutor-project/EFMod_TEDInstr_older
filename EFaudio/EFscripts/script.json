@@ -5,40 +5,74 @@
 				"en": {
 					"html": "<p>First select an area of science in which you would like to work</p>",
 					"text": "First select an area of science in which you would like to work",
-					"volume": 1,
+					"volume": [
+						1
+					],
 					"cueSet": "...............................................................",
 					"segments": [],
 					"timedSet": [],
-					"templates": {},
 					"trim": [
 						0
-					]
+					],
+					"templates": {}
 				}
 			},
 			"track2": {
 				"en": {
-					"html": "<p>Now select a topic within the area {{areaOfScience}}</p>",
-					"text": "Now select a topic within the area{{areaOfScience}}",
-					"templates": {
-						"areaOfScience": {
-							"values": {
-								"area1": "Physics and Chemistry",
-								"area2": "Heat and Temperature",
-								"area3": "Forces and Motion",
-								"area4": "Plant growth"
-							},
-							"volume": 0.8,
-							"notes": ""
-						}
+					"html": "<p>Now select a topic within the area {{$EFO_S_A?|name}}</p>",
+					"text": "Now select a topic within the area{{$EFO_S_A?|name}}",
+					"templateRef": {
+						"$EFO_S_A?|name": "$EFM_selectedArea.ontologyKey"
 					},
-					"volume": 1,
+					"volume": [
+						1,
+						1
+					],
 					"cueSet": ".........................................................................",
 					"segments": [],
 					"timedSet": [],
 					"trim": [
 						0,
 						0
-					]
+					],
+					"templates": {}
+				}
+			},
+			"track3": {
+				"en": {
+					"html": "<p>Now select a target variable for the topic{{$EFO_S_A?_T?|name}}</p>",
+					"text": "Now select a target variable for the topic{{$EFO_S_A?_T?|name}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1
+					],
+					"cueSet": ".........................................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track4": {
+				"en": {
+					"html": "<p>Click Next to continue or modify your selection before continuing</p>",
+					"text": "Click Next to continue or modify your selection before continuing",
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
 				}
 			}
 		}
@@ -47,16 +81,18 @@
 		"tracks": {
 			"track1": {
 				"en": {
-					"html": "<p>In this table, click on the one variable that the question is testing in this experiment</p>",
-					"text": "In this table, click on the one variable that the question is testing in this experiment",
-					"volume": 1,
+					"html": "<p>In this table, tap on the one variable that the question is testing in this experiment</p>",
+					"text": "In this table, tap on the one variable that the question is testing in this experiment",
+					"volume": [
+						1
+					],
 					"cueSet": "...............................................................",
 					"segments": [],
 					"timedSet": [],
-					"templates": {},
 					"trim": [
 						0
-					]
+					],
+					"templates": {}
 				}
 			}
 		}

@@ -40,7 +40,7 @@
             },
             "A1": {
                 "vid": "",
-                "name": "Physics-Chemistry",
+                "name": "Physics and Chemistry",
                 "T1": {
                     "vid": "",
                     "name": "Crystal Growth",
@@ -148,7 +148,7 @@
             },
             "A2": {
                 "vid": "",
-                "name": "Heat-Temperature",
+                "name": "Heat and Temperature",
                 "T1": {
                     "vid": "",
                     "name": "Melting of Ice",
@@ -364,7 +364,7 @@
             },
             "A4": {
                 "vid": "",
-                "name": "Plant-Growth",
+                "name": "Plant Growth",
                 "T1": {
                     "vid": "",
                     "name": "Flower Reproduction",
