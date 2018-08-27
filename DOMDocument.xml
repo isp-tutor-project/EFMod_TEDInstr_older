@@ -76,10 +76,10 @@
           <Include href="Assets/TC_TTEDExpt__Assets/ExptArea.xml" loadImmediate="false" itemID="5b7062de-0000056b" lastModified="1534091998"/>
           <Include href="Assets/TC_TTEDExpt_type1.xml" loadImmediate="false" itemID="5b706306-00000572" lastModified="1534092038"/>
           <Include href="Scene Assets/TC_TScene__SignIn/IconSignIn.xml" loadImmediate="false" itemID="5ae36986-00000383" lastModified="1524853134"/>
-          <Include href="Scenes/TC_TScene__Scene1.xml" loadImmediate="false" itemID="5b6f4696-000004c8" lastModified="1534351548"/>
-          <Include href="Scenes/TC_TScene__Scene1a.xml" loadImmediate="false" itemID="5b788299-0000047c" lastModified="1534964119"/>
-          <Include href="Scenes/TC_TScene__Scene2.xml" loadImmediate="false" itemID="5b6f4963-000004fb" lastModified="1534020172"/>
-          <Include href="Scenes/TC_TScene__Scene3.xml" loadImmediate="false" itemID="5b6f4a5e-00000520" lastModified="1534020248"/>
+          <Include href="Scenes/TC_TScene__Scene1.xml" loadImmediate="false" itemID="5b6f4696-000004c8" lastModified="1535313359"/>
+          <Include href="Scenes/TC_TScene__Scene1a.xml" loadImmediate="false" itemID="5b788299-0000047c" lastModified="1535313253"/>
+          <Include href="Scenes/TC_TScene__Scene2.xml" loadImmediate="false" itemID="5b6f4963-000004fb" lastModified="1535313400"/>
+          <Include href="Scenes/TC_TScene__Scene3.xml" loadImmediate="false" itemID="5b6f4a5e-00000520" lastModified="1535313226"/>
           <Include href="Scenes/TC_TScene__Scene4.xml" loadImmediate="false" itemID="5b6f4d04-00000545" lastModified="1534091894"/>
           <Include href="Scenes/TC_TScene__Scene5.xml" loadImmediate="false" itemID="5b706274-00000562" lastModified="1534092201"/>
           <Include href="Scenes/TC_TScene__Scene6.xml" loadImmediate="false" itemID="5b7063a6-00000598" lastModified="1534092448"/>

@@ -1,6 +1,6 @@
 {
     "MODULEDATA":"v1.0.0",
-    "SScene1": {
+    "SScene2": {
         "STextBox1": {
             "$$REF":"$EFL_eftext.S1STextBox1"
         },

@@ -1,28 +1,44 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene2" itemID="5b6f4963-000004fb" lastModified="1534020172">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene2" itemID="5b6f4963-000004fb" lastModified="1535313400">
   <timeline>
     <DOMTimeline name="TC_TScene__Scene2">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="STable1" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STable1">
                   <matrix>
-                    <Matrix a="14.0189971923828" d="3.58949279785156" tx="259.05" ty="118.05"/>
+                    <Matrix a="10.582763671875" d="3.03999328613281" tx="431.3" ty="524"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="49.75" y="50.05"/>
+                    <Point x="50" y="50"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" useOutlineView="true">
+        <DOMLayer name="STextBox1" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1" selected="true">
+                  <matrix>
+                    <Matrix a="16.4389953613281" d="3.16949462890625" tx="138.05" ty="142.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.15" y="50.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" locked="true" outline="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn" selected="true">
                   <transformationPoint>
                     <Point x="960" y="600"/>
                   </transformationPoint>

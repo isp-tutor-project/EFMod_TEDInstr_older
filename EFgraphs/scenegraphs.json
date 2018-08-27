@@ -12,7 +12,7 @@
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
 			"root":{"COMMENT":"Welcome...",
-					"type":"node",
+					"type":"moduleRef",
 					"subtype":"module", 
 					 "name":"NOOP",
 					 "edges":
@@ -49,7 +49,7 @@
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
 			"root":{"COMMENT":"Select an area of science...",
-					"type":"node",
+					"type":"moduleRef",
 					"subtype":"module", 
 					"name":"SELECTAREA",
 					"edges":
@@ -59,7 +59,7 @@
 					},
 															
 			"SELECTTOPIC":{"COMMENT":"Select a topic within that area...",
-					"type":"node",
+					"type":"moduleRef",
 					"subtype":"module", 
 					"name":"SELECTTOPIC",
 					"edges":
@@ -70,7 +70,7 @@
 					},					
 										
             "SELECTTV":{"COMMENT":"Select a Target Variable within that Topic...",
-                    "type":"node",
+                    "type":"moduleRef",
                     "subtype":"module", 
                     "name":"SELECTV",
                     "edges":
@@ -82,7 +82,7 @@
                     },					
                                         
             "WAITFORNEXT":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
-					 "type":"node",
+					 "type":"moduleRef",
 					"subtype":"module", 
 					 "name":"NEXTSCENE",
 					 "edges":
@@ -140,10 +140,6 @@
             }
 		}
 	},
-	
-	
-    
-
 	"SScene1":
 	{	
 		"COMMENT":"Click the target variable...",
@@ -155,31 +151,43 @@
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
 			"root":{"COMMENT":"Click on the TV the question is asking about...",
-					"type":"node",
-					"subtype":"module", 
-					"name":"SELECTTV",
+					"type":"module",
+                    "name":"SELECTTV",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1", "autostep":false, "features":""}
+                    ],                        
 					"edges":
 							[
-								{"constraint":"ANS_WRONG","edge":"TVCORRECT" },
-								{"constraint":""         ,"edge":"TVWRONG" }
+								{"constraint":"ANS_WRONG","edge":"TVWRONG" },
+								{"constraint":""         ,"edge":"TVCORRECT" }
 							]
 					},
                                                             
             "TVWRONG":{"COMMENT":"TV Selection wrong...",
-                "type":"node",
-                "subtype":"module", 
+                "type":"module", 
                 "name":"TVWRONG",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track2", "autostep":false, "features":""}
+                ],                        
                 "edges":
                         [
-                            {"constraint":"ANS_WRONG","edge":"TVCORRECT" },
-                            {"constraint":""         ,"edge":"TVWRONG" }
-                    ]
+                            {"constraint":"ANS_WRONG","edge":"TVWRONG" },
+                            {"constraint":""         ,"edge":"TVCORRECT" }
+                ]
                 },					
                                             
             "TVCORRECT":{"COMMENT":"TV Selection correct...",
-                "type":"node",
-                "subtype":"module", 
+                "type":"module", 
                 "name":"TVCORRECT",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track3", "autostep":false, "features":""}
+                ],                        
                 "edges":
                         [
                             {"constraint":"","edge":"TVALUESELECTION" }
@@ -187,32 +195,44 @@
                 },					
                                                 
             "TVALUESELECTION":{"COMMENT":"TV Selection incorrect...",
-                "type":"node",
-                "subtype":"module", 
+                "type":"module", 
                 "name":"VALUESELECTION",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track4", "autostep":false, "features":""}
+                ],                        
                 "edges":
                         [
-                            {"constraint":"ANS_WRONG","edge":"TVALCORRECT" },
-                            {"constraint":""         ,"edge":"TVALWRONG" }
+                            {"constraint":"ANS_WRONG","edge":"TVALWRONG" },
+                            {"constraint":""         ,"edge":"TVALCORRECT" }
                         ]
                 },					
 
 
             "TVALWRONG":{"COMMENT":"TV Values Selection wrong...",
-                "type":"node",
-                "subtype":"module", 
+                "type":"module", 
                 "name":"TVALWRONG",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track5", "autostep":false, "features":""}
+                ],                                        
                 "edges":
                         [
-                            {"constraint":"ANS_WRONG","edge":"TVALCORRECT" },
-                            {"constraint":""         ,"edge":"TVALWRONG" }
+                            {"constraint":"ANS_WRONG","edge":"TVALWRONG" },
+                            {"constraint":""         ,"edge":"TVALCORRECT" }
                     ]
                 },					
                                             
             "TVALCORRECT":{"COMMENT":"TV Values Selection correct...",
-                "type":"node",
-                "subtype":"module", 
+                "type":"module", 
                 "name":"TVALCORRECT",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track6", "autostep":false, "features":""}
+                ],                        
                 "edges":
                         [
                             {"constraint":"","edge":"IVALUESELECTION" }
@@ -220,42 +240,47 @@
                 },					
                                                 
             "IVALUESELECTION":{"COMMENT":"IV Selection incorrect...",
-                "type":"node",
-                "subtype":"module", 
+                "type":"module", 
                 "name":"VALUESELECTION",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track7" , "autostep":false, "features":"$FTRS_TV"},
+                    {"trackname":"track7a", "autostep":false, "features":"$FTRS_IV1"},
+                    {"trackname":"track7b", "autostep":false, "features":"$FTRS_IVN"},
+                    {"trackname":"track7b", "autostep":false, "features":"$FTRS_IVLAST"}
+                ],                        
                 "edges":
                         [
-                            {"constraint":"ANS_WRONG","edge":"IVALCORRECT" },
-                            {"constraint":""         ,"edge":"IVALWRONG" }
+                            {"constraint":"ANS_WRONG","edge":"IVALWRONG" },
+                            {"constraint":""         ,"edge":"IVALCORRECT" }
                         ]
                 },					
 
 
             "IVALWRONG":{"COMMENT":"IV Values Selection wrong...",
-                "type":"node",
-                "subtype":"module", 
+                "type":"module", 
                 "name":"IVALWRONG",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track8", "autostep":false, "features":""}
+                ],                        
                 "edges":
                         [
-                            {"constraint":"ANS_WRONG","edge":"IVALCORRECT" },
-                            {"constraint":""         ,"edge":"IVALWRONG" }
+                            {"constraint":"ANS_WRONG","edge":"IVALWRONG" },
+                            {"constraint":""         ,"edge":"IVALCORRECT" }
                     ]
                 },					
                                             
             "IVALCORRECT":{"COMMENT":"IV Values Selection correct...",
-                "type":"node",
-                "subtype":"module", 
+                "type":"module", 
                 "name":"IVALCORRECT",
-                "edges":
-                        [
-                            {"constraint":"","edge":"SUMMARY" }
-                        ]
-                },					
-                                                
-            "SUMMARY":{"COMMENT":"IV Values Selection correct...",
-                "type":"node",
-                "subtype":"module", 
-                "name":"IVALCORRECT",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track9", "autostep":false, "features":""}
+                ],                        
                 "edges":
                         [
                             {"constraint":"","edge":"NEXTSCENE" }
@@ -263,9 +288,12 @@
                 },					
                                                 
 			"NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
-					 "type":"node",
-					"subtype":"module", 
-					 "name":"NEXTSCENE",
+					 "type":"module", 
+                     "name":"NEXTSCENE",
+                     "reuse":true,
+                     "actiontracks":		
+                     [
+                     ],                                              
 					 "edges":
 							[
                                 {"actionname":"NEXTSCENE", "autostep":false, "features":""}
@@ -275,58 +303,12 @@
 			
 		"CModules":
 		{		
-			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-		
-			"SELECTTV":
-			{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-					{"trackname":"track1", "autostep":false, "features":""}
-				]
-            },
-			"TVCORRECT":
-			{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-					{"trackname":"track2", "autostep":false, "features":""}
-				]
-            },
-			"TVWRONG":
-			{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-					{"trackname":"track3", "autostep":false, "features":""}
-				]
-            },
-
-
-
-
-            "NEXTSCENE":{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-					{"actionname":"NEXTSCENE", "features":""}
-				]
-            }
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 		}
 	},
-	
-	
 	"SScene2":
 	{	
-		"COMMENT":"Today we're going to...",
+		"COMMENT":"Feature Focus --different/same",
 		"type":"animation",
 		"version":"0.1.0",
 	
@@ -335,35 +317,67 @@
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
 			"root":{"COMMENT":"...",
-					"type":"node",
-					"subtype":"module", 
-					"name":"NOOP",
+					"type":"module", 
+                    "name":"SUMMARY",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1", "autostep":false, "features":""}
+                    ],                        
 					 "edges":
 							[
+                                {"constraint":"","edge":"TVDIFFERENT" }
 							]
-					}
+                    },
+                    "TVDIFFERENT":{"COMMENT":"SHOW TV is different",
+                        "type":"module", 
+                        "name":"TVDIFFERENT",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                            {"trackname":"track2", "autostep":true, "features":""}
+                        ],                        
+                        "edges":
+                                [
+                                    {"constraint":"","edge":"IVCONTROLLED" }
+                                ]
+                    },
+                    "IVCONTROLLED":{"COMMENT":"SHOW TV is different",
+                        "type":"module", 
+                        "name":"IVCONTROLLED",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                            {"trackname":"track3", "autostep":false, "features":""}
+                        ],                        
+                        "edges":
+                                [
+                                    {"constraint":"","edge":"NEXTSCENE" }
+                                ]
+                    },					                                                
+                    "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                             "type":"module", 
+                             "name":"NEXTSCENE",
+                             "reuse":true,
+                             "actiontracks":		
+                             [
+                             ],                                              
+                             "edges":
+                                    [
+                                        {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                                    ]
+                    }		
 		},		
 			
 		"CModules":
 		{		
-            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-            
-            "NOOP":{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-					{"actionname":"NOOP", "features":""}
-				]
-			}			
-
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 		}		
 	},
 
 	"SScene3":
 	{	
-		"COMMENT":"Today we're going to...",
+		"COMMENT":"Example Experimental designs Introduction...",
 		"type":"animation",
 		"version":"0.1.0",
 	
@@ -372,35 +386,40 @@
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
 			"root":{"COMMENT":"...",
-					"type":"node",
-					"subtype":"module", 
-					"name":"NOOP",
-					 "edges":
+					"type":"module", 
+					"name":"INTRO",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1", "autostep":false, "features":""}
+                    ],                        
+				    "edges":
 							[
 							]
-					}
+				},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                            ]
+                }
 		},		
 			
 		"CModules":
 		{		
-            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-            
-            "NOOP":{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-					{"actionname":"NOOP", "features":""}
-				]
-			}			
-
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 		}		
 	},
 
 	"SScene4":
 	{	
-		"COMMENT":"Today we're going to...",
+		"COMMENT":"Meta-cognitive prompt...",
 		"type":"animation",
 		"version":"0.1.0",
 	
@@ -409,31 +428,80 @@
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
 			"root":{"COMMENT":"...",
-					"type":"node",
-					"subtype":"module", 
-					"name":"NOOP",
-					 "edges":
+					"type":"module", 
+					"name":"INTRO-METACOG-PROMPT",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1", "autostep":false, "features":""}
+                    ],                        
+				    "edges":
 							[
 							]
-					}
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                            ]
+                    }
 		},		
 			
 		"CModules":
 		{		
-            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
-            
-            "NOOP":{
-				"COMMENT":"",
-				"type":"module",
-				"reuse":true,
-				"actiontracks":		
-				[
-					{"actionname":"NOOP", "features":""}
-				]
-			}			
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene5":
+	{	
+		"COMMENT":"Example Setup Instrutions...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+					"type":"module", 
+					"name":"INSTRUCTIONS",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1", "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"trackname":"track1",  "autostep":true, "stepdelay":1500, "features":""},
+                                {"trackname":"track2",  "autostep":true, "stepdelay":1500, "features":""}            
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    }
 
-		}		
-	}
 }
 
 
