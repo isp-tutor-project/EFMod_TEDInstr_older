@@ -14,7 +14,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         //
         
         public $onCreateScene() {     
-            this.setStateValue("sceneComplete", false, "SCN");      
+            this.setSceneValue("sceneComplete", false);      
             this.$updateNav();
         }
 
@@ -53,7 +53,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(nodeId) {
                 default:
-                this.clearValueChanged(CONST.ALL);
                 break;
             }
         }
@@ -73,15 +72,15 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(constrainId) {
                 case "AREA_CHANGED":
-                    result = this.queryValueChanged("selectedArea");
+                    result = !this.testModuleValue("selectedArea", this.SListBox1.selected);
                     break;
 
                 case "TOPIC_CHANGED":
-                    result = this.queryValueChanged("selectedTopic");
+                    result = !this.testModuleValue("selectedTopic", this.SListBox2.selected);
                     break;
 
                 case "VARIABLE_CHANGED":
-                    result = this.queryValueChanged("selectedVariable");
+                    result = !this.testModuleValue("selectedVariable", this.SListBox3.selected);
                     break;
             }
             return result;
@@ -118,14 +117,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            this.setStateValue("sceneComplete", false, "SCN");      
+            this.setSceneValue("sceneComplete", false);      
 
-            if (this.getStateValid(["selectedArea","selectedTopic", "selectedVariable"])) {
+            if (this.queryModuleProp(["selectedArea","selectedTopic", "selectedVariable"])) {
 
-                this.setStateValue("sceneComplete", true, "SCN");                  
+                this.setSceneValue("sceneComplete", true);                  
             }   
 
-            return  this.getStateValue("sceneComplete", "SCN"); 
+            return  this.getSceneValue("sceneComplete"); 
         }
 
 
@@ -135,11 +134,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
                 case "SListBox1":
 
-                    if (!this.testStateValue("selectedArea", this.SListBox1.selected)) {
+                    if (!this.testModuleValue("selectedArea", this.SListBox1.selected)) {
 
-                        this.setStateValue("selectedArea", this.SListBox1.selected);
+                        this.setModuleValue("selectedArea", this.SListBox1.selected);
 
-                        this.setStateValue("selectedTopic", null);
+                        this.setModuleValue("selectedTopic", null);
                         this.SListBox2.initFromDataSource(this.SListBox1.selected.value);
                         this.SListBox3.resetInitState();
 
@@ -149,11 +148,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
                 case "SListBox2":
 
-                    if (!this.testStateValue("selectedTopic", this.SListBox2.selected)) {
+                    if (!this.testModuleValue("selectedTopic", this.SListBox2.selected)) {
 
-                        this.setStateValue("selectedTopic", this.SListBox2.selected);
+                        this.setModuleValue("selectedTopic", this.SListBox2.selected);
 
-                        this.setStateValue("selectedVariable", null);
+                        this.setModuleValue("selectedVariable", null);
                         this.SListBox3.initFromDataSource(this.SListBox2.selected.value);
 
                         this.nextTrack();
@@ -161,9 +160,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     break;
 
                 case "SListBox3":
-                    if (!this.testStateValue("selectedVariable", this.SListBox3.selected)) {
+                    if (!this.testModuleValue("selectedVariable", this.SListBox3.selected)) {
 
-                        this.setStateValue("selectedVariable", this.SListBox3.selected);                        
+                        this.setModuleValue("selectedVariable", this.SListBox3.selected);         
+
                         this.nextTrack();
                     }
                     break;

@@ -1,48 +1,24 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene6" itemID="5b7063a6-00000598" lastModified="1534092448" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene6" itemID="5b8716a6-00000393" lastModified="1535579814">
   <timeline>
     <DOMTimeline name="TC_TScene__Scene6">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
                   <matrix>
-                    <Matrix a="14.0189971923828" d="1.80795288085938" tx="259.05" ty="98.2"/>
+                    <Matrix a="14.0189971923828" d="3.58949279785156" tx="259.05" ty="420.55"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="49.75" y="50.05"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TTEDExpt_type1" name="SExptA">
-                  <matrix>
-                    <Matrix a="3.85836791992188" d="3.85836791992188" tx="433.65" ty="346.3"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50.3" y="50"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TTEDExpt_type1" name="SExptB">
-                  <matrix>
-                    <Matrix a="3.86370849609375" d="3.86370849609375" tx="1101.3" ty="345.8"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50.3" y="50.05"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1">
-                  <matrix>
-                    <Matrix a="8.51898193359375" d="2.96000671386719" tx="534.05" ty="796"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="50.05" y="50"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" useOutlineView="true">
+        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

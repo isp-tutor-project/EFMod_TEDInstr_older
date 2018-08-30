@@ -186,7 +186,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track3", "autostep":false, "features":""}
+                    {"trackname":"track3", "autostep":true, "stepdelay":1500, "features":""}
                 ],                        
                 "edges":
                         [
@@ -231,7 +231,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track6", "autostep":false, "features":""}
+                    {"trackname":"track6", "autostep":true, "stepdelay":1500, "features":""}
                 ],                        
                 "edges":
                         [
@@ -245,10 +245,9 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track7" , "autostep":false, "features":"$FTRS_TV"},
-                    {"trackname":"track7a", "autostep":false, "features":"$FTRS_IV1"},
-                    {"trackname":"track7b", "autostep":false, "features":"$FTRS_IVN"},
-                    {"trackname":"track7b", "autostep":false, "features":"$FTRS_IVLAST"}
+                    {"trackname":"track7" , "autostep":true , "features":"FTR_IV1"},
+                    {"trackname":"track7b", "autostep":false, "features":"FTR_IVN"},
+                    {"trackname":"track7c", "autostep":false, "features":"FTR_IVLAST"}                    
                 ],                        
                 "edges":
                         [
@@ -256,6 +255,7 @@
                             {"constraint":""         ,"edge":"IVALCORRECT" }
                         ]
                 },					
+
 
 
             "IVALWRONG":{"COMMENT":"IV Values Selection wrong...",
@@ -279,11 +279,12 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track9", "autostep":false, "features":""}
+                    {"trackname":"track9", "autostep":true, "stepdelay":500, "features":""}
                 ],                        
                 "edges":
                         [
-                            {"constraint":"","edge":"NEXTSCENE" }
+                            {"constraint":"TABLECOMPLETE","edge":"NEXTSCENE" },
+                            {"constraint":"","edge":"IVALUESELECTION" }
                         ]
                 },					
                                                 
@@ -296,7 +297,7 @@
                      ],                                              
 					 "edges":
 							[
-                                {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
 							]
 					}															
 		},		
@@ -322,38 +323,14 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":false, "features":""}
+                        {"trackname":"track1", "autostep":true, "stepdelay":1500, "features":""},
+                        {"trackname":"track2", "autostep":true, "stepdelay":1500, "features":""},
+                        {"trackname":"track3", "autostep":true, "stepdelay":2500, "features":""}
                     ],                        
 					 "edges":
 							[
-                                {"constraint":"","edge":"TVDIFFERENT" }
+                                {"constraint":"","edge":"NEXTSCENE" }
 							]
-                    },
-                    "TVDIFFERENT":{"COMMENT":"SHOW TV is different",
-                        "type":"module", 
-                        "name":"TVDIFFERENT",
-                        "reuse":true,
-                        "actiontracks":		
-                        [
-                            {"trackname":"track2", "autostep":true, "features":""}
-                        ],                        
-                        "edges":
-                                [
-                                    {"constraint":"","edge":"IVCONTROLLED" }
-                                ]
-                    },
-                    "IVCONTROLLED":{"COMMENT":"SHOW TV is different",
-                        "type":"module", 
-                        "name":"IVCONTROLLED",
-                        "reuse":true,
-                        "actiontracks":		
-                        [
-                            {"trackname":"track3", "autostep":false, "features":""}
-                        ],                        
-                        "edges":
-                                [
-                                    {"constraint":"","edge":"NEXTSCENE" }
-                                ]
                     },					                                                
                     "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
                              "type":"module", 
@@ -364,7 +341,7 @@
                              ],                                              
                              "edges":
                                     [
-                                        {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                                        {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                                     ]
                     }		
 		},		
@@ -391,10 +368,11 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":false, "features":""}
+                        {"trackname":"track1", "autostep":true, "stepdelay":2500, "features":""}
                     ],                        
 				    "edges":
 							[
+                                {"constraint":"","edge":"NEXTSCENE" }
 							]
 				},					                                                
             "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
@@ -406,7 +384,7 @@
                         ],                                              
                         "edges":
                             [
-                                {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                             ]
                 }
 		},		
@@ -433,10 +411,11 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":false, "features":""}
+                        {"trackname":"track1", "autostep":true, "stepdelay":2500, "features":""}
                     ],                        
 				    "edges":
 							[
+                                {"constraint":"","edge":"NEXTSCENE" }
 							]
 					},					                                                
             "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
@@ -448,7 +427,7 @@
                         ],                                              
                         "edges":
                             [
-                                {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                             ]
                     }
 		},		
@@ -474,12 +453,11 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":false, "features":""}
+                        {"trackname":"track1", "autostep":true, "stepdelay":2500, "features":""}
                     ],                        
                     "edges":
 							[
-                                {"trackname":"track1",  "autostep":true, "stepdelay":1500, "features":""},
-                                {"trackname":"track2",  "autostep":true, "stepdelay":1500, "features":""}            
+                                {"constraint":"","edge":"NEXTSCENE" }
 							]
 					},					                                                
             "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
@@ -491,7 +469,49 @@
                         ],                                              
                         "edges":
                             [
-                                {"actionname":"NEXTSCENE", "autostep":false, "features":""}
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene6":
+	{	
+		"COMMENT":"Example Setup Instrutions...",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+					"type":"module", 
+					"name":"INSTRUCTIONS",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1", "autostep":true, "stepdelay":2500, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
                             ]
                     }
 		},		

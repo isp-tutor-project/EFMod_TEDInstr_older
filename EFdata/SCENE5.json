@@ -1,12 +1,9 @@
 {
     "MODULEDATA":"v1.0.0",
-    "SScene1": {
+    "SScene5": {
         "STextBox1": {
-            "$$REF":"$EFL_eftext.S1STextBox1"
-        },
-        "STable1": {
-            "$$REF":"$EFL_eftable.S1STable1",
-            "xname":"STABLE1"            
+            "layoutsource":"$EFL_eftext.STextBox1",
+            "html": "Each experiment set up by some other students might either be a good or a bad experiment."
         }
     }
 }

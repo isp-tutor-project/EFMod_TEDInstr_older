@@ -1,24 +1,48 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene4" itemID="5b6f4d04-00000545" lastModified="1534091894">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene4" itemID="5b87151f-0000037d" lastModified="1535587709">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
   <timeline>
     <DOMTimeline name="TC_TScene__Scene4">
       <layers>
+        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Bitmap 15">
+                  <matrix>
+                    <Matrix a="1.39369201660156" d="1.39369201660156" tx="154" ty="435"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="Layer_2" color="#9933CC">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
                   <matrix>
-                    <Matrix a="14.0189971923828" d="3.58949279785156" tx="259.05" ty="420.55"/>
+                    <Matrix a="14.0189971923828" d="2.31878662109375" tx="259.05" ty="118.2"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="49.75" y="50.05"/>
+                    <Point x="49.75" y="50.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox2">
+                  <matrix>
+                    <Matrix a="10.4194946289063" d="2.62892150878906" tx="619" ty="442.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50" y="50.2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" current="true" isSelected="true" useOutlineView="true">
+        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

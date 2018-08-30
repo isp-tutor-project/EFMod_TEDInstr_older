@@ -26,6 +26,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         $onEnterScene(): void;
         $preExitScene(): void;
         $onExitScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
         $demoInitScene(): void;
         $logScene(): void;
         $rewindScene(): void;
@@ -68,21 +70,28 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene1 {
         [key: string]: any;
+        $IvIndex: number;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
         $preEnterScene(): void;
-        $preExitScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
+        $onExitScene(): void;
         $demoInitScene(): void;
         $logScene(): void;
         $rewindScene(): void;
         $resolveTemplate(templID: string): any;
+        $handleEvent(compID: string): void;
         $nodePreEnter(nodeId: string): void;
         $nodePreExit(nodeId: string): void;
         $nodeAction(actionId: string): void;
         $nodeConstraint(constrainId: string): boolean;
         $cuePoints(trackID: string, cueID: string): void;
         $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
     }
 }
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
@@ -97,6 +106,58 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         $rewindScene(): void;
         $resolveTemplate(templID: string): any;
         $handleEvent(): void;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
+    class SScene2 {
+        [key: string]: any;
+        $preCreateScene(): void;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): any;
+        $handleEvent(compID: string): void;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
+    class SScene3 {
+        [key: string]: any;
+        $preCreateScene(): void;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): any;
+        $handleEvent(compID: string): void;
         $nodePreEnter(nodeId: string): void;
         $nodePreExit(nodeId: string): void;
         $nodeAction(actionId: string): void;

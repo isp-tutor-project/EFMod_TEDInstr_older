@@ -16,7 +16,7 @@
 								"fileid": "0",
 								"SSML": "First select an area of science in which you would like to work",
 								"cues": [],
-								"duration": 3243.4583333333335,
+								"duration": 3126.2083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -34,7 +34,7 @@
 					"html": "<p>Now select a topic within the area {{$EFO_S_A?|name}}</p>",
 					"text": "Now select a topic within the area{{$EFO_S_A?|name}}",
 					"templateRef": {
-						"$EFO_S_A?|name": "$EFM_selectedArea.ontologyKey"
+						"S_A?|name": "$EFM_selectedArea.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -48,13 +48,13 @@
 								"fileid": "0",
 								"SSML": "Now select a topic within the area",
 								"cues": [],
-								"duration": 2186.8333333333335,
+								"duration": 2160.625,
 								"trim": 0,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?|name",
+							"templateVar": "S_A?|name",
 							"SA1name": {
 								"fileid": "1a",
 								"SSML": "Physics and Chemistry",
@@ -67,7 +67,7 @@
 								"fileid": "1b",
 								"SSML": "Heat and Temperature",
 								"cues": [],
-								"duration": 1132.7083333333333,
+								"duration": 1274.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -75,7 +75,7 @@
 								"fileid": "1c",
 								"SSML": "Forces and Motion",
 								"cues": [],
-								"duration": 1087.6666666666667,
+								"duration": 1230.4166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -83,7 +83,7 @@
 								"fileid": "1d",
 								"SSML": "Plant Growth",
 								"cues": [],
-								"duration": 773.1666666666666,
+								"duration": 927.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -109,7 +109,7 @@
 					"html": "<p>Now select a target variable for the topic{{$EFO_S_A?_T?|name}}</p>",
 					"text": "Now select a target variable for the topic{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -123,18 +123,18 @@
 								"fileid": "0",
 								"SSML": "Now select a target variable for the topic",
 								"cues": [],
-								"duration": 2612.25,
+								"duration": 2559.125,
 								"trim": 0,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?|name",
+							"templateVar": "S_A?_T?|name",
 							"SA1T1name": {
 								"fileid": "1a",
 								"SSML": "Crystal Growth",
 								"cues": [],
-								"duration": 875.875,
+								"duration": 988.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -142,7 +142,7 @@
 								"fileid": "1b",
 								"SSML": "Soda-Mint Reaction",
 								"cues": [],
-								"duration": 1312.25,
+								"duration": 1452.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -158,7 +158,7 @@
 								"fileid": "1d",
 								"SSML": "Temperature of a Gas",
 								"cues": [],
-								"duration": 1290,
+								"duration": 1361.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -174,7 +174,7 @@
 								"fileid": "1f",
 								"SSML": "Sinking Objects",
 								"cues": [],
-								"duration": 1177.0833333333333,
+								"duration": 1376.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -182,7 +182,7 @@
 								"fileid": "1g",
 								"SSML": "Flower Reproduction",
 								"cues": [],
-								"duration": 1217.6666666666667,
+								"duration": 1296.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -190,7 +190,7 @@
 								"fileid": "1h",
 								"SSML": "Algae Growth",
 								"cues": [],
-								"duration": 916.9166666666666,
+								"duration": 1028.4583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -217,7 +217,7 @@
 			},
 			"track4": {
 				"en": {
-					"html": "<p>Click Next to continue<break time='200ms'/> or modify your selection before continuing</p>",
+					"html": "<p>Click Next to continue or modify your selection before continuing</p>",
 					"text": "Click Next to continue or modify your selection before continuing",
 					"volume": [
 						1
@@ -263,7 +263,7 @@
 								"fileid": "0",
 								"SSML": "In this table, tap on the one variable that the question is testing in this experiment",
 								"cues": [],
-								"duration": 4659.166666666667,
+								"duration": 4602.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -292,7 +292,7 @@
 								"fileid": "0",
 								"SSML": "Actually, that is not the one variable that you are testing for this experiment. Please try again.",
 								"cues": [],
-								"duration": 6099.375,
+								"duration": 5531.416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -321,7 +321,7 @@
 								"fileid": "0",
 								"SSML": "That’s right! You correctly identified the one variable you are testing for this experiment.",
 								"cues": [],
-								"duration": 5141.333333333333,
+								"duration": 4770.416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -337,20 +337,19 @@
 			"track4": {
 				"en": {
 					"node": "TVALUESELECTION",
-					"html": "Now choose the {{$EFO_S_A?_T?_V?|name}} for each condition that will allow you to see if the {{$EFO_S_A?_T?_V?|name}} affects the {{$EFO_S_A?_T?|name}}.",
-					"text": "Now choose the{{$EFO_S_A?_T?_V?|name}}for each condition that will allow you to see if the{{$EFO_S_A?_T?_V?|name}}affects the{{$EFO_S_A?_T?|name}}.",
+					"html": "Now choose the {{$EFO_S_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_S_A?_T?_V?|name}} affects the, {{$EFO_S_A?_T?|name}}",
+					"text": "Now choose the{{$EFO_S_A?_T?_V?|name}}for each condition that will allow you to see if the,{{$EFO_S_A?_T?_V?|name}}affects the,{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
+						0.7,
 						1,
+						0.7,
 						1,
-						1,
-						1,
-						1,
-						1
+						0.7
 					],
 					"cueSet": "...............................................................",
 					"segments": [
@@ -360,60 +359,60 @@
 								"fileid": "0",
 								"SSML": "Now choose the",
 								"cues": [],
-								"duration": 940.8333333333334,
-								"trim": 0,
+								"duration": 1011.0833333333334,
+								"trim": -20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"templateVar": "S_A?_T?_V?|name",
 							"SA1T1V1name": {
 								"fileid": "1a",
 								"SSML": "Water Temperature",
 								"cues": [],
-								"duration": 1124.875,
+								"duration": 1158.4166666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T1V2name": {
 								"fileid": "1b",
 								"SSML": "Crystal Type",
 								"cues": [],
-								"duration": 846.1666666666666,
+								"duration": 936.5416666666666,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T1V3name": {
 								"fileid": "1c",
 								"SSML": "Seed Crystal Size",
 								"cues": [],
-								"duration": 1392.375,
+								"duration": 1503.5,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T1V4name": {
 								"fileid": "1d",
 								"SSML": "Type of String",
 								"cues": [],
-								"duration": 809.75,
+								"duration": 909.75,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2V1name": {
 								"fileid": "1e",
 								"SSML": "Type of Sweetener",
 								"cues": [],
-								"duration": 983.875,
+								"duration": 1053,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2V2name": {
 								"fileid": "1f",
 								"SSML": "Amount of Caffeine",
 								"cues": [],
-								"duration": 1027.7916666666667,
+								"duration": 1170.25,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2V3name": {
 								"fileid": "1g",
@@ -421,7 +420,7 @@
 								"cues": [],
 								"duration": 957.7083333333334,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2V4name": {
 								"fileid": "1h",
@@ -429,7 +428,7 @@
 								"cues": [],
 								"duration": 1349.3333333333333,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1V1name": {
 								"fileid": "1i",
@@ -437,23 +436,23 @@
 								"cues": [],
 								"duration": 1428.3333333333333,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1V2name": {
 								"fileid": "1j",
 								"SSML": "Initial Water Temperature",
 								"cues": [],
-								"duration": 1563.0416666666667,
+								"duration": 1595.0833333333333,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1V3name": {
 								"fileid": "1k",
 								"SSML": "Pattern on Glass",
 								"cues": [],
-								"duration": 1086.9166666666667,
+								"duration": 1203.5416666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1V4name": {
 								"fileid": "1l",
@@ -461,7 +460,7 @@
 								"cues": [],
 								"duration": 1023.75,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2V1name": {
 								"fileid": "1m",
@@ -469,7 +468,7 @@
 								"cues": [],
 								"duration": 908.8333333333334,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2V2name": {
 								"fileid": "1n",
@@ -477,23 +476,23 @@
 								"cues": [],
 								"duration": 1107.4166666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2V3name": {
 								"fileid": "1o",
 								"SSML": "Amount of Sunlight",
 								"cues": [],
-								"duration": 1055.4166666666667,
+								"duration": 1189.6666666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2V4name": {
 								"fileid": "1p",
 								"SSML": "Type of Chair",
 								"cues": [],
-								"duration": 804.4166666666666,
+								"duration": 846.3333333333334,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1V1name": {
 								"fileid": "1q",
@@ -501,7 +500,7 @@
 								"cues": [],
 								"duration": 555.5833333333334,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1V2name": {
 								"fileid": "1r",
@@ -509,15 +508,15 @@
 								"cues": [],
 								"duration": 892.5833333333334,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1V3name": {
 								"fileid": "1s",
 								"SSML": "Starting Position",
 								"cues": [],
-								"duration": 1055.75,
+								"duration": 1203.2916666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1V4name": {
 								"fileid": "1t",
@@ -525,7 +524,7 @@
 								"cues": [],
 								"duration": 971.375,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2V1name": {
 								"fileid": "1u",
@@ -533,31 +532,31 @@
 								"cues": [],
 								"duration": 1111.5,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2V2name": {
 								"fileid": "1v",
 								"SSML": "Shape of Object",
 								"cues": [],
-								"duration": 1023.5416666666666,
+								"duration": 1148.6666666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2V3name": {
 								"fileid": "1w",
 								"SSML": "Volume of Object",
 								"cues": [],
-								"duration": 1098.2916666666667,
+								"duration": 1239.8333333333333,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2V4name": {
 								"fileid": "1x",
 								"SSML": "Density of Object",
 								"cues": [],
-								"duration": 1184.75,
+								"duration": 1342.3333333333333,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1V1name": {
 								"fileid": "1y",
@@ -565,31 +564,31 @@
 								"cues": [],
 								"duration": 997.3333333333334,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1V2name": {
 								"fileid": "1z",
 								"SSML": "Amount of Sunlight",
 								"cues": [],
-								"duration": 1055.4166666666667,
+								"duration": 1199.6666666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1V3name": {
 								"fileid": "1Ba",
 								"SSML": "Amount of Fertilizer",
 								"cues": [],
-								"duration": 1255,
+								"duration": 1306.3333333333333,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1V4name": {
 								"fileid": "1Bb",
 								"SSML": "Type of Water",
 								"cues": [],
-								"duration": 847.1666666666666,
+								"duration": 895.375,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2V1name": {
 								"fileid": "1Bc",
@@ -597,7 +596,7 @@
 								"cues": [],
 								"duration": 1124.875,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2V2name": {
 								"fileid": "1Bd",
@@ -605,7 +604,7 @@
 								"cues": [],
 								"duration": 962.25,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2V3name": {
 								"fileid": "1Be",
@@ -613,37 +612,37 @@
 								"cues": [],
 								"duration": 1494.9166666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2V4name": {
 								"fileid": "1Bf",
 								"SSML": "Sunlight Exposure",
 								"cues": [],
-								"duration": 1277.4583333333333,
+								"duration": 1349.4166666666667,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							}
 						},
 						{
 							"templateVar": "__novar",
 							"__novar": {
 								"fileid": "2",
-								"SSML": "for each condition that will allow you to see if the",
+								"SSML": "for each condition that will allow you to see if the,",
 								"cues": [],
-								"duration": 2405.0416666666665,
-								"trim": 0,
+								"duration": 2572.7083333333335,
+								"trim": -20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"templateVar": "S_A?_T?_V?|name",
 							"SA1T1V1name": {
 								"fileid": "3a",
 								"SSML": "Water Temperature",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T1V2name": {
 								"fileid": "3b",
@@ -651,7 +650,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T1V3name": {
 								"fileid": "3c",
@@ -659,7 +658,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T1V4name": {
 								"fileid": "3d",
@@ -667,7 +666,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2V1name": {
 								"fileid": "3e",
@@ -675,7 +674,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2V2name": {
 								"fileid": "3f",
@@ -683,7 +682,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2V3name": {
 								"fileid": "3g",
@@ -691,7 +690,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2V4name": {
 								"fileid": "3h",
@@ -699,7 +698,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1V1name": {
 								"fileid": "3i",
@@ -707,7 +706,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1V2name": {
 								"fileid": "3j",
@@ -715,7 +714,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1V3name": {
 								"fileid": "3k",
@@ -723,7 +722,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1V4name": {
 								"fileid": "3l",
@@ -731,7 +730,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2V1name": {
 								"fileid": "3m",
@@ -739,7 +738,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2V2name": {
 								"fileid": "3n",
@@ -747,7 +746,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2V3name": {
 								"fileid": "3o",
@@ -755,7 +754,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2V4name": {
 								"fileid": "3p",
@@ -763,7 +762,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1V1name": {
 								"fileid": "3q",
@@ -771,7 +770,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1V2name": {
 								"fileid": "3r",
@@ -779,7 +778,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1V3name": {
 								"fileid": "3s",
@@ -787,7 +786,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1V4name": {
 								"fileid": "3t",
@@ -795,7 +794,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2V1name": {
 								"fileid": "3u",
@@ -803,7 +802,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2V2name": {
 								"fileid": "3v",
@@ -811,7 +810,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2V3name": {
 								"fileid": "3w",
@@ -819,7 +818,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2V4name": {
 								"fileid": "3x",
@@ -827,7 +826,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1V1name": {
 								"fileid": "3y",
@@ -835,7 +834,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1V2name": {
 								"fileid": "3z",
@@ -843,7 +842,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1V3name": {
 								"fileid": "3Ba",
@@ -851,7 +850,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1V4name": {
 								"fileid": "3Bb",
@@ -859,7 +858,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2V1name": {
 								"fileid": "3Bc",
@@ -867,7 +866,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2V2name": {
 								"fileid": "3Bd",
@@ -875,7 +874,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2V3name": {
 								"fileid": "3Be",
@@ -883,7 +882,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2V4name": {
 								"fileid": "3Bf",
@@ -891,14 +890,14 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							}
 						},
 						{
 							"templateVar": "__novar",
 							"__novar": {
 								"fileid": "4",
-								"SSML": "affects the",
+								"SSML": "affects the,",
 								"cues": [],
 								"duration": 903.4583333333334,
 								"trim": 0,
@@ -906,14 +905,14 @@
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?|name",
+							"templateVar": "S_A?_T?|name",
 							"SA1T1name": {
 								"fileid": "5a",
 								"SSML": "Crystal Growth",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA1T2name": {
 								"fileid": "5b",
@@ -921,7 +920,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T1name": {
 								"fileid": "5c",
@@ -929,7 +928,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA2T2name": {
 								"fileid": "5d",
@@ -937,7 +936,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T1name": {
 								"fileid": "5e",
@@ -945,7 +944,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA3T2name": {
 								"fileid": "5f",
@@ -953,7 +952,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T1name": {
 								"fileid": "5g",
@@ -961,7 +960,7 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							},
 							"SA4T2name": {
 								"fileid": "5h",
@@ -969,27 +968,15 @@
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "__novar",
-							"__novar": {
-								"fileid": "6",
-								"SSML": ".",
-								"cues": [],
-								"duration": 407.9583333333333,
-								"trim": 0,
-								"volume": 1
+								"volume": 0.7
 							}
 						}
 					],
 					"timedSet": [],
 					"trim": [
+						-20,
 						0,
-						0,
-						0,
-						0,
+						-20,
 						0,
 						0,
 						0
@@ -1058,7 +1045,7 @@
 								"fileid": "0",
 								"SSML": "Actually, that is incorrect. Please try again.",
 								"cues": [],
-								"duration": 3378.0833333333335,
+								"duration": 2917.1666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1103,12 +1090,16 @@
 			"track7": {
 				"en": {
 					"node": "IVALUESELECTIONINTRO",
-					"html": "Now you must decide how to set up the other variables in this experiment.<break time='400ms'/>Let’s start with the {{$EFO_S_A?_T?_V?|name}}.",
-					"text": "Now you must decide how to set up the other variables in this experiment.Let’s start with the{{$EFO_S_A?_T?_V?|name}}.",
+					"html": "Now you must decide how to set up the other variables in this experiment. Let’s start with the {{$EFO_S_A?_T?_V?|name}}.  which values would you use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
+					"text": "Now you must decide how to set up the other variables in this experiment. Let’s start with the{{$EFO_S_A?_T?_V?|name}}. which values would you use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey"
+						"S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
+						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
+						1,
+						1,
+						1,
 						1,
 						1,
 						1
@@ -1119,15 +1110,15 @@
 							"templateVar": "__novar",
 							"__novar": {
 								"fileid": "0",
-								"SSML": "Now you must decide how to set up the other variables in this experiment.Let’s start with the",
+								"SSML": "Now you must decide how to set up the other variables in this experiment. Let’s start with the",
 								"cues": [],
-								"duration": 4924.541666666667,
+								"duration": 5258.25,
 								"trim": 0,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"templateVar": "S_A?_T?_V?|name",
 							"SA1T1V1name": {
 								"fileid": "1a",
 								"SSML": "Water Temperature",
@@ -1389,361 +1380,15 @@
 							"templateVar": "__novar",
 							"__novar": {
 								"fileid": "2",
-								"SSML": ".",
+								"SSML": ". which values would you use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 506.0833333333333,
-								"trim": 0,
-								"volume": 1
-							}
-						}
-					],
-					"timedSet": [],
-					"trim": [
-						0,
-						0,
-						0
-					],
-					"templates": {
-						"S_A?_T?_V?|name": {
-							"SA1T1V1name": "Water Temperature",
-							"SA1T1V2name": "Crystal Type",
-							"SA1T1V3name": "Seed Crystal Size",
-							"SA1T1V4name": "Type of String",
-							"SA1T2V1name": "Type of Sweetener",
-							"SA1T2V2name": "Amount of Caffeine",
-							"SA1T2V3name": "Texture of Mint",
-							"SA1T2V4name": "Amount of CO2",
-							"SA2T1V1name": "Initial Ice Temperature",
-							"SA2T1V2name": "Initial Water Temperature",
-							"SA2T1V3name": "Pattern on Glass",
-							"SA2T1V4name": "Shape of Glass",
-							"SA2T2V1name": "Balloon Color",
-							"SA2T2V2name": "Balloon Material",
-							"SA2T2V3name": "Amount of Sunlight",
-							"SA2T2V4name": "Type of Chair",
-							"SA3T1V1name": "Slope",
-							"SA3T1V2name": "Color of Ball",
-							"SA3T1V3name": "Starting Position",
-							"SA3T1V4name": "Ramp Surface",
-							"SA3T2V1name": "Density of Water",
-							"SA3T2V2name": "Shape of Object",
-							"SA3T2V3name": "Volume of Object",
-							"SA3T2V4name": "Density of Object",
-							"SA4T1V1name": "Number of Bees",
-							"SA4T1V2name": "Amount of Sunlight",
-							"SA4T1V3name": "Amount of Fertilizer",
-							"SA4T1V4name": "Type of Water",
-							"SA4T2V1name": "Water Temperature",
-							"SA4T2V2name": "Amount of Music",
-							"SA4T2V3name": "CO2 in Water",
-							"SA4T2V4name": "Sunlight Exposure"
-						}
-					}
-				}
-			},
-			"track7a": {
-				"en": {
-					"node": "IVALUESELECTION",
-					"html": "Select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}.",
-					"text": "Select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}.",
-					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
-					},
-					"volume": [
-						1,
-						1,
-						1,
-						1,
-						1,
-						1,
-						1
-					],
-					"cueSet": "...............................................................",
-					"segments": [
-						{
-							"templateVar": "__novar",
-							"__novar": {
-								"fileid": "0",
-								"SSML": "Select which",
-								"cues": [],
-								"duration": 933.0833333333334,
+								"duration": 3564.0416666666665,
 								"trim": 0,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
-							"SA1T1V1name": {
-								"fileid": "1a",
-								"SSML": "Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V2name": {
-								"fileid": "1b",
-								"SSML": "Crystal Type",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V3name": {
-								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V4name": {
-								"fileid": "1d",
-								"SSML": "Type of String",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V1name": {
-								"fileid": "1e",
-								"SSML": "Type of Sweetener",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V2name": {
-								"fileid": "1f",
-								"SSML": "Amount of Caffeine",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V3name": {
-								"fileid": "1g",
-								"SSML": "Texture of Mint",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V4name": {
-								"fileid": "1h",
-								"SSML": "Amount of CO2",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V1name": {
-								"fileid": "1i",
-								"SSML": "Initial Ice Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V2name": {
-								"fileid": "1j",
-								"SSML": "Initial Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V3name": {
-								"fileid": "1k",
-								"SSML": "Pattern on Glass",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V4name": {
-								"fileid": "1l",
-								"SSML": "Shape of Glass",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V1name": {
-								"fileid": "1m",
-								"SSML": "Balloon Color",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V2name": {
-								"fileid": "1n",
-								"SSML": "Balloon Material",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V3name": {
-								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V4name": {
-								"fileid": "1p",
-								"SSML": "Type of Chair",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V1name": {
-								"fileid": "1q",
-								"SSML": "Slope",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V2name": {
-								"fileid": "1r",
-								"SSML": "Color of Ball",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V3name": {
-								"fileid": "1s",
-								"SSML": "Starting Position",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V4name": {
-								"fileid": "1t",
-								"SSML": "Ramp Surface",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V1name": {
-								"fileid": "1u",
-								"SSML": "Density of Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V2name": {
-								"fileid": "1v",
-								"SSML": "Shape of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V3name": {
-								"fileid": "1w",
-								"SSML": "Volume of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V4name": {
-								"fileid": "1x",
-								"SSML": "Density of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V1name": {
-								"fileid": "1y",
-								"SSML": "Number of Bees",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V2name": {
-								"fileid": "1z",
-								"SSML": "Amount of Sunlight",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V3name": {
-								"fileid": "1Ba",
-								"SSML": "Amount of Fertilizer",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V4name": {
-								"fileid": "1Bb",
-								"SSML": "Type of Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V1name": {
-								"fileid": "1Bc",
-								"SSML": "Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V2name": {
-								"fileid": "1Bd",
-								"SSML": "Amount of Music",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V3name": {
-								"fileid": "1Be",
-								"SSML": "CO2 in Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V4name": {
-								"fileid": "1Bf",
-								"SSML": "Sunlight Exposure",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "__novar",
-							"__novar": {
-								"fileid": "2",
-								"SSML": "you would use for each condition in order to find out whether the",
-								"cues": [],
-								"duration": 3042.625,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"templateVar": "S_A?_T?_V?|name",
 							"SA1T1V1name": {
 								"fileid": "3a",
 								"SSML": "Water Temperature",
@@ -2013,7 +1658,7 @@
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?|name",
+							"templateVar": "S_A?_T?|name",
 							"SA1T1name": {
 								"fileid": "5a",
 								"SSML": "Crystal Growth",
@@ -2078,22 +1723,10 @@
 								"trim": 0,
 								"volume": 1
 							}
-						},
-						{
-							"templateVar": "__novar",
-							"__novar": {
-								"fileid": "6",
-								"SSML": ".",
-								"cues": [],
-								"duration": 407.9583333333333,
-								"trim": 0,
-								"volume": 1
-							}
 						}
 					],
 					"timedSet": [],
 					"trim": [
-						0,
 						0,
 						0,
 						0,
@@ -2152,14 +1785,13 @@
 			"track7b": {
 				"en": {
 					"node": "IVALUESELECTION",
-					"html": "Now select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}.",
-					"text": "Now select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}.",
+					"html": "Now select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
+					"text": "Now select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
+						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
-						1,
 						1,
 						1,
 						1,
@@ -2176,720 +1808,12 @@
 								"SSML": "Now select which",
 								"cues": [],
 								"duration": 1195.9166666666667,
-								"trim": 0,
+								"trim": 20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
-							"SA1T1V1name": {
-								"fileid": "1a",
-								"SSML": "Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V2name": {
-								"fileid": "1b",
-								"SSML": "Crystal Type",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V3name": {
-								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V4name": {
-								"fileid": "1d",
-								"SSML": "Type of String",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V1name": {
-								"fileid": "1e",
-								"SSML": "Type of Sweetener",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V2name": {
-								"fileid": "1f",
-								"SSML": "Amount of Caffeine",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V3name": {
-								"fileid": "1g",
-								"SSML": "Texture of Mint",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V4name": {
-								"fileid": "1h",
-								"SSML": "Amount of CO2",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V1name": {
-								"fileid": "1i",
-								"SSML": "Initial Ice Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V2name": {
-								"fileid": "1j",
-								"SSML": "Initial Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V3name": {
-								"fileid": "1k",
-								"SSML": "Pattern on Glass",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V4name": {
-								"fileid": "1l",
-								"SSML": "Shape of Glass",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V1name": {
-								"fileid": "1m",
-								"SSML": "Balloon Color",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V2name": {
-								"fileid": "1n",
-								"SSML": "Balloon Material",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V3name": {
-								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V4name": {
-								"fileid": "1p",
-								"SSML": "Type of Chair",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V1name": {
-								"fileid": "1q",
-								"SSML": "Slope",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V2name": {
-								"fileid": "1r",
-								"SSML": "Color of Ball",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V3name": {
-								"fileid": "1s",
-								"SSML": "Starting Position",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V4name": {
-								"fileid": "1t",
-								"SSML": "Ramp Surface",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V1name": {
-								"fileid": "1u",
-								"SSML": "Density of Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V2name": {
-								"fileid": "1v",
-								"SSML": "Shape of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V3name": {
-								"fileid": "1w",
-								"SSML": "Volume of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V4name": {
-								"fileid": "1x",
-								"SSML": "Density of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V1name": {
-								"fileid": "1y",
-								"SSML": "Number of Bees",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V2name": {
-								"fileid": "1z",
-								"SSML": "Amount of Sunlight",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V3name": {
-								"fileid": "1Ba",
-								"SSML": "Amount of Fertilizer",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V4name": {
-								"fileid": "1Bb",
-								"SSML": "Type of Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V1name": {
-								"fileid": "1Bc",
-								"SSML": "Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V2name": {
-								"fileid": "1Bd",
-								"SSML": "Amount of Music",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V3name": {
-								"fileid": "1Be",
-								"SSML": "CO2 in Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V4name": {
-								"fileid": "1Bf",
-								"SSML": "Sunlight Exposure",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "__novar",
-							"__novar": {
-								"fileid": "2",
-								"SSML": "you would use for each condition in order to find out whether the",
-								"cues": [],
-								"duration": 3178.375,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
-							"SA1T1V1name": {
-								"fileid": "3a",
-								"SSML": "Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V2name": {
-								"fileid": "3b",
-								"SSML": "Crystal Type",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V3name": {
-								"fileid": "3c",
-								"SSML": "Seed Crystal Size",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V4name": {
-								"fileid": "3d",
-								"SSML": "Type of String",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V1name": {
-								"fileid": "3e",
-								"SSML": "Type of Sweetener",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V2name": {
-								"fileid": "3f",
-								"SSML": "Amount of Caffeine",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V3name": {
-								"fileid": "3g",
-								"SSML": "Texture of Mint",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V4name": {
-								"fileid": "3h",
-								"SSML": "Amount of CO2",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V1name": {
-								"fileid": "3i",
-								"SSML": "Initial Ice Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V2name": {
-								"fileid": "3j",
-								"SSML": "Initial Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V3name": {
-								"fileid": "3k",
-								"SSML": "Pattern on Glass",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V4name": {
-								"fileid": "3l",
-								"SSML": "Shape of Glass",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V1name": {
-								"fileid": "3m",
-								"SSML": "Balloon Color",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V2name": {
-								"fileid": "3n",
-								"SSML": "Balloon Material",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V3name": {
-								"fileid": "3o",
-								"SSML": "Amount of Sunlight",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V4name": {
-								"fileid": "3p",
-								"SSML": "Type of Chair",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V1name": {
-								"fileid": "3q",
-								"SSML": "Slope",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V2name": {
-								"fileid": "3r",
-								"SSML": "Color of Ball",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V3name": {
-								"fileid": "3s",
-								"SSML": "Starting Position",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V4name": {
-								"fileid": "3t",
-								"SSML": "Ramp Surface",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V1name": {
-								"fileid": "3u",
-								"SSML": "Density of Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V2name": {
-								"fileid": "3v",
-								"SSML": "Shape of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V3name": {
-								"fileid": "3w",
-								"SSML": "Volume of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V4name": {
-								"fileid": "3x",
-								"SSML": "Density of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V1name": {
-								"fileid": "3y",
-								"SSML": "Number of Bees",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V2name": {
-								"fileid": "3z",
-								"SSML": "Amount of Sunlight",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V3name": {
-								"fileid": "3Ba",
-								"SSML": "Amount of Fertilizer",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V4name": {
-								"fileid": "3Bb",
-								"SSML": "Type of Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V1name": {
-								"fileid": "3Bc",
-								"SSML": "Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V2name": {
-								"fileid": "3Bd",
-								"SSML": "Amount of Music",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V3name": {
-								"fileid": "3Be",
-								"SSML": "CO2 in Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V4name": {
-								"fileid": "3Bf",
-								"SSML": "Sunlight Exposure",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "__novar",
-							"__novar": {
-								"fileid": "4",
-								"SSML": "has an effect on the",
-								"cues": [],
-								"duration": 1153.5,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "$EFO_S_A?_T?|name",
-							"SA1T1name": {
-								"fileid": "5a",
-								"SSML": "Crystal Growth",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2name": {
-								"fileid": "5b",
-								"SSML": "Soda-Mint Reaction",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1name": {
-								"fileid": "5c",
-								"SSML": "Melting of Ice",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2name": {
-								"fileid": "5d",
-								"SSML": "Temperature of a Gas",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1name": {
-								"fileid": "5e",
-								"SSML": "Inclined Planes",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2name": {
-								"fileid": "5f",
-								"SSML": "Sinking Objects",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1name": {
-								"fileid": "5g",
-								"SSML": "Flower Reproduction",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2name": {
-								"fileid": "5h",
-								"SSML": "Algae Growth",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "__novar",
-							"__novar": {
-								"fileid": "6",
-								"SSML": ".",
-								"cues": [],
-								"duration": 506.0833333333333,
-								"trim": 0,
-								"volume": 1
-							}
-						}
-					],
-					"timedSet": [],
-					"trim": [
-						0,
-						0,
-						0,
-						0,
-						0,
-						0,
-						0
-					],
-					"templates": {
-						"S_A?_T?_V?|name": {
-							"SA1T1V1name": "Water Temperature",
-							"SA1T1V2name": "Crystal Type",
-							"SA1T1V3name": "Seed Crystal Size",
-							"SA1T1V4name": "Type of String",
-							"SA1T2V1name": "Type of Sweetener",
-							"SA1T2V2name": "Amount of Caffeine",
-							"SA1T2V3name": "Texture of Mint",
-							"SA1T2V4name": "Amount of CO2",
-							"SA2T1V1name": "Initial Ice Temperature",
-							"SA2T1V2name": "Initial Water Temperature",
-							"SA2T1V3name": "Pattern on Glass",
-							"SA2T1V4name": "Shape of Glass",
-							"SA2T2V1name": "Balloon Color",
-							"SA2T2V2name": "Balloon Material",
-							"SA2T2V3name": "Amount of Sunlight",
-							"SA2T2V4name": "Type of Chair",
-							"SA3T1V1name": "Slope",
-							"SA3T1V2name": "Color of Ball",
-							"SA3T1V3name": "Starting Position",
-							"SA3T1V4name": "Ramp Surface",
-							"SA3T2V1name": "Density of Water",
-							"SA3T2V2name": "Shape of Object",
-							"SA3T2V3name": "Volume of Object",
-							"SA3T2V4name": "Density of Object",
-							"SA4T1V1name": "Number of Bees",
-							"SA4T1V2name": "Amount of Sunlight",
-							"SA4T1V3name": "Amount of Fertilizer",
-							"SA4T1V4name": "Type of Water",
-							"SA4T2V1name": "Water Temperature",
-							"SA4T2V2name": "Amount of Music",
-							"SA4T2V3name": "CO2 in Water",
-							"SA4T2V4name": "Sunlight Exposure"
-						},
-						"S_A?_T?|name": {
-							"SA1T1name": "Crystal Growth",
-							"SA1T2name": "Soda-Mint Reaction",
-							"SA2T1name": "Melting of Ice",
-							"SA2T2name": "Temperature of a Gas",
-							"SA3T1name": "Inclined Planes",
-							"SA3T2name": "Sinking Objects",
-							"SA4T1name": "Flower Reproduction",
-							"SA4T2name": "Algae Growth"
-						}
-					}
-				}
-			},
-			"track7c": {
-				"en": {
-					"node": "IVALUESELECTION",
-					"html": "Finally select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}.",
-					"text": "Finally select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}.",
-					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
-					},
-					"volume": [
-						1,
-						1,
-						1,
-						1,
-						1,
-						1,
-						1
-					],
-					"cueSet": "...............................................................",
-					"segments": [
-						{
-							"templateVar": "__novar",
-							"__novar": {
-								"fileid": "0",
-								"SSML": "Finally select which",
-								"cues": [],
-								"duration": 1460.4166666666667,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"templateVar": "S_A?_T?_V?|name",
 							"SA1T1V1name": {
 								"fileid": "1a",
 								"SSML": "Water Temperature",
@@ -3154,12 +2078,12 @@
 								"SSML": "you would use for each condition in order to find out whether the",
 								"cues": [],
 								"duration": 3042.625,
-								"trim": 0,
+								"trim": 20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"templateVar": "S_A?_T?_V?|name",
 							"SA1T1V1name": {
 								"fileid": "3a",
 								"SSML": "Water Temperature",
@@ -3424,12 +2348,12 @@
 								"SSML": "has an effect on the",
 								"cues": [],
 								"duration": 1244.1666666666667,
-								"trim": 0,
+								"trim": 20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?|name",
+							"templateVar": "S_A?_T?|name",
 							"SA1T1name": {
 								"fileid": "5a",
 								"SSML": "Crystal Growth",
@@ -3494,14 +2418,698 @@
 								"trim": 0,
 								"volume": 1
 							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						20,
+						0,
+						20,
+						0,
+						20,
+						0
+					],
+					"templates": {
+						"S_A?_T?_V?|name": {
+							"SA1T1V1name": "Water Temperature",
+							"SA1T1V2name": "Crystal Type",
+							"SA1T1V3name": "Seed Crystal Size",
+							"SA1T1V4name": "Type of String",
+							"SA1T2V1name": "Type of Sweetener",
+							"SA1T2V2name": "Amount of Caffeine",
+							"SA1T2V3name": "Texture of Mint",
+							"SA1T2V4name": "Amount of CO2",
+							"SA2T1V1name": "Initial Ice Temperature",
+							"SA2T1V2name": "Initial Water Temperature",
+							"SA2T1V3name": "Pattern on Glass",
+							"SA2T1V4name": "Shape of Glass",
+							"SA2T2V1name": "Balloon Color",
+							"SA2T2V2name": "Balloon Material",
+							"SA2T2V3name": "Amount of Sunlight",
+							"SA2T2V4name": "Type of Chair",
+							"SA3T1V1name": "Slope",
+							"SA3T1V2name": "Color of Ball",
+							"SA3T1V3name": "Starting Position",
+							"SA3T1V4name": "Ramp Surface",
+							"SA3T2V1name": "Density of Water",
+							"SA3T2V2name": "Shape of Object",
+							"SA3T2V3name": "Volume of Object",
+							"SA3T2V4name": "Density of Object",
+							"SA4T1V1name": "Number of Bees",
+							"SA4T1V2name": "Amount of Sunlight",
+							"SA4T1V3name": "Amount of Fertilizer",
+							"SA4T1V4name": "Type of Water",
+							"SA4T2V1name": "Water Temperature",
+							"SA4T2V2name": "Amount of Music",
+							"SA4T2V3name": "CO2 in Water",
+							"SA4T2V4name": "Sunlight Exposure"
+						},
+						"S_A?_T?|name": {
+							"SA1T1name": "Crystal Growth",
+							"SA1T2name": "Soda-Mint Reaction",
+							"SA2T1name": "Melting of Ice",
+							"SA2T2name": "Temperature of a Gas",
+							"SA3T1name": "Inclined Planes",
+							"SA3T2name": "Sinking Objects",
+							"SA4T1name": "Flower Reproduction",
+							"SA4T2name": "Algae Growth"
+						}
+					}
+				}
+			},
+			"track7c": {
+				"en": {
+					"node": "IVALUESELECTION",
+					"html": "Finally select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
+					"text": "Finally select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
+					"templateRef": {
+						"S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
+						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1,
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "0",
+								"SSML": "Finally select which",
+								"cues": [],
+								"duration": 1460.4166666666667,
+								"trim": 20,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "S_A?_T?_V?|name",
+							"SA1T1V1name": {
+								"fileid": "1a",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V2name": {
+								"fileid": "1b",
+								"SSML": "Crystal Type",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V3name": {
+								"fileid": "1c",
+								"SSML": "Seed Crystal Size",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V4name": {
+								"fileid": "1d",
+								"SSML": "Type of String",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V1name": {
+								"fileid": "1e",
+								"SSML": "Type of Sweetener",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V2name": {
+								"fileid": "1f",
+								"SSML": "Amount of Caffeine",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V3name": {
+								"fileid": "1g",
+								"SSML": "Texture of Mint",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V4name": {
+								"fileid": "1h",
+								"SSML": "Amount of CO2",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V1name": {
+								"fileid": "1i",
+								"SSML": "Initial Ice Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V2name": {
+								"fileid": "1j",
+								"SSML": "Initial Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V3name": {
+								"fileid": "1k",
+								"SSML": "Pattern on Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V4name": {
+								"fileid": "1l",
+								"SSML": "Shape of Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V1name": {
+								"fileid": "1m",
+								"SSML": "Balloon Color",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V2name": {
+								"fileid": "1n",
+								"SSML": "Balloon Material",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V3name": {
+								"fileid": "1o",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V4name": {
+								"fileid": "1p",
+								"SSML": "Type of Chair",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V1name": {
+								"fileid": "1q",
+								"SSML": "Slope",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V2name": {
+								"fileid": "1r",
+								"SSML": "Color of Ball",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V3name": {
+								"fileid": "1s",
+								"SSML": "Starting Position",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V4name": {
+								"fileid": "1t",
+								"SSML": "Ramp Surface",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V1name": {
+								"fileid": "1u",
+								"SSML": "Density of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V2name": {
+								"fileid": "1v",
+								"SSML": "Shape of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V3name": {
+								"fileid": "1w",
+								"SSML": "Volume of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V4name": {
+								"fileid": "1x",
+								"SSML": "Density of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V1name": {
+								"fileid": "1y",
+								"SSML": "Number of Bees",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V2name": {
+								"fileid": "1z",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V3name": {
+								"fileid": "1Ba",
+								"SSML": "Amount of Fertilizer",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V4name": {
+								"fileid": "1Bb",
+								"SSML": "Type of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V1name": {
+								"fileid": "1Bc",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V2name": {
+								"fileid": "1Bd",
+								"SSML": "Amount of Music",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V3name": {
+								"fileid": "1Be",
+								"SSML": "CO2 in Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V4name": {
+								"fileid": "1Bf",
+								"SSML": "Sunlight Exposure",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
 						},
 						{
 							"templateVar": "__novar",
 							"__novar": {
-								"fileid": "6",
-								"SSML": ".",
+								"fileid": "2",
+								"SSML": "you would use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 506.0833333333333,
+								"duration": 3042.625,
+								"trim": 20,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "S_A?_T?_V?|name",
+							"SA1T1V1name": {
+								"fileid": "3a",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V2name": {
+								"fileid": "3b",
+								"SSML": "Crystal Type",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V3name": {
+								"fileid": "3c",
+								"SSML": "Seed Crystal Size",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V4name": {
+								"fileid": "3d",
+								"SSML": "Type of String",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V1name": {
+								"fileid": "3e",
+								"SSML": "Type of Sweetener",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V2name": {
+								"fileid": "3f",
+								"SSML": "Amount of Caffeine",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V3name": {
+								"fileid": "3g",
+								"SSML": "Texture of Mint",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V4name": {
+								"fileid": "3h",
+								"SSML": "Amount of CO2",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V1name": {
+								"fileid": "3i",
+								"SSML": "Initial Ice Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V2name": {
+								"fileid": "3j",
+								"SSML": "Initial Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V3name": {
+								"fileid": "3k",
+								"SSML": "Pattern on Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V4name": {
+								"fileid": "3l",
+								"SSML": "Shape of Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V1name": {
+								"fileid": "3m",
+								"SSML": "Balloon Color",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V2name": {
+								"fileid": "3n",
+								"SSML": "Balloon Material",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V3name": {
+								"fileid": "3o",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V4name": {
+								"fileid": "3p",
+								"SSML": "Type of Chair",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V1name": {
+								"fileid": "3q",
+								"SSML": "Slope",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V2name": {
+								"fileid": "3r",
+								"SSML": "Color of Ball",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V3name": {
+								"fileid": "3s",
+								"SSML": "Starting Position",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V4name": {
+								"fileid": "3t",
+								"SSML": "Ramp Surface",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V1name": {
+								"fileid": "3u",
+								"SSML": "Density of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V2name": {
+								"fileid": "3v",
+								"SSML": "Shape of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V3name": {
+								"fileid": "3w",
+								"SSML": "Volume of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V4name": {
+								"fileid": "3x",
+								"SSML": "Density of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V1name": {
+								"fileid": "3y",
+								"SSML": "Number of Bees",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V2name": {
+								"fileid": "3z",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V3name": {
+								"fileid": "3Ba",
+								"SSML": "Amount of Fertilizer",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V4name": {
+								"fileid": "3Bb",
+								"SSML": "Type of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V1name": {
+								"fileid": "3Bc",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V2name": {
+								"fileid": "3Bd",
+								"SSML": "Amount of Music",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V3name": {
+								"fileid": "3Be",
+								"SSML": "CO2 in Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V4name": {
+								"fileid": "3Bf",
+								"SSML": "Sunlight Exposure",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "4",
+								"SSML": "has an effect on the",
+								"cues": [],
+								"duration": 1217.5,
+								"trim": 20,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "S_A?_T?|name",
+							"SA1T1name": {
+								"fileid": "5a",
+								"SSML": "Crystal Growth",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2name": {
+								"fileid": "5b",
+								"SSML": "Soda-Mint Reaction",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1name": {
+								"fileid": "5c",
+								"SSML": "Melting of Ice",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2name": {
+								"fileid": "5d",
+								"SSML": "Temperature of a Gas",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1name": {
+								"fileid": "5e",
+								"SSML": "Inclined Planes",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2name": {
+								"fileid": "5f",
+								"SSML": "Sinking Objects",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1name": {
+								"fileid": "5g",
+								"SSML": "Flower Reproduction",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2name": {
+								"fileid": "5h",
+								"SSML": "Algae Growth",
+								"cues": [],
+								"duration": 0,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3509,12 +3117,11 @@
 					],
 					"timedSet": [],
 					"trim": [
+						20,
 						0,
+						20,
 						0,
-						0,
-						0,
-						0,
-						0,
+						20,
 						0
 					],
 					"templates": {
@@ -3633,8 +3240,8 @@
 					"html": "You have set up a good experiment to find out whether the{{$EFO_S_A?_T?_V?|name}} affects the{{$EFO_S_A?_T?|name}}",
 					"text": "You have set up a good experiment to find out whether the{{$EFO_S_A?_T?_V?|name}}affects the{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -3650,13 +3257,13 @@
 								"fileid": "0",
 								"SSML": "You have set up a good experiment to find out whether the",
 								"cues": [],
-								"duration": 2706.375,
-								"trim": 0,
+								"duration": 2878.5416666666665,
+								"trim": 20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"templateVar": "S_A?_T?_V?|name",
 							"SA1T1V1name": {
 								"fileid": "1a",
 								"SSML": "Water Temperature",
@@ -3921,12 +3528,12 @@
 								"SSML": "affects the",
 								"cues": [],
 								"duration": 813.75,
-								"trim": 0,
+								"trim": 20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?|name",
+							"templateVar": "S_A?_T?|name",
 							"SA1T1name": {
 								"fileid": "3a",
 								"SSML": "Crystal Growth",
@@ -3995,9 +3602,9 @@
 					],
 					"timedSet": [],
 					"trim": [
+						20,
 						0,
-						0,
-						0,
+						20,
 						0
 					],
 					"templates": {
@@ -4050,21 +3657,27 @@
 			},
 			"track2": {
 				"en": {
-					"node": "TVDIFFERENT",
+					"node": "(root)SUMMARY",
 					"html": "The one variable you are testing is different across conditions.",
 					"text": "The one variable you are testing is different across conditions.",
+					"cueSet": "....................................a.........................",
 					"volume": [
 						1
 					],
-					"cueSet": "...............................................................",
 					"segments": [
 						{
 							"templateVar": "__novar",
 							"__novar": {
 								"fileid": "0",
 								"SSML": "The one variable you are testing is different across conditions.",
-								"cues": [],
-								"duration": 3256.0833333333335,
+								"cues": [
+									{
+										"name": "a",
+										"offset": 0.5714285714285714,
+										"relTime": 1959.9761904761904
+									}
+								],
+								"duration": 3429.9583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4079,32 +3692,48 @@
 			},
 			"track3": {
 				"en": {
-					"node": "IVCONTROLLED",
+					"node": "(root)SUMMARY",
 					"html": "And all other variables are the same across conditions. This way, only the {{$EFO_S_A?_T?_V?|name}} can cause any difference you find in the result.",
 					"text": "And all other variables are the same across conditions. This way, only the{{$EFO_S_A?_T?_V?|name}}can cause any difference you find in the result.",
+					"cueSet": "................................a.........b........c...............................................................................................",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey"
+						"S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey"
 					},
 					"volume": [
 						1,
 						1,
 						1
 					],
-					"cueSet": "...............................................................",
 					"segments": [
 						{
 							"templateVar": "__novar",
 							"__novar": {
 								"fileid": "0",
 								"SSML": "And all other variables are the same across conditions. This way, only the",
-								"cues": [],
+								"cues": [
+									{
+										"name": "a",
+										"offset": 0.4383561643835616,
+										"relTime": 2096.748858447488
+									},
+									{
+										"name": "b",
+										"offset": 0.5753424657534246,
+										"relTime": 2751.9828767123286
+									},
+									{
+										"name": "c",
+										"offset": 0.6986301369863014,
+										"relTime": 3341.693493150685
+									}
+								],
 								"duration": 4783.208333333333,
-								"trim": 0,
+								"trim": 20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"templateVar": "S_A?_T?_V?|name",
 							"SA1T1V1name": {
 								"fileid": "1a",
 								"SSML": "Water Temperature",
@@ -4368,7 +3997,7 @@
 								"fileid": "2",
 								"SSML": "can cause any difference you find in the result.",
 								"cues": [],
-								"duration": 2252.5416666666665,
+								"duration": 2385.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4376,7 +4005,7 @@
 					],
 					"timedSet": [],
 					"trim": [
-						0,
+						20,
 						0,
 						0
 					],
@@ -4425,10 +4054,11 @@
 			"track1": {
 				"en": {
 					"node": "(root)INTRO",
-					"html": "Now we’ll look at how some other students have set up some experiments of their own for the topic of {{$EFO_S_A?_T?|name}}",
+					"datasource": "$EFL_efdata.scene3",
+					"html": "",
 					"text": "Now we’ll look at how some other students have set up some experiments of their own for the topic of{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -4442,13 +4072,13 @@
 								"fileid": "0",
 								"SSML": "Now we’ll look at how some other students have set up some experiments of their own for the topic of",
 								"cues": [],
-								"duration": 4898.375,
-								"trim": 0,
+								"duration": 4531.583333333333,
+								"trim": 20,
 								"volume": 1
 							}
 						},
 						{
-							"templateVar": "$EFO_S_A?_T?|name",
+							"templateVar": "S_A?_T?|name",
 							"SA1T1name": {
 								"fileid": "1a",
 								"SSML": "Crystal Growth",
@@ -4517,7 +4147,7 @@
 					],
 					"timedSet": [],
 					"trim": [
-						0,
+						20,
 						0
 					],
 					"templates": {
@@ -4574,7 +4204,7 @@
 			"track1": {
 				"en": {
 					"node": "(root)INSTRUCTIONS",
-					"datasource": "$EFL.efdata.instr1",
+					"datasource": "$EFL_efdata.instr1.htmlData",
 					"html": "",
 					"text": "Each experiment set up by some other students might either be a good or a bad experiment.",
 					"volume": [
@@ -4588,7 +4218,7 @@
 								"fileid": "0",
 								"SSML": "Each experiment set up by some other students might either be a good or a bad experiment.",
 								"cues": [],
-								"duration": 4900.083333333333,
+								"duration": 4511.083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4600,11 +4230,15 @@
 					],
 					"templates": {}
 				}
-			},
-			"track2": {
+			}
+		}
+	},
+	"SScene6": {
+		"tracks": {
+			"track1": {
 				"en": {
 					"node": "(root)INSTRUCTIONS",
-					"datasource": "$EFL.efdata.instr2",
+					"datasource": "$EFL_efdata.instr2.htmlData",
 					"html": "",
 					"text": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference. We will ask you if you think each experiment is a good or bad experiment.",
 					"volume": [
@@ -4618,7 +4252,7 @@
 								"fileid": "0",
 								"SSML": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference. We will ask you if you think each experiment is a good or bad experiment.",
 								"cues": [],
-								"duration": 10985.083333333334,
+								"duration": 10876.041666666666,
 								"trim": 0,
 								"volume": 1
 							}

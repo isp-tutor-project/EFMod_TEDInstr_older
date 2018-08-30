@@ -12,6 +12,15 @@
                     "name": "Could Not"
                 }
             },
+            "O2": {
+                "descr": "Same/Different lists",
+                "A": {
+                    "name": "Same"
+                },
+                "B": {
+                    "name": "Different"
+                }
+            },
             "H1": {
                 "descr": "TED List Header Values",
                 "A": {
@@ -24,6 +33,9 @@
                     "name": "Condition 2"
                 },
                 "D": {
+                    "name": "Same or Different"
+                },
+                "E": {
                     "name": "Could Cause a Difference"
                 }
             },

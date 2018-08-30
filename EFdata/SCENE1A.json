@@ -2,13 +2,13 @@
     "MODULEDATA":"v1.0.0",
     "SScene1a": {
         "SListBox1": {
-            "$$REF":"$EFL_eflist.SListBox1"
+            "layoutsource":"$EFL_eflist.SListBox1"
         },
         "SListBox2": {
-            "$$REF":"$EFL_eflist.SListBox2"
+            "layoutsource":"$EFL_eflist.SListBox2"
         },
         "SListBox3": {
-            "$$REF":"$EFL_eflist.SListBox3"
+            "layoutsource":"$EFL_eflist.SListBox3"
         }
     }
 }

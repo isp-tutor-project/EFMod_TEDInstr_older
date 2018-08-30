@@ -1,12 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene2" itemID="5b6f4963-000004fb" lastModified="1535313400">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene2" itemID="5b6f4963-000004fb" lastModified="1535579357">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
   <timeline>
     <DOMTimeline name="TC_TScene__Scene2">
       <layers>
-        <DOMLayer name="STable1" color="#FF800A" autoNamed="false">
+        <DOMLayer name="STable1" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STable1">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STable1" selected="true">
                   <matrix>
                     <Matrix a="10.582763671875" d="3.03999328613281" tx="431.3" ty="524"/>
                   </matrix>
@@ -18,11 +21,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="STextBox1" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="STextBox1" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1" selected="true">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
                   <matrix>
                     <Matrix a="16.4389953613281" d="3.16949462890625" tx="138.05" ty="142.05"/>
                   </matrix>
@@ -38,7 +41,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn" selected="true">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn">
                   <transformationPoint>
                     <Point x="960" y="600"/>
                   </transformationPoint>

@@ -15,22 +15,15 @@
             }
         },
         "eftext": {
-            "S1STextBox1": {
-                "src": "$$EFX.html_text",
-                "xname": "S1STextBox1",
-                "datasource": "$EFL_efdata.scenePrompt1"
-            },
-            "S5STextBox1": {
-                "src": "$$EFX.html_text",
-                "xname": "S5STextBox1",
-                "datasource": "$EFL_efdata.instr1"
+            "STextBox1": {
+                "src": "$$EFX.html_text"
             }
         },
         "efinput": {},
         "eftable": {
-            "S1STable1": {
+            "STable1": {
                 "src": "$$EFX.html_table_ted1",
-                "xname": "S1STable1",
+                "xname": "STable1",
                 "datasource": "$EFL_efdata.TEDTableData",
                 "templateRef": {
                     "*": "$$EFM_selectedTopic.ontologyKey"
@@ -39,17 +32,41 @@
         },
         "efdata": {
             "scenePrompt1": {
-                "html": "<p>Does the{{$EFO_S_A?_T?_V?|name}}affect the{{$EFO_S_A?_T?|name}}</p>",
+                "htmlData":{
+                    "html": "<p>Does the{{$EFO_S_A?_T?_V?|name}}affect the{{$EFO_S_A?_T?|name}}</p>"
+                },
                 "templateRef": {
-                    "$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-                    "$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+                    "S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+                    "S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
                 }
             },
+            "scene3": {
+                "htmlData":{
+                    "html": "Now we’ll look at how some other students have set up some experiments of their own for the topic of {{$EFO_S_A?_T?|name}}."
+                },
+                "templateRef": {
+                    "S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "scene4": {
+                "htmlData1":{
+                    "html": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help."
+                },
+                "htmlData2":{
+                    "html": " If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly."
+                }
+            },
+
+            
             "instr1": {
-                "html":"Each experiment set up by some other students might either be a good or a bad experiment."
+                "htmlData":{
+                    "html":"Each experiment set up by some other students might either be a good or a bad experiment."
+                }
             },
             "instr2": {
-                "html": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference. We will ask you if you think each experiment is a good or bad experiment."
+                "htmlData":{
+                    "html": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference. We will ask you if you think each experiment is a good or bad experiment."
+                }
             },
 
             "nulllist": {
@@ -66,25 +83,25 @@
                         {
                             "name": "{{$EFO_S_A1|name}}",
                             "value": "$EFL_efdata.AOS.A1",
-                            "ontologyKey":"S_A1",
+                            "ontologyKey":"S_A1|name",
                             "id": "area1"
                         },
                         {
                             "name": "{{$EFO_S_A2|name}}",
                             "value": "$EFL_efdata.AOS.A2",
-                            "ontologyKey":"S_A2",
+                            "ontologyKey":"S_A2|name",
                             "id": "area2"
                         },
                         {
                             "name": "{{$EFO_S_A3|name}}",
                             "value": "$EFL_efdata.AOS.A3",
-                            "ontologyKey":"S_A3",
+                            "ontologyKey":"S_A3|name",
                             "id": "area3"
                         },
                         {
                             "name": "{{$EFO_S_A4|name}}",
                             "value": "$EFL_efdata.AOS.A4",
-                            "ontologyKey":"S_A4",
+                            "ontologyKey":"S_A4|name",
                             "id": "area4"
                         }
                     ],
@@ -97,13 +114,13 @@
                             {
                                 "name": "{{$EFO_S_A1_T1|name}}",
                                 "value": "$EFL_efdata.AOS.A1.T1",
-                                "ontologyKey":"S_A1_T1",
+                                "ontologyKey":"S_A1_T1|name",
                                 "id": "topic1"
                             },
                             {
                                 "name": "{{$EFO_S_A1_T2|name}}",
                                 "value": "$EFL_efdata.AOS.A1.T2",
-                                "ontologyKey":"S_A1_T2",
+                                "ontologyKey":"S_A1_T2|name",
                                 "id": "topic2"
                             }
                         ],
@@ -115,19 +132,19 @@
                             "options": [
                                 {
                                     "name": "{{$EFO_S_A1_T1_V1|name}}",
-                                    "ontologyKey":"S_A1_T1_V1"
+                                    "ontologyKey":"S_A1_T1_V1|name"
                                 },
                                 {
                                     "name": "{{$EFO_S_A1_T1_V2|name}}",
-                                    "ontologyKey":"S_A1_T1_V2"
+                                    "ontologyKey":"S_A1_T1_V2|name"
                                 },
                                 {
                                     "name": "{{$EFO_S_A1_T1_V3|name}}",
-                                    "ontologyKey":"S_A1_T1_V3"
+                                    "ontologyKey":"S_A1_T1_V3|name"
                                 },
                                 {
                                     "name": "{{$EFO_S_A1_T1_V4|name}}",
-                                    "ontologyKey":"S_A1_T1_V4"
+                                    "ontologyKey":"S_A1_T1_V4|name"
                                 }
                             ],
                             "placeHolder": "{{$EFO_LV_PH1|name}}"
@@ -139,19 +156,19 @@
                             "options": [
                                 {
                                     "name": "{{$EFO_S_A1_T2_V1|name}}",
-                                    "ontologyKey":"S_A1_T2_V1"
+                                    "ontologyKey":"S_A1_T2_V1|name"
                                 },
                                 {
                                     "name": "{{$EFO_S_A1_T2_V2|name}}",
-                                    "ontologyKey":"S_A1_T2_V2"
+                                    "ontologyKey":"S_A1_T2_V2|name"
                                 },
                                 {
                                     "name": "{{$EFO_S_A1_T2_V3|name}}",
-                                    "ontologyKey":"S_A1_T2_V3"
+                                    "ontologyKey":"S_A1_T2_V3|name"
                                 },
                                 {
                                     "name": "{{$EFO_S_A1_T2_V4|name}}",
-                                    "ontologyKey":"S_A1_T2_V4"
+                                    "ontologyKey":"S_A1_T2_V4|name"
                                 }
                             ],
                             "placeHolder": "{{$EFO_LV_PH1|name}}"
@@ -165,13 +182,13 @@
                             {
                                 "name": "{{$EFO_S_A2_T1|name}}",
                                 "value": "$EFL_efdata.AOS.A2.T1",
-                                "ontologyKey":"S_A2_T1",
+                                "ontologyKey":"S_A2_T1|name",
                                 "id": "topic1"
                             },
                             {
                                 "name": "{{$EFO_S_A2_T2|name}}",
                                 "value": "$EFL_efdata.AOS.A2.T2",
-                                "ontologyKey":"S_A2_T2",
+                                "ontologyKey":"S_A2_T2|name",
                                 "id": "topic2"
                             }
                         ],
@@ -183,22 +200,22 @@
                             "options": [
                                 {
                                     "name": "{{$EFO_S_A2_T1_V1|name}}",
-                                    "ontologyKey":"S_A2_T1_V1",
+                                    "ontologyKey":"S_A2_T1_V1|name",
                                     "id": "var1"
                                 },
                                 {
                                     "name": "{{$EFO_S_A2_T1_V2|name}}",
-                                    "ontologyKey":"S_A2_T1_V2",
+                                    "ontologyKey":"S_A2_T1_V2|name",
                                     "id": "var2"
                                 },
                                 {
                                     "name": "{{$EFO_S_A2_T1_V3|name}}",
-                                    "ontologyKey":"S_A2_T1_V3",
+                                    "ontologyKey":"S_A2_T1_V3|name",
                                     "id": "var3"
                                 },
                                 {
                                     "name": "{{$EFO_S_A2_T1_V4|name}}",
-                                    "ontologyKey":"S_A2_T1_V4",
+                                    "ontologyKey":"S_A2_T1_V4|name",
                                     "id": "var4"
                                 }
                             ],
@@ -211,22 +228,22 @@
                             "options": [
                                 {
                                     "name": "{{$EFO_S_A2_T2_V1|name}}",
-                                    "ontologyKey":"S_A2_T2_V1",
+                                    "ontologyKey":"S_A2_T2_V1|name",
                                     "id": "var1"
                                 },
                                 {
                                     "name": "{{$EFO_S_A2_T2_V2|name}}",
-                                    "ontologyKey":"S_A2_T2_V2",
+                                    "ontologyKey":"S_A2_T2_V2|name",
                                     "id": "var2"
                                 },
                                 {
                                     "name": "{{$EFO_S_A2_T2_V3|name}}",
-                                    "ontologyKey":"S_A2_T2_V3",
+                                    "ontologyKey":"S_A2_T2_V3|name",
                                     "id": "var3"
                                 },
                                 {
                                     "name": "{{$EFO_S_A2_T2_V4|name}}",
-                                    "ontologyKey":"S_A2_T2_V4",
+                                    "ontologyKey":"S_A2_T2_V4|name",
                                     "id": "var4"
                                 }
                             ],
@@ -241,13 +258,13 @@
                             {
                                 "name": "{{$EFO_S_A3_T1|name}}",
                                 "value": "$EFL_efdata.AOS.A3.T1",
-                                "ontologyKey":"S_A3_T1",
+                                "ontologyKey":"S_A3_T1|name",
                                 "id": "topic1"
                             },
                             {
                                 "name": "{{$EFO_S_A3_T2|name}}",
                                 "value": "$EFL_efdata.AOS.A3.T2",
-                                "ontologyKey":"S_A3_T2",
+                                "ontologyKey":"S_A3_T2|name",
                                 "id": "topic2"
                             }
                         ],
@@ -259,22 +276,22 @@
                             "options": [
                                 {
                                     "name": "{{$EFO_S_A3_T1_V1|name}}",
-                                    "ontologyKey":"S_A3_T1_V1",
+                                    "ontologyKey":"S_A3_T1_V1|name",
                                     "id": "var1"
                                 },
                                 {
                                     "name": "{{$EFO_S_A3_T1_V2|name}}",
-                                    "ontologyKey":"S_A3_T1_V2",
+                                    "ontologyKey":"S_A3_T1_V2|name",
                                     "id": "var2"
                                 },
                                 {
                                     "name": "{{$EFO_S_A3_T1_V3|name}}",
-                                    "ontologyKey":"S_A3_T1_V3",
+                                    "ontologyKey":"S_A3_T1_V3|name",
                                     "id": "var3"
                                 },
                                 {
                                     "name": "{{$EFO_S_A3_T1_V4|name}}",
-                                    "ontologyKey":"S_A3_T1_V4",
+                                    "ontologyKey":"S_A3_T1_V4|name",
                                     "id": "var4"
                                 }
                             ],
@@ -287,22 +304,22 @@
                             "options": [
                                 {
                                     "name": "{{$EFO_S_A3_T2_V1|name}}",
-                                    "ontologyKey":"S_A3_T2_V1",
+                                    "ontologyKey":"S_A3_T2_V1|name",
                                     "id": "var1"
                                 },
                                 {
                                     "name": "{{$EFO_S_A3_T2_V2|name}}",
-                                    "ontologyKey":"S_A3_T2_V2",
+                                    "ontologyKey":"S_A3_T2_V2|name",
                                     "id": "var2"
                                 },
                                 {
                                     "name": "{{$EFO_S_A3_T2_V3|name}}",
-                                    "ontologyKey":"S_A3_T2_V3",
+                                    "ontologyKey":"S_A3_T2_V3|name",
                                     "id": "var3"
                                 },
                                 {
                                     "name": "{{$EFO_S_A3_T2_V4|name}}",
-                                    "ontologyKey":"S_A3_T2_V4",
+                                    "ontologyKey":"S_A3_T2_V4|name",
                                     "id": "var4"
                                 }
                             ],
@@ -317,13 +334,13 @@
                             {
                                 "name": "{{$EFO_S_A4_T1|name}}",
                                 "value": "$EFL_efdata.AOS.A4.T1",
-                                "ontologyKey":"S_A4_T1",
+                                "ontologyKey":"S_A4_T1|name",
                                 "id": "topic1"
                             },
                             {
                                 "name": "{{$EFO_S_A4_T2|name}}",
                                 "value": "$EFL_efdata.AOS.A4.T2",
-                                "ontologyKey":"S_A4_T2",
+                                "ontologyKey":"S_A4_T2|name",
                                 "id": "topic2"
                             }
                         ],
@@ -335,22 +352,22 @@
                             "options": [
                                 {
                                     "name": "{{$EFO_S_A4_T1_V1|name}}",
-                                    "ontologyKey":"S_A4_T1_V1",
+                                    "ontologyKey":"S_A4_T1_V1|name",
                                     "id": "var1"
                                 },
                                 {
                                     "name": "{{$EFO_S_A4_T1_V2|name}}",
-                                    "ontologyKey":"S_A4_T1_V2",
+                                    "ontologyKey":"S_A4_T1_V2|name",
                                     "id": "var2"
                                 },
                                 {
                                     "name": "{{$EFO_S_A4_T1_V3|name}}",
-                                    "ontologyKey":"S_A4_T1_V3",
+                                    "ontologyKey":"S_A4_T1_V3|name",
                                     "id": "var3"
                                 },
                                 {
                                     "name": "{{$EFO_S_A4_T1_V4|name}}",
-                                    "ontologyKey":"S_A4_T1_V4",
+                                    "ontologyKey":"S_A4_T1_V4|name",
                                     "id": "var4"
                                 }
                             ],
@@ -363,22 +380,22 @@
                             "options": [
                                 {
                                     "name": "{{$EFO_S_A4_T2_V1|name}}",
-                                    "ontologyKey":"S_A4_T2_V1",
+                                    "ontologyKey":"S_A4_T2_V1|name",
                                     "id": "var1"
                                 },
                                 {
                                     "name": "{{$EFO_S_A4_T2_V2|name}}",
-                                    "ontologyKey":"S_A4_T2_V2",
+                                    "ontologyKey":"S_A4_T2_V2|name",
                                     "id": "var2"
                                 },
                                 {
                                     "name": "{{$EFO_S_A4_T2_V3|name}}",
-                                    "ontologyKey":"S_A4_T2_V3",
+                                    "ontologyKey":"S_A4_T2_V3|name",
                                     "id": "var3"
                                 },
                                 {
                                     "name": "{{$EFO_S_A4_T2_V4|name}}",
-                                    "ontologyKey":"S_A4_T2_V4",
+                                    "ontologyKey":"S_A4_T2_V4|name",
                                     "id": "var4"
                                 }
                             ],
@@ -427,8 +444,8 @@
                             {
                                 "value": "$LIST",
                                 "options": [
-                                    "{{$EFO_LV_O1_A|name}}",
-                                    "{{$EFO_LV_O1_B|name}}"
+                                    "{{$EFO_LV_O2_A|name}}",
+                                    "{{$EFO_LV_O2_B|name}}"
                                 ],
                                 "placeHolder": "{{$EFO_LV_PH1|name}}"
                             }
@@ -456,8 +473,8 @@
                             {
                                 "value": "$LIST",
                                 "options": [
-                                    "{{$EFO_LV_O1_A|name}}",
-                                    "{{$EFO_LV_O1_B|name}}"
+                                    "{{$EFO_LV_O2_A|name}}",
+                                    "{{$EFO_LV_O2_B|name}}"
                                 ],
                                 "placeHolder": "{{$EFO_LV_PH1|name}}"
                             }
@@ -485,8 +502,8 @@
                             {
                                 "value": "$LIST",
                                 "options": [
-                                    "{{$EFO_LV_O1_A|name}}",
-                                    "{{$EFO_LV_O1_B|name}}"
+                                    "{{$EFO_LV_O2_A|name}}",
+                                    "{{$EFO_LV_O2_B|name}}"
                                 ],
                                 "placeHolder": "{{$EFO_LV_PH1|name}}"
                             }
@@ -514,8 +531,8 @@
                             {
                                 "value": "$LIST",
                                 "options": [
-                                    "{{$EFO_LV_O1_A|name}}",
-                                    "{{$EFO_LV_O1_B|name}}"
+                                    "{{$EFO_LV_O2_A|name}}",
+                                    "{{$EFO_LV_O2_B|name}}"
                                 ],
                                 "placeHolder": "{{$EFO_LV_PH1|name}}"
                             }

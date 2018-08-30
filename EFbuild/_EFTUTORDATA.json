@@ -12,6 +12,15 @@
 					"name": "Could Not"
 				}
 			},
+			"O2": {
+				"descr": "Same/Different lists",
+				"A": {
+					"name": "Same"
+				},
+				"B": {
+					"name": "Different"
+				}
+			},
 			"H1": {
 				"descr": "TED List Header Values",
 				"A": {
@@ -24,6 +33,9 @@
 					"name": "Condition 2"
 				},
 				"D": {
+					"name": "Same or Different"
+				},
+				"E": {
 					"name": "Could Cause a Difference"
 				}
 			},
@@ -474,30 +486,59 @@
 	},
 	"SScene1": {
 		"STextBox1": {
-			"$$REF": "$EFL_eftext.S1STextBox1"
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scenePrompt1"
 		},
 		"STable1": {
-			"$$REF": "$EFL_eftable.S1STable1",
-			"xname": "STABLE1"
+			"layoutsource": "$EFL_eftable.STable1"
 		}
 	},
 	"SScene1a": {
 		"SListBox1": {
-			"$$REF": "$EFL_eflist.SListBox1"
+			"layoutsource": "$EFL_eflist.SListBox1"
 		},
 		"SListBox2": {
-			"$$REF": "$EFL_eflist.SListBox2"
+			"layoutsource": "$EFL_eflist.SListBox2"
 		},
 		"SListBox3": {
-			"$$REF": "$EFL_eflist.SListBox3"
+			"layoutsource": "$EFL_eflist.SListBox3"
 		}
 	},
 	"SScene2": {
 		"STextBox1": {
-			"$$REF": "$EFL_eftext.S1STextBox1"
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scenePrompt1"
 		},
 		"STable1": {
-			"$$REF": "$EFL_eftable.S1STable1"
+			"layoutsource": "$EFL_eftable.STable1"
+		}
+	},
+	"SScene3": {
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scene3"
+		}
+	},
+	"SScene4": {
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scene4.htmlData1"
+		},
+		"STextBox2": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scene4.htmlData2"
+		}
+	},
+	"SScene5": {
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"html": "Each experiment set up by some other students might either be a good or a bad experiment."
+		}
+	},
+	"SScene6": {
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"html": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference."
 		}
 	}
 }

@@ -1,12 +1,13 @@
 {
     "MODULEDATA":"v1.0.0",
-    "SScene1": {
+    "SScene4": {
         "STextBox1": {
-            "$$REF":"$EFL_eftext.S1STextBox1"
+            "layoutsource":"$EFL_eftext.STextBox1",
+            "datasource":"$EFL_efdata.scene4.htmlData1"
         },
-        "STable1": {
-            "$$REF":"$EFL_eftable.S1STable1",
-            "xname":"STABLE1"            
+        "STextBox2": {
+            "layoutsource":"$EFL_eftext.STextBox1",
+            "datasource":"$EFL_efdata.scene4.htmlData2"
         }
     }
 }
