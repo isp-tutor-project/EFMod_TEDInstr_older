@@ -315,14 +315,14 @@ var EFTut_Suppl;
                             case "TVWRONG":
                                 this.setSceneValue("currentRow", this.STable1.selectedCell.row);
                                 this.setSceneValue("correct", this.getModuleValue("selectedVariable").ontologyKey === this.STable1.selectedCell.ontologyKey);
-                                this.nextTrack();
+                                this.nextTrack("$onSelect:" + this.graphState);
                                 break;
                             case "TVALUESELECTION":
                             case "TVALWRONG":
                                 this.setSceneValue("TVSel.col" + this.STable1.selectedCell.col, this.STable1.selectedCell.selectedIndex);
                                 if (this.querySceneProp(["TVSel.col1", "TVSel.col2"])) {
                                     this.setSceneValue("correct", this.getSceneValue("TVSel.col1") !== this.getSceneValue("TVSel.col2"));
-                                    this.nextTrack();
+                                    this.nextTrack("$onSelect:" + this.graphState);
                                 }
                                 break;
                             case "IVALUESELECTION":
@@ -330,7 +330,7 @@ var EFTut_Suppl;
                                 this.setSceneValue("VSel.col" + this.STable1.selectedCell.col, this.STable1.selectedCell.selectedIndex);
                                 if (this.querySceneProp(["VSel.col1", "VSel.col2"])) {
                                     this.setSceneValue("correct", this.getSceneValue("VSel.col1") === this.getSceneValue("VSel.col2"));
-                                    this.nextTrack();
+                                    this.nextTrack("$onSelect:" + this.graphState);
                                 }
                                 break;
                         }
@@ -375,14 +375,22 @@ var EFTut_Suppl;
             }
             $nodePreEnter(nodeId) {
                 switch (nodeId) {
-                    default:
+                    case "root":
+                        this.SListBox2.resetInitState();
+                        this.SListBox3.resetInitState();
+                        break;
+                    case "SELECTTOPIC":
+                        this.SListBox2.initFromDataSource(this.SListBox1.selected.value);
+                        this.setModuleValue("selectedVariable", null);
+                        this.SListBox3.resetInitState();
+                        break;
+                    case "SELECTTV":
+                        this.SListBox3.initFromDataSource(this.SListBox2.selected.value);
                         break;
                 }
             }
             $nodePreExit(nodeId) {
-            }
-            $nodeAction(actionId) {
-                switch (actionId) {
+                switch (nodeId) {
                 }
             }
             $nodeConstraint(constrainId) {
@@ -390,15 +398,33 @@ var EFTut_Suppl;
                 switch (constrainId) {
                     case "AREA_CHANGED":
                         result = !this.testModuleValue("selectedArea", this.SListBox1.selected);
+                        if (result) {
+                            this.setModuleValue("selectedArea", this.SListBox1.selected);
+                        }
                         break;
                     case "TOPIC_CHANGED":
                         result = !this.testModuleValue("selectedTopic", this.SListBox2.selected);
+                        if (result) {
+                            this.setModuleValue("selectedTopic", this.SListBox2.selected);
+                        }
                         break;
                     case "VARIABLE_CHANGED":
                         result = !this.testModuleValue("selectedVariable", this.SListBox3.selected);
+                        if (result) {
+                            this.setModuleValue("selectedVariable", this.SListBox3.selected);
+                        }
+                        break;
+                    case "!COMPLETE":
+                        result = !this.queryModuleProp(["selectedArea", "selectedTopic", "selectedVariable"]);
                         break;
                 }
+                this.setSceneValue("sceneComplete", this.queryModuleProp(["selectedArea", "selectedTopic", "selectedVariable"]));
+                this.$updateNav();
                 return result;
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
             }
             $cuePoints(trackID, cueID) {
                 switch (trackID) {
@@ -417,39 +443,16 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                this.setSceneValue("sceneComplete", false);
-                if (this.queryModuleProp(["selectedArea", "selectedTopic", "selectedVariable"])) {
-                    this.setSceneValue("sceneComplete", true);
-                }
                 return this.getSceneValue("sceneComplete");
             }
             $onSelect(target) {
                 switch (target) {
                     case "SListBox1":
-                        if (!this.testModuleValue("selectedArea", this.SListBox1.selected)) {
-                            this.setModuleValue("selectedArea", this.SListBox1.selected);
-                            this.setModuleValue("selectedTopic", null);
-                            this.SListBox2.initFromDataSource(this.SListBox1.selected.value);
-                            this.SListBox3.resetInitState();
-                            this.nextTrack();
-                        }
-                        break;
                     case "SListBox2":
-                        if (!this.testModuleValue("selectedTopic", this.SListBox2.selected)) {
-                            this.setModuleValue("selectedTopic", this.SListBox2.selected);
-                            this.setModuleValue("selectedVariable", null);
-                            this.SListBox3.initFromDataSource(this.SListBox2.selected.value);
-                            this.nextTrack();
-                        }
-                        break;
                     case "SListBox3":
-                        if (!this.testModuleValue("selectedVariable", this.SListBox3.selected)) {
-                            this.setModuleValue("selectedVariable", this.SListBox3.selected);
-                            this.nextTrack();
-                        }
+                        this.nextTrack("$onSelect:" + this.graphState);
                         break;
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {

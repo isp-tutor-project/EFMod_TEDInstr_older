@@ -54,7 +54,8 @@
 					"name":"SELECTAREA",
 					"edges":
 							[
-								{"constraint":"","edge":"SELECTTOPIC" }
+								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" },
+								{"constraint":"","edge":"root" }
 							]
 					},
 															
@@ -64,8 +65,9 @@
 					"name":"SELECTTOPIC",
 					"edges":
 							[
-								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" },
-								{"constraint":""            ,"edge":"SELECTTV" }
+								{"constraint":"AREA_CHANGED" , "edge":"SELECTTOPIC" },
+                                {"constraint":"TOPIC_CHANGED", "edge":"SELECTTV" },
+								{"constraint":""             , "edge":"SELECTTOPIC" }
 							]
 					},					
 										
@@ -75,22 +77,23 @@
                     "name":"SELECTV",
                     "edges":
                             [
-                                {"constraint":"AREA_CHANGED" ,"edge":"SELECTTOPIC" },
-                                {"constraint":"TOPIC_CHANGED","edge":"SELECTTV" },
-                                {"constraint":""             ,"edge":"WAITFORNEXT" }
+                                {"constraint":"AREA_CHANGED"    , "edge":"SELECTTOPIC" },
+                                {"constraint":"TOPIC_CHANGED"   , "edge":"SELECTTV" },
+                                {"constraint":"VARIABLE_CHANGED", "edge":"WAITFORNEXT" },
+								{"constraint":""                , "edge":"SELECTTV" }
                             ]
                     },					
                                         
             "WAITFORNEXT":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
 					 "type":"moduleRef",
 					"subtype":"module", 
-					 "name":"NEXTSCENE",
+					 "name":"WAITFORNEXT",
 					 "edges":
 							[
-								{"constraint":"AREA_CHANGED","edge":"SELECTTOPIC" },
-                                {"constraint":"TOPIC_CHANGED", "edge":"SELECTTV" },
+								{"constraint":"AREA_CHANGED"    , "edge":"SELECTTOPIC" },
+                                {"constraint":"TOPIC_CHANGED"   , "edge":"SELECTTV" },
                                 {"constraint":"VARIABLE_CHANGED", "edge":"WAITFORNEXT" },
-                                {"constraint":"", "edge":"GOTONEXTSCENE" }
+                                {"constraint":"!COMPLETE"       , "edge":"WAITFORNEXT" }
 							]
 					}															
 		},		
@@ -129,7 +132,7 @@
 					{"trackname":"track3", "autostep":false, "features":""}
 				]
             },
-            "NEXTSCENE":{
+            "WAITFORNEXT":{
 				"COMMENT":"",
 				"type":"module",
 				"reuse":true,
@@ -323,8 +326,8 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":true, "stepdelay":1500, "features":""},
-                        {"trackname":"track2", "autostep":true, "stepdelay":1500, "features":""},
+                        {"trackname":"track1", "autostep":true, "stepdelay":500, "features":""},
+                        {"trackname":"track2", "autostep":true, "stepdelay":500, "features":""},
                         {"trackname":"track3", "autostep":true, "stepdelay":2500, "features":""}
                     ],                        
 					 "edges":

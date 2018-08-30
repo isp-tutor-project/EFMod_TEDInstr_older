@@ -108,8 +108,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         $handleEvent(): void;
         $nodePreEnter(nodeId: string): void;
         $nodePreExit(nodeId: string): void;
-        $nodeAction(actionId: string): void;
         $nodeConstraint(constrainId: string): boolean;
+        $nodeAction(actionId: string): void;
         $cuePoints(trackID: string, cueID: string): void;
         $timedEvents(id: string): void;
         $queryFinished(): boolean;

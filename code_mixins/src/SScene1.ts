@@ -292,7 +292,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                             this.setSceneValue("currentRow", this.STable1.selectedCell.row);                            
                             this.setSceneValue("correct",     
                                                 this.getModuleValue("selectedVariable").ontologyKey === this.STable1.selectedCell.ontologyKey);  
-                             this.nextTrack();
+                             this.nextTrack("$onSelect:"+this.graphState);
                         break;
 
                         case "TVALUESELECTION":
@@ -302,7 +302,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                             if (this.querySceneProp(["TVSel.col1","TVSel.col2"])) {
                                 this.setSceneValue("correct",     
                                                     this.getSceneValue("TVSel.col1") !== this.getSceneValue("TVSel.col2"));                                               
-                                this.nextTrack();
+                                this.nextTrack("$onSelect:"+this.graphState);
                             }
                         break;
 
@@ -313,7 +313,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                             if (this.querySceneProp(["VSel.col1","VSel.col2"])) {
                                 this.setSceneValue("correct",     
                                                     this.getSceneValue("VSel.col1") === this.getSceneValue("VSel.col2"));  
-                                this.nextTrack();
+                                this.nextTrack("$onSelect:"+this.graphState);
                             }
                         break;
 

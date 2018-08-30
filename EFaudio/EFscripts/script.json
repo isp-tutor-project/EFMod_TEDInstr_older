@@ -449,7 +449,7 @@
 			"track1": {
 				"en": {
 					"node": "(root)INSTRUCTIONS",
-					"datasource": "$EFL_efdata.instr1.htmlData",
+					"datasource": "$EFL_efdata.instr1",
 					"html": "",
 					"text": "Each experiment set up by some other students might either be a good or a bad experiment.",
 					"volume": [
@@ -471,7 +471,7 @@
 			"track1": {
 				"en": {
 					"node": "(root)INSTRUCTIONS",
-					"datasource": "$EFL_efdata.instr2.htmlData",
+					"datasource": "$EFL_efdata.instr2",
 					"html": "",
 					"text": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference. We will ask you if you think each experiment is a good or bad experiment.",
 					"volume": [

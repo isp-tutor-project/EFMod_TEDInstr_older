@@ -9,7 +9,7 @@ declare module "thermite/TTEDExpt" {
         constructor();
         TTEDExptInitialize(): void;
         initialize(): void;
-        private init3();
+        private init3;
         Destructor(): void;
         deSerializeObj(objData: any): void;
     }

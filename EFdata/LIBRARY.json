@@ -17,7 +17,11 @@
         "eftext": {
             "STextBox1": {
                 "src": "$$EFX.html_text"
+            },
+            "STextBox2": {
+                "src": "$$EFX.html_text"
             }
+
         },
         "efinput": {},
         "eftable": {
@@ -49,11 +53,15 @@
                 }
             },
             "scene4": {
-                "htmlData1":{
-                    "html": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help."
+                "box1":{
+                    "htmlData": {
+                        "html": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help."
+                    }
                 },
-                "htmlData2":{
-                    "html": " If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly."
+                "box2":{
+                    "htmlData": {
+                        "html": " If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly."
+                    }
                 }
             },
 

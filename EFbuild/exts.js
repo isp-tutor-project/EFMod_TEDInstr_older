@@ -1,7 +1,7 @@
 System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], function (exports_1, context_1) {
     "use strict";
-    var __moduleName = context_1 && context_1.id;
     var TObject_1, CUtil_1, TTEDExpt;
+    var __moduleName = context_1 && context_1.id;
     return {
         setters: [
             function (TObject_1_1) {

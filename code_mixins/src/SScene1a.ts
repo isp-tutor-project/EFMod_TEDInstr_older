@@ -52,12 +52,67 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $nodePreEnter(nodeId:string) {
 
             switch(nodeId) {
-                default:
+
+                case "root":                
+                    this.SListBox2.resetInitState();
+                    this.SListBox3.resetInitState();
+                    break;
+
+                case "SELECTTOPIC":
+                    this.SListBox2.initFromDataSource(this.SListBox1.selected.value);
+
+                    this.setModuleValue("selectedVariable", null);
+                    this.SListBox3.resetInitState();
+                    break;
+
+                case "SELECTTV":                
+                    this.SListBox3.initFromDataSource(this.SListBox2.selected.value);
                 break;
             }
         }
 
         public $nodePreExit(nodeId:string) {
+
+            switch(nodeId) {
+            }
+
+        }
+
+        public $nodeConstraint(constrainId:string) : boolean {
+
+            let result:boolean = false;
+
+            switch(constrainId) {
+                case "AREA_CHANGED":
+                    result = !this.testModuleValue("selectedArea", this.SListBox1.selected);
+                    if(result) {
+                        this.setModuleValue("selectedArea", this.SListBox1.selected);
+                    }
+                    break;
+
+                case "TOPIC_CHANGED":
+                    result = !this.testModuleValue("selectedTopic", this.SListBox2.selected);
+                    if(result) {
+                        this.setModuleValue("selectedTopic", this.SListBox2.selected);
+                    }
+                    break;
+
+                case "VARIABLE_CHANGED":
+                    result = !this.testModuleValue("selectedVariable", this.SListBox3.selected);
+                    if(result) {
+                        this.setModuleValue("selectedVariable", this.SListBox3.selected);         
+                    }
+                    break;
+                    
+                case "!COMPLETE":
+                    result = !this.queryModuleProp(["selectedArea","selectedTopic", "selectedVariable"]);                   
+                    break;
+            }                    
+
+            this.setSceneValue("sceneComplete", this.queryModuleProp(["selectedArea","selectedTopic", "selectedVariable"]));                  
+            this.$updateNav();
+
+            return result;
         }
 
         public $nodeAction(actionId:string) : void {
@@ -66,26 +121,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             }
         }
         
-        public $nodeConstraint(constrainId:string) : boolean {
-
-            let result:boolean = false;
-
-            switch(constrainId) {
-                case "AREA_CHANGED":
-                    result = !this.testModuleValue("selectedArea", this.SListBox1.selected);
-                    break;
-
-                case "TOPIC_CHANGED":
-                    result = !this.testModuleValue("selectedTopic", this.SListBox2.selected);
-                    break;
-
-                case "VARIABLE_CHANGED":
-                    result = !this.testModuleValue("selectedVariable", this.SListBox3.selected);
-                    break;
-            }
-            return result;
-        }
-
         // Track methods.
         // 
         public $cuePoints(trackID:string, cueID:string) {
@@ -117,12 +152,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            this.setSceneValue("sceneComplete", false);      
-
-            if (this.queryModuleProp(["selectedArea","selectedTopic", "selectedVariable"])) {
-
-                this.setSceneValue("sceneComplete", true);                  
-            }   
 
             return  this.getSceneValue("sceneComplete"); 
         }
@@ -133,44 +162,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(target) {
 
                 case "SListBox1":
-
-                    if (!this.testModuleValue("selectedArea", this.SListBox1.selected)) {
-
-                        this.setModuleValue("selectedArea", this.SListBox1.selected);
-
-                        this.setModuleValue("selectedTopic", null);
-                        this.SListBox2.initFromDataSource(this.SListBox1.selected.value);
-                        this.SListBox3.resetInitState();
-
-                        this.nextTrack();
-                    }
-                    break;
-
                 case "SListBox2":
-
-                    if (!this.testModuleValue("selectedTopic", this.SListBox2.selected)) {
-
-                        this.setModuleValue("selectedTopic", this.SListBox2.selected);
-
-                        this.setModuleValue("selectedVariable", null);
-                        this.SListBox3.initFromDataSource(this.SListBox2.selected.value);
-
-                        this.nextTrack();
-                    }
-                    break;
-
                 case "SListBox3":
-                    if (!this.testModuleValue("selectedVariable", this.SListBox3.selected)) {
-
-                        this.setModuleValue("selectedVariable", this.SListBox3.selected);         
-
-                        this.nextTrack();
-                    }
+                    this.nextTrack("$onSelect:"+this.graphState);
                     break;
-
             }
-
-            this.$updateNav();
         }
 
 

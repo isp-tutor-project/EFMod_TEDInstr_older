@@ -66,6 +66,31 @@
 					},
 					"html": "\n            <p>Does the Temperature affect the rate of Crystal Growth</p>\n        "
 				}
+			},
+			"STextBox2": {
+				"src": "$$EFX.html_text",
+				"htmlData": {
+					"style": {
+						"[stextbox2].outerContainer": {
+							"text-align": "center",
+							"user-select": "none",
+							"font-family": "Pangolin",
+							"font-size": "30pt",
+							"border-radius": "10px",
+							"height": "317px",
+							"width": "1644px",
+							"left": "0px",
+							"top": "0px"
+						},
+						"[stextbox2] .tablecell": {
+							"vertical-align": "middle"
+						},
+						"[stextbox2] p": {
+							"color": "rgb(0, 0, 0)"
+						}
+					},
+					"html": "\n            <p>Does the Temperature affect the rate of Crystal Growth</p>\n        "
+				}
 			}
 		},
 		"efinput": {},
@@ -128,11 +153,15 @@
 				}
 			},
 			"scene4": {
-				"htmlData1": {
-					"html": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help."
+				"box1": {
+					"htmlData": {
+						"html": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help."
+					}
 				},
-				"htmlData2": {
-					"html": " If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly."
+				"box2": {
+					"htmlData": {
+						"html": " If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly."
+					}
 				}
 			},
 			"instr1": {

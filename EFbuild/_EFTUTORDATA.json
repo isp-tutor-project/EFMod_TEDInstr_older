@@ -522,23 +522,27 @@
 	"SScene4": {
 		"STextBox1": {
 			"layoutsource": "$EFL_eftext.STextBox1",
-			"datasource": "$EFL_efdata.scene4.htmlData1"
+			"datasource": "$EFL_efdata.scene4.box1"
 		},
 		"STextBox2": {
-			"layoutsource": "$EFL_eftext.STextBox1",
-			"datasource": "$EFL_efdata.scene4.htmlData2"
+			"layoutsource": "$EFL_eftext.STextBox2",
+			"datasource": "$EFL_efdata.scene4.box2"
 		}
 	},
 	"SScene5": {
 		"STextBox1": {
 			"layoutsource": "$EFL_eftext.STextBox1",
-			"html": "Each experiment set up by some other students might either be a good or a bad experiment."
+			"htmlData": {
+				"html": "Each experiment set up by some other students might either be a good or a bad experiment."
+			}
 		}
 	},
 	"SScene6": {
 		"STextBox1": {
 			"layoutsource": "$EFL_eftext.STextBox1",
-			"html": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference."
+			"htmlData": {
+				"html": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference."
+			}
 		}
 	}
 }
