@@ -22,7 +22,7 @@
 					"html": "<p>Now select a topic within the area {{$EFO_S_A?|name}}</p>",
 					"text": "Now select a topic within the area{{$EFO_S_A?|name}}",
 					"templateRef": {
-						"S_A?|name": "$EFM_selectedArea.ontologyKey"
+						"$EFO_S_A?|name": "$EFM_selectedArea.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -43,7 +43,7 @@
 					"html": "<p>Now select a target variable for the topic{{$EFO_S_A?_T?|name}}</p>",
 					"text": "Now select a target variable for the topic{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -136,8 +136,8 @@
 					"html": "Now choose the {{$EFO_S_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_S_A?_T?_V?|name}} affects the, {{$EFO_S_A?_T?|name}}",
 					"text": "Now choose the{{$EFO_S_A?_T?_V?|name}}for each condition that will allow you to see if the,{{$EFO_S_A?_T?_V?|name}}affects the,{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -201,8 +201,8 @@
 					"html": "Now you must decide how to set up the other variables in this experiment. Let’s start with the {{$EFO_S_A?_T?_V?|name}}.  which values would you use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
 					"text": "Now you must decide how to set up the other variables in this experiment. Let’s start with the{{$EFO_S_A?_T?_V?|name}}. which values would you use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -232,8 +232,8 @@
 					"html": "Now select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
 					"text": "Now select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -263,8 +263,8 @@
 					"html": "Finally select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
 					"text": "Finally select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -332,8 +332,8 @@
 					"html": "You have set up a good experiment to find out whether the{{$EFO_S_A?_T?_V?|name}} affects the{{$EFO_S_A?_T?|name}}",
 					"text": "You have set up a good experiment to find out whether the{{$EFO_S_A?_T?_V?|name}}affects the{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -377,7 +377,7 @@
 					"text": "And all other variables are the same across conditions. This way, only the{{$EFO_S_A?_T?_V?|name}}can cause any difference you find in the result.",
 					"cueSet": "................................a.........b........c...............................................................................................",
 					"templateRef": {
-						"S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -405,7 +405,7 @@
 					"html": "",
 					"text": "Now we’ll look at how some other students have set up some experiments of their own for the topic of{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,

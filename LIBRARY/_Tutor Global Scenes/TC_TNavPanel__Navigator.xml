@@ -1,11 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" lastModified="1534613569" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" lastModified="1536012921" lastUniqueIdentifier="9">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TNavPanel__Navigator">
       <layers>
-        <DOMLayer name="Snext" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Snext" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -37,16 +37,16 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="SbackMask" color="#9933CC" autoNamed="false">
+        <DOMLayer name="SbackMask" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__backMask" name="SbackMask">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/contentFrame" selected="true">
                   <matrix>
-                    <Matrix tx="-1" ty="1006.55"/>
+                    <Matrix tx="93.5" ty="64.05"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="450.65" y="97.2"/>
+                    <Point x="866.5" y="523.35"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
