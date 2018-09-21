@@ -1,11 +1,12 @@
 {
-    "MODULEDATA":"v1.0.0",
+    "_MODULEDATA":"v1.0.0",
     "SScene6": {
         "STextBox1": {
             "layoutsource":"$EFL_eftext.STextBox1",
             "htmlData":{
                 "html": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference."
-            }
+            },
+            "fontSize":65
         }
     }
 }

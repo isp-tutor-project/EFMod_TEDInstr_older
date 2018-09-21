@@ -19,10 +19,10 @@
 			},
 			"track2": {
 				"en": {
-					"html": "<p>Now select a topic within the area {{$EFO_S_A?|name}}</p>",
-					"text": "Now select a topic within the area{{$EFO_S_A?|name}}",
+					"html": "<p>Now select a topic within the area {{$EFO_STBL_A?|name}}</p>",
+					"text": "Now select a topic within the area{{$EFO_STBL_A?|name}}",
 					"templateRef": {
-						"$EFO_S_A?|name": "$EFM_selectedArea.ontologyKey"
+						"$EFO_STBL_A?|name": "$EFM_selectedArea.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -40,10 +40,10 @@
 			},
 			"track3": {
 				"en": {
-					"html": "<p>Now select a target variable for the topic{{$EFO_S_A?_T?|name}}</p>",
-					"text": "Now select a target variable for the topic{{$EFO_S_A?_T?|name}}",
+					"html": "<p>Now select a target variable for the topic{{$EFO_STBL_A?_T?|name}}</p>",
+					"text": "Now select a target variable for the topic{{$EFO_STBL_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -116,8 +116,8 @@
 			"track3": {
 				"en": {
 					"node": "TVCORRECT",
-					"html": "That’s right! You correctly identified the one variable you are testing for this experiment.",
-					"text": "That’s right! You correctly identified the one variable you are testing for this experiment.",
+					"html": "That's right! You correctly identified the one variable you are testing for this experiment.",
+					"text": "That's right! You correctly identified the one variable you are testing for this experiment.",
 					"volume": [
 						1
 					],
@@ -133,11 +133,11 @@
 			"track4": {
 				"en": {
 					"node": "TVALUESELECTION",
-					"html": "Now choose the {{$EFO_S_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_S_A?_T?_V?|name}} affects the, {{$EFO_S_A?_T?|name}}",
-					"text": "Now choose the{{$EFO_S_A?_T?_V?|name}}for each condition that will allow you to see if the,{{$EFO_S_A?_T?_V?|name}}affects the,{{$EFO_S_A?_T?|name}}",
+					"html": "Now choose the {{$EFO_STBL_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_STBL_A?_T?_V?|name}} affects the, {{$EFO_STBL_A?_T?|name}}",
+					"text": "Now choose the{{$EFO_STBL_A?_T?_V?|name}}for each condition that will allow you to see if the,{{$EFO_STBL_A?_T?_V?|name}}affects the,{{$EFO_STBL_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -181,8 +181,8 @@
 			"track6": {
 				"en": {
 					"node": "TVALCORRECT",
-					"html": "You’re right! The variable that you’re testing should be different for each condition. If the variable is different, you can compare and contrast the effects of the variable.",
-					"text": "You’re right! The variable that you’re testing should be different for each condition. If the variable is different, you can compare and contrast the effects of the variable.",
+					"html": "You're right! The variable that you're testing should be different for each condition. If the variable is different, you can compare and contrast the effects of the variable.",
+					"text": "You're right! The variable that you're testing should be different for each condition. If the variable is different, you can compare and contrast the effects of the variable.",
 					"volume": [
 						1
 					],
@@ -198,13 +198,16 @@
 			"track7": {
 				"en": {
 					"node": "IVALUESELECTIONINTRO",
-					"html": "Now you must decide how to set up the other variables in this experiment. Let’s start with the {{$EFO_S_A?_T?_V?|name}}.  which values would you use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
-					"text": "Now you must decide how to set up the other variables in this experiment. Let’s start with the{{$EFO_S_A?_T?_V?|name}}. which values would you use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
+					"html": "Now you must decide how to set up the other variables in this experiment. Let's start with the {{$EFO_STBL_A?_T?_V?|name|2}}.  which values would you use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_STBL_A?_T?|name}}",
+					"text": "Now you must decide how to set up the other variables in this experiment. Let's start with the{{$EFO_STBL_A?_T?_V?|name|2}}. which values would you use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_STBL_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
+						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
+						1,
+						1,
 						1,
 						1,
 						1,
@@ -216,6 +219,8 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
+						0,
+						0,
 						0,
 						0,
 						0,
@@ -229,13 +234,16 @@
 			"track7b": {
 				"en": {
 					"node": "IVALUESELECTION",
-					"html": "Now select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
-					"text": "Now select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
+					"html": "Now select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_STBL_A?_T?|name}}",
+					"text": "Now select which{{$EFO_STBL_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_STBL_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
+						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
+						1,
+						1,
 						1,
 						1,
 						1,
@@ -247,11 +255,13 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						20,
 						0,
-						20,
 						0,
-						20,
+						0,
+						0,
+						0,
+						0,
+						0,
 						0
 					],
 					"templates": {}
@@ -260,13 +270,16 @@
 			"track7c": {
 				"en": {
 					"node": "IVALUESELECTION",
-					"html": "Finally select which {{$EFO_S_A?_T?_V?|name}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name}} has an effect on the  {{$EFO_S_A?_T?|name}}",
-					"text": "Finally select which{{$EFO_S_A?_T?_V?|name}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name}}has an effect on the{{$EFO_S_A?_T?|name}}",
+					"html": "Finally select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_STBL_A?_T?|name}}",
+					"text": "Finally select which{{$EFO_STBL_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_STBL_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_independentVarN.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
+						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
+						1,
+						1,
 						1,
 						1,
 						1,
@@ -278,11 +291,13 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						20,
 						0,
-						20,
 						0,
-						20,
+						0,
+						0,
+						0,
+						0,
+						0,
 						0
 					],
 					"templates": {}
@@ -291,8 +306,8 @@
 			"track8": {
 				"en": {
 					"node": "IVALWRONG",
-					"html": "Actually, anything you’re not testing should be kept the same between the two conditions. Please correct the experiment.",
-					"text": "Actually, anything you’re not testing should be kept the same between the two conditions. Please correct the experiment.",
+					"html": "Actually, anything you're not testing should be kept the same between the two conditions. Please correct the experiment.",
+					"text": "Actually, anything you're not testing should be kept the same between the two conditions. Please correct the experiment.",
 					"volume": [
 						1
 					],
@@ -308,8 +323,8 @@
 			"track9": {
 				"en": {
 					"node": "IVALCORRECT",
-					"html": "<emphasis level='strong'>You’re right!</emphasis> Anything you’re not testing should be kept the same between the two conditions.",
-					"text": "You’re right! Anything you’re not testing should be kept the same between the two conditions.",
+					"html": "<emphasis level='strong'>You're right!</emphasis> Anything you're not testing should be kept the same between the two conditions.",
+					"text": "You're right! Anything you're not testing should be kept the same between the two conditions.",
 					"volume": [
 						1
 					],
@@ -329,11 +344,11 @@
 			"track1": {
 				"en": {
 					"node": "(root)SUMMARY",
-					"html": "You have set up a good experiment to find out whether the{{$EFO_S_A?_T?_V?|name}} affects the{{$EFO_S_A?_T?|name}}",
-					"text": "You have set up a good experiment to find out whether the{{$EFO_S_A?_T?_V?|name}}affects the{{$EFO_S_A?_T?|name}}",
+					"html": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}} affects the{{$EFO_STBL_A?_T?|name}}",
+					"text": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}}affects the{{$EFO_STBL_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -373,11 +388,11 @@
 			"track3": {
 				"en": {
 					"node": "(root)SUMMARY",
-					"html": "And all other variables are the same across conditions. This way, only the {{$EFO_S_A?_T?_V?|name}} can cause any difference you find in the result.",
-					"text": "And all other variables are the same across conditions. This way, only the{{$EFO_S_A?_T?_V?|name}}can cause any difference you find in the result.",
+					"html": "And all other variables are the same across conditions. This way, only the {{$EFO_STBL_A?_T?_V?|name}} can cause any difference you find in the result.",
+					"text": "And all other variables are the same across conditions. This way, only the{{$EFO_STBL_A?_T?_V?|name}}can cause any difference you find in the result.",
 					"cueSet": "................................a.........b........c...............................................................................................",
 					"templateRef": {
-						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey"
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -403,11 +418,12 @@
 					"node": "(root)INTRO",
 					"datasource": "$EFL_efdata.scene3",
 					"html": "",
-					"text": "Now we’ll look at how some other students have set up some experiments of their own for the topic of{{$EFO_S_A?_T?|name}}",
+					"text": "Now we’ll look at how some other students have set up some experiments of their own for the topic of{{$EFO_STBL_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
+						1,
 						1,
 						1
 					],
@@ -415,7 +431,8 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						20,
+						0,
+						0,
 						0
 					],
 					"templates": {}
@@ -473,7 +490,7 @@
 					"node": "(root)INSTRUCTIONS",
 					"datasource": "$EFL_efdata.instr2",
 					"html": "",
-					"text": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference. We will ask you if you think each experiment is a good or bad experiment.",
+					"text": "A 'good' experiment will let you figure out if the variable you are testing really does or really does not make a difference. We will ask you if you think each experiment is a good or bad experiment.",
 					"volume": [
 						1
 					],
@@ -483,6 +500,36 @@
 					"trim": [
 						0
 					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene7": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "(root)VALIDATERQ",
+					"html": "{{$EFO_EG_A?|rqis}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}",
+					"text": "{{$EFO_EG_A?|rqis}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}",
+					"templateRef": {
+						"$EFO_EG_A?|rqselected": "$EFT_experimentalGroup.ontologyKey",
+						"$EFO_S_A?_T?_RQ?|rqselected": "$EFM_selectedRQ.ontologyKey",
+						"$EFO_S_A?_T?|rqselectedall": "$EFM_selectedRQ.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
 					"templates": {}
 				}
 			}

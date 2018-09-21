@@ -1,9 +1,10 @@
 {
-    "MODULEDATA":"v1.0.0",
+    "_MODULEDATA":"v1.0.0",
     "SScene3": {
         "STextBox1": {
             "layoutsource":"$EFL_eftext.STextBox1",
-            "datasource":"$EFL_efdata.scene3"
+            "datasource":"$EFL_efdata.scene3",
+            "fontSize":60
         }
     }
 }

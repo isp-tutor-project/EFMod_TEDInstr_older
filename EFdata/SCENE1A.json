@@ -1,14 +1,20 @@
 {
-    "MODULEDATA":"v1.0.0",
+    "_MODULEDATA":"v1.0.0",
     "SScene1a": {
         "SListBox1": {
-            "layoutsource":"$EFL_eflist.SListBox1"
+            "layoutsource":"$EFL_eflist.SListBox1",
+            "datasource": "$EFL_efdata.AOS",
+            "fontSize":35
         },
         "SListBox2": {
-            "layoutsource":"$EFL_eflist.SListBox2"
+            "layoutsource":"$EFL_eflist.SListBox2",
+            "datasource": "$EFL_efdata.nulllist",
+            "fontSize":35
         },
         "SListBox3": {
-            "layoutsource":"$EFL_eflist.SListBox3"
+            "layoutsource":"$EFL_eflist.SListBox3",
+            "datasource": "$EFL_efdata.nulllist",
+            "fontSize":35
         }
     }
 }

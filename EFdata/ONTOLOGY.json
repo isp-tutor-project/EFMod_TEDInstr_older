@@ -1,5 +1,6 @@
 {
-    "MODULEDATA":"v1.0.0",
+    "_MODULEDATA":"v1.0.0",
+    "_IMPORT":["EFMOD_RQSelect|ONTOLOGY.json"],
     "_ONTOLOGY": {
         "LV": {
             "descr": "List Values",
@@ -44,7 +45,7 @@
                 "name": "Tap to Choose"
             }
         },
-        "S": {
+        "STBL": {
             "name": "Areas of Science",
             "PH1": {
                 "descr": "placeHolder",
