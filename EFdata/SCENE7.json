@@ -1,12 +1,15 @@
 {
     "_MODULEDATA":"v1.0.0",
     "SScene7": {
-        "STextBox1": {
-            "layoutsource":"$EFL_eftext.STextBox1",
-            "htmlData":{
-                "html": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference."
-            },
-            "fontSize":65
+        "Stitle": {
+            "layoutsource":"$EFL_eftext.S7.Stitle",
+            "datasource": "$EFL_efdata.scene7.scenePrompt"           
+        },
+        "SsubTitle1": {
+            "layoutsource":"$EFL_eftext.S7.SsubTitle1"
+        },
+        "SsubTitle2": {
+            "layoutsource":"$EFL_eftext.S7.SsubTitle2"
         }
     }
 }

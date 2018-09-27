@@ -23,7 +23,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 		static readonly ALL:string 			    = null;		        	// Click event 
 
 		static readonly CLICK:string 			= "click";				// Click event 
-		static readonly CHANGED:string 			= "changed";	        // Change event
+        static readonly CHANGED:string 			= "changed";	        // Change event
+        
+        static readonly FTRS_ALL:any            = null;        // null to delete all features for an id
+        static readonly VAR_FTR                 = "varsel";    // id for the selected variable feature        
 					
 	}
 

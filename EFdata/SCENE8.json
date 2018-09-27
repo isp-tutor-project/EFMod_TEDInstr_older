@@ -1,0 +1,27 @@
+{
+    "_MODULEDATA":"v1.0.0",
+    "SScene8": {
+        "Stitle": {
+            "layoutsource":"$EFL_eftext.S8.Stitle",
+            "datasource": "$EFL_efdata.scene8.scenePrompt"           
+        },
+        "Sexpt1": {
+                "exptStruct":
+                        [{"id":"Svar1", "parent":null, "depth":0, "variants":["a","b"]},
+                         {"id":"Svar2", "parent":null, "depth":0, "variants":["a","b"]},
+                         {"id":"Svar3", "parent":null, "depth":0, "variants":["a","b"]},
+                         {"id":"Svar4", "parent":null, "depth":0, "variants":["a","b"]}],
+
+                "initState":["a","a","a","a"]
+        },
+        "Sexpt2": {
+                "exptStruct":
+                        [{"id":"Svar1", "parent":null, "depth":0, "variants":["a","b"]},
+                         {"id":"Svar2", "parent":null, "depth":0, "variants":["a","b"]},
+                         {"id":"Svar3", "parent":null, "depth":0, "variants":["a","b"]},
+                         {"id":"Svar4", "parent":null, "depth":0, "variants":["a","b"]}],
+                         
+                "initState":["b","b","b","b"] 
+        }
+    }
+}

@@ -19,6 +19,8 @@ var EFTut_Suppl;
         CONST.ALL = null;
         CONST.CLICK = "click";
         CONST.CHANGED = "changed";
+        CONST.FTRS_ALL = null;
+        CONST.VAR_FTR = "varsel";
         EFMod_TEDInstr.CONST = CONST;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -80,6 +82,22 @@ var EFTut_Suppl;
                 this.connectNavButton(EFMod_TEDInstr.CONST.NEXTSCENE, "Snext");
                 this.showHideNavButton(EFMod_TEDInstr.CONST.PREVSCENE, EFMod_TEDInstr.CONST.HIDE);
                 this.setNavigationTarget(EFMod_TEDInstr.CONST.NAVSCENE);
+                this.setModuleValue("TEDExpt1Area", { "ontologyKey": "STBL_A1", "index": 1 });
+                this.setModuleValue("TEDExpt1Topic", { "ontologyKey": "STBL_A1_T2", "index": 2 });
+                this.setModuleValue("TEDExpt1Variable", { "ontologyKey": "STBL_A1_T2_V3", "index": 3 });
+                this.setModuleValue("TEDExpt1RQ", { "ontologyKey": "S_A1_T2_RQ3", "index": 3 });
+                this.setModuleValue("TEDExpt1V1A", { "ontologyKey": "S_A1_T2_V1_A", "index": 1 });
+                this.setModuleValue("TEDExpt1V1B", { "ontologyKey": "S_A1_T2_V1_B", "index": 1 });
+                this.setModuleValue("TEDExpt1V2A", { "ontologyKey": "S_A1_T2_V2_A", "index": 2 });
+                this.setModuleValue("TEDExpt1V2B", { "ontologyKey": "S_A1_T2_V2_B", "index": 2 });
+                this.setModuleValue("TEDExpt1V3A", { "ontologyKey": "S_A1_T2_V3_A", "index": 3 });
+                this.setModuleValue("TEDExpt1V3B", { "ontologyKey": "S_A1_T2_V3_B", "index": 3 });
+                this.setModuleValue("TEDExpt1V4A", { "ontologyKey": "S_A1_T2_V4_A", "index": 4 });
+                this.setModuleValue("TEDExpt1V4B", { "ontologyKey": "S_A1_T2_V4_B", "index": 4 });
+                this.delFeature(EFMod_TEDInstr.CONST.FTRS_ALL, EFMod_TEDInstr.CONST.VAR_FTR);
+                this.addFeaturebyQuery(`S_A${this.getModuleValue("TEDExpt1Area.index")}_T${this.getModuleValue("TEDExpt1Topic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);
+                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+                this.addFeature("FTR_CHOICE");
             }
             $onEnterScene() {
             }
@@ -416,6 +434,9 @@ var EFTut_Suppl;
                         break;
                     case "!COMPLETE":
                         result = !this.queryModuleProp(["selectedArea", "selectedTopic", "selectedVariable"]);
+                        if (!result) {
+                            this.addFeaturebyQuery(`S_A${this.getModuleValue("selectedArea.index")}_T${this.getModuleValue("selectedTopic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);
+                        }
                         break;
                 }
                 this.setSceneValue("sceneComplete", this.queryModuleProp(["selectedArea", "selectedTopic", "selectedVariable"]));
@@ -631,6 +652,324 @@ var EFTut_Suppl;
             }
         }
         EFMod_TEDInstr.SScene3 = SScene3;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SScene7 {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                let x = this.getModuleValue("TEDExpt1Area.index");
+                let y = this.getModuleValue("TEDExpt1Topic.index");
+                let z = this.getModuleValue("TEDExpt1Variable.index");
+                this.$("Sicon.|Svar.*").hide();
+                this.$(`Sicon1|Svar${z}a`).show();
+                this.$(`Sicon2|Svar${z}b`).show();
+                this.SsubTitle1.setContentFromString(this.resolveSelector(`$EFO_S_A${x}_T${y}|enumValue${z}a`));
+                this.SsubTitle2.setContentFromString(this.resolveSelector(`$EFO_S_A${x}_T${y}|enumValue${z}b`));
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = true;
+                switch (this.graphState) {
+                    default:
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+                this.$updateNav();
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene7 = SScene7;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SScene8 {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1a":
+                        switch (cueID) {
+                            case "$start":
+                                this.Sexpt1.showCallOut("Svar1");
+                                this.Sexpt1.showHighlight("Svar1");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track1b":
+                        switch (cueID) {
+                            case "$start":
+                                this.Sexpt2.showCallOut("Svar1");
+                                this.Sexpt2.showHighlight("Svar1");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2a":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sexpt.").exec("hideHighlight", "Svar1");
+                                this.Sexpt1.showCallOut("Svar2");
+                                this.Sexpt1.showHighlight("Svar2");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2b":
+                        switch (cueID) {
+                            case "$start":
+                                this.Sexpt2.showCallOut("Svar2");
+                                this.Sexpt2.showHighlight("Svar2");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track3a":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sexpt.").exec("hideHighlight", "Svar2");
+                                this.Sexpt1.showCallOut("Svar3");
+                                this.Sexpt1.showHighlight("Svar3");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track3b":
+                        switch (cueID) {
+                            case "$start":
+                                this.Sexpt2.showCallOut("Svar3");
+                                this.Sexpt2.showHighlight("Svar3");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4a":
+                        switch (cueID) {
+                            case "$start":
+                                this.$("Sexpt.").exec("hideHighlight", "Svar3");
+                                this.Sexpt1.showCallOut("Svar4");
+                                this.Sexpt1.showHighlight("Svar4");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4b":
+                        switch (cueID) {
+                            case "$start":
+                                this.Sexpt2.showCallOut("Svar4");
+                                this.Sexpt2.showHighlight("Svar4");
+                                break;
+                            case "$end":
+                                this.$("Sexpt.").exec("showHighlight", "Svar1");
+                                this.$("Sexpt.").exec("showHighlight", "Svar2");
+                                this.$("Sexpt.").exec("showHighlight", "Svar3");
+                                this.$("Sexpt.").exec("showHighlight", "Svar4");
+                                break;
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = true;
+                switch (this.graphState) {
+                    default:
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+                this.$updateNav();
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene8 = SScene8;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SScene9 {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = true;
+                switch (this.graphState) {
+                    default:
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+                this.$updateNav();
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene9 = SScene9;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 //# sourceMappingURL=mixins.js.map

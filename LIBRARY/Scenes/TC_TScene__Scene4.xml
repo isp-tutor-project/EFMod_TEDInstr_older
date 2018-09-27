@@ -9,7 +9,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="Bitmap 15">
+                <DOMBitmapInstance libraryItemName="Assets/Bitmap 15">
                   <matrix>
                     <Matrix a="1.39369201660156" d="1.39369201660156" tx="154" ty="435"/>
                   </matrix>

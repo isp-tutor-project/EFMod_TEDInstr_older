@@ -19,7 +19,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
 
         public $onEnterScene() {
-
         }
         
         public $preEnterScene() {
@@ -105,7 +104,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     break;
                     
                 case "!COMPLETE":
-                    result = !this.queryModuleProp(["selectedArea","selectedTopic", "selectedVariable"]);                   
+                    result = !this.queryModuleProp(["selectedArea","selectedTopic", "selectedVariable"]);      
+                    
+                    if(!result) {
+                        this.addFeaturebyQuery(`S_A${this.getModuleValue("selectedArea.index")}_T${this.getModuleValue("selectedTopic.index")}|features`, CONST.VAR_FTR);
+                    }
+                    
                     break;
             }                    
 

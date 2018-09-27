@@ -1,6 +1,15 @@
 {
 	"_MODULEDATA": "v1.0.0",
 	"_ONTOLOGY": {
+		"TED": {
+			"Q1": {
+				"part1": "Think about the students' problem, and the experiment that they designed.",
+				"part2": "Is this a good way to design the experiment?",
+				"yes": "YES",
+				"no": "NO",
+				"question": "<p>Is this a good way to design an experiment?</p>"
+			}
+		},
 		"LV": {
 			"descr": "List Values",
 			"O1": {
@@ -51,432 +60,432 @@
 				"name": "Tap to Choose"
 			},
 			"A1": {
-				"vid": "",
+				"id": "",
 				"name": "Physical and Chemical Changes",
 				"T1": {
-					"vid": "",
+					"id": "",
 					"name": "Crystal Growth",
 					"V1": {
-						"vid": "Svar1",
+						"id": "Svar1",
 						"name": "Water Temperature",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Hot"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Cold"
 						}
 					},
 					"V2": {
-						"vid": "Svar2",
+						"id": "Svar2",
 						"name": "Crystal Type",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar2a",
 							"name": "Salt"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar2b",
 							"name": "Brown Sugar"
 						}
 					},
 					"V3": {
-						"vid": "Svar3",
+						"id": "Svar3",
 						"name": "Seed Crystal Size",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar3a",
 							"name": "None"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar3b",
 							"name": "A little"
 						}
 					},
 					"V4": {
-						"vid": "Svar4",
+						"id": "Svar4",
 						"name": "Type of String",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar4a",
 							"name": "Twine"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar4b",
 							"name": "Yarn"
 						}
 					}
 				},
 				"T2": {
-					"vid": "",
+					"id": "",
 					"name": "Soda-Mint Reaction",
 					"V1": {
-						"vid": "Svar1",
+						"id": "Svar1",
 						"name": "Type of Sweetener",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Sugar"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Sugar-Free"
 						}
 					},
 					"V2": {
-						"vid": "Svar2",
+						"id": "Svar2",
 						"name": "Amount of Caffeine",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "With Caffeine"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Caffeine Free"
 						}
 					},
 					"V3": {
-						"vid": "Svar3",
+						"id": "Svar3",
 						"name": "Texture of Mint",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Rough"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Smooth"
 						}
 					},
 					"V4": {
-						"vid": "Svar4",
+						"id": "Svar4",
 						"name": "Amount of CO2",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Higher"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Lower"
 						}
 					}
 				}
 			},
 			"A2": {
-				"vid": "",
+				"id": "",
 				"name": "Heat and Temperature",
 				"T1": {
-					"vid": "",
+					"id": "",
 					"name": "Melting of Ice",
 					"V1": {
-						"vid": "",
+						"id": "",
 						"name": "Initial Ice Temperature",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "0 degrees"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "-20 degrees"
 						}
 					},
 					"V2": {
-						"vid": "Svar2",
+						"id": "Svar2",
 						"name": "Initial Water Temperature",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Hot"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Cold"
 						}
 					},
 					"V3": {
-						"vid": "Svar3",
+						"id": "Svar3",
 						"name": "Pattern on Glass",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Pattern"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "no Pattern"
 						}
 					},
 					"V4": {
-						"vid": "Svar4",
+						"id": "Svar4",
 						"name": "Shape of Glass",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Short"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Tall"
 						}
 					}
 				},
 				"T2": {
-					"vid": "",
+					"id": "",
 					"name": "Temperature of a Gas",
 					"V1": {
-						"vid": "Svar1",
+						"id": "Svar1",
 						"name": "Balloon Color",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Black"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Gray"
 						}
 					},
 					"V2": {
-						"vid": "Svar2",
+						"id": "Svar2",
 						"name": "Balloon Material",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Foil"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Latex"
 						}
 					},
 					"V3": {
-						"vid": "Svar3",
+						"id": "Svar3",
 						"name": "Amount of Sunlight",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Full Sun"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Partial Shade"
 						}
 					},
 					"V4": {
-						"vid": "Svar4",
+						"id": "Svar4",
 						"name": "Type of Chair",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Wooden Chair"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Canvas Chair"
 						}
 					}
 				}
 			},
 			"A3": {
-				"vid": "",
+				"id": "",
 				"name": "Forces and Motion",
 				"T1": {
-					"vid": "",
+					"id": "",
 					"name": "Inclined Planes",
 					"V1": {
-						"vid": "",
+						"id": "",
 						"name": "Slope",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Steep"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Not Steep"
 						}
 					},
 					"V2": {
-						"vid": "Svar2",
+						"id": "Svar2",
 						"name": "Color of Ball",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Yellow"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Pink"
 						}
 					},
 					"V3": {
-						"vid": "Svar3",
+						"id": "Svar3",
 						"name": "Starting Position",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Top"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Middle"
 						}
 					},
 					"V4": {
-						"vid": "Svar4",
+						"id": "Svar4",
 						"name": "Ramp Surface",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Rough"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Smooth"
 						}
 					}
 				},
 				"T2": {
-					"vid": "",
+					"id": "",
 					"name": "Sinking Objects",
 					"V1": {
-						"vid": "Svar1",
+						"id": "Svar1",
 						"name": "Density of Water",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Plain Water"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Salt Water"
 						}
 					},
 					"V2": {
-						"vid": "Svar2",
+						"id": "Svar2",
 						"name": "Shape of Object",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Sphere"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Tear Drop"
 						}
 					},
 					"V3": {
-						"vid": "Svar3",
+						"id": "Svar3",
 						"name": "Volume of Object",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Small"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Large"
 						}
 					},
 					"V4": {
-						"vid": "Svar4",
+						"id": "Svar4",
 						"name": "Density of Object",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Glass"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Lead"
 						}
 					}
 				}
 			},
 			"A4": {
-				"vid": "",
+				"id": "",
 				"name": "Plant Growth",
 				"T1": {
-					"vid": "",
+					"id": "",
 					"name": "Flower Reproduction",
 					"V1": {
-						"vid": "",
+						"id": "",
 						"name": "Number of Bees",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "None"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Whole Hive"
 						}
 					},
 					"V2": {
-						"vid": "Svar2",
+						"id": "Svar2",
 						"name": "Amount of Sunlight",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Full Sun"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Partial Shade"
 						}
 					},
 					"V3": {
-						"vid": "Svar3",
+						"id": "Svar3",
 						"name": "Amount of Fertilizer",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "None"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Some"
 						}
 					},
 					"V4": {
-						"vid": "Svar4",
+						"id": "Svar4",
 						"name": "Type of Water",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Rain Water"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Tap Water"
 						}
 					}
 				},
 				"T2": {
-					"vid": "",
+					"id": "",
 					"name": "Algae Growth",
 					"V1": {
-						"vid": "Svar1",
+						"id": "Svar1",
 						"name": "Water Temperature",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Room Temperature"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "Warmer"
 						}
 					},
 					"V2": {
-						"vid": "Svar2",
+						"id": "Svar2",
 						"name": "Amount of Music",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Constant Music"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "No Music"
 						}
 					},
 					"V3": {
-						"vid": "Svar3",
+						"id": "Svar3",
 						"name": "CO2 in Water",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "A Lot"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "None"
 						}
 					},
 					"V4": {
-						"vid": "Svar4",
+						"id": "Svar4",
 						"name": "Sunlight Exposure",
 						"A": {
-							"vid": "Svar1a",
+							"id": "Svar1a",
 							"name": "Some"
 						},
 						"B": {
-							"vid": "Svar1b",
+							"id": "Svar1b",
 							"name": "None"
 						}
 					}
@@ -503,9 +512,11 @@
 					"enumMat6": "Crystals",
 					"enumMat7": "and a digital scale",
 					"enumProcess1": "We will mix a crystal salt or sugar in water so it dissolves.",
-					"enumProcess2": "We will continue to add the crystals and mix until not more crystals can be dissolved in the water. This is the saturation point.",
-					"enumProcess3": "Then we will put a string in the water.",
-					"enumProcess4": "We can measure the weight of the crystal growth after two weeks.",
+					"enumProcess2": "We will continue to add the crystals and mix until no more crystals can be dissolved in the water. This is the saturation point.",
+					"enumProcess3": "",
+					"enumProcess4": "Then we will put a string in the water.",
+					"enumProcess5": "",
+					"enumProcess6": "We can measure the weight of the crystal growth after two weeks.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the amount of crystal growth on a string in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The Water Temperature",
 					"enumValue1a": "Cool (16c)",
@@ -528,18 +539,23 @@
 					"enumValueUtt4a": "And the type of string which can be twine.",
 					"enumValueUtt4b": "Or yarn. This might also make a difference.",
 					"RQ1": {
-						"rqselected": "Does the water temperature"
+						"rqselected": "Does the water temperature",
+						"ExpSelected": "water temperature"
 					},
 					"RQ2": {
-						"rqselected": "Does the type of crystal"
+						"rqselected": "Does the type of crystal",
+						"ExpSelected": "type of crystal"
 					},
 					"RQ3": {
-						"rqselected": "Does the initial amount of crystals on the string"
+						"rqselected": "Does the initial amount of crystals on the string",
+						"ExpSelected": "initial amount of crystals on the string"
 					},
 					"RQ4": {
-						"rqselected": "Does the type of string"
+						"rqselected": "Does the type of string",
+						"ExpSelected": "type of string"
 					},
-					"rqselectedall": " affect the weight of the crystal growth on a string in water after two weeks?",
+					"rqselectedall": "affect the weight of the crystal growth on a string in water after two weeks?",
+					"rqselectedalls": "affects the weight of the crystal growth on a string in water after two weeks?",
 					"buttVarName1": "The Water Temperature",
 					"buttVarName2": "The Type of Crystal",
 					"buttVarName3": "The initial amount of crystals on the string",
@@ -582,18 +598,23 @@
 					"enumValueUtt4a": "And the amount of carbon dioxide in the soda which can be higher",
 					"enumValueUtt4b": "Or lower. This might also make a difference",
 					"RQ1": {
-						"rqselected": "Does the type of sweetener in the soda"
+						"rqselected": "Does the type of sweetener in the soda",
+						"ExpSelected": "type of sweetener in the soda"
 					},
 					"RQ2": {
-						"rqselected": "Does the type of crystal in the soda"
+						"rqselected": "Does the type of crystal in the soda",
+						"ExpSelected": "type of crystal in the soda"
 					},
 					"RQ3": {
-						"rqselected": "Does the surface texture of the mint"
+						"rqselected": "Does the surface texture of the mint",
+						"ExpSelected": "surface texture of the mint"
 					},
 					"RQ4": {
-						"rqselected": "Does the amount of carbon dioxide in the soda"
+						"rqselected": "Does the amount of carbon dioxide in the soda",
+						"ExpSelected": "amount of carbon dioxide in the soda"
 					},
-					"rqselectedall": " affect the strength of the reaction between soda and mints?",
+					"rqselectedall": "affect the strength of the reaction between soda and mints?",
+					"rqselectedalls": "affects the strength of the reaction between soda and mints?",
 					"buttVarName1": "The type of sweetener in the soda",
 					"buttVarName2": "The amount of caffeine in the soda",
 					"buttVarName3": "The surface Texture of the mint",
@@ -641,18 +662,23 @@
 					"enumValueUtt4a": "And the shape of the glass which can be shorter or",
 					"enumValueUtt4b": "Taller. This might also make a difference",
 					"RQ1": {
-						"rqselected": "Does the initial temperature of the ice cube"
+						"rqselected": "Does the initial temperature of the ice cube",
+						"ExpSelected": "initial temperature of the ice cube"
 					},
 					"RQ2": {
-						"rqselected": "Does the initial temperature of the water"
+						"rqselected": "Does the initial temperature of the water",
+						"ExpSelected": "initial temperature of the water"
 					},
 					"RQ3": {
-						"rqselected": "Does the pattern on the glass"
+						"rqselected": "Does the pattern on the glass",
+						"ExpSelected": "pattern on the glass"
 					},
 					"RQ4": {
-						"rqselected": "Does the shape of the glass"
+						"rqselected": "Does the shape of the glass",
+						"ExpSelected": "shape of the glass"
 					},
-					"rqselectedall": " affect the time it takes for an ice cube to melt in water?",
+					"rqselectedall": "affect the time it takes for an ice cube to melt in water?",
+					"rqselectedalls": "affects the time it takes for an ice cube to melt in water?",
 					"buttVarName1": "The initial temperature of the ice cube",
 					"buttVarName2": "The initial temperature of the water",
 					"buttVarName3": "The pattern on the glass",
@@ -674,9 +700,10 @@
 					"enumMat5": "A helium tank",
 					"enumMat6": "And an umbrella",
 					"enumProcess1": "We will pump 5 grams of Helium at 15 degrees Celsius into a balloon.",
-					"enumProcess2": "Then we will place the balloon outside for 30 minutes.",
-					"enumProcess3": "The temperature of the outside air is 27 degrees Celsius.",
-					"enumProcess4": "We can measure the temperature of the gas after 30 minutes.",
+					"enumProcess2": "",
+					"enumProcess3": "Then we will place the balloon outside for 30 minutes.",
+					"enumProcess4": "The temperature of the outside air is 27 degrees Celsius.",
+					"enumProcess5": "We can measure the temperature of the gas after 30 minutes.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the temperature of gas in the balloon. These are the four variables you can test in this experiment",
 					"enumValue1": "The color of the balloon",
 					"enumValue1a": "Lighter",
@@ -699,18 +726,23 @@
 					"enumValueUtt4a": "And the type of chair the balloon is tied to, which can be a wooden chair",
 					"enumValueUtt4b": "Or a canvas chair. This might also make a difference",
 					"RQ1": {
-						"rqselected": "Does the color of the balloon"
+						"rqselected": "Does the color of the balloon",
+						"ExpSelected": "color of the balloon"
 					},
 					"RQ2": {
-						"rqselected": "Does material the balloon is made of"
+						"rqselected": "Does the material the balloon is made of",
+						"ExpSelected": "material the balloon is made of"
 					},
 					"RQ3": {
-						"rqselected": "Does the amount of sunlight exposure the balloon gets"
+						"rqselected": "Does the amount of sunlight exposure the balloon gets",
+						"ExpSelected": "amount of sunlight exposure the balloon gets"
 					},
 					"RQ4": {
-						"rqselected": "Does the type of chair the balloon is tied to"
+						"rqselected": "Does the type of chair the balloon is tied to",
+						"ExpSelected": "type of chair the balloon is tied to"
 					},
-					"rqselectedall": " affect the gas temperature within the balloon after 30 minutes?",
+					"rqselectedall": "affect the gas temperature within the balloon after 30 minutes?",
+					"rqselectedalls": "affects the gas temperature within the balloon after 30 minutes?",
 					"buttVarName1": "The color of the balloon",
 					"buttVarName2": "The material the balloon is made of",
 					"buttVarName3": "The amount of sunlight exposure the balloon gets",
@@ -756,18 +788,23 @@
 					"enumValueUtt4a": "And the surface texture of the ramp, which can be rough",
 					"enumValueUtt4b": "Or smooth.  This might also make a difference",
 					"RQ1": {
-						"rqselected": "Does the slope of the ramp"
+						"rqselected": "Does the slope of the ramp",
+						"ExpSelected": "slope of the ramp"
 					},
 					"RQ2": {
-						"rqselected": "Does the color of the ball"
+						"rqselected": "Does the color of the ball",
+						"ExpSelected": "color of the ball"
 					},
 					"RQ3": {
-						"rqselected": "Does the starting position of the ball"
+						"rqselected": "Does the starting position of the ball",
+						"ExpSelected": "starting position of the ball"
 					},
 					"RQ4": {
-						"rqselected": "Does the surface texture of the ramp"
+						"rqselected": "Does the surface texture of the ramp",
+						"ExpSelected": "surface texture of the ramp"
 					},
-					"rqselectedall": " affect the speed of the ball at the bottom of the ramp?",
+					"rqselectedall": "affect the speed of the ball at the bottom of the ramp?",
+					"rqselectedalls": "affects the speed of the ball at the bottom of the ramp?",
 					"buttVarName1": "The Slope of the Ramp",
 					"buttVarName2": "The Color of the Ball",
 					"buttVarName3": "The Starting Position of the Ball",
@@ -787,8 +824,10 @@
 					"enumMat3": "A graduated cylinder",
 					"enumMat4": "And water",
 					"enumProcess1": "We will place an object into a graduated cylinder filled with water.",
-					"enumProcess2": "It will sink to the bottom.",
-					"enumProcess3": "We can measure the time it takes for the object to sink in water.",
+					"enumProcess2": "",
+					"enumProcess3": "It will sink to the bottom.",
+					"enumProcess4": "",
+					"enumProcess5": "We can measure the time it takes for the object to sink in water.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time of it takes for objects to sink in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The Density of the Water",
 					"enumValue1a": "Lower",
@@ -811,18 +850,23 @@
 					"enumValueUtt4a": "And the density of the object which can be higher",
 					"enumValueUtt4b": "Or lower.  This might also make a difference",
 					"RQ1": {
-						"rqselected": "Does the density of water"
+						"rqselected": "Does the density of water",
+						"ExpSelected": "density of water"
 					},
 					"RQ2": {
-						"rqselected": "Does the shape of the object"
+						"rqselected": "Does the shape of the object",
+						"ExpSelected": "shape of the object"
 					},
 					"RQ3": {
-						"rqselected": "Does the volume of the object"
+						"rqselected": "Does the volume of the object",
+						"ExpSelected": "volume of the object"
 					},
 					"RQ4": {
-						"rqselected": "Does the density of the object"
+						"rqselected": "Does the density of the object",
+						"ExpSelected": "density of the object"
 					},
-					"rqselectedall": " affect the time it takes for objects to sink in water?",
+					"rqselectedall": "affect the time it takes for objects to sink in water?",
+					"rqselectedalls": "affects the time it takes for objects to sink in water?",
 					"buttVarName1": "The Density of the Water",
 					"buttVarName2": "The Shape of the Object",
 					"buttVarName3": "The Volume of the Object",
@@ -846,8 +890,9 @@
 					"enumMat4": "Fertilizer",
 					"enumMat5": "And water",
 					"enumProcess1": "We will plant twelve sunflowers in the ground in a greenhouse at the beginning of Spring.",
-					"enumProcess2": "The flowers will produce seeds then die by the end of the season.",
-					"enumProcess3": "We can measure the number of seeds produced by the flowers at the end of the season. ",
+					"enumProcess2": "",
+					"enumProcess3": "The flowers will produce seeds then die by the end of the season.",
+					"enumProcess4": "We can measure the number of seeds produced by the flowers at the end of the season. ",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the number of seeds produced by the flowers at the end of the season. These are the four variables you can test in this experiment",
 					"enumValue1": "The Number of honey bees in the greenhouse",
 					"enumValue1a": "Zero",
@@ -870,18 +915,23 @@
 					"enumValueUtt4a": "And the type of water, which can be rain water",
 					"enumValueUtt4b": "Or tap water.   This might also make a difference",
 					"RQ1": {
-						"rqselected": "Does the number of honey bees in the greenhouse"
+						"rqselected": "Does the number of honey bees in the greenhouse",
+						"ExpSelected": "number of honey bees in the greenhouse"
 					},
 					"RQ2": {
-						"rqselected": "Does the amount of sunlight the greenhouse lets in"
+						"rqselected": "Does the amount of sunlight the greenhouse lets in",
+						"ExpSelected": "amount of sunlight the greenhouse lets in"
 					},
 					"RQ3": {
-						"rqselected": "Does the type of water"
+						"rqselected": "Does the type of water",
+						"ExpSelected": "type of water"
 					},
 					"RQ4": {
-						"rqselected": "Does the amount of fertilizer"
+						"rqselected": "Does the amount of fertilizer",
+						"ExpSelected": "amount of fertilizer"
 					},
-					"rqselectedall": " affect the number of seeds produced by flowers at the end of the season?",
+					"rqselectedall": "affect the number of seeds produced by flowers at the end of the season?",
+					"rqselectedalls": "affects the number of seeds produced by flowers at the end of the season?",
 					"buttVarName1": "The Number of honey bees in the greenhouse",
 					"buttVarName2": "The Amount of sunlight the greenhouse lets in",
 					"buttVarName3": "The Amount of Fertilizer",
@@ -905,7 +955,8 @@
 					"enumMat7": "A thermometer",
 					"enumMat8": "And a carbon dioxide machine",
 					"enumProcess1": "We will add fifty grams of algae to a fish tank filled with 16 liters of distilled water.",
-					"enumProcess2": "We can measure the weight of the algae growth after one week.",
+					"enumProcess2": "",
+					"enumProcess3": "We can measure the weight of the algae growth after one week.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the weight of the algae after one week. These are the four variables you can test in this experiment",
 					"enumValue1": "The Temperature of the Water",
 					"enumValue1a": "Room Temperature",
@@ -928,18 +979,23 @@
 					"enumValueUtt4a": "And the amount of direct sunlight exposure, which can be some",
 					"enumValueUtt4b": "Or none.   This might also make a difference",
 					"RQ1": {
-						"rqselected": "Does the temperature of the water"
+						"rqselected": "Does the temperature of the water",
+						"ExpSelected": "temperature of the water"
 					},
 					"RQ2": {
-						"rqselected": "Does the exposure to music"
+						"rqselected": "Does the exposure to music",
+						"ExpSelected": "exposure to music"
 					},
 					"RQ3": {
-						"rqselected": "Does the amount of carbon dioxide in the water"
+						"rqselected": "Does the amount of carbon dioxide in the water",
+						"ExpSelected": "amount of carbon dioxide in the water"
 					},
 					"RQ4": {
-						"rqselected": "Does the amount of direct sunlight exposure"
+						"rqselected": "Does the amount of direct sunlight exposure",
+						"ExpSelected": "amount of direct sunlight exposure"
 					},
-					"rqselectedall": " affect the weight of the algae growth after one week?",
+					"rqselectedall": "affect the weight of the algae growth after one week?",
+					"rqselectedalls": "affects the weight of the algae growth after one week?",
 					"buttVarName1": "The Temperature of the Water",
 					"buttVarName2": "The Amount of Exposure to Music",
 					"buttVarName3": "The Amount of Carbon Dioxide in the Water",
@@ -956,7 +1012,8 @@
 				"S10B1": "I'd like to test a different variable for my research question",
 				"S10B2": "I'd like to pick a different topic in this area",
 				"S10B3": "I'd like to picka a whole different area.",
-				"S10B4": "I like this question"
+				"S10B4": "I like this question",
+				"rqis": "In the first experiment, Some students need to find out whether the"
 			},
 			"A1": {
 				"type": "choice",
@@ -1072,12 +1129,128 @@
 		}
 	},
 	"SScene7": {
-		"STextBox1": {
-			"layoutsource": "$EFL_eftext.STextBox1",
-			"htmlData": {
-				"html": "A 'good' experiment will let you figure out if the variable you are testing really does OR really does not make a difference."
-			},
-			"fontSize": 65
+		"Stitle": {
+			"layoutsource": "$EFL_eftext.S7.Stitle",
+			"datasource": "$EFL_efdata.scene7.scenePrompt"
+		},
+		"SsubTitle1": {
+			"layoutsource": "$EFL_eftext.S7.SsubTitle1"
+		},
+		"SsubTitle2": {
+			"layoutsource": "$EFL_eftext.S7.SsubTitle2"
+		}
+	},
+	"SScene8": {
+		"Stitle": {
+			"layoutsource": "$EFL_eftext.S8.Stitle",
+			"datasource": "$EFL_efdata.scene8.scenePrompt"
+		},
+		"Sexpt1": {
+			"exptStruct": [
+				{
+					"id": "Svar1",
+					"parent": null,
+					"depth": 0,
+					"variants": [
+						"a",
+						"b"
+					]
+				},
+				{
+					"id": "Svar2",
+					"parent": null,
+					"depth": 0,
+					"variants": [
+						"a",
+						"b"
+					]
+				},
+				{
+					"id": "Svar3",
+					"parent": null,
+					"depth": 0,
+					"variants": [
+						"a",
+						"b"
+					]
+				},
+				{
+					"id": "Svar4",
+					"parent": null,
+					"depth": 0,
+					"variants": [
+						"a",
+						"b"
+					]
+				}
+			],
+			"initState": [
+				"a",
+				"a",
+				"a",
+				"a"
+			]
+		},
+		"Sexpt2": {
+			"exptStruct": [
+				{
+					"id": "Svar1",
+					"parent": null,
+					"depth": 0,
+					"variants": [
+						"a",
+						"b"
+					]
+				},
+				{
+					"id": "Svar2",
+					"parent": null,
+					"depth": 0,
+					"variants": [
+						"a",
+						"b"
+					]
+				},
+				{
+					"id": "Svar3",
+					"parent": null,
+					"depth": 0,
+					"variants": [
+						"a",
+						"b"
+					]
+				},
+				{
+					"id": "Svar4",
+					"parent": null,
+					"depth": 0,
+					"variants": [
+						"a",
+						"b"
+					]
+				}
+			],
+			"initState": [
+				"b",
+				"b",
+				"b",
+				"b"
+			]
+		}
+	},
+	"SScene9": {
+		"Stitle": {
+			"layoutsource": "$EFL_eftext.S9.Stitle",
+			"datasource": "$EFL_efdata.scene9.scenePrompt"
+		},
+		"Squestion": {
+			"layoutsource": "$EFL_eftext.S9.Squestion",
+			"datasource": "$EFL_efdata.scene9.question"
+		},
+		"Sanswer": {
+			"layoutsource": "$EFL_eflist.S9.SListBox1",
+			"datasource": "$EFL_efdata.scene9.SListBox1",
+			"fontSize": 35
 		}
 	}
 }

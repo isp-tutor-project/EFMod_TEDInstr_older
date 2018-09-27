@@ -1,16 +1,66 @@
 /// <reference path="../../dist/TutorEngineOne.d.ts" />
+declare module "thermite/IExptTypes" {
+    export interface exptVar {
+        id: string;
+        parent: string;
+        depth: number;
+        variants: Array<string>;
+    }
+}
+declare module "thermite/TMaterialIcon" {
+    import { TObject } from "thermite/TObject";
+    import { THtmlText } from "thermite/THtmlText";
+    export class TMaterialIcon extends TObject {
+        protected STextBox1: THtmlText;
+        protected STextBox2: THtmlText;
+        protected SboxNormal: TObject;
+        protected SboxSelect: TObject;
+        protected SbubbleNormal: TObject;
+        protected SbubbleSelect: TObject;
+        protected SboxShadow: TObject;
+        protected SbubbleShadow: TObject;
+        private currState;
+        constructor();
+        TMaterialIconInitialize(): void;
+        initialize(): void;
+        private init3;
+        Destructor(): void;
+        captureLogState(obj?: any): Object;
+        captureXMLState(): any;
+        restoreXMLState(stateVal: any): void;
+        compareXMLState(stateVal: any): boolean;
+        deSerializeObj(objData: any): void;
+    }
+}
 declare module "thermite/TTEDExpt" {
     import { TObject } from "thermite/TObject";
     export class TTEDExpt extends TObject {
-        protected STeacherHead: TObject;
-        protected STeacher1: TObject;
-        protected STeacher2: TObject;
-        protected STeacher3: TObject;
+        protected Svar1a: TObject;
+        protected Svar1b: TObject;
+        protected Svar2a: TObject;
+        protected Svar2b: TObject;
+        protected Svar3a: TObject;
+        protected Svar3b: TObject;
+        protected Svar4a: TObject;
+        protected Svar4b: TObject;
+        private exptStruct;
+        private initState;
+        private state;
         constructor();
         TTEDExptInitialize(): void;
         initialize(): void;
         private init3;
         Destructor(): void;
+        private calcDirectParentById;
+        private calcDirectParentByNdx;
+        setState(variants: Array<string>): void;
+        private getSubComponent;
+        showHighlight(...target: any[]): void;
+        hideHighlight(...target: any[]): void;
+        showCallOut(...target: any[]): void;
+        hideCallOut(...target: any[]): void;
+        private seekToParent;
+        hideAll(): void;
         deSerializeObj(objData: any): void;
     }
 }

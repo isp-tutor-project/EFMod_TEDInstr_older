@@ -424,14 +424,12 @@
 					},
 					"volume": [
 						1,
-						1,
 						1
 					],
 					"cueSet": "...............................................................",
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						0,
 						0,
 						0
 					],
@@ -509,13 +507,13 @@
 		"tracks": {
 			"track1": {
 				"en": {
-					"node": "(root)VALIDATERQ",
-					"html": "{{$EFO_EG_A?|rqis}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}",
-					"text": "{{$EFO_EG_A?|rqis}}{{$EFO_S_A?_T?_RQ?|rqselected}}{{$EFO_S_A?_T?|rqselectedall}}",
+					"node": "(root)TED EXPT1 Intro",
+					"html": "{{$EFO_EG_BOTH|rqis}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
+					"text": "{{$EFO_EG_BOTH|rqis}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
 					"templateRef": {
-						"$EFO_EG_A?|rqselected": "$EFT_experimentalGroup.ontologyKey",
-						"$EFO_S_A?_T?_RQ?|rqselected": "$EFM_selectedRQ.ontologyKey",
-						"$EFO_S_A?_T?|rqselectedall": "$EFM_selectedRQ.ontologyKey"
+						"$EFO_EG_BOTH|rqis": "$EFT_experimentalGroup.ontologyKey",
+						"$EFO_S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"$EFO_S_A?_T?|rqselectedalls": "$EFM_TEDExpt1RQ.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -530,6 +528,270 @@
 						1
 					],
 					"cueSet": ".........................................",
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene8": {
+		"tracks": {
+			"track1a": {
+				"en": {
+					"node": "(root)TED Expt1 Var Enumeration - 1a",
+					"html": "The {{$EFO_STBL_A?_T?_V?|name}} for condition one is {{$EFO_STBL_A?_T?_V?_?|name}}",
+					"text": "The{{$EFO_STBL_A?_T?_V?|name}}for condition one is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V1A.ontologyKey",
+						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V1A.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track1b": {
+				"en": {
+					"node": "(root)TED Expt1 Var Enumeration - 1b",
+					"html": "and the {{$EFO_STBL_A?_T?_V?|name}} for condition two is {{$EFO_STBL_A?_T?_V?_?|name}}",
+					"text": "and the{{$EFO_STBL_A?_T?_V?|name}}for condition two is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V1B.ontologyKey",
+						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V1B.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track2a": {
+				"en": {
+					"node": "(root)TED Expt1 Var Enumeration - 2a",
+					"html": "The {{$EFO_STBL_A?_T?_V?|name}} for condition one is {{$EFO_STBL_A?_T?_V?_?|name}}",
+					"text": "The{{$EFO_STBL_A?_T?_V?|name}}for condition one is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V2A.ontologyKey",
+						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V2A.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track2b": {
+				"en": {
+					"node": "(root)TED Expt1 Var Enumeration - 2b",
+					"html": "and the {{$EFO_STBL_A?_T?_V?|name}} for condition two is {{$EFO_STBL_A?_T?_V?_?|name}}",
+					"text": "and the{{$EFO_STBL_A?_T?_V?|name}}for condition two is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V2B.ontologyKey",
+						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V2B.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track3a": {
+				"en": {
+					"node": "(root)TED Expt1 Var Enumeration - 3a",
+					"html": "The {{$EFO_STBL_A?_T?_V?|name}} for condition one is {{$EFO_STBL_A?_T?_V?_?|name}}",
+					"text": "The{{$EFO_STBL_A?_T?_V?|name}}for condition one is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V3A.ontologyKey",
+						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V3A.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track3b": {
+				"en": {
+					"node": "(root)TED Expt1 Var Enumeration - 3b",
+					"html": "and the {{$EFO_STBL_A?_T?_V?|name}} for condition two is {{$EFO_STBL_A?_T?_V?_?|name}}",
+					"text": "and the{{$EFO_STBL_A?_T?_V?|name}}for condition two is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V3B.ontologyKey",
+						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V3B.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track4a": {
+				"en": {
+					"node": "(root)TED Expt1 Var Enumeration - 4a",
+					"html": "The {{$EFO_STBL_A?_T?_V?|name}} for condition one is {{$EFO_STBL_A?_T?_V?_?|name}}",
+					"text": "The{{$EFO_STBL_A?_T?_V?|name}}for condition one is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V4A.ontologyKey",
+						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V4A.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			},
+			"track4b": {
+				"en": {
+					"node": "(root)TED Expt1 Var Enumeration - 4b",
+					"html": "and the {{$EFO_STBL_A?_T?_V?|name}} for condition two is {{$EFO_STBL_A?_T?_V?_?|name}}",
+					"text": "and the{{$EFO_STBL_A?_T?_V?|name}}for condition two is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V4B.ontologyKey",
+						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V4B.ontologyKey"
+					},
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene9": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "(root)QUESTION1",
+					"html": "{{$EFO_TED_Q1|part1}}",
+					"templateRef": {
+						"$EFO_TED_Q1|part1": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"text": "{{$EFO_TED_Q1|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "(root)QUESTION1",
+					"html": "{{$EFO_TED_Q1|part2}}",
+					"templateRef": {
+						"$EFO_TED_Q1|part2": "$EFT_experimentalGroup.ontologyKey"
+					},
+					"text": "{{$EFO_TED_Q1|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
 					"templates": {}
 				}
 			}

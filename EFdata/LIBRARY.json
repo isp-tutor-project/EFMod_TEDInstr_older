@@ -9,7 +9,13 @@
             },
             "SListBox3": {
                 "src": "$$EFX.html_list_std"
+            },
+            "S9": {
+                "SListBox1": {
+                    "src": "$$EFX.html_list_std"
+                }
             }
+
         },
         "eftext": {
             "STextBox1": {
@@ -17,7 +23,61 @@
             },
             "STextBox2": {
                 "src": "$$EFX.html_text"
-            }
+            },
+
+            "S7":  {
+                "Stitle": 
+                    {
+                        "id": "A",
+                        "src": "$$EFX.html_text2",
+                        "default": true,
+                        "fontSize":50
+                    },
+
+                "SsubTitle1": 
+                    {
+                        "id": "A",
+                        "src": "$$EFX.html_text2",
+                        "default": true,
+                        "fontSize":40
+                    },
+
+                "SsubTitle2": 
+                    {
+                        "id": "A",
+                        "src": "$$EFX.html_text2",
+                        "default": true,
+                        "fontSize":40
+                    }
+                },
+
+            "S8":  {
+                "Stitle": 
+                    {
+                        "id": "A",
+                        "src": "$$EFX.html_text2",
+                        "default": true,
+                        "fontSize":40
+                    }
+                },
+
+            "S9":  {
+                "Stitle": 
+                    {
+                        "id": "A",
+                        "src": "$$EFX.html_text2",
+                        "default": true,
+                        "fontSize":40
+                    },
+                "Squestion": 
+                    {
+                        "id": "A",
+                        "src": "$$EFX.html_text2",
+                        "default": true,
+                        "fontSize":40
+                    }
+                }
+                
 
         },
         "efinput": {},
@@ -61,6 +121,66 @@
                     }
                 }
             },
+            "scene7": {
+                "scenePrompt": {
+                    "htmlData":{
+                        "html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+                    },
+                    "templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+                    }
+                }    
+            },
+            "scene8": {
+                "scenePrompt": {
+                    "htmlData":{
+                        "html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+                    },
+                    "templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+                    }
+                }    
+            },
+
+            "scene9": {
+                "scenePrompt": {
+                    "htmlData":{
+                        "html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+                    },
+                    "templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+                    }
+                },
+                "question": {
+                    "htmlData":{
+                        "html": "{{$EFO_TED_Q1|question}}"
+                    }
+                },
+                "SListBox1": {
+                    "listdata": {
+                        "options": [
+                            {
+                                "name": "{{$EFO_TED_Q1|yes}}",
+                                "value": "$EFL_efdata.TED.Q1",
+                                "ontologyKey":"TED_Q1|yes",
+                                "index":1,
+                                "id": "YES"
+                            },
+                            {
+                                "name": "{{$EFO_TED_Q1|no}}",
+                                "value": "$EFL_efdata.TED.Q1",
+                                "ontologyKey":"TED_Q1|no",
+                                "index":2,
+                                "id": "NO"
+                            }
+                        ],
+                        "placeHolder": "{{$EFO_STBL_PH1|name}}"
+                    }
+                }
+            },
 
             
             "instr1": {
@@ -89,24 +209,28 @@
                             "name": "{{$EFO_STBL_A1|name}}",
                             "value": "$EFL_efdata.AOS.A1",
                             "ontologyKey":"STBL_A1|name",
+                            "index":1,
                             "id": "area1"
                         },
                         {
                             "name": "{{$EFO_STBL_A2|name}}",
                             "value": "$EFL_efdata.AOS.A2",
                             "ontologyKey":"STBL_A2|name",
+                            "index":2,
                             "id": "area2"
                         },
                         {
                             "name": "{{$EFO_STBL_A3|name}}",
                             "value": "$EFL_efdata.AOS.A3",
                             "ontologyKey":"STBL_A3|name",
+                            "index":3,
                             "id": "area3"
                         },
                         {
                             "name": "{{$EFO_STBL_A4|name}}",
                             "value": "$EFL_efdata.AOS.A4",
                             "ontologyKey":"STBL_A4|name",
+                            "index":4,
                             "id": "area4"
                         }
                     ],
@@ -120,12 +244,14 @@
                                 "name": "{{$EFO_STBL_A1_T1|name}}",
                                 "value": "$EFL_efdata.AOS.A1.T1",
                                 "ontologyKey":"STBL_A1_T1|name",
+                                "index":1,
                                 "id": "topic1"
                             },
                             {
                                 "name": "{{$EFO_STBL_A1_T2|name}}",
                                 "value": "$EFL_efdata.AOS.A1.T2",
                                 "ontologyKey":"STBL_A1_T2|name",
+                                "index":2,
                                 "id": "topic2"
                             }
                         ],
@@ -136,18 +262,22 @@
                         "listdata": {
                             "options": [
                                 {
+                                    "index":1,
                                     "name": "{{$EFO_STBL_A1_T1_V1|name}}",
                                     "ontologyKey":"STBL_A1_T1_V1|name"
                                 },
                                 {
+                                    "index":2,
                                     "name": "{{$EFO_STBL_A1_T1_V2|name}}",
                                     "ontologyKey":"STBL_A1_T1_V2|name"
                                 },
                                 {
+                                    "index":3,
                                     "name": "{{$EFO_STBL_A1_T1_V3|name}}",
                                     "ontologyKey":"STBL_A1_T1_V3|name"
                                 },
                                 {
+                                    "index":4,
                                     "name": "{{$EFO_STBL_A1_T1_V4|name}}",
                                     "ontologyKey":"STBL_A1_T1_V4|name"
                                 }
@@ -160,18 +290,22 @@
                         "listdata": {
                             "options": [
                                 {
+                                    "index":1,
                                     "name": "{{$EFO_STBL_A1_T2_V1|name}}",
                                     "ontologyKey":"STBL_A1_T2_V1|name"
                                 },
                                 {
+                                    "index":2,
                                     "name": "{{$EFO_STBL_A1_T2_V2|name}}",
                                     "ontologyKey":"STBL_A1_T2_V2|name"
                                 },
                                 {
+                                    "index":3,
                                     "name": "{{$EFO_STBL_A1_T2_V3|name}}",
                                     "ontologyKey":"STBL_A1_T2_V3|name"
                                 },
                                 {
+                                    "index":4,
                                     "name": "{{$EFO_STBL_A1_T2_V4|name}}",
                                     "ontologyKey":"STBL_A1_T2_V4|name"
                                 }
@@ -188,12 +322,14 @@
                                 "name": "{{$EFO_STBL_A2_T1|name}}",
                                 "value": "$EFL_efdata.AOS.A2.T1",
                                 "ontologyKey":"STBL_A2_T1|name",
+                                "index":1,
                                 "id": "topic1"
                             },
                             {
                                 "name": "{{$EFO_STBL_A2_T2|name}}",
                                 "value": "$EFL_efdata.AOS.A2.T2",
                                 "ontologyKey":"STBL_A2_T2|name",
+                                "index":2,
                                 "id": "topic2"
                             }
                         ],
@@ -204,21 +340,25 @@
                         "listdata": {
                             "options": [
                                 {
+                                    "index":1,
                                     "name": "{{$EFO_STBL_A2_T1_V1|name}}",
                                     "ontologyKey":"STBL_A2_T1_V1|name",
                                     "id": "var1"
                                 },
                                 {
+                                    "index":2,
                                     "name": "{{$EFO_STBL_A2_T1_V2|name}}",
                                     "ontologyKey":"STBL_A2_T1_V2|name",
                                     "id": "var2"
                                 },
                                 {
+                                    "index":3,
                                     "name": "{{$EFO_STBL_A2_T1_V3|name}}",
                                     "ontologyKey":"STBL_A2_T1_V3|name",
                                     "id": "var3"
                                 },
                                 {
+                                    "index":4,
                                     "name": "{{$EFO_STBL_A2_T1_V4|name}}",
                                     "ontologyKey":"STBL_A2_T1_V4|name",
                                     "id": "var4"
@@ -232,21 +372,25 @@
                         "listdata": {
                             "options": [
                                 {
+                                    "index":1,
                                     "name": "{{$EFO_STBL_A2_T2_V1|name}}",
                                     "ontologyKey":"STBL_A2_T2_V1|name",
                                     "id": "var1"
                                 },
                                 {
+                                    "index":2,
                                     "name": "{{$EFO_STBL_A2_T2_V2|name}}",
                                     "ontologyKey":"STBL_A2_T2_V2|name",
                                     "id": "var2"
                                 },
                                 {
+                                    "index":3,
                                     "name": "{{$EFO_STBL_A2_T2_V3|name}}",
                                     "ontologyKey":"STBL_A2_T2_V3|name",
                                     "id": "var3"
                                 },
                                 {
+                                    "index":4,
                                     "name": "{{$EFO_STBL_A2_T2_V4|name}}",
                                     "ontologyKey":"STBL_A2_T2_V4|name",
                                     "id": "var4"
@@ -264,12 +408,14 @@
                                 "name": "{{$EFO_STBL_A3_T1|name}}",
                                 "value": "$EFL_efdata.AOS.A3.T1",
                                 "ontologyKey":"STBL_A3_T1|name",
+                                "index":1,
                                 "id": "topic1"
                             },
                             {
                                 "name": "{{$EFO_STBL_A3_T2|name}}",
                                 "value": "$EFL_efdata.AOS.A3.T2",
                                 "ontologyKey":"STBL_A3_T2|name",
+                                "index":2,
                                 "id": "topic2"
                             }
                         ],
@@ -280,21 +426,25 @@
                         "listdata": {
                             "options": [
                                 {
+                                    "index":1,
                                     "name": "{{$EFO_STBL_A3_T1_V1|name}}",
                                     "ontologyKey":"STBL_A3_T1_V1|name",
                                     "id": "var1"
                                 },
                                 {
+                                    "index":2,
                                     "name": "{{$EFO_STBL_A3_T1_V2|name}}",
                                     "ontologyKey":"STBL_A3_T1_V2|name",
                                     "id": "var2"
                                 },
                                 {
+                                    "index":3,
                                     "name": "{{$EFO_STBL_A3_T1_V3|name}}",
                                     "ontologyKey":"STBL_A3_T1_V3|name",
                                     "id": "var3"
                                 },
                                 {
+                                    "index":4,
                                     "name": "{{$EFO_STBL_A3_T1_V4|name}}",
                                     "ontologyKey":"STBL_A3_T1_V4|name",
                                     "id": "var4"
@@ -308,21 +458,25 @@
                         "listdata": {
                             "options": [
                                 {
+                                    "index":1,
                                     "name": "{{$EFO_STBL_A3_T2_V1|name}}",
                                     "ontologyKey":"STBL_A3_T2_V1|name",
                                     "id": "var1"
                                 },
                                 {
+                                    "index":2,
                                     "name": "{{$EFO_STBL_A3_T2_V2|name}}",
                                     "ontologyKey":"STBL_A3_T2_V2|name",
                                     "id": "var2"
                                 },
                                 {
+                                    "index":3,
                                     "name": "{{$EFO_STBL_A3_T2_V3|name}}",
                                     "ontologyKey":"STBL_A3_T2_V3|name",
                                     "id": "var3"
                                 },
                                 {
+                                    "index":4,
                                     "name": "{{$EFO_STBL_A3_T2_V4|name}}",
                                     "ontologyKey":"STBL_A3_T2_V4|name",
                                     "id": "var4"
@@ -340,12 +494,14 @@
                                 "name": "{{$EFO_STBL_A4_T1|name}}",
                                 "value": "$EFL_efdata.AOS.A4.T1",
                                 "ontologyKey":"STBL_A4_T1|name",
+                                "index":1,
                                 "id": "topic1"
                             },
                             {
                                 "name": "{{$EFO_STBL_A4_T2|name}}",
                                 "value": "$EFL_efdata.AOS.A4.T2",
                                 "ontologyKey":"STBL_A4_T2|name",
+                                "index":2,
                                 "id": "topic2"
                             }
                         ],
@@ -356,21 +512,25 @@
                         "listdata": {
                             "options": [
                                 {
+                                    "index":1,
                                     "name": "{{$EFO_STBL_A4_T1_V1|name}}",
                                     "ontologyKey":"STBL_A4_T1_V1|name",
                                     "id": "var1"
                                 },
                                 {
+                                    "index":2,
                                     "name": "{{$EFO_STBL_A4_T1_V2|name}}",
                                     "ontologyKey":"STBL_A4_T1_V2|name",
                                     "id": "var2"
                                 },
                                 {
+                                    "index":3,
                                     "name": "{{$EFO_STBL_A4_T1_V3|name}}",
                                     "ontologyKey":"STBL_A4_T1_V3|name",
                                     "id": "var3"
                                 },
                                 {
+                                    "index":4,
                                     "name": "{{$EFO_STBL_A4_T1_V4|name}}",
                                     "ontologyKey":"STBL_A4_T1_V4|name",
                                     "id": "var4"
@@ -384,21 +544,25 @@
                         "listdata": {
                             "options": [
                                 {
+                                    "index":1,
                                     "name": "{{$EFO_STBL_A4_T2_V1|name}}",
                                     "ontologyKey":"STBL_A4_T2_V1|name",
                                     "id": "var1"
                                 },
                                 {
+                                    "index":2,
                                     "name": "{{$EFO_STBL_A4_T2_V2|name}}",
                                     "ontologyKey":"STBL_A4_T2_V2|name",
                                     "id": "var2"
                                 },
                                 {
+                                    "index":3,
                                     "name": "{{$EFO_STBL_A4_T2_V3|name}}",
                                     "ontologyKey":"STBL_A4_T2_V3|name",
                                     "id": "var3"
                                 },
                                 {
+                                    "index":4,
                                     "name": "{{$EFO_STBL_A4_T2_V4|name}}",
                                     "ontologyKey":"STBL_A4_T2_V4|name",
                                     "id": "var4"
