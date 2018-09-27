@@ -133,11 +133,11 @@
 			"track4": {
 				"en": {
 					"node": "TVALUESELECTION",
-					"html": "Now choose the {{$EFO_STBL_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_STBL_A?_T?_V?|name}} affects the, {{$EFO_STBL_A?_T?|name}}",
-					"text": "Now choose the{{$EFO_STBL_A?_T?_V?|name}}for each condition that will allow you to see if the,{{$EFO_STBL_A?_T?_V?|name}}affects the,{{$EFO_STBL_A?_T?|name}}",
+					"html": "Now choose the {{$EFO_STBL_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_STBL_A?_T?_V?|name}} affects the, {{$EFO_S_A?_T?|DVs}}",
+					"text": "",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -198,12 +198,12 @@
 			"track7": {
 				"en": {
 					"node": "IVALUESELECTIONINTRO",
-					"html": "Now you must decide how to set up the other variables in this experiment. Let's start with the {{$EFO_STBL_A?_T?_V?|name|2}}.  which values would you use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_STBL_A?_T?|name}}",
-					"text": "Now you must decide how to set up the other variables in this experiment. Let's start with the{{$EFO_STBL_A?_T?_V?|name|2}}. which values would you use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_STBL_A?_T?|name}}",
+					"html": "Now you must decide how to set up the other variables in this experiment. Let's start with the {{$EFO_STBL_A?_T?_V?|name|2}}.  which values would you use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_S_A?_T?|DVs}}",
+					"text": "",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
-						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -234,12 +234,12 @@
 			"track7b": {
 				"en": {
 					"node": "IVALUESELECTION",
-					"html": "Now select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_STBL_A?_T?|name}}",
-					"text": "Now select which{{$EFO_STBL_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_STBL_A?_T?|name}}",
+					"html": "Now select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_S_A?_T?|DVs}}",
+					"text": "",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
-						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -270,12 +270,12 @@
 			"track7c": {
 				"en": {
 					"node": "IVALUESELECTION",
-					"html": "Finally select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_STBL_A?_T?|name}}",
-					"text": "Finally select which{{$EFO_STBL_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_STBL_A?_T?|name}}",
+					"html": "Finally select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the {{$EFO_S_A?_T?|DVs}}",
+					"text": "",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
-						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -344,11 +344,11 @@
 			"track1": {
 				"en": {
 					"node": "(root)SUMMARY",
-					"html": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}} affects the{{$EFO_STBL_A?_T?|name}}",
-					"text": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}}affects the{{$EFO_STBL_A?_T?|name}}",
+					"html": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}} affects the{{$EFO_S_A?_T?|DVs}}",
+					"text": "",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -418,7 +418,7 @@
 					"node": "(root)INTRO",
 					"datasource": "$EFL_efdata.scene3",
 					"html": "",
-					"text": "Now we’ll look at how some other students have set up some experiments of their own for the topic of{{$EFO_STBL_A?_T?|name}}",
+					"text": "{{$EFO_TED_S3|part1}}{{$EFO_STBL_A?_T?|name}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
@@ -464,9 +464,9 @@
 			"track1": {
 				"en": {
 					"node": "(root)INSTRUCTIONS",
-					"datasource": "$EFL_efdata.instr1",
+					"datasource": "$EFL_efdata.scene5",
 					"html": "",
-					"text": "Each experiment set up by some other students might either be a good or a bad experiment.",
+					"text": "{{$EFO_TED_S5|part1}}",
 					"volume": [
 						1
 					],
@@ -486,9 +486,9 @@
 			"track1": {
 				"en": {
 					"node": "(root)INSTRUCTIONS",
-					"datasource": "$EFL_efdata.instr2",
+					"datasource": "$EFL_efdata.scene6",
 					"html": "",
-					"text": "A 'good' experiment will let you figure out if the variable you are testing really does or really does not make a difference. We will ask you if you think each experiment is a good or bad experiment.",
+					"text": "{{$EFO_TED_S6|part1}}",
 					"volume": [
 						1
 					],
@@ -508,10 +508,10 @@
 			"track1": {
 				"en": {
 					"node": "(root)TED EXPT1 Intro",
-					"html": "{{$EFO_EG_BOTH|rqis}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
-					"text": "{{$EFO_EG_BOTH|rqis}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
+					"html": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
+					"text": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
 					"templateRef": {
-						"$EFO_EG_BOTH|rqis": "$EFT_experimentalGroup.ontologyKey",
+						"$EFO_TED_S7|part1": "$EFM_TEDExpt1RQ.ontologyKey",
 						"$EFO_S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
 						"$EFO_S_A?_T?|rqselectedalls": "$EFM_TEDExpt1RQ.ontologyKey"
 					},
@@ -758,11 +758,8 @@
 			"track1": {
 				"en": {
 					"node": "(root)QUESTION1",
-					"html": "{{$EFO_TED_Q1|part1}}",
-					"templateRef": {
-						"$EFO_TED_Q1|part1": "$EFT_experimentalGroup.ontologyKey"
-					},
-					"text": "{{$EFO_TED_Q1|part1}}",
+					"html": "{{$EFO_TED_E1_Q1|part1}}",
+					"text": "{{$EFO_TED_E1_Q1|part1}}",
 					"volume": [
 						1
 					],
@@ -778,11 +775,123 @@
 			"track2": {
 				"en": {
 					"node": "(root)QUESTION1",
-					"html": "{{$EFO_TED_Q1|part2}}",
-					"templateRef": {
-						"$EFO_TED_Q1|part2": "$EFT_experimentalGroup.ontologyKey"
-					},
-					"text": "{{$EFO_TED_Q1|part2}}",
+					"html": "{{$EFO_TED_E1_Q1|part2}}",
+					"text": "{{$EFO_TED_E1_Q1|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene10": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "RIGHT...",
+					"html": "{{$EFO_TED_E1_Q2|part1}}",
+					"text": "{{$EFO_TED_E1_Q2|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "RIGHT...",
+					"html": "{{$EFO_TED_E1_Q2|part2}}",
+					"text": "{{$EFO_TED_E1_Q2|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene11": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "ACTUALLY...",
+					"html": "{{$EFO_TED_E1_Q3|part1}}",
+					"text": "{{$EFO_TED_E1_Q3|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "ACTUALLY...",
+					"html": "{{$EFO_TED_E1_Q3|part2}}",
+					"text": "{{$EFO_TED_E1_Q3|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene12": {
+		"tracks": {
+			"track1": {
+				"en": {
+                    "comment": "Q4",
+					"node": "The ... May either be ...",
+					"html": "{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4|part1}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q3|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "ACTUALLY...",
+					"html": "{{$EFO_TED_E1_Q3|part2}}",
+					"text": "{{$EFO_TED_E1_Q3|part2}}",
 					"volume": [
 						1
 					],

@@ -46,6 +46,32 @@
 						"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
 					}
 				}
+			},
+			"S10": {
+				"SListBox1": {
+					"src": "$$EFX.html_list_std",
+					"htmlData": {
+						"style": {
+							"[slistbox1] .listbox": {
+								"border-radius": "4px"
+							}
+						},
+						"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
+					}
+				}
+			},
+			"S11": {
+				"SListBox1": {
+					"src": "$$EFX.html_list_std",
+					"htmlData": {
+						"style": {
+							"[slistbox1] .listbox": {
+								"border-radius": "4px"
+							}
+						},
+						"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
+					}
+				}
 			}
 		},
 		"eftext": {
@@ -248,6 +274,306 @@
 						"html": "\n        <p></p>\n    "
 					}
 				}
+			},
+			"S10": {
+				"Stitle": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[stitle].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[stitle] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				},
+				"Squestion": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[squestion].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[squestion] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				}
+			},
+			"S11": {
+				"Stitle": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[stitle].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[stitle] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				},
+				"Squestion": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[squestion].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[squestion] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				}
+			},
+			"S12": {
+				"Stitle": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[stitle].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[stitle] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				},
+				"Squestion": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[squestion].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[squestion] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				}
+			},
+			"S13": {
+				"Stitle": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[stitle].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[stitle] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				},
+				"Squestion": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[squestion].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[squestion] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				}
+			},
+			"S14": {
+				"Stitle": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[stitle].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[stitle] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				},
+				"Squestion": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[squestion].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[squestion] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				}
+			},
+			"S15": {
+				"Stitle": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[stitle].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[stitle] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				},
+				"Squestion": {
+					"id": "A",
+					"src": "$$EFX.html_text2",
+					"default": true,
+					"fontSize": 40,
+					"htmlData": {
+						"style": {
+							"[squestion].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "158px",
+								"width": "274px"
+							},
+							"[squestion] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p></p>\n    "
+					}
+				}
 			}
 		},
 		"efinput": {},
@@ -303,7 +629,7 @@
 			},
 			"scene3": {
 				"htmlData": {
-					"html": "Now we’ll look at how some other students have set up some experiments of their own for the topic of {{$EFO_STBL_A?_T?|name}}"
+					"html": "{{$EFO_TED_S3|part1}}{{$EFO_STBL_A?_T?|name}}"
 				},
 				"templateRef": {
 					"STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
@@ -312,13 +638,23 @@
 			"scene4": {
 				"box1": {
 					"htmlData": {
-						"html": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help."
+						"html": "{{$EFO_TED_S4|part1}}"
 					}
 				},
 				"box2": {
 					"htmlData": {
-						"html": " If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly."
+						"html": "{{$EFO_TED_S4|part2}}"
 					}
+				}
+			},
+			"scene5": {
+				"htmlData": {
+					"html": "{{$EFO_TED_S5|part1}}"
+				}
+			},
+			"scene6": {
+				"htmlData": {
+					"html": "{{$EFO_TED_S6|part1}}"
 				}
 			},
 			"scene7": {
@@ -355,23 +691,23 @@
 				},
 				"question": {
 					"htmlData": {
-						"html": "{{$EFO_TED_Q1|question}}"
+						"html": "{{$EFO_TED_E1_Q1|question}}"
 					}
 				},
 				"SListBox1": {
 					"listdata": {
 						"options": [
 							{
-								"name": "{{$EFO_TED_Q1|yes}}",
+								"name": "{{$EFO_TED_E1_LISTQ1|yes}}",
 								"value": "$EFL_efdata.TED.Q1",
-								"ontologyKey": "TED_Q1|yes",
+								"ontologyKey": "TED_E1_LISTQ1|yes",
 								"index": 1,
 								"id": "YES"
 							},
 							{
-								"name": "{{$EFO_TED_Q1|no}}",
+								"name": "{{$EFO_TED_E1_LISTQ1|no}}",
 								"value": "$EFL_efdata.TED.Q1",
-								"ontologyKey": "TED_Q1|no",
+								"ontologyKey": "TED_E1_LISTQ1|no",
 								"index": 2,
 								"id": "NO"
 							}
@@ -380,14 +716,282 @@
 					}
 				}
 			},
-			"instr1": {
-				"htmlData": {
-					"html": "Each experiment set up by some other students might either be a good or a bad experiment."
+			"scene10": {
+				"scenePrompt": {
+					"htmlData": {
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+					},
+					"templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+					}
+				},
+				"question": {
+					"htmlData": {
+						"html": "{{$EFO_TED_E1_Q2|question}}"
+					}
+				},
+				"SListBox1": {
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans1}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 1,
+								"id": "1"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans2}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 2,
+								"id": "2"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans3}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 3,
+								"id": "3"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans4}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 4,
+								"id": "4"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans5}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 5,
+								"id": "5"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans6}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 6,
+								"id": "6"
+							}
+						],
+						"placeHolder": "{{$EFO_STBL_PH1|name}}"
+					}
 				}
 			},
-			"instr2": {
-				"htmlData": {
-					"html": "A 'good' experiment will let you figure out if the variable you are testing really does or really does not make a difference. We will ask you if you think each experiment is a good or bad experiment."
+			"scene11": {
+				"scenePrompt": {
+					"htmlData": {
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+					},
+					"templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+					}
+				},
+				"question": {
+					"htmlData": {
+						"html": "{{$EFO_TED_E1_Q3|question}}"
+					}
+				},
+				"SListBox1": {
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans1}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 1,
+								"id": "1"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans2}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 2,
+								"id": "2"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans3}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 3,
+								"id": "3"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans4}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 4,
+								"id": "4"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans5}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 5,
+								"id": "5"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ23|ans6}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ23",
+								"ontologyKey": "TED_E1_LISTQ23|yes",
+								"index": 6,
+								"id": "6"
+							}
+						],
+						"placeHolder": "{{$EFO_STBL_PH1|name}}"
+					}
+				}
+			},
+			"scene12": {
+				"scenePrompt": {
+					"htmlData": {
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+					},
+					"templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+					}
+				},
+				"question": {
+					"htmlData": {
+						"html": "{{$EFO_TED_E1_Q4|question}}"
+					}
+				},
+				"SListBox1": {
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_TED_E1_Q4|yes}}",
+								"value": "$EFL_efdata.TED.Q4",
+								"ontologyKey": "TED_E1_Q4|yes",
+								"index": 1,
+								"id": "YES"
+							},
+							{
+								"name": "{{$EFO_TED_E1_Q4|no}}",
+								"value": "$EFL_efdata.TED.Q4",
+								"ontologyKey": "TED_E1_Q4|no",
+								"index": 2,
+								"id": "NO"
+							}
+						],
+						"placeHolder": "{{$EFO_STBL_PH1|name}}"
+					}
+				}
+			},
+			"scene13": {
+				"scenePrompt": {
+					"htmlData": {
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+					},
+					"templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+					}
+				},
+				"question": {
+					"htmlData": {
+						"html": "{{$EFO_TED_E1_Q5|question}}"
+					}
+				},
+				"SListBox1": {
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_TED_E1_Q5|yes}}",
+								"value": "$EFL_efdata.TED.Q5",
+								"ontologyKey": "TED_E1_Q5|yes",
+								"index": 1,
+								"id": "YES"
+							},
+							{
+								"name": "{{$EFO_TED_E1_Q5|no}}",
+								"value": "$EFL_efdata.TED.Q5",
+								"ontologyKey": "TED_E1_Q5|no",
+								"index": 2,
+								"id": "NO"
+							}
+						],
+						"placeHolder": "{{$EFO_STBL_PH1|name}}"
+					}
+				}
+			},
+			"scene14": {
+				"scenePrompt": {
+					"htmlData": {
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+					},
+					"templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+					}
+				},
+				"question": {
+					"htmlData": {
+						"html": "{{$EFO_TED_E1_Q6|question}}"
+					}
+				},
+				"SListBox1": {
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_TED_E1_Q6|yes}}",
+								"value": "$EFL_efdata.TED.Q6",
+								"ontologyKey": "TED_E1_Q6|yes",
+								"index": 1,
+								"id": "YES"
+							},
+							{
+								"name": "{{$EFO_TED_E1_Q6|no}}",
+								"value": "$EFL_efdata.TED.Q6",
+								"ontologyKey": "TED_E1_Q6|no",
+								"index": 2,
+								"id": "NO"
+							}
+						],
+						"placeHolder": "{{$EFO_STBL_PH1|name}}"
+					}
+				}
+			},
+			"scene15": {
+				"scenePrompt": {
+					"htmlData": {
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+					},
+					"templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+					}
+				},
+				"question": {
+					"htmlData": {
+						"html": "{{$EFO_TED_E1_Q7|question}}"
+					}
+				},
+				"SListBox1": {
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_TED_E1_Q7|yes}}",
+								"value": "$EFL_efdata.TED.Q7",
+								"ontologyKey": "TED_E1_Q7|yes",
+								"index": 1,
+								"id": "YES"
+							},
+							{
+								"name": "{{$EFO_TED_E1_Q7|no}}",
+								"value": "$EFL_efdata.TED.Q7",
+								"ontologyKey": "TED_E1_Q7|no",
+								"index": 2,
+								"id": "NO"
+							}
+						],
+						"placeHolder": "{{$EFO_STBL_PH1|name}}"
+					}
 				}
 			},
 			"nulllist": {

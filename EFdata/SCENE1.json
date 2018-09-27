@@ -3,7 +3,7 @@
     "SScene1": {
         "STextBox1": {
             "layoutsource":"$EFL_eftext.STextBox1",
-            "datasource": "$EFL_efdata.scenePrompt1",
+            "datasource": "$EFL_efdata.scene1",
             "fontSize":65
         },
         "STable1": {

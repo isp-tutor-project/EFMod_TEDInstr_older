@@ -39,7 +39,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             this.setModuleValue("TEDExpt1V4A", {"ontologyKey":"S_A1_T2_V4_A", "index":4});
             this.setModuleValue("TEDExpt1V4B", {"ontologyKey":"S_A1_T2_V4_B", "index":4});
 
-
             this.delFeature(CONST.FTRS_ALL, CONST.VAR_FTR);
             this.addFeaturebyQuery(`S_A${this.getModuleValue("TEDExpt1Area.index")}_T${this.getModuleValue("TEDExpt1Topic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);            
 

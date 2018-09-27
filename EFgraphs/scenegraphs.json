@@ -658,6 +658,264 @@
 		{		
             "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
         }
+    },
+	"SScene10":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Why did you say it was not a good way...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
+                        {"trackname":"track2",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene11":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Why is this actually not a good Expt...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
+                        {"trackname":"track2",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene12":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Could you tell for sure that...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
+                        {"trackname":"track2",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene13":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"If the results from condition1 ...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
+                        {"trackname":"track2",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene14":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Why did you say ...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
+                        {"trackname":"track2",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene15":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Why could you Not ...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
+                        {"trackname":"track2",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
     }
 
 }

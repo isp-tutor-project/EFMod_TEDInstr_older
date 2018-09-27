@@ -1,0 +1,20 @@
+{
+    "_MODULEDATA":"v1.0.0",
+    "SScene10": {
+        "Stitle": {
+            "layoutsource":"$EFL_eftext.S10.Stitle",
+            "datasource": "$EFL_efdata.scene10.scenePrompt"           
+        },
+        "Squestion": {
+            "layoutsource":"$EFL_eftext.S10.Squestion",
+            "datasource": "$EFL_efdata.scene10.question",
+            "xname":"SCENE10Q"      
+        },
+        "Sanswer": {
+            "layoutsource":"$EFL_eflist.S10.SListBox1",
+            "datasource": "$EFL_efdata.scene10.SListBox1",
+            "fontSize":35,
+            "xname":"SCENE10A"
+        }        
+    }
+}
