@@ -19,18 +19,20 @@
             "S7":{
                 "part1":"In the first experiment, Some students need to find out whether the"
             },
+
             "E1": {
+                "LISTYN": {
+                    "yes":"YES",
+                    "no":"NO"
+                },
+
                 "Q1": {
                     "comment":"scene9",
 
                     "part1":"Think about the students' problem, and the experiment that they designed.",
                     "part2":"Is this a good way to design the experiment?",
                     "question":"<p>Is this a good way to design an experiment?</p>"
-                },
-                "LISTQ1": {
-                    "yes":"YES",
-                    "no":"NO"
-                },
+                },                
                 "Q2":{
                     "comment":"scene10",
 
@@ -45,7 +47,7 @@
                     "part2":"<p>Even though you said it was a good experiment, select from the drop-down menu the best reason that explains why this is actually NOT a good experiment.</p>",
                     "question":"Why is this actually not a good experiment?"
                 },
-                "ANS2-3": {
+                "LISTQ23": {
                     "ans1":"All four variables should be the same for both conditions.",
                     "ans2":"Everything is different, so you can't tell if the variable we're testing will make a difference.",
                     "ans3":"Because what we are testing won't make a difference.",
@@ -53,37 +55,34 @@
                     "ans5":"The conditions are not set up to make the best outcomes (or results).",
                     "ans6":"I don't know."
                 },
+                
                 "Q4":{
                     "comment":"scene12",
 
-                    "part1":"may either be the same of different across conditions. Imagine the results ",
-                    "part2":"were different across conditions",
-                    "question1":"Could you tell for sure that the",
-                    "question2":"caused the difference?"
-                },
-                "ANS4A": {
+                    "part1":"may either be the same or different across conditions. Imagine the results ",
+                    "part2":"were different across conditions, Could you tell for sure that the",
+                    "part3":"caused the difference?",
+
+                    "prompt":"<p>Results for Condition 1 = Results for Condition 2<br>OR<br>Results for Condition 1 ≠ Results for Condition 2</p>",
+                    "question1":"IF: Results for Condition 1 ≠ Results for Condition 2…",
+                    "question2":"Could you tell for sure that the",
+                    "question3":"caused the difference?"
+                },                
+                "Q4A": {
                     "part1":"You're right, we could not tell for sure that the",
                     "part2":"caused the difference. That is, we could not tell for sure that one",
                     "part3":"caused a greater",
                     "part4":"than the other"
                 },
-                "ANS4B": {
+                "Q4B": {
                     "part1":"Actually, we could not tell for sure that the",
                     "part2":"caused the difference. That is, we could not tell for sure that one",
                     "part3":"caused a greater",
                     "part4":"than the other"
                 },
-                "LISTQ23": {
-                    "ans1":"Everything should be the same so the results will be the same in both conditions.",
-                    "ans2":"Since everything is different, something else might have caused the difference.",
-                    "ans3":"The variable we're testing doesn't really make a difference (or have an effect).",
-                    "ans4":"Because you need to have everything the same except for the variable being tested.",
-                    "ans5":"The conditions are set up the wrong way, so we won't get the best possible outcome.",
-                    "ans6":"I don't know."
-                },
+
                 "Q5":{
                     "comment":"scene13",
-
                     "question":"Why did you say you could not know for sure?"
                 },
                 "Q6":{
@@ -93,6 +92,15 @@
                     "part2":"caused the difference.",
                     "question":"Why could you actually not tell for sure?"
                 },
+                "LISTQ56": {
+                    "ans1":"Everything should be the same so the results will be the same in both conditions.",
+                    "ans2":"Since everything is different, something else might have caused the difference.",
+                    "ans3":"The variable we're testing doesn't really make a difference (or have an effect).",
+                    "ans4":"Because you need to have everything the same except for the variable being tested.",
+                    "ans5":"The conditions are set up the wrong way, so we won't get the best possible outcome.",
+                    "ans6":"I don't know."
+                },
+
                 "Q7":{
                     "comment":"scene15",
 
@@ -183,18 +191,18 @@
                     "ans6":"I don't know."
                 },
                 "Q4":{
-                    "part1":"may either be the same of different across conditions. Imagine the results ",
+                    "part1":"may either be the same or different across conditions. Imagine the results ",
                     "part2":"were different across conditions",
                     "question1":"Could you tell for sure that the",
                     "question2":"caused the difference?"
                 },
-                "ANS4A": {
+                "Q4A": {
                     "part1":"You're right, we could not tell for sure that the",
                     "part2":"caused the difference. That is, we could not tell for sure that one",
                     "part3":"caused a greater",
                     "part4":"than the other"
                 },
-                "ANS4B": {
+                "Q4B": {
                     "part1":"Actually, we could not tell for sure that the",
                     "part2":"caused the difference. That is, we could not tell for sure that one",
                     "part3":"caused a greater",

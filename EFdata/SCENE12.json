@@ -3,16 +3,20 @@
     "SScene12": {
         "Stitle": {
             "layoutsource":"$EFL_eftext.S12.Stitle",
-            "datasource": "$EFL_efdata.scene12.scenePrompt"           
+            "datasource": "$EFL_efdata.scene12.scenePrompt",
+            "fontSize":30,
+            "xname":"scene12Stitle"
         },
         "Squestion": {
             "layoutsource":"$EFL_eftext.S12.Squestion",
-            "datasource": "$EFL_efdata.scene12.question"           
+            "datasource": "$EFL_efdata.scene12.question",
+            "xname":"scene12Squestion"
         },
         "Sanswer": {
-            "layoutsource":"$EFL_eflist.S12.SListBox1",
-            "datasource": "$EFL_efdata.scene12.SListBox1",
-            "fontSize":35
+            "layoutsource":"$EFL_eflist.S12.Sanswer",
+            "datasource": "$EFL_efdata.scene12.Sanswer",
+            "fontSize":35,
+            "xname":"scene12Sanswer"
         }        
     }
 }

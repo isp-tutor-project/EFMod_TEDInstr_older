@@ -61,11 +61,24 @@
 				}
 			},
 			"S11": {
-				"SListBox1": {
+				"Sanswer": {
 					"src": "$$EFX.html_list_std",
 					"htmlData": {
 						"style": {
-							"[slistbox1] .listbox": {
+							"[sanswer] .listbox": {
+								"border-radius": "4px"
+							}
+						},
+						"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
+					}
+				}
+			},
+			"S12": {
+				"Sanswer": {
+					"src": "$$EFX.html_list_std",
+					"htmlData": {
+						"style": {
+							"[sanswer] .listbox": {
 								"border-radius": "4px"
 							}
 						},
@@ -618,13 +631,22 @@
 			}
 		},
 		"efdata": {
-			"scenePrompt1": {
+			"scene1": {
 				"htmlData": {
-					"html": "<p>Does the{{$EFO_STBL_A?_T?_V?|name}}affect the{{$EFO_STBL_A?_T?|name}}</p>"
+					"html": "<p>Does the{{$EFO_STBL_A?_T?_V?|name}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 				},
 				"templateRef": {
 					"STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-					"STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+					"STBL_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+				}
+			},
+			"scene2": {
+				"htmlData": {
+					"html": "<p>Does the{{$EFO_STBL_A?_T?_V?|name}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
+				},
+				"templateRef": {
+					"STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+					"STBL_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 				}
 			},
 			"scene3": {
@@ -660,33 +682,33 @@
 			"scene7": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+						"html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
 					}
 				}
 			},
 			"scene8": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
 					}
 				}
 			},
 			"scene9": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -698,18 +720,18 @@
 					"listdata": {
 						"options": [
 							{
-								"name": "{{$EFO_TED_E1_LISTQ1|yes}}",
-								"value": "$EFL_efdata.TED.Q1",
-								"ontologyKey": "TED_E1_LISTQ1|yes",
+								"name": "{{$EFO_TED_E1_LISTYN|yes}}",
+								"ontologyKey": "TED_E1_LISTYN|yes",
 								"index": 1,
-								"id": "YES"
+								"value": false,
+								"id": "incorrect"
 							},
 							{
-								"name": "{{$EFO_TED_E1_LISTQ1|no}}",
-								"value": "$EFL_efdata.TED.Q1",
-								"ontologyKey": "TED_E1_LISTQ1|no",
+								"name": "{{$EFO_TED_E1_LISTYN|no}}",
+								"ontologyKey": "TED_E1_LISTYN|no",
 								"index": 2,
-								"id": "NO"
+								"value": true,
+								"id": "correct"
 							}
 						],
 						"placeHolder": "{{$EFO_STBL_PH1|name}}"
@@ -719,11 +741,11 @@
 			"scene10": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -784,11 +806,11 @@
 			"scene11": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -796,7 +818,7 @@
 						"html": "{{$EFO_TED_E1_Q3|question}}"
 					}
 				},
-				"SListBox1": {
+				"Sanswer": {
 					"listdata": {
 						"options": [
 							{
@@ -849,34 +871,33 @@
 			"scene12": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
-					},
-					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"html": "{{$EFO_TED_E1_Q4|prompt}}"
 					}
 				},
 				"question": {
 					"htmlData": {
-						"html": "{{$EFO_TED_E1_Q4|question}}"
+						"html": "{{$EFO_TED_E1_Q4|question1}}<br>{{$EFO_TED_E1_Q4|question2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4|question3}}"
+					},
+					"templateRef": {
+						"STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC1.ontologyKey"
 					}
 				},
-				"SListBox1": {
+				"Sanswer": {
 					"listdata": {
 						"options": [
 							{
-								"name": "{{$EFO_TED_E1_Q4|yes}}",
-								"value": "$EFL_efdata.TED.Q4",
-								"ontologyKey": "TED_E1_Q4|yes",
+								"name": "{{$EFO_TED_E1_LISTYN|yes}}",
+								"ontologyKey": "TED_E1_LISTYN|yes",
 								"index": 1,
-								"id": "YES"
+								"value": false,
+								"id": "incorrect"
 							},
 							{
-								"name": "{{$EFO_TED_E1_Q4|no}}",
-								"value": "$EFL_efdata.TED.Q4",
-								"ontologyKey": "TED_E1_Q4|no",
+								"name": "{{$EFO_TED_E1_LISTYN|no}}",
+								"ontologyKey": "TED_E1_LISTYN|no",
 								"index": 2,
-								"id": "NO"
+								"value": true,
+								"id": "correct"
 							}
 						],
 						"placeHolder": "{{$EFO_STBL_PH1|name}}"
@@ -886,11 +907,11 @@
 			"scene13": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -898,22 +919,50 @@
 						"html": "{{$EFO_TED_E1_Q5|question}}"
 					}
 				},
-				"SListBox1": {
+				"Sanswer": {
 					"listdata": {
 						"options": [
 							{
-								"name": "{{$EFO_TED_E1_Q5|yes}}",
-								"value": "$EFL_efdata.TED.Q5",
-								"ontologyKey": "TED_E1_Q5|yes",
+								"name": "{{$EFO_TED_E1_LISTQ56|ans1}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
 								"index": 1,
-								"id": "YES"
+								"id": "1"
 							},
 							{
-								"name": "{{$EFO_TED_E1_Q5|no}}",
-								"value": "$EFL_efdata.TED.Q5",
-								"ontologyKey": "TED_E1_Q5|no",
+								"name": "{{$EFO_TED_E1_LISTQ56|ans2}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
 								"index": 2,
-								"id": "NO"
+								"id": "2"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ56|ans3}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
+								"index": 3,
+								"id": "3"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ56|ans4}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
+								"index": 4,
+								"id": "4"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ56|ans5}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
+								"index": 5,
+								"id": "5"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ56|ans6}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
+								"index": 6,
+								"id": "6"
 							}
 						],
 						"placeHolder": "{{$EFO_STBL_PH1|name}}"
@@ -923,11 +972,11 @@
 			"scene14": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -935,22 +984,50 @@
 						"html": "{{$EFO_TED_E1_Q6|question}}"
 					}
 				},
-				"SListBox1": {
+				"Sanswer": {
 					"listdata": {
 						"options": [
 							{
-								"name": "{{$EFO_TED_E1_Q6|yes}}",
-								"value": "$EFL_efdata.TED.Q6",
-								"ontologyKey": "TED_E1_Q6|yes",
+								"name": "{{$EFO_TED_E1_LISTQ56|ans1}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
 								"index": 1,
-								"id": "YES"
+								"id": "1"
 							},
 							{
-								"name": "{{$EFO_TED_E1_Q6|no}}",
-								"value": "$EFL_efdata.TED.Q6",
-								"ontologyKey": "TED_E1_Q6|no",
+								"name": "{{$EFO_TED_E1_LISTQ56|ans2}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
 								"index": 2,
-								"id": "NO"
+								"id": "2"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ56|ans3}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
+								"index": 3,
+								"id": "3"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ56|ans4}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
+								"index": 4,
+								"id": "4"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ56|ans5}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
+								"index": 5,
+								"id": "5"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ56|ans6}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ56",
+								"ontologyKey": "TED_E1_LISTQ56|yes",
+								"index": 6,
+								"id": "6"
 							}
 						],
 						"placeHolder": "{{$EFO_STBL_PH1|name}}"
@@ -960,11 +1037,11 @@
 			"scene15": {
 				"scenePrompt": {
 					"htmlData": {
-						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|rqselectedall}}</p>"
+						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|rqselectedall": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
 					}
 				},
 				"question": {

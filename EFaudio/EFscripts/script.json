@@ -134,7 +134,7 @@
 				"en": {
 					"node": "TVALUESELECTION",
 					"html": "Now choose the {{$EFO_STBL_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_STBL_A?_T?_V?|name}} affects the, {{$EFO_S_A?_T?|DVs}}",
-					"text": "",
+					"text": "Now choose the{{$EFO_STBL_A?_T?_V?|name}}for each condition that will allow you to see if the,{{$EFO_STBL_A?_T?_V?|name}}affects the,{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
@@ -199,7 +199,7 @@
 				"en": {
 					"node": "IVALUESELECTIONINTRO",
 					"html": "Now you must decide how to set up the other variables in this experiment. Let's start with the {{$EFO_STBL_A?_T?_V?|name|2}}.  which values would you use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_S_A?_T?|DVs}}",
-					"text": "",
+					"text": "Now you must decide how to set up the other variables in this experiment. Let's start with the{{$EFO_STBL_A?_T?_V?|name|2}}. which values would you use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
@@ -235,7 +235,7 @@
 				"en": {
 					"node": "IVALUESELECTION",
 					"html": "Now select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_S_A?_T?|DVs}}",
-					"text": "",
+					"text": "Now select which{{$EFO_STBL_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
@@ -271,7 +271,7 @@
 				"en": {
 					"node": "IVALUESELECTION",
 					"html": "Finally select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the {{$EFO_S_A?_T?|DVs}}",
-					"text": "",
+					"text": "Finally select which{{$EFO_STBL_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
@@ -345,7 +345,7 @@
 				"en": {
 					"node": "(root)SUMMARY",
 					"html": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}} affects the{{$EFO_S_A?_T?|DVs}}",
-					"text": "",
+					"text": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}}affects the{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
@@ -750,6 +750,23 @@
 					"cueSet": ".........................................",
 					"templates": {}
 				}
+			},
+			"track5": {
+				"en": {
+					"node": "(root)Thinks about the experiment...",
+					"html": "{{$EFO_TED_E1_Q1|part1}}",
+					"text": "{{$EFO_TED_E1_Q1|part1}}",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"volume": [
+						1
+					],
+					"cueSet": ".........................................",
+					"templates": {}
+				}
 			}
 		}
 	},
@@ -777,6 +794,40 @@
 					"node": "(root)QUESTION1",
 					"html": "{{$EFO_TED_E1_Q1|part2}}",
 					"text": "{{$EFO_TED_E1_Q1|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "RIGHT...",
+					"html": "{{$EFO_TED_E1_Q2|part1}}",
+					"text": "{{$EFO_TED_E1_Q2|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track4": {
+				"en": {
+					"node": "ACTUALLY...",
+					"html": "{{$EFO_TED_E1_Q3|part1}}",
+					"text": "{{$EFO_TED_E1_Q3|part1}}",
 					"volume": [
 						1
 					],
@@ -871,34 +922,31 @@
 		"tracks": {
 			"track1": {
 				"en": {
-                    "comment": "Q4",
-					"node": "The ... May either be ...",
-					"html": "{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4|part1}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q3|part1}}",
+					"comment": "Q4",
+					"node": "The ... May either be ...  Imagine",
+					"html": "{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4|part1}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4|part3}}",
+					"text": "{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4|part1}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4|part3}}",
+					"templateRef": {
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey",
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC1.ontologyKey"
+					},
 					"volume": [
+						1,
+						1,
+						1,
+						1,
+						1,
 						1
 					],
 					"cueSet": "...............................................................",
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						0
-					],
-					"templates": {}
-				}
-			},
-			"track2": {
-				"en": {
-					"node": "ACTUALLY...",
-					"html": "{{$EFO_TED_E1_Q3|part2}}",
-					"text": "{{$EFO_TED_E1_Q3|part2}}",
-					"volume": [
-						1
-					],
-					"cueSet": "...............................................................",
-					"segments": [],
-					"timedSet": [],
-					"trim": [
+						0,
+						0,
+						0,
+						0,
+						0,
 						0
 					],
 					"templates": {}
