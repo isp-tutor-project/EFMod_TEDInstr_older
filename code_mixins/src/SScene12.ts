@@ -127,10 +127,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $onSelect(target:string) {            
 
             switch(target) {
-
-                case "Sanswer":
-                    this.setModuleValue("Expt1_Q4", this.Sanswer.selected);
-                    break;
             }
 
             this.$updateNav();

@@ -619,9 +619,6 @@ var EFTut_Suppl;
             }
             $onSelect(target) {
                 switch (target) {
-                    case "Sanswer":
-                        this.setModuleValue("Expt1_Q4", this.Sanswer.selected);
-                        break;
                 }
                 this.$updateNav();
             }
@@ -631,6 +628,106 @@ var EFTut_Suppl;
             }
         }
         EFMod_TEDInstr.SScene12 = SScene12;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SScene12A {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setSceneValue("Complete", false);
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                    case "CORRECT":
+                        result = this.getModuleValue("Expt1_Q4").value;
+                        break;
+                    case "INCOMPLETE":
+                        result = !this.getSceneValue("Complete");
+                        break;
+                    default:
+                        break;
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = true;
+                switch (this.graphState) {
+                    default:
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                switch (target) {
+                    case "Sanswer":
+                        this.setModuleValue("Expt1_Q4", this.Sanswer.selected);
+                        this.setSceneValue("Complete", true);
+                        break;
+                }
+                this.$updateNav();
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene12A = SScene12A;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 var EFTut_Suppl;
@@ -1368,6 +1465,21 @@ var EFTut_Suppl;
                                 this.Sexpt2.showHighlight("Svar4");
                                 break;
                             case "$end":
+                                this.$("Sexpt.").exec("hideHighlight", "Svar2");
+                                this.$("Sexpt.").exec("showHighlight", "Svar1");
+                                this.$("Sexpt.").exec("showHighlight", "Svar2");
+                                this.$("Sexpt.").exec("showHighlight", "Svar3");
+                                this.$("Sexpt.").exec("showHighlight", "Svar4");
+                                break;
+                        }
+                        break;
+                    case "track5":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                            case "a":
                                 this.$("Sexpt.").exec("showHighlight", "Svar1");
                                 this.$("Sexpt.").exec("showHighlight", "Svar2");
                                 this.$("Sexpt.").exec("showHighlight", "Svar3");
@@ -1412,6 +1524,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("Complete", false);
             }
             $preExitScene() {
             }
@@ -1444,8 +1557,8 @@ var EFTut_Suppl;
                     case "CORRECT":
                         result = this.getModuleValue("Expt1_Q1").value;
                         break;
-                    case "INCORRECT":
-                        result = !this.getModuleValue("Expt1_Q1").value;
+                    case "INCOMPLETE":
+                        result = !this.getSceneValue("Complete");
                         break;
                     default:
                         break;
@@ -1486,6 +1599,7 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q1", this.Sanswer.selected);
+                        this.setSceneValue("Complete", true);
                         break;
                 }
                 this.$updateNav();

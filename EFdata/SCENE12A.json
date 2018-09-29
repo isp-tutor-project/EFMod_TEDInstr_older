@@ -1,0 +1,16 @@
+{
+    "_MODULEDATA":"v1.0.0",
+    "SScene12A": {
+        "Squestion": {
+            "layoutsource":"$EFL_eftext.S12A.Squestion",
+            "datasource": "$EFL_efdata.scene12A.question",
+            "xname":"scene12ASquestion"
+        },
+        "Sanswer": {
+            "layoutsource":"$EFL_eflist.S12A.Sanswer",
+            "datasource": "$EFL_efdata.scene12A.Sanswer",
+            "fontSize":35,
+            "xname":"scene12ASanswer"
+        }        
+    }
+}

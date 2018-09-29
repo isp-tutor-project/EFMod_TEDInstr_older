@@ -51,11 +51,23 @@
 				},
 				"Q4": {
 					"comment": "scene12",
+					"part0A": "If you were to run the experiment, ",
+					"part0": "may either be the same or different across conditions.",
 					"part1": "may either be the same or different across conditions. Imagine the results ",
 					"part2": "were different across conditions, Could you tell for sure that the",
 					"part3": "caused the difference?",
 					"prompt": "<p>Results for Condition 1 = Results for Condition 2<br>OR<br>Results for Condition 1 ≠ Results for Condition 2</p>",
-					"question1": "IF: Results for Condition 1 ≠ Results for Condition 2…",
+					"question1": "IF:\tResults for Condition 1 ≠ Results for Condition 2.",
+					"question2": "Could you tell for sure that the",
+					"question3": "caused the difference?"
+				},
+				"Q4P2": {
+					"comment": "scene12A",
+					"part1": "Imagine the results ",
+					"part2": "were different across conditions, Could you tell for sure that the",
+					"part3": "caused the difference?",
+					"prompt": "<p>Results for Condition 1 = Results for Condition 2<br>OR<br>Results for Condition 1 ≠ Results for Condition 2</p>",
+					"question1": "IF:\tResults for Condition 1 ≠ Results for Condition 2.",
 					"question2": "Could you tell for sure that the",
 					"question3": "caused the difference?"
 				},
@@ -1350,8 +1362,8 @@
 			"xname": "SCENE10Q"
 		},
 		"Sanswer": {
-			"layoutsource": "$EFL_eflist.S10.SListBox1",
-			"datasource": "$EFL_efdata.scene10.SListBox1",
+			"layoutsource": "$EFL_eflist.S10.Sanswer",
+			"datasource": "$EFL_efdata.scene10.Sanswer",
 			"fontSize": 35,
 			"xname": "SCENE10A"
 		}
@@ -1379,17 +1391,19 @@
 			"datasource": "$EFL_efdata.scene12.scenePrompt",
 			"fontSize": 30,
 			"xname": "scene12Stitle"
-		},
+		}
+	},
+	"SScene12A": {
 		"Squestion": {
-			"layoutsource": "$EFL_eftext.S12.Squestion",
-			"datasource": "$EFL_efdata.scene12.question",
-			"xname": "scene12Squestion"
+			"layoutsource": "$EFL_eftext.S12A.Squestion",
+			"datasource": "$EFL_efdata.scene12A.question",
+			"xname": "scene12ASquestion"
 		},
 		"Sanswer": {
-			"layoutsource": "$EFL_eflist.S12.Sanswer",
-			"datasource": "$EFL_efdata.scene12.Sanswer",
+			"layoutsource": "$EFL_eflist.S12A.Sanswer",
+			"datasource": "$EFL_efdata.scene12A.Sanswer",
 			"fontSize": 35,
-			"xname": "scene12Sanswer"
+			"xname": "scene12ASanswer"
 		}
 	},
 	"SScene13": {
@@ -1402,8 +1416,8 @@
 			"datasource": "$EFL_efdata.scene13.question"
 		},
 		"Sanswer": {
-			"layoutsource": "$EFL_eflist.S13.SListBox1",
-			"datasource": "$EFL_efdata.scene13.SListBox1",
+			"layoutsource": "$EFL_eflist.S13.Sanswer",
+			"datasource": "$EFL_efdata.scene13.Sanswer",
 			"fontSize": 35
 		}
 	},
@@ -1417,8 +1431,8 @@
 			"datasource": "$EFL_efdata.scene14.question"
 		},
 		"Sanswer": {
-			"layoutsource": "$EFL_eflist.S14.SListBox1",
-			"datasource": "$EFL_efdata.scene14.SListBox1",
+			"layoutsource": "$EFL_eflist.S14.Sanswer",
+			"datasource": "$EFL_efdata.scene14.Sanswer",
 			"fontSize": 35
 		}
 	},
@@ -1622,8 +1636,8 @@
 			"datasource": "$EFL_efdata.scene9.question"
 		},
 		"Sanswer": {
-			"layoutsource": "$EFL_eflist.S9.SListBox1",
-			"datasource": "$EFL_efdata.scene9.SListBox1",
+			"layoutsource": "$EFL_eflist.S9.Sanswer",
+			"datasource": "$EFL_efdata.scene9.Sanswer",
 			"fontSize": 35
 		}
 	}

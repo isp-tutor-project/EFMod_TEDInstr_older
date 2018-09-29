@@ -10,8 +10,8 @@
             "datasource": "$EFL_efdata.scene9.question"           
         },
         "Sanswer": {
-            "layoutsource":"$EFL_eflist.S9.SListBox1",
-            "datasource": "$EFL_efdata.scene9.SListBox1",
+            "layoutsource":"$EFL_eflist.S9.Sanswer",
+            "datasource": "$EFL_efdata.scene9.Sanswer",
             "fontSize":35
         }        
     }

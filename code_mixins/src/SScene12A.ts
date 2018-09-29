@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_TEDInstr {
 
-    export class SScene9 {
+    export class SScene12A {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -76,10 +76,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(constrainId) {
                 case "CORRECT":
-                    result = this.getModuleValue("Expt1_Q1").value;                                        
+                    result = this.getModuleValue("Expt1_Q4").value;                                        
                     break;
 
-                case "INCOMPLETE":
+                    case "INCOMPLETE":
                     result = !this.getSceneValue("Complete");    
                     break;
 
@@ -142,7 +142,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(target) {
 
                 case "Sanswer":
-                    this.setModuleValue("Expt1_Q1", this.Sanswer.selected);
+                    this.setModuleValue("Expt1_Q4", this.Sanswer.selected);
                     this.setSceneValue("Complete", true);    
                     break;
             }

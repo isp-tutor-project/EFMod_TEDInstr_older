@@ -182,6 +182,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                             this.Sexpt2.showHighlight("Svar4");
                             break;
                         case "$end":
+                            this.$("Sexpt.").exec("hideHighlight", "Svar2");
+
                             this.$("Sexpt.").exec("showHighlight", "Svar1");
                             this.$("Sexpt.").exec("showHighlight", "Svar2");
                             this.$("Sexpt.").exec("showHighlight", "Svar3");
@@ -190,6 +192,24 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                             break;
                     }
                     break;
+
+                case "track5":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            break;
+                        case "$end":
+                            break;
+
+                        case "a":
+                            this.$("Sexpt.").exec("showHighlight", "Svar1");
+                            this.$("Sexpt.").exec("showHighlight", "Svar2");
+                            this.$("Sexpt.").exec("showHighlight", "Svar3");
+                            this.$("Sexpt.").exec("showHighlight", "Svar4");
+                            break;
+                    }
+                    break;
+
             }
         }
 

@@ -11,8 +11,8 @@
             "xname":"SCENE10Q"      
         },
         "Sanswer": {
-            "layoutsource":"$EFL_eflist.S10.SListBox1",
-            "datasource": "$EFL_efdata.scene10.SListBox1",
+            "layoutsource":"$EFL_eflist.S10.Sanswer",
+            "datasource": "$EFL_efdata.scene10.Sanswer",
             "fontSize":35,
             "xname":"SCENE10A"
         }        

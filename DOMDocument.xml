@@ -92,6 +92,7 @@
           <Include href="Scenes/TC_TScene__Scene7a.xml" loadImmediate="false" itemID="5b8716ce-00000394" lastModified="1535579854"/>
           <Include href="Scenes/TC_TScene__Scene8a.xml" loadImmediate="false" itemID="5b8716d0-00000395" lastModified="1535579856"/>
           <Include href="Scenes/TC_TScene__Scene9a.xml" loadImmediate="false" itemID="5b8716d2-00000396" lastModified="1535579858"/>
+          <Include href="Scenes/TC_TScene__Scene15.xml" loadImmediate="false" itemID="5bafd8d5-00000d6a" lastModified="1538250965"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1534019964"/>
      </symbols>
      <timelines>

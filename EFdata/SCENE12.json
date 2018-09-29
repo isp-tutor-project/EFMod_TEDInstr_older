@@ -6,17 +6,6 @@
             "datasource": "$EFL_efdata.scene12.scenePrompt",
             "fontSize":30,
             "xname":"scene12Stitle"
-        },
-        "Squestion": {
-            "layoutsource":"$EFL_eftext.S12.Squestion",
-            "datasource": "$EFL_efdata.scene12.question",
-            "xname":"scene12Squestion"
-        },
-        "Sanswer": {
-            "layoutsource":"$EFL_eflist.S12.Sanswer",
-            "datasource": "$EFL_efdata.scene12.Sanswer",
-            "fontSize":35,
-            "xname":"scene12Sanswer"
         }        
     }
 }

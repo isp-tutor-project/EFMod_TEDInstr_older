@@ -639,9 +639,9 @@
                     ],                        
                     "edges":
 							[
-                                {"constraint":"CORRECT","edge":"RIGHT" },
-                                {"constraint":"INCORRECT","edge":"WRONG" },
-                                {"constraint":"","edge":"root" }
+                                {"constraint":"INCOMPLETE","edge":"root" },
+                                {"constraint":"CORRECT",   "edge":"RIGHT" },
+                                {"constraint":"",          "edge":"WRONG" }                                
 							]
                     },					                                              
                     
@@ -789,14 +789,14 @@
 		{	
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
-			"root":{"COMMENT":"Could you tell for sure that...",
+			"root":{"COMMENT":"The results ... May either be ...",
 					"type":"module", 
 					"name":"QUESTION1",
                     "reuse":true,
+                    "archive": {"trackname":"track2",  "autostep":false, "features":""},
                     "actiontracks":		
                     [
-                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
-                        {"trackname":"track2",  "autostep":false, "features":""}
+                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""}
                     ],                        
                     "edges":
 							[
@@ -804,6 +804,80 @@
 							]
 					},					                                                
             "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene12A":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Imagine the result...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"INCOMPLETE","edge":"root" },
+                                {"constraint":"CORRECT",   "edge":"RIGHT" },
+                                {"constraint":"",          "edge":"WRONG" }
+							]
+                    },					                                              
+                    
+			"RIGHT":{"COMMENT":"...",
+					"type":"module", 
+					"name":"INSTRUCTIONS",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track2", "autostep":true, "stepdelay":500, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+
+			"WRONG":{"COMMENT":"...",
+					"type":"module", 
+					"name":"INSTRUCTIONS",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track3", "autostep":true, "stepdelay":500, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+                    
+
+            "NEXTSCENE":{"COMMENT":"When scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
@@ -838,8 +912,7 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
-                        {"trackname":"track2",  "autostep":false, "features":""}
+                        {"trackname":"track1",  "autostep":false, "features":""}
                     ],                        
                     "edges":
 							[
@@ -881,7 +954,7 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
+                        {"trackname":"track1",  "autostep":true, "stepdelay":200,  "features":""},
                         {"trackname":"track2",  "autostep":false, "features":""}
                     ],                        
                     "edges":
@@ -926,6 +999,202 @@
                     [
                         {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
                         {"trackname":"track2",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"NC1CORRECT",   "edge":"NC1RIGHT" },
+                                {"constraint":"",             "edge":"NC1WRONG" }                                
+							]
+                    },					                                                
+
+            "NC1RIGHT":{"COMMENT":"NC1 Selection correct...",
+                "type":"module", 
+                "name":"TVCORRECT",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track1A", "autostep":true, "stepdelay":1500, "features":""}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"NC2CORRECT",   "edge":"NC2RIGHT" },
+                            {"constraint":"",             "edge":"NC2WRONG" }                                
+                    ]
+                },					
+                                                
+                    
+            "NC1WRONG":{"COMMENT":"NC1 Selection wrong...",
+                "type":"module", 
+                "name":"TVWRONG",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track1B", "autostep":false, "features":""}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"NC2CORRECT",   "edge":"NC2RIGHT" },
+                            {"constraint":"",             "edge":"NC2WRONG" }                                
+                        ]
+                },					
+                                            
+
+            "NC2RIGHT":{"COMMENT":"NC2 Selection correct...",
+                "type":"module", 
+                "name":"TVCORRECT",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track2A", "autostep":true, "stepdelay":1500, "features":""}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"NC3CORRECT",   "edge":"NC3RIGHT" },
+                            {"constraint":"",             "edge":"NC3WRONG" }                                
+                    ]
+                },					
+                                                
+                    
+            "NC2WRONG":{"COMMENT":"NC2 Selection wrong...",
+                "type":"module", 
+                "name":"TVWRONG",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track2B", "autostep":false, "features":""}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"NC3CORRECT",   "edge":"NC3RIGHT" },
+                            {"constraint":"",             "edge":"NC3WRONG" }                                
+                        ]
+                },					
+                                            
+
+            "NC3RIGHT":{"COMMENT":"NC3 Selection correct...",
+                "type":"module", 
+                "name":"TVCORRECT",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track3A", "autostep":true, "stepdelay":1500, "features":""}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"ALLCORRECT",   "edge":"NEXTSCENE" },
+                            {"constraint":"",             "edge":"CORRECTION" }                                
+                        ]
+                },					
+                                                
+                    
+            "NC3WRONG":{"COMMENT":"NC3 Selection wrong...",
+                "type":"module", 
+                "name":"TVWRONG",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track3B", "autostep":false, "features":""}
+                ],                        
+                "edges":
+                    [
+                        {"constraint":"ALLCORRECT",   "edge":"NEXTSCENE" },
+                        {"constraint":"",             "edge":"CORRECTION" }                                
+                    ]
+                },					
+                                            
+            "CORRECTION":{"COMMENT":"NC1 Selection wrong...",
+                "type":"module", 
+                "name":"TVWRONG",
+                "reuse":true,
+                "actiontracks":		
+                [
+                    {"trackname":"track3B", "autostep":false, "features":""}
+                ],                        
+                "edges":
+                        [
+                            {"constraint":"ALLCORRECT",   "edge":"NEXTSCENE" },
+                            {"constraint":"",             "edge":"CORRECTION" }                                
+                        ]
+                },					
+                                            
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene16":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Why could you Not ...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":false, "stepdelay":500,  "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
+					},					                                                
+            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                        ],                                              
+                        "edges":
+                            [
+                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
+                            ]
+                    }
+		},		
+			
+		"CModules":
+		{		
+            "COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CModules  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"        
+        }
+    },
+	"SScene17":
+	{	
+		"COMMENT":"TED Expt 1",
+		"type":"animation",
+		"version":"0.1.0",
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"Why could you Not ...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track1",  "autostep":false, "features":""}
                     ],                        
                     "edges":
 							[
