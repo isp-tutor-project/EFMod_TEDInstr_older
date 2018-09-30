@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene15" itemID="5bafd8d5-00000d6a" lastModified="1538250965">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene15" itemID="5bafd8d5-00000d6a" linkageExportForAS="true" linkageClassName="TC_TScene__Scene15" lastModified="1538331195">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TScene__Scene15">
       <layers>
-        <DOMLayer name="STable1" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="STable1" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STable1">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STblExp1">
                   <matrix>
                     <Matrix a="10.582763671875" d="3.03999328613281" tx="431.3" ty="524"/>
                   </matrix>
@@ -21,7 +21,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="STextBox1" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="STextBox1" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

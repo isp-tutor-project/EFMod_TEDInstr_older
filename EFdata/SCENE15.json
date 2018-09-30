@@ -1,18 +1,14 @@
 {
     "_MODULEDATA":"v1.0.0",
     "SScene15": {
-        "Stitle": {
-            "layoutsource":"$EFL_eftext.S15.Stitle",
-            "datasource": "$EFL_efdata.scene15.scenePrompt"           
+        "STextBox1": {
+            "layoutsource":"$EFL_eftext.STextBox1",
+            "datasource": "$EFL_efdata.scene15.scenePrompt",
+            "fontSize":65
         },
-        "Squestion": {
-            "layoutsource":"$EFL_eftext.S15.Squestion",
-            "datasource": "$EFL_efdata.scene15.question"           
-        },
-        "Sanswer": {
-            "layoutsource":"$EFL_eflist.S15.SListBox1",
-            "datasource": "$EFL_efdata.scene15.SListBox1",
-            "fontSize":35
-        }        
+        "STblExp1": {
+            "layoutsource":"$EFL_eftable.STblExp1",
+            "fontSize":24
+        }
     }
 }

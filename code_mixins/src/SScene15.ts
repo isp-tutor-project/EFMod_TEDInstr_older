@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_TEDInstr {
 
-    export class SScene7 {
+    export class SScene15 {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -17,36 +17,21 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $preCreateScene() {
         }
 
-        public $onCreateScene() {        
-            
+        public $onCreateScene() {                    
         }
 
         public $onEnterScene() {
         }
         
         public $preEnterScene() {
-
-            this.$generateExpt("TEDExpt1", 1, 2,3,4);
-
-            // this.$generateExpt("TEDExpt1", 2, 1);
-
-            let AChosen = this.getModuleValue("TEDExpt1Area.index");
-            let TChosen = this.getModuleValue("TEDExpt1Topic.index");
-            let VChosen = this.getModuleValue("TEDExpt1Variable.index");
-
-            this.$("Sicon.|Svar.*").hide();
-
-            this.$(`Sicon1|Svar${VChosen}a`).show();
-            this.$(`Sicon2|Svar${VChosen}b`).show();
-
-            this.SsubTitle1.setContentFromString(this.resolveSelector(`$EFO_S_A${AChosen}_T${TChosen}|enumValue${VChosen}a`));
-            this.SsubTitle2.setContentFromString(this.resolveSelector(`$EFO_S_A${AChosen}_T${TChosen}|enumValue${VChosen}b`));
         }
 
         public $preExitScene() {
         }
 
         public $preShowScene() {                         
+            this.STblExp1.hideCells(3, 1, 3, 4);
+            this.STblExp1.setColWidth(3,"33%");
         }        
 
         public $preHideScene() {            
@@ -98,7 +83,26 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $cuePoints(trackID:string, cueID:string) {
 
             switch(trackID) {
-            }
+
+                case "track1":
+                    switch(cueID) {                        
+                        case "$start":
+                            break;
+                        case "$end":
+                            break;
+                    }
+                    break;
+
+                case "track2":
+                    switch(cueID) {
+                        
+                        case "$start":                            
+                            break;
+                        case "$end":
+                            break;
+                    }
+                    break;
+           }
         }
 
         public $timedEvents(id:string) {

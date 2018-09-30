@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene3" itemID="5b6f4a5e-00000520" lastModified="1535587702">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene3" itemID="5b6f4a5e-00000520" linkageExportForAS="true" linkageClassName="TC_TScene__Scene3" lastModified="1538331184">
   <timeline>
     <DOMTimeline name="TC_TScene__Scene3">
       <layers>

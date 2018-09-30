@@ -25,6 +25,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
 
         public $preExitScene() {
+            
+            this.$generateExpt("TEDExpt1", 1, 2,3,4);
         }
 
         public $demoInitScene() {
@@ -108,8 +110,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     
                     if(!result) {
                         this.addFeaturebyQuery(`S_A${this.getModuleValue("selectedArea.index")}_T${this.getModuleValue("selectedTopic.index")}|features`, CONST.VAR_FTR);
-                    }
-                    
+                    }                    
                     break;
             }                    
 

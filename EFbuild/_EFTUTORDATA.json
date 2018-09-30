@@ -24,19 +24,19 @@
 					"no": "NO"
 				},
 				"Q1": {
-					"comment": "scene9",
+					"comment": "scene9  ********************",
 					"part1": "Think about the students' problem, and the experiment that they designed.",
 					"part2": "Is this a good way to design the experiment?",
 					"question": "<p>Is this a good way to design an experiment?</p>"
 				},
 				"Q2": {
-					"comment": "scene10",
+					"comment": "scene10  ********************",
 					"part1": "Right, it is NOT a good experiment.",
 					"part2": "<p>Why did you say it was not a good way?</p>",
 					"question": "<p>Why did you say it was not a good way?</p>"
 				},
 				"Q3": {
-					"comment": "scene11",
+					"comment": "scene11  ********************",
 					"part1": "Actually, it is NOT a good experiment.",
 					"part2": "<p>Even though you said it was a good experiment, select from the drop-down menu the best reason that explains why this is actually NOT a good experiment.</p>",
 					"question": "Why is this actually not a good experiment?"
@@ -50,24 +50,24 @@
 					"ans6": "I don't know."
 				},
 				"Q4": {
-					"comment": "scene12",
+					"comment": "scene12  ********************",
 					"part0A": "If you were to run the experiment, ",
 					"part0": "may either be the same or different across conditions.",
 					"part1": "may either be the same or different across conditions. Imagine the results ",
 					"part2": "were different across conditions, Could you tell for sure that the",
 					"part3": "caused the difference?",
 					"prompt": "<p>Results for Condition 1 = Results for Condition 2<br>OR<br>Results for Condition 1 ≠ Results for Condition 2</p>",
-					"question1": "IF:\tResults for Condition 1 ≠ Results for Condition 2.",
+					"question1": "IF: Results for Condition 1 ≠ Results for Condition 2.",
 					"question2": "Could you tell for sure that the",
 					"question3": "caused the difference?"
 				},
 				"Q4P2": {
-					"comment": "scene12A",
+					"comment": "scene12A  ********************",
 					"part1": "Imagine the results ",
 					"part2": "were different across conditions, Could you tell for sure that the",
 					"part3": "caused the difference?",
 					"prompt": "<p>Results for Condition 1 = Results for Condition 2<br>OR<br>Results for Condition 1 ≠ Results for Condition 2</p>",
-					"question1": "IF:\tResults for Condition 1 ≠ Results for Condition 2.",
+					"question1": "IF: Results for Condition 1 ≠ Results for Condition 2.",
 					"question2": "Could you tell for sure that the",
 					"question3": "caused the difference?"
 				},
@@ -84,11 +84,11 @@
 					"part4": "than the other"
 				},
 				"Q5": {
-					"comment": "scene13",
+					"comment": "scene13  ********************",
 					"question": "Why did you say you could not know for sure?"
 				},
 				"Q6": {
-					"comment": "scene14",
+					"comment": "scene14  ********************",
 					"part1": "Even though you said you could tell for sure, try and explain the best reason for why you actually could NOT tell for sure from this experiment that the",
 					"part2": "caused the difference.",
 					"question": "Why could you actually not tell for sure?"
@@ -102,50 +102,48 @@
 					"ans6": "I don't know."
 				},
 				"Q7": {
-					"comment": "scene15",
+					"comment": "scene15  ********************",
 					"part1": "In this experiment, the students are testing for whether or not the",
-					"part2": "to be different across conditions.",
+					"part2": "makes a difference for the result. Because the",
 					"part3": "is different across conditions, it could cause a difference in the results. Could the way they have set up each of these other variables cause there to be a difference in the",
 					"part4": "between conditions? Make a selection for each of the other variables."
 				},
-				"ANS7ACORR": {
+				"Q7ACORR": {
 					"part1": "They have set the",
-					"part2": "to be different across conditions.",
-					"part3": "You are correct that the different",
-					"part4": "across conditions could cause a difference in the"
+					"part2": "to be different across conditions. You are correct that the different",
+					"part3": "across conditions could cause a difference in the"
 				},
-				"ANS7AWRNG": {
+				"Q7AWRNG": {
 					"part1": "They have set the",
-					"part2": "to be different across conditions.",
-					"part3": "Actually the different",
-					"part4": "across conditions could cause a difference in the"
+					"part2": "to be different across conditions. Actually the different",
+					"part3": "across conditions could cause a difference in the"
 				},
-				"ANS7BCORR": {
+				"Q7BCORR": {
 					"part1": "The students made the",
-					"part2": "different across conditions.",
-					"part3": "You are correct that the different",
-					"part4": "across conditions could cause a difference in the"
+					"part2": "different across conditions. You are correct that the different",
+					"part3": "across conditions could cause a difference in the"
 				},
-				"ANS7BWRNG": {
+				"Q7BWRNG": {
 					"part1": "The students made the",
-					"part2": "different across conditions.",
-					"part3": "Actually the different",
-					"part4": "across conditions could cause a difference in the"
+					"part2": "different across conditions. Actually the different",
+					"part3": "across conditions could cause a difference in the"
 				},
-				"ANS7CCORR": {
+				"Q7CCORR": {
 					"part1": "You are correct that the different",
 					"part2": "across conditions could cause a difference in the"
 				},
-				"ANS7CWRNG": {
+				"Q7CWRNG": {
 					"part1": "Actually the different",
 					"part2": "across conditions could cause a difference in the"
 				},
-				"ANS7D": {
+				"Q7D": {
 					"part1": "So, in this experiment, even though the students are testing the",
-					"part2": "all also could cause a difference in"
+					"part2": "the",
+					"part3": "all also could cause a difference in"
 				},
 				"Q8": {
-					"part1": "Please correct this experiment by clicking in the table and selecting correct ways to set up the"
+					"part1": "Please correct this experiment by clicking in the table and selecting correct ways to set up the",
+					"part2": "and the"
 				},
 				"Q9": {
 					"part1": "Explain why this is a good way to find out whether or not the",
@@ -155,11 +153,10 @@
 					"part1": "This is a good experiment, because everything is the same except for what the students are trying to find out about, the",
 					"part2": "In other words, if there is a difference between conditions in the",
 					"part3": "it has to be because of the different",
-					"part4": "across conditions",
-					"part5": "And if there is no difference between conditions in the",
-					"part6": "then you could know that the",
-					"part7": "does not matter. So from this experiment, you would be able to find out whether or not the",
-					"part8": "causes a difference in the result."
+					"part4": "across conditions And if there is no difference between conditions in the",
+					"part5": "then you could know that the",
+					"part6": "does not matter. So from this experiment, you would be able to find out whether or not the",
+					"part7": "causes a difference in the result."
 				}
 			},
 			"E2": {
@@ -220,39 +217,39 @@
 					"part3": "is different across conditions, it could cause a difference in the results. Could the way they have set up each of these other variables cause there to be a difference in the",
 					"part4": "between conditions? Make a selection for each of the other variables."
 				},
-				"ANS7ACORR": {
+				"Q7ACORR": {
 					"part1": "They have set the",
 					"part2": "to be different across conditions.",
 					"part3": "You are correct that the different",
 					"part4": "across conditions could cause a difference in the"
 				},
-				"ANS7AWRNG": {
+				"Q7AWRNG": {
 					"part1": "They have set the",
 					"part2": "to be different across conditions.",
 					"part3": "Actually the different",
 					"part4": "across conditions could cause a difference in the"
 				},
-				"ANS7BCORR": {
+				"Q7BCORR": {
 					"part1": "The students made the",
 					"part2": "different across conditions.",
 					"part3": "You are correct that the different",
 					"part4": "across conditions could cause a difference in the"
 				},
-				"ANS7BWRNG": {
+				"Q7BWRNG": {
 					"part1": "The students made the",
 					"part2": "different across conditions.",
 					"part3": "Actually the different",
 					"part4": "across conditions could cause a difference in the"
 				},
-				"ANS7CCORR": {
+				"Q7CCORR": {
 					"part1": "You are correct that the different",
 					"part2": "across conditions could cause a difference in the"
 				},
-				"ANS7CWRNG": {
+				"Q7CWRNG": {
 					"part1": "Actually the different",
 					"part2": "across conditions could cause a difference in the"
 				},
-				"ANS7D": {
+				"Q7D": {
 					"part1": "So, in this experiment, even though the students are testing the",
 					"part2": "all also could cause a difference in"
 				},
@@ -310,7 +307,7 @@
 					"name": "Same or Different"
 				},
 				"E": {
-					"name": "Could Cause a Difference"
+					"name": "Cause a Difference?"
 				}
 			},
 			"PH1": {
@@ -822,7 +819,8 @@
 					"rqselectedall": "affect the weight of the crystal growth on a string in water after two weeks?",
 					"rqselectedalls": "affects the weight of the crystal growth on a string in water after two weeks?",
 					"DVg": "amount of crystal growth on a string in water",
-					"DVs": "The weight of the crystal growth on the string after two weeks.",
+					"DVst": "The weight of the crystal growth on the string after two weeks.",
+					"DVs": "weight of the crystal growth on the string after two weeks.",
 					"DVabb": "crystal weight",
 					"buttVarName1": "The Water Temperature",
 					"buttVarName2": "The Type of Crystal",
@@ -884,7 +882,8 @@
 					"rqselectedall": "affect the strength of the reaction between soda and mints?",
 					"rqselectedalls": "affects the strength of the reaction between soda and mints?",
 					"DVg": "Strength of the reaction between soda and mints",
-					"DVs": "The height of the soda geyser",
+					"DVst": "The height of the soda geyser",
+					"DVs": "height of the soda geyser",
 					"DVabb": "geyser height",
 					"buttVarName1": "The type of sweetener in the soda",
 					"buttVarName2": "The amount of caffeine in the soda",
@@ -951,7 +950,8 @@
 					"rqselectedall": "affect the time it takes for an ice cube to melt in water?",
 					"rqselectedalls": "affects the time it takes for an ice cube to melt in water?",
 					"DVg": "Time it takes for an ice cube to melt in water",
-					"DVs": "The time it takes for the ice cube to melt in water",
+					"DVst": "The time it takes for the ice cube to melt in water",
+					"DVs": "time it takes for the ice cube to melt in water",
 					"DVabb": "time to melt",
 					"buttVarName1": "The initial temperature of the ice cube",
 					"buttVarName2": "The initial temperature of the water",
@@ -1018,7 +1018,8 @@
 					"rqselectedall": "affect the gas temperature within the balloon after 30 minutes?",
 					"rqselectedalls": "affects the gas temperature within the balloon after 30 minutes?",
 					"DVg": "Temperature of gas in a balloon",
-					"DVs": "The Gas temperature within balloon after 30 minutes",
+					"DVst": "The gas temperature within balloon after 30 minutes",
+					"DVs": "gas temperature within balloon after 30 minutes",
 					"DVabb": "Gas temperature",
 					"buttVarName1": "The color of the balloon",
 					"buttVarName2": "The material the balloon is made of",
@@ -1083,7 +1084,8 @@
 					"rqselectedall": "affect the speed of the ball at the bottom of the ramp?",
 					"rqselectedalls": "affects the speed of the ball at the bottom of the ramp?",
 					"DVg": "Speed of the ball at the bottom of the ramp",
-					"DVs": "The speed of the ball at the bottom of the ramp",
+					"DVst": "The speed of the ball at the bottom of the ramp",
+					"DVs": "speed of the ball at the bottom of the ramp",
 					"DVabb": "Speed of the ball at the bottom of the ramp",
 					"buttVarName1": "The Slope of the Ramp",
 					"buttVarName2": "The Color of the Ball",
@@ -1148,7 +1150,8 @@
 					"rqselectedall": "affect the time it takes for objects to sink in water?",
 					"rqselectedalls": "affects the time it takes for objects to sink in water?",
 					"DVg": "Time it takes for objects to sink in water",
-					"DVs": "The time it takes for objects to sink in water",
+					"DVst": "The time it takes for objects to sink in water",
+					"DVs": "time it takes for objects to sink in water",
 					"DVabb": "time to sink",
 					"buttVarName1": "The Density of the Water",
 					"buttVarName2": "The Shape of the Object",
@@ -1216,7 +1219,8 @@
 					"rqselectedall": "affect the number of seeds produced by flowers at the end of the season?",
 					"rqselectedalls": "affects the number of seeds produced by flowers at the end of the season?",
 					"DVg": "Number of seeds produced by flowers in a greenhouse",
-					"DVs": "The number of seeds produced by the flowers at the end of the season",
+					"DVst": "The number of seeds produced by the flowers at the end of the season",
+					"DVs": "number of seeds produced by the flowers at the end of the season",
 					"DVabb": "number of seeds",
 					"buttVarName1": "The Number of honey bees in the greenhouse",
 					"buttVarName2": "The Amount of sunlight the greenhouse lets in",
@@ -1283,7 +1287,8 @@
 					"rqselectedall": "affect the weight of the algae growth after one week?",
 					"rqselectedalls": "affects the weight of the algae growth after one week?",
 					"DVg": "Amount of algae growth in water",
-					"DVs": "The weight of the algae growth after one week",
+					"DVst": "The weight of the algae growth after one week",
+					"DVs": "weight of the algae growth after one week",
 					"DVabb": "algae weight",
 					"buttVarName1": "The Temperature of the Water",
 					"buttVarName2": "The Amount of Exposure to Music",
@@ -1437,18 +1442,14 @@
 		}
 	},
 	"SScene15": {
-		"Stitle": {
-			"layoutsource": "$EFL_eftext.S15.Stitle",
-			"datasource": "$EFL_efdata.scene15.scenePrompt"
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scene15.scenePrompt",
+			"fontSize": 65
 		},
-		"Squestion": {
-			"layoutsource": "$EFL_eftext.S15.Squestion",
-			"datasource": "$EFL_efdata.scene15.question"
-		},
-		"Sanswer": {
-			"layoutsource": "$EFL_eflist.S15.SListBox1",
-			"datasource": "$EFL_efdata.scene15.SListBox1",
-			"fontSize": 35
+		"STblExp1": {
+			"layoutsource": "$EFL_eftable.STblExp1",
+			"fontSize": 24
 		}
 	},
 	"SScene1a": {

@@ -57,6 +57,37 @@ var EFTut_Suppl;
                 else
                     this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);
             }
+            $generateExpt(name, newVC, ...conf) {
+                let AChosen = this.getModuleValue("selectedArea").index;
+                let TChosen = this.getModuleValue("selectedTopic").index;
+                let VChosen = this.getModuleValue("selectedVariable").index - 1;
+                console.log("old TV: " + (VChosen + 1));
+                let VC = (((VChosen + newVC) % 4) + 1);
+                console.log("new TV: " + VC);
+                let VNC = [1, 2, 3, 4];
+                VNC.splice(VC - 1, 1);
+                for (let ndx = 0; ndx < conf.length; ndx++) {
+                    conf[ndx] = (((VChosen + conf[ndx]) % 4) + 1);
+                    console.log("Confound: " + conf[ndx]);
+                }
+                conf.push(VC);
+                this.setModuleValue(name + "Area", { "ontologyKey": `STBL_A${AChosen}`, "index": AChosen });
+                this.setModuleValue(name + "Topic", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}`, "index": TChosen });
+                this.setModuleValue(name + "Variable", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${VC}`, "index": VC });
+                this.setModuleValue(name + "RQ", { "ontologyKey": `S_A${AChosen}_T${TChosen}_RQ${VC}`, "index": VC });
+                for (let ndx = 0; ndx < VNC.length; ndx++) {
+                    this.setModuleValue(name + `VarNC${ndx + 1}`, { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${VNC[ndx]}`, "index": VNC[ndx] });
+                }
+                for (let ndx = 1; ndx <= 4; ndx++) {
+                    this.setModuleValue(name + `V${ndx}A`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index": ndx });
+                    this.setModuleValue(name + `V${ndx}B`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index": ndx });
+                }
+                for (let ndx = 0; ndx < conf.length; ndx++) {
+                    this.setModuleValue(name + `V${conf[ndx]}B`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${conf[ndx]}_B`, "index": conf[ndx] });
+                }
+                this.delFeature(EFMod_TEDInstr.CONST.FTRS_ALL, EFMod_TEDInstr.CONST.VAR_FTR);
+                this.addFeaturebyQuery(`S_A${this.getModuleValue(name + "Area.index")}_T${this.getModuleValue(name + "Topic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);
+            }
         }
         EFMod_TEDInstr.$Common = $Common;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
@@ -908,6 +939,93 @@ var EFTut_Suppl;
 (function (EFTut_Suppl) {
     var EFMod_TEDInstr;
     (function (EFMod_TEDInstr) {
+        class SScene15 {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
+                this.STblExp1.hideCells(3, 1, 3, 4);
+                this.STblExp1.setColWidth(3, "33%");
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = true;
+                switch (this.graphState) {
+                    default:
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+                this.$updateNav();
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene15 = SScene15;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
         class SScene1a {
             $onCreateScene() {
                 this.setSceneValue("sceneComplete", false);
@@ -918,6 +1036,7 @@ var EFTut_Suppl;
             $preEnterScene() {
             }
             $preExitScene() {
+                this.$generateExpt("TEDExpt1", 1, 2, 3, 4);
             }
             $demoInitScene() {
             }
@@ -1276,14 +1395,15 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
-                let x = this.getModuleValue("TEDExpt1Area.index");
-                let y = this.getModuleValue("TEDExpt1Topic.index");
-                let z = this.getModuleValue("TEDExpt1Variable.index");
+                this.$generateExpt("TEDExpt1", 1, 2, 3, 4);
+                let AChosen = this.getModuleValue("TEDExpt1Area.index");
+                let TChosen = this.getModuleValue("TEDExpt1Topic.index");
+                let VChosen = this.getModuleValue("TEDExpt1Variable.index");
                 this.$("Sicon.|Svar.*").hide();
-                this.$(`Sicon1|Svar${z}a`).show();
-                this.$(`Sicon2|Svar${z}b`).show();
-                this.SsubTitle1.setContentFromString(this.resolveSelector(`$EFO_S_A${x}_T${y}|enumValue${z}a`));
-                this.SsubTitle2.setContentFromString(this.resolveSelector(`$EFO_S_A${x}_T${y}|enumValue${z}b`));
+                this.$(`Sicon1|Svar${VChosen}a`).show();
+                this.$(`Sicon2|Svar${VChosen}b`).show();
+                this.SsubTitle1.setContentFromString(this.resolveSelector(`$EFO_S_A${AChosen}_T${TChosen}|enumValue${VChosen}a`));
+                this.SsubTitle2.setContentFromString(this.resolveSelector(`$EFO_S_A${AChosen}_T${TChosen}|enumValue${VChosen}b`));
             }
             $preExitScene() {
             }

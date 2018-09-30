@@ -19,14 +19,22 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             this.showHideNavButton(CONST.PREVSCENE, CONST.HIDE);
             this.$("hide","Smask1");
             this.setNavigationTarget(CONST.NAVSCENE);    
-            
+
+            // let AChosen = this.setModuleValue("selectedArea.index",3);
+            // let TChosen = this.setModuleValue("selectedTopic.index",2);
+
+            // for(let index = 1 ; index <= 4 ; index++) {
+            //     let VChosen = this.setModuleValue("selectedVariable.index",index);         
+
+            //     this.$generateExpt("TEDExpt1", 1, 2,3,4);
+            // }
 
             //@@ DEVELOPMENT ONLY
             // 
             this.setModuleValue("TEDExpt1Area",     {"ontologyKey":"STBL_A1", "index":1});
             this.setModuleValue("TEDExpt1Topic",    {"ontologyKey":"STBL_A1_T2", "index":2});
             this.setModuleValue("TEDExpt1Variable", {"ontologyKey":"STBL_A1_T2_V3", "index":3});
-            this.setModuleValue("TEDExpt1VarNC1",    {"ontologyKey":"STBL_A1_T2_V1", "index":1});
+            this.setModuleValue("TEDExpt1VarNC1",   {"ontologyKey":"STBL_A1_T2_V1", "index":1});
             this.setModuleValue("TEDExpt1VarNC2",   {"ontologyKey":"STBL_A1_T2_V2", "index":2});
             this.setModuleValue("TEDExpt1VarNC3",   {"ontologyKey":"STBL_A1_T2_V4", "index":4});
             this.setModuleValue("TEDExpt1RQ",       {"ontologyKey":"S_A1_T2_RQ3", "index":3});

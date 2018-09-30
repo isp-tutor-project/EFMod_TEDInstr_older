@@ -17,7 +17,8 @@
                 "part1":"A 'good' experiment will let you figure out if the variable you are testing really does or really does not make a difference. We will ask you if you think each experiment is a good or bad experiment."
             },
             "S7":{
-                "part1":"In the first experiment, Some students need to find out whether the"
+                "part1":"In the first experiment, Some students need to find out whether the",
+                "part2":"Another group of students need to find out whether the"
             },
 
             "E1": {
@@ -27,21 +28,21 @@
                 },
 
                 "Q1": {
-                    "comment":"scene9",
+                    "comment":"scene9  ********************",
 
                     "part1":"Think about the students' problem, and the experiment that they designed.",
                     "part2":"Is this a good way to design the experiment?",
                     "question":"<p>Is this a good way to design an experiment?</p>"
                 },                
                 "Q2":{
-                    "comment":"scene10",
+                    "comment":"scene10  ********************",
 
                     "part1":"Right, it is NOT a good experiment.",
                     "part2":"<p>Why did you say it was not a good way?</p>",
                     "question":"<p>Why did you say it was not a good way?</p>"
                 },
                 "Q3":{
-                    "comment":"scene11",
+                    "comment":"scene11  ********************",
                     
                     "part1":"Actually, it is NOT a good experiment.",
                     "part2":"<p>Even though you said it was a good experiment, select from the drop-down menu the best reason that explains why this is actually NOT a good experiment.</p>",
@@ -57,7 +58,7 @@
                 },
                 
                 "Q4":{
-                    "comment":"scene12",
+                    "comment":"scene12  ********************",
 
                     "part0A":"If you were to run the experiment, ",
                     "part0":"may either be the same or different across conditions.",
@@ -72,7 +73,7 @@
                     "question3":"caused the difference?"
                 },                
                 "Q4P2":{
-                    "comment":"scene12A",
+                    "comment":"scene12A  ********************",
 
                     "part1":"Imagine the results ",
                     "part2":"were different across conditions, Could you tell for sure that the",
@@ -98,11 +99,11 @@
                 },
 
                 "Q5":{
-                    "comment":"scene13",
+                    "comment":"scene13  ********************",
                     "question":"Why did you say you could not know for sure?"
                 },
                 "Q6":{
-                    "comment":"scene14",
+                    "comment":"scene14  ********************",
 
                     "part1":"Even though you said you could tell for sure, try and explain the best reason for why you actually could NOT tell for sure from this experiment that the",
                     "part2":"caused the difference.",
@@ -118,7 +119,7 @@
                 },
 
                 "Q7":{
-                    "comment":"scene15",
+                    "comment":"scene15  ********************",
 
                     "part1":"In this experiment, the students are testing for whether or not the",
                     "part2":"makes a difference for the result. Because the",
@@ -290,12 +291,6 @@
                     "part8":"causes a difference in the result."
                 }
             }
-
-
-
-
-
-
         },
         "LV": {
             "descr": "List Values",
@@ -332,7 +327,7 @@
                     "name": "Same or Different"
                 },
                 "E": {
-                    "name": "Could Cause a Difference"
+                    "name": "Cause a Difference?"
                 }
             },
             "PH1": {

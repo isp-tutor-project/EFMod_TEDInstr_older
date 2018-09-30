@@ -540,13 +540,42 @@
                     "reuse":true,
                     "actiontracks":		
                     [
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"PASS1","edge":"TEDEXP1" },
+                                {"constraint":"",     "edge":"TEDEXP2" }
+							]
+                    },					 
+
+			"TEDEXP1":{"COMMENT":"...",
+					"type":"module", 
+					"name":"INSTRUCTIONS",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
                         {"trackname":"track1",  "autostep":false, "features":""}
                     ],                        
                     "edges":
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
+                    },					
+                                                                    
+			"TEDEXP2":{"COMMENT":"...",
+					"type":"module", 
+					"name":"INSTRUCTIONS",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track2",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"","edge":"NEXTSCENE" }
+							]
 					},					                                                
+                    
             "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
@@ -991,14 +1020,13 @@
 		{	
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
-			"root":{"COMMENT":"Why could you Not ...",
+			"root":{"COMMENT":"In this experiment, the students are testing...",
 					"type":"module", 
 					"name":"QUESTION1",
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
-                        {"trackname":"track2",  "autostep":false, "features":""}
+                        {"trackname":"track1",  "autostep":false, "stepdelay":500,  "features":""}
                     ],                        
                     "edges":
 							[

@@ -80,23 +80,23 @@
           <Include href="Assets/TC_TTEDExpt__Assets/ExptArea.xml" loadImmediate="false" itemID="5b7062de-0000056b" lastModified="1534091998"/>
           <Include href="Assets/TC_TTEDExpt__type1.xml" loadImmediate="false" itemID="5b87342e-00000520" lastModified="1535587374"/>
           <Include href="Scene Assets/TC_TScene__SignIn/IconSignIn.xml" loadImmediate="false" itemID="5ae36986-00000383" lastModified="1524853134"/>
-          <Include href="Scenes/TC_TScene__Scene1.xml" loadImmediate="false" itemID="5b6f4696-000004c8" lastModified="1535313359"/>
-          <Include href="Scenes/TC_TScene__Scene1a.xml" loadImmediate="false" itemID="5b788299-0000047c" lastModified="1535313253"/>
-          <Include href="Scenes/TC_TScene__Scene2.xml" loadImmediate="false" itemID="5b6f4963-000004fb" lastModified="1535579357"/>
-          <Include href="Scenes/TC_TScene__Scene3.xml" loadImmediate="false" itemID="5b6f4a5e-00000520" lastModified="1535587702"/>
-          <Include href="Scenes/TC_TScene__Scene4.xml" loadImmediate="false" itemID="5b87151f-0000037d" lastModified="1535587709"/>
-          <Include href="Scenes/TC_TScene__Scene5.xml" loadImmediate="false" itemID="5b87169f-00000384" lastModified="1535579807"/>
-          <Include href="Scenes/TC_TScene__Scene6.xml" loadImmediate="false" itemID="5b8716a6-00000393" lastModified="1535579814"/>
+          <Include href="Scenes/TC_TScene__Scene1.xml" itemID="5b6f4696-000004c8" lastModified="1538331177"/>
+          <Include href="Scenes/TC_TScene__Scene1a.xml" itemID="5b788299-0000047c" lastModified="1538331180"/>
+          <Include href="Scenes/TC_TScene__Scene2.xml" itemID="5b6f4963-000004fb" lastModified="1538331182"/>
+          <Include href="Scenes/TC_TScene__Scene3.xml" itemID="5b6f4a5e-00000520" lastModified="1538331184"/>
+          <Include href="Scenes/TC_TScene__Scene4.xml" itemID="5b87151f-0000037d" lastModified="1538331186"/>
+          <Include href="Scenes/TC_TScene__Scene5.xml" itemID="5b87169f-00000384" lastModified="1538331188"/>
+          <Include href="Scenes/TC_TScene__Scene6.xml" itemID="5b8716a6-00000393" lastModified="1538331192"/>
           <Include href="Scenes/TC_TScene__Scene6A.xml" loadImmediate="false" itemID="5b871506-0000036c" lastModified="1535579398"/>
           <Include href="Scenes/TC_TScene__Scene7.xml" loadImmediate="false" itemID="5b8716da-00000398" lastModified="1535587690"/>
           <Include href="Scenes/TC_TScene__Scene7a.xml" loadImmediate="false" itemID="5b8716ce-00000394" lastModified="1535579854"/>
           <Include href="Scenes/TC_TScene__Scene8a.xml" loadImmediate="false" itemID="5b8716d0-00000395" lastModified="1535579856"/>
           <Include href="Scenes/TC_TScene__Scene9a.xml" loadImmediate="false" itemID="5b8716d2-00000396" lastModified="1535579858"/>
-          <Include href="Scenes/TC_TScene__Scene15.xml" loadImmediate="false" itemID="5bafd8d5-00000d6a" lastModified="1538250965"/>
+          <Include href="Scenes/TC_TScene__Scene15.xml" itemID="5bafd8d5-00000d6a" lastModified="1538331195"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1534019964"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1">
+          <DOMTimeline name="Scene 1" currentFrame="3">
                <layers>
                     <DOMLayer name="Actions" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
@@ -125,7 +125,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="_Tutor Global Scenes/TC_TNavPanel__Navigator" selected="true">
+                                        <DOMSymbolInstance libraryItemName="_Tutor Global Scenes/TC_TNavPanel__Navigator">
                                              <transformationPoint>
                                                   <Point x="960" y="600"/>
                                              </transformationPoint>
@@ -152,7 +152,7 @@
                               </DOMFrame>
                               <DOMFrame index="3" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="_Tutor Global Scenes/TC_TScene__SoundCheck">
+                                        <DOMSymbolInstance libraryItemName="_Tutor Global Scenes/TC_TScene__SoundCheck" selected="true">
                                              <transformationPoint>
                                                   <Point x="960" y="606.1"/>
                                              </transformationPoint>
@@ -160,76 +160,28 @@
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="4" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene1a">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="5" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene1">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="6" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene2">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="7" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene3">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="8" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene4">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="9" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene5">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="10" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene6">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="11" keyMode="9728">
-                                   <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__Scene7" selected="true">
-                                             <transformationPoint>
-                                                  <Point x="960" y="600"/>
-                                             </transformationPoint>
-                                        </DOMSymbolInstance>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="12" keyMode="9728">
                                    <elements/>
