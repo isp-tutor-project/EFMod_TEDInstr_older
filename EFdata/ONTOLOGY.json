@@ -122,29 +122,43 @@
                     "comment":"scene15  ********************",
 
                     "part1":"In this experiment, the students are testing for whether or not the",
-                    "part2":"makes a difference for the result. Because the",
-                    "part3":"is different across conditions, it could cause a difference in the results. Could the way they have set up each of these other variables cause there to be a difference in the",
-                    "part4":"between conditions? Make a selection for each of the other variables."
+                    "part2":"makes a difference for the result.",
+
+                    "part3":"Because the",
+                    "part4":"is different across conditions, it could cause a difference in the results.",
+
+                    "part5":"Could the way they have set up each of these other variables cause there to be a difference in the",
+                    "part6":"between conditions?",
+
+                    "part7":"Make a selection for each of the other variables. Click next when you've completed you're selections"
                 },
                 "Q7ACORR": {
                     "part1":"They have set the",
-                    "part2":"to be different across conditions. You are correct that the different",
-                    "part3":"across conditions could cause a difference in the"
+                    "part2":"to be different across conditions.",
+
+                    "part3":"You are correct that the different",
+                    "part4":"across conditions could cause a difference in the"
                 },
                 "Q7AWRNG": {
                     "part1":"They have set the",
-                    "part2":"to be different across conditions. Actually the different",
-                    "part3":"across conditions could cause a difference in the"
+                    "part2":"to be different across conditions.",
+
+                    "part3":"Actually the different",
+                    "part4":"across conditions could cause a difference in the"
                 },
                 "Q7BCORR": {
                     "part1":"The students made the",
-                    "part2":"different across conditions. You are correct that the different",
-                    "part3":"across conditions could cause a difference in the"
+                    "part2":"different across conditions.",
+
+                    "part3":"You are correct that the different",
+                    "part4":"across conditions could cause a difference in the"
                 },
                 "Q7BWRNG": {
                     "part1":"The students made the",
-                    "part2":"different across conditions. Actually the different",
-                    "part3":"across conditions could cause a difference in the"
+                    "part2":"different across conditions.",
+
+                    "part3":"Actually the different",
+                    "part4":"across conditions could cause a difference in the"
                 },
                 "Q7CCORR": {
                     "part1":"You are correct that the different",
@@ -157,8 +171,10 @@
 
                 "Q7D": {
                     "part1":"So, in this experiment, even though the students are testing the",
+
                     "part2":"the",
-                    "part3":"all also could cause a difference in"
+                    "part3":"and the",
+                    "part4":"all also could cause a difference in"
                 },
                 "Q8":{
                     "part1":"Please correct this experiment by clicking in the table and selecting correct ways to set up the",

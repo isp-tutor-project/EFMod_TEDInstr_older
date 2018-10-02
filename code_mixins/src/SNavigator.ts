@@ -58,6 +58,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             // 
             this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
             this.addFeature("FTR_CHOICE");
+
+            this.setModuleValue("TED_EXPT", 1);                                        
         }
 
         public $onEnterScene() {

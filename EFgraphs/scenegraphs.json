@@ -291,18 +291,18 @@
                         ]
                 },					
                                                 
-			"NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
-					 "type":"module", 
-                     "name":"NEXTSCENE",
-                     "reuse":true,
-                     "actiontracks":		
-                     [
-                     ],                                              
-					 "edges":
-							[
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-							]
-					}															
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
+                        ],                                              
+                        "edges":
+                        [
+                        ]
+                    }
 		},		
 			
 		"CModules":
@@ -335,18 +335,19 @@
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
                     },					                                                
-                    "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
-                             "type":"module", 
-                             "name":"NEXTSCENE",
-                             "reuse":true,
-                             "actiontracks":		
-                             [
-                             ],                                              
-                             "edges":
-                                    [
-                                        {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                                    ]
-                    }		
+
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
+                        "type":"module", 
+                        "name":"NEXTSCENE",
+                        "reuse":true,
+                        "actiontracks":		
+                        [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
+                        ],                                              
+                        "edges":
+                        [
+                        ]
+                    }
 		},		
 			
 		"CModules":
@@ -377,19 +378,20 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-				},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                },					                                                
+                
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
-                }
+                        [
+                        ]
+                    }
 		},		
 			
 		"CModules":
@@ -420,18 +422,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -462,18 +465,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -504,18 +508,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -543,8 +548,8 @@
                     ],                        
                     "edges":
 							[
-                                {"constraint":"PASS1","edge":"TEDEXP1" },
-                                {"constraint":"",     "edge":"TEDEXP2" }
+                                {"constraint":"TEDEXP1","edge":"TEDEXP1" },
+                                {"constraint":"",       "edge":"TEDEXP2" }
 							]
                     },					 
 
@@ -576,17 +581,17 @@
 							]
 					},					                                                
                     
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -627,17 +632,17 @@
 							]
                     },					
                                   
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -702,18 +707,17 @@
 							]
 					},					                                                
                     
-
-            "NEXTSCENE":{"COMMENT":"When scene is complete - move to next scene in the scenegraph",
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -745,18 +749,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -788,18 +793,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -831,18 +837,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -905,19 +912,19 @@
 							]
 					},					                                                
                     
-
-            "NEXTSCENE":{"COMMENT":"When scene is complete - move to next scene in the scenegraph",
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
+
 		},		
 			
 		"CModules":
@@ -947,18 +954,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -990,18 +998,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -1026,7 +1035,10 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1",  "autostep":false, "stepdelay":500,  "features":""}
+                        {"trackname":"track0A",  "autostep":true,  "stepdelay":500,  "features":""},
+                        {"trackname":"track0B",  "autostep":true,  "stepdelay":500,  "features":""},
+                        {"trackname":"track0C",  "autostep":true,  "stepdelay":500,  "features":""},
+                        {"trackname":"track0D",  "autostep":false, "stepdelay":500,  "features":""}
                     ],                        
                     "edges":
 							[
@@ -1035,13 +1047,15 @@
 							]
                     },					                                                
 
+                    
             "NC1RIGHT":{"COMMENT":"NC1 Selection correct...",
                 "type":"module", 
                 "name":"TVCORRECT",
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track1A", "autostep":true, "stepdelay":1500, "features":""}
+                    {"trackname":"track1",  "autostep":true, "stepdelay":500, "features":""},
+                    {"trackname":"track1A", "autostep":true, "stepdelay":500, "features":""}
                 ],                        
                 "edges":
                         [
@@ -1057,7 +1071,8 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track1B", "autostep":false, "features":""}
+                    {"trackname":"track1",  "autostep":true, "stepdelay":500,  "features":""},
+                    {"trackname":"track1B", "autostep":true, "stepdelay":500,  "features":""}
                 ],                        
                 "edges":
                         [
@@ -1073,7 +1088,8 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track2A", "autostep":true, "stepdelay":1500, "features":""}
+                    {"trackname":"track2",  "autostep":true, "stepdelay":500, "features":""},
+                    {"trackname":"track2A", "autostep":true, "stepdelay":500, "features":""}
                 ],                        
                 "edges":
                         [
@@ -1089,7 +1105,8 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track2B", "autostep":false, "features":""}
+                    {"trackname":"track2",  "autostep":true, "stepdelay":500, "features":""},
+                    {"trackname":"track2B", "autostep":true, "stepdelay":500, "features":""}
                 ],                        
                 "edges":
                         [
@@ -1105,12 +1122,11 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track3A", "autostep":true, "stepdelay":1500, "features":""}
+                    {"trackname":"track3A", "autostep":true, "stepdelay":1000, "features":""}
                 ],                        
                 "edges":
                         [
-                            {"constraint":"ALLCORRECT",   "edge":"NEXTSCENE" },
-                            {"constraint":"",             "edge":"CORRECTION" }                                
+                            {"constraint":"", "edge":"SUMMARY" }                                
                         ]
                 },					
                                                 
@@ -1121,27 +1137,28 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track3B", "autostep":false, "features":""}
+                    {"trackname":"track3B", "autostep":true, "stepdelay":1000, "features":""}
                 ],                        
                 "edges":
                     [
-                        {"constraint":"ALLCORRECT",   "edge":"NEXTSCENE" },
-                        {"constraint":"",             "edge":"CORRECTION" }                                
+                        {"constraint":"", "edge":"SUMMARY" }                                
                     ]
                 },					
                                             
-            "CORRECTION":{"COMMENT":"NC1 Selection wrong...",
+            "SUMMARY":{"COMMENT":"So, in this experiment, even though...",
                 "type":"module", 
                 "name":"TVWRONG",
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track3B", "autostep":false, "features":""}
+                    {"trackname":"track4A", "autostep":true,  "features":""},
+                    {"trackname":"track4B", "autostep":true,  "features":""},
+                    {"trackname":"track4C", "autostep":true,  "features":""},
+                    {"trackname":"track4D", "autostep":false, "features":""}
                 ],                        
                 "edges":
                         [
-                            {"constraint":"ALLCORRECT",   "edge":"NEXTSCENE" },
-                            {"constraint":"",             "edge":"CORRECTION" }                                
+                            {"constraint":"",   "edge":"NEXTSCENE" }
                         ]
                 },					
                                             
@@ -1151,11 +1168,11 @@
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -1176,7 +1193,7 @@
 						
 			"root":{"COMMENT":"Why could you Not ...",
 					"type":"module", 
-					"name":"QUESTION1",
+					"name":"FFCORRECTION",
                     "reuse":true,
                     "actiontracks":		
                     [
@@ -1186,18 +1203,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                          
+                                          
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			
@@ -1228,18 +1246,19 @@
 							[
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
-					},					                                                
-            "NEXTSCENE":{"COMMENT":"When module is complete - move to next scene in the scenegraph",
+                    },					                                                
+                    
+            "NEXTSCENE":{"COMMENT":"When Scene is complete - move to next scene in the scenegraph",
                         "type":"module", 
                         "name":"NEXTSCENE",
                         "reuse":true,
                         "actiontracks":		
                         [
+                            {"actionname":"NOOP", "autostep":true, "features":""}
                         ],                                              
                         "edges":
-                            [
-                                {"actionname":"NEXTSCENE", "autostep":true, "features":""}
-                            ]
+                        [
+                        ]
                     }
 		},		
 			

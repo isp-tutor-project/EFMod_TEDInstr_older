@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5b6f4696-000004c8" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1" lastModified="1538331177">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5b6f4696-000004c8" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1" lastModified="1538431258">
   <timeline>
     <DOMTimeline name="TC_TScene__Scene1">
       <layers>
@@ -22,7 +22,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1" selected="true">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
                   <matrix>
                     <Matrix a="16.4389953613281" d="3.16949462890625" tx="138.05" ty="142.05"/>
                   </matrix>

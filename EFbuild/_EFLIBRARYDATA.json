@@ -1116,6 +1116,17 @@
 					}
 				}
 			},
+			"scene16": {
+				"scenePrompt": {
+					"htmlData": {
+						"html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
+					},
+					"templateRef": {
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+					}
+				}
+			},
 			"nulllist": {
 				"listdata": {
 					"options": [],

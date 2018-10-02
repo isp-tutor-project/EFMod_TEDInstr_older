@@ -27,7 +27,15 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         
         static readonly FTRS_ALL:any            = null;        // null to delete all features for an id
         static readonly VAR_FTR                 = "varsel";    // id for the selected variable feature        
-					
+                    
+        static readonly YELLOW  = "#FFFF5488";    // Highlight
+        static readonly BLUE    = "#B6FFFF88";    // Highlight
+        static readonly GREEN   = "#54FF0088";    // Highlight
+        static readonly RED     = "#FF005488";    // Highlight
+
+        static readonly NONE    = "";          // Highlight
+
+
 	}
 
 }

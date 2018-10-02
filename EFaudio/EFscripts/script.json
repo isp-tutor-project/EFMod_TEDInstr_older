@@ -530,12 +530,12 @@
 					"cueSet": ".........................................",
 					"templates": {}
 				}
-            },
+			},
 			"track2": {
 				"en": {
 					"node": "(root)TED EXPT1 Intro",
 					"html": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
-					"text": "",
+					"text": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
 					"templateRef": {
 						"$EFO_S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
 						"$EFO_S_A?_T?|rqselectedalls": "$EFM_TEDExpt1RQ.ontologyKey"
@@ -555,7 +555,7 @@
 					"cueSet": ".........................................",
 					"templates": {}
 				}
-			}            
+			}
 		}
 	},
 	"SScene8": {
@@ -1138,20 +1138,112 @@
 	},
 	"SScene15": {
 		"tracks": {
-			"track1": {
+			"track0A": {
 				"en": {
 					"node": "In this experiment ...  Feature Focus",
-					"html": "{{$EFO_TED_E1_Q7|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part3}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q7|part4}}",
-					"text": "{{$EFO_TED_E1_Q7|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part3}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q7|part4}}",
+					"html": "{{$EFO_TED_E1_Q7|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part2}}",
+					"text": "{{$EFO_TED_E1_Q7|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part2}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1Variable.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
 						1,
 						1,
+						1
+					],
+					"cueSet": "..............................a................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track0B": {
+				"en": {
+					"node": "Because the.. is different",
+					"html": "{{$EFO_TED_E1_Q7|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part4}}",
+					"text": "{{$EFO_TED_E1_Q7|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part4}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1Variable.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
+					},
+					"volume": [
 						1,
 						1,
+						1
+					],
+					"cueSet": "......a.........................................b........",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track0C": {
+				"en": {
+					"node": "Could the way they have set up each...",
+					"html": "{{$EFO_TED_E1_Q7|part5}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q7|part6}}",
+					"text": "{{$EFO_TED_E1_Q7|part5}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q7|part6}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1Variable.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1,
+						1
+					],
+					"cueSet": "..a....b....c.........................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track0D": {
+				"en": {
+					"node": "In this experiment ...  Feature Focus",
+					"html": "{{$EFO_TED_E1_Q7|part7}}",
+					"text": "{{$EFO_TED_E1_Q7|part7}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1Variable.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
+					},
+					"volume": [
+						1
+					],
+					"cueSet": ".a................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track1": {
+				"en": {
+					"node": "You are correct that the different...",
+					"html": "{{$EFO_TED_E1_Q7ACORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7ACORR|part2}}",
+					"text": "{{$EFO_TED_E1_Q7ACORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7ACORR|part2}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC1.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
+					},
+					"volume": [
 						1,
 						1,
 						1
@@ -1160,10 +1252,6 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						0,
-						0,
-						0,
-						0,
 						0,
 						0,
 						0
@@ -1174,15 +1262,13 @@
 			"track1A": {
 				"en": {
 					"node": "You are correct that the different...",
-					"html": "{{$EFO_TED_E1_Q7ACORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7ACORR|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7ACORR|part3}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7ACORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7ACORR|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7ACORR|part3}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7ACORR|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7ACORR|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7ACORR|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7ACORR|part4}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC1.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
-						1,
-						1,
 						1,
 						1,
 						1,
@@ -1192,8 +1278,6 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						0,
-						0,
 						0,
 						0,
 						0,
@@ -1205,15 +1289,13 @@
 			"track1B": {
 				"en": {
 					"node": "Actually the different...",
-					"html": "{{$EFO_TED_E1_Q7AWRNG|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7AWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7AWRNG|part3}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7AWRNG|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7AWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7AWRNG|part3}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7AWRNG|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7AWRNG|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7AWRNG|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7AWRNG|part4}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC1.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
-						1,
-						1,
 						1,
 						1,
 						1,
@@ -1226,6 +1308,29 @@
 						0,
 						0,
 						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "The students made...",
+					"html": "{{$EFO_TED_E1_Q7BCORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BCORR|part2}}",
+					"text": "{{$EFO_TED_E1_Q7BCORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BCORR|part2}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC2.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1,
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
 						0,
 						0,
 						0
@@ -1236,15 +1341,13 @@
 			"track2A": {
 				"en": {
 					"node": "You are correct that the different...",
-					"html": "{{$EFO_TED_E1_Q7BCORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BCORR|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BCORR|part3}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7BCORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BCORR|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BCORR|part3}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7BCORR|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BCORR|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7BCORR|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BCORR|part4}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC2.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
-						1,
-						1,
 						1,
 						1,
 						1,
@@ -1254,8 +1357,6 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						0,
-						0,
 						0,
 						0,
 						0,
@@ -1267,15 +1368,13 @@
 			"track2B": {
 				"en": {
 					"node": "Actually the different...",
-					"html": "{{$EFO_TED_E1_Q7BWRNG|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BWRNG|part3}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7BWRNG|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BWRNG|part3}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7BWRNG|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BWRNG|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7BWRNG|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7BWRNG|part4}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC2.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
-						1,
-						1,
 						1,
 						1,
 						1,
@@ -1285,8 +1384,6 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
-						0,
-						0,
 						0,
 						0,
 						0,
@@ -1302,7 +1399,7 @@
 					"text": "{{$EFO_TED_E1_Q7CCORR|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7CCORR|part2}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC3.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1329,7 +1426,7 @@
 					"text": "{{$EFO_TED_E1_Q7CWRNG|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC3.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1349,23 +1446,114 @@
 					"templates": {}
 				}
 			},
-			"track4": {
+			"track4A": {
 				"en": {
 					"node": "So in this experiment even though ...",
-					"html": "{{$EFO_TED_E1_Q7D|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|2}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7CWRNG|part3}}",
-					"text": "{{$EFO_TED_E1_Q7D|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|2}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7CWRNG|part3}}",
+					"html": "{{$EFO_TED_E1_Q7D|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}",
+					"text": "{{$EFO_TED_E1_Q7D|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$TEDExpt1Variable.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_TEDExpt1VarNC1.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|3": "$EFM_TEDExpt1VarNC2.ontologyKey",
+						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_TEDExpt1Variable.ontologyKey"
+					},
+					"volume": [
+						1,
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track4B": {
+				"en": {
+					"node": "the ... ",
+					"html": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|2}}",
+					"text": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|2}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_TEDExpt1VarNC1.ontologyKey"
+					},
+					"volume": [
+						1,
+						1
+					],
+					"cueSet": "......................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track4C": {
+				"en": {
+					"node": "the ... ",
+					"html": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|3}}",
+					"text": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|3}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name|3": "$EFM_TEDExpt1VarNC2.ontologyKey"
+					},
+					"volume": [
+						1,
+						1
+					],
+					"cueSet": "......................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track4D": {
+				"en": {
+					"node": "and the ... all could have ...",
+					"html": "{{$EFO_TED_E1_Q7D|part3}}{{$EFO_STBL_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7D|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7D|part3}}{{$EFO_STBL_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7D|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"templateRef": {
 						"$EFO_STBL_A?_T?_V?|name|4": "$EFM_TEDExpt1VarNC3.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
 						1,
 						1,
 						1,
-						1,
+						1
+					],
+					"cueSet": "...................................................................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene16": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "Please correct this experiment by clicking in the table ...",
+					"html": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_STBL_A?_T?_V?|name|2}}{{$EFO_STBL_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q8|part2}}{{$EFO_STBL_A?_T?_V?|name|4}}",
+					"text": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_STBL_A?_T?_V?|name|2}}{{$EFO_STBL_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q8|part2}}{{$EFO_STBL_A?_T?_V?|name|4}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_TEDExpt1VarNC1.ontologyKey",
+						"$EFO_STBL_A?_T?_V?|name|3": "$EFM_TEDExpt1VarNC2.ontologyKey",
+						"$EFO_STBL_A?_T?_V?|name|4": "$EFM_TEDExpt1VarNC3.ontologyKey"
+					},
+					"volume": [
 						1,
 						1,
 						1,
@@ -1380,8 +1568,32 @@
 						0,
 						0,
 						0,
-						0,
-						0,
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene17": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "Explain why this is a good way to...",
+					"html": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
+					"text": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_TEDExpt1Variable.ontologyKey"
+					},
+					"volume": [
+						1,
+						1,
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
 						0,
 						0,
 						0
@@ -1389,19 +1601,20 @@
 					"templates": {}
 				}
 			},
-			"track5": {
+			"track2": {
 				"en": {
-					"node": "Please correct this experiment by clicking in the table ...",
-					"html": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|2}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7CWRNG|part3}}",
-					"text": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|2}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q7CWRNG|part2}}{{$EFO_STBL_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7CWRNG|part3}}",
+					"node": "Summary - This is a good experiment, because everything...",
+					"html": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
+					"text": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$TEDExpt1Variable.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_TEDExpt1VarNC1.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|3": "$EFM_TEDExpt1VarNC2.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|4": "$EFM_TEDExpt1VarNC3.ontologyKey",
-						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1Variable.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_TEDExpt1Topic.ontologyKey"
 					},
 					"volume": [
+						1,
+						1,
+						1,
+						1,
 						1,
 						1,
 						1,
@@ -1424,58 +1637,13 @@
 						0,
 						0,
 						0,
+						0,
+						0,
+						0,
+						0,
 						0
 					],
 					"templates": {}
-				}
-			}
-		},
-		"SScene16": {
-			"tracks": {
-				"track1": {
-					"en": {
-						"node": "Explain why this is a good way to...",
-						"html": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
-						"text": "",
-						"templateRef": {
-							"$EFO_STBL_A?_T?_V?|name|1": "$TEDExpt1Variable.ontologyKey"
-						},
-						"volume": [
-							1
-						],
-						"cueSet": "...............................................................",
-						"segments": [],
-						"timedSet": [],
-						"trim": [
-							0
-						],
-						"templates": {}
-					}
-				}
-			}
-		},
-		"SScene17": {
-			"tracks": {
-				"track1": {
-					"en": {
-						"node": "Summary - This is a good experiment, because everything...",
-						"html": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
-						"text": "",
-						"templateRef": {
-							"$EFO_STBL_A?_T?_V?|name": "$TEDExpt1Variable.ontologyKey",
-							"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
-						},
-						"volume": [
-							1
-						],
-						"cueSet": "...............................................................",
-						"segments": [],
-						"timedSet": [],
-						"trim": [
-							0
-						],
-						"templates": {}
-					}
 				}
 			}
 		}

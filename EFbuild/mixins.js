@@ -21,6 +21,11 @@ var EFTut_Suppl;
         CONST.CHANGED = "changed";
         CONST.FTRS_ALL = null;
         CONST.VAR_FTR = "varsel";
+        CONST.YELLOW = "#FFFF5488";
+        CONST.BLUE = "#B6FFFF88";
+        CONST.GREEN = "#54FF0088";
+        CONST.RED = "#FF005488";
+        CONST.NONE = "";
         EFMod_TEDInstr.CONST = CONST;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -133,6 +138,7 @@ var EFTut_Suppl;
                 this.addFeaturebyQuery(`S_A${this.getModuleValue("TEDExpt1Area.index")}_T${this.getModuleValue("TEDExpt1Topic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);
                 this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
                 this.addFeature("FTR_CHOICE");
+                this.setModuleValue("TED_EXPT", 1);
             }
             $onEnterScene() {
             }
@@ -953,6 +959,289 @@ var EFTut_Suppl;
             $preShowScene() {
                 this.STblExp1.hideCells(3, 1, 3, 4);
                 this.STblExp1.setColWidth(3, "33%");
+                this.setModuleValue("TEDFeatureFocus", ["", "", "", ""]);
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                let NCarray = this.getModuleValue("TEDFeatureFocus");
+                let NCrow;
+                switch (constrainId) {
+                    case "NC1CORRECT":
+                        NCrow = this.getModuleValue("TEDExpt1VarNC1.index");
+                        break;
+                    case "NC2CORRECT":
+                        NCrow = this.getModuleValue("TEDExpt1VarNC2.index");
+                        break;
+                    case "NC3CORRECT":
+                        NCrow = this.getModuleValue("TEDExpt1VarNC3.index");
+                        break;
+                }
+                let same = this.STblExp1.getCellValue(NCrow - 1, 1) === this.STblExp1.getCellValue(NCrow - 1, 2);
+                let selection = NCarray[NCrow - 1];
+                if (!same && selection.toLowerCase() === "could")
+                    result = true;
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                let VCrow = this.getModuleValue("TEDExpt1Variable.index");
+                let NC1row = this.getModuleValue("TEDExpt1VarNC1.index");
+                let NC2row = this.getModuleValue("TEDExpt1VarNC2.index");
+                let NC3row = this.getModuleValue("TEDExpt1VarNC3.index");
+                switch (trackID) {
+                    case "track0A":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                            case "a":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.BLUE, 0, VCrow, 0, VCrow);
+                                break;
+                        }
+                        break;
+                    case "track0B":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                            case "a":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.BLUE, 1, VCrow, 2, VCrow);
+                                break;
+                            case "b":
+                                this.STblExp1.setCellValue(VCrow, 3, "Could cause");
+                                break;
+                        }
+                        break;
+                    case "track0C":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NC1row, 2, NC1row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NC2row, 2, NC2row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NC3row, 2, NC3row);
+                                break;
+                            case "a":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC1row, 2, NC1row);
+                                break;
+                            case "b":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC2row, 2, NC2row);
+                                break;
+                            case "c":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC3row, 2, NC3row);
+                                break;
+                        }
+                        break;
+                    case "track0D":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                            case "a":
+                                this.STblExp1.showCells(3, NC1row, 3, NC1row);
+                                this.STblExp1.showCells(3, NC2row, 3, NC2row);
+                                this.STblExp1.showCells(3, NC3row, 3, NC3row);
+                                this.STblExp1.listenToCells("change", 3, NC1row, 3, NC1row);
+                                this.STblExp1.listenToCells("change", 3, NC2row, 3, NC2row);
+                                this.STblExp1.listenToCells("change", 3, NC3row, 3, NC3row);
+                                break;
+                        }
+                        break;
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC1row, 2, NC1row);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track1A":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NC1row, 3, NC1row);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track1B":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NC1row, 3, NC1row);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC2row, 2, NC2row);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2A":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NC2row, 3, NC2row);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track2B":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NC2row, 3, NC2row);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track3A":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC3row, 2, NC3row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NC3row, 3, NC3row);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track3B":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC3row, 2, NC3row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NC3row, 3, NC3row);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4A":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NC1row);
+                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NC2row);
+                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NC3row);
+                                this.STblExp1.hideCells(3, NC1row, 3, NC1row);
+                                this.STblExp1.hideCells(3, NC2row, 3, NC2row);
+                                this.STblExp1.hideCells(3, NC3row, 3, NC3row);
+                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.BLUE, VCrow);
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4B":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NC1row, 3, NC1row);
+                                this.STblExp1.setCellValue(NC1row, 3, "Could cause");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4C":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NC2row, 3, NC2row);
+                                this.STblExp1.setCellValue(NC2row, 3, "Could cause");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                    case "track4D":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NC3row, 3, NC3row);
+                                this.STblExp1.setCellValue(NC3row, 3, "Could cause");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = true;
+                switch (this.graphState) {
+                    default:
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                let NCarray = this.getModuleValue("TEDFeatureFocus");
+                let complete = 0;
+                switch (target) {
+                    case "STblExp1":
+                        NCarray[this.STblExp1.selectedCell.row - 1] = this.STblExp1.selectedCell.selectedValue;
+                        this.setModuleValue("TEDFeatureFocus", NCarray);
+                        NCarray.forEach((element) => {
+                            if (element !== "")
+                                complete++;
+                        });
+                        this.setSceneValue("complete", complete === 3);
+                        break;
+                }
+                this.$updateNav();
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene15 = SScene15;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SScene16 {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
+                this.STblExp1.setColWidth(3, "0%");
             }
             $preHideScene() {
             }
@@ -989,14 +1278,6 @@ var EFTut_Suppl;
                                 break;
                         }
                         break;
-                    case "track2":
-                        switch (cueID) {
-                            case "$start":
-                                break;
-                            case "$end":
-                                break;
-                        }
-                        break;
                 }
             }
             $timedEvents(id) {
@@ -1010,7 +1291,11 @@ var EFTut_Suppl;
                 return stateComplete;
             }
             $onSelect(target) {
+                let NCarray = this.getModuleValue("TEDFeatureFocus");
+                let complete = 0;
                 switch (target) {
+                    case "STblExp1":
+                        break;
                 }
                 this.$updateNav();
             }
@@ -1019,7 +1304,7 @@ var EFTut_Suppl;
                 }
             }
         }
-        EFMod_TEDInstr.SScene15 = SScene15;
+        EFMod_TEDInstr.SScene16 = SScene16;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 var EFTut_Suppl;
@@ -1432,6 +1717,11 @@ var EFTut_Suppl;
             }
             $nodeConstraint(constrainId) {
                 let result = false;
+                switch (constrainId) {
+                    case "TEDEXP1":
+                        result = this.getModuleValue("TED_EXPT") === "TEDEXP1";
+                        break;
+                }
                 return result;
             }
             $cuePoints(trackID, cueID) {
