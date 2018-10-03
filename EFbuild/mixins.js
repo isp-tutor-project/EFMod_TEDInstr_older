@@ -67,19 +67,22 @@ var EFTut_Suppl;
                 let TChosen = this.getModuleValue("selectedTopic").index;
                 let VChosen = this.getModuleValue("selectedVariable").index - 1;
                 console.log("old TV: " + (VChosen + 1));
-                let VC = (((VChosen + newVC) % 4) + 1);
-                console.log("new TV: " + VC);
+                let TV = (((VChosen + newVC) % 4) + 1);
+                console.log("new TV: " + TV);
                 let VNC = [1, 2, 3, 4];
-                VNC.splice(VC - 1, 1);
+                VNC.splice(TV - 1, 1);
                 for (let ndx = 0; ndx < conf.length; ndx++) {
                     conf[ndx] = (((VChosen + conf[ndx]) % 4) + 1);
                     console.log("Confound: " + conf[ndx]);
                 }
-                conf.push(VC);
+                let CVars = conf.slice();
+                this.setModuleValue(name + "Confounds", CVars);
+                conf.push(TV);
+                this.setModuleValue(name + "Different", conf);
                 this.setModuleValue(name + "Area", { "ontologyKey": `STBL_A${AChosen}`, "index": AChosen });
                 this.setModuleValue(name + "Topic", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}`, "index": TChosen });
-                this.setModuleValue(name + "Variable", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${VC}`, "index": VC });
-                this.setModuleValue(name + "RQ", { "ontologyKey": `S_A${AChosen}_T${TChosen}_RQ${VC}`, "index": VC });
+                this.setModuleValue(name + "Variable", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${TV}`, "index": TV });
+                this.setModuleValue(name + "RQ", { "ontologyKey": `S_A${AChosen}_T${TChosen}_RQ${TV}`, "index": TV });
                 for (let ndx = 0; ndx < VNC.length; ndx++) {
                     this.setModuleValue(name + `VarNC${ndx + 1}`, { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${VNC[ndx]}`, "index": VNC[ndx] });
                 }
@@ -119,23 +122,23 @@ var EFTut_Suppl;
                 this.showHideNavButton(EFMod_TEDInstr.CONST.PREVSCENE, EFMod_TEDInstr.CONST.HIDE);
                 this.$("hide", "Smask1");
                 this.setNavigationTarget(EFMod_TEDInstr.CONST.NAVSCENE);
-                this.setModuleValue("TEDExpt1Area", { "ontologyKey": "STBL_A1", "index": 1 });
-                this.setModuleValue("TEDExpt1Topic", { "ontologyKey": "STBL_A1_T2", "index": 2 });
-                this.setModuleValue("TEDExpt1Variable", { "ontologyKey": "STBL_A1_T2_V3", "index": 3 });
-                this.setModuleValue("TEDExpt1VarNC1", { "ontologyKey": "STBL_A1_T2_V1", "index": 1 });
-                this.setModuleValue("TEDExpt1VarNC2", { "ontologyKey": "STBL_A1_T2_V2", "index": 2 });
-                this.setModuleValue("TEDExpt1VarNC3", { "ontologyKey": "STBL_A1_T2_V4", "index": 4 });
-                this.setModuleValue("TEDExpt1RQ", { "ontologyKey": "S_A1_T2_RQ3", "index": 3 });
-                this.setModuleValue("TEDExpt1V1A", { "ontologyKey": "S_A1_T2_V1_A", "index": 1 });
-                this.setModuleValue("TEDExpt1V1B", { "ontologyKey": "S_A1_T2_V1_B", "index": 1 });
-                this.setModuleValue("TEDExpt1V2A", { "ontologyKey": "S_A1_T2_V2_A", "index": 2 });
-                this.setModuleValue("TEDExpt1V2B", { "ontologyKey": "S_A1_T2_V2_B", "index": 2 });
-                this.setModuleValue("TEDExpt1V3A", { "ontologyKey": "S_A1_T2_V3_A", "index": 3 });
-                this.setModuleValue("TEDExpt1V3B", { "ontologyKey": "S_A1_T2_V3_B", "index": 3 });
-                this.setModuleValue("TEDExpt1V4A", { "ontologyKey": "S_A1_T2_V4_A", "index": 4 });
-                this.setModuleValue("TEDExpt1V4B", { "ontologyKey": "S_A1_T2_V4_B", "index": 4 });
+                this.setModuleValue("TEDExptArea", { "ontologyKey": "STBL_A1", "index": 1 });
+                this.setModuleValue("TEDExptTopic", { "ontologyKey": "STBL_A1_T2", "index": 2 });
+                this.setModuleValue("TEDExptVariable", { "ontologyKey": "STBL_A1_T2_V3", "index": 3 });
+                this.setModuleValue("TEDExptVarNC1", { "ontologyKey": "STBL_A1_T2_V1", "index": 1 });
+                this.setModuleValue("TEDExptVarNC2", { "ontologyKey": "STBL_A1_T2_V2", "index": 2 });
+                this.setModuleValue("TEDExptVarNC3", { "ontologyKey": "STBL_A1_T2_V4", "index": 4 });
+                this.setModuleValue("TEDExptRQ", { "ontologyKey": "S_A1_T2_RQ3", "index": 3 });
+                this.setModuleValue("TEDExptV1A", { "ontologyKey": "S_A1_T2_V1_A", "index": 1 });
+                this.setModuleValue("TEDExptV1B", { "ontologyKey": "S_A1_T2_V1_B", "index": 1 });
+                this.setModuleValue("TEDExptV2A", { "ontologyKey": "S_A1_T2_V2_A", "index": 2 });
+                this.setModuleValue("TEDExptV2B", { "ontologyKey": "S_A1_T2_V2_B", "index": 2 });
+                this.setModuleValue("TEDExptV3A", { "ontologyKey": "S_A1_T2_V3_A", "index": 3 });
+                this.setModuleValue("TEDExptV3B", { "ontologyKey": "S_A1_T2_V3_B", "index": 3 });
+                this.setModuleValue("TEDExptV4A", { "ontologyKey": "S_A1_T2_V4_A", "index": 4 });
+                this.setModuleValue("TEDExptV4B", { "ontologyKey": "S_A1_T2_V4_B", "index": 4 });
                 this.delFeature(EFMod_TEDInstr.CONST.FTRS_ALL, EFMod_TEDInstr.CONST.VAR_FTR);
-                this.addFeaturebyQuery(`S_A${this.getModuleValue("TEDExpt1Area.index")}_T${this.getModuleValue("TEDExpt1Topic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);
+                this.addFeaturebyQuery(`S_A${this.getModuleValue("TEDExptArea.index")}_T${this.getModuleValue("TEDExptTopic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);
                 this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
                 this.addFeature("FTR_CHOICE");
                 this.setModuleValue("TED_EXPT", 1);
@@ -988,13 +991,13 @@ var EFTut_Suppl;
                 let NCrow;
                 switch (constrainId) {
                     case "NC1CORRECT":
-                        NCrow = this.getModuleValue("TEDExpt1VarNC1.index");
+                        NCrow = this.getModuleValue("TEDExptVarNC1.index");
                         break;
                     case "NC2CORRECT":
-                        NCrow = this.getModuleValue("TEDExpt1VarNC2.index");
+                        NCrow = this.getModuleValue("TEDExptVarNC2.index");
                         break;
                     case "NC3CORRECT":
-                        NCrow = this.getModuleValue("TEDExpt1VarNC3.index");
+                        NCrow = this.getModuleValue("TEDExptVarNC3.index");
                         break;
                 }
                 let same = this.STblExp1.getCellValue(NCrow - 1, 1) === this.STblExp1.getCellValue(NCrow - 1, 2);
@@ -1004,10 +1007,10 @@ var EFTut_Suppl;
                 return result;
             }
             $cuePoints(trackID, cueID) {
-                let VCrow = this.getModuleValue("TEDExpt1Variable.index");
-                let NC1row = this.getModuleValue("TEDExpt1VarNC1.index");
-                let NC2row = this.getModuleValue("TEDExpt1VarNC2.index");
-                let NC3row = this.getModuleValue("TEDExpt1VarNC3.index");
+                let VCrow = this.getModuleValue("TEDExptVariable.index");
+                let NC1row = this.getModuleValue("TEDExptVarNC1.index");
+                let NC2row = this.getModuleValue("TEDExptVarNC2.index");
+                let NC3row = this.getModuleValue("TEDExptVarNC3.index");
                 switch (trackID) {
                     case "track0A":
                         switch (cueID) {
@@ -1242,6 +1245,119 @@ var EFTut_Suppl;
             }
             $preShowScene() {
                 this.STblExp1.setColWidth(3, "0%");
+                let NCarray = [];
+                let NCvals = ["1", "2"];
+                NCarray.push(this.getModuleValue("TEDExptVarNC1.index"));
+                NCarray.push(this.getModuleValue("TEDExptVarNC2.index"));
+                NCarray.push(this.getModuleValue("TEDExptVarNC3.index"));
+                this.setModuleValue("TableNCSequence", NCarray);
+                this.setModuleValue("TEDcorrection", 0);
+                for (let i1 = 0; i1 < NCarray.length; i1++) {
+                    this.STblExp1.listenToCells("change", 1, NCarray[i1], 2, NCarray[i1]);
+                    for (let i2 = 1; i2 < 3; i2++) {
+                        this.STblExp1.initElementFromData(NCarray[i1], i2, {
+                            "value": "$LIST",
+                            "options": [
+                                `{{$EFO_STBL_A?_T?_V${NCarray[i1]}_A|name}}`,
+                                `{{$EFO_STBL_A?_T?_V${NCarray[i1]}_B|name}}`
+                            ],
+                            "initialValue": `${NCvals[i2 - 1]}`,
+                            "placeHolder": "{{$EFO_LV_PH1|name}}"
+                        });
+                    }
+                }
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = true;
+                switch (this.graphState) {
+                    default:
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                let CORR = this.getModuleValue("TEDcorrection");
+                let row = this.STblExp1.selectedCell.row;
+                switch (target) {
+                    case "STblExp1":
+                        let val1 = this.STblExp1.getCellValue(row, 1);
+                        let val2 = this.STblExp1.getCellValue(row, 2);
+                        if (val1 === val2) {
+                            this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 1, row, 2, row);
+                            CORR++;
+                        }
+                        else {
+                            this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 1, row, 2, row);
+                            CORR--;
+                        }
+                        break;
+                }
+                this.setModuleValue("TEDcorrection", CORR);
+                this.$updateNav();
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene16 = SScene16;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SScene17 {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
             }
             $preHideScene() {
             }
@@ -1304,7 +1420,7 @@ var EFTut_Suppl;
                 }
             }
         }
-        EFMod_TEDInstr.SScene16 = SScene16;
+        EFMod_TEDInstr.SScene17 = SScene17;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 var EFTut_Suppl;
@@ -1321,7 +1437,7 @@ var EFTut_Suppl;
             $preEnterScene() {
             }
             $preExitScene() {
-                this.$generateExpt("TEDExpt1", 1, 2, 3, 4);
+                this.$generateExpt("TEDExpt", 2, 1);
             }
             $demoInitScene() {
             }
@@ -1680,10 +1796,10 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
-                this.$generateExpt("TEDExpt1", 1, 2, 3, 4);
-                let AChosen = this.getModuleValue("TEDExpt1Area.index");
-                let TChosen = this.getModuleValue("TEDExpt1Topic.index");
-                let VChosen = this.getModuleValue("TEDExpt1Variable.index");
+                this.$generateExpt("TEDExpt", 2, 1);
+                let AChosen = this.getModuleValue("TEDExptArea.index");
+                let TChosen = this.getModuleValue("TEDExptTopic.index");
+                let VChosen = this.getModuleValue("TEDExptVariable.index");
                 this.$("Sicon.|Svar.*").hide();
                 this.$(`Sicon1|Svar${VChosen}a`).show();
                 this.$(`Sicon2|Svar${VChosen}b`).show();
@@ -1767,6 +1883,25 @@ var EFTut_Suppl;
             $preExitScene() {
             }
             $preShowScene() {
+                let CVars = this.getModuleValue("TEDExptDifferent");
+                let initState = ["a", "a", "a", "a"];
+                CVars.forEach(index => {
+                    initState[index - 1] = "b";
+                });
+                this.Sexpt1.deSerializeObj({
+                    "exptStruct": [{ "id": "Svar1", "parent": null, "depth": 0, "variants": ["a", "b"] },
+                        { "id": "Svar2", "parent": null, "depth": 0, "variants": ["a", "b"] },
+                        { "id": "Svar3", "parent": null, "depth": 0, "variants": ["a", "b"] },
+                        { "id": "Svar4", "parent": null, "depth": 0, "variants": ["a", "b"] }],
+                    "initState": ["a", "a", "a", "a"]
+                });
+                this.Sexpt2.deSerializeObj({
+                    "exptStruct": [{ "id": "Svar1", "parent": null, "depth": 0, "variants": ["a", "b"] },
+                        { "id": "Svar2", "parent": null, "depth": 0, "variants": ["a", "b"] },
+                        { "id": "Svar3", "parent": null, "depth": 0, "variants": ["a", "b"] },
+                        { "id": "Svar4", "parent": null, "depth": 0, "variants": ["a", "b"] }],
+                    "initState": initState
+                });
             }
             $preHideScene() {
             }

@@ -82,13 +82,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(constrainId) {
                 case "NC1CORRECT":
-                    NCrow = this.getModuleValue("TEDExpt1VarNC1.index");
+                    NCrow = this.getModuleValue("TEDExptVarNC1.index");
                     break;
                 case "NC2CORRECT":
-                    NCrow = this.getModuleValue("TEDExpt1VarNC2.index");
+                    NCrow = this.getModuleValue("TEDExptVarNC2.index");
                     break;
                 case "NC3CORRECT":
-                    NCrow = this.getModuleValue("TEDExpt1VarNC3.index");    
+                    NCrow = this.getModuleValue("TEDExptVarNC3.index");    
                     break;
             }
 
@@ -104,10 +104,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // 
         public $cuePoints(trackID:string, cueID:string) {
 
-            let VCrow  = this.getModuleValue("TEDExpt1Variable.index");
-            let NC1row = this.getModuleValue("TEDExpt1VarNC1.index");
-            let NC2row = this.getModuleValue("TEDExpt1VarNC2.index");
-            let NC3row = this.getModuleValue("TEDExpt1VarNC3.index");
+            let VCrow  = this.getModuleValue("TEDExptVariable.index");
+            let NC1row = this.getModuleValue("TEDExptVarNC1.index");
+            let NC2row = this.getModuleValue("TEDExptVarNC2.index");
+            let NC3row = this.getModuleValue("TEDExptVarNC3.index");
 
             switch(trackID) {
 

@@ -868,7 +868,7 @@
 		{	
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
-			"root":{"COMMENT":"Imagine the result...",
+			"root":{"COMMENT":"Imagine the result...were different across conditions, Could you tell",
 					"type":"module", 
 					"name":"QUESTION1",
                     "reuse":true,
@@ -884,7 +884,7 @@
 							]
                     },					                                              
                     
-			"RIGHT":{"COMMENT":"...",
+			"RIGHT":{"COMMENT":"You're right, we could not tell for sure that the...",
 					"type":"module", 
 					"name":"INSTRUCTIONS",
                     "reuse":true,
@@ -898,7 +898,7 @@
 							]
 					},					                                                
 
-			"WRONG":{"COMMENT":"...",
+			"WRONG":{"COMMENT":"Actually, we could not tell for sure that the...",
 					"type":"module", 
 					"name":"INSTRUCTIONS",
                     "reuse":true,
@@ -942,7 +942,7 @@
 		{	
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
-			"root":{"COMMENT":"If the results from condition1 ...",
+			"root":{"COMMENT":"Why did you say you could not know for sure ...",
 					"type":"module", 
 					"name":"QUESTION1",
                     "reuse":true,
@@ -1191,16 +1191,18 @@
 		{	
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
-			"root":{"COMMENT":"Why could you Not ...",
+			"root":{"COMMENT":"Please correct the experiment ...",
 					"type":"module", 
 					"name":"FFCORRECTION",
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1",  "autostep":false, "stepdelay":500,  "features":""}
+                        {"trackname":"track1",  "autostep":true,  "stepdelay":500,  "features":""},
+                        {"trackname":"track2",  "autostep":false, "stepdelay":500,  "features":""}
                     ],                        
                     "edges":
 							[
+                                {"constraint":"INCOMPLETE","edge":"root" },
                                 {"constraint":"","edge":"NEXTSCENE" }
 							]
                     },					                          
@@ -1234,13 +1236,28 @@
 		{	
 			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
 						
-			"root":{"COMMENT":"Why could you Not ...",
+			"root":{"COMMENT":"Explain why this is a good way to ...",
 					"type":"module", 
 					"name":"QUESTION1",
                     "reuse":true,
                     "actiontracks":		
                     [
                         {"trackname":"track1",  "autostep":false, "features":""}
+                    ],                        
+                    "edges":
+							[
+                                {"constraint":"INCOMPLETE","edge":"root" },
+                                {"constraint":"","edge":"SUMMARY" }
+							]
+                    },					                                                
+                    
+			"SUMMARY":{"COMMENT":"Summary - This is a good experiment, because ...",
+					"type":"module", 
+					"name":"QUESTION1",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"trackname":"track2",  "autostep":false, "features":""}
                     ],                        
                     "edges":
 							[

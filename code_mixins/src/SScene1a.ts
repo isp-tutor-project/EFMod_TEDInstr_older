@@ -26,7 +26,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $preExitScene() {
             
-            this.$generateExpt("TEDExpt1", 1, 2,3,4);
+            this.$generateExpt("TEDExpt", 2, 1);
+
+            // this.$generateExpt("TEDExpt", 1, 2,3,4);
         }
 
         public $demoInitScene() {

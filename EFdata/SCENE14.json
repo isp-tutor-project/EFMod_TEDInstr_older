@@ -1,10 +1,6 @@
 {
     "_MODULEDATA":"v1.0.0",
     "SScene14": {
-        "Stitle": {
-            "layoutsource":"$EFL_eftext.S14.Stitle",
-            "datasource": "$EFL_efdata.scene14.scenePrompt"           
-        },
         "Squestion": {
             "layoutsource":"$EFL_eftext.S14.Squestion",
             "datasource": "$EFL_efdata.scene14.question"           

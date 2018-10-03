@@ -85,6 +85,45 @@
 						"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
 					}
 				}
+			},
+			"S13": {
+				"Sanswer": {
+					"src": "$$EFX.html_list_std",
+					"htmlData": {
+						"style": {
+							"[sanswer] .listbox": {
+								"border-radius": "4px"
+							}
+						},
+						"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
+					}
+				}
+			},
+			"S14": {
+				"Sanswer": {
+					"src": "$$EFX.html_list_std",
+					"htmlData": {
+						"style": {
+							"[sanswer] .listbox": {
+								"border-radius": "4px"
+							}
+						},
+						"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
+					}
+				}
+			},
+			"S17": {
+				"Sanswer": {
+					"src": "$$EFX.html_list_std",
+					"htmlData": {
+						"style": {
+							"[sanswer] .listbox": {
+								"border-radius": "4px"
+							}
+						},
+						"html": "\n    <select>\n        <option value=\"\" hidden=\"\">Example Placeholder</option>\n        <option value=\"isGerman\">Audi</option>\n        <option value=\"isGerman\">BMW</option>\n        <option value=\"isGerman\">Mercedes</option>\n        <option value=\"isGerman\">Mini</option>\n        <option value=\"isJapanese\">Nissan</option>\n        <option value=\"isJapanese\">Toyota</option>\n    </select>\n"
+					}
+				}
 			}
 		},
 		"eftext": {
@@ -657,9 +696,17 @@
 			},
 			"STblExp1": {
 				"src": "$$EFX.html_table_ted1",
-				"xname": "STableExp1",
+				"xname": "STblExp1",
 				"datasource": "$EFL_efdata.EXPT1TableData",
 				"templateRef": {
+					"STBL_A?_T?_V1_?|name|1": "$EFM_TEDExptV1A.ontologyKey",
+					"STBL_A?_T?_V1_?|name|2": "$EFM_TEDExptV1B.ontologyKey",
+					"STBL_A?_T?_V2_?|name|3": "$EFM_TEDExptV2A.ontologyKey",
+					"STBL_A?_T?_V2_?|name|4": "$EFM_TEDExptV2B.ontologyKey",
+					"STBL_A?_T?_V3_?|name|5": "$EFM_TEDExptV3A.ontologyKey",
+					"STBL_A?_T?_V3_?|name|6": "$EFM_TEDExptV3B.ontologyKey",
+					"STBL_A?_T?_V4_?|name|7": "$EFM_TEDExptV4A.ontologyKey",
+					"STBL_A?_T?_V4_?|name|8": "$EFM_TEDExptV4B.ontologyKey",
 					"*": "$$EFM_selectedTopic.ontologyKey"
 				},
 				"htmlData": {
@@ -749,8 +796,8 @@
 						"html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
 					}
 				}
 			},
@@ -760,8 +807,8 @@
 						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
 					}
 				}
 			},
@@ -771,8 +818,8 @@
 						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -808,8 +855,8 @@
 						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -873,8 +920,8 @@
 						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -950,7 +997,7 @@
 						"html": "{{$EFO_TED_E1_Q4P2|question1}}<br>{{$EFO_TED_E1_Q4P2|question2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4P2|question3}}"
 					},
 					"templateRef": {
-						"STBL_A?_T?_V?|name": "$EFM_TEDExpt1VarNC1.ontologyKey"
+						"STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC1.ontologyKey"
 					}
 				},
 				"Sanswer": {
@@ -981,11 +1028,11 @@
 						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
 					}
 				},
-				"question": {
+				"Squestion": {
 					"htmlData": {
 						"html": "{{$EFO_TED_E1_Q5|question}}"
 					}
@@ -1046,8 +1093,8 @@
 						"html": "<p>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
 					}
 				},
 				"question": {
@@ -1111,8 +1158,8 @@
 						"html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
 					}
 				}
 			},
@@ -1122,8 +1169,67 @@
 						"html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
 					},
 					"templateRef": {
-						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExpt1RQ.ontologyKey",
-						"S_A?_T?|DVs": "$EFM_TEDExpt1RQ.ontologyKey"
+						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
+						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
+					}
+				}
+			},
+			"scene17": {
+				"scenePrompt": {
+					"htmlData": {
+						"html": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}"
+					},
+					"templateRef": {
+						"STBL_A?_T?_V?|name|1": "$EFM_TEDExptVariable.ontologyKey"
+					}
+				},
+				"Sanswer": {
+					"listdata": {
+						"options": [
+							{
+								"name": "{{$EFO_TED_E1_LISTQ9|ans1}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ9",
+								"ontologyKey": "TED_E1_LISTQ9|yes",
+								"index": 1,
+								"id": "1"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ9|ans2}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ9",
+								"ontologyKey": "TED_E1_LISTQ9|yes",
+								"index": 2,
+								"id": "2"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ9|ans3}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ9",
+								"ontologyKey": "TED_E1_LISTQ9|yes",
+								"index": 3,
+								"id": "3"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ9|ans4}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ9",
+								"ontologyKey": "TED_E1_LISTQ9|yes",
+								"index": 4,
+								"id": "4"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ9|ans5}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ9",
+								"ontologyKey": "TED_E1_LISTQ9|yes",
+								"index": 5,
+								"id": "5"
+							},
+							{
+								"name": "{{$EFO_TED_E1_LISTQ9|ans6}}",
+								"value": "$EFL_efdata.TED.E1.LISTQ9",
+								"ontologyKey": "TED_E1_LISTQ9|yes",
+								"index": 6,
+								"id": "6"
+							}
+						],
+						"placeHolder": "{{$EFO_STBL_PH1|name}}"
 					}
 				}
 			},
@@ -1663,10 +1769,10 @@
 								"value": "{{$EFO_STBL_A?_T?_V1|name}}"
 							},
 							{
-								"value": "{{$EFO_STBL_A?_T?_V1_A|name}}"
+								"value": "{{$EFO_STBL_A?_T?_V1_?|name|1}}"
 							},
 							{
-								"value": "{{$EFO_STBL_A?_T?_V1_B|name}}"
+								"value": "{{$EFO_STBL_A?_T?_V1_?|name|2}}"
 							},
 							{
 								"value": "$LIST",
@@ -1682,10 +1788,10 @@
 								"value": "{{$EFO_STBL_A?_T?_V2|name}}"
 							},
 							{
-								"value": "{{$EFO_STBL_A?_T?_V2_A|name}}"
+								"value": "{{$EFO_STBL_A?_T?_V2_?|name|3}}"
 							},
 							{
-								"value": "{{$EFO_STBL_A?_T?_V2_B|name}}"
+								"value": "{{$EFO_STBL_A?_T?_V2_?|name|4}}"
 							},
 							{
 								"value": "$LIST",
@@ -1701,10 +1807,10 @@
 								"value": "{{$EFO_STBL_A?_T?_V3|name}}"
 							},
 							{
-								"value": "{{$EFO_STBL_A?_T?_V3_A|name}}"
+								"value": "{{$EFO_STBL_A?_T?_V3_?|name|5}}"
 							},
 							{
-								"value": "{{$EFO_STBL_A?_T?_V3_B|name}}"
+								"value": "{{$EFO_STBL_A?_T?_V3_?|name|6}}"
 							},
 							{
 								"value": "$LIST",
@@ -1720,10 +1826,10 @@
 								"value": "{{$EFO_STBL_A?_T?_V4|name}}"
 							},
 							{
-								"value": "{{$EFO_STBL_A?_T?_V4_A|name}}"
+								"value": "{{$EFO_STBL_A?_T?_V4_?|name|7}}"
 							},
 							{
-								"value": "{{$EFO_STBL_A?_T?_V4_B|name}}"
+								"value": "{{$EFO_STBL_A?_T?_V4_?|name|8}}"
 							},
 							{
 								"value": "$LIST",

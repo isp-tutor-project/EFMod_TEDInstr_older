@@ -174,16 +174,28 @@
 
                     "part2":"the",
                     "part3":"and the",
-                    "part4":"all also could cause a difference in"
+                    "part4":"all also could cause a difference in the"
                 },
                 "Q8":{
                     "part1":"Please correct this experiment by clicking in the table and selecting correct ways to set up the",
-                    "part2":"and the"
+                    "part2":"and the",
+                    "part3":"Click next when you've completed you're selections"
                 },
                 "Q9":{
                     "part1":"Explain why this is a good way to find out whether or not the",
                     "part2":"makes a difference."
                 },
+
+                "LISTQ9": {
+                    "ans1":"The variable we're testing will cause a difference.",
+                    "ans2":"The variable we're testing is different and everything else in the same.",
+                    "ans3":"Only the variable we're testing could cause a difference in the results.",
+                    "ans4":"The variable we're testing is different (it doesn't matter how the other variables are set up).",
+                    "ans5":"The results (or outcomes) will be different across conditions.",
+                    "ans6":"I don't know/I think it might not really be a good way."
+                },
+
+                
                 "SUMMARY":{
                     "part1":"This is a good experiment, because everything is the same except for what the students are trying to find out about, the",
                     "part2":"In other words, if there is a difference between conditions in the",

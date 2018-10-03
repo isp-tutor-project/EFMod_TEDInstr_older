@@ -148,15 +148,24 @@
 					"part1": "So, in this experiment, even though the students are testing the",
 					"part2": "the",
 					"part3": "and the",
-					"part4": "all also could cause a difference in"
+					"part4": "all also could cause a difference in the"
 				},
 				"Q8": {
 					"part1": "Please correct this experiment by clicking in the table and selecting correct ways to set up the",
-					"part2": "and the"
+					"part2": "and the",
+					"part3": "Click next when you've completed you're selections"
 				},
 				"Q9": {
 					"part1": "Explain why this is a good way to find out whether or not the",
 					"part2": "makes a difference."
+				},
+				"LISTQ9": {
+					"ans1": "The variable we're testing will cause a difference.",
+					"ans2": "The variable we're testing is different and everything else in the same.",
+					"ans3": "Only the variable we're testing could cause a difference in the results.",
+					"ans4": "The variable we're testing is different (it doesn't matter how the other variables are set up).",
+					"ans5": "The results (or outcomes) will be different across conditions.",
+					"ans6": "I don't know/I think it might not really be a good way."
 				},
 				"SUMMARY": {
 					"part1": "This is a good experiment, because everything is the same except for what the students are trying to find out about, the",
@@ -1421,13 +1430,9 @@
 		}
 	},
 	"SScene13": {
-		"Stitle": {
-			"layoutsource": "$EFL_eftext.S13.Stitle",
-			"datasource": "$EFL_efdata.scene13.scenePrompt"
-		},
 		"Squestion": {
 			"layoutsource": "$EFL_eftext.S13.Squestion",
-			"datasource": "$EFL_efdata.scene13.question"
+			"datasource": "$EFL_efdata.scene13.Squestion"
 		},
 		"Sanswer": {
 			"layoutsource": "$EFL_eflist.S13.Sanswer",
@@ -1436,10 +1441,6 @@
 		}
 	},
 	"SScene14": {
-		"Stitle": {
-			"layoutsource": "$EFL_eftext.S14.Stitle",
-			"datasource": "$EFL_efdata.scene14.scenePrompt"
-		},
 		"Squestion": {
 			"layoutsource": "$EFL_eftext.S14.Squestion",
 			"datasource": "$EFL_efdata.scene14.question"
@@ -1466,6 +1467,23 @@
 			"layoutsource": "$EFL_eftext.STextBox1",
 			"datasource": "$EFL_efdata.scene16.scenePrompt",
 			"fontSize": 65
+		},
+		"STblExp1": {
+			"layoutsource": "$EFL_eftable.STblExp1",
+			"fontSize": 24
+		}
+	},
+	"SScene17": {
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scene17.scenePrompt",
+			"fontSize": 65
+		},
+		"Sanswer": {
+			"layoutsource": "$EFL_eflist.S17.Sanswer",
+			"datasource": "$EFL_efdata.scene17.Sanswer",
+			"fontSize": 35,
+			"xname": "SCENE10A"
 		},
 		"STblExp1": {
 			"layoutsource": "$EFL_eftable.STblExp1",
@@ -1553,98 +1571,6 @@
 		"Stitle": {
 			"layoutsource": "$EFL_eftext.S8.Stitle",
 			"datasource": "$EFL_efdata.scene8.scenePrompt"
-		},
-		"Sexpt1": {
-			"exptStruct": [
-				{
-					"id": "Svar1",
-					"parent": null,
-					"depth": 0,
-					"variants": [
-						"a",
-						"b"
-					]
-				},
-				{
-					"id": "Svar2",
-					"parent": null,
-					"depth": 0,
-					"variants": [
-						"a",
-						"b"
-					]
-				},
-				{
-					"id": "Svar3",
-					"parent": null,
-					"depth": 0,
-					"variants": [
-						"a",
-						"b"
-					]
-				},
-				{
-					"id": "Svar4",
-					"parent": null,
-					"depth": 0,
-					"variants": [
-						"a",
-						"b"
-					]
-				}
-			],
-			"initState": [
-				"a",
-				"a",
-				"a",
-				"a"
-			]
-		},
-		"Sexpt2": {
-			"exptStruct": [
-				{
-					"id": "Svar1",
-					"parent": null,
-					"depth": 0,
-					"variants": [
-						"a",
-						"b"
-					]
-				},
-				{
-					"id": "Svar2",
-					"parent": null,
-					"depth": 0,
-					"variants": [
-						"a",
-						"b"
-					]
-				},
-				{
-					"id": "Svar3",
-					"parent": null,
-					"depth": 0,
-					"variants": [
-						"a",
-						"b"
-					]
-				},
-				{
-					"id": "Svar4",
-					"parent": null,
-					"depth": 0,
-					"variants": [
-						"a",
-						"b"
-					]
-				}
-			],
-			"initState": [
-				"b",
-				"b",
-				"b",
-				"b"
-			]
 		}
 	},
 	"SScene9": {

@@ -1,0 +1,20 @@
+{
+    "_MODULEDATA":"v1.0.0",
+    "SScene17": {
+        "STextBox1": {
+            "layoutsource":"$EFL_eftext.STextBox1",
+            "datasource": "$EFL_efdata.scene17.scenePrompt",
+            "fontSize":65
+        },
+        "Sanswer": {
+            "layoutsource":"$EFL_eflist.S17.Sanswer",
+            "datasource": "$EFL_efdata.scene17.Sanswer",
+            "fontSize":35,
+            "xname":"SCENE10A"
+        },
+        "STblExp1": {
+            "layoutsource":"$EFL_eftable.STblExp1",
+            "fontSize":24
+        }
+    }
+}

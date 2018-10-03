@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene16" itemID="5bb234bc-00001031" linkageExportForAS="true" linkageClassName="TC_TScene__Scene16" lastModified="1538431296">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene16" itemID="5bb234bc-00001031" linkageExportForAS="true" linkageClassName="TC_TScene__Scene16" lastModified="1538511145">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -9,9 +9,9 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STblExp1">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STblExp1" selected="true">
                   <matrix>
-                    <Matrix a="8.33949279785156" d="3.03999328613281" tx="543.05" ty="384.8"/>
+                    <Matrix a="8.33949279785156" d="3.03999328613281" tx="543.05" ty="496.8"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="0.4"/>
@@ -25,12 +25,12 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
                   <matrix>
-                    <Matrix a="16.4389953613281" d="1.49005126953125" tx="138.05" ty="124.05"/>
+                    <Matrix a="16.4389953613281" d="3.16949462890625" tx="134.45" ty="142.05"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="50.25" y="50.1"/>
+                    <Point x="50.15" y="50.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
