@@ -6,12 +6,12 @@
           <DOMFolderItem name="_HTMLControls/TC_THtmlList__Assets" itemID="5b5cea4b-000003ab"/>
           <DOMFolderItem name="_HTMLControls/TC_THtmlTable__Assets" itemID="5b5f40d8-000002e3"/>
           <DOMFolderItem name="_HTMLControls/TC_THtmlText__Assets" itemID="5b5cd7c7-000002d7"/>
-          <DOMFolderItem name="_Tutor Global Assets_" itemID="5ad4e635-00000a48"/>
+          <DOMFolderItem name="_Tutor Global Assets_" itemID="5ad4e635-00000a48" isExpanded="true"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components" itemID="5b6f403c-000003c9" isExpanded="true"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets" itemID="5b68a267-00000548"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons" itemID="532c6375-000002d1"/>
           <DOMFolderItem name="_Tutor Global Scenes" itemID="5b6f465c-000004be" isExpanded="true"/>
-          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e"/>
+          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e" isExpanded="true"/>
           <DOMFolderItem name="Assets/TC_TTEDExpt__Assets" itemID="5b70631c-0000057a"/>
           <DOMFolderItem name="Exports" itemID="5b60aa1c-0000045f" isExpanded="true"/>
           <DOMFolderItem name="Scene Assets" itemID="5ae24ea6-00000248"/>
@@ -46,7 +46,7 @@
           <Include href="_HTMLControls/TC_THtmlTable__Assets/tablearea.xml" loadImmediate="false" itemID="5b5f40c1-000002dc" lastModified="1533050778"/>
           <Include href="_HTMLControls/TC_THtmlTable__Table1.xml" loadImmediate="false" itemID="5b5f91bf-00000347" lastModified="1534019420"/>
           <Include href="_HTMLControls/TC_THtmlText__Assets/TextArea.xml" loadImmediate="false" itemID="5b59ef22-00000313" lastModified="1533575923"/>
-          <Include href="_HTMLControls/TC_THtmlText__Text1.xml" loadImmediate="false" itemID="5b5f91c5-00000348" lastModified="1533575928"/>
+          <Include href="_HTMLControls/TC_THtmlText__Text1.xml" loadImmediate="false" itemID="5b5f91c5-00000348" lastModified="1538665224"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/contentFrame.xml" loadImmediate="false" itemID="5b8db279-000005f6" lastModified="1536012921"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/contentFrame2.xml" loadImmediate="false" itemID="5baea7f5-0000067f" lastModified="1538172936"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons/SpinFocusOutline.xml" loadImmediate="false" itemID="5345b97d-00001a70" lastModified="1397078414"/>
@@ -71,20 +71,27 @@
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__PrevButton.xml" itemIcon="0" loadImmediate="false" itemID="5b68a25d-00000547" lastModified="1533586273"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TObject__backMask.xml" loadImmediate="false" itemID="5b6f3c37-000002d0" lastModified="1534016567"/>
           <Include href="_Tutor Global Assets_/NavPanel Components/TC_TObject__NavBackground.xml" loadImmediate="false" itemID="5b6f441f-0000043d" lastModified="1534018591"/>
-          <Include href="_Tutor Global Assets_/TC_TVirtual__SceneRgn.xml" loadImmediate="false" itemID="5b7745af-0000037b" lastModified="1534543279"/>
+          <Include href="_Tutor Global Assets_/TC_TVirtual__SceneRgn.xml" loadImmediate="false" itemID="5b7745af-0000037b" lastModified="1538757831"/>
           <Include href="_Tutor Global Assets_/TutorModule.xml" loadImmediate="false" itemID="5ad39eb8-000002c4" lastModified="1523818168"/>
-          <Include href="_Tutor Global Scenes/TC_TNavPanel__Navigator.xml" loadImmediate="false" itemID="5b77452f-00000373" lastModified="1538173018"/>
+          <Include href="_Tutor Global Scenes/TC_TNavPanel__Navigator.xml" loadImmediate="false" itemID="5b77452f-00000373" lastModified="1538757806"/>
           <Include href="_Tutor Global Scenes/TC_TScene__HeadPhoneCheck.xml" loadImmediate="false" itemID="5ae37628-0000040b" lastModified="1524856360"/>
           <Include href="_Tutor Global Scenes/TC_TScene__SignIn.xml" loadImmediate="false" itemID="5ae3762f-0000040c" lastModified="1524856367"/>
           <Include href="_Tutor Global Scenes/TC_TScene__SoundCheck.xml" loadImmediate="false" itemID="5ae37634-0000040d" lastModified="1534016097"/>
+          <Include href="Assets/TC_TButton__S7VectorA.xml" itemIcon="0" loadImmediate="false" itemID="5bb792de-000007cf" lastModified="1538759743"/>
+          <Include href="Assets/TC_TButton__S7VectorB.xml" itemIcon="0" loadImmediate="false" itemID="5bb792e5-000007d4" lastModified="1538759754"/>
+          <Include href="Assets/TC_TButton__S15VectorA.xml" itemIcon="0" loadImmediate="false" itemID="5bb792dc-000007ce" lastModified="1538759765"/>
+          <Include href="Assets/TC_TButton__S15VectorB.xml" itemIcon="0" loadImmediate="false" itemID="5bb792eb-000007d8" lastModified="1538759784"/>
+          <Include href="Assets/TC_TObject__StudentIcon1.xml" loadImmediate="false" itemID="5bb54c24-00000320" lastModified="1538608164"/>
+          <Include href="Assets/TC_TObject__StudentIcon2.xml" loadImmediate="false" itemID="5bb54c33-00000326" lastModified="1538608179"/>
           <Include href="Assets/TC_TTEDExpt__Assets/ExptArea.xml" loadImmediate="false" itemID="5b7062de-0000056b" lastModified="1534091998"/>
           <Include href="Assets/TC_TTEDExpt__type1.xml" loadImmediate="false" itemID="5b87342e-00000520" lastModified="1535587374"/>
           <Include href="Scene Assets/TC_TScene__SignIn/IconSignIn.xml" loadImmediate="false" itemID="5ae36986-00000383" lastModified="1524853134"/>
+          <Include href="Scenes/TC_TScene__EndCloak.xml" itemID="5b6378be-00000669" lastModified="1538757932"/>
           <Include href="Scenes/TC_TScene__Scene1.xml" itemID="5b6f4696-000004c8" lastModified="1538431258"/>
-          <Include href="Scenes/TC_TScene__Scene1a.xml" itemID="5b788299-0000047c" lastModified="1538509120"/>
+          <Include href="Scenes/TC_TScene__Scene1a.xml" itemID="5b788299-0000047c" lastModified="1538759680"/>
           <Include href="Scenes/TC_TScene__Scene2.xml" itemID="5b6f4963-000004fb" lastModified="1538331182"/>
-          <Include href="Scenes/TC_TScene__Scene3.xml" itemID="5b6f4a5e-00000520" lastModified="1538331184"/>
-          <Include href="Scenes/TC_TScene__Scene4.xml" itemID="5b87151f-0000037d" lastModified="1538331186"/>
+          <Include href="Scenes/TC_TScene__Scene3.xml" itemID="5b6f4a5e-00000520" lastModified="1538608170"/>
+          <Include href="Scenes/TC_TScene__Scene4.xml" itemID="5b87151f-0000037d" lastModified="1538608179"/>
           <Include href="Scenes/TC_TScene__Scene5.xml" itemID="5b87169f-00000384" lastModified="1538331188"/>
           <Include href="Scenes/TC_TScene__Scene6.xml" itemID="5b8716a6-00000393" lastModified="1538331192"/>
           <Include href="Scenes/TC_TScene__Scene6A.xml" loadImmediate="false" itemID="5b871506-0000036c" lastModified="1535579398"/>
@@ -98,7 +105,7 @@
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1534019964"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="3">
+          <DOMTimeline name="Scene 1" currentFrame="10">
                <layers>
                     <DOMLayer name="Actions" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
@@ -154,7 +161,7 @@
                               </DOMFrame>
                               <DOMFrame index="3" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="_Tutor Global Scenes/TC_TScene__SoundCheck" selected="true">
+                                        <DOMSymbolInstance libraryItemName="_Tutor Global Scenes/TC_TScene__SoundCheck">
                                              <transformationPoint>
                                                   <Point x="960" y="606.1"/>
                                              </transformationPoint>

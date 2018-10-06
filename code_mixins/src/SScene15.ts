@@ -24,6 +24,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            this.setSceneValue("complete", false);    
         }
 
         public $preExitScene() {
@@ -82,20 +83,21 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(constrainId) {
                 case "NC1CORRECT":
-                    NCrow = this.getModuleValue("TEDExptVarNC1.index");
+                    NCrow    = this.getModuleValue("TEDExptVarNC1.index");
                     break;
                 case "NC2CORRECT":
-                    NCrow = this.getModuleValue("TEDExptVarNC2.index");
+                    NCrow    = this.getModuleValue("TEDExptVarNC2.index");
                     break;
                 case "NC3CORRECT":
-                    NCrow = this.getModuleValue("TEDExptVarNC3.index");    
+                    NCrow    = this.getModuleValue("TEDExptVarNC3.index");    
                     break;
             }
 
-            let same      = this.STblExp1.getCellValue(NCrow-1, 1) === this.STblExp1.getCellValue(NCrow-1, 2);
+            let same      = this.STblExp1.getCellValue(NCrow, 1) === this.STblExp1.getCellValue(NCrow, 2);
             let selection = NCarray[NCrow-1];
 
-            if(!same && selection.toLowerCase() === "could") result = true;
+            if(!same && selection.toLowerCase() === "could cause") result = true;
+            if(same  && selection.toLowerCase() !== "could cause") result = true;
 
             return result;
         }
@@ -105,9 +107,17 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $cuePoints(trackID:string, cueID:string) {
 
             let VCrow  = this.getModuleValue("TEDExptVariable.index");
-            let NC1row = this.getModuleValue("TEDExptVarNC1.index");
-            let NC2row = this.getModuleValue("TEDExptVarNC2.index");
-            let NC3row = this.getModuleValue("TEDExptVarNC3.index");
+
+            let cfdRows = this.getModuleValue("TEDExptConfounds");
+            let ntvRows = this.getModuleValue("TEDExptNonTarget");
+
+            let NTV1row = ntvRows[0];
+            let NTV2row = ntvRows[1];
+            let NTV3row = ntvRows[2];
+
+            let CFD1row = cfdRows[0];
+            let CFD2row = cfdRows[1];
+            let CFD3row = cfdRows[2];
 
             switch(trackID) {
 
@@ -146,19 +156,19 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                         case "$start":
                             break;
                         case "$end":
-                            this.STblExp1.highlightCells(CONST.NONE, 0, NC1row, 2, NC1row);
-                            this.STblExp1.highlightCells(CONST.NONE, 0, NC2row, 2, NC2row);
-                            this.STblExp1.highlightCells(CONST.NONE, 0, NC3row, 2, NC3row);
+                            this.STblExp1.highlightCells(CONST.NONE, 0, NTV1row, 2, NTV1row);
+                            this.STblExp1.highlightCells(CONST.NONE, 0, NTV2row, 2, NTV2row);
+                            this.STblExp1.highlightCells(CONST.NONE, 0, NTV3row, 2, NTV3row);
                             break;
 
                         case "a":
-                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NC1row, 2, NC1row);
+                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NTV1row, 2, NTV1row);
                             break;
                         case "b":
-                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NC2row, 2, NC2row);
+                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NTV2row, 2, NTV2row);
                             break;
                         case "c":
-                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NC3row, 2, NC3row);
+                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NTV3row, 2, NTV3row);
                             break;
                     }
                     break;
@@ -172,13 +182,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
 
                         case "a":
-                            this.STblExp1.showCells(3, NC1row, 3, NC1row);
-                            this.STblExp1.showCells(3, NC2row, 3, NC2row);
-                            this.STblExp1.showCells(3, NC3row, 3, NC3row);
+                            this.STblExp1.showCells(3, NTV1row, 3, NTV1row);
+                            this.STblExp1.showCells(3, NTV2row, 3, NTV2row);
+                            this.STblExp1.showCells(3, NTV3row, 3, NTV3row);
 
-                            this.STblExp1.listenToCells("change", 3, NC1row, 3, NC1row);
-                            this.STblExp1.listenToCells("change", 3, NC2row, 3, NC2row);
-                            this.STblExp1.listenToCells("change", 3, NC3row, 3, NC3row);
+                            this.STblExp1.listenToCells("change", 3, NTV1row, 3, NTV1row);
+                            this.STblExp1.listenToCells("change", 3, NTV2row, 3, NTV2row);
+                            this.STblExp1.listenToCells("change", 3, NTV3row, 3, NTV3row);
                             break;        
                     }
                     break;
@@ -186,8 +196,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                 case "track1":
                     switch(cueID) {
                         
-                        case "$start":                            
-                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NC1row, 2, NC1row);
+                        case "$start":         
+                            this.setSceneValue("complete", false);                    
+                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NTV1row, 2, NTV1row);
                             break;
                         case "$end":
                             break;
@@ -198,7 +209,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.GREEN, 3, NC1row, 3, NC1row);
+                            this.STblExp1.highlightCells(CONST.GREEN, 3, NTV1row, 3, NTV1row);
                             break;
                         case "$end":
                             break;
@@ -209,7 +220,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.RED, 3, NC1row, 3, NC1row);
+                            this.STblExp1.highlightCells(CONST.RED, 3, NTV1row, 3, NTV1row);
                             break;
                         case "$end":
                             break;
@@ -220,7 +231,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NC2row, 2, NC2row);
+                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NTV2row, 2, NTV2row);
                             break;
                         case "$end":
                             break;
@@ -231,7 +242,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.GREEN, 3, NC2row, 3, NC2row);
+                            this.STblExp1.highlightCells(CONST.GREEN, 3, NTV2row, 3, NTV2row);
                             break;
                         case "$end":
                             break;
@@ -242,7 +253,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.RED, 3, NC2row, 3, NC2row);
+                            this.STblExp1.highlightCells(CONST.RED, 3, NTV2row, 3, NTV2row);
                             break;
                         case "$end":
                             break;
@@ -253,8 +264,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NC3row, 2, NC3row);
-                            this.STblExp1.highlightCells(CONST.GREEN, 3, NC3row, 3, NC3row);
+                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NTV3row, 2, NTV3row);
+                            this.STblExp1.highlightCells(CONST.GREEN, 3, NTV3row, 3, NTV3row);
                             break;
                         case "$end":
                             break;
@@ -265,8 +276,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NC3row, 2, NC3row);
-                            this.STblExp1.highlightCells(CONST.RED, 3, NC3row, 3, NC3row);
+                            this.STblExp1.highlightCells(CONST.YELLOW, 0, NTV3row, 2, NTV3row);
+                            this.STblExp1.highlightCells(CONST.RED, 3, NTV3row, 3, NTV3row);
                             break;
                         case "$end":
                             break;
@@ -277,12 +288,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightRow(CONST.NONE, NC1row);
-                            this.STblExp1.highlightRow(CONST.NONE, NC2row);
-                            this.STblExp1.highlightRow(CONST.NONE, NC3row);
-                            this.STblExp1.hideCells(3, NC1row, 3, NC1row);
-                            this.STblExp1.hideCells(3, NC2row, 3, NC2row);
-                            this.STblExp1.hideCells(3, NC3row, 3, NC3row);
+                            this.STblExp1.highlightRow(CONST.NONE, NTV1row);
+                            this.STblExp1.highlightRow(CONST.NONE, NTV2row);
+                            this.STblExp1.highlightRow(CONST.NONE, NTV3row);
+                            this.STblExp1.hideCells(3, NTV1row, 3, NTV1row);
+                            this.STblExp1.hideCells(3, NTV2row, 3, NTV2row);
+                            this.STblExp1.hideCells(3, NTV3row, 3, NTV3row);
                             
                             this.STblExp1.highlightRow(CONST.BLUE, VCrow);
                             break;
@@ -297,8 +308,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.YELLOW, 3, NC1row, 3, NC1row);
-                            this.STblExp1.setCellValue(NC1row, 3, "Could cause");
+                            this.STblExp1.highlightCells(CONST.YELLOW, 3, NTV1row, 3, NTV1row);
+                            this.STblExp1.setCellValue(NTV1row, 3, "Could cause");
                             break;
                         case "$end":
                             break;
@@ -309,8 +320,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.YELLOW, 3, NC2row, 3, NC2row);
-                            this.STblExp1.setCellValue(NC2row, 3, "Could cause");
+                            this.STblExp1.highlightCells(CONST.YELLOW, 3, NTV2row, 3, NTV2row);
+                            this.STblExp1.setCellValue(NTV2row, 3, "Could cause");
                             break;
                         case "$end":
                             break;
@@ -321,13 +332,28 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":                            
-                            this.STblExp1.highlightCells(CONST.YELLOW, 3, NC3row, 3, NC3row);
-                            this.STblExp1.setCellValue(NC3row, 3, "Could cause");
+                            this.STblExp1.highlightCells(CONST.YELLOW, 3, NTV3row, 3, NTV3row);
+                            this.STblExp1.setCellValue(NTV3row, 3, "Could cause");
                             break;
                         case "$end":
+                            this.setSceneValue("complete", true);    
                             break;
                     }
                     break;
+
+                case "track4E":
+                    switch(cueID) {
+                        
+                        case "$start":                            
+                            this.STblExp1.highlightCells(CONST.YELLOW, 3, CFD1row, 3, CFD1row);
+                            this.STblExp1.setCellValue(CFD1row, 3, "Could cause");
+                            break;
+                        case "$end":
+                            this.setSceneValue("complete", true);    
+                            break;
+                    }
+                    break;
+
             }
         }
 
@@ -340,11 +366,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            let stateComplete:boolean = true;
+            let stateComplete:boolean = false;
 
             switch(this.graphState) {
 
                 default:
+                    stateComplete = this.getSceneValue("complete"); 
                     break;
             }
 
@@ -370,8 +397,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     this.setSceneValue("complete", complete === 3); 
                     break;
             }
-
-            this.$updateNav();
         }
 
 

@@ -1,0 +1,113 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/TC_TButton__S15VectorB" itemID="5bb792eb-000007d8" symbolType="button" lastModified="1538759784">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TButton__S15VectorB">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMDynamicText fontRenderingMode="standard" left="-32.7" width="563.8" height="116.45" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="67.05" ty="27.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>TED - FFocus2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="116.45" size="90" bitmapSize="1800" face="PTSans-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMDynamicText fontRenderingMode="standard" width="446.75" height="116.45" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="92.9" ty="27.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>TED - EXP1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="116.45" size="90" bitmapSize="1800" face="PTSans-Bold" fillColor="#999999"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="632.5" objectHeight="170.55" x="-1.65" y="-1.65" lockFlag="true" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="10" bottomRightRadius="10">
+                  <matrix>
+                    <Matrix tx="1.65" ty="1.65"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#0066FF"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="632.5" objectHeight="170.55" x="-1.65" y="-1.65" lockFlag="true" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="10" bottomRightRadius="10">
+                  <matrix>
+                    <Matrix tx="1.65" ty="1.65"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#7695FC"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="632.5" objectHeight="170.55" x="-1.65" y="-1.65" lockFlag="true" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="10" bottomRightRadius="10">
+                  <matrix>
+                    <Matrix tx="1.65" ty="1.65"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#0000FF"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="632.5" objectHeight="170.55" x="-1.65" y="-1.65" lockFlag="true" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="10" bottomRightRadius="10">
+                  <matrix>
+                    <Matrix tx="1.65" ty="1.65"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#7695FC"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="632.5" objectHeight="170.55" x="-1.65" y="-1.65" selected="true" lockFlag="true" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="10" bottomRightRadius="10">
+                  <matrix>
+                    <Matrix tx="1.65" ty="1.65"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -68,14 +68,20 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // Scene State methods
         //
 
+        public $queryFinished() : boolean {             
+
+            let stateComplete:boolean = true;
+            return  stateComplete; 
+        }
+
 		public $updateNav() : void {
 
 			// Update the Navigation
 			//
 			if(!this.$queryFinished())
-				this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);		
+				this.enableNext(false);		
 			else	
-                this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);		
+                this.enableNext(true);		
 		}
 
 
@@ -83,41 +89,48 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // State Data Generator
         // Arguments:
         // name: string prefix on var names
-        // newVC: offset to next TV to be chosen relative to TV in S_A_T_V name array 
+        // newTV: offset to next TV to be chosen relative to TV in S_A_T_V name array 
         // Conf: array of table items to be set as confounded relative to TV in S_A_T_V name array 
         // newVC|Conf are wrapped to a 1 based array index
         //
-        public $generateExpt(name:string, newVC:number, ...conf:Array<number>) {
+        public $generateExpt(name:string, offNewTV:number, ...offConf:Array<number>) {
 
             let AChosen = this.getModuleValue("selectedArea").index;
             let TChosen = this.getModuleValue("selectedTopic").index;
-            let VChosen = this.getModuleValue("selectedVariable").index -1;         
+            let VChosen = this.getModuleValue("selectedVariable").index -1;         // selectedVariable is 1-based
 
             console.log("old TV: " + (VChosen+1));
 
-            let TV = (((VChosen + newVC) % 4) + 1);
+            let TV = (((VChosen + offNewTV) % 4) + 1);
             console.log("new TV: " + TV);
 
-            let VNC:Array<number> = [1,2,3,4];
+            // Generate array of indices to non target variables
+            // 
+            let NTV:Array<number> = [1,2,3,4];
 
-            VNC.splice(TV-1, 1);
+            NTV.splice(TV-1, 1);
 
-            for(let ndx = 0 ; ndx < conf.length ; ndx++) {
-                conf[ndx] = (((VChosen+conf[ndx]) % 4) + 1);
-                console.log("Confound: "+ conf[ndx]);
+            this.setModuleValue(name + "NonTarget", NTV);   
+
+
+            // The conf array is offsets relative to the newVC
+            // 
+            for(let ndx = 0 ; ndx < offConf.length ; ndx++) {
+                offConf[ndx] = (((VChosen+offConf[ndx]) % 4) + 1);
+                console.log("Confound: "+ offConf[ndx]);
             }
 
             // Initialize an array with the indices which are to be confounded
             // TEDExptConfounds
             // 
-            let CVars:Array<number> = conf.slice();
+            let CVars:Array<number> = offConf.slice();
             this.setModuleValue(name + "Confounds", CVars);   
 
             // Add the TV to the variables to be confounded so it is set different across conditions
             // TEDExptDifferent
             // 
-            conf.push(TV);
-            this.setModuleValue(name + "Different", conf);   
+            offConf.push(TV);
+            this.setModuleValue(name + "Different", offConf);   
 
             // Initialize EFM module values
             // TEDExptArea
@@ -133,29 +146,45 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             // Initialize the ordered array of indices not chosen as TV
             // TEDExptVarNC? with an ontologykey and index value
             // 
-            for(let ndx = 0 ; ndx < VNC.length ; ndx++) {
+            for(let ndx = 0 ; ndx < NTV.length ; ndx++) {
 
-                this.setModuleValue(name + `VarNC${ndx+1}`, {"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${VNC[ndx]}`, "index": VNC[ndx]});
+                this.setModuleValue(name + `VarNC${ndx+1}`, {"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${NTV[ndx]}`, "index": NTV[ndx]});
             }
 
             // initialize the values for the table entries - set the values all the same initially then confound the desired entries
-            // Note that we always set them to variant A and then confound Expt2 to variant B
+            // Note that we always set them to variant A
             // 
-            // TEDExptV?A
-            // TEDExptV?B
+            // TEDExpt1V?
+            // TEDExpt2V?
             // 
             for(let ndx = 1 ; ndx <= 4 ; ndx++) {
 
-                this.setModuleValue(name + `V${ndx}A`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index":ndx});
-                this.setModuleValue(name + `V${ndx}B`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index":ndx});    
+                this.setModuleValue(name + `1V${ndx}`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index":ndx});
+                this.setModuleValue(name + `2V${ndx}`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index":ndx});   
             }
 
-            // Counfound the desired entry and set the TV as different across conditions.
-            // TEDExptV?B
-            // 
-            for(let ndx = 0 ; ndx < conf.length ; ndx++) {
+            // Counfound the desired entry and set the TV as different across conditions.   (i.e. confound Expt2 to variant B)
+            // TEDExpt1V?
+            // TEDExpt2V?
+            for(let ndx = 0 ; ndx < offConf.length ; ndx++) {
 
-                this.setModuleValue(name + `V${conf[ndx]}B`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${conf[ndx]}_B`, "index":conf[ndx]});    
+                this.setModuleValue(name + `2V${offConf[ndx]}`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${offConf[ndx]}_B`, "index":offConf[ndx]});    
+            }
+
+            let cfNdx:number = 1;
+
+            // TEDExptNC#SameDiff
+            // TEDExptNC#Confound
+            // 
+            for(let ndx = 1 ; ndx <= NTV.length ; ndx++) {
+
+                if(CVars.includes(NTV[ndx-1])) {
+                    this.setModuleValue(name + `NC${ndx}SameDiff`, {"ontologyKey":`TED_E1_Q7NC${ndx}DIFF`, "value":"diff", "index":NTV[ndx-1]});                                       
+                    this.setModuleValue(name + `NC${cfNdx++}Confound`, {"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${NTV[ndx-1]}`, "index": NTV[ndx-1]} );   
+                }
+                else {
+                    this.setModuleValue(name + `NC${ndx}SameDiff`, {"ontologyKey":`TED_E1_Q7NC${ndx}SAME`, "value":"same", "index":NTV[ndx-1]});                   
+                }
             }
 
             this.delFeature(CONST.FTRS_ALL, CONST.VAR_FTR);

@@ -24,6 +24,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            this.setSceneValue("complete", false);    
         }
 
         public $preExitScene() {
@@ -82,11 +83,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(trackID) {
 
-                case "track1":
+                case "track2":
                     switch(cueID) {                        
                         case "$start":
+                            this.setSceneValue("complete", false); 
                             break;
                         case "$end":
+                            this.setSceneValue("complete", true); 
                             break;
                     }
                     break;
@@ -103,11 +106,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            let stateComplete:boolean = true;
+            let stateComplete:boolean = false;
 
             switch(this.graphState) {
 
                 default:
+                    stateComplete = this.getSceneValue("complete"); 
                     break;
             }
 
@@ -120,12 +124,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             let NCarray  = this.getModuleValue("TEDFeatureFocus");                
             let complete = 0;
 
-            switch(target) {
-                case "STblExp1": 
-                    break;
-            }
-
-            this.$updateNav();
+            this.setSceneValue("complete", true); 
         }
 
 

@@ -189,7 +189,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track3", "autostep":true, "stepdelay":1500, "features":""}
+                    {"trackname":"track3", "autostep":true, "features":""}
                 ],                        
                 "edges":
                         [
@@ -234,7 +234,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track6", "autostep":true, "stepdelay":1500, "features":""}
+                    {"trackname":"track6", "autostep":true, "stepdelay":500, "features":""}
                 ],                        
                 "edges":
                         [
@@ -248,7 +248,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track7" , "autostep":true , "features":"FTR_IV1"},
+                    {"trackname":"track7" , "autostep":false, "features":"FTR_IV1"},
                     {"trackname":"track7b", "autostep":false, "features":"FTR_IVN"},
                     {"trackname":"track7c", "autostep":false, "features":"FTR_IVLAST"}                    
                 ],                        
@@ -297,7 +297,7 @@
                         "reuse":true,
                         "actiontracks":		
                         [
-                            {"actionname":"NOOP", "autostep":true, "features":""}
+                            {"actionname":"NOOP", "autostep":false, "features":""}
                         ],                                              
                         "edges":
                         [
@@ -372,7 +372,7 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":true, "stepdelay":2500, "features":""}
+                        {"trackname":"track1", "autostep":false, "stepdelay":2500, "features":""}
                     ],                        
 				    "edges":
 							[
@@ -416,7 +416,7 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":true, "stepdelay":2500, "features":""}
+                        {"trackname":"track1", "autostep":false, "stepdelay":2500, "features":""}
                     ],                        
 				    "edges":
 							[
@@ -459,7 +459,7 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":true, "stepdelay":2500, "features":""}
+                        {"trackname":"track1", "autostep":false, "stepdelay":2500, "features":""}
                     ],                        
                     "edges":
 							[
@@ -502,7 +502,7 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1", "autostep":true, "stepdelay":2500, "features":""}
+                        {"trackname":"track1", "autostep":false, "stepdelay":2500, "features":""}
                     ],                        
                     "edges":
 							[
@@ -548,8 +548,8 @@
                     ],                        
                     "edges":
 							[
-                                {"constraint":"TEDEXP1","edge":"TEDEXP1" },
-                                {"constraint":"",       "edge":"TEDEXP2" }
+                                {"constraint":"FTR_TEDEXP1","edge":"TEDEXP1" },
+                                {"constraint":"",           "edge":"TEDEXP2" }
 							]
                     },					 
 
@@ -624,7 +624,7 @@
                         {"trackname":"track3b", "autostep":true, "stepdelay": 1200, "features":""},
                         {"trackname":"track4a",  "autostep":true, "stepdelay": 800, "features":""},
                         {"trackname":"track4b", "autostep":true,  "stepdelay":1200, "features":""},
-                        {"trackname":"track5",  "autostep":true,  "stepdelay": 100, "features":""}
+                        {"trackname":"track5",  "autostep":false,  "stepdelay": 100, "features":""}
                     ],                        
                     "edges":
 							[
@@ -918,7 +918,7 @@
                         "reuse":true,
                         "actiontracks":		
                         [
-                            {"actionname":"NOOP", "autostep":true, "features":""}
+                            {"actionname":"NOOP", "autostep":false, "features":""}
                         ],                                              
                         "edges":
                         [
@@ -1090,7 +1090,7 @@
                 [
                     {"trackname":"track2",  "autostep":true, "stepdelay":500, "features":""},
                     {"trackname":"track2A", "autostep":true, "stepdelay":500, "features":""}
-                ],                        
+                ],                                        
                 "edges":
                         [
                             {"constraint":"NC3CORRECT",   "edge":"NC3RIGHT" },
@@ -1137,7 +1137,7 @@
                 "reuse":true,
                 "actiontracks":		
                 [
-                    {"trackname":"track3B", "autostep":true, "stepdelay":1000, "features":""}
+                    {"trackname":"track3B", "autostep":true, "stepdelay":1000, "features":""}                    
                 ],                        
                 "edges":
                     [
@@ -1152,9 +1152,10 @@
                 "actiontracks":		
                 [
                     {"trackname":"track4A", "autostep":true,  "features":""},
-                    {"trackname":"track4B", "autostep":true,  "features":""},
-                    {"trackname":"track4C", "autostep":true,  "features":""},
-                    {"trackname":"track4D", "autostep":false, "features":""}
+                    {"trackname":"track4B", "autostep":true,  "features":"FTR_TEDEXP1"},
+                    {"trackname":"track4C", "autostep":true,  "features":"FTR_TEDEXP1"},
+                    {"trackname":"track4D", "autostep":false, "features":"FTR_TEDEXP1"},
+                    {"trackname":"track4E", "autostep":false, "features":"FTR_TEDEXP2"}
                 ],                        
                 "edges":
                         [
@@ -1197,8 +1198,9 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1",  "autostep":true,  "stepdelay":500,  "features":""},
-                        {"trackname":"track2",  "autostep":false, "stepdelay":500,  "features":""}
+                        {"trackname":"track1",   "autostep":true,  "stepdelay":500,  "features":"FTR_TEDEXP1"},
+                        {"trackname":"track1A",  "autostep":true,  "stepdelay":500,  "features":"FTR_TEDEXP2"},
+                        {"trackname":"track2",   "autostep":false, "stepdelay":500,  "features":""}
                     ],                        
                     "edges":
 							[

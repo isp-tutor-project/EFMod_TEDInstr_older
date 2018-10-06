@@ -9,8 +9,8 @@ System.register("thermite/IExptTypes", [], function (exports_1, context_1) {
 });
 System.register("thermite/TMaterialIcon", ["core/CEFTimeLine", "thermite/TObject", "util/CUtil"], function (exports_2, context_2) {
     "use strict";
-    var CEFTimeLine_1, TObject_1, CUtil_1, TMaterialIcon;
     var __moduleName = context_2 && context_2.id;
+    var CEFTimeLine_1, TObject_1, CUtil_1, TMaterialIcon;
     return {
         setters: [
             function (CEFTimeLine_1_1) {
@@ -73,8 +73,8 @@ System.register("thermite/TMaterialIcon", ["core/CEFTimeLine", "thermite/TObject
 });
 System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], function (exports_3, context_3) {
     "use strict";
-    var TObject_2, CUtil_2, TTEDExpt;
     var __moduleName = context_3 && context_3.id;
+    var TObject_2, CUtil_2, TTEDExpt;
     return {
         setters: [
             function (TObject_2_1) {
@@ -105,8 +105,20 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
                     this.exptStruct = [null, null, null, null];
                     this.state = {};
                 }
+                onCreate() {
+                    super.onCreate();
+                    for (let i1 = 1; i1 <= 4; i1++) {
+                        this["Stag" + i1].addHTMLControls();
+                    }
+                }
                 Destructor() {
                     super.Destructor();
+                }
+                setContext(_hostModule, _ownerModule, _hostScene) {
+                    super.setContext(_hostModule, _ownerModule, _hostScene);
+                    for (let i1 = 1; i1 <= 4; i1++) {
+                        this["Stag" + i1].setContext(_hostModule, _ownerModule, _hostScene);
+                    }
                 }
                 calcDirectParentById(comClass) {
                     let parent = this;
@@ -142,22 +154,22 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
                 }
                 showHighlight(...target) {
                     target.forEach(element => {
-                        this.getSubComponent(element, "Shighlight").show();
+                        this["Shighlight" + element].show();
                     });
                 }
                 hideHighlight(...target) {
                     target.forEach(element => {
-                        this.getSubComponent(element, "Shighlight").hide();
+                        this["Shighlight" + element].hide();
                     });
                 }
                 showCallOut(...target) {
                     target.forEach(element => {
-                        this.getSubComponent(element, "ScallOut").show();
+                        this["Stag" + element].show();
                     });
                 }
                 hideCallOut(...target) {
                     target.forEach(element => {
-                        this.getSubComponent(element, "ScallOut").hide();
+                        this["Stag" + element].hide();
                     });
                 }
                 seekToParent(ancestors, parent) {
@@ -166,6 +178,12 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
                     }
                     return parent;
                 }
+                hideTags() {
+                    for (let sVar = 1; sVar <= 4; sVar++) {
+                        this["Shighlight" + sVar].hide();
+                        this["Stag" + sVar].hide();
+                    }
+                }
                 hideAll() {
                     for (let vDepth = 0; vDepth < 4; vDepth++) {
                         for (let sVar = 0; sVar < 4; sVar++) {
@@ -173,20 +191,38 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
                                 for (let variant of this.exptStruct[sVar].variants) {
                                     let varName = this.exptStruct[sVar].id + variant;
                                     this[varName].hide();
-                                    this[varName].Shighlight.hide();
-                                    this[varName].ScallOut.hide();
                                 }
                             }
                         }
                     }
                 }
+                initFromTagData(tagData) {
+                    for (let i1 = 0; i1 < 4; i1++) {
+                        let dataSource = {
+                            "layoutsource": tagData.layoutsource,
+                            "htmlData": {
+                                "html": tagData.tag[i1]
+                            },
+                            "templateRef": tagData.templateRef
+                        };
+                        this["Stag" + (i1 + 1)].deSerializeObj(dataSource);
+                    }
+                }
                 deSerializeObj(objData) {
                     super.deSerializeObj(objData);
                     console.log("deserializing: TED Experiment Custom Control");
-                    this.exptStruct = objData.exptStruct;
-                    this.initState = objData.initState;
-                    this.hideAll();
-                    this.setState(this.initState);
+                    this.exptStruct = this.exptStruct || objData.exptStruct;
+                    this.initState = this.initState || objData.initState;
+                    if (objData.exptStruct) {
+                        this.hideAll();
+                    }
+                    if (objData.initState) {
+                        this.setState(this.initState);
+                    }
+                    if (objData.tagData) {
+                        this.initFromTagData(objData.tagData);
+                        this.hideTags();
+                    }
                 }
             };
             exports_3("TTEDExpt", TTEDExpt);

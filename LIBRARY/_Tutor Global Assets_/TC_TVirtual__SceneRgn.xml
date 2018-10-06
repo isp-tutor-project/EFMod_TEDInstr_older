@@ -1,19 +1,28 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/TC_TVirtual__SceneRgn" itemID="5b7745af-0000037b" sourceFlashFilepath="../EFMod_NavTED/EFMod_NavTED.xfl" sourceLibraryItemHRef="Tutor Global Assets/SceneRegion" sourceLastModified="1523901913" lastModified="1534543279" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/TC_TVirtual__SceneRgn" itemID="5b7745af-0000037b" sourceFlashFilepath="../EFMod_NavTED/EFMod_NavTED.xfl" sourceLibraryItemHRef="Tutor Global Assets/SceneRegion" sourceLastModified="1523901913" lastModified="1538757831" lastUniqueIdentifier="1" sourceItemID="00000000-ffffffff">
   <timeline>
     <DOMTimeline name="TC_TVirtual__SceneRgn">
       <layers>
-        <DOMLayer name="region" color="#4FFF4F" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="background" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="region" color="#4FFF4F" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMRectangleObject objectWidth="1920" objectHeight="1200" x="-1" y="1" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="-240" bottomRightRadius="-240">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/contentFrame2">
+                  <matrix>
+                    <Matrix tx="93.5" ty="72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="866.5" y="523.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="background" color="#9933CC" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="1920" objectHeight="1200" x="-1" y="1" lockFlag="true" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="10" bottomRightRadius="10">
                   <matrix>
                     <Matrix tx="1" ty="-1"/>
                   </matrix>

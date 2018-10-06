@@ -24,6 +24,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            this.setSceneValue("complete", false);    
         }
 
         public $preExitScene() {
@@ -117,8 +118,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                 case "track1a":
                     switch(cueID) {                        
                         case "$start":
-                            this.Sexpt1.showCallOut("Svar1");
-                            this.Sexpt1.showHighlight("Svar1");
+                            this.Sexpt1.showCallOut("1");
+                            this.Sexpt1.showHighlight("1");
                             break;
                         case "$end":
                             break;
@@ -129,8 +130,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sexpt2.showCallOut("Svar1");
-                            this.Sexpt2.showHighlight("Svar1");
+                            this.Sexpt2.showCallOut("1");
+                            this.Sexpt2.showHighlight("1");
                             break;
                         case "$end":
                             break;
@@ -142,10 +143,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":
-                            this.$("Sexpt.").exec("hideHighlight", "Svar1");
+                            this.$("Sexpt.").exec("hideHighlight", "1");
 
-                            this.Sexpt1.showCallOut("Svar2");
-                            this.Sexpt1.showHighlight("Svar2");
+                            this.Sexpt1.showCallOut("2");
+                            this.Sexpt1.showHighlight("2");
                             break;
                         case "$end":
                             break;
@@ -156,8 +157,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sexpt2.showCallOut("Svar2");
-                            this.Sexpt2.showHighlight("Svar2");
+                            this.Sexpt2.showCallOut("2");
+                            this.Sexpt2.showHighlight("2");
                             break;
                         case "$end":
                             break;
@@ -169,10 +170,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":
-                            this.$("Sexpt.").exec("hideHighlight", "Svar2");
+                            this.$("Sexpt.").exec("hideHighlight", "2");
 
-                            this.Sexpt1.showCallOut("Svar3");
-                            this.Sexpt1.showHighlight("Svar3");
+                            this.Sexpt1.showCallOut("3");
+                            this.Sexpt1.showHighlight("3");
                             break;
                         case "$end":
                             break;
@@ -183,8 +184,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sexpt2.showCallOut("Svar3");
-                            this.Sexpt2.showHighlight("Svar3");
+                            this.Sexpt2.showCallOut("3");
+                            this.Sexpt2.showHighlight("3");
                             break;
                         case "$end":
                             break;
@@ -196,10 +197,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":
-                            this.$("Sexpt.").exec("hideHighlight", "Svar3");
+                            this.$("Sexpt.").exec("hideHighlight", "3");
 
-                            this.Sexpt1.showCallOut("Svar4");
-                            this.Sexpt1.showHighlight("Svar4");
+                            this.Sexpt1.showCallOut("4");
+                            this.Sexpt1.showHighlight("4");
                             break;
                         case "$end":
                             break;
@@ -210,16 +211,16 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     switch(cueID) {
                         
                         case "$start":
-                            this.Sexpt2.showCallOut("Svar4");
-                            this.Sexpt2.showHighlight("Svar4");
+                            this.Sexpt2.showCallOut("4");
+                            this.Sexpt2.showHighlight("4");
                             break;
                         case "$end":
-                            this.$("Sexpt.").exec("hideHighlight", "Svar2");
+                            this.$("Sexpt.").exec("hideHighlight", "2");
 
-                            this.$("Sexpt.").exec("showHighlight", "Svar1");
-                            this.$("Sexpt.").exec("showHighlight", "Svar2");
-                            this.$("Sexpt.").exec("showHighlight", "Svar3");
-                            this.$("Sexpt.").exec("showHighlight", "Svar4");
+                            this.$("Sexpt.").exec("showHighlight", "1");
+                            this.$("Sexpt.").exec("showHighlight", "2");
+                            this.$("Sexpt.").exec("showHighlight", "3");
+                            this.$("Sexpt.").exec("showHighlight", "4");
 
                             break;
                     }
@@ -231,13 +232,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                         case "$start":
                             break;
                         case "$end":
+                            this.setSceneValue("complete", true);                            
                             break;
 
                         case "a":
-                            this.$("Sexpt.").exec("showHighlight", "Svar1");
-                            this.$("Sexpt.").exec("showHighlight", "Svar2");
-                            this.$("Sexpt.").exec("showHighlight", "Svar3");
-                            this.$("Sexpt.").exec("showHighlight", "Svar4");
+                            this.$("Sexpt.").exec("showHighlight", "1");
+                            this.$("Sexpt.").exec("showHighlight", "2");
+                            this.$("Sexpt.").exec("showHighlight", "3");
+                            this.$("Sexpt.").exec("showHighlight", "4");
                             break;
                     }
                     break;
@@ -254,11 +256,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            let stateComplete:boolean = true;
+            let stateComplete:boolean = false;
 
             switch(this.graphState) {
 
                 default:
+                    stateComplete = this.getSceneValue("complete"); 
                     break;
             }
 
@@ -270,8 +273,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(target) {
             }
-
-            this.$updateNav();
         }
 
 

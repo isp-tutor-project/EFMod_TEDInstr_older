@@ -1,10 +1,26 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" lastModified="1538173018" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" lastModified="1538757806" lastUniqueIdentifier="9">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TNavPanel__Navigator">
       <layers>
+        <DOMLayer name="Layer_2" color="#9933CC">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="SbreadCrumbs">
+                  <matrix>
+                    <Matrix a="8.568603515625" d="0.380401611328125" tx="115.05" ty="72"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.8" y="50.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="Snext" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -37,13 +53,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask2" color="#FF800A" autoNamed="false">
+        <DOMLayer name="Smask2" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/contentFrame2" name="Smask2">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/contentFrame2" name="Smask2" selected="true">
                   <matrix>
-                    <Matrix tx="93.5" ty="64.05"/>
+                    <Matrix tx="93.5" ty="72"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="866.5" y="523.35"/>
@@ -53,7 +69,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask1" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Smask1" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -73,7 +89,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__NavBackground" name="Sbackground" selected="true" centerPoint3DX="512" centerPoint3DY="384">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__NavBackground" name="Sbackground" centerPoint3DX="512" centerPoint3DY="384">
                   <transformationPoint>
                     <Point x="275" y="200"/>
                   </transformationPoint>

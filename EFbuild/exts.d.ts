@@ -23,7 +23,7 @@ declare module "thermite/TMaterialIcon" {
         constructor();
         TMaterialIconInitialize(): void;
         initialize(): void;
-        private init3;
+        private init3();
         Destructor(): void;
         captureLogState(obj?: any): Object;
         captureXMLState(): any;
@@ -43,24 +43,32 @@ declare module "thermite/TTEDExpt" {
         protected Svar3b: TObject;
         protected Svar4a: TObject;
         protected Svar4b: TObject;
+        protected Stag1: TObject;
+        protected Stag2: TObject;
+        protected Stag3: TObject;
+        protected Stag4: TObject;
         private exptStruct;
         private initState;
         private state;
         constructor();
         TTEDExptInitialize(): void;
         initialize(): void;
-        private init3;
+        private init3();
+        onCreate(): void;
         Destructor(): void;
-        private calcDirectParentById;
-        private calcDirectParentByNdx;
+        setContext(_hostModule: any, _ownerModule: any, _hostScene: any): void;
+        private calcDirectParentById(comClass);
+        private calcDirectParentByNdx(comNdx);
         setState(variants: Array<string>): void;
-        private getSubComponent;
+        private getSubComponent(target, com);
         showHighlight(...target: any[]): void;
         hideHighlight(...target: any[]): void;
         showCallOut(...target: any[]): void;
         hideCallOut(...target: any[]): void;
-        private seekToParent;
-        hideAll(): void;
+        private seekToParent(ancestors, parent);
+        private hideTags();
+        private hideAll();
+        private initFromTagData(tagData);
         deSerializeObj(objData: any): void;
     }
 }

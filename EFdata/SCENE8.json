@@ -4,6 +4,12 @@
         "Stitle": {
             "layoutsource":"$EFL_eftext.S8.Stitle",
             "datasource": "$EFL_efdata.scene8.scenePrompt"           
+        },
+        "Sexpt1": {
+            "datasource": "$EFL_efdata.scene8.expt1Config"           
+        },
+        "Sexpt2": {            
+            "datasource": "$EFL_efdata.scene8.expt2Config"           
         }
     }
 }

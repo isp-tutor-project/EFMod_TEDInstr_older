@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene4" itemID="5b87151f-0000037d" linkageExportForAS="true" linkageClassName="TC_TScene__Scene4" lastModified="1538331186">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene4" itemID="5b87151f-0000037d" linkageExportForAS="true" linkageClassName="TC_TScene__Scene4" lastModified="1538608179">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -9,11 +9,14 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="Assets/Bitmap 15">
+                <DOMSymbolInstance libraryItemName="Assets/TC_TObject__StudentIcon2">
                   <matrix>
-                    <Matrix a="1.39369201660156" d="1.39369201660156" tx="154" ty="435"/>
+                    <Matrix tx="154" ty="435"/>
                   </matrix>
-                </DOMBitmapInstance>
+                  <transformationPoint>
+                    <Point x="209.05" y="270.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

@@ -26,9 +26,15 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         
         public $preEnterScene() {
 
-            // this.$generateExpt("TEDExpt", 1, 2,3,4);
+            // On the second pass we reinitialize the experimental set up.
+            // With one confound only
+            // 
+            if(this.testFeatures("FTR_TEDEXP2")) {
 
-            this.$generateExpt("TEDExpt", 2, 1);
+                this.$generateExpt("TEDExpt", 2, 1);
+            }
+
+            this.setSceneValue("complete", false);    
 
             let AChosen = this.getModuleValue("TEDExptArea.index");
             let TChosen = this.getModuleValue("TEDExptTopic.index");
@@ -91,8 +97,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             let result:boolean = false;
 
             switch(constrainId) {
-                case "TEDEXP1":
-                    result = this.getModuleValue("TED_EXPT") === "TEDEXP1";    
+                case "FTR_TEDEXP1":
+                    result = this.testFeatures(constrainId);    
                     break;
             }
 
@@ -104,6 +110,15 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $cuePoints(trackID:string, cueID:string) {
 
             switch(trackID) {
+                case "track1":
+                case "track2":
+                    switch(cueID) {
+                                                    
+                        case "$end":
+                            this.setSceneValue("complete", true);    
+                            break;
+                    }
+                    break;
             }
         }
 
@@ -116,11 +131,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            let stateComplete:boolean = true;
+            let stateComplete:boolean = false;
 
             switch(this.graphState) {
 
                 default:
+                    stateComplete = this.getSceneValue("complete"); 
                     break;
             }
 
@@ -132,8 +148,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(target) {
             }
-
-            this.$updateNav();
         }
 
 

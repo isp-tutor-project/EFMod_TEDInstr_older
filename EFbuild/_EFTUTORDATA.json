@@ -1,5 +1,11 @@
 {
 	"_MODULEDATA": "v1.0.0",
+	"SNavigator": {
+		"SbreadCrumbs": {
+			"layoutsource": "$EFL_eftext.SbreadCrumbs",
+			"fontSize": 20
+		}
+	},
 	"_ONTOLOGY": {
 		"TED": {
 			"S3": {
@@ -52,12 +58,12 @@
 				},
 				"Q4": {
 					"comment": "scene12  ********************",
-					"part0A": "If you were to run the experiment, ",
+					"part0A": "If you were to run the experiment, the",
 					"part0": "may either be the same or different across conditions.",
-					"part1": "may either be the same or different across conditions. Imagine the results ",
+					"part1": "may either be the same or different across conditions. Imagine the results, the",
 					"part2": "were different across conditions, Could you tell for sure that the",
 					"part3": "caused the difference?",
-					"prompt": "<p>Results for Condition 1 = Results for Condition 2<br>OR<br>Results for Condition 1 ≠ Results for Condition 2</p>",
+					"prompt": "<p>Results for Condition 1 = Results for Condition 2<br><br>OR<br><br>Results for Condition 1 ≠ Results for Condition 2</p>",
 					"question1": "IF: Results for Condition 1 ≠ Results for Condition 2.",
 					"question2": "Could you tell for sure that the",
 					"question3": "caused the difference?"
@@ -112,43 +118,60 @@
 					"part6": "between conditions?",
 					"part7": "Make a selection for each of the other variables. Click next when you've completed you're selections"
 				},
-				"Q7ACORR": {
+				"Q7NC1SAME": {
+					"part1": "They have set the",
+					"part2": "to be the same across conditions.",
+					"part3": "You are correct that the same",
+					"part4": "across conditions could not cause a difference in the",
+					"part5": "Actually the same",
+					"part6": "across conditions could not cause a difference in the"
+				},
+				"Q7NC1DIFF": {
 					"part1": "They have set the",
 					"part2": "to be different across conditions.",
 					"part3": "You are correct that the different",
-					"part4": "across conditions could cause a difference in the"
+					"part4": "across conditions could cause a difference in the",
+					"part5": "Actually the different",
+					"part6": "across conditions could cause a difference in the"
 				},
-				"Q7AWRNG": {
-					"part1": "They have set the",
-					"part2": "to be different across conditions.",
-					"part3": "Actually the different",
-					"part4": "across conditions could cause a difference in the"
+				"Q7NC2SAME": {
+					"part1": "The students made the",
+					"part2": "the same across conditions.",
+					"part3": "You are correct that the same",
+					"part4": "across conditions could not cause a difference in the",
+					"part5": "Actually the same",
+					"part6": "across conditions could not cause a difference in the"
 				},
-				"Q7BCORR": {
+				"Q7NC2DIFF": {
 					"part1": "The students made the",
 					"part2": "different across conditions.",
 					"part3": "You are correct that the different",
-					"part4": "across conditions could cause a difference in the"
+					"part4": "across conditions could cause a difference in the",
+					"part5": "Actually the different",
+					"part6": "across conditions could cause a difference in the"
 				},
-				"Q7BWRNG": {
+				"Q7NC3SAME": {
+					"part1": "The students made the",
+					"part2": "the same across conditions.",
+					"part3": "You are correct that the same",
+					"part4": "across conditions could not cause a difference in the",
+					"part5": "Actually the same",
+					"part6": "across conditions could not cause a difference in the"
+				},
+				"Q7NC3DIFF": {
 					"part1": "The students made the",
 					"part2": "different across conditions.",
-					"part3": "Actually the different",
-					"part4": "across conditions could cause a difference in the"
-				},
-				"Q7CCORR": {
-					"part1": "You are correct that the different",
-					"part2": "across conditions could cause a difference in the"
-				},
-				"Q7CWRNG": {
-					"part1": "Actually the different",
-					"part2": "across conditions could cause a difference in the"
+					"part3": "You are correct that the different",
+					"part4": "across conditions could cause a difference in the",
+					"part5": "Actually the different",
+					"part6": "across conditions could cause a difference in the"
 				},
 				"Q7D": {
 					"part1": "So, in this experiment, even though the students are testing the",
 					"part2": "the",
 					"part3": "and the",
-					"part4": "all also could cause a difference in the"
+					"part4": "all also could cause a difference in the",
+					"part5": "also could cause a difference in the"
 				},
 				"Q8": {
 					"part1": "Please correct this experiment by clicking in the table and selecting correct ways to set up the",
@@ -176,118 +199,6 @@
 					"part6": "does not matter. So from this experiment, you would be able to find out whether or not the",
 					"part7": "causes a difference in the result."
 				}
-			},
-			"E2": {
-				"Q1": {
-					"part1": "Think about the students' problem, and the experiment that they designed.",
-					"part2": "Is this a good way to design the experiment?",
-					"yes": "YES",
-					"no": "NO",
-					"question": "<p>Is this a good way to design an experiment?</p>"
-				},
-				"Q2": {
-					"part1": "Right, it is NOT a good experiment.",
-					"part2": "<p>Why did you say it was not a good way?</p>",
-					"question": "<p>Why did you say it was not a good way?</p>"
-				},
-				"Q3": {
-					"part1": "Actually, it is NOT a good experiment.",
-					"part2": "<p>Even though you said it was a good experiment, select from the drop-down menu the best reason that explains why this is actually NOT a good experiment.</p>",
-					"question": "Why is this actually not a good experiment?"
-				},
-				"ANS": {
-					"ans1": "All four variables should be the same for both conditions.",
-					"ans2": "Everything is different, so you can't tell if the variable we're testing will make a difference.",
-					"ans3": "Because what we are testing won't make a difference.",
-					"ans4": "Everything other than the variable we're testing should be the same.",
-					"ans5": "The conditions are not set up to make the best outcomes (or results).",
-					"ans6": "I don't know."
-				},
-				"Q4": {
-					"part1": "may either be the same or different across conditions. Imagine the results ",
-					"part2": "were different across conditions",
-					"question1": "Could you tell for sure that the",
-					"question2": "caused the difference?"
-				},
-				"Q4A": {
-					"part1": "You're right, we could not tell for sure that the",
-					"part2": "caused the difference. That is, we could not tell for sure that one",
-					"part3": "caused a greater",
-					"part4": "than the other"
-				},
-				"Q4B": {
-					"part1": "Actually, we could not tell for sure that the",
-					"part2": "caused the difference. That is, we could not tell for sure that one",
-					"part3": "caused a greater",
-					"part4": "than the other"
-				},
-				"Q5": {
-					"question1": "Why did you say you could not know for sure?"
-				},
-				"Q6": {
-					"part1": "Even though you said you could tell for sure, try and explain the best reason for why you actually could NOT tell for sure from this experiment that the",
-					"part2": "caused the difference.",
-					"question1": "Why could you actually not tell for sure?"
-				},
-				"Q7": {
-					"part1": "In this experiment, the students are testing for whether or not the",
-					"part2": "to be different across conditions.",
-					"part3": "is different across conditions, it could cause a difference in the results. Could the way they have set up each of these other variables cause there to be a difference in the",
-					"part4": "between conditions? Make a selection for each of the other variables."
-				},
-				"Q7ACORR": {
-					"part1": "They have set the",
-					"part2": "to be different across conditions.",
-					"part3": "You are correct that the different",
-					"part4": "across conditions could cause a difference in the"
-				},
-				"Q7AWRNG": {
-					"part1": "They have set the",
-					"part2": "to be different across conditions.",
-					"part3": "Actually the different",
-					"part4": "across conditions could cause a difference in the"
-				},
-				"Q7BCORR": {
-					"part1": "The students made the",
-					"part2": "different across conditions.",
-					"part3": "You are correct that the different",
-					"part4": "across conditions could cause a difference in the"
-				},
-				"Q7BWRNG": {
-					"part1": "The students made the",
-					"part2": "different across conditions.",
-					"part3": "Actually the different",
-					"part4": "across conditions could cause a difference in the"
-				},
-				"Q7CCORR": {
-					"part1": "You are correct that the different",
-					"part2": "across conditions could cause a difference in the"
-				},
-				"Q7CWRNG": {
-					"part1": "Actually the different",
-					"part2": "across conditions could cause a difference in the"
-				},
-				"Q7D": {
-					"part1": "So, in this experiment, even though the students are testing the",
-					"part2": "all also could cause a difference in"
-				},
-				"Q8": {
-					"part1": "Please correct this experiment by clicking in the table and selecting correct ways to set up the"
-				},
-				"Q9": {
-					"part1": "Explain why this is a good way to find out whether or not the",
-					"part2": "makes a difference."
-				},
-				"SUMMARY": {
-					"part1": "This is a good experiment, because everything is the same except for what the students are trying to find out about, the",
-					"part2": "In other words, if there is a difference between conditions in the",
-					"part3": "it has to be because of the different",
-					"part4": "across conditions",
-					"part5": "And if there is no difference between conditions in the",
-					"part6": "then you could know that the",
-					"part7": "does not matter. So from this experiment, you would be able to find out whether or not the",
-					"part8": "causes a difference in the result."
-				}
 			}
 		},
 		"LV": {
@@ -295,10 +206,10 @@
 			"O1": {
 				"descr": "Could/Couldn't lists",
 				"A": {
-					"name": "Could"
+					"name": "Could cause"
 				},
 				"B": {
-					"name": "Could Not"
+					"name": "Could Not cause"
 				}
 			},
 			"O2": {
@@ -350,11 +261,13 @@
 						"name": "Water Temperature",
 						"A": {
 							"id": "Svar1a",
-							"name": "Hot"
+							"name": "Hot",
+							"tag": "Hot"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Cold"
+							"name": "Cold",
+							"tag": "Room temp"
 						}
 					},
 					"V2": {
@@ -362,11 +275,13 @@
 						"name": "Crystal Type",
 						"A": {
 							"id": "Svar2a",
-							"name": "Salt"
+							"name": "Salt",
+							"tag": "Salt"
 						},
 						"B": {
 							"id": "Svar2b",
-							"name": "Brown Sugar"
+							"name": "Brown Sugar",
+							"tag": "Brown Sugar"
 						}
 					},
 					"V3": {
@@ -374,11 +289,13 @@
 						"name": "Seed Crystal Size",
 						"A": {
 							"id": "Svar3a",
-							"name": "None"
+							"name": "None",
+							"tag": "None"
 						},
 						"B": {
 							"id": "Svar3b",
-							"name": "A little"
+							"name": "A little",
+							"tag": "A little"
 						}
 					},
 					"V4": {
@@ -386,11 +303,13 @@
 						"name": "Type of String",
 						"A": {
 							"id": "Svar4a",
-							"name": "Twine"
+							"name": "Twine",
+							"tag": "Twine"
 						},
 						"B": {
 							"id": "Svar4b",
-							"name": "Yarn"
+							"name": "Yarn",
+							"tag": "Yarn"
 						}
 					}
 				},
@@ -402,11 +321,13 @@
 						"name": "Type of Sweetener",
 						"A": {
 							"id": "Svar1a",
-							"name": "Sugar"
+							"name": "Sugar",
+							"tag": "Sugar"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Sugar-Free"
+							"name": "Sugar-Free",
+							"tag": "Aspartame"
 						}
 					},
 					"V2": {
@@ -414,11 +335,13 @@
 						"name": "Amount of Caffeine",
 						"A": {
 							"id": "Svar1a",
-							"name": "With Caffeine"
+							"name": "With Caffeine",
+							"tag": "Some"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Caffeine Free"
+							"name": "Caffeine Free",
+							"tag": "None"
 						}
 					},
 					"V3": {
@@ -426,11 +349,13 @@
 						"name": "Texture of Mint",
 						"A": {
 							"id": "Svar1a",
-							"name": "Rough"
+							"name": "Rough",
+							"tag": "Rough"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Smooth"
+							"name": "Smooth",
+							"tag": "Smooth"
 						}
 					},
 					"V4": {
@@ -438,11 +363,13 @@
 						"name": "Amount of CO2",
 						"A": {
 							"id": "Svar1a",
-							"name": "Higher"
+							"name": "Higher",
+							"tag": "High"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Lower"
+							"name": "Lower",
+							"tag": "Low"
 						}
 					}
 				}
@@ -458,11 +385,13 @@
 						"name": "Initial Ice Temperature",
 						"A": {
 							"id": "Svar1a",
-							"name": "0 degrees"
+							"name": "0 degrees",
+							"tag": "0˚C/32F"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "-20 degrees"
+							"name": "-20 degrees",
+							"tag": "-20˚C/-4F"
 						}
 					},
 					"V2": {
@@ -470,11 +399,13 @@
 						"name": "Initial Water Temperature",
 						"A": {
 							"id": "Svar1a",
-							"name": "Hot"
+							"name": "Hot",
+							"tag": "Hot"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Cold"
+							"name": "Cold",
+							"tag": "Cold"
 						}
 					},
 					"V3": {
@@ -482,11 +413,13 @@
 						"name": "Pattern on Glass",
 						"A": {
 							"id": "Svar1a",
-							"name": "Pattern"
+							"name": "Pattern",
+							"tag": "Striped"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "no Pattern"
+							"name": "no Pattern",
+							"tag": "Plain"
 						}
 					},
 					"V4": {
@@ -494,11 +427,13 @@
 						"name": "Shape of Glass",
 						"A": {
 							"id": "Svar1a",
-							"name": "Short"
+							"name": "Short",
+							"tag": "Short"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Tall"
+							"name": "Tall",
+							"tag": "Tall"
 						}
 					}
 				},
@@ -510,11 +445,13 @@
 						"name": "Balloon Color",
 						"A": {
 							"id": "Svar1a",
-							"name": "Black"
+							"name": "Black",
+							"tag": "Dark (black)"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Gray"
+							"name": "Gray",
+							"tag": "Light (gray)"
 						}
 					},
 					"V2": {
@@ -522,11 +459,13 @@
 						"name": "Balloon Material",
 						"A": {
 							"id": "Svar1a",
-							"name": "Foil"
+							"name": "Foil",
+							"tag": "Foil"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Latex"
+							"name": "Latex",
+							"tag": "Latex"
 						}
 					},
 					"V3": {
@@ -534,11 +473,13 @@
 						"name": "Amount of Sunlight",
 						"A": {
 							"id": "Svar1a",
-							"name": "Full Sun"
+							"name": "Full Sun",
+							"tag": "Full Sun"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Partial Shade"
+							"name": "Partial Shade",
+							"tag": "Shade"
 						}
 					},
 					"V4": {
@@ -546,11 +487,13 @@
 						"name": "Type of Chair",
 						"A": {
 							"id": "Svar1a",
-							"name": "Wooden Chair"
+							"name": "Wooden Chair",
+							"tag": "Wooden"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Canvas Chair"
+							"name": "Canvas Chair",
+							"tag": "Canvas"
 						}
 					}
 				}
@@ -566,11 +509,13 @@
 						"name": "Slope",
 						"A": {
 							"id": "Svar1a",
-							"name": "Steep"
+							"name": "Steep",
+							"tag": "Steep"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Not Steep"
+							"name": "Not Steep",
+							"tag": "Not Steep"
 						}
 					},
 					"V2": {
@@ -578,11 +523,13 @@
 						"name": "Color of Ball",
 						"A": {
 							"id": "Svar1a",
-							"name": "Yellow"
+							"name": "Yellow",
+							"tag": "Yellow"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Pink"
+							"name": "Pink",
+							"tag": "Pink"
 						}
 					},
 					"V3": {
@@ -590,11 +537,13 @@
 						"name": "Starting Position",
 						"A": {
 							"id": "Svar1a",
-							"name": "Top"
+							"name": "Top",
+							"tag": "Top"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Middle"
+							"name": "Middle",
+							"tag": "Middle"
 						}
 					},
 					"V4": {
@@ -602,11 +551,13 @@
 						"name": "Ramp Surface",
 						"A": {
 							"id": "Svar1a",
-							"name": "Rough"
+							"name": "Rough",
+							"tag": "Rough (friction)"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Smooth"
+							"name": "Smooth",
+							"tag": "Smooth (no friction)"
 						}
 					}
 				},
@@ -618,11 +569,13 @@
 						"name": "Density of Water",
 						"A": {
 							"id": "Svar1a",
-							"name": "Plain Water"
+							"name": "Plain Water",
+							"tag": "low (no salt)"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Salt Water"
+							"name": "Salt Water",
+							"tag": "high (salt added)"
 						}
 					},
 					"V2": {
@@ -630,11 +583,13 @@
 						"name": "Shape of Object",
 						"A": {
 							"id": "Svar1a",
-							"name": "Sphere"
+							"name": "Sphere",
+							"tag": "Sphere"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Tear Drop"
+							"name": "Tear Drop",
+							"tag": "Tear-shaped"
 						}
 					},
 					"V3": {
@@ -642,11 +597,13 @@
 						"name": "Volume of Object",
 						"A": {
 							"id": "Svar1a",
-							"name": "Small"
+							"name": "Small",
+							"tag": "Small"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Large"
+							"name": "Large",
+							"tag": "Large"
 						}
 					},
 					"V4": {
@@ -654,11 +611,13 @@
 						"name": "Density of Object",
 						"A": {
 							"id": "Svar1a",
-							"name": "Glass"
+							"name": "Glass",
+							"tag": "low (glass)"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Lead"
+							"name": "Lead",
+							"tag": "high (lead)"
 						}
 					}
 				}
@@ -674,11 +633,13 @@
 						"name": "Number of Bees",
 						"A": {
 							"id": "Svar1a",
-							"name": "None"
+							"name": "None",
+							"tag": "Zero"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Whole Hive"
+							"name": "Whole Hive",
+							"tag": "A whole hive"
 						}
 					},
 					"V2": {
@@ -686,11 +647,13 @@
 						"name": "Amount of Sunlight",
 						"A": {
 							"id": "Svar1a",
-							"name": "Full Sun"
+							"name": "Full Sun",
+							"tag": "Full sunlight"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Partial Shade"
+							"name": "Partial Shade",
+							"tag": "Partial sunlight"
 						}
 					},
 					"V3": {
@@ -698,11 +661,13 @@
 						"name": "Amount of Fertilizer",
 						"A": {
 							"id": "Svar1a",
-							"name": "None"
+							"name": "None",
+							"tag": "None"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Some"
+							"name": "Some",
+							"tag": "Some"
 						}
 					},
 					"V4": {
@@ -710,11 +675,13 @@
 						"name": "Type of Water",
 						"A": {
 							"id": "Svar1a",
-							"name": "Rain Water"
+							"name": "Rain Water",
+							"tag": "Rain Water"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Tap Water"
+							"name": "Tap Water",
+							"tag": "Tap Water"
 						}
 					}
 				},
@@ -726,11 +693,13 @@
 						"name": "Water Temperature",
 						"A": {
 							"id": "Svar1a",
-							"name": "Room Temperature"
+							"name": "Room Temperature",
+							"tag": "Room Temperature"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Warmer"
+							"name": "Warmer",
+							"tag": "Warm"
 						}
 					},
 					"V2": {
@@ -738,11 +707,13 @@
 						"name": "Amount of Music",
 						"A": {
 							"id": "Svar1a",
-							"name": "Constant Music"
+							"name": "Constant Music",
+							"tag": "Constant Music"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "No Music"
+							"name": "No Music",
+							"tag": "No Music"
 						}
 					},
 					"V3": {
@@ -750,11 +721,13 @@
 						"name": "CO2 in Water",
 						"A": {
 							"id": "Svar1a",
-							"name": "A Lot"
+							"name": "A Lot",
+							"tag": "A Lot"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "None"
+							"name": "None",
+							"tag": "None"
 						}
 					},
 					"V4": {
@@ -762,11 +735,13 @@
 						"name": "Sunlight Exposure",
 						"A": {
 							"id": "Svar1a",
-							"name": "Some"
+							"name": "Some",
+							"tag": "Some"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "None"
+							"name": "None",
+							"tag": "None"
 						}
 					}
 				}
@@ -1505,7 +1480,11 @@
 			"layoutsource": "$EFL_eflist.SListBox3",
 			"datasource": "$EFL_efdata.nulllist",
 			"fontSize": 35
-		}
+		},
+		"Sbutton1": {},
+		"Sbutton2": {},
+		"Sbutton3": {},
+		"Sbutton4": {}
 	},
 	"SScene2": {
 		"STextBox1": {
@@ -1571,6 +1550,12 @@
 		"Stitle": {
 			"layoutsource": "$EFL_eftext.S8.Stitle",
 			"datasource": "$EFL_efdata.scene8.scenePrompt"
+		},
+		"Sexpt1": {
+			"datasource": "$EFL_efdata.scene8.expt1Config"
+		},
+		"Sexpt2": {
+			"datasource": "$EFL_efdata.scene8.expt2Config"
 		}
 	},
 	"SScene9": {

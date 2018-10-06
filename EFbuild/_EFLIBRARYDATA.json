@@ -127,6 +127,27 @@
 			}
 		},
 		"eftext": {
+			"SbreadCrumbs": {
+				"src": "$$EFX.html_crumbText",
+				"htmlData": {
+					"style": {
+						"[sbreadcrumbs].outerContainer": {
+							"text-align": "left",
+							"user-select": "none",
+							"color": "rgba(0, 0, 0, 0.575)",
+							"font-weight": "bold",
+							"font-family": "'PT Sans'",
+							"font-size": "41px",
+							"height": "30px",
+							"width": "475"
+						},
+						"[sbreadcrumbs] .tablecell": {
+							"vertical-align": "middle"
+						}
+					},
+					"html": "\n        <p></p>\n    "
+				}
+			},
 			"STextBox1": {
 				"src": "$$EFX.html_text",
 				"htmlData": {
@@ -274,6 +295,52 @@
 							}
 						},
 						"html": "\n        <p></p>\n    "
+					}
+				},
+				"Sexpt1": {
+					"src": "$$EFX.html_tagText",
+					"cssClass": "tag",
+					"fontSize": 30,
+					"htmlData": {
+						"style": {
+							"[tag].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "100px",
+								"width": "210px"
+							},
+							"[tag] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>Test Text<br>test a test</p>\n    "
+					}
+				},
+				"Sexpt2": {
+					"src": "$$EFX.html_tagText",
+					"cssClass": "tag",
+					"fontSize": 30,
+					"htmlData": {
+						"style": {
+							"[tag].outerContainer": {
+								"text-align": "center",
+								"user-select": "none",
+								"color": "rgb(0, 0, 0)",
+								"font-weight": "bold",
+								"font-family": "'PT Sans'",
+								"font-size": "41px",
+								"height": "100px",
+								"width": "210px"
+							},
+							"[tag] .tablecell": {
+								"vertical-align": "middle"
+							}
+						},
+						"html": "\n        <p>Test Text<br>test a test</p>\n    "
 					}
 				}
 			},
@@ -699,14 +766,14 @@
 				"xname": "STblExp1",
 				"datasource": "$EFL_efdata.EXPT1TableData",
 				"templateRef": {
-					"STBL_A?_T?_V1_?|name|1": "$EFM_TEDExptV1A.ontologyKey",
-					"STBL_A?_T?_V1_?|name|2": "$EFM_TEDExptV1B.ontologyKey",
-					"STBL_A?_T?_V2_?|name|3": "$EFM_TEDExptV2A.ontologyKey",
-					"STBL_A?_T?_V2_?|name|4": "$EFM_TEDExptV2B.ontologyKey",
-					"STBL_A?_T?_V3_?|name|5": "$EFM_TEDExptV3A.ontologyKey",
-					"STBL_A?_T?_V3_?|name|6": "$EFM_TEDExptV3B.ontologyKey",
-					"STBL_A?_T?_V4_?|name|7": "$EFM_TEDExptV4A.ontologyKey",
-					"STBL_A?_T?_V4_?|name|8": "$EFM_TEDExptV4B.ontologyKey",
+					"STBL_A?_T?_V1_?|name|1": "$EFM_TEDExpt1V1.ontologyKey",
+					"STBL_A?_T?_V1_?|name|2": "$EFM_TEDExpt2V1.ontologyKey",
+					"STBL_A?_T?_V2_?|name|3": "$EFM_TEDExpt1V2.ontologyKey",
+					"STBL_A?_T?_V2_?|name|4": "$EFM_TEDExpt2V2.ontologyKey",
+					"STBL_A?_T?_V3_?|name|5": "$EFM_TEDExpt1V3.ontologyKey",
+					"STBL_A?_T?_V3_?|name|6": "$EFM_TEDExpt2V3.ontologyKey",
+					"STBL_A?_T?_V4_?|name|7": "$EFM_TEDExpt1V4.ontologyKey",
+					"STBL_A?_T?_V4_?|name|8": "$EFM_TEDExpt2V4.ontologyKey",
 					"*": "$$EFM_selectedTopic.ontologyKey"
 				},
 				"htmlData": {
@@ -809,6 +876,40 @@
 					"templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
 						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
+					}
+				},
+				"expt1Config": {
+					"tagData": {
+						"layoutsource": "$EFL_eftext.S8.Sexpt1",
+						"tag": [
+							"{{$EFO_STBL_A?_T?_V?_?|tag|1}}",
+							"{{$EFO_STBL_A?_T?_V?_?|tag|2}}",
+							"{{$EFO_STBL_A?_T?_V?_?|tag|3}}",
+							"{{$EFO_STBL_A?_T?_V?_?|tag|4}}"
+						],
+						"templateRef": {
+							"STBL_A?_T?_V?_?|tag|1": "$EFM_TEDExpt1V1.ontologyKey",
+							"STBL_A?_T?_V?_?|tag|2": "$EFM_TEDExpt1V2.ontologyKey",
+							"STBL_A?_T?_V?_?|tag|3": "$EFM_TEDExpt1V3.ontologyKey",
+							"STBL_A?_T?_V?_?|tag|4": "$EFM_TEDExpt1V4.ontologyKey"
+						}
+					}
+				},
+				"expt2Config": {
+					"tagData": {
+						"layoutsource": "$EFL_eftext.S8.Sexpt2",
+						"tag": [
+							"{{$EFO_STBL_A?_T?_V?_?|tag|1}}",
+							"{{$EFO_STBL_A?_T?_V?_?|tag|2}}",
+							"{{$EFO_STBL_A?_T?_V?_?|tag|3}}",
+							"{{$EFO_STBL_A?_T?_V?_?|tag|4}}"
+						],
+						"templateRef": {
+							"STBL_A?_T?_V?_?|tag|1": "$EFM_TEDExpt2V1.ontologyKey",
+							"STBL_A?_T?_V?_?|tag|2": "$EFM_TEDExpt2V2.ontologyKey",
+							"STBL_A?_T?_V?_?|tag|3": "$EFM_TEDExpt2V3.ontologyKey",
+							"STBL_A?_T?_V?_?|tag|4": "$EFM_TEDExpt2V4.ontologyKey"
+						}
 					}
 				}
 			},

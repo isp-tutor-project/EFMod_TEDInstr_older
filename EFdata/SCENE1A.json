@@ -15,6 +15,10 @@
             "layoutsource":"$EFL_eflist.SListBox3",
             "datasource": "$EFL_efdata.nulllist",
             "fontSize":35
-        }
+        },
+        "Sbutton1": {},
+        "Sbutton2": {},
+        "Sbutton3": {},
+        "Sbutton4": {}
     }
 }

@@ -1,0 +1,68 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__EndCloak" itemID="5b6378be-00000669" linkageExportForAS="true" linkageClassName="TC_TScene__EndCloak" lastModified="1538757932">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TScene__EndCloak">
+      <layers>
+        <DOMLayer name="Layer_3" color="#FF800A">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText fontRenderingMode="standard" width="948.05" height="498.3" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="486" ty="350.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>You are finished.&#xD;&#xD;Thank you &#xD;for using TED</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="116.45" size="90" bitmapSize="1800" face="PTSans-Bold" fillColor="#999999"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="1920" objectHeight="1200" x="-1" y="1" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="1" ty="-1"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="56.6" pixelHinting="true">
+                      <fill>
+                        <SolidColor color="#FFFFFF"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_2" color="#9933CC" locked="true" outline="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn">
+                  <transformationPoint>
+                    <Point x="960" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

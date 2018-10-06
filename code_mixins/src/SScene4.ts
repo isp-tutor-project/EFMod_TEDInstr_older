@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_TEDInstr {
 
-    export class SScene12 {
+    export class SScene4 {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -17,7 +17,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $preCreateScene() {
         }
 
-        public $onCreateScene() {                    
+        public $onCreateScene() {        
         }
 
         public $onEnterScene() {
@@ -45,7 +45,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $rewindScene() {
         }
 
-        public $resolveTemplate(templID:string) {         
+        public $resolveTemplate(templID:string) { 
+        
+            return this["$"+templID];
         }
 
         public $handleEvent(compID:string) {
@@ -82,15 +84,18 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $cuePoints(trackID:string, cueID:string) {
 
             switch(trackID) {
-
                 case "track1":
-                    switch(cueID) {                        
+                    switch(cueID) {
+
+                        case "$start":
+                            break;
+
                         case "$end":
                             this.setSceneValue("complete", true);    
                             break;
                     }
                     break;
-           }
+            }
         }
 
         public $timedEvents(id:string) {

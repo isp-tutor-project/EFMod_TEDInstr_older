@@ -4,11 +4,11 @@
     ],
     "compilerOptions": {
 		"module": "system",
-		"target": "es6",
+		"target": "es2016",
 		"sourceMap": true,
 		"declaration": true,
 		"outFile": "../EFbuild/mixins.js",        
-		"lib": [ "es2015", "dom" ],	
+		"lib": [ "es2016", "dom" ],	
         "noImplicitAny": true,
         "removeComments":true
     }

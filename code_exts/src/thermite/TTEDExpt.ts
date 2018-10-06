@@ -50,7 +50,12 @@ export class TTEDExpt extends TObject
 
     protected Svar4a:TObject;
     protected Svar4b:TObject;
-	
+
+    protected Stag1:TObject;
+    protected Stag2:TObject;
+    protected Stag3:TObject;
+    protected Stag4:TObject;
+    
 	// non-interactive elements
 	
 	
@@ -100,10 +105,39 @@ export class TTEDExpt extends TObject
 /*  ###########  END CREATEJS SUBCLASS SUPPORT ###########   */
 
 
+	public onCreate() : void
+	{
+        // Allow scene to override settings
+        // 
+        super.onCreate();
+
+        // Add the htmlControls to the tags
+        for(let i1:number = 1 ; i1 <= 4 ; i1++) {
+            
+            // this["Stag" + i1].onAddedToStage();
+            this["Stag" + i1].addHTMLControls();
+        }
+	}
+
+
 	public Destructor() : void
 	{
 		super.Destructor();
 	}
+
+    
+    // We must initialize the context of child TObject controls 
+    // 
+    public setContext(_hostModule:any, _ownerModule:any, _hostScene:any) {
+
+        super.setContext(_hostModule, _ownerModule, _hostScene);
+
+        // Add the htmlControls to the tags
+        for(let i1:number = 1 ; i1 <= 4 ; i1++) {
+            
+            this["Stag" + i1].setContext(_hostModule, _ownerModule, _hostScene);
+        }
+    }
 
 
     private calcDirectParentById(comClass:string ) : any {
@@ -183,7 +217,8 @@ export class TTEDExpt extends TObject
 
         target.forEach(element => {
 
-            this.getSubComponent(element, "Shighlight").show();    
+            // this.getSubComponent(element, "Shighlight").show();    
+            this["Shighlight"+element].show();    
         });
     }
 
@@ -191,7 +226,8 @@ export class TTEDExpt extends TObject
 
         target.forEach(element => {
 
-            this.getSubComponent(element, "Shighlight").hide();    
+            // this.getSubComponent(element, "Shighlight").hide();    
+            this["Shighlight"+element].hide();    
         });
     }
     
@@ -199,7 +235,9 @@ export class TTEDExpt extends TObject
 
         target.forEach(element => {
 
-            this.getSubComponent(element, "ScallOut").show();    
+            // this.getSubComponent(element, "ScallOut").show();    
+            this["Stag"+element].show();    
+
         });
     }
 
@@ -207,7 +245,9 @@ export class TTEDExpt extends TObject
 
         target.forEach(element => {
 
-            this.getSubComponent(element, "ScallOut").hide();    
+            // this.getSubComponent(element, "ScallOut").hide();    
+            this["Stag"+element].hide();    
+
         });
         
     }
@@ -226,7 +266,17 @@ export class TTEDExpt extends TObject
     }
 
 
-    public hideAll() {
+    private hideTags() {
+
+        for(let sVar = 1 ; sVar <= 4 ; sVar++) {
+
+            this["Shighlight" + sVar].hide();    
+            this["Stag"       + sVar].hide();    
+        }
+    }
+    
+
+    private hideAll() {
 
         for(let vDepth = 0 ; vDepth < 4 ; vDepth++) {
 
@@ -238,8 +288,6 @@ export class TTEDExpt extends TObject
 
                         let varName = this.exptStruct[sVar].id + variant;
                         this[varName].hide();    
-                        this[varName].Shighlight.hide();    
-                        this[varName].ScallOut.hide();    
                     }
                 }
             }
@@ -249,20 +297,50 @@ export class TTEDExpt extends TObject
 
 	
 //*************** Logging state management
-	
+    
+    private initFromTagData(tagData:any) {
+
+        // Initialize the tag text
+        // 
+        for(let i1:number = 0 ; i1 < 4 ; i1++) {
+            
+            // Build a dynamic datasource
+            // 
+            let dataSource = {
+                "layoutsource":tagData.layoutsource,
+                "htmlData": {
+                    "html": tagData.tag[i1]
+                },
+                "templateRef": tagData.templateRef
+            }
+
+            this["Stag" + (i1+1)].deSerializeObj(dataSource);            
+        }
+    }
+
+
    /*
     * 
     */
    public deSerializeObj(objData:any) : void
    {
-       super.deSerializeObj(objData);		
-       
-       console.log("deserializing: TED Experiment Custom Control");
+        super.deSerializeObj(objData);		
+        
+        console.log("deserializing: TED Experiment Custom Control");
 
-       this.exptStruct = objData.exptStruct;
-       this.initState  = objData.initState;
+        this.exptStruct = this.exptStruct || objData.exptStruct;
+        this.initState  = this.initState  || objData.initState;
 
-       this.hideAll();
-       this.setState(this.initState);
-   }
+        if(objData.exptStruct) {
+            this.hideAll();
+        }
+        if(objData.initState) {
+            this.setState(this.initState);
+        }
+
+        if(objData.tagData) {
+            this.initFromTagData(objData.tagData); 
+            this.hideTags();
+        }
+    }
 }

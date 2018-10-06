@@ -56,42 +56,57 @@ var EFTut_Suppl;
             }
             $cuePoints(id) { }
             $timedEvents(id) { }
+            $queryFinished() {
+                let stateComplete = true;
+                return stateComplete;
+            }
             $updateNav() {
                 if (!this.$queryFinished())
-                    this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(false);
+                    this.enableNext(false);
                 else
-                    this.tutorDoc.TutAutomator.SNavigator._instance.enableNext(true);
+                    this.enableNext(true);
             }
-            $generateExpt(name, newVC, ...conf) {
+            $generateExpt(name, offNewTV, ...offConf) {
                 let AChosen = this.getModuleValue("selectedArea").index;
                 let TChosen = this.getModuleValue("selectedTopic").index;
                 let VChosen = this.getModuleValue("selectedVariable").index - 1;
                 console.log("old TV: " + (VChosen + 1));
-                let TV = (((VChosen + newVC) % 4) + 1);
+                let TV = (((VChosen + offNewTV) % 4) + 1);
                 console.log("new TV: " + TV);
-                let VNC = [1, 2, 3, 4];
-                VNC.splice(TV - 1, 1);
-                for (let ndx = 0; ndx < conf.length; ndx++) {
-                    conf[ndx] = (((VChosen + conf[ndx]) % 4) + 1);
-                    console.log("Confound: " + conf[ndx]);
+                let NTV = [1, 2, 3, 4];
+                NTV.splice(TV - 1, 1);
+                this.setModuleValue(name + "NonTarget", NTV);
+                for (let ndx = 0; ndx < offConf.length; ndx++) {
+                    offConf[ndx] = (((VChosen + offConf[ndx]) % 4) + 1);
+                    console.log("Confound: " + offConf[ndx]);
                 }
-                let CVars = conf.slice();
+                let CVars = offConf.slice();
                 this.setModuleValue(name + "Confounds", CVars);
-                conf.push(TV);
-                this.setModuleValue(name + "Different", conf);
+                offConf.push(TV);
+                this.setModuleValue(name + "Different", offConf);
                 this.setModuleValue(name + "Area", { "ontologyKey": `STBL_A${AChosen}`, "index": AChosen });
                 this.setModuleValue(name + "Topic", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}`, "index": TChosen });
                 this.setModuleValue(name + "Variable", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${TV}`, "index": TV });
                 this.setModuleValue(name + "RQ", { "ontologyKey": `S_A${AChosen}_T${TChosen}_RQ${TV}`, "index": TV });
-                for (let ndx = 0; ndx < VNC.length; ndx++) {
-                    this.setModuleValue(name + `VarNC${ndx + 1}`, { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${VNC[ndx]}`, "index": VNC[ndx] });
+                for (let ndx = 0; ndx < NTV.length; ndx++) {
+                    this.setModuleValue(name + `VarNC${ndx + 1}`, { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${NTV[ndx]}`, "index": NTV[ndx] });
                 }
                 for (let ndx = 1; ndx <= 4; ndx++) {
-                    this.setModuleValue(name + `V${ndx}A`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index": ndx });
-                    this.setModuleValue(name + `V${ndx}B`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index": ndx });
+                    this.setModuleValue(name + `1V${ndx}`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index": ndx });
+                    this.setModuleValue(name + `2V${ndx}`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index": ndx });
                 }
-                for (let ndx = 0; ndx < conf.length; ndx++) {
-                    this.setModuleValue(name + `V${conf[ndx]}B`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${conf[ndx]}_B`, "index": conf[ndx] });
+                for (let ndx = 0; ndx < offConf.length; ndx++) {
+                    this.setModuleValue(name + `2V${offConf[ndx]}`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${offConf[ndx]}_B`, "index": offConf[ndx] });
+                }
+                let cfNdx = 1;
+                for (let ndx = 1; ndx <= NTV.length; ndx++) {
+                    if (CVars.includes(NTV[ndx - 1])) {
+                        this.setModuleValue(name + `NC${ndx}SameDiff`, { "ontologyKey": `TED_E1_Q7NC${ndx}DIFF`, "value": "diff", "index": NTV[ndx - 1] });
+                        this.setModuleValue(name + `NC${cfNdx++}Confound`, { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${NTV[ndx - 1]}`, "index": NTV[ndx - 1] });
+                    }
+                    else {
+                        this.setModuleValue(name + `NC${ndx}SameDiff`, { "ontologyKey": `TED_E1_Q7NC${ndx}SAME`, "value": "same", "index": NTV[ndx - 1] });
+                    }
                 }
                 this.delFeature(EFMod_TEDInstr.CONST.FTRS_ALL, EFMod_TEDInstr.CONST.VAR_FTR);
                 this.addFeaturebyQuery(`S_A${this.getModuleValue(name + "Area.index")}_T${this.getModuleValue(name + "Topic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);
@@ -122,26 +137,6 @@ var EFTut_Suppl;
                 this.showHideNavButton(EFMod_TEDInstr.CONST.PREVSCENE, EFMod_TEDInstr.CONST.HIDE);
                 this.$("hide", "Smask1");
                 this.setNavigationTarget(EFMod_TEDInstr.CONST.NAVSCENE);
-                this.setModuleValue("TEDExptArea", { "ontologyKey": "STBL_A1", "index": 1 });
-                this.setModuleValue("TEDExptTopic", { "ontologyKey": "STBL_A1_T2", "index": 2 });
-                this.setModuleValue("TEDExptVariable", { "ontologyKey": "STBL_A1_T2_V3", "index": 3 });
-                this.setModuleValue("TEDExptVarNC1", { "ontologyKey": "STBL_A1_T2_V1", "index": 1 });
-                this.setModuleValue("TEDExptVarNC2", { "ontologyKey": "STBL_A1_T2_V2", "index": 2 });
-                this.setModuleValue("TEDExptVarNC3", { "ontologyKey": "STBL_A1_T2_V4", "index": 4 });
-                this.setModuleValue("TEDExptRQ", { "ontologyKey": "S_A1_T2_RQ3", "index": 3 });
-                this.setModuleValue("TEDExptV1A", { "ontologyKey": "S_A1_T2_V1_A", "index": 1 });
-                this.setModuleValue("TEDExptV1B", { "ontologyKey": "S_A1_T2_V1_B", "index": 1 });
-                this.setModuleValue("TEDExptV2A", { "ontologyKey": "S_A1_T2_V2_A", "index": 2 });
-                this.setModuleValue("TEDExptV2B", { "ontologyKey": "S_A1_T2_V2_B", "index": 2 });
-                this.setModuleValue("TEDExptV3A", { "ontologyKey": "S_A1_T2_V3_A", "index": 3 });
-                this.setModuleValue("TEDExptV3B", { "ontologyKey": "S_A1_T2_V3_B", "index": 3 });
-                this.setModuleValue("TEDExptV4A", { "ontologyKey": "S_A1_T2_V4_A", "index": 4 });
-                this.setModuleValue("TEDExptV4B", { "ontologyKey": "S_A1_T2_V4_B", "index": 4 });
-                this.delFeature(EFMod_TEDInstr.CONST.FTRS_ALL, EFMod_TEDInstr.CONST.VAR_FTR);
-                this.addFeaturebyQuery(`S_A${this.getModuleValue("TEDExptArea.index")}_T${this.getModuleValue("TEDExptTopic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);
-                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
-                this.addFeature("FTR_CHOICE");
-                this.setModuleValue("TED_EXPT", 1);
             }
             $onEnterScene() {
             }
@@ -195,6 +190,9 @@ var EFTut_Suppl;
                 this.$IvIndex = 0;
             }
             $preCreateScene() {
+                if (this.testFeatures("FTR_TEDEXP1")) {
+                    this.$generateExpt("TEDExpt", 1, 2, 3, 4);
+                }
             }
             $onCreateScene() {
                 this.STable1.listenToCells("click", 0, 1, 0, 4);
@@ -204,6 +202,13 @@ var EFTut_Suppl;
                 this.$IvIndex = 0;
             }
             $onEnterScene() {
+                this.setSceneValue("complete", false);
+                if (this.testFeatures("FTR_TEDEXP1")) {
+                    this.$generateExpt("TEDExpt", 1, 2, 3, 4);
+                }
+                else if (this.testFeatures("FTR_TEDEXP2")) {
+                    this.$generateExpt("TEDExpt", 2, 1);
+                }
             }
             $preEnterScene() {
             }
@@ -340,22 +345,15 @@ var EFTut_Suppl;
                         break;
                     case "TABLECOMPLETE":
                         result = this.getSceneValue("currentRow") >= 5;
+                        if (result) {
+                            this.setSceneValue("complete", true);
+                        }
                         break;
                 }
                 return result;
             }
             $cuePoints(trackID, cueID) {
                 switch (trackID) {
-                    case "track1":
-                        switch (cueID) {
-                            case "$start":
-                                console.log("executing CuePoint START");
-                                break;
-                            case "$end":
-                                console.log("executing CuePoint END");
-                                break;
-                        }
-                        break;
                 }
             }
             $timedEvents(id) {
@@ -364,7 +362,7 @@ var EFTut_Suppl;
                 let stateComplete = false;
                 switch (this.graphState) {
                     default:
-                        stateComplete = this.getSceneValue("correct");
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -397,7 +395,6 @@ var EFTut_Suppl;
                                 break;
                         }
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -421,6 +418,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -474,9 +472,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -485,9 +484,9 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q2_RIGHT", this.Sanswer.selected);
+                        this.setSceneValue("complete", true);
                         break;
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -509,6 +508,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -562,9 +562,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -573,9 +574,9 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q3_WRONG", this.Sanswer.selected);
+                        this.setSceneValue("complete", true);
                         break;
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -597,6 +598,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -631,17 +633,8 @@ var EFTut_Suppl;
                 switch (trackID) {
                     case "track1":
                         switch (cueID) {
-                            case "$start":
-                                break;
                             case "$end":
-                                break;
-                        }
-                        break;
-                    case "track2":
-                        switch (cueID) {
-                            case "$start":
-                                break;
-                            case "$end":
+                                this.setSceneValue("complete", true);
                                 break;
                         }
                         break;
@@ -650,9 +643,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -660,7 +654,6 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -682,7 +675,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
-                this.setSceneValue("Complete", false);
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -716,7 +709,7 @@ var EFTut_Suppl;
                         result = this.getModuleValue("Expt1_Q4").value;
                         break;
                     case "INCOMPLETE":
-                        result = !this.getSceneValue("Complete");
+                        result = !this.getSceneValue("complete");
                         break;
                     default:
                         break;
@@ -746,9 +739,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -757,10 +751,9 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q4", this.Sanswer.selected);
-                        this.setSceneValue("Complete", true);
+                        this.setSceneValue("complete", true);
                         break;
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -782,6 +775,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -835,9 +829,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -846,8 +841,8 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q4A_RIGHT", this.Sanswer.selected);
+                        this.setSceneValue("complete", true);
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -871,6 +866,7 @@ var EFTut_Suppl;
             $preEnterScene() {
             }
             $preExitScene() {
+                this.setSceneValue("complete", false);
             }
             $preShowScene() {
             }
@@ -922,9 +918,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -933,8 +930,8 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q4B_WRONG", this.Sanswer.selected);
+                        this.setSceneValue("complete", true);
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -956,6 +953,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -1000,17 +998,24 @@ var EFTut_Suppl;
                         NCrow = this.getModuleValue("TEDExptVarNC3.index");
                         break;
                 }
-                let same = this.STblExp1.getCellValue(NCrow - 1, 1) === this.STblExp1.getCellValue(NCrow - 1, 2);
+                let same = this.STblExp1.getCellValue(NCrow, 1) === this.STblExp1.getCellValue(NCrow, 2);
                 let selection = NCarray[NCrow - 1];
-                if (!same && selection.toLowerCase() === "could")
+                if (!same && selection.toLowerCase() === "could cause")
+                    result = true;
+                if (same && selection.toLowerCase() !== "could cause")
                     result = true;
                 return result;
             }
             $cuePoints(trackID, cueID) {
                 let VCrow = this.getModuleValue("TEDExptVariable.index");
-                let NC1row = this.getModuleValue("TEDExptVarNC1.index");
-                let NC2row = this.getModuleValue("TEDExptVarNC2.index");
-                let NC3row = this.getModuleValue("TEDExptVarNC3.index");
+                let cfdRows = this.getModuleValue("TEDExptConfounds");
+                let ntvRows = this.getModuleValue("TEDExptNonTarget");
+                let NTV1row = ntvRows[0];
+                let NTV2row = ntvRows[1];
+                let NTV3row = ntvRows[2];
+                let CFD1row = cfdRows[0];
+                let CFD2row = cfdRows[1];
+                let CFD3row = cfdRows[2];
                 switch (trackID) {
                     case "track0A":
                         switch (cueID) {
@@ -1042,18 +1047,18 @@ var EFTut_Suppl;
                             case "$start":
                                 break;
                             case "$end":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NC1row, 2, NC1row);
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NC2row, 2, NC2row);
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NC3row, 2, NC3row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NTV1row, 2, NTV1row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NTV2row, 2, NTV2row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.NONE, 0, NTV3row, 2, NTV3row);
                                 break;
                             case "a":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC1row, 2, NC1row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NTV1row, 2, NTV1row);
                                 break;
                             case "b":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC2row, 2, NC2row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NTV2row, 2, NTV2row);
                                 break;
                             case "c":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC3row, 2, NC3row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NTV3row, 2, NTV3row);
                                 break;
                         }
                         break;
@@ -1064,19 +1069,20 @@ var EFTut_Suppl;
                             case "$end":
                                 break;
                             case "a":
-                                this.STblExp1.showCells(3, NC1row, 3, NC1row);
-                                this.STblExp1.showCells(3, NC2row, 3, NC2row);
-                                this.STblExp1.showCells(3, NC3row, 3, NC3row);
-                                this.STblExp1.listenToCells("change", 3, NC1row, 3, NC1row);
-                                this.STblExp1.listenToCells("change", 3, NC2row, 3, NC2row);
-                                this.STblExp1.listenToCells("change", 3, NC3row, 3, NC3row);
+                                this.STblExp1.showCells(3, NTV1row, 3, NTV1row);
+                                this.STblExp1.showCells(3, NTV2row, 3, NTV2row);
+                                this.STblExp1.showCells(3, NTV3row, 3, NTV3row);
+                                this.STblExp1.listenToCells("change", 3, NTV1row, 3, NTV1row);
+                                this.STblExp1.listenToCells("change", 3, NTV2row, 3, NTV2row);
+                                this.STblExp1.listenToCells("change", 3, NTV3row, 3, NTV3row);
                                 break;
                         }
                         break;
                     case "track1":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC1row, 2, NC1row);
+                                this.setSceneValue("complete", false);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NTV1row, 2, NTV1row);
                                 break;
                             case "$end":
                                 break;
@@ -1085,7 +1091,7 @@ var EFTut_Suppl;
                     case "track1A":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NC1row, 3, NC1row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NTV1row, 3, NTV1row);
                                 break;
                             case "$end":
                                 break;
@@ -1094,7 +1100,7 @@ var EFTut_Suppl;
                     case "track1B":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NC1row, 3, NC1row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NTV1row, 3, NTV1row);
                                 break;
                             case "$end":
                                 break;
@@ -1103,7 +1109,7 @@ var EFTut_Suppl;
                     case "track2":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC2row, 2, NC2row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NTV2row, 2, NTV2row);
                                 break;
                             case "$end":
                                 break;
@@ -1112,7 +1118,7 @@ var EFTut_Suppl;
                     case "track2A":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NC2row, 3, NC2row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NTV2row, 3, NTV2row);
                                 break;
                             case "$end":
                                 break;
@@ -1121,7 +1127,7 @@ var EFTut_Suppl;
                     case "track2B":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NC2row, 3, NC2row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NTV2row, 3, NTV2row);
                                 break;
                             case "$end":
                                 break;
@@ -1130,8 +1136,8 @@ var EFTut_Suppl;
                     case "track3A":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC3row, 2, NC3row);
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NC3row, 3, NC3row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NTV3row, 2, NTV3row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 3, NTV3row, 3, NTV3row);
                                 break;
                             case "$end":
                                 break;
@@ -1140,8 +1146,8 @@ var EFTut_Suppl;
                     case "track3B":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NC3row, 2, NC3row);
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NC3row, 3, NC3row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 0, NTV3row, 2, NTV3row);
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 3, NTV3row, 3, NTV3row);
                                 break;
                             case "$end":
                                 break;
@@ -1150,12 +1156,12 @@ var EFTut_Suppl;
                     case "track4A":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NC1row);
-                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NC2row);
-                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NC3row);
-                                this.STblExp1.hideCells(3, NC1row, 3, NC1row);
-                                this.STblExp1.hideCells(3, NC2row, 3, NC2row);
-                                this.STblExp1.hideCells(3, NC3row, 3, NC3row);
+                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NTV1row);
+                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NTV2row);
+                                this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.NONE, NTV3row);
+                                this.STblExp1.hideCells(3, NTV1row, 3, NTV1row);
+                                this.STblExp1.hideCells(3, NTV2row, 3, NTV2row);
+                                this.STblExp1.hideCells(3, NTV3row, 3, NTV3row);
                                 this.STblExp1.highlightRow(EFMod_TEDInstr.CONST.BLUE, VCrow);
                                 break;
                             case "$end":
@@ -1165,8 +1171,8 @@ var EFTut_Suppl;
                     case "track4B":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NC1row, 3, NC1row);
-                                this.STblExp1.setCellValue(NC1row, 3, "Could cause");
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NTV1row, 3, NTV1row);
+                                this.STblExp1.setCellValue(NTV1row, 3, "Could cause");
                                 break;
                             case "$end":
                                 break;
@@ -1175,8 +1181,8 @@ var EFTut_Suppl;
                     case "track4C":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NC2row, 3, NC2row);
-                                this.STblExp1.setCellValue(NC2row, 3, "Could cause");
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NTV2row, 3, NTV2row);
+                                this.STblExp1.setCellValue(NTV2row, 3, "Could cause");
                                 break;
                             case "$end":
                                 break;
@@ -1185,10 +1191,22 @@ var EFTut_Suppl;
                     case "track4D":
                         switch (cueID) {
                             case "$start":
-                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NC3row, 3, NC3row);
-                                this.STblExp1.setCellValue(NC3row, 3, "Could cause");
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, NTV3row, 3, NTV3row);
+                                this.STblExp1.setCellValue(NTV3row, 3, "Could cause");
                                 break;
                             case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
+                        }
+                        break;
+                    case "track4E":
+                        switch (cueID) {
+                            case "$start":
+                                this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.YELLOW, 3, CFD1row, 3, CFD1row);
+                                this.STblExp1.setCellValue(CFD1row, 3, "Could cause");
+                                break;
+                            case "$end":
+                                this.setSceneValue("complete", true);
                                 break;
                         }
                         break;
@@ -1197,9 +1215,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -1218,7 +1237,6 @@ var EFTut_Suppl;
                         this.setSceneValue("complete", complete === 3);
                         break;
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -1240,26 +1258,23 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
             $preShowScene() {
                 this.STblExp1.setColWidth(3, "0%");
-                let NCarray = [];
+                let confounds = this.getModuleValue("TEDExptConfounds");
                 let NCvals = ["1", "2"];
-                NCarray.push(this.getModuleValue("TEDExptVarNC1.index"));
-                NCarray.push(this.getModuleValue("TEDExptVarNC2.index"));
-                NCarray.push(this.getModuleValue("TEDExptVarNC3.index"));
-                this.setModuleValue("TableNCSequence", NCarray);
-                this.setModuleValue("TEDcorrection", 0);
-                for (let i1 = 0; i1 < NCarray.length; i1++) {
-                    this.STblExp1.listenToCells("change", 1, NCarray[i1], 2, NCarray[i1]);
+                this.setModuleValue("TEDcorrection", confounds.length);
+                for (let i1 = 0; i1 < confounds.length; i1++) {
+                    this.STblExp1.listenToCells("change", 1, confounds[i1], 2, confounds[i1]);
                     for (let i2 = 1; i2 < 3; i2++) {
-                        this.STblExp1.initElementFromData(NCarray[i1], i2, {
+                        this.STblExp1.initElementFromData(confounds[i1], i2, {
                             "value": "$LIST",
                             "options": [
-                                `{{$EFO_STBL_A?_T?_V${NCarray[i1]}_A|name}}`,
-                                `{{$EFO_STBL_A?_T?_V${NCarray[i1]}_B|name}}`
+                                `{{$EFO_STBL_A?_T?_V${confounds[i1]}_A|name}}`,
+                                `{{$EFO_STBL_A?_T?_V${confounds[i1]}_B|name}}`
                             ],
                             "initialValue": `${NCvals[i2 - 1]}`,
                             "placeHolder": "{{$EFO_LV_PH1|name}}"
@@ -1307,9 +1322,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -1323,16 +1339,21 @@ var EFTut_Suppl;
                         let val2 = this.STblExp1.getCellValue(row, 2);
                         if (val1 === val2) {
                             this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.GREEN, 1, row, 2, row);
-                            CORR++;
+                            CORR--;
                         }
                         else {
                             this.STblExp1.highlightCells(EFMod_TEDInstr.CONST.RED, 1, row, 2, row);
-                            CORR--;
+                            CORR++;
                         }
                         break;
                 }
                 this.setModuleValue("TEDcorrection", CORR);
-                this.$updateNav();
+                if (CORR == 0) {
+                    this.setSceneValue("complete", true);
+                }
+                else {
+                    this.setSceneValue("complete", false);
+                }
             }
             $onClick(target) {
                 switch (target) {
@@ -1354,6 +1375,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -1386,11 +1408,13 @@ var EFTut_Suppl;
             }
             $cuePoints(trackID, cueID) {
                 switch (trackID) {
-                    case "track1":
+                    case "track2":
                         switch (cueID) {
                             case "$start":
+                                this.setSceneValue("complete", false);
                                 break;
                             case "$end":
+                                this.setSceneValue("complete", true);
                                 break;
                         }
                         break;
@@ -1399,9 +1423,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -1409,11 +1434,7 @@ var EFTut_Suppl;
             $onSelect(target) {
                 let NCarray = this.getModuleValue("TEDFeatureFocus");
                 let complete = 0;
-                switch (target) {
-                    case "STblExp1":
-                        break;
-                }
-                this.$updateNav();
+                this.setSceneValue("complete", true);
             }
             $onClick(target) {
                 switch (target) {
@@ -1429,15 +1450,25 @@ var EFTut_Suppl;
     (function (EFMod_TEDInstr) {
         class SScene1a {
             $onCreateScene() {
-                this.setSceneValue("sceneComplete", false);
-                this.$updateNav();
+                this.setSceneValue("complete", false);
             }
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+                this.addFeature("FTR_CHOICE");
+                this.addFeature("FTR_TEDEXP1");
+            }
+            $preShowScene() {
+                this.$("Sbutton.*").hide();
             }
             $preExitScene() {
-                this.$generateExpt("TEDExpt", 2, 1);
+                if (this.testFeatures("FTR_TEDEXP1")) {
+                    this.$generateExpt("TEDExpt", 1, 2, 3, 4);
+                }
+                else if (this.testFeatures("FTR_TEDEXP2")) {
+                    this.$generateExpt("TEDExpt", 2, 1);
+                }
             }
             $demoInitScene() {
             }
@@ -1498,7 +1529,7 @@ var EFTut_Suppl;
                         }
                         break;
                 }
-                this.setSceneValue("sceneComplete", this.queryModuleProp(["selectedArea", "selectedTopic", "selectedVariable"]));
+                this.setSceneValue("complete", this.queryModuleProp(["selectedArea", "selectedTopic", "selectedVariable"]));
                 this.$updateNav();
                 return result;
             }
@@ -1523,16 +1554,59 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                return this.getSceneValue("sceneComplete");
+                let result = this.getSceneValue("complete");
+                if (result) {
+                    this.$("Sbutton.*").show();
+                    this.$("Sbutton.*").enable();
+                }
+                else {
+                    this.$("Sbutton.*").hide();
+                    this.$("Sbutton.*").disable();
+                }
+                return result;
+            }
+            $onAction(target) {
+                this.delFeature("FTR_TEDEXP1");
+                switch (target) {
+                    case "Sbutton1":
+                        this.addFeature("FTR_VECTOR1");
+                        this.addFeature("FTR_TEDEXP1");
+                        break;
+                    case "Sbutton2":
+                        this.addFeature("FTR_VECTOR2");
+                        this.addFeature("FTR_TEDEXP2");
+                        break;
+                    case "Sbutton3":
+                        this.addFeature("FTR_VECTOR3");
+                        this.addFeature("FTR_TEDEXP1");
+                        break;
+                    case "Sbutton4":
+                        this.addFeature("FTR_VECTOR4");
+                        this.addFeature("FTR_TEDEXP2");
+                        break;
+                }
+                switch (target) {
+                    case "Sbutton1":
+                    case "Sbutton2":
+                    case "Sbutton3":
+                    case "Sbutton4":
+                        this.nextTrack("$onAction:" + target + " : " + this.graphState);
+                        break;
+                }
             }
             $onSelect(target) {
                 switch (target) {
                     case "SListBox1":
+                        this.setModuleValue("selectedTopic", null);
+                        this.setModuleValue("selectedVariable", null);
+                        break;
                     case "SListBox2":
+                        this.setModuleValue("selectedVariable", null);
+                        break;
                     case "SListBox3":
-                        this.nextTrack("$onSelect:" + this.graphState);
                         break;
                 }
+                this.nextTrack("$onSelect:" + this.graphState);
             }
             $onClick(target) {
                 switch (target) {
@@ -1556,6 +1630,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -1605,6 +1680,9 @@ var EFTut_Suppl;
                         break;
                     case "track3":
                         switch (cueID) {
+                            case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
                             case "a":
                                 this.STable1.setCellValue(this.getModuleValue("sameRow1"), 3, "SAME");
                                 break;
@@ -1624,7 +1702,7 @@ var EFTut_Suppl;
                 let stateComplete = false;
                 switch (this.graphState) {
                     default:
-                        stateComplete = this.getSceneValue("correct");
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -1632,7 +1710,6 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -1654,6 +1731,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -1687,6 +1765,15 @@ var EFTut_Suppl;
             }
             $cuePoints(trackID, cueID) {
                 switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
+                        }
+                        break;
                 }
             }
             $timedEvents(id) {
@@ -1695,7 +1782,7 @@ var EFTut_Suppl;
                 let stateComplete = false;
                 switch (this.graphState) {
                     default:
-                        stateComplete = this.getSceneValue("correct");
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -1703,7 +1790,6 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -1711,6 +1797,166 @@ var EFTut_Suppl;
             }
         }
         EFMod_TEDInstr.SScene3 = SScene3;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SScene4 {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setSceneValue("complete", false);
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = false;
+                switch (this.graphState) {
+                    default:
+                        stateComplete = this.getSceneValue("complete");
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene4 = SScene4;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SScene5 {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setSceneValue("complete", false);
+            }
+            $preExitScene() {
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+                return this["$" + templID];
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
+                        }
+                        break;
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let stateComplete = false;
+                switch (this.graphState) {
+                    default:
+                        stateComplete = this.getSceneValue("complete");
+                        break;
+                }
+                return stateComplete;
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SScene5 = SScene5;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 var EFTut_Suppl;
@@ -1725,6 +1971,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -1759,14 +2006,24 @@ var EFTut_Suppl;
             }
             $cuePoints(trackID, cueID) {
                 switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                break;
+                            case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
+                        }
+                        break;
                 }
             }
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -1774,7 +2031,6 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -1796,7 +2052,10 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
-                this.$generateExpt("TEDExpt", 2, 1);
+                if (this.testFeatures("FTR_TEDEXP2")) {
+                    this.$generateExpt("TEDExpt", 2, 1);
+                }
+                this.setSceneValue("complete", false);
                 let AChosen = this.getModuleValue("TEDExptArea.index");
                 let TChosen = this.getModuleValue("TEDExptTopic.index");
                 let VChosen = this.getModuleValue("TEDExptVariable.index");
@@ -1834,22 +2093,31 @@ var EFTut_Suppl;
             $nodeConstraint(constrainId) {
                 let result = false;
                 switch (constrainId) {
-                    case "TEDEXP1":
-                        result = this.getModuleValue("TED_EXPT") === "TEDEXP1";
+                    case "FTR_TEDEXP1":
+                        result = this.testFeatures(constrainId);
                         break;
                 }
                 return result;
             }
             $cuePoints(trackID, cueID) {
                 switch (trackID) {
+                    case "track1":
+                    case "track2":
+                        switch (cueID) {
+                            case "$end":
+                                this.setSceneValue("complete", true);
+                                break;
+                        }
+                        break;
                 }
             }
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -1857,7 +2125,6 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -1879,6 +2146,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -1933,8 +2201,8 @@ var EFTut_Suppl;
                     case "track1a":
                         switch (cueID) {
                             case "$start":
-                                this.Sexpt1.showCallOut("Svar1");
-                                this.Sexpt1.showHighlight("Svar1");
+                                this.Sexpt1.showCallOut("1");
+                                this.Sexpt1.showHighlight("1");
                                 break;
                             case "$end":
                                 break;
@@ -1943,8 +2211,8 @@ var EFTut_Suppl;
                     case "track1b":
                         switch (cueID) {
                             case "$start":
-                                this.Sexpt2.showCallOut("Svar1");
-                                this.Sexpt2.showHighlight("Svar1");
+                                this.Sexpt2.showCallOut("1");
+                                this.Sexpt2.showHighlight("1");
                                 break;
                             case "$end":
                                 break;
@@ -1953,9 +2221,9 @@ var EFTut_Suppl;
                     case "track2a":
                         switch (cueID) {
                             case "$start":
-                                this.$("Sexpt.").exec("hideHighlight", "Svar1");
-                                this.Sexpt1.showCallOut("Svar2");
-                                this.Sexpt1.showHighlight("Svar2");
+                                this.$("Sexpt.").exec("hideHighlight", "1");
+                                this.Sexpt1.showCallOut("2");
+                                this.Sexpt1.showHighlight("2");
                                 break;
                             case "$end":
                                 break;
@@ -1964,8 +2232,8 @@ var EFTut_Suppl;
                     case "track2b":
                         switch (cueID) {
                             case "$start":
-                                this.Sexpt2.showCallOut("Svar2");
-                                this.Sexpt2.showHighlight("Svar2");
+                                this.Sexpt2.showCallOut("2");
+                                this.Sexpt2.showHighlight("2");
                                 break;
                             case "$end":
                                 break;
@@ -1974,9 +2242,9 @@ var EFTut_Suppl;
                     case "track3a":
                         switch (cueID) {
                             case "$start":
-                                this.$("Sexpt.").exec("hideHighlight", "Svar2");
-                                this.Sexpt1.showCallOut("Svar3");
-                                this.Sexpt1.showHighlight("Svar3");
+                                this.$("Sexpt.").exec("hideHighlight", "2");
+                                this.Sexpt1.showCallOut("3");
+                                this.Sexpt1.showHighlight("3");
                                 break;
                             case "$end":
                                 break;
@@ -1985,8 +2253,8 @@ var EFTut_Suppl;
                     case "track3b":
                         switch (cueID) {
                             case "$start":
-                                this.Sexpt2.showCallOut("Svar3");
-                                this.Sexpt2.showHighlight("Svar3");
+                                this.Sexpt2.showCallOut("3");
+                                this.Sexpt2.showHighlight("3");
                                 break;
                             case "$end":
                                 break;
@@ -1995,9 +2263,9 @@ var EFTut_Suppl;
                     case "track4a":
                         switch (cueID) {
                             case "$start":
-                                this.$("Sexpt.").exec("hideHighlight", "Svar3");
-                                this.Sexpt1.showCallOut("Svar4");
-                                this.Sexpt1.showHighlight("Svar4");
+                                this.$("Sexpt.").exec("hideHighlight", "3");
+                                this.Sexpt1.showCallOut("4");
+                                this.Sexpt1.showHighlight("4");
                                 break;
                             case "$end":
                                 break;
@@ -2006,15 +2274,15 @@ var EFTut_Suppl;
                     case "track4b":
                         switch (cueID) {
                             case "$start":
-                                this.Sexpt2.showCallOut("Svar4");
-                                this.Sexpt2.showHighlight("Svar4");
+                                this.Sexpt2.showCallOut("4");
+                                this.Sexpt2.showHighlight("4");
                                 break;
                             case "$end":
-                                this.$("Sexpt.").exec("hideHighlight", "Svar2");
-                                this.$("Sexpt.").exec("showHighlight", "Svar1");
-                                this.$("Sexpt.").exec("showHighlight", "Svar2");
-                                this.$("Sexpt.").exec("showHighlight", "Svar3");
-                                this.$("Sexpt.").exec("showHighlight", "Svar4");
+                                this.$("Sexpt.").exec("hideHighlight", "2");
+                                this.$("Sexpt.").exec("showHighlight", "1");
+                                this.$("Sexpt.").exec("showHighlight", "2");
+                                this.$("Sexpt.").exec("showHighlight", "3");
+                                this.$("Sexpt.").exec("showHighlight", "4");
                                 break;
                         }
                         break;
@@ -2023,12 +2291,13 @@ var EFTut_Suppl;
                             case "$start":
                                 break;
                             case "$end":
+                                this.setSceneValue("complete", true);
                                 break;
                             case "a":
-                                this.$("Sexpt.").exec("showHighlight", "Svar1");
-                                this.$("Sexpt.").exec("showHighlight", "Svar2");
-                                this.$("Sexpt.").exec("showHighlight", "Svar3");
-                                this.$("Sexpt.").exec("showHighlight", "Svar4");
+                                this.$("Sexpt.").exec("showHighlight", "1");
+                                this.$("Sexpt.").exec("showHighlight", "2");
+                                this.$("Sexpt.").exec("showHighlight", "3");
+                                this.$("Sexpt.").exec("showHighlight", "4");
                                 break;
                         }
                         break;
@@ -2037,9 +2306,10 @@ var EFTut_Suppl;
             $timedEvents(id) {
             }
             $queryFinished() {
-                let stateComplete = true;
+                let stateComplete = false;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -2047,7 +2317,6 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
@@ -2069,7 +2338,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
-                this.setSceneValue("Complete", false);
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
             }
@@ -2103,7 +2372,7 @@ var EFTut_Suppl;
                         result = this.getModuleValue("Expt1_Q1").value;
                         break;
                     case "INCOMPLETE":
-                        result = !this.getSceneValue("Complete");
+                        result = !this.getSceneValue("complete");
                         break;
                     default:
                         break;
@@ -2136,6 +2405,7 @@ var EFTut_Suppl;
                 let stateComplete = true;
                 switch (this.graphState) {
                     default:
+                        stateComplete = this.getSceneValue("complete");
                         break;
                 }
                 return stateComplete;
@@ -2144,10 +2414,9 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q1", this.Sanswer.selected);
-                        this.setSceneValue("Complete", true);
+                        this.setSceneValue("complete", true);
                         break;
                 }
-                this.$updateNav();
             }
             $onClick(target) {
                 switch (target) {
