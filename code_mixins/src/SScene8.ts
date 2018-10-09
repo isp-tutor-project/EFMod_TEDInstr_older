@@ -41,27 +41,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                initState[index-1]  = "b";
             });
 
-            this.Sexpt1.deSerializeObj( 
-                {
-                    "exptStruct":
-                        [{"id":"Svar1", "parent":null, "depth":0, "variants":["a","b"]},
-                         {"id":"Svar2", "parent":null, "depth":0, "variants":["a","b"]},
-                         {"id":"Svar3", "parent":null, "depth":0, "variants":["a","b"]},
-                         {"id":"Svar4", "parent":null, "depth":0, "variants":["a","b"]}],
-
-                    "initState":["a","a","a","a"]
-                });
-
-            this.Sexpt2.deSerializeObj( 
-                {
-                    "exptStruct":
-                        [{"id":"Svar1", "parent":null, "depth":0, "variants":["a","b"]},
-                         {"id":"Svar2", "parent":null, "depth":0, "variants":["a","b"]},
-                         {"id":"Svar3", "parent":null, "depth":0, "variants":["a","b"]},
-                         {"id":"Svar4", "parent":null, "depth":0, "variants":["a","b"]}],
-                         
-                    "initState":initState 
-                });
+            this.Sexpt1.deSerializeObj({"initState":["a","a","a","a"]});
+            this.Sexpt2.deSerializeObj({"initState":initState });
         }
                 
 

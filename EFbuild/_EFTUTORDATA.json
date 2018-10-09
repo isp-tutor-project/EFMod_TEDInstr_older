@@ -257,18 +257,56 @@
 					"id": "",
 					"name": "Crystal Growth",
 					"expclass": "EFMod_Crystal.TEDExpt",
+					"exptStruct": [
+						{
+							"id": "Svar1",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar2",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar3",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar4",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						}
+					],
 					"V1": {
 						"id": "Svar1",
 						"name": "Water Temperature",
 						"A": {
 							"id": "Svar1a",
-							"name": "Hot",
-							"tag": "Hot"
+							"name": "Cold",
+							"tag": "Room temp"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Cold",
-							"tag": "Room temp"
+							"name": "Hot",
+							"tag": "Hot"
 						}
 					},
 					"V2": {
@@ -290,13 +328,13 @@
 						"name": "Seed Crystal Size",
 						"A": {
 							"id": "Svar3a",
-							"name": "None",
-							"tag": "None"
+							"name": "A little",
+							"tag": "A little"
 						},
 						"B": {
 							"id": "Svar3b",
-							"name": "A little",
-							"tag": "A little"
+							"name": "None",
+							"tag": "None"
 						}
 					},
 					"V4": {
@@ -318,6 +356,44 @@
 					"id": "",
 					"name": "Soda-Mint Reaction",
 					"expclass": "EFMod_Soda.TEDExpt",
+					"exptStruct": [
+						{
+							"id": "Svar1",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar2",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar3",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar4",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						}
+					],
 					"V1": {
 						"id": "Svar1",
 						"name": "Type of Sweetener",
@@ -383,6 +459,48 @@
 					"id": "",
 					"name": "Melting of Ice",
 					"expclass": "EFMod_IceMelt.TEDExpt",
+					"exptStruct": [
+						{
+							"id": "Svar1",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Ice Temp"
+						},
+						{
+							"id": "Svar2",
+							"parent": "Svar4",
+							"depth": 1,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Water Temp"
+						},
+						{
+							"id": "Svar3",
+							"parent": "Svar4",
+							"depth": 1,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Glass Pattern"
+						},
+						{
+							"id": "Svar4",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Glass Shape"
+						}
+					],
 					"V1": {
 						"id": "",
 						"name": "Initial Ice Temperature",
@@ -402,13 +520,13 @@
 						"name": "Initial Water Temperature",
 						"A": {
 							"id": "Svar1a",
-							"name": "Hot",
-							"tag": "Hot"
+							"name": "Cold",
+							"tag": "Cold"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Cold",
-							"tag": "Cold"
+							"name": "Hot",
+							"tag": "Hot"
 						}
 					},
 					"V3": {
@@ -444,18 +562,56 @@
 					"id": "",
 					"name": "Temperature of a Gas",
 					"expclass": "EFMod_Balloon.TEDExpt",
+					"exptStruct": [
+						{
+							"id": "Svar1",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar2",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar3",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar4",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						}
+					],
 					"V1": {
 						"id": "Svar1",
 						"name": "Balloon Color",
 						"A": {
 							"id": "Svar1a",
-							"name": "Black",
-							"tag": "Dark (black)"
+							"name": "Gray",
+							"tag": "Light (gray)"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Gray",
-							"tag": "Light (gray)"
+							"name": "Black",
+							"tag": "Dark (black)"
 						}
 					},
 					"V2": {
@@ -463,13 +619,13 @@
 						"name": "Balloon Material",
 						"A": {
 							"id": "Svar1a",
-							"name": "Foil",
-							"tag": "Foil"
+							"name": "Latex",
+							"tag": "Latex"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Latex",
-							"tag": "Latex"
+							"name": "Foil",
+							"tag": "Foil"
 						}
 					},
 					"V3": {
@@ -509,18 +665,60 @@
 					"id": "",
 					"name": "Inclined Planes",
 					"expclass": "EFMod_Ramps.TEDExpt",
+					"exptStruct": [
+						{
+							"id": "Svar1",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Slope"
+						},
+						{
+							"id": "Svar2",
+							"parent": "Svar3",
+							"depth": 2,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Color"
+						},
+						{
+							"id": "Svar3",
+							"parent": "Svar1",
+							"depth": 1,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Start"
+						},
+						{
+							"id": "Svar4",
+							"parent": "Svar1",
+							"depth": 1,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Texture"
+						}
+					],
 					"V1": {
 						"id": "",
 						"name": "Slope",
 						"A": {
 							"id": "Svar1a",
-							"name": "Steep",
-							"tag": "Steep"
+							"name": "Not Steep",
+							"tag": "Not Steep"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Not Steep",
-							"tag": "Not Steep"
+							"name": "Steep",
+							"tag": "Steep"
 						}
 					},
 					"V2": {
@@ -542,13 +740,13 @@
 						"name": "Starting Position",
 						"A": {
 							"id": "Svar1a",
-							"name": "Top",
-							"tag": "Top"
+							"name": "Middle",
+							"tag": "Middle"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Middle",
-							"tag": "Middle"
+							"name": "Top",
+							"tag": "Top"
 						}
 					},
 					"V4": {
@@ -557,12 +755,12 @@
 						"A": {
 							"id": "Svar1a",
 							"name": "Rough",
-							"tag": "Rough (friction)"
+							"tag": "Rough<br>(friction)"
 						},
 						"B": {
 							"id": "Svar1b",
 							"name": "Smooth",
-							"tag": "Smooth (no friction)"
+							"tag": "Smooth<br>(no friction)"
 						}
 					}
 				},
@@ -570,6 +768,48 @@
 					"id": "",
 					"name": "Sinking Objects",
 					"expclass": "EFMod_Sinking.TEDExpt",
+					"exptStruct": [
+						{
+							"id": "Svar1",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Density Water"
+						},
+						{
+							"id": "Svar2",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Shape"
+						},
+						{
+							"id": "Svar3",
+							"parent": "Svar2",
+							"depth": 1,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Volume"
+						},
+						{
+							"id": "Svar4",
+							"parent": "Svar3",
+							"depth": 2,
+							"variants": [
+								"a",
+								"b"
+							],
+							"comment": "Density Object"
+						}
+					],
 					"V1": {
 						"id": "Svar1",
 						"name": "Density of Water",
@@ -635,6 +875,44 @@
 					"id": "",
 					"name": "Flower Reproduction",
 					"expclass": "EFMod_GrHouse.TEDExpt",
+					"exptStruct": [
+						{
+							"id": "Svar1",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar2",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar3",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar4",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						}
+					],
 					"V1": {
 						"id": "",
 						"name": "Number of Bees",
@@ -696,6 +974,44 @@
 					"id": "",
 					"name": "Algae Growth",
 					"expclass": "EFMod_Algae.TEDExpt",
+					"exptStruct": [
+						{
+							"id": "Svar1",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar2",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar3",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						},
+						{
+							"id": "Svar4",
+							"parent": "",
+							"depth": 0,
+							"variants": [
+								"a",
+								"b"
+							]
+						}
+					],
 					"V1": {
 						"id": "Svar1",
 						"name": "Water Temperature",

@@ -9,8 +9,8 @@ System.register("thermite/IExptTypes", [], function (exports_1, context_1) {
 });
 System.register("thermite/TMaterialIcon", ["core/CEFTimeLine", "thermite/TObject", "util/CUtil"], function (exports_2, context_2) {
     "use strict";
-    var __moduleName = context_2 && context_2.id;
     var CEFTimeLine_1, TObject_1, CUtil_1, TMaterialIcon;
+    var __moduleName = context_2 && context_2.id;
     return {
         setters: [
             function (CEFTimeLine_1_1) {
@@ -73,8 +73,8 @@ System.register("thermite/TMaterialIcon", ["core/CEFTimeLine", "thermite/TObject
 });
 System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], function (exports_3, context_3) {
     "use strict";
-    var __moduleName = context_3 && context_3.id;
     var TObject_2, CUtil_2, TTEDExpt;
+    var __moduleName = context_3 && context_3.id;
     return {
         setters: [
             function (TObject_2_1) {
@@ -120,37 +120,28 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
                         this["Stag" + i1].setContext(_hostModule, _ownerModule, _hostScene);
                     }
                 }
-                calcDirectParentById(comClass) {
-                    let parent = this;
-                    for (let comNdx = 0; comNdx < 4; comNdx++) {
-                        if (this.exptStruct[comNdx].id == comClass) {
-                            parent = this.calcDirectParentByNdx(comNdx);
-                            break;
+                setState(parent, parentName, variants) {
+                    for (let sVar = 0; sVar < 4; sVar++) {
+                        if (this.exptStruct[sVar].parent === parentName) {
+                            let baseName = this.exptStruct[sVar].id;
+                            let varName = baseName + variants[sVar];
+                            parent[varName].show();
+                            this.setState(parent[varName], baseName, variants);
                         }
                     }
-                    return this;
                 }
-                calcDirectParentByNdx(comNdx) {
-                    let ancPath = this.exptStruct[comNdx].parent;
-                    let ancestors = ancPath ? this.exptStruct[comNdx].parent.split(".") : [];
-                    let parent = this.seekToParent(ancestors, this);
-                    return parent;
-                }
-                setState(variants) {
-                    for (let vDepth = 0; vDepth < 4; vDepth++) {
-                        for (let comNdx = 0; comNdx < 4; comNdx++) {
-                            if (this.exptStruct[comNdx].depth == vDepth) {
-                                let parent = this.calcDirectParentByNdx(comNdx);
-                                let target = this.state[this.exptStruct[comNdx].id] = this.exptStruct[comNdx].id + variants[comNdx];
-                                parent[target].show();
+                hideAll(parent, parentName) {
+                    for (let sVar = 0; sVar < 4; sVar++) {
+                        if (this.exptStruct[sVar].parent === parentName) {
+                            this.exptStruct[sVar].parentObj = parent;
+                            for (let variant of this.exptStruct[sVar].variants) {
+                                let baseName = this.exptStruct[sVar].id;
+                                let varName = baseName + variant;
+                                parent[varName].hide();
+                                this.hideAll(parent[varName], baseName);
                             }
                         }
                     }
-                }
-                getSubComponent(target, com) {
-                    let parent = this.calcDirectParentById(target);
-                    let varName = this.state[target];
-                    return parent[varName][com];
                 }
                 showHighlight(...target) {
                     target.forEach(element => {
@@ -172,28 +163,10 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
                         this["Stag" + element].hide();
                     });
                 }
-                seekToParent(ancestors, parent) {
-                    for (let index = 0; index < ancestors.length; index++) {
-                        parent = parent[this.state[ancestors[index]]];
-                    }
-                    return parent;
-                }
                 hideTags() {
                     for (let sVar = 1; sVar <= 4; sVar++) {
                         this["Shighlight" + sVar].hide();
                         this["Stag" + sVar].hide();
-                    }
-                }
-                hideAll() {
-                    for (let vDepth = 0; vDepth < 4; vDepth++) {
-                        for (let sVar = 0; sVar < 4; sVar++) {
-                            if (this.exptStruct[sVar].depth == vDepth) {
-                                for (let variant of this.exptStruct[sVar].variants) {
-                                    let varName = this.exptStruct[sVar].id + variant;
-                                    this[varName].hide();
-                                }
-                            }
-                        }
                     }
                 }
                 initFromTagData(tagData) {
@@ -211,13 +184,13 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
                 deSerializeObj(objData) {
                     super.deSerializeObj(objData);
                     console.log("deserializing: TED Experiment Custom Control");
-                    this.exptStruct = this.exptStruct || objData.exptStruct;
-                    this.initState = this.initState || objData.initState;
                     if (objData.exptStruct) {
-                        this.hideAll();
+                        this.exptStruct = this.hostScene.resolveSelector(objData.exptStruct.structData, objData.exptStruct.templateRef);
+                        this.hideAll(this, "");
                     }
                     if (objData.initState) {
-                        this.setState(this.initState);
+                        this.initState = objData.initState;
+                        this.setState(this, "", this.initState);
                     }
                     if (objData.tagData) {
                         this.initFromTagData(objData.tagData);
@@ -231,8 +204,8 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
 });
 System.register("thermite/TTEDContainer", ["thermite/TObject", "util/CUtil"], function (exports_4, context_4) {
     "use strict";
-    var __moduleName = context_4 && context_4.id;
     var TObject_3, CUtil_3, TTEDContainer;
+    var __moduleName = context_4 && context_4.id;
     return {
         setters: [
             function (TObject_3_1) {
@@ -283,13 +256,6 @@ System.register("thermite/TTEDContainer", ["thermite/TObject", "util/CUtil"], fu
                 hideCallOut(...target) {
                     this.StedExp.hideCallOut(target);
                 }
-                set alpha(value) {
-                    super.alpha = value;
-                    if (this.StedExp) {
-                        if (value != 1 && value != 0)
-                            console.log(`Sexpt1 alpha change: ${value}`);
-                    }
-                }
                 layoutExpComponent(component) {
                     let mat = this.getConcatenatedDisplayProps(this._props).matrix;
                     let txForm = mat.decompose();
@@ -316,6 +282,10 @@ System.register("thermite/TTEDContainer", ["thermite/TObject", "util/CUtil"], fu
                     console.log("deserializing: TED Experiment Custom Control");
                     if (objData.expData) {
                         this.initFromExpData(objData.expData);
+                    }
+                    if (objData.initState) {
+                        if (this.StedExp)
+                            this.StedExp.deSerializeObj(objData);
                     }
                 }
             };

@@ -183,5 +183,9 @@ export class TTEDContainer extends TObject
         if(objData.expData) {
             this.initFromExpData(objData.expData);
         }
+        if(objData.initState) {
+            if(this.StedExp)
+                this.StedExp.deSerializeObj(objData);
+        }
     }
 }

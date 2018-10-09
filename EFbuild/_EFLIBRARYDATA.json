@@ -879,6 +879,12 @@
 					}
 				},
 				"expt1Config": {
+					"exptStruct": {
+						"structData": "$EFO_STBL_A?_T?|exptStruct",
+						"templateRef": {
+							"STBL_A?_T?|exptStruct": "$EFM_TEDExptTopic.ontologyKey"
+						}
+					},
 					"tagData": {
 						"layoutsource": "$EFL_eftext.S8.Sexpt1",
 						"tag": [
@@ -896,6 +902,12 @@
 					}
 				},
 				"expt2Config": {
+					"exptStruct": {
+						"structData": "$EFO_STBL_A?_T?|exptStruct",
+						"templateRef": {
+							"STBL_A?_T?|exptStruct": "$EFM_TEDExptTopic.ontologyKey"
+						}
+					},
 					"tagData": {
 						"layoutsource": "$EFL_eftext.S8.Sexpt2",
 						"tag": [
@@ -1475,7 +1487,7 @@
 						"placeHolder": "{{$EFO_LV_PH1|name}}"
 					},
 					"T1": {
-						"description": "Crystal Growth",
+						"description": "Ice Melting",
 						"listdata": {
 							"options": [
 								{
@@ -1507,7 +1519,7 @@
 						}
 					},
 					"T2": {
-						"description": "Soda-Mint Reaction",
+						"description": "Balloon",
 						"listdata": {
 							"options": [
 								{
@@ -1561,7 +1573,7 @@
 						"placeHolder": "{{$EFO_LV_PH1|name}}"
 					},
 					"T1": {
-						"description": "Crystal Growth",
+						"description": "Ramps",
 						"listdata": {
 							"options": [
 								{
@@ -1593,7 +1605,7 @@
 						}
 					},
 					"T2": {
-						"description": "Soda-Mint Reaction",
+						"description": "Sinking",
 						"listdata": {
 							"options": [
 								{
@@ -1647,7 +1659,7 @@
 						"placeHolder": "{{$EFO_LV_PH1|name}}"
 					},
 					"T1": {
-						"description": "Crystal Growth",
+						"description": "Plant Reproduction - greenhouse",
 						"listdata": {
 							"options": [
 								{
@@ -1679,7 +1691,7 @@
 						}
 					},
 					"T2": {
-						"description": "Soda-Mint Reaction",
+						"description": "Algae growth",
 						"listdata": {
 							"options": [
 								{

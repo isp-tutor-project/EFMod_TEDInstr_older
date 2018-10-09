@@ -3,6 +3,7 @@ declare module "thermite/IExptTypes" {
     export interface exptVar {
         id: string;
         parent: string;
+        parentObj?: any;
         depth: number;
         variants: Array<string>;
     }
@@ -23,7 +24,7 @@ declare module "thermite/TMaterialIcon" {
         constructor();
         TMaterialIconInitialize(): void;
         initialize(): void;
-        private init3();
+        private init3;
         Destructor(): void;
         captureLogState(obj?: any): Object;
         captureXMLState(): any;
@@ -53,22 +54,18 @@ declare module "thermite/TTEDExpt" {
         constructor();
         TTEDExptInitialize(): void;
         initialize(): void;
-        private init3();
+        private init3;
         onCreate(): void;
         Destructor(): void;
         setContext(_hostModule: any, _ownerModule: any, _hostScene: any): void;
-        private calcDirectParentById(comClass);
-        private calcDirectParentByNdx(comNdx);
-        setState(variants: Array<string>): void;
-        private getSubComponent(target, com);
+        private setState;
+        private hideAll;
         showHighlight(...target: any[]): void;
         hideHighlight(...target: any[]): void;
         showCallOut(...target: any[]): void;
         hideCallOut(...target: any[]): void;
-        private seekToParent(ancestors, parent);
-        private hideTags();
-        private hideAll();
-        private initFromTagData(tagData);
+        private hideTags;
+        private initFromTagData;
         deSerializeObj(objData: any): void;
     }
 }
@@ -81,7 +78,7 @@ declare module "thermite/TTEDContainer" {
         constructor();
         TTEDContainerInitialize(): void;
         initialize(): void;
-        private init3();
+        private init3;
         onCreate(): void;
         Destructor(): void;
         setContext(_hostModule: any, _ownerModule: any, _hostScene: any): void;
@@ -89,9 +86,8 @@ declare module "thermite/TTEDContainer" {
         hideHighlight(...target: any[]): void;
         showCallOut(...target: any[]): void;
         hideCallOut(...target: any[]): void;
-        alpha: number;
-        private layoutExpComponent(component);
-        private initFromExpData(expData);
+        private layoutExpComponent;
+        private initFromExpData;
         deSerializeObj(objData: any): void;
     }
 }

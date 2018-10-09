@@ -1,11 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" lastModified="1538757806" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" lastModified="1539119184" lastUniqueIdentifier="9">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TNavPanel__Navigator">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC">
+        <DOMLayer name="Layer_2" color="#9933CC" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -53,13 +53,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask2" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Smask2" color="#FF800A" autoNamed="false" visible="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/contentFrame2" name="Smask2" selected="true">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/contentFrame2" name="Smask2">
                   <matrix>
-                    <Matrix tx="93.5" ty="72"/>
+                    <Matrix tx="93.5" ty="64.05"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="866.5" y="523.35"/>
@@ -69,7 +69,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask1" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="Smask1" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
