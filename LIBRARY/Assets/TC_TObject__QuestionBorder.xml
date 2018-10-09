@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/TC_TObject__QuestionBorder" itemID="5bac1487-0000096f" lastModified="1538004103">
+  <timeline>
+    <DOMTimeline name="TC_TObject__QuestionBorder">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="1303.95" objectHeight="80.1" x="304.55" y="364.35" selected="true" lockFlag="true" topLeftRadius="10" topRightRadius="10" bottomLeftRadius="10" bottomRightRadius="10">
+                  <matrix>
+                    <Matrix tx="-304.55" ty="-364.35"/>
+                  </matrix>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="3">
+                      <fill>
+                        <SolidColor color="#00FFFF"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

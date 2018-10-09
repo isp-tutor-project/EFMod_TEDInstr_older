@@ -277,7 +277,7 @@
                 },
                 "templateRef": {
                     "STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-                    "STBL_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+                    "S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
                 }
             },
             "scene2": {
@@ -286,7 +286,7 @@
                 },
                 "templateRef": {
                     "STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-                    "STBL_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+                    "S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
                 }
             },
             "scene3": {

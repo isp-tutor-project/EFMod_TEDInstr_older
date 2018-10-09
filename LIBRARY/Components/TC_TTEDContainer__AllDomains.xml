@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Components/TC_TTEDContainer__AllDomains" itemID="5bba6295-000028f0" lastModified="1539016481">
+  <timeline>
+    <DOMTimeline name="TC_TTEDContainer__AllDomains">
+      <layers>
+        <DOMLayer name="Region" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Components/TC_TVirtual__ExptRgn" name="ScontrolRegion">
+                  <matrix>
+                    <Matrix tx="-1" ty="-0.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="474.95" y="329.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

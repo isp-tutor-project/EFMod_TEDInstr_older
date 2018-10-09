@@ -170,7 +170,7 @@
 							"color": "rgb(0, 0, 0)"
 						}
 					},
-					"html": "\n            <p>Does the Temperature affect the rate of Crystal Growth</p>\n        "
+					"html": "\n            <p></p>\n        "
 				}
 			},
 			"STextBox2": {
@@ -195,7 +195,7 @@
 							"color": "rgb(0, 0, 0)"
 						}
 					},
-					"html": "\n            <p>Does the Temperature affect the rate of Crystal Growth</p>\n        "
+					"html": "\n            <p></p>\n        "
 				}
 			},
 			"S7": {
@@ -815,7 +815,7 @@
 				},
 				"templateRef": {
 					"STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-					"STBL_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+					"S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 				}
 			},
 			"scene2": {
@@ -824,7 +824,7 @@
 				},
 				"templateRef": {
 					"STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
-					"STBL_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+					"S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 				}
 			},
 			"scene3": {
@@ -1098,7 +1098,7 @@
 						"html": "{{$EFO_TED_E1_Q4P2|question1}}<br>{{$EFO_TED_E1_Q4P2|question2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4P2|question3}}"
 					},
 					"templateRef": {
-						"STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC1.ontologyKey"
+						"STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
 					}
 				},
 				"Sanswer": {

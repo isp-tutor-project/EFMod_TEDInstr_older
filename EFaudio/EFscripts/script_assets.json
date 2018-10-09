@@ -16,7 +16,7 @@
 								"fileid": "0",
 								"SSML": "First select an area of science in which you would like to work",
 								"cues": [],
-								"duration": 3290.375,
+								"duration": 3124.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -75,7 +75,7 @@
 								"fileid": "1c",
 								"SSML": "Forces and Motion",
 								"cues": [],
-								"duration": 1208.9166666666667,
+								"duration": 1112.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -182,7 +182,7 @@
 								"fileid": "1g",
 								"SSML": "Flower Reproduction",
 								"cues": [],
-								"duration": 1206.125,
+								"duration": 1319.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -514,7 +514,7 @@
 								"fileid": "1s",
 								"SSML": "Starting Position",
 								"cues": [],
-								"duration": 1195.9583333333333,
+								"duration": 1102.7916666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -538,7 +538,7 @@
 								"fileid": "1v",
 								"SSML": "Shape of Object",
 								"cues": [],
-								"duration": 1024.4583333333333,
+								"duration": 1200.9166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -586,7 +586,7 @@
 								"fileid": "1Bb",
 								"SSML": "Type of Water",
 								"cues": [],
-								"duration": 871.0833333333334,
+								"duration": 910.3333333333334,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -1385,7 +1385,7 @@
 								"fileid": "2",
 								"SSML": ". which values would you use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 3725.8333333333335,
+								"duration": 3600.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4454,7 +4454,7 @@
 								"fileid": "2",
 								"SSML": "affects the",
 								"cues": [],
-								"duration": 814.125,
+								"duration": 870.8333333333334,
 								"trim": 20,
 								"volume": 1
 							}
@@ -5387,7 +5387,7 @@
 								"fileid": "1t",
 								"SSML": "surface texture of the ramp",
 								"cues": [],
-								"duration": 1582,
+								"duration": 1656,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5411,7 +5411,7 @@
 								"fileid": "1w",
 								"SSML": "volume of the object",
 								"cues": [],
-								"duration": 1338.5,
+								"duration": 1244.7083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5518,7 +5518,7 @@
 								"fileid": "2d",
 								"SSML": "affects the gas temperature within the balloon after 30 minutes?",
 								"cues": [],
-								"duration": 3339.9166666666665,
+								"duration": 3091.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5635,7 +5635,7 @@
 								"fileid": "0a",
 								"SSML": "Another group of students need to find out whether the",
 								"cues": [],
-								"duration": 2724.75,
+								"duration": 2605.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -6379,7 +6379,7 @@
 								"fileid": "3g",
 								"SSML": "Twine",
 								"cues": [],
-								"duration": 517.25,
+								"duration": 559,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6507,7 +6507,7 @@
 								"fileid": "3w",
 								"SSML": "Short",
 								"cues": [],
-								"duration": 697.5833333333334,
+								"duration": 512.8333333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6555,7 +6555,7 @@
 								"fileid": "3Bc",
 								"SSML": "Full Sun",
 								"cues": [],
-								"duration": 785.5416666666666,
+								"duration": 825.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6563,7 +6563,7 @@
 								"fileid": "3Bd",
 								"SSML": "Partial Shade",
 								"cues": [],
-								"duration": 892,
+								"duration": 975.7083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6603,7 +6603,7 @@
 								"fileid": "3Bi",
 								"SSML": "Yellow",
 								"cues": [],
-								"duration": 564.8333333333334,
+								"duration": 611.7083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6723,7 +6723,7 @@
 								"fileid": "3Bx",
 								"SSML": "Whole Hive",
 								"cues": [],
-								"duration": 874.7916666666666,
+								"duration": 779.2083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -13853,7 +13853,7 @@
 								"fileid": "2a",
 								"SSML": "may either be the same or different across conditions.",
 								"cues": [],
-								"duration": 2814.8333333333335,
+								"duration": 2691.2083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14934,7 +14934,7 @@
 								"fileid": "5d",
 								"SSML": "Gas temperature",
 								"cues": [],
-								"duration": 1120.875,
+								"duration": 1036.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -15619,7 +15619,7 @@
 								"fileid": "4a",
 								"SSML": "caused a greater",
 								"cues": [],
-								"duration": 961.375,
+								"duration": 1002.5416666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -16747,10 +16747,10 @@
 									{
 										"name": "a",
 										"offset": 0.2608695652173913,
-										"relTime": 160.83695652173913
+										"relTime": 169.69565217391303
 									}
 								],
-								"duration": 616.5416666666666,
+								"duration": 650.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17769,7 +17769,7 @@
 								"fileid": "2b",
 								"SSML": "to be different across conditions.",
 								"cues": [],
-								"duration": 1895.0416666666667,
+								"duration": 1743.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18753,7 +18753,7 @@
 								"fileid": "0b",
 								"SSML": "The students made the",
 								"cues": [],
-								"duration": 1114,
+								"duration": 1218.4166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19392,7 +19392,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2563.4583333333335,
+								"duration": 2688.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19400,7 +19400,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2427.75,
+								"duration": 2397.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19561,7 +19561,7 @@
 								"fileid": "0a",
 								"SSML": "Actually the same",
 								"cues": [],
-								"duration": 1111.125,
+								"duration": 1227.4166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19839,7 +19839,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2563.4583333333335,
+								"duration": 2688.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20285,7 +20285,7 @@
 								"fileid": "2a",
 								"SSML": "the same across conditions.",
 								"cues": [],
-								"duration": 1568.875,
+								"duration": 1676.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20654,7 +20654,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2688.125,
+								"duration": 2563.4583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -22531,7 +22531,7 @@
 								"fileid": "2a",
 								"SSML": "all also could cause a difference in the",
 								"cues": [],
-								"duration": 1940.8333333333333,
+								"duration": 2029.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24382,7 +24382,7 @@
 								"fileid": "0a",
 								"SSML": "Click next when you've completed you're selections",
 								"cues": [],
-								"duration": 2477.2083333333335,
+								"duration": 2302.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25130,7 +25130,7 @@
 								"fileid": "4a",
 								"SSML": "it has to be because of the different",
 								"cues": [],
-								"duration": 1621.4166666666667,
+								"duration": 1797.6666666666667,
 								"trim": 0,
 								"volume": 1
 							}

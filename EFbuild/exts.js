@@ -229,4 +229,98 @@ System.register("thermite/TTEDExpt", ["thermite/TObject", "util/CUtil"], functio
         }
     };
 });
+System.register("thermite/TTEDContainer", ["thermite/TObject", "util/CUtil"], function (exports_4, context_4) {
+    "use strict";
+    var __moduleName = context_4 && context_4.id;
+    var TObject_3, CUtil_3, TTEDContainer;
+    return {
+        setters: [
+            function (TObject_3_1) {
+                TObject_3 = TObject_3_1;
+            },
+            function (CUtil_3_1) {
+                CUtil_3 = CUtil_3_1;
+            }
+        ],
+        execute: function () {
+            TTEDContainer = class TTEDContainer extends TObject_3.TObject {
+                constructor() {
+                    super();
+                    this.init3();
+                }
+                TTEDContainerInitialize() {
+                    this.TObjectInitialize.call(this);
+                    this.init3();
+                }
+                initialize() {
+                    this.TObjectInitialize.call(this);
+                    this.init3();
+                }
+                init3() {
+                    this.traceMode = true;
+                    if (this.traceMode)
+                        CUtil_3.CUtil.trace("TTEDContainer:Constructor");
+                }
+                onCreate() {
+                    super.onCreate();
+                    this.StedExp.onCreate();
+                }
+                Destructor() {
+                    super.Destructor();
+                }
+                setContext(_hostModule, _ownerModule, _hostScene) {
+                    super.setContext(_hostModule, _ownerModule, _hostScene);
+                }
+                showHighlight(...target) {
+                    this.StedExp.showHighlight(target);
+                }
+                hideHighlight(...target) {
+                    this.StedExp.hideHighlight(target);
+                }
+                showCallOut(...target) {
+                    this.StedExp.showCallOut(target);
+                }
+                hideCallOut(...target) {
+                    this.StedExp.hideCallOut(target);
+                }
+                set alpha(value) {
+                    super.alpha = value;
+                    if (this.StedExp) {
+                        if (value != 1 && value != 0)
+                            console.log(`Sexpt1 alpha change: ${value}`);
+                    }
+                }
+                layoutExpComponent(component) {
+                    let mat = this.getConcatenatedDisplayProps(this._props).matrix;
+                    let txForm = mat.decompose();
+                    txForm.x += this.nominalBounds.x * txForm.scaleX;
+                    txForm.y += this.nominalBounds.y * txForm.scaleY;
+                    component.setTransform(txForm.x, txForm.y, txForm.scaleX, txForm.scaleY, txForm.rotation, txForm.skewX, txForm.skewY);
+                    component.alpha = this.alpha;
+                }
+                initFromExpData(expData) {
+                    let expClass = this.hostScene.resolveTemplates(expData.class, expData.templateRef);
+                    let modClass = expClass.split(".");
+                    this.StedExp = CUtil_3.CUtil.instantiateThermiteObject(modClass[0], modClass[1]);
+                    if (this.StedExp) {
+                        this.addChild(this.StedExp);
+                        CUtil_3.CUtil.initSceneTick(this.StedExp);
+                        if (expData.initData) {
+                            this.StedExp.setContext(this.hostModule, this.ownerModule, this.hostScene);
+                            this.StedExp.deSerializeObj(expData.initData);
+                        }
+                    }
+                }
+                deSerializeObj(objData) {
+                    super.deSerializeObj(objData);
+                    console.log("deserializing: TED Experiment Custom Control");
+                    if (objData.expData) {
+                        this.initFromExpData(objData.expData);
+                    }
+                }
+            };
+            exports_4("TTEDContainer", TTEDContainer);
+        }
+    };
+});
 //# sourceMappingURL=exts.js.map

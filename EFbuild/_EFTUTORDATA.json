@@ -256,6 +256,7 @@
 				"T1": {
 					"id": "",
 					"name": "Crystal Growth",
+					"expclass": "EFMod_Crystal.TEDExpt",
 					"V1": {
 						"id": "Svar1",
 						"name": "Water Temperature",
@@ -316,6 +317,7 @@
 				"T2": {
 					"id": "",
 					"name": "Soda-Mint Reaction",
+					"expclass": "EFMod_Soda.TEDExpt",
 					"V1": {
 						"id": "Svar1",
 						"name": "Type of Sweetener",
@@ -380,6 +382,7 @@
 				"T1": {
 					"id": "",
 					"name": "Melting of Ice",
+					"expclass": "EFMod_IceMelt.TEDExpt",
 					"V1": {
 						"id": "",
 						"name": "Initial Ice Temperature",
@@ -440,6 +443,7 @@
 				"T2": {
 					"id": "",
 					"name": "Temperature of a Gas",
+					"expclass": "EFMod_Balloon.TEDExpt",
 					"V1": {
 						"id": "Svar1",
 						"name": "Balloon Color",
@@ -504,6 +508,7 @@
 				"T1": {
 					"id": "",
 					"name": "Inclined Planes",
+					"expclass": "EFMod_Ramps.TEDExpt",
 					"V1": {
 						"id": "",
 						"name": "Slope",
@@ -564,6 +569,7 @@
 				"T2": {
 					"id": "",
 					"name": "Sinking Objects",
+					"expclass": "EFMod_Sinking.TEDExpt",
 					"V1": {
 						"id": "Svar1",
 						"name": "Density of Water",
@@ -628,6 +634,7 @@
 				"T1": {
 					"id": "",
 					"name": "Flower Reproduction",
+					"expclass": "EFMod_GrHouse.TEDExpt",
 					"V1": {
 						"id": "",
 						"name": "Number of Bees",
@@ -688,6 +695,7 @@
 				"T2": {
 					"id": "",
 					"name": "Algae Growth",
+					"expclass": "EFMod_Algae.TEDExpt",
 					"V1": {
 						"id": "Svar1",
 						"name": "Water Temperature",
@@ -1552,10 +1560,26 @@
 			"datasource": "$EFL_efdata.scene8.scenePrompt"
 		},
 		"Sexpt1": {
-			"datasource": "$EFL_efdata.scene8.expt1Config"
+			"expData": {
+				"class": "{{$EFO_STBL_A?_T?|expclass}}",
+				"templateRef": {
+					"STBL_A?_T?|expclass": "$EFM_TEDExptTopic.ontologyKey"
+				},
+				"initData": {
+					"datasource": "$EFL_efdata.scene8.expt1Config"
+				}
+			}
 		},
 		"Sexpt2": {
-			"datasource": "$EFL_efdata.scene8.expt2Config"
+			"expData": {
+				"class": "{{$EFO_STBL_A?_T?|expclass}}",
+				"templateRef": {
+					"STBL_A?_T?|expclass": "$EFM_TEDExptTopic.ontologyKey"
+				},
+				"initData": {
+					"datasource": "$EFL_efdata.scene8.expt2Config"
+				}
+			}
 		}
 	},
 	"SScene9": {

@@ -6,10 +6,26 @@
             "datasource": "$EFL_efdata.scene8.scenePrompt"           
         },
         "Sexpt1": {
-            "datasource": "$EFL_efdata.scene8.expt1Config"           
+            "expData":{
+                "class":"{{$EFO_STBL_A?_T?|expclass}}",
+                "templateRef": {
+                    "STBL_A?_T?|expclass":"$EFM_TEDExptTopic.ontologyKey"
+                },
+                "initData": {
+                    "datasource": "$EFL_efdata.scene8.expt1Config"           
+                }
+            }
         },
-        "Sexpt2": {            
-            "datasource": "$EFL_efdata.scene8.expt2Config"           
+        "Sexpt2": {
+            "expData":{
+                "class":"{{$EFO_STBL_A?_T?|expclass}}",
+                "templateRef": {
+                    "STBL_A?_T?|expclass":"$EFM_TEDExptTopic.ontologyKey"
+                },
+                "initData": {
+                    "datasource": "$EFL_efdata.scene8.expt2Config"           
+                }
+            }
         }
     }
 }

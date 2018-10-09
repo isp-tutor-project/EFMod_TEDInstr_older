@@ -72,3 +72,26 @@ declare module "thermite/TTEDExpt" {
         deSerializeObj(objData: any): void;
     }
 }
+declare module "thermite/TTEDContainer" {
+    import { TObject } from "thermite/TObject";
+    import { TVirtual } from "thermite/TVirtual";
+    export class TTEDContainer extends TObject {
+        private StedExp;
+        protected ScontrolRegion: TVirtual;
+        constructor();
+        TTEDContainerInitialize(): void;
+        initialize(): void;
+        private init3();
+        onCreate(): void;
+        Destructor(): void;
+        setContext(_hostModule: any, _ownerModule: any, _hostScene: any): void;
+        showHighlight(...target: any[]): void;
+        hideHighlight(...target: any[]): void;
+        showCallOut(...target: any[]): void;
+        hideCallOut(...target: any[]): void;
+        alpha: number;
+        private layoutExpComponent(component);
+        private initFromExpData(expData);
+        deSerializeObj(objData: any): void;
+    }
+}
