@@ -338,6 +338,58 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
     }
 }
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
+    class SScene18 {
+        [key: string]: any;
+        $preCreateScene(): void;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): void;
+        $handleEvent(compID: string): void;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
+    class SScene19 {
+        [key: string]: any;
+        $preCreateScene(): void;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): void;
+        $handleEvent(compID: string): void;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene1a {
         [key: string]: any;
         $onCreateScene(): void;
@@ -376,6 +428,58 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         $logScene(): void;
         $rewindScene(): void;
         $resolveTemplate(templID: string): any;
+        $handleEvent(compID: string): void;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
+    class SScene20 {
+        [key: string]: any;
+        $preCreateScene(): void;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): void;
+        $handleEvent(compID: string): void;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
+    }
+}
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
+    class SScene21 {
+        [key: string]: any;
+        $preCreateScene(): void;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preExitScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): void;
         $handleEvent(compID: string): void;
         $nodePreEnter(nodeId: string): void;
         $nodePreExit(nodeId: string): void;

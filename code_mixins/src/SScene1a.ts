@@ -214,6 +214,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     this.addFeature("FTR_VECTOR4");
                     this.addFeature("FTR_TEDEXP2");
                     break;
+
+                case "Sbutton5":
+                    this.addFeature("FTR_VECTOR5");
+                    this.addFeature("FTR_TEDEXP2");
+                    break;
             }
 
             switch(target) {
@@ -221,6 +226,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                 case "Sbutton2":
                 case "Sbutton3":
                 case "Sbutton4":
+                case "Sbutton5":
 
                     this.nextTrack("$onAction:" + target + " : " + this.graphState);
                     break;

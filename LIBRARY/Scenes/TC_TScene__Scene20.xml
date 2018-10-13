@@ -1,0 +1,85 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene20" itemID="5bbe1be2-0000036a" linkageExportForAS="true" linkageClassName="TC_TScene__Scene20" lastModified="1539188131">
+  <timeline>
+    <DOMTimeline name="TC_TScene__Scene20">
+      <layers>
+        <DOMLayer name="STable1" color="#FF800A" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STable1">
+                  <matrix>
+                    <Matrix a="8.33949279785156" d="3.03999328613281" tx="543.05" ty="450.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="QBorder" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TObject__QuestionBorder" name="QBorder">
+                  <matrix>
+                    <Matrix a="0.892242431640625" d="1.35133361816406" tx="378.3" ty="146.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="652.05" y="40.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Squestion" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion">
+                  <matrix>
+                    <Matrix a="11.4498748779297" d="0.837814331054688" tx="387.5" ty="158.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.5" y="50.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Sanswer" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlList1__CustomList1" name="Sanswer" selected="true">
+                  <matrix>
+                    <Matrix a="14.82568359375" d="0.67999267578125" tx="222.4" ty="302.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.25" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" locked="true" outline="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn" name="SBoundry">
+                  <transformationPoint>
+                    <Point x="960" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

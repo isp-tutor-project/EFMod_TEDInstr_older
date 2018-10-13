@@ -16,10 +16,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         
         public $preCreateScene() {
             
-            this.connectNavButton(CONST.NEXTSCENE, "Snext");
-            this.showHideNavButton(CONST.PREVSCENE, CONST.HIDE);
-            this.$("hide","Smask1");
-            this.setNavigationTarget(CONST.NAVSCENE);    
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
 
             // let AChosen = this.setModuleValue("selectedArea.index",3);
             // let TChosen = this.setModuleValue("selectedTopic.index",2);

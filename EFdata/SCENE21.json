@@ -1,0 +1,10 @@
+{
+    "_MODULEDATA":"v1.0.0",
+    "SScene21": {
+        "STextBox1": {
+            "layoutsource":"$EFL_eftext.STextBox1",
+            "datasource": "$EFL_efdata.scene21.summary",
+            "fontSize":45
+        }
+    }
+}

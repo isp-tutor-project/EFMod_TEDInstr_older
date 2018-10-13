@@ -324,7 +324,7 @@
 				"en": {
 					"node": "IVALCORRECT",
 					"html": "<emphasis level='strong'>You're right!</emphasis> Anything you're not testing should be kept the same between the two conditions.",
-					"text": "You're right! Anything you're not testing should be kept the same between the two conditions.",
+					"text": "<emphasis level='strong'>You're right!</emphasis> Anything you're not testing should be kept the same between the two conditions.",
 					"volume": [
 						1
 					],
@@ -1750,6 +1750,212 @@
 						0,
 						0,
 						0,
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene18": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "Now you will design experiments on your own.",
+					"html": "{{$EFO_TED_POST_INTRO|part1}}",
+					"text": "{{$EFO_TED_POST_INTRO|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene19": {
+		"tracks": {
+			"track1a": {
+				"en": {
+					"node": "First, design an experiment that will let you find out for...",
+					"html": "{{$EFO_TED_POST_E|part1a}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_POST_E|part1a}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track1": {
+				"en": {
+					"node": "Design an experiment that will let you find out for...",
+					"html": "{{$EFO_TED_POST_E|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_POST_E|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "You can change...",
+					"html": "{{$EFO_TED_POST_E|part3}}",
+					"text": "{{$EFO_TED_POST_E|part3}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "I want to see what you learned so...",
+					"html": "{{$EFO_TED_POST_E|part4}}",
+					"text": "{{$EFO_TED_POST_E|part4}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track4": {
+				"en": {
+					"node": "When you’re done working...",
+					"html": "{{$EFO_TED_POST_E|part5}}",
+					"text": "{{$EFO_TED_POST_E|part5}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene20": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "Explain why you designed ...",
+					"html": "{{$EFO_TED_POST_Q|part1}}",
+					"text": "{{$EFO_TED_POST_Q|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SScene21": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "TED Summary statement.",
+					"html": "{{$EFO_TED_POST_SUMMARY|part1}}",
+					"text": "{{$EFO_TED_POST_SUMMARY|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "TED Summary statement.",
+					"html": "{{$EFO_TED_POST_SUMMARY|part2}}",
+					"text": "{{$EFO_TED_POST_SUMMARY|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "TED Summary statement.",
+					"html": "{{$EFO_TED_POST_SUMMARY|part3}}",
+					"text": "{{$EFO_TED_POST_SUMMARY|part3}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
 						0
 					],
 					"templates": {}

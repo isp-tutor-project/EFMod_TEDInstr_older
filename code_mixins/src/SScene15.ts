@@ -66,6 +66,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $nodePreExit(nodeId:string) {
 
+            switch(nodeId) {
+                case "root": 
+                this.STblExp1.reifyTable();
+                break;
+            }
+
         }
 
         public $nodeAction(actionId:string) : void {
@@ -179,7 +185,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                             break;
                         case "$end":
                             break;
-
 
                         case "a":
                             this.STblExp1.showCells(3, NTV1row, 3, NTV1row);

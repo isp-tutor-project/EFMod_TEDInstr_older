@@ -44,6 +44,11 @@
                 "Sanswer": {
                     "src": "$$EFX.html_list_std"
                 }
+            },
+            "S20": {
+                "Sanswer": {
+                    "src": "$$EFX.html_list_std"
+                }
             }
 
         },
@@ -220,22 +225,20 @@
                 },
 
             "S15":  {
-                "Stitle": 
-                    {
-                        "id": "A",
-                        "src": "$$EFX.html_text2",
-                        "default": true,
-                        "fontSize":40
-                    },
                 "Squestion": 
                     {
-                        "id": "A",
+                        "src": "$$EFX.html_text2"
+                    }
+                },
+                
+            "S20":  {
+                "Squestion": 
+                    {
                         "src": "$$EFX.html_text2",
-                        "default": true,
                         "fontSize":40
                     }
                 }
-                
+
 
         },
         "efinput": {},
@@ -747,11 +750,16 @@
             "scene15": {
                 "scenePrompt": {
                     "htmlData":{
-                        "html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}</p>"
+                        "html": "<p>Research Question:<br>Does the{{$EFO_S_A?_T?_RQ?|ExpSelected}}affect the{{$EFO_S_A?_T?|DVs}}<br><br></p>"
                     },
                     "templateRef": {
 						"S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
 						"S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey"
+                    }
+                },
+                "Squestion": {
+                    "htmlData":{
+                        "html": "{{$EFO_TED_E1_Q7|question}}"
                     }
                 }
             },
@@ -824,6 +832,83 @@
                             }
                         ],
                         "placeHolder": "{{$EFO_STBL_PH1|name}}"
+                    }
+                }
+            },
+            "scene18": {
+                "htmlData":{
+                    "html":"{{$EFO_TED_POST_INTRO|question}}"
+                }
+            },
+            "scene19": {
+                "htmlData":{
+                    "html": "{{$EFO_TED_POST_E|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}</p>"
+                },
+                "templateRef": {
+                    "STBL_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
+                    "S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+                }
+            },
+            "scene20": {
+                "Squestion": {
+                    "htmlData":{
+                        "html": "{{$EFO_TED_POST_Q|question}}"
+                    }
+                },
+                "Sanswer": {
+                    "listdata": {
+                        "options": [
+                            {
+                                "name": "{{$EFO_TED_E1_LISTQ56|ans1}}",
+                                "value": "$EFL_efdata.TED.E1.LISTQ56",
+                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "index":1,
+                                "id": "1"
+                            },
+                            {
+                                "name": "{{$EFO_TED_E1_LISTQ56|ans2}}",
+                                "value": "$EFL_efdata.TED.E1.LISTQ56",
+                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "index":2,
+                                "id": "2"
+                            },
+                            {
+                                "name": "{{$EFO_TED_E1_LISTQ56|ans3}}",
+                                "value": "$EFL_efdata.TED.E1.LISTQ56",
+                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "index":3,
+                                "id": "3"
+                            },
+                            {
+                                "name": "{{$EFO_TED_E1_LISTQ56|ans4}}",
+                                "value": "$EFL_efdata.TED.E1.LISTQ56",
+                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "index":4,
+                                "id": "4"
+                            },
+                            {
+                                "name": "{{$EFO_TED_E1_LISTQ56|ans5}}",
+                                "value": "$EFL_efdata.TED.E1.LISTQ56",
+                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "index":5,
+                                "id": "5"
+                            },
+                            {
+                                "name": "{{$EFO_TED_E1_LISTQ56|ans6}}",
+                                "value": "$EFL_efdata.TED.E1.LISTQ56",
+                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "index":6,
+                                "id": "6"
+                            }
+                        ],
+                        "placeHolder": "{{$EFO_STBL_PH1|name}}"
+                    }
+                }
+            },
+            "scene21": {
+                "summary": {
+                    "htmlData":{
+                        "html": "{{$EFO_TED_POST_SUMMARY|summary}}"
                     }
                 }
             },

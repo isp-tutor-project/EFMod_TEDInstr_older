@@ -34,7 +34,7 @@
 					"comment": "scene9  ********************",
 					"part1": "Think about the students' problem, and the experiment that they designed.",
 					"part2": "Is this a good way to design the experiment?",
-					"question": "<p>Is this a good way to design an experiment?</p>"
+					"question": "<p>Is this a good way to design the experiment?</p>"
 				},
 				"Q2": {
 					"comment": "scene10  ********************",
@@ -116,7 +116,8 @@
 					"part4": "is different across conditions, it could cause a difference in the results.",
 					"part5": "Could the way they have set up each of these other variables cause there to be a difference in the",
 					"part6": "between conditions?",
-					"part7": "Make a selection for each of the other variables. Click next when you've completed you're selections"
+					"part7": "Make a selection for each of the other variables. Click next when you've completed you're selections",
+					"question": "Based on how each variable is set up across conditions, is it possible that the variable could cause a difference?"
 				},
 				"Q7NC1SAME": {
 					"part1": "They have set the",
@@ -198,6 +199,35 @@
 					"part5": "then you could know that the",
 					"part6": "does not matter. So from this experiment, you would be able to find out whether or not the",
 					"part7": "causes a difference in the result."
+				}
+			},
+			"POST": {
+				"INTRO": {
+					"comment": "scene18 ********************",
+					"part1": "Let's see how you design experiments on your own. You’ll design four experiments.",
+					"question": "<p>Set up experiments on your own now!</p>"
+				},
+				"E": {
+					"comment": "scene19 ********************",
+					"part1a": "First, design an experiment that will let you find out for sure whether or not the",
+					"part1": "Design an experiment that will let you find out for sure whether or not the",
+					"part2": "affects the",
+					"part3": "You can change part of the experiment by simply clicking in the table.",
+					"part4": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
+					"part5": "When you’re done working, click the next button.",
+					"question": "<p>Set up experiments on your own now!</p>"
+				},
+				"Q": {
+					"comment": "scene20 ********************",
+					"part1": "Explain why you designed your experiment the way that you did.",
+					"question": "<p>Explain why you designed your experiment the way that you did.</p>"
+				},
+				"SUMMARY": {
+					"comment": "scene21 ********************",
+					"part1": "The skills you have learned in this lesson can be applied any time you set up any experiment, in any domain.",
+					"part2": "That is, anytime you set up an experiment, you need to make everything the same except for the one variable you are testing.",
+					"part3": "This way, only that one variable you are testing can cause the result.",
+					"summary": "<p>The skills you have learned in this lesson can be applied any time you set up any experiment, in any domain.<br><br>That is, anytime you set up an experiment, you need to make everything the same except for the one variable you are testing.<br><br>This way, only that one variable you are testing can cause the result.</p>"
 				}
 			}
 		},
@@ -1754,7 +1784,12 @@
 		"STextBox1": {
 			"layoutsource": "$EFL_eftext.STextBox1",
 			"datasource": "$EFL_efdata.scene15.scenePrompt",
-			"fontSize": 65
+			"fontSize": 45
+		},
+		"Squestion": {
+			"layoutsource": "$EFL_eftext.S15.Squestion",
+			"datasource": "$EFL_efdata.scene15.Squestion",
+			"fontSize": 60
 		},
 		"STblExp1": {
 			"layoutsource": "$EFL_eftable.STblExp1",
@@ -1789,6 +1824,24 @@
 			"fontSize": 24
 		}
 	},
+	"SScene18": {
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scene18",
+			"fontSize": 45
+		}
+	},
+	"SScene19": {
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scene19",
+			"fontSize": 65
+		},
+		"STable1": {
+			"layoutsource": "$EFL_eftable.STable1",
+			"fontSize": 27
+		}
+	},
 	"SScene1a": {
 		"SListBox1": {
 			"layoutsource": "$EFL_eflist.SListBox1",
@@ -1808,7 +1861,8 @@
 		"Sbutton1": {},
 		"Sbutton2": {},
 		"Sbutton3": {},
-		"Sbutton4": {}
+		"Sbutton4": {},
+		"Sbutton5": {}
 	},
 	"SScene2": {
 		"STextBox1": {
@@ -1819,6 +1873,28 @@
 		"STable1": {
 			"layoutsource": "$EFL_eftable.STable1",
 			"fontSize": 24
+		}
+	},
+	"SScene20": {
+		"Squestion": {
+			"layoutsource": "$EFL_eftext.S20.Squestion",
+			"datasource": "$EFL_efdata.scene20.Squestion"
+		},
+		"Sanswer": {
+			"layoutsource": "$EFL_eflist.S20.Sanswer",
+			"datasource": "$EFL_efdata.scene20.Sanswer",
+			"fontSize": 35
+		},
+		"STable1": {
+			"layoutsource": "$EFL_eftable.STable1",
+			"fontSize": 27
+		}
+	},
+	"SScene21": {
+		"STextBox1": {
+			"layoutsource": "$EFL_eftext.STextBox1",
+			"datasource": "$EFL_efdata.scene21.summary",
+			"fontSize": 45
 		}
 	},
 	"SScene3": {

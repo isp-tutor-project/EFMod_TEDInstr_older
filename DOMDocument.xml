@@ -6,12 +6,12 @@
           <DOMFolderItem name="_HTMLControls/TC_THtmlList__Assets" itemID="5b5cea4b-000003ab"/>
           <DOMFolderItem name="_HTMLControls/TC_THtmlTable__Assets" itemID="5b5f40d8-000002e3"/>
           <DOMFolderItem name="_HTMLControls/TC_THtmlText__Assets" itemID="5b5cd7c7-000002d7"/>
-          <DOMFolderItem name="_Tutor Global Assets_" itemID="5ad4e635-00000a48" isExpanded="true"/>
+          <DOMFolderItem name="_Tutor Global Assets_" itemID="5ad4e635-00000a48"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components" itemID="5b6f403c-000003c9"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets" itemID="5b68a267-00000548"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons" itemID="532c6375-000002d1"/>
-          <DOMFolderItem name="_Tutor Global Scenes" itemID="5b6f465c-000004be" isExpanded="true"/>
-          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e"/>
+          <DOMFolderItem name="_Tutor Global Scenes" itemID="5b6f465c-000004be"/>
+          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e" isExpanded="true"/>
           <DOMFolderItem name="Components" itemID="5bba5717-0000274a"/>
           <DOMFolderItem name="Components/Expt Assets" itemID="5ba82286-00002697"/>
           <DOMFolderItem name="Exports" itemID="5b60aa1c-0000045f" isExpanded="true"/>
@@ -19,7 +19,7 @@
           <DOMFolderItem name="Scene Assets/TC_TScene__SignIn" itemID="5ae3761f-00000407"/>
           <DOMFolderItem name="Scene Assets/TC_TScene__SoundCheck" itemID="5ae37625-00000409"/>
           <DOMFolderItem name="Scene Assets/TC_TScene_HeadPhoneCheck" itemID="5ae37622-00000408"/>
-          <DOMFolderItem name="Scenes" itemID="5b40f2ba-000002e0"/>
+          <DOMFolderItem name="Scenes" itemID="5b40f2ba-000002e0" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="Assets/Bitmap 14" itemID="5b87155f-0000037f" sourceLastImported="1535579487" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Bitmap 14" bitmapDataHRef="M 14 1535579487.dat" frameRight="5340" frameBottom="7060"/>
@@ -78,10 +78,11 @@
           <Include href="_Tutor Global Scenes/TC_TScene__HeadPhoneCheck.xml" loadImmediate="false" itemID="5ae37628-0000040b" lastModified="1524856360"/>
           <Include href="_Tutor Global Scenes/TC_TScene__SignIn.xml" loadImmediate="false" itemID="5ae3762f-0000040c" lastModified="1524856367"/>
           <Include href="_Tutor Global Scenes/TC_TScene__SoundCheck.xml" loadImmediate="false" itemID="5ae37634-0000040d" lastModified="1534016097"/>
-          <Include href="Assets/TC_TButton__S7VectorA.xml" itemIcon="0" loadImmediate="false" itemID="5bb792de-000007cf" lastModified="1538759743"/>
-          <Include href="Assets/TC_TButton__S7VectorB.xml" itemIcon="0" loadImmediate="false" itemID="5bb792e5-000007d4" lastModified="1538759754"/>
-          <Include href="Assets/TC_TButton__S15VectorA.xml" itemIcon="0" loadImmediate="false" itemID="5bb792dc-000007ce" lastModified="1538759765"/>
-          <Include href="Assets/TC_TButton__S15VectorB.xml" itemIcon="0" loadImmediate="false" itemID="5bb792eb-000007d8" lastModified="1538759784"/>
+          <Include href="Assets/TC_TButton__S7VectorA.xml" itemIcon="0" loadImmediate="false" itemID="5bb792de-000007cf" lastModified="1539271241"/>
+          <Include href="Assets/TC_TButton__S7VectorB.xml" itemIcon="0" loadImmediate="false" itemID="5bb792e5-000007d4" lastModified="1539271248"/>
+          <Include href="Assets/TC_TButton__S15VectorA.xml" itemIcon="0" loadImmediate="false" itemID="5bb792dc-000007ce" lastModified="1539271252"/>
+          <Include href="Assets/TC_TButton__S15VectorB.xml" itemIcon="0" loadImmediate="false" itemID="5bb792eb-000007d8" lastModified="1539271258"/>
+          <Include href="Assets/TC_TButton__S18Vector.xml" itemIcon="0" loadImmediate="false" itemID="5bbe1cef-00000384" lastModified="1539271908"/>
           <Include href="Assets/TC_TObject__QuestionBorder.xml" loadImmediate="false" itemID="5bac1487-0000096f" lastModified="1538004103"/>
           <Include href="Assets/TC_TObject__StudentIcon1.xml" loadImmediate="false" itemID="5bb54c24-00000320" lastModified="1538608164"/>
           <Include href="Assets/TC_TObject__StudentIcon2.xml" loadImmediate="false" itemID="5bb54c33-00000326" lastModified="1538608179"/>
@@ -94,17 +95,21 @@
           <Include href="Scene Assets/TC_TScene__SignIn/IconSignIn.xml" loadImmediate="false" itemID="5ae36986-00000383" lastModified="1524853134"/>
           <Include href="Scenes/TC_TScene__EndCloak.xml" itemID="5b6378be-00000669" lastModified="1538757932"/>
           <Include href="Scenes/TC_TScene__Scene1.xml" itemID="5b6f4696-000004c8" lastModified="1538431258"/>
-          <Include href="Scenes/TC_TScene__Scene1a.xml" itemID="5b788299-0000047c" lastModified="1538759680"/>
+          <Include href="Scenes/TC_TScene__Scene1a.xml" itemID="5b788299-0000047c" lastModified="1539186678"/>
           <Include href="Scenes/TC_TScene__Scene2.xml" itemID="5b6f4963-000004fb" lastModified="1538331182"/>
           <Include href="Scenes/TC_TScene__Scene3.xml" itemID="5b6f4a5e-00000520" lastModified="1538608170"/>
           <Include href="Scenes/TC_TScene__Scene4.xml" itemID="5b87151f-0000037d" lastModified="1538608179"/>
-          <Include href="Scenes/TC_TScene__Scene5.xml" itemID="5b87169f-00000384" lastModified="1538331188"/>
+          <Include href="Scenes/TC_TScene__Scene5.xml" itemID="5b87169f-00000384" lastModified="1539185641"/>
           <Include href="Scenes/TC_TScene__Scene6.xml" itemID="5b8716a6-00000393" lastModified="1538331192"/>
-          <Include href="Scenes/TC_TScene__Scene15.xml" itemID="5bafd8d5-00000d6a" lastModified="1538435960"/>
+          <Include href="Scenes/TC_TScene__Scene15.xml" itemID="5bafd8d5-00000d6a" lastModified="1539272203"/>
           <Include href="Scenes/TC_TScene__Scene16.xml" itemID="5bb234bc-00001031" lastModified="1538511145"/>
           <Include href="Scenes/TC_TScene__Scene17.xml" itemID="5bb234ca-00001044" lastModified="1538511209"/>
+          <Include href="Scenes/TC_TScene__Scene18.xml" itemID="5bbe1bab-0000033e" lastModified="1539195331"/>
+          <Include href="Scenes/TC_TScene__Scene19.xml" itemID="5bbe1bb6-00000354" lastModified="1539188189"/>
+          <Include href="Scenes/TC_TScene__Scene20.xml" itemID="5bbe1be2-0000036a" lastModified="1539188131"/>
+          <Include href="Scenes/TC_TScene__Scene21.xml" itemID="5bbe1ff0-000003f6" lastModified="1539188123"/>
           <Include href="Scenes/TC_TScene__TEDQ1Intro.xml" itemID="5bbba7dc-000037b9" lastModified="1539024860"/>
-          <Include href="Scenes/TC_TScene__TEDQuest1.xml" itemID="5baeab6b-00000879" lastModified="1538941697"/>
+          <Include href="Scenes/TC_TScene__TEDQuest1.xml" itemID="5baeab6b-00000879" lastModified="1539185731"/>
           <Include href="Scenes/TC_TScene__TEDQuest1AB.xml" itemID="5baead2d-000008f0" lastModified="1538941710"/>
           <Include href="Scenes/TC_TScene__TEDQuest4.xml" itemID="5baeabae-000008c4" lastModified="1538941723"/>
           <Include href="Scenes/TC_TScene__TEDQuest4A.xml" itemID="5bb66a4a-00000614" lastModified="1538941738"/>

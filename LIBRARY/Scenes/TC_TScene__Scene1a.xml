@@ -1,41 +1,73 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1a" itemID="5b788299-0000047c" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1a" lastModified="1538759680">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1a" itemID="5b788299-0000047c" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1a" lastModified="1539186678">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TScene__Scene1a">
       <layers>
-        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+        <DOMLayer name="Sbutton4" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TButton__S15VectorB" name="Sbutton4" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1157.05" ty="707.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TButton__S18Vector" name="Sbutton5" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1157.05" ty="894.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Sbutton3" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TButton__S15VectorA" name="Sbutton3" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1157.05" ty="507.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Sbutton2" color="#FF0000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TButton__S7VectorB" name="Sbutton2" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1157.05" ty="307.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Sbutton1" color="#669900" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/TC_TButton__S7VectorA" name="Sbutton1" symbolType="button">
                   <matrix>
-                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1172.05" ty="167.4"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TButton__S7VectorB" name="Sbutton2" symbolType="button">
-                  <matrix>
-                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1172.05" ty="367.45"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TButton__S15VectorA" name="Sbutton3" symbolType="button">
-                  <matrix>
-                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1172.05" ty="567.5"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TButton__S15VectorB" name="Sbutton4" symbolType="button">
-                  <matrix>
-                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1172.05" ty="767.55"/>
+                    <Matrix a="0.864349365234375" d="0.864349365234375" tx="1157.05" ty="107.4"/>
                   </matrix>
                   <transformationPoint>
                     <Point/>

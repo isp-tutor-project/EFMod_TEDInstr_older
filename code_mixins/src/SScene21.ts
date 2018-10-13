@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_TEDInstr {
 
-    export class SScene17 {
+    export class SScene21 {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -30,8 +30,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $preExitScene() {
         }
 
-        public $preShowScene() {            
-            this.STblExp1.reifyTable();             
+        public $preShowScene() {                         
         }        
 
         public $preHideScene() {            
@@ -84,11 +83,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(trackID) {
 
-                case "track2":
+                case "track1":
                     switch(cueID) {                        
-                        case "$start":
-                            this.setSceneValue("complete", false); 
-                            break;
                         case "$end":
                             this.setSceneValue("complete", true); 
                             break;
@@ -121,11 +117,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
 
         public $onSelect(target:string) {            
-
-            let NCarray  = this.getModuleValue("TEDFeatureFocus");                
-            let complete = 0;
-
-            this.setSceneValue("complete", true); 
         }
 
 

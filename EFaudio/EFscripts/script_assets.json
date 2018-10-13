@@ -59,7 +59,7 @@
 								"fileid": "1a",
 								"SSML": "Physical and Chemical Changes",
 								"cues": [],
-								"duration": 1764.2083333333333,
+								"duration": 1859.9166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -123,7 +123,7 @@
 								"fileid": "0",
 								"SSML": "Now select a target variable for the topic",
 								"cues": [],
-								"duration": 2550.4583333333335,
+								"duration": 2605.4166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -230,7 +230,7 @@
 								"fileid": "0",
 								"SSML": "You may modify your selection before continuing. Otherwise select a section of the tutor you wish to start at, or click next to begin the tutor from the beginning.",
 								"cues": [],
-								"duration": 8315.791666666666,
+								"duration": 8047.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -359,7 +359,7 @@
 								"fileid": "0",
 								"SSML": "Now choose the",
 								"cues": [],
-								"duration": 1032.5,
+								"duration": 922.25,
 								"trim": -20,
 								"volume": 1
 							}
@@ -370,7 +370,7 @@
 								"fileid": "1a",
 								"SSML": "Water Temperature",
 								"cues": [],
-								"duration": 1153.5833333333333,
+								"duration": 1128.875,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -386,7 +386,7 @@
 								"fileid": "1c",
 								"SSML": "Seed Crystal Size",
 								"cues": [],
-								"duration": 1447.1666666666667,
+								"duration": 1372.5833333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -618,7 +618,7 @@
 								"fileid": "1Bf",
 								"SSML": "Sunlight Exposure",
 								"cues": [],
-								"duration": 1372.8333333333333,
+								"duration": 1289.8333333333333,
 								"trim": 0,
 								"volume": 0.7
 							}
@@ -899,7 +899,7 @@
 								"fileid": "4",
 								"SSML": "affects the,",
 								"cues": [],
-								"duration": 870.8333333333334,
+								"duration": 814.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1045,7 +1045,7 @@
 								"fileid": "0",
 								"SSML": "Actually, that is incorrect. Please try again.",
 								"cues": [],
-								"duration": 3352.5,
+								"duration": 2998.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1385,7 +1385,7 @@
 								"fileid": "2",
 								"SSML": ". which values would you use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 3600.7916666666665,
+								"duration": 3725.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3123,7 +3123,7 @@
 								"fileid": "0",
 								"SSML": "Finally select which",
 								"cues": [],
-								"duration": 1449.9166666666667,
+								"duration": 1292.3333333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3933,7 +3933,7 @@
 								"fileid": "6",
 								"SSML": "has an effect on the",
 								"cues": [],
-								"duration": 1218.6666666666667,
+								"duration": 1062.4166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4132,7 +4132,7 @@
 				"en": {
 					"node": "IVALCORRECT",
 					"html": "<emphasis level='strong'>You're right!</emphasis> Anything you're not testing should be kept the same between the two conditions.",
-					"text": "You're right! Anything you're not testing should be kept the same between the two conditions.",
+					"text": "<emphasis level='strong'>You're right!</emphasis> Anything you're not testing should be kept the same between the two conditions.",
 					"volume": [
 						1
 					],
@@ -4142,9 +4142,9 @@
 							"templateVar": "__novar",
 							"__novar": {
 								"fileid": "0",
-								"SSML": "You're right! Anything you're not testing should be kept the same between the two conditions.",
+								"SSML": "<emphasis level='strong'>You're right!</emphasis> Anything you're not testing should be kept the same between the two conditions.",
 								"cues": [],
-								"duration": 4837.916666666667,
+								"duration": 4976.708333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4924,7 +4924,7 @@
 								"fileid": "2",
 								"SSML": "can cause any difference you find in the result.",
 								"cues": [],
-								"duration": 2429.9166666666665,
+								"duration": 2286.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5114,7 +5114,7 @@
 								"fileid": "0",
 								"SSML": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help. If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly.",
 								"cues": [],
-								"duration": 11110.833333333334,
+								"duration": 10973.083333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5224,7 +5224,7 @@
 								"fileid": "0a",
 								"SSML": "In the first experiment, Some students need to find out whether the",
 								"cues": [],
-								"duration": 3587.5,
+								"duration": 3339.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5243,7 +5243,7 @@
 								"fileid": "1b",
 								"SSML": "type of crystal",
 								"cues": [],
-								"duration": 949.3333333333334,
+								"duration": 1018.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5347,7 +5347,7 @@
 								"fileid": "1o",
 								"SSML": "amount of sunlight exposure the balloon gets",
 								"cues": [],
-								"duration": 2682.75,
+								"duration": 2561.3333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5387,7 +5387,7 @@
 								"fileid": "1t",
 								"SSML": "surface texture of the ramp",
 								"cues": [],
-								"duration": 1582,
+								"duration": 1656,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5443,7 +5443,7 @@
 								"fileid": "1Ba",
 								"SSML": "type of water",
 								"cues": [],
-								"duration": 910.3333333333334,
+								"duration": 871.0833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5526,7 +5526,7 @@
 								"fileid": "2e",
 								"SSML": "affects the speed of the ball at the bottom of the ramp?",
 								"cues": [],
-								"duration": 2495.5416666666665,
+								"duration": 2497.8333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5550,7 +5550,7 @@
 								"fileid": "2h",
 								"SSML": "affects the weight of the algae growth after one week?",
 								"cues": [],
-								"duration": 2689.875,
+								"duration": 2521.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5635,7 +5635,7 @@
 								"fileid": "0a",
 								"SSML": "Another group of students need to find out whether the",
 								"cues": [],
-								"duration": 2605.625,
+								"duration": 2724.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -6403,7 +6403,7 @@
 								"fileid": "3j",
 								"SSML": "Sugar-Free",
 								"cues": [],
-								"duration": 941.5,
+								"duration": 898.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6499,7 +6499,7 @@
 								"fileid": "3v",
 								"SSML": "no Pattern",
 								"cues": [],
-								"duration": 872.7916666666666,
+								"duration": 770.4583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6555,7 +6555,7 @@
 								"fileid": "3Bc",
 								"SSML": "Full Sun",
 								"cues": [],
-								"duration": 825.75,
+								"duration": 785.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6651,7 +6651,7 @@
 								"fileid": "3Bo",
 								"SSML": "Plain Water",
 								"cues": [],
-								"duration": 815.5833333333334,
+								"duration": 837.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6699,7 +6699,7 @@
 								"fileid": "3Bu",
 								"SSML": "Glass",
 								"cues": [],
-								"duration": 605.0416666666666,
+								"duration": 589.2916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6731,7 +6731,7 @@
 								"fileid": "3By",
 								"SSML": "Full Sun",
 								"cues": [],
-								"duration": 825.75,
+								"duration": 785.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6795,7 +6795,7 @@
 								"fileid": "3Cg",
 								"SSML": "Constant Music",
 								"cues": [],
-								"duration": 1162.25,
+								"duration": 1024.4166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -13526,7 +13526,7 @@
 								"fileid": "0a",
 								"SSML": "Is this a good way to design the experiment?",
 								"cues": [],
-								"duration": 2079.375,
+								"duration": 2256.5416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13662,7 +13662,7 @@
 								"fileid": "0a",
 								"SSML": "<p>Why did you say it was not a good way?</p>",
 								"cues": [],
-								"duration": 1852.25,
+								"duration": 1949.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13853,7 +13853,7 @@
 								"fileid": "2a",
 								"SSML": "may either be the same or different across conditions.",
 								"cues": [],
-								"duration": 2691.2083333333335,
+								"duration": 2814.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15619,7 +15619,7 @@
 								"fileid": "4a",
 								"SSML": "caused a greater",
 								"cues": [],
-								"duration": 961.375,
+								"duration": 1002.5416666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17491,7 +17491,7 @@
 								"fileid": "0b",
 								"SSML": "They have set the",
 								"cues": [],
-								"duration": 924.9166666666666,
+								"duration": 808.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17761,7 +17761,7 @@
 								"fileid": "2a",
 								"SSML": "to be the same across conditions.",
 								"cues": [],
-								"duration": 1794.25,
+								"duration": 1894.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -17769,7 +17769,7 @@
 								"fileid": "2b",
 								"SSML": "to be different across conditions.",
 								"cues": [],
-								"duration": 1895.0416666666667,
+								"duration": 1743.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18138,7 +18138,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2427.75,
+								"duration": 2397.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18585,7 +18585,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2397.2916666666665,
+								"duration": 2427.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18753,7 +18753,7 @@
 								"fileid": "0b",
 								"SSML": "The students made the",
 								"cues": [],
-								"duration": 1218.4166666666667,
+								"duration": 1114,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19569,7 +19569,7 @@
 								"fileid": "0b",
 								"SSML": "Actually the different",
 								"cues": [],
-								"duration": 1190,
+								"duration": 1361.9583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26018,7 +26018,7 @@
 								"fileid": "12a",
 								"SSML": "causes a difference in the result.",
 								"cues": [],
-								"duration": 1750.4583333333333,
+								"duration": 1677.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26105,6 +26105,1140 @@
 						},
 						"$EFO_TED_E1_SUMMARY|part7": {
 							"TEDE1SUMMARYpart7": "causes a difference in the result."
+						}
+					}
+				}
+			}
+		}
+	},
+	"SScene18": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "Now you will design experiments on your own.",
+					"html": "{{$EFO_TED_POST_INTRO|part1}}",
+					"text": "{{$EFO_TED_POST_INTRO|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_INTRO|part1",
+							"TEDPOSTINTROpart1": {
+								"fileid": "0a",
+								"SSML": "Let's see how you design experiments on your own. You’ll design four experiments.",
+								"cues": [],
+								"duration": 5025.5,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_INTRO|part1": {
+							"TEDPOSTINTROpart1": "Let's see how you design experiments on your own. You’ll design four experiments."
+						}
+					}
+				}
+			}
+		}
+	},
+	"SScene19": {
+		"tracks": {
+			"track1a": {
+				"en": {
+					"node": "First, design an experiment that will let you find out for...",
+					"html": "{{$EFO_TED_POST_E|part1a}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_POST_E|part1a}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_E|part1a",
+							"TEDPOSTEpart1a": {
+								"fileid": "0a",
+								"SSML": "First, design an experiment that will let you find out for sure whether or not the",
+								"cues": [],
+								"duration": 4318.166666666667,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_STBL_A?_T?_V?|name",
+							"STBLA1T1V1name": {
+								"fileid": "1a",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T1V2name": {
+								"fileid": "1b",
+								"SSML": "Crystal Type",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T1V3name": {
+								"fileid": "1c",
+								"SSML": "Seed Crystal Size",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T1V4name": {
+								"fileid": "1d",
+								"SSML": "Type of String",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T2V1name": {
+								"fileid": "1e",
+								"SSML": "Type of Sweetener",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T2V2name": {
+								"fileid": "1f",
+								"SSML": "Amount of Caffeine",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T2V3name": {
+								"fileid": "1g",
+								"SSML": "Texture of Mint",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T2V4name": {
+								"fileid": "1h",
+								"SSML": "Amount of CO2",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T1V1name": {
+								"fileid": "1i",
+								"SSML": "Initial Ice Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T1V2name": {
+								"fileid": "1j",
+								"SSML": "Initial Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T1V3name": {
+								"fileid": "1k",
+								"SSML": "Pattern on Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T1V4name": {
+								"fileid": "1l",
+								"SSML": "Shape of Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V1name": {
+								"fileid": "1m",
+								"SSML": "Balloon Color",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V2name": {
+								"fileid": "1n",
+								"SSML": "Balloon Material",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V3name": {
+								"fileid": "1o",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V4name": {
+								"fileid": "1p",
+								"SSML": "Type of Chair",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T1V1name": {
+								"fileid": "1q",
+								"SSML": "Slope",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T1V2name": {
+								"fileid": "1r",
+								"SSML": "Color of Ball",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T1V3name": {
+								"fileid": "1s",
+								"SSML": "Starting Position",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T1V4name": {
+								"fileid": "1t",
+								"SSML": "Ramp Surface",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T2V1name": {
+								"fileid": "1u",
+								"SSML": "Density of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T2V2name": {
+								"fileid": "1v",
+								"SSML": "Shape of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T2V3name": {
+								"fileid": "1w",
+								"SSML": "Volume of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T2V4name": {
+								"fileid": "1x",
+								"SSML": "Density of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T1V1name": {
+								"fileid": "1y",
+								"SSML": "Number of Bees",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T1V2name": {
+								"fileid": "1z",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T1V3name": {
+								"fileid": "1Ba",
+								"SSML": "Amount of Fertilizer",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T1V4name": {
+								"fileid": "1Bb",
+								"SSML": "Type of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T2V1name": {
+								"fileid": "1Bc",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T2V2name": {
+								"fileid": "1Bd",
+								"SSML": "Amount of Music",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T2V3name": {
+								"fileid": "1Be",
+								"SSML": "CO2 in Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T2V4name": {
+								"fileid": "1Bf",
+								"SSML": "Sunlight Exposure",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_TED_POST_E|part2",
+							"TEDPOSTEpart2": {
+								"fileid": "2a",
+								"SSML": "affects the",
+								"cues": [],
+								"duration": 870.8333333333334,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_S_A?_T?|DVs",
+							"SA1T1DVs": {
+								"fileid": "3a",
+								"SSML": "weight of the crystal growth on the string after two weeks.",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2DVs": {
+								"fileid": "3b",
+								"SSML": "height of the soda geyser",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1DVs": {
+								"fileid": "3c",
+								"SSML": "time it takes for the ice cube to melt in water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2DVs": {
+								"fileid": "3d",
+								"SSML": "gas temperature within balloon after 30 minutes",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1DVs": {
+								"fileid": "3e",
+								"SSML": "speed of the ball at the bottom of the ramp",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2DVs": {
+								"fileid": "3f",
+								"SSML": "time it takes for objects to sink in water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1DVs": {
+								"fileid": "3g",
+								"SSML": "number of seeds produced by the flowers at the end of the season",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2DVs": {
+								"fileid": "3h",
+								"SSML": "weight of the algae growth after one week",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_E|part1a": {
+							"TEDPOSTEpart1a": "First, design an experiment that will let you find out for sure whether or not the"
+						},
+						"$EFO_STBL_A?_T?_V?|name": {
+							"STBLA1T1V1name": "Water Temperature",
+							"STBLA1T1V2name": "Crystal Type",
+							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V4name": "Type of String",
+							"STBLA1T2V1name": "Type of Sweetener",
+							"STBLA1T2V2name": "Amount of Caffeine",
+							"STBLA1T2V3name": "Texture of Mint",
+							"STBLA1T2V4name": "Amount of CO2",
+							"STBLA2T1V1name": "Initial Ice Temperature",
+							"STBLA2T1V2name": "Initial Water Temperature",
+							"STBLA2T1V3name": "Pattern on Glass",
+							"STBLA2T1V4name": "Shape of Glass",
+							"STBLA2T2V1name": "Balloon Color",
+							"STBLA2T2V2name": "Balloon Material",
+							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V4name": "Type of Chair",
+							"STBLA3T1V1name": "Slope",
+							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V3name": "Starting Position",
+							"STBLA3T1V4name": "Ramp Surface",
+							"STBLA3T2V1name": "Density of Water",
+							"STBLA3T2V2name": "Shape of Object",
+							"STBLA3T2V3name": "Volume of Object",
+							"STBLA3T2V4name": "Density of Object",
+							"STBLA4T1V1name": "Number of Bees",
+							"STBLA4T1V2name": "Amount of Sunlight",
+							"STBLA4T1V3name": "Amount of Fertilizer",
+							"STBLA4T1V4name": "Type of Water",
+							"STBLA4T2V1name": "Water Temperature",
+							"STBLA4T2V2name": "Amount of Music",
+							"STBLA4T2V3name": "CO2 in Water",
+							"STBLA4T2V4name": "Sunlight Exposure"
+						},
+						"$EFO_TED_POST_E|part2": {
+							"TEDPOSTEpart2": "affects the"
+						},
+						"$EFO_S_A?_T?|DVs": {
+							"SA1T1DVs": "weight of the crystal growth on the string after two weeks.",
+							"SA1T2DVs": "height of the soda geyser",
+							"SA2T1DVs": "time it takes for the ice cube to melt in water",
+							"SA2T2DVs": "gas temperature within balloon after 30 minutes",
+							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
+							"SA3T2DVs": "time it takes for objects to sink in water",
+							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
+							"SA4T2DVs": "weight of the algae growth after one week"
+						}
+					}
+				}
+			},
+			"track1": {
+				"en": {
+					"node": "Design an experiment that will let you find out for...",
+					"html": "{{$EFO_TED_POST_E|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_POST_E|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"templateRef": {
+						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
+						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
+					},
+					"volume": [
+						1,
+						1,
+						1,
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_E|part1",
+							"TEDPOSTEpart1": {
+								"fileid": "0a",
+								"SSML": "Design an experiment that will let you find out for sure whether or not the",
+								"cues": [],
+								"duration": 3825.5833333333335,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_STBL_A?_T?_V?|name",
+							"STBLA1T1V1name": {
+								"fileid": "1a",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T1V2name": {
+								"fileid": "1b",
+								"SSML": "Crystal Type",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T1V3name": {
+								"fileid": "1c",
+								"SSML": "Seed Crystal Size",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T1V4name": {
+								"fileid": "1d",
+								"SSML": "Type of String",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T2V1name": {
+								"fileid": "1e",
+								"SSML": "Type of Sweetener",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T2V2name": {
+								"fileid": "1f",
+								"SSML": "Amount of Caffeine",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T2V3name": {
+								"fileid": "1g",
+								"SSML": "Texture of Mint",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA1T2V4name": {
+								"fileid": "1h",
+								"SSML": "Amount of CO2",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T1V1name": {
+								"fileid": "1i",
+								"SSML": "Initial Ice Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T1V2name": {
+								"fileid": "1j",
+								"SSML": "Initial Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T1V3name": {
+								"fileid": "1k",
+								"SSML": "Pattern on Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T1V4name": {
+								"fileid": "1l",
+								"SSML": "Shape of Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V1name": {
+								"fileid": "1m",
+								"SSML": "Balloon Color",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V2name": {
+								"fileid": "1n",
+								"SSML": "Balloon Material",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V3name": {
+								"fileid": "1o",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V4name": {
+								"fileid": "1p",
+								"SSML": "Type of Chair",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T1V1name": {
+								"fileid": "1q",
+								"SSML": "Slope",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T1V2name": {
+								"fileid": "1r",
+								"SSML": "Color of Ball",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T1V3name": {
+								"fileid": "1s",
+								"SSML": "Starting Position",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T1V4name": {
+								"fileid": "1t",
+								"SSML": "Ramp Surface",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T2V1name": {
+								"fileid": "1u",
+								"SSML": "Density of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T2V2name": {
+								"fileid": "1v",
+								"SSML": "Shape of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T2V3name": {
+								"fileid": "1w",
+								"SSML": "Volume of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA3T2V4name": {
+								"fileid": "1x",
+								"SSML": "Density of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T1V1name": {
+								"fileid": "1y",
+								"SSML": "Number of Bees",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T1V2name": {
+								"fileid": "1z",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T1V3name": {
+								"fileid": "1Ba",
+								"SSML": "Amount of Fertilizer",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T1V4name": {
+								"fileid": "1Bb",
+								"SSML": "Type of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T2V1name": {
+								"fileid": "1Bc",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T2V2name": {
+								"fileid": "1Bd",
+								"SSML": "Amount of Music",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T2V3name": {
+								"fileid": "1Be",
+								"SSML": "CO2 in Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA4T2V4name": {
+								"fileid": "1Bf",
+								"SSML": "Sunlight Exposure",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_TED_POST_E|part2",
+							"TEDPOSTEpart2": {
+								"fileid": "2a",
+								"SSML": "affects the",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_S_A?_T?|DVs",
+							"SA1T1DVs": {
+								"fileid": "3a",
+								"SSML": "weight of the crystal growth on the string after two weeks.",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2DVs": {
+								"fileid": "3b",
+								"SSML": "height of the soda geyser",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1DVs": {
+								"fileid": "3c",
+								"SSML": "time it takes for the ice cube to melt in water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2DVs": {
+								"fileid": "3d",
+								"SSML": "gas temperature within balloon after 30 minutes",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1DVs": {
+								"fileid": "3e",
+								"SSML": "speed of the ball at the bottom of the ramp",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2DVs": {
+								"fileid": "3f",
+								"SSML": "time it takes for objects to sink in water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1DVs": {
+								"fileid": "3g",
+								"SSML": "number of seeds produced by the flowers at the end of the season",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2DVs": {
+								"fileid": "3h",
+								"SSML": "weight of the algae growth after one week",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0,
+						0,
+						0,
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_E|part1": {
+							"TEDPOSTEpart1": "Design an experiment that will let you find out for sure whether or not the"
+						},
+						"$EFO_STBL_A?_T?_V?|name": {
+							"STBLA1T1V1name": "Water Temperature",
+							"STBLA1T1V2name": "Crystal Type",
+							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V4name": "Type of String",
+							"STBLA1T2V1name": "Type of Sweetener",
+							"STBLA1T2V2name": "Amount of Caffeine",
+							"STBLA1T2V3name": "Texture of Mint",
+							"STBLA1T2V4name": "Amount of CO2",
+							"STBLA2T1V1name": "Initial Ice Temperature",
+							"STBLA2T1V2name": "Initial Water Temperature",
+							"STBLA2T1V3name": "Pattern on Glass",
+							"STBLA2T1V4name": "Shape of Glass",
+							"STBLA2T2V1name": "Balloon Color",
+							"STBLA2T2V2name": "Balloon Material",
+							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V4name": "Type of Chair",
+							"STBLA3T1V1name": "Slope",
+							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V3name": "Starting Position",
+							"STBLA3T1V4name": "Ramp Surface",
+							"STBLA3T2V1name": "Density of Water",
+							"STBLA3T2V2name": "Shape of Object",
+							"STBLA3T2V3name": "Volume of Object",
+							"STBLA3T2V4name": "Density of Object",
+							"STBLA4T1V1name": "Number of Bees",
+							"STBLA4T1V2name": "Amount of Sunlight",
+							"STBLA4T1V3name": "Amount of Fertilizer",
+							"STBLA4T1V4name": "Type of Water",
+							"STBLA4T2V1name": "Water Temperature",
+							"STBLA4T2V2name": "Amount of Music",
+							"STBLA4T2V3name": "CO2 in Water",
+							"STBLA4T2V4name": "Sunlight Exposure"
+						},
+						"$EFO_TED_POST_E|part2": {
+							"TEDPOSTEpart2": "affects the"
+						},
+						"$EFO_S_A?_T?|DVs": {
+							"SA1T1DVs": "weight of the crystal growth on the string after two weeks.",
+							"SA1T2DVs": "height of the soda geyser",
+							"SA2T1DVs": "time it takes for the ice cube to melt in water",
+							"SA2T2DVs": "gas temperature within balloon after 30 minutes",
+							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
+							"SA3T2DVs": "time it takes for objects to sink in water",
+							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
+							"SA4T2DVs": "weight of the algae growth after one week"
+						}
+					}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "You can change...",
+					"html": "{{$EFO_TED_POST_E|part3}}",
+					"text": "{{$EFO_TED_POST_E|part3}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_E|part3",
+							"TEDPOSTEpart3": {
+								"fileid": "0a",
+								"SSML": "You can change part of the experiment by simply clicking in the table.",
+								"cues": [],
+								"duration": 3534.5,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_E|part3": {
+							"TEDPOSTEpart3": "You can change part of the experiment by simply clicking in the table."
+						}
+					}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "I want to see what you learned so...",
+					"html": "{{$EFO_TED_POST_E|part4}}",
+					"text": "{{$EFO_TED_POST_E|part4}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_E|part4",
+							"TEDPOSTEpart4": {
+								"fileid": "0a",
+								"SSML": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
+								"cues": [],
+								"duration": 5004.958333333333,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_E|part4": {
+							"TEDPOSTEpart4": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong."
+						}
+					}
+				}
+			},
+			"track4": {
+				"en": {
+					"node": "When you’re done working...",
+					"html": "{{$EFO_TED_POST_E|part5}}",
+					"text": "{{$EFO_TED_POST_E|part5}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_E|part5",
+							"TEDPOSTEpart5": {
+								"fileid": "0a",
+								"SSML": "When you’re done working, click the next button.",
+								"cues": [],
+								"duration": 2401.0833333333335,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_E|part5": {
+							"TEDPOSTEpart5": "When you’re done working, click the next button."
+						}
+					}
+				}
+			}
+		}
+	},
+	"SScene20": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "Explain why you designed ...",
+					"html": "{{$EFO_TED_POST_Q|part1}}",
+					"text": "{{$EFO_TED_POST_Q|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_Q|part1",
+							"TEDPOSTQpart1": {
+								"fileid": "0a",
+								"SSML": "Explain why you designed your experiment the way that you did.",
+								"cues": [],
+								"duration": 3030.7916666666665,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_Q|part1": {
+							"TEDPOSTQpart1": "Explain why you designed your experiment the way that you did."
+						}
+					}
+				}
+			}
+		}
+	},
+	"SScene21": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"node": "TED Summary statement.",
+					"html": "{{$EFO_TED_POST_SUMMARY|part1}}",
+					"text": "{{$EFO_TED_POST_SUMMARY|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_SUMMARY|part1",
+							"TEDPOSTSUMMARYpart1": {
+								"fileid": "0a",
+								"SSML": "The skills you have learned in this lesson can be applied any time you set up any experiment, in any domain.",
+								"cues": [],
+								"duration": 5246.791666666667,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_SUMMARY|part1": {
+							"TEDPOSTSUMMARYpart1": "The skills you have learned in this lesson can be applied any time you set up any experiment, in any domain."
+						}
+					}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "TED Summary statement.",
+					"html": "{{$EFO_TED_POST_SUMMARY|part2}}",
+					"text": "{{$EFO_TED_POST_SUMMARY|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_SUMMARY|part2",
+							"TEDPOSTSUMMARYpart2": {
+								"fileid": "0a",
+								"SSML": "That is, anytime you set up an experiment, you need to make everything the same except for the one variable you are testing.",
+								"cues": [],
+								"duration": 6242.583333333333,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_SUMMARY|part2": {
+							"TEDPOSTSUMMARYpart2": "That is, anytime you set up an experiment, you need to make everything the same except for the one variable you are testing."
+						}
+					}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "TED Summary statement.",
+					"html": "{{$EFO_TED_POST_SUMMARY|part3}}",
+					"text": "{{$EFO_TED_POST_SUMMARY|part3}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_SUMMARY|part3",
+							"TEDPOSTSUMMARYpart3": {
+								"fileid": "0a",
+								"SSML": "This way, only that one variable you are testing can cause the result.",
+								"cues": [],
+								"duration": 3608.125,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_SUMMARY|part3": {
+							"TEDPOSTSUMMARYpart3": "This way, only that one variable you are testing can cause the result."
 						}
 					}
 				}

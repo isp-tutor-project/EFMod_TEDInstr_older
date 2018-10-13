@@ -68,12 +68,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // Scene State methods
         //
 
+
         public $queryFinished() : boolean {             
 
             let stateComplete:boolean = true;
             return  stateComplete; 
         }
 
+        
 		public $updateNav() : void {
 
 			// Update the Navigation
@@ -104,9 +106,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             let TV = (((VChosen + offNewTV) % 4) + 1);
             console.log("new TV: " + TV);
 
-            // Generate array of indices to non target variables
+            // Generate array of indices to non-target variables NTV
             // 
             let NTV:Array<number> = [1,2,3,4];
+            let numVar = 4;
 
             NTV.splice(TV-1, 1);
 
@@ -151,6 +154,18 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                 this.setModuleValue(name + `VarNC${ndx+1}`, {"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${NTV[ndx]}`, "index": NTV[ndx]});
             }
 
+            // Generate array of indices to Post-Test variable sequence - start with CHOSEN Target Variable and increment and wrap
+            // 
+            let PTV:Array<any> = [];
+            for(let ndx = 0 ; ndx < numVar ; ndx++) {
+
+                let varNdx = (((VChosen + ndx) % 4) + 1);
+
+                PTV.push({"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${varNdx}`, "index": varNdx});
+            }
+            this.setModuleValue(name + "POSTSequence", PTV);
+
+
             // initialize the values for the table entries - set the values all the same initially then confound the desired entries
             // Note that we always set them to variant A
             // 
@@ -187,6 +202,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                 }
             }
 
+            this.addFeature("FTR_POST1");
             this.delFeature(CONST.FTRS_ALL, CONST.VAR_FTR);
             this.addFeaturebyQuery(`S_A${this.getModuleValue(name + "Area.index")}_T${this.getModuleValue(name + "Topic.index")}|features`, EFMod_TEDInstr.CONST.VAR_FTR);            
         }        

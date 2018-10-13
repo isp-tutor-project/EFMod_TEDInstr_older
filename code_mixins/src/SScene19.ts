@@ -2,7 +2,7 @@
 
 namespace EFTut_Suppl.EFMod_TEDInstr {
 
-    export class SScene17 {
+    export class SScene19 {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -15,9 +15,15 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         //
         
         public $preCreateScene() {
+
+            let PTVarray = this.getModuleValue("TEDExptPOSTSequence"); 
+
+            this.setModuleValue("TEDExptPOSTTV", PTVarray.shift());
         }
 
-        public $onCreateScene() {                    
+        public $onCreateScene() {                 
+            this.STable1.listenToCells("change", 1,1,2,4);
+
         }
 
         public $onEnterScene() {
@@ -28,10 +34,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
 
         public $preExitScene() {
+            this.delFeature("FTR_POST1");
         }
 
-        public $preShowScene() {            
-            this.STblExp1.reifyTable();             
+        public $preShowScene() {                         
         }        
 
         public $preHideScene() {            
@@ -84,16 +90,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(trackID) {
 
-                case "track2":
-                    switch(cueID) {                        
-                        case "$start":
-                            this.setSceneValue("complete", false); 
-                            break;
-                        case "$end":
-                            this.setSceneValue("complete", true); 
-                            break;
-                    }
-                    break;
             }
         }
 
@@ -122,10 +118,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $onSelect(target:string) {            
 
-            let NCarray  = this.getModuleValue("TEDFeatureFocus");                
-            let complete = 0;
+            let result = this.STable1.cellsHaveValues(1,1,2,4);
 
-            this.setSceneValue("complete", true); 
+            this.setSceneValue("complete", result); 
         }
 
 

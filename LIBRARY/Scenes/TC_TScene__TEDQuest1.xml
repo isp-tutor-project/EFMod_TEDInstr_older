@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__TEDQuest1" itemID="5baeab6b-00000879" linkageExportForAS="true" linkageClassName="TC_TScene__TEDQuest1" lastModified="1538941697">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__TEDQuest1" itemID="5baeab6b-00000879" linkageExportForAS="true" linkageClassName="TC_TScene__TEDQuest1" lastModified="1539185731">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -24,47 +24,39 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_6" color="#FF0000">
+        <DOMLayer name="QBorder" color="#009999" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup>
-                  <members>
-                    <DOMSymbolInstance libraryItemName="Assets/TC_TObject__QuestionBorder" selected="true">
-                      <matrix>
-                        <Matrix a="0.6602783203125" tx="529.55" ty="213.3"/>
-                      </matrix>
-                      <transformationPoint>
-                        <Point x="652" y="40.05"/>
-                      </transformationPoint>
-                    </DOMSymbolInstance>
-                  </members>
-                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Assets/TC_TObject__QuestionBorder" name="QBorder" selected="true">
+                  <matrix>
+                    <Matrix a="0.6602783203125" tx="529.55" ty="213.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="652" y="40.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_9" color="#00FFFF">
+        <DOMLayer name="Squestion" color="#669900" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup>
-                  <members>
-                    <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion" selected="true">
-                      <matrix>
-                        <Matrix a="8.4730224609375" d="0.6199951171875" tx="536.35" ty="222"/>
-                      </matrix>
-                      <transformationPoint>
-                        <Point x="49.5" y="50.1"/>
-                      </transformationPoint>
-                    </DOMSymbolInstance>
-                  </members>
-                </DOMGroup>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion" selected="true">
+                  <matrix>
+                    <Matrix a="8.4730224609375" d="0.6199951171875" tx="536.35" ty="222"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.5" y="50.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Sexpt2" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Sexpt2" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -100,7 +92,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlList1__CustomList1" name="Sanswer">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlList1__CustomList1" name="Sanswer" selected="true">
                   <matrix>
                     <Matrix a="9.90000915527344" d="0.67999267578125" tx="465" ty="310"/>
                   </matrix>
