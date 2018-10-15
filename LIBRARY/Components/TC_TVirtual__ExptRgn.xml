@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Components/TC_TVirtual__ExptRgn" itemID="5bba4384-00002307" lastModified="1538933636">
+  <timeline>
+    <DOMTimeline name="TC_TVirtual__ExptRgn">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="949.95" objectHeight="658.95" x="-1" y="-0.95" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="1" ty="0.95"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#66FFFF" alpha="0.988235294117647"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

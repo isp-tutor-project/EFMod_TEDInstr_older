@@ -1,0 +1,18 @@
+{
+    "_MODULEDATA":"v1.0.0",
+    "SScene20": {
+        "Squestion": {
+            "layoutsource":"$EFL_eftext.S20.Squestion",
+            "datasource": "$EFL_efdata.scene20.Squestion"           
+        },
+        "Sanswer": {
+            "layoutsource":"$EFL_eflist.S20.Sanswer",
+            "datasource": "$EFL_efdata.scene20.Sanswer",
+            "fontSize":35
+        },        
+        "STable1": {
+            "layoutsource":"$EFL_eftable.STable1",
+            "fontSize":27
+        }
+    }
+}

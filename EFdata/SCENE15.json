@@ -4,7 +4,12 @@
         "STextBox1": {
             "layoutsource":"$EFL_eftext.STextBox1",
             "datasource": "$EFL_efdata.scene15.scenePrompt",
-            "fontSize":65
+            "fontSize":45
+        },
+        "Squestion": {
+            "layoutsource":"$EFL_eftext.S15.Squestion",
+            "datasource": "$EFL_efdata.scene15.Squestion",
+            "fontSize":60
         },
         "STblExp1": {
             "layoutsource":"$EFL_eftable.STblExp1",

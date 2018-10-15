@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextover" itemID="5bbe84ba-00000485" lastModified="1539212474">
+  <timeline>
+    <DOMTimeline name="TC_TObject__navnextover">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMOvalObject objectWidth="171.95" objectHeight="171.95" x="-53" y="-74" selected="true" endAngle="0">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="128.05" ty="119"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="10.6">
+                      <fill>
+                        <SolidColor color="#EEEEEE"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMOvalObject>
+                <DOMRectangleObject objectWidth="98" objectHeight="33.2" x="-95" y="-5.2" selected="true" lockFlag="true">
+                  <matrix>
+                    <Matrix tx="95" ty="75.05"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMDynamicText selected="true" fontRenderingMode="standard" width="100" height="28.2" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="2" ty="71.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>NEXT</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="28.2" size="20" bitmapSize="400" face="Arial-Black" fillColor="#D6D6D6"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonOver" selected="true" centerPoint3DX="150" centerPoint3DY="86">
+                  <matrix>
+                    <Matrix a="0" b="-1" c="1" d="0" tx="129.05" ty="125.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="39.2" y="20.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene3" itemID="5b6f4a5e-00000520" linkageExportForAS="true" linkageClassName="TC_TScene__Scene3" lastModified="1538331184">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene3" itemID="5b6f4a5e-00000520" linkageExportForAS="true" linkageClassName="TC_TScene__Scene3" lastModified="1539538440">
   <timeline>
     <DOMTimeline name="TC_TScene__Scene3">
       <layers>
@@ -6,11 +6,14 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="Assets/Bitmap 14">
+                <DOMSymbolInstance libraryItemName="Assets/TC_TObject__StudentIcon1" selected="true">
                   <matrix>
-                    <Matrix a="1.51925659179688" d="1.51925659179688" tx="752" ty="430"/>
+                    <Matrix tx="752" ty="430"/>
                   </matrix>
-                </DOMBitmapInstance>
+                  <transformationPoint>
+                    <Point x="202.8" y="268.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
@@ -19,7 +22,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1" selected="true">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
                   <matrix>
                     <Matrix a="14.0189971923828" d="2.31878662109375" tx="259.05" ty="137.7"/>
                   </matrix>

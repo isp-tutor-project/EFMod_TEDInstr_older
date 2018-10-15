@@ -24,6 +24,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            this.setSceneValue("complete", false);    
         }
 
         public $preExitScene() {
@@ -112,11 +113,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
-            let stateComplete:boolean = true;
+            let stateComplete:boolean = false;
 
             switch(this.graphState) {
 
                 default:
+                    stateComplete = this.getSceneValue("complete"); 
                     break;
             }
 
@@ -129,10 +131,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(target) {
                 case "Sanswer":
                     this.setModuleValue("Expt1_Q2_RIGHT", this.Sanswer.selected);
+                    this.setSceneValue("complete", true);    
                     break;
             }
-
-            this.$updateNav();
         }
 
 

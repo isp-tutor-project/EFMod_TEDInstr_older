@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene5" itemID="5b87169f-00000384" linkageExportForAS="true" linkageClassName="TC_TScene__Scene5" lastModified="1538331188">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene5" itemID="5b87169f-00000384" linkageExportForAS="true" linkageClassName="TC_TScene__Scene5" lastModified="1539538440">
   <timeline>
     <DOMTimeline name="TC_TScene__Scene5">
       <layers>
-        <DOMLayer name="Layer_2" color="#9933CC">
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1" selected="true">
                   <matrix>
                     <Matrix a="14.0189971923828" d="3.58949279785156" tx="259.05" ty="420.55"/>
                   </matrix>
@@ -18,7 +18,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" current="true" isSelected="true" useOutlineView="true">
+        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

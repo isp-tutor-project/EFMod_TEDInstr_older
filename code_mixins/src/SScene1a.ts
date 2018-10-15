@@ -14,21 +14,35 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         //
         
         public $onCreateScene() {     
-            this.setSceneValue("sceneComplete", false);      
-            this.$updateNav();
+            this.setSceneValue("complete", false);      
         }
 
         public $onEnterScene() {
         }
         
         public $preEnterScene() {
+            // define experimental group assignment
+            // 
+            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+            this.addFeature("FTR_CHOICE");
+            this.addFeature("FTR_TEDEXP1");
         }
 
-        public $preExitScene() {
-            
-            this.$generateExpt("TEDExpt", 2, 1);
+        public $preShowScene() {                   
+            this.$("Sbutton.*").hide();
+        }        
 
-            // this.$generateExpt("TEDExpt", 1, 2,3,4);
+        public $preExitScene() {
+
+            if(this.testFeatures("FTR_TEDEXP1")) {
+
+                this.$generateExpt("TEDExpt", 1, 2,3,4);
+            }
+
+            else if(this.testFeatures("FTR_TEDEXP2")) {
+
+                this.$generateExpt("TEDExpt", 2, 1);
+            }
         }
 
         public $demoInitScene() {
@@ -116,7 +130,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     break;
             }                    
 
-            this.setSceneValue("sceneComplete", this.queryModuleProp(["selectedArea","selectedTopic", "selectedVariable"]));                  
+            this.setSceneValue("complete", this.queryModuleProp(["selectedArea","selectedTopic", "selectedVariable"]));                  
             this.$updateNav();
 
             return result;
@@ -159,8 +173,65 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $queryFinished() : boolean {             
 
+            let result:boolean = this.getSceneValue("complete"); 
 
-            return  this.getSceneValue("sceneComplete"); 
+            if(result) {
+                this.$("Sbutton.*").show();
+                this.$("Sbutton.*").enable();            
+            }
+            else {
+                this.$("Sbutton.*").hide();
+                this.$("Sbutton.*").disable();            
+            }
+
+            return result;
+        }
+
+
+        public $onAction(target:string) {         
+            
+            this.delFeature("FTR_TEDEXP1");
+
+            switch(target) {
+                case "Sbutton1":
+                    this.addFeature("FTR_VECTOR1");
+                    this.addFeature("FTR_TEDEXP1");
+
+                    break;
+
+                case "Sbutton2":
+                    this.addFeature("FTR_VECTOR2");
+                    this.addFeature("FTR_TEDEXP2");
+
+                    break;
+
+                case "Sbutton3":
+                    this.addFeature("FTR_VECTOR3");
+                    this.addFeature("FTR_TEDEXP1");
+                    break;
+
+                case "Sbutton4":
+                    this.addFeature("FTR_VECTOR4");
+                    this.addFeature("FTR_TEDEXP2");
+                    break;
+
+                case "Sbutton5":
+                    this.addFeature("FTR_VECTOR5");
+                    this.addFeature("FTR_TEDEXP2");
+                    break;
+            }
+
+            switch(target) {
+                case "Sbutton1":
+                case "Sbutton2":
+                case "Sbutton3":
+                case "Sbutton4":
+                case "Sbutton5":
+
+                    this.nextTrack("$onAction:" + target + " : " + this.graphState);
+                    break;
+            }
+
         }
 
 
@@ -169,11 +240,19 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(target) {
 
                 case "SListBox1":
+                    this.setModuleValue("selectedTopic", null);
+                    this.setModuleValue("selectedVariable", null);         
+                    break;
+
                 case "SListBox2":
+                    this.setModuleValue("selectedVariable", null);         
+                    break;
+
                 case "SListBox3":
-                    this.nextTrack("$onSelect:"+this.graphState);
                     break;
             }
+
+            this.nextTrack("$onSelect:"+this.graphState);
         }
 
 

@@ -16,6 +16,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         //
         
         public $preCreateScene() {
+
+            if(this.testFeatures("FTR_TEDEXP1")) {
+
+                this.$generateExpt("TEDExpt", 1, 2,3,4);
+            }
         }
 
         public $onCreateScene() {            
@@ -28,12 +33,23 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
 
         public $onEnterScene() {
+            this.setSceneValue("complete", false);  
+
+            if(this.testFeatures("FTR_TEDEXP1")) {
+
+                this.$generateExpt("TEDExpt", 1, 2,3,4);
+            }
+
+            else if(this.testFeatures("FTR_TEDEXP2")) {
+
+                this.$generateExpt("TEDExpt", 2, 1);
+            }
         }
         
         public $preEnterScene() {
         }
 
-        public $preShowScene() {                         
+        public $preShowScene() {                   
         }        
 
         public $preHideScene() {            
@@ -233,6 +249,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
                 case "TABLECOMPLETE":
                     result = this.getSceneValue("currentRow") >= 5; 
+
+                    if(result) {
+                        this.setSceneValue("complete", true);    
+                    }
                     break;
             }
 
@@ -244,18 +264,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $cuePoints(trackID:string, cueID:string) {
 
             switch(trackID) {
-
-                case "track1":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            console.log("executing CuePoint START");
-                            break;
-                        case "$end":
-                            console.log("executing CuePoint END");
-                            break;
-                    }
-                    break;
             }
         }
 
@@ -273,7 +281,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(this.graphState) {
 
                 default:
-                    stateComplete = this.getSceneValue("correct"); 
+                    stateComplete = this.getSceneValue("complete"); 
                     break;
             }
 
@@ -319,8 +327,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
                     }
             }
-
-            this.$updateNav();
         }
 
 

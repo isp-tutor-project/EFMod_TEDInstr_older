@@ -24,6 +24,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            this.setSceneValue("complete", false);    
         }
 
         public $preExitScene() {
@@ -83,6 +84,17 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $cuePoints(trackID:string, cueID:string) {
 
             switch(trackID) {
+                case "track1":
+                    switch(cueID) {
+
+                        case "$start":
+                            break;
+                            
+                        case "$end":
+                            this.setSceneValue("complete", true);    
+                            break;
+                    }
+                    break;
             }
         }
 
@@ -100,7 +112,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(this.graphState) {
 
                 default:
-                    stateComplete = this.getSceneValue("correct"); 
+                    stateComplete = this.getSceneValue("complete"); 
                     break;
             }
 
@@ -112,8 +124,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(target) {
             }
-
-            this.$updateNav();
         }
 
 

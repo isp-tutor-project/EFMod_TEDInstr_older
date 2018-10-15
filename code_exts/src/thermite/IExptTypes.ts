@@ -17,6 +17,7 @@
 export interface exptVar {
     id:string;
     parent:string;
+    parentObj?:any;
     depth:number;
     variants:Array<string>;
 }

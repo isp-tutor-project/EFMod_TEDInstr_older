@@ -1,0 +1,9 @@
+{
+    "_MODULEDATA":"v1.0.0",
+    "SNavigator": {
+        "SbreadCrumbs": {
+            "layoutsource":"$EFL_eftext.SbreadCrumbs",
+            "fontSize":20
+        }
+    }
+}

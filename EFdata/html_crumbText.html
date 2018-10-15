@@ -1,0 +1,59 @@
+<!- EDFORGE EXTERNAL ->
+
+<style id="internalStyle">
+    [eftext].outerContainer {
+        display: block;
+        position: absolute;
+        box-sizing: border-box;
+
+        top: 0px;
+        left: 0px;
+    }
+
+    [eftext] .tablecell {
+        display: table-cell;
+        box-sizing: border-box;
+        height: inherit;
+        width: inherit;
+    }
+
+    [eftext] p {
+        margin: 0px;
+    }
+</style>
+
+<style id="authorTime">
+    [efcontrolname].outerContainer {
+
+        background: rgb(38, 0, 255);
+        color: #ffffff;
+    }
+
+</style>
+
+
+<style id="customStyle">
+    [efcontrolname].outerContainer {
+
+        width: 475;
+        height: 30px;
+
+        font-size: 41px;
+        font-family: 'PT Sans';
+        font-weight: bold;
+        color: rgba(0, 0, 0, 0.575);
+
+        user-select: none;
+        text-align: left;
+    }
+
+    [efcontrolname] .tablecell {
+        vertical-align: middle;
+    }
+</style>
+
+<div eftext efcontrolname class="outerContainer">
+    <div class="tablecell" id="controlContainer">
+        <p></p>
+    </div>
+</div>

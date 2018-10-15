@@ -1,0 +1,40 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene18" itemID="5bbe1bab-0000033e" linkageExportForAS="true" linkageClassName="TC_TScene__Scene18" lastModified="1539538440">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TScene__Scene18">
+      <layers>
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1" selected="true">
+                  <matrix>
+                    <Matrix a="14.0189971923828" d="3.58949279785156" tx="259.05" ty="420.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.75" y="50.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn">
+                  <transformationPoint>
+                    <Point x="960" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

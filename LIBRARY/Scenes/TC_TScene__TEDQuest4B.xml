@@ -1,0 +1,140 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__TEDQuest4B" itemID="5bb66a2c-00000613" linkageExportForAS="true" linkageClassName="TC_TScene__TEDQuest4B" lastModified="1539538440">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TScene__TEDQuest4B" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;524&lt;/guideline&gt;&lt;guideline direction="v"&gt;1387&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Sexpt2" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Components/TC_TTEDContainer__AllDomains" name="Sexpt2">
+                  <matrix>
+                    <Matrix a="0.844284057617188" d="0.844284057617188" tx="1001.15" ty="449.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="276.2" y="215.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Sexpt1" color="#009999" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Components/TC_TTEDContainer__AllDomains" name="Sexpt1" selected="true">
+                  <matrix>
+                    <Matrix a="0.844345092773438" d="0.844345092773438" tx="121.1" ty="449.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="276.25" y="215.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer_4" color="#FF4FFF">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMSymbolInstance libraryItemName="Assets/TC_TObject__QuestionBorder" selected="true">
+                      <matrix>
+                        <Matrix a="1.03604125976563" d="2.198486328125" tx="284.55" ty="112.75"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="652.1" y="40.05"/>
+                      </transformationPoint>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Sanswer" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlList1__CustomList1" name="Sanswer">
+                  <matrix>
+                    <Matrix a="15.7171630859375" d="0.794357299804688" tx="178.85" ty="323.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.35" y="50.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Squestion" color="#FF4F4F" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion">
+                  <matrix>
+                    <Matrix a="13.0469360351563" d="1.363037109375" tx="308.65" ty="131.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="49.55" y="50.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="TC_TObject__CondTitle2" color="#00FFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Components/Expt Assets/TC_TObject__CondTitle2">
+                  <matrix>
+                    <Matrix tx="1295.95" ty="1023.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="124" y="29.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="TC_TObject__CondTitle1" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Components/Expt Assets/TC_TObject__CondTitle1">
+                  <matrix>
+                    <Matrix tx="406" ty="1023.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="129.5" y="30.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="TC_TVirtual__SceneRgn" color="#FF800A" outline="true" useOutlineView="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TVirtual__SceneRgn">
+                  <transformationPoint>
+                    <Point x="960" y="600"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

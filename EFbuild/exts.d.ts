@@ -3,6 +3,7 @@ declare module "thermite/IExptTypes" {
     export interface exptVar {
         id: string;
         parent: string;
+        parentObj?: any;
         depth: number;
         variants: Array<string>;
     }
@@ -43,6 +44,10 @@ declare module "thermite/TTEDExpt" {
         protected Svar3b: TObject;
         protected Svar4a: TObject;
         protected Svar4b: TObject;
+        protected Stag1: TObject;
+        protected Stag2: TObject;
+        protected Stag3: TObject;
+        protected Stag4: TObject;
         private exptStruct;
         private initState;
         private state;
@@ -50,17 +55,39 @@ declare module "thermite/TTEDExpt" {
         TTEDExptInitialize(): void;
         initialize(): void;
         private init3;
+        onCreate(): void;
         Destructor(): void;
-        private calcDirectParentById;
-        private calcDirectParentByNdx;
-        setState(variants: Array<string>): void;
-        private getSubComponent;
+        setContext(_hostModule: any, _ownerModule: any, _hostScene: any): void;
+        private setState;
+        private hideAll;
         showHighlight(...target: any[]): void;
         hideHighlight(...target: any[]): void;
         showCallOut(...target: any[]): void;
         hideCallOut(...target: any[]): void;
-        private seekToParent;
-        hideAll(): void;
+        private hideTags;
+        private initFromTagData;
+        deSerializeObj(objData: any): void;
+    }
+}
+declare module "thermite/TTEDContainer" {
+    import { TObject } from "thermite/TObject";
+    import { TVirtual } from "thermite/TVirtual";
+    export class TTEDContainer extends TObject {
+        private StedExp;
+        protected ScontrolRegion: TVirtual;
+        constructor();
+        TTEDContainerInitialize(): void;
+        initialize(): void;
+        private init3;
+        onCreate(): void;
+        Destructor(): void;
+        setContext(_hostModule: any, _ownerModule: any, _hostScene: any): void;
+        showHighlight(...target: any[]): void;
+        hideHighlight(...target: any[]): void;
+        showCallOut(...target: any[]): void;
+        hideCallOut(...target: any[]): void;
+        private layoutExpComponent;
+        private initFromExpData;
         deSerializeObj(objData: any): void;
     }
 }

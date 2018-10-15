@@ -1,4 +1,7 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/contentFrame2" itemID="5baea7f5-0000067f" lastModified="1538172936">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/contentFrame2" itemID="5baea7f5-0000067f" lastModified="1539119116">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
   <timeline>
     <DOMTimeline name="contentFrame2">
       <layers>
@@ -6,7 +9,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMRectangleObject objectWidth="1733" objectHeight="1046.75" x="90.4" y="55.7" topLeftRadius="11.35" topRightRadius="11.35" bottomLeftRadius="11.35" bottomRightRadius="-110">
+                <DOMRectangleObject objectWidth="1733" objectHeight="1046.75" x="90.4" y="55.7" selected="true" topLeftRadius="11.35" topRightRadius="11.35" bottomLeftRadius="11.35" bottomRightRadius="-113">
                   <matrix>
                     <Matrix tx="-90.4" ty="-55.7"/>
                   </matrix>
