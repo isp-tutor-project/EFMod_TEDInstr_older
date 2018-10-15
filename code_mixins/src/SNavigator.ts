@@ -16,10 +16,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         
         public $preCreateScene() {
             
-            // Next button only - navigate scene tracks
+            // By default disable all Navigation - Let scenes decide
             // 
-            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
-
+            this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
 
             // let AChosen = this.setModuleValue("selectedArea.index",3);
             // let TChosen = this.setModuleValue("selectedTopic.index",2);

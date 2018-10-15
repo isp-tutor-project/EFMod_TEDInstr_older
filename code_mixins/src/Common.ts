@@ -75,17 +75,27 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             return  stateComplete; 
         }
 
-        
+        public $canGoBack() : boolean {             
+
+            let stateComplete:boolean = true;
+            return  stateComplete; 
+        }
+
 		public $updateNav() : void {
 
 			// Update the Navigation
-			//
-			if(!this.$queryFinished())
-				this.enableNext(false);		
-			else	
+            //
+            if(!this.$queryFinished())
+                this.enableNext(false);		
+            else	
                 this.enableNext(true);		
-		}
 
+            if(!this.$canGoBack())
+                this.enableBack(false);		
+            else	
+                this.enableBack(true);		
+
+		}
 
         //***********************************************
         // State Data Generator

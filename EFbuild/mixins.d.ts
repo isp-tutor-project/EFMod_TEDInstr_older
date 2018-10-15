@@ -1,6 +1,10 @@
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class CONST {
         static readonly TUTORCONTAINER: string;
+        static readonly NAVNONE: number;
+        static readonly NAVBACK: number;
+        static readonly NAVNEXT: number;
+        static readonly NAVBOTH: number;
         static readonly NEXTSCENE: string;
         static readonly PREVSCENE: string;
         static readonly HIDE: boolean;
@@ -47,6 +51,7 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         $cuePoints(id: string): void;
         $timedEvents(id: string): void;
         $queryFinished(): boolean;
+        $canGoBack(): boolean;
         $updateNav(): void;
         $generateExpt(name: string, offNewTV: number, ...offConf: Array<number>): void;
     }

@@ -1,8 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonFocus" itemID="53469c66-000003c6" lastModified="1397136486">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonFocus" itemID="53469c66-000003c6" lastModified="1539535892">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
   <timeline>
     <DOMTimeline name="NextButtonFocus">
       <layers>
-        <DOMLayer name="Layer 1" color="#4FFF4F" locked="true">
+        <DOMLayer name="Layer 1" color="#4FFF4F">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -35,13 +38,7 @@
         <DOMLayer name="Outline" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons/SpinFocusOutline" centerPoint3DX="39.2" centerPoint3DY="20.95">
-                  <transformationPoint>
-                    <Point x="39.2" y="20.95"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>

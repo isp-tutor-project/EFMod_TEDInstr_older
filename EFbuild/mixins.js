@@ -5,6 +5,10 @@ var EFTut_Suppl;
         class CONST {
         }
         CONST.TUTORCONTAINER = "STutorContainer";
+        CONST.NAVNONE = 0;
+        CONST.NAVBACK = 1;
+        CONST.NAVNEXT = 2;
+        CONST.NAVBOTH = 3;
         CONST.NEXTSCENE = "nextbutton";
         CONST.PREVSCENE = "prevbutton";
         CONST.HIDE = false;
@@ -57,6 +61,10 @@ var EFTut_Suppl;
             $cuePoints(id) { }
             $timedEvents(id) { }
             $queryFinished() {
+                let stateComplete = false;
+                return stateComplete;
+            }
+            $canGoBack() {
                 let stateComplete = true;
                 return stateComplete;
             }
@@ -65,6 +73,10 @@ var EFTut_Suppl;
                     this.enableNext(false);
                 else
                     this.enableNext(true);
+                if (!this.$canGoBack())
+                    this.enableBack(false);
+                else
+                    this.enableBack(true);
             }
             $generateExpt(name, offNewTV, ...offConf) {
                 let AChosen = this.getModuleValue("selectedArea").index;
@@ -141,10 +153,7 @@ var EFTut_Suppl;
     (function (EFMod_TEDInstr) {
         class SNavigator {
             $preCreateScene() {
-                this.connectNavButton(EFMod_TEDInstr.CONST.NEXTSCENE, "Snext");
-                this.showHideNavButton(EFMod_TEDInstr.CONST.PREVSCENE, EFMod_TEDInstr.CONST.HIDE);
-                this.$("hide", "Smask1");
-                this.setNavigationTarget(EFMod_TEDInstr.CONST.NAVSCENE);
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNONE, EFMod_TEDInstr.CONST.NAVSCENE);
             }
             $onEnterScene() {
             }

@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__NextButton" itemID="5b68a24f-00000546" symbolType="button" lastModified="1534617895" lastUniqueIdentifier="15">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/NavPanel Components/TC_TButton__NextButton" itemID="5b68a24f-00000546" symbolType="button" lastModified="1539212690" lastUniqueIdentifier="15">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="TC_TButton__NextButton" currentFrame="4">
+    <DOMTimeline name="TC_TButton__NextButton" currentFrame="3">
       <layers>
         <DOMLayer name="SpinButtonUp" color="#808080" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navnextup">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextup">
                   <matrix>
                     <Matrix tx="-101" ty="-75.05"/>
                   </matrix>
@@ -28,7 +28,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navnextover">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextover">
                   <matrix>
                     <Matrix tx="-101" ty="-75.05"/>
                   </matrix>
@@ -47,7 +47,7 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navnextdown">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextdown">
                   <matrix>
                     <Matrix tx="-101" ty="-75.05"/>
                   </matrix>
@@ -66,7 +66,7 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navnextdisabled">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextdisabled">
                   <matrix>
                     <Matrix tx="-101" ty="-75.05"/>
                   </matrix>
@@ -88,7 +88,7 @@
             </DOMFrame>
             <DOMFrame index="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navnexthit">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnexthit">
                   <matrix>
                     <Matrix tx="-101" ty="-75.05"/>
                   </matrix>

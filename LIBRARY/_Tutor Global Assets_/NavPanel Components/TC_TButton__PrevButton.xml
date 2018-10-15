@@ -3,13 +3,13 @@
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="TC_TButton__PrevButton" currentFrame="4">
+    <DOMTimeline name="TC_TButton__PrevButton">
       <layers>
         <DOMLayer name="SpinButtonUp" color="#808080" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navbackup">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackup">
                   <matrix>
                     <Matrix tx="-47" ty="-75.05"/>
                   </matrix>
@@ -28,7 +28,7 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navbackover">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackover">
                   <matrix>
                     <Matrix tx="-47" ty="-75.05"/>
                   </matrix>
@@ -47,7 +47,7 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navbackdown">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackdown">
                   <matrix>
                     <Matrix tx="-47" ty="-75.05"/>
                   </matrix>
@@ -59,14 +59,14 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="SpinButtonFocus" color="#9933CC" autoNamed="false">
+        <DOMLayer name="SpinButtonFocus" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="3" keyMode="9728">
               <elements/>
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navbackhit">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackhit" selected="true">
                   <matrix>
                     <Matrix tx="-47" ty="-75.05"/>
                   </matrix>
@@ -78,14 +78,14 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="SpinButtonDisabled" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="SpinButtonDisabled" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements/>
             </DOMFrame>
             <DOMFrame index="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/navbackdisabled">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackdisabled">
                   <matrix>
                     <Matrix tx="-47" ty="-75.05"/>
                   </matrix>
