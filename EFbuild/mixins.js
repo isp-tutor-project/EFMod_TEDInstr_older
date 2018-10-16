@@ -1479,6 +1479,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNONE, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -1557,6 +1558,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -1627,6 +1629,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
                 this.addFeature("FTR_CHOICE");
                 this.addFeature("FTR_TEDEXP1");
@@ -2003,6 +2006,9 @@ var EFTut_Suppl;
             }
             $nodeAction(actionId) {
                 switch (actionId) {
+                    case "ENDOFTRACKS":
+                        this.setSceneValue("complete", true);
+                        break;
                 }
             }
             $nodeConstraint(constrainId) {
@@ -2010,15 +2016,6 @@ var EFTut_Suppl;
                 return result;
             }
             $cuePoints(trackID, cueID) {
-                switch (trackID) {
-                    case "track1":
-                        switch (cueID) {
-                            case "$end":
-                                this.setSceneValue("complete", true);
-                                break;
-                        }
-                        break;
-                }
             }
             $timedEvents(id) {
             }

@@ -1775,6 +1775,40 @@
 					],
 					"templates": {}
 				}
+			},
+			"track2": {
+				"en": {
+					"node": "I want to see what you learned so...",
+					"html": "{{$EFO_TED_POST_INTRO|part2}}",
+					"text": "{{$EFO_TED_POST_INTRO|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "When you’re done working...",
+					"html": "{{$EFO_TED_POST_INTRO|part3}}",
+					"text": "{{$EFO_TED_POST_INTRO|part3}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
 			}
 		}
 	},
@@ -1839,40 +1873,6 @@
 					"node": "You can change...",
 					"html": "{{$EFO_TED_POST_E|part3}}",
 					"text": "{{$EFO_TED_POST_E|part3}}",
-					"volume": [
-						1
-					],
-					"cueSet": "...............................................................",
-					"segments": [],
-					"timedSet": [],
-					"trim": [
-						0
-					],
-					"templates": {}
-				}
-			},
-			"track3": {
-				"en": {
-					"node": "I want to see what you learned so...",
-					"html": "{{$EFO_TED_POST_E|part4}}",
-					"text": "{{$EFO_TED_POST_E|part4}}",
-					"volume": [
-						1
-					],
-					"cueSet": "...............................................................",
-					"segments": [],
-					"timedSet": [],
-					"trim": [
-						0
-					],
-					"templates": {}
-				}
-			},
-			"track4": {
-				"en": {
-					"node": "When you’re done working...",
-					"html": "{{$EFO_TED_POST_E|part5}}",
-					"text": "{{$EFO_TED_POST_E|part5}}",
 					"volume": [
 						1
 					],

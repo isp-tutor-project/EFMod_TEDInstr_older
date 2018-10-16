@@ -123,7 +123,7 @@
 								"fileid": "0",
 								"SSML": "Now select a target variable for the topic",
 								"cues": [],
-								"duration": 2605.4166666666665,
+								"duration": 2550.4583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -230,7 +230,7 @@
 								"fileid": "0",
 								"SSML": "You may modify your selection before continuing. Otherwise select a section of the tutor you wish to start at, or click next to begin the tutor from the beginning.",
 								"cues": [],
-								"duration": 8047.75,
+								"duration": 8315.791666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -292,7 +292,7 @@
 								"fileid": "0",
 								"SSML": "Actually, that is not the one variable that you are testing for this experiment. Please try again.",
 								"cues": [],
-								"duration": 5604.333333333333,
+								"duration": 5949.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -359,7 +359,7 @@
 								"fileid": "0",
 								"SSML": "Now choose the",
 								"cues": [],
-								"duration": 922.25,
+								"duration": 1032.5,
 								"trim": -20,
 								"volume": 1
 							}
@@ -370,7 +370,7 @@
 								"fileid": "1a",
 								"SSML": "Water Temperature",
 								"cues": [],
-								"duration": 1128.875,
+								"duration": 1153.5833333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -386,7 +386,7 @@
 								"fileid": "1c",
 								"SSML": "Seed Crystal Size",
 								"cues": [],
-								"duration": 1372.5833333333333,
+								"duration": 1447.1666666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -418,7 +418,7 @@
 								"fileid": "1g",
 								"SSML": "Texture of Mint",
 								"cues": [],
-								"duration": 1094.4166666666667,
+								"duration": 952.0833333333334,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -472,17 +472,17 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
-								"duration": 1162.75,
+								"duration": 1196.9166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
-								"duration": 1196.9166666666667,
+								"duration": 1162.75,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -602,7 +602,7 @@
 								"fileid": "1Bd",
 								"SSML": "Amount of Music",
 								"cues": [],
-								"duration": 1144.625,
+								"duration": 1001.875,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -618,7 +618,7 @@
 								"fileid": "1Bf",
 								"SSML": "Sunlight Exposure",
 								"cues": [],
-								"duration": 1289.8333333333333,
+								"duration": 1372.8333333333333,
 								"trim": 0,
 								"volume": 0.7
 							}
@@ -742,7 +742,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "3n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -750,7 +750,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "3o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -899,7 +899,7 @@
 								"fileid": "4",
 								"SSML": "affects the,",
 								"cues": [],
-								"duration": 814.125,
+								"duration": 870.8333333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -966,7 +966,7 @@
 								"fileid": "5h",
 								"SSML": "weight of the algae growth after one week",
 								"cues": [],
-								"duration": 2240.5,
+								"duration": 2082.0416666666665,
 								"trim": 0,
 								"volume": 0.7
 							}
@@ -996,8 +996,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -1045,7 +1045,7 @@
 								"fileid": "0",
 								"SSML": "Actually, that is incorrect. Please try again.",
 								"cues": [],
-								"duration": 2998.625,
+								"duration": 3352.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1228,7 +1228,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1236,7 +1236,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1498,7 +1498,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "3n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1506,7 +1506,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "3o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1768,7 +1768,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "5n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1776,7 +1776,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "5o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2024,8 +2024,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -2058,8 +2058,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -2232,7 +2232,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2240,7 +2240,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2502,7 +2502,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "3n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2510,7 +2510,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "3o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2772,7 +2772,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "5n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2780,7 +2780,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "5o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3028,8 +3028,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -3062,8 +3062,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -3123,7 +3123,7 @@
 								"fileid": "0",
 								"SSML": "Finally select which",
 								"cues": [],
-								"duration": 1292.3333333333333,
+								"duration": 1449.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3236,7 +3236,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3244,7 +3244,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3506,7 +3506,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "3n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3514,7 +3514,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "3o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3776,7 +3776,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "5n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3784,7 +3784,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "5o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3933,7 +3933,7 @@
 								"fileid": "6",
 								"SSML": "has an effect on the",
 								"cues": [],
-								"duration": 1062.4166666666667,
+								"duration": 1218.6666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4032,8 +4032,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -4066,8 +4066,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -4297,7 +4297,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4305,7 +4305,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4549,8 +4549,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -4601,10 +4601,10 @@
 									{
 										"name": "a",
 										"offset": 0.5714285714285714,
-										"relTime": 1966.547619047619
+										"relTime": 1878.5
 									}
 								],
-								"duration": 3441.4583333333335,
+								"duration": 3287.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4767,7 +4767,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4775,7 +4775,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4924,7 +4924,7 @@
 								"fileid": "2",
 								"SSML": "can cause any difference you find in the result.",
 								"cues": [],
-								"duration": 2286.625,
+								"duration": 2429.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4951,8 +4951,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -5114,7 +5114,7 @@
 								"fileid": "0",
 								"SSML": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help. If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly.",
 								"cues": [],
-								"duration": 10973.083333333334,
+								"duration": 11110.833333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5224,7 +5224,7 @@
 								"fileid": "0a",
 								"SSML": "In the first experiment, Some students need to find out whether the",
 								"cues": [],
-								"duration": 3339.5,
+								"duration": 3587.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5291,7 +5291,7 @@
 								"fileid": "1h",
 								"SSML": "amount of carbon dioxide in the soda",
 								"cues": [],
-								"duration": 2217.9166666666665,
+								"duration": 2181.9583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5299,7 +5299,7 @@
 								"fileid": "1i",
 								"SSML": "initial temperature of the ice cube",
 								"cues": [],
-								"duration": 1999.5833333333333,
+								"duration": 1942.2083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5315,7 +5315,7 @@
 								"fileid": "1k",
 								"SSML": "pattern on the glass",
 								"cues": [],
-								"duration": 1221.625,
+								"duration": 1192.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5337,17 +5337,17 @@
 							},
 							"SA2T2RQ2ExpSelected": {
 								"fileid": "1n",
-								"SSML": "material the balloon is made of",
+								"SSML": "amount of sunlight exposure the balloon gets",
 								"cues": [],
-								"duration": 1863.9583333333333,
+								"duration": 2682.75,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA2T2RQ3ExpSelected": {
 								"fileid": "1o",
-								"SSML": "amount of sunlight exposure the balloon gets",
+								"SSML": "material the balloon is made of",
 								"cues": [],
-								"duration": 2561.3333333333335,
+								"duration": 1863.9583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5387,7 +5387,7 @@
 								"fileid": "1t",
 								"SSML": "surface texture of the ramp",
 								"cues": [],
-								"duration": 1656,
+								"duration": 1582,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5419,7 +5419,7 @@
 								"fileid": "1x",
 								"SSML": "density of the object",
 								"cues": [],
-								"duration": 1396.125,
+								"duration": 1319.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5427,7 +5427,7 @@
 								"fileid": "1y",
 								"SSML": "number of honey bees in the greenhouse",
 								"cues": [],
-								"duration": 2136.125,
+								"duration": 2095.6666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5441,17 +5441,17 @@
 							},
 							"SA4T1RQ3ExpSelected": {
 								"fileid": "1Ba",
-								"SSML": "type of water",
+								"SSML": "amount of fertilizer",
 								"cues": [],
-								"duration": 871.0833333333334,
+								"duration": 1332.9166666666667,
 								"trim": 0,
 								"volume": 1
 							},
 							"SA4T1RQ4ExpSelected": {
 								"fileid": "1Bb",
-								"SSML": "amount of fertilizer",
+								"SSML": "type of water",
 								"cues": [],
-								"duration": 1332.9166666666667,
+								"duration": 910.3333333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5467,7 +5467,7 @@
 								"fileid": "1Bd",
 								"SSML": "exposure to music",
 								"cues": [],
-								"duration": 1388.25,
+								"duration": 1260.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5526,7 +5526,7 @@
 								"fileid": "2e",
 								"SSML": "affects the speed of the ball at the bottom of the ramp?",
 								"cues": [],
-								"duration": 2497.8333333333335,
+								"duration": 2495.5416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5550,7 +5550,7 @@
 								"fileid": "2h",
 								"SSML": "affects the weight of the algae growth after one week?",
 								"cues": [],
-								"duration": 2521.7916666666665,
+								"duration": 2689.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5586,8 +5586,8 @@
 							"SA2T1RQ3ExpSelected": "pattern on the glass",
 							"SA2T1RQ4ExpSelected": "shape of the glass",
 							"SA2T2RQ1ExpSelected": "color of the balloon",
-							"SA2T2RQ2ExpSelected": "material the balloon is made of",
-							"SA2T2RQ3ExpSelected": "amount of sunlight exposure the balloon gets",
+							"SA2T2RQ2ExpSelected": "amount of sunlight exposure the balloon gets",
+							"SA2T2RQ3ExpSelected": "material the balloon is made of",
 							"SA2T2RQ4ExpSelected": "type of chair the balloon is tied to",
 							"SA3T1RQ1ExpSelected": "slope of the ramp",
 							"SA3T1RQ2ExpSelected": "color of the ball",
@@ -5599,8 +5599,8 @@
 							"SA3T2RQ4ExpSelected": "density of the object",
 							"SA4T1RQ1ExpSelected": "number of honey bees in the greenhouse",
 							"SA4T1RQ2ExpSelected": "amount of sunlight the greenhouse lets in",
-							"SA4T1RQ3ExpSelected": "type of water",
-							"SA4T1RQ4ExpSelected": "amount of fertilizer",
+							"SA4T1RQ3ExpSelected": "amount of fertilizer",
+							"SA4T1RQ4ExpSelected": "type of water",
 							"SA4T2RQ1ExpSelected": "temperature of the water",
 							"SA4T2RQ2ExpSelected": "exposure to music",
 							"SA4T2RQ3ExpSelected": "amount of carbon dioxide in the water",
@@ -5748,7 +5748,7 @@
 							},
 							"SA2T2RQ2ExpSelected": {
 								"fileid": "1n",
-								"SSML": "material the balloon is made of",
+								"SSML": "amount of sunlight exposure the balloon gets",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -5756,7 +5756,7 @@
 							},
 							"SA2T2RQ3ExpSelected": {
 								"fileid": "1o",
-								"SSML": "amount of sunlight exposure the balloon gets",
+								"SSML": "material the balloon is made of",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -5852,7 +5852,7 @@
 							},
 							"SA4T1RQ3ExpSelected": {
 								"fileid": "1Ba",
-								"SSML": "type of water",
+								"SSML": "amount of fertilizer",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -5860,7 +5860,7 @@
 							},
 							"SA4T1RQ4ExpSelected": {
 								"fileid": "1Bb",
-								"SSML": "amount of fertilizer",
+								"SSML": "type of water",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -5997,8 +5997,8 @@
 							"SA2T1RQ3ExpSelected": "pattern on the glass",
 							"SA2T1RQ4ExpSelected": "shape of the glass",
 							"SA2T2RQ1ExpSelected": "color of the balloon",
-							"SA2T2RQ2ExpSelected": "material the balloon is made of",
-							"SA2T2RQ3ExpSelected": "amount of sunlight exposure the balloon gets",
+							"SA2T2RQ2ExpSelected": "amount of sunlight exposure the balloon gets",
+							"SA2T2RQ3ExpSelected": "material the balloon is made of",
 							"SA2T2RQ4ExpSelected": "type of chair the balloon is tied to",
 							"SA3T1RQ1ExpSelected": "slope of the ramp",
 							"SA3T1RQ2ExpSelected": "color of the ball",
@@ -6010,8 +6010,8 @@
 							"SA3T2RQ4ExpSelected": "density of the object",
 							"SA4T1RQ1ExpSelected": "number of honey bees in the greenhouse",
 							"SA4T1RQ2ExpSelected": "amount of sunlight the greenhouse lets in",
-							"SA4T1RQ3ExpSelected": "type of water",
-							"SA4T1RQ4ExpSelected": "amount of fertilizer",
+							"SA4T1RQ3ExpSelected": "amount of fertilizer",
+							"SA4T1RQ4ExpSelected": "type of water",
 							"SA4T2RQ1ExpSelected": "temperature of the water",
 							"SA4T2RQ2ExpSelected": "exposure to music",
 							"SA4T2RQ3ExpSelected": "amount of carbon dioxide in the water",
@@ -6163,7 +6163,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -6171,7 +6171,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -6403,7 +6403,7 @@
 								"fileid": "3j",
 								"SSML": "Sugar-Free",
 								"cues": [],
-								"duration": 898.625,
+								"duration": 941.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6425,17 +6425,17 @@
 							},
 							"STBLA1T2V3Aname": {
 								"fileid": "3m",
-								"SSML": "Rough",
+								"SSML": "Smooth",
 								"cues": [],
-								"duration": 517.2916666666666,
+								"duration": 691.0416666666666,
 								"trim": 0,
 								"volume": 1
 							},
 							"STBLA1T2V3Bname": {
 								"fileid": "3n",
-								"SSML": "Smooth",
+								"SSML": "Rough",
 								"cues": [],
-								"duration": 691.0416666666666,
+								"duration": 517.2916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6499,7 +6499,7 @@
 								"fileid": "3v",
 								"SSML": "no Pattern",
 								"cues": [],
-								"duration": 770.4583333333334,
+								"duration": 872.7916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6531,39 +6531,39 @@
 								"fileid": "3z",
 								"SSML": "Black",
 								"cues": [],
-								"duration": 494,
+								"duration": 460.7083333333333,
 								"trim": 0,
 								"volume": 1
 							},
 							"STBLA2T2V2Aname": {
 								"fileid": "3Ba",
-								"SSML": "Latex",
-								"cues": [],
-								"duration": 829.6666666666666,
-								"trim": 0,
-								"volume": 1
-							},
-							"STBLA2T2V2Bname": {
-								"fileid": "3Bb",
-								"SSML": "Foil",
-								"cues": [],
-								"duration": 620.875,
-								"trim": 0,
-								"volume": 1
-							},
-							"STBLA2T2V3Aname": {
-								"fileid": "3Bc",
 								"SSML": "Full Sun",
 								"cues": [],
 								"duration": 785.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
-							"STBLA2T2V3Bname": {
-								"fileid": "3Bd",
+							"STBLA2T2V2Bname": {
+								"fileid": "3Bb",
 								"SSML": "Partial Shade",
 								"cues": [],
 								"duration": 975.7083333333334,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V3Aname": {
+								"fileid": "3Bc",
+								"SSML": "Latex",
+								"cues": [],
+								"duration": 829.6666666666666,
+								"trim": 0,
+								"volume": 1
+							},
+							"STBLA2T2V3Bname": {
+								"fileid": "3Bd",
+								"SSML": "Foil",
+								"cues": [],
+								"duration": 620.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6697,17 +6697,17 @@
 							},
 							"STBLA3T2V4Aname": {
 								"fileid": "3Bu",
-								"SSML": "Glass",
+								"SSML": "Lead",
 								"cues": [],
-								"duration": 589.2916666666666,
+								"duration": 543.625,
 								"trim": 0,
 								"volume": 1
 							},
 							"STBLA3T2V4Bname": {
 								"fileid": "3Bv",
-								"SSML": "Lead",
+								"SSML": "Glass",
 								"cues": [],
-								"duration": 543.625,
+								"duration": 605.0416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6795,7 +6795,7 @@
 								"fileid": "3Cg",
 								"SSML": "Constant Music",
 								"cues": [],
-								"duration": 1024.4166666666667,
+								"duration": 1162.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6870,8 +6870,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -6903,8 +6903,8 @@
 							"STBLA1T2V1Bname": "Sugar-Free",
 							"STBLA1T2V2Aname": "With Caffeine",
 							"STBLA1T2V2Bname": "Caffeine Free",
-							"STBLA1T2V3Aname": "Rough",
-							"STBLA1T2V3Bname": "Smooth",
+							"STBLA1T2V3Aname": "Smooth",
+							"STBLA1T2V3Bname": "Rough",
 							"STBLA1T2V4Aname": "Higher",
 							"STBLA1T2V4Bname": "Lower",
 							"STBLA2T1V1Aname": "0 degrees",
@@ -6917,10 +6917,10 @@
 							"STBLA2T1V4Bname": "Tall",
 							"STBLA2T2V1Aname": "Gray",
 							"STBLA2T2V1Bname": "Black",
-							"STBLA2T2V2Aname": "Latex",
-							"STBLA2T2V2Bname": "Foil",
-							"STBLA2T2V3Aname": "Full Sun",
-							"STBLA2T2V3Bname": "Partial Shade",
+							"STBLA2T2V2Aname": "Full Sun",
+							"STBLA2T2V2Bname": "Partial Shade",
+							"STBLA2T2V3Aname": "Latex",
+							"STBLA2T2V3Bname": "Foil",
 							"STBLA2T2V4Aname": "Wooden Chair",
 							"STBLA2T2V4Bname": "Canvas Chair",
 							"STBLA3T1V1Aname": "Not Steep",
@@ -6937,8 +6937,8 @@
 							"STBLA3T2V2Bname": "Tear Drop",
 							"STBLA3T2V3Aname": "Small",
 							"STBLA3T2V3Bname": "Large",
-							"STBLA3T2V4Aname": "Glass",
-							"STBLA3T2V4Bname": "Lead",
+							"STBLA3T2V4Aname": "Lead",
+							"STBLA3T2V4Bname": "Glass",
 							"STBLA4T1V1Aname": "None",
 							"STBLA4T1V1Bname": "Whole Hive",
 							"STBLA4T1V2Aname": "Full Sun",
@@ -7088,7 +7088,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7096,7 +7096,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7350,7 +7350,7 @@
 							},
 							"STBLA1T2V3Aname": {
 								"fileid": "3m",
-								"SSML": "Rough",
+								"SSML": "Smooth",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7358,7 +7358,7 @@
 							},
 							"STBLA1T2V3Bname": {
 								"fileid": "3n",
-								"SSML": "Smooth",
+								"SSML": "Rough",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7462,7 +7462,7 @@
 							},
 							"STBLA2T2V2Aname": {
 								"fileid": "3Ba",
-								"SSML": "Latex",
+								"SSML": "Full Sun",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7470,7 +7470,7 @@
 							},
 							"STBLA2T2V2Bname": {
 								"fileid": "3Bb",
-								"SSML": "Foil",
+								"SSML": "Partial Shade",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7478,7 +7478,7 @@
 							},
 							"STBLA2T2V3Aname": {
 								"fileid": "3Bc",
-								"SSML": "Full Sun",
+								"SSML": "Latex",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7486,7 +7486,7 @@
 							},
 							"STBLA2T2V3Bname": {
 								"fileid": "3Bd",
-								"SSML": "Partial Shade",
+								"SSML": "Foil",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7622,7 +7622,7 @@
 							},
 							"STBLA3T2V4Aname": {
 								"fileid": "3Bu",
-								"SSML": "Glass",
+								"SSML": "Lead",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7630,7 +7630,7 @@
 							},
 							"STBLA3T2V4Bname": {
 								"fileid": "3Bv",
-								"SSML": "Lead",
+								"SSML": "Glass",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7795,8 +7795,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -7828,8 +7828,8 @@
 							"STBLA1T2V1Bname": "Sugar-Free",
 							"STBLA1T2V2Aname": "With Caffeine",
 							"STBLA1T2V2Bname": "Caffeine Free",
-							"STBLA1T2V3Aname": "Rough",
-							"STBLA1T2V3Bname": "Smooth",
+							"STBLA1T2V3Aname": "Smooth",
+							"STBLA1T2V3Bname": "Rough",
 							"STBLA1T2V4Aname": "Higher",
 							"STBLA1T2V4Bname": "Lower",
 							"STBLA2T1V1Aname": "0 degrees",
@@ -7842,10 +7842,10 @@
 							"STBLA2T1V4Bname": "Tall",
 							"STBLA2T2V1Aname": "Gray",
 							"STBLA2T2V1Bname": "Black",
-							"STBLA2T2V2Aname": "Latex",
-							"STBLA2T2V2Bname": "Foil",
-							"STBLA2T2V3Aname": "Full Sun",
-							"STBLA2T2V3Bname": "Partial Shade",
+							"STBLA2T2V2Aname": "Full Sun",
+							"STBLA2T2V2Bname": "Partial Shade",
+							"STBLA2T2V3Aname": "Latex",
+							"STBLA2T2V3Bname": "Foil",
 							"STBLA2T2V4Aname": "Wooden Chair",
 							"STBLA2T2V4Bname": "Canvas Chair",
 							"STBLA3T1V1Aname": "Not Steep",
@@ -7862,8 +7862,8 @@
 							"STBLA3T2V2Bname": "Tear Drop",
 							"STBLA3T2V3Aname": "Small",
 							"STBLA3T2V3Bname": "Large",
-							"STBLA3T2V4Aname": "Glass",
-							"STBLA3T2V4Bname": "Lead",
+							"STBLA3T2V4Aname": "Lead",
+							"STBLA3T2V4Bname": "Glass",
 							"STBLA4T1V1Aname": "None",
 							"STBLA4T1V1Bname": "Whole Hive",
 							"STBLA4T1V2Aname": "Full Sun",
@@ -8013,7 +8013,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8021,7 +8021,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8275,7 +8275,7 @@
 							},
 							"STBLA1T2V3Aname": {
 								"fileid": "3m",
-								"SSML": "Rough",
+								"SSML": "Smooth",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8283,7 +8283,7 @@
 							},
 							"STBLA1T2V3Bname": {
 								"fileid": "3n",
-								"SSML": "Smooth",
+								"SSML": "Rough",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8387,7 +8387,7 @@
 							},
 							"STBLA2T2V2Aname": {
 								"fileid": "3Ba",
-								"SSML": "Latex",
+								"SSML": "Full Sun",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8395,7 +8395,7 @@
 							},
 							"STBLA2T2V2Bname": {
 								"fileid": "3Bb",
-								"SSML": "Foil",
+								"SSML": "Partial Shade",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8403,7 +8403,7 @@
 							},
 							"STBLA2T2V3Aname": {
 								"fileid": "3Bc",
-								"SSML": "Full Sun",
+								"SSML": "Latex",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8411,7 +8411,7 @@
 							},
 							"STBLA2T2V3Bname": {
 								"fileid": "3Bd",
-								"SSML": "Partial Shade",
+								"SSML": "Foil",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8547,7 +8547,7 @@
 							},
 							"STBLA3T2V4Aname": {
 								"fileid": "3Bu",
-								"SSML": "Glass",
+								"SSML": "Lead",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8555,7 +8555,7 @@
 							},
 							"STBLA3T2V4Bname": {
 								"fileid": "3Bv",
-								"SSML": "Lead",
+								"SSML": "Glass",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8720,8 +8720,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -8753,8 +8753,8 @@
 							"STBLA1T2V1Bname": "Sugar-Free",
 							"STBLA1T2V2Aname": "With Caffeine",
 							"STBLA1T2V2Bname": "Caffeine Free",
-							"STBLA1T2V3Aname": "Rough",
-							"STBLA1T2V3Bname": "Smooth",
+							"STBLA1T2V3Aname": "Smooth",
+							"STBLA1T2V3Bname": "Rough",
 							"STBLA1T2V4Aname": "Higher",
 							"STBLA1T2V4Bname": "Lower",
 							"STBLA2T1V1Aname": "0 degrees",
@@ -8767,10 +8767,10 @@
 							"STBLA2T1V4Bname": "Tall",
 							"STBLA2T2V1Aname": "Gray",
 							"STBLA2T2V1Bname": "Black",
-							"STBLA2T2V2Aname": "Latex",
-							"STBLA2T2V2Bname": "Foil",
-							"STBLA2T2V3Aname": "Full Sun",
-							"STBLA2T2V3Bname": "Partial Shade",
+							"STBLA2T2V2Aname": "Full Sun",
+							"STBLA2T2V2Bname": "Partial Shade",
+							"STBLA2T2V3Aname": "Latex",
+							"STBLA2T2V3Bname": "Foil",
 							"STBLA2T2V4Aname": "Wooden Chair",
 							"STBLA2T2V4Bname": "Canvas Chair",
 							"STBLA3T1V1Aname": "Not Steep",
@@ -8787,8 +8787,8 @@
 							"STBLA3T2V2Bname": "Tear Drop",
 							"STBLA3T2V3Aname": "Small",
 							"STBLA3T2V3Bname": "Large",
-							"STBLA3T2V4Aname": "Glass",
-							"STBLA3T2V4Bname": "Lead",
+							"STBLA3T2V4Aname": "Lead",
+							"STBLA3T2V4Bname": "Glass",
 							"STBLA4T1V1Aname": "None",
 							"STBLA4T1V1Bname": "Whole Hive",
 							"STBLA4T1V2Aname": "Full Sun",
@@ -8938,7 +8938,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8946,7 +8946,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9200,7 +9200,7 @@
 							},
 							"STBLA1T2V3Aname": {
 								"fileid": "3m",
-								"SSML": "Rough",
+								"SSML": "Smooth",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9208,7 +9208,7 @@
 							},
 							"STBLA1T2V3Bname": {
 								"fileid": "3n",
-								"SSML": "Smooth",
+								"SSML": "Rough",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9312,7 +9312,7 @@
 							},
 							"STBLA2T2V2Aname": {
 								"fileid": "3Ba",
-								"SSML": "Latex",
+								"SSML": "Full Sun",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9320,7 +9320,7 @@
 							},
 							"STBLA2T2V2Bname": {
 								"fileid": "3Bb",
-								"SSML": "Foil",
+								"SSML": "Partial Shade",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9328,7 +9328,7 @@
 							},
 							"STBLA2T2V3Aname": {
 								"fileid": "3Bc",
-								"SSML": "Full Sun",
+								"SSML": "Latex",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9336,7 +9336,7 @@
 							},
 							"STBLA2T2V3Bname": {
 								"fileid": "3Bd",
-								"SSML": "Partial Shade",
+								"SSML": "Foil",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9472,7 +9472,7 @@
 							},
 							"STBLA3T2V4Aname": {
 								"fileid": "3Bu",
-								"SSML": "Glass",
+								"SSML": "Lead",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9480,7 +9480,7 @@
 							},
 							"STBLA3T2V4Bname": {
 								"fileid": "3Bv",
-								"SSML": "Lead",
+								"SSML": "Glass",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9645,8 +9645,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -9678,8 +9678,8 @@
 							"STBLA1T2V1Bname": "Sugar-Free",
 							"STBLA1T2V2Aname": "With Caffeine",
 							"STBLA1T2V2Bname": "Caffeine Free",
-							"STBLA1T2V3Aname": "Rough",
-							"STBLA1T2V3Bname": "Smooth",
+							"STBLA1T2V3Aname": "Smooth",
+							"STBLA1T2V3Bname": "Rough",
 							"STBLA1T2V4Aname": "Higher",
 							"STBLA1T2V4Bname": "Lower",
 							"STBLA2T1V1Aname": "0 degrees",
@@ -9692,10 +9692,10 @@
 							"STBLA2T1V4Bname": "Tall",
 							"STBLA2T2V1Aname": "Gray",
 							"STBLA2T2V1Bname": "Black",
-							"STBLA2T2V2Aname": "Latex",
-							"STBLA2T2V2Bname": "Foil",
-							"STBLA2T2V3Aname": "Full Sun",
-							"STBLA2T2V3Bname": "Partial Shade",
+							"STBLA2T2V2Aname": "Full Sun",
+							"STBLA2T2V2Bname": "Partial Shade",
+							"STBLA2T2V3Aname": "Latex",
+							"STBLA2T2V3Bname": "Foil",
 							"STBLA2T2V4Aname": "Wooden Chair",
 							"STBLA2T2V4Bname": "Canvas Chair",
 							"STBLA3T1V1Aname": "Not Steep",
@@ -9712,8 +9712,8 @@
 							"STBLA3T2V2Bname": "Tear Drop",
 							"STBLA3T2V3Aname": "Small",
 							"STBLA3T2V3Bname": "Large",
-							"STBLA3T2V4Aname": "Glass",
-							"STBLA3T2V4Bname": "Lead",
+							"STBLA3T2V4Aname": "Lead",
+							"STBLA3T2V4Bname": "Glass",
 							"STBLA4T1V1Aname": "None",
 							"STBLA4T1V1Bname": "Whole Hive",
 							"STBLA4T1V2Aname": "Full Sun",
@@ -9863,7 +9863,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9871,7 +9871,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10125,7 +10125,7 @@
 							},
 							"STBLA1T2V3Aname": {
 								"fileid": "3m",
-								"SSML": "Rough",
+								"SSML": "Smooth",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10133,7 +10133,7 @@
 							},
 							"STBLA1T2V3Bname": {
 								"fileid": "3n",
-								"SSML": "Smooth",
+								"SSML": "Rough",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10237,7 +10237,7 @@
 							},
 							"STBLA2T2V2Aname": {
 								"fileid": "3Ba",
-								"SSML": "Latex",
+								"SSML": "Full Sun",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10245,7 +10245,7 @@
 							},
 							"STBLA2T2V2Bname": {
 								"fileid": "3Bb",
-								"SSML": "Foil",
+								"SSML": "Partial Shade",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10253,7 +10253,7 @@
 							},
 							"STBLA2T2V3Aname": {
 								"fileid": "3Bc",
-								"SSML": "Full Sun",
+								"SSML": "Latex",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10261,7 +10261,7 @@
 							},
 							"STBLA2T2V3Bname": {
 								"fileid": "3Bd",
-								"SSML": "Partial Shade",
+								"SSML": "Foil",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10397,7 +10397,7 @@
 							},
 							"STBLA3T2V4Aname": {
 								"fileid": "3Bu",
-								"SSML": "Glass",
+								"SSML": "Lead",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10405,7 +10405,7 @@
 							},
 							"STBLA3T2V4Bname": {
 								"fileid": "3Bv",
-								"SSML": "Lead",
+								"SSML": "Glass",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10570,8 +10570,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -10603,8 +10603,8 @@
 							"STBLA1T2V1Bname": "Sugar-Free",
 							"STBLA1T2V2Aname": "With Caffeine",
 							"STBLA1T2V2Bname": "Caffeine Free",
-							"STBLA1T2V3Aname": "Rough",
-							"STBLA1T2V3Bname": "Smooth",
+							"STBLA1T2V3Aname": "Smooth",
+							"STBLA1T2V3Bname": "Rough",
 							"STBLA1T2V4Aname": "Higher",
 							"STBLA1T2V4Bname": "Lower",
 							"STBLA2T1V1Aname": "0 degrees",
@@ -10617,10 +10617,10 @@
 							"STBLA2T1V4Bname": "Tall",
 							"STBLA2T2V1Aname": "Gray",
 							"STBLA2T2V1Bname": "Black",
-							"STBLA2T2V2Aname": "Latex",
-							"STBLA2T2V2Bname": "Foil",
-							"STBLA2T2V3Aname": "Full Sun",
-							"STBLA2T2V3Bname": "Partial Shade",
+							"STBLA2T2V2Aname": "Full Sun",
+							"STBLA2T2V2Bname": "Partial Shade",
+							"STBLA2T2V3Aname": "Latex",
+							"STBLA2T2V3Bname": "Foil",
 							"STBLA2T2V4Aname": "Wooden Chair",
 							"STBLA2T2V4Bname": "Canvas Chair",
 							"STBLA3T1V1Aname": "Not Steep",
@@ -10637,8 +10637,8 @@
 							"STBLA3T2V2Bname": "Tear Drop",
 							"STBLA3T2V3Aname": "Small",
 							"STBLA3T2V3Bname": "Large",
-							"STBLA3T2V4Aname": "Glass",
-							"STBLA3T2V4Bname": "Lead",
+							"STBLA3T2V4Aname": "Lead",
+							"STBLA3T2V4Bname": "Glass",
 							"STBLA4T1V1Aname": "None",
 							"STBLA4T1V1Bname": "Whole Hive",
 							"STBLA4T1V2Aname": "Full Sun",
@@ -10788,7 +10788,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10796,7 +10796,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11050,7 +11050,7 @@
 							},
 							"STBLA1T2V3Aname": {
 								"fileid": "3m",
-								"SSML": "Rough",
+								"SSML": "Smooth",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11058,7 +11058,7 @@
 							},
 							"STBLA1T2V3Bname": {
 								"fileid": "3n",
-								"SSML": "Smooth",
+								"SSML": "Rough",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11162,7 +11162,7 @@
 							},
 							"STBLA2T2V2Aname": {
 								"fileid": "3Ba",
-								"SSML": "Latex",
+								"SSML": "Full Sun",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11170,7 +11170,7 @@
 							},
 							"STBLA2T2V2Bname": {
 								"fileid": "3Bb",
-								"SSML": "Foil",
+								"SSML": "Partial Shade",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11178,7 +11178,7 @@
 							},
 							"STBLA2T2V3Aname": {
 								"fileid": "3Bc",
-								"SSML": "Full Sun",
+								"SSML": "Latex",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11186,7 +11186,7 @@
 							},
 							"STBLA2T2V3Bname": {
 								"fileid": "3Bd",
-								"SSML": "Partial Shade",
+								"SSML": "Foil",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11322,7 +11322,7 @@
 							},
 							"STBLA3T2V4Aname": {
 								"fileid": "3Bu",
-								"SSML": "Glass",
+								"SSML": "Lead",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11330,7 +11330,7 @@
 							},
 							"STBLA3T2V4Bname": {
 								"fileid": "3Bv",
-								"SSML": "Lead",
+								"SSML": "Glass",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11495,8 +11495,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -11528,8 +11528,8 @@
 							"STBLA1T2V1Bname": "Sugar-Free",
 							"STBLA1T2V2Aname": "With Caffeine",
 							"STBLA1T2V2Bname": "Caffeine Free",
-							"STBLA1T2V3Aname": "Rough",
-							"STBLA1T2V3Bname": "Smooth",
+							"STBLA1T2V3Aname": "Smooth",
+							"STBLA1T2V3Bname": "Rough",
 							"STBLA1T2V4Aname": "Higher",
 							"STBLA1T2V4Bname": "Lower",
 							"STBLA2T1V1Aname": "0 degrees",
@@ -11542,10 +11542,10 @@
 							"STBLA2T1V4Bname": "Tall",
 							"STBLA2T2V1Aname": "Gray",
 							"STBLA2T2V1Bname": "Black",
-							"STBLA2T2V2Aname": "Latex",
-							"STBLA2T2V2Bname": "Foil",
-							"STBLA2T2V3Aname": "Full Sun",
-							"STBLA2T2V3Bname": "Partial Shade",
+							"STBLA2T2V2Aname": "Full Sun",
+							"STBLA2T2V2Bname": "Partial Shade",
+							"STBLA2T2V3Aname": "Latex",
+							"STBLA2T2V3Bname": "Foil",
 							"STBLA2T2V4Aname": "Wooden Chair",
 							"STBLA2T2V4Bname": "Canvas Chair",
 							"STBLA3T1V1Aname": "Not Steep",
@@ -11562,8 +11562,8 @@
 							"STBLA3T2V2Bname": "Tear Drop",
 							"STBLA3T2V3Aname": "Small",
 							"STBLA3T2V3Bname": "Large",
-							"STBLA3T2V4Aname": "Glass",
-							"STBLA3T2V4Bname": "Lead",
+							"STBLA3T2V4Aname": "Lead",
+							"STBLA3T2V4Bname": "Glass",
 							"STBLA4T1V1Aname": "None",
 							"STBLA4T1V1Bname": "Whole Hive",
 							"STBLA4T1V2Aname": "Full Sun",
@@ -11713,7 +11713,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11721,7 +11721,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11975,7 +11975,7 @@
 							},
 							"STBLA1T2V3Aname": {
 								"fileid": "3m",
-								"SSML": "Rough",
+								"SSML": "Smooth",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11983,7 +11983,7 @@
 							},
 							"STBLA1T2V3Bname": {
 								"fileid": "3n",
-								"SSML": "Smooth",
+								"SSML": "Rough",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12087,7 +12087,7 @@
 							},
 							"STBLA2T2V2Aname": {
 								"fileid": "3Ba",
-								"SSML": "Latex",
+								"SSML": "Full Sun",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12095,7 +12095,7 @@
 							},
 							"STBLA2T2V2Bname": {
 								"fileid": "3Bb",
-								"SSML": "Foil",
+								"SSML": "Partial Shade",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12103,7 +12103,7 @@
 							},
 							"STBLA2T2V3Aname": {
 								"fileid": "3Bc",
-								"SSML": "Full Sun",
+								"SSML": "Latex",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12111,7 +12111,7 @@
 							},
 							"STBLA2T2V3Bname": {
 								"fileid": "3Bd",
-								"SSML": "Partial Shade",
+								"SSML": "Foil",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12247,7 +12247,7 @@
 							},
 							"STBLA3T2V4Aname": {
 								"fileid": "3Bu",
-								"SSML": "Glass",
+								"SSML": "Lead",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12255,7 +12255,7 @@
 							},
 							"STBLA3T2V4Bname": {
 								"fileid": "3Bv",
-								"SSML": "Lead",
+								"SSML": "Glass",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12420,8 +12420,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -12453,8 +12453,8 @@
 							"STBLA1T2V1Bname": "Sugar-Free",
 							"STBLA1T2V2Aname": "With Caffeine",
 							"STBLA1T2V2Bname": "Caffeine Free",
-							"STBLA1T2V3Aname": "Rough",
-							"STBLA1T2V3Bname": "Smooth",
+							"STBLA1T2V3Aname": "Smooth",
+							"STBLA1T2V3Bname": "Rough",
 							"STBLA1T2V4Aname": "Higher",
 							"STBLA1T2V4Bname": "Lower",
 							"STBLA2T1V1Aname": "0 degrees",
@@ -12467,10 +12467,10 @@
 							"STBLA2T1V4Bname": "Tall",
 							"STBLA2T2V1Aname": "Gray",
 							"STBLA2T2V1Bname": "Black",
-							"STBLA2T2V2Aname": "Latex",
-							"STBLA2T2V2Bname": "Foil",
-							"STBLA2T2V3Aname": "Full Sun",
-							"STBLA2T2V3Bname": "Partial Shade",
+							"STBLA2T2V2Aname": "Full Sun",
+							"STBLA2T2V2Bname": "Partial Shade",
+							"STBLA2T2V3Aname": "Latex",
+							"STBLA2T2V3Bname": "Foil",
 							"STBLA2T2V4Aname": "Wooden Chair",
 							"STBLA2T2V4Bname": "Canvas Chair",
 							"STBLA3T1V1Aname": "Not Steep",
@@ -12487,8 +12487,8 @@
 							"STBLA3T2V2Bname": "Tear Drop",
 							"STBLA3T2V3Aname": "Small",
 							"STBLA3T2V3Bname": "Large",
-							"STBLA3T2V4Aname": "Glass",
-							"STBLA3T2V4Bname": "Lead",
+							"STBLA3T2V4Aname": "Lead",
+							"STBLA3T2V4Bname": "Glass",
 							"STBLA4T1V1Aname": "None",
 							"STBLA4T1V1Bname": "Whole Hive",
 							"STBLA4T1V2Aname": "Full Sun",
@@ -12638,7 +12638,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12646,7 +12646,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12900,7 +12900,7 @@
 							},
 							"STBLA1T2V3Aname": {
 								"fileid": "3m",
-								"SSML": "Rough",
+								"SSML": "Smooth",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12908,7 +12908,7 @@
 							},
 							"STBLA1T2V3Bname": {
 								"fileid": "3n",
-								"SSML": "Smooth",
+								"SSML": "Rough",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13012,7 +13012,7 @@
 							},
 							"STBLA2T2V2Aname": {
 								"fileid": "3Ba",
-								"SSML": "Latex",
+								"SSML": "Full Sun",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13020,7 +13020,7 @@
 							},
 							"STBLA2T2V2Bname": {
 								"fileid": "3Bb",
-								"SSML": "Foil",
+								"SSML": "Partial Shade",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13028,7 +13028,7 @@
 							},
 							"STBLA2T2V3Aname": {
 								"fileid": "3Bc",
-								"SSML": "Full Sun",
+								"SSML": "Latex",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13036,7 +13036,7 @@
 							},
 							"STBLA2T2V3Bname": {
 								"fileid": "3Bd",
-								"SSML": "Partial Shade",
+								"SSML": "Foil",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13172,7 +13172,7 @@
 							},
 							"STBLA3T2V4Aname": {
 								"fileid": "3Bu",
-								"SSML": "Glass",
+								"SSML": "Lead",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13180,7 +13180,7 @@
 							},
 							"STBLA3T2V4Bname": {
 								"fileid": "3Bv",
-								"SSML": "Lead",
+								"SSML": "Glass",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13345,8 +13345,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -13378,8 +13378,8 @@
 							"STBLA1T2V1Bname": "Sugar-Free",
 							"STBLA1T2V2Aname": "With Caffeine",
 							"STBLA1T2V2Bname": "Caffeine Free",
-							"STBLA1T2V3Aname": "Rough",
-							"STBLA1T2V3Bname": "Smooth",
+							"STBLA1T2V3Aname": "Smooth",
+							"STBLA1T2V3Bname": "Rough",
 							"STBLA1T2V4Aname": "Higher",
 							"STBLA1T2V4Bname": "Lower",
 							"STBLA2T1V1Aname": "0 degrees",
@@ -13392,10 +13392,10 @@
 							"STBLA2T1V4Bname": "Tall",
 							"STBLA2T2V1Aname": "Gray",
 							"STBLA2T2V1Bname": "Black",
-							"STBLA2T2V2Aname": "Latex",
-							"STBLA2T2V2Bname": "Foil",
-							"STBLA2T2V3Aname": "Full Sun",
-							"STBLA2T2V3Bname": "Partial Shade",
+							"STBLA2T2V2Aname": "Full Sun",
+							"STBLA2T2V2Bname": "Partial Shade",
+							"STBLA2T2V3Aname": "Latex",
+							"STBLA2T2V3Bname": "Foil",
 							"STBLA2T2V4Aname": "Wooden Chair",
 							"STBLA2T2V4Bname": "Canvas Chair",
 							"STBLA3T1V1Aname": "Not Steep",
@@ -13412,8 +13412,8 @@
 							"STBLA3T2V2Bname": "Tear Drop",
 							"STBLA3T2V3Aname": "Small",
 							"STBLA3T2V3Bname": "Large",
-							"STBLA3T2V4Aname": "Glass",
-							"STBLA3T2V4Bname": "Lead",
+							"STBLA3T2V4Aname": "Lead",
+							"STBLA3T2V4Bname": "Glass",
 							"STBLA4T1V1Aname": "None",
 							"STBLA4T1V1Bname": "Whole Hive",
 							"STBLA4T1V2Aname": "Full Sun",
@@ -13592,7 +13592,7 @@
 								"fileid": "0a",
 								"SSML": "Actually, it is NOT a good experiment.",
 								"cues": [],
-								"duration": 2407.2916666666665,
+								"duration": 2140.6666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14105,7 +14105,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "3n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14113,7 +14113,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "3o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14307,8 +14307,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -14472,7 +14472,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14480,7 +14480,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14742,7 +14742,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "3n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14750,7 +14750,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "3o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15011,8 +15011,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -15192,7 +15192,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15200,7 +15200,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15462,7 +15462,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "3n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15470,7 +15470,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "3o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15731,8 +15731,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -15947,7 +15947,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15955,7 +15955,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -16122,8 +16122,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -16395,7 +16395,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [
 									{
 										"name": "a",
@@ -16409,7 +16409,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [
 									{
 										"name": "a",
@@ -16696,8 +16696,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -16941,7 +16941,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [
 									{
 										"name": "b",
@@ -16955,7 +16955,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [
 									{
 										"name": "b",
@@ -17242,8 +17242,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -17491,7 +17491,7 @@
 								"fileid": "0b",
 								"SSML": "They have set the",
 								"cues": [],
-								"duration": 808.75,
+								"duration": 924.9166666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17604,7 +17604,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -17612,7 +17612,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -17761,7 +17761,7 @@
 								"fileid": "2a",
 								"SSML": "to be the same across conditions.",
 								"cues": [],
-								"duration": 1894.375,
+								"duration": 1794.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -17769,7 +17769,7 @@
 								"fileid": "2b",
 								"SSML": "to be different across conditions.",
 								"cues": [],
-								"duration": 1743.5,
+								"duration": 1895.0416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17800,8 +17800,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -17860,7 +17860,7 @@
 								"fileid": "0b",
 								"SSML": "You are correct that the different",
 								"cues": [],
-								"duration": 1589.2083333333333,
+								"duration": 1408.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17973,7 +17973,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -17981,7 +17981,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18138,7 +18138,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2397.2916666666665,
+								"duration": 2427.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18237,8 +18237,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -18299,7 +18299,7 @@
 								"fileid": "0a",
 								"SSML": "Actually the same",
 								"cues": [],
-								"duration": 1227.4166666666667,
+								"duration": 1111.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -18420,7 +18420,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18428,7 +18428,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18684,8 +18684,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -18753,7 +18753,7 @@
 								"fileid": "0b",
 								"SSML": "The students made the",
 								"cues": [],
-								"duration": 1114,
+								"duration": 1218.4166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18866,7 +18866,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18874,7 +18874,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19023,7 +19023,7 @@
 								"fileid": "2a",
 								"SSML": "the same across conditions.",
 								"cues": [],
-								"duration": 1676.0833333333333,
+								"duration": 1568.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19062,8 +19062,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -19114,7 +19114,7 @@
 								"fileid": "0a",
 								"SSML": "You are correct that the same",
 								"cues": [],
-								"duration": 1446.25,
+								"duration": 1327.2083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19122,7 +19122,7 @@
 								"fileid": "0b",
 								"SSML": "You are correct that the different",
 								"cues": [],
-								"duration": 1589.2083333333333,
+								"duration": 1408.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19235,7 +19235,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19243,7 +19243,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19499,8 +19499,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -19682,7 +19682,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19690,7 +19690,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19946,8 +19946,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -20128,7 +20128,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20136,7 +20136,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20324,8 +20324,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -20497,7 +20497,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20505,7 +20505,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20761,8 +20761,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -20944,7 +20944,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20952,7 +20952,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21208,8 +21208,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -21378,7 +21378,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21386,7 +21386,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21553,8 +21553,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -21709,7 +21709,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21717,7 +21717,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21884,8 +21884,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -22040,7 +22040,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22048,7 +22048,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22215,8 +22215,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -22374,7 +22374,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22382,7 +22382,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22629,8 +22629,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -22801,7 +22801,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22809,7 +22809,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23056,8 +23056,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -23234,7 +23234,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23242,7 +23242,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23493,7 +23493,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "2n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23501,7 +23501,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "2o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23763,7 +23763,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "4n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23771,7 +23771,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "4o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23941,8 +23941,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -23975,8 +23975,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -24012,8 +24012,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -24168,7 +24168,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24176,7 +24176,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24343,8 +24343,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -24537,7 +24537,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24545,7 +24545,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24724,8 +24724,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -24895,7 +24895,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24903,7 +24903,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25243,7 +25243,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "5n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25251,7 +25251,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "5o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25591,7 +25591,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "9n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25599,7 +25599,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "9o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25861,7 +25861,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "11n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25869,7 +25869,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "11o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26018,7 +26018,7 @@
 								"fileid": "12a",
 								"SSML": "causes a difference in the result.",
 								"cues": [],
-								"duration": 1677.125,
+								"duration": 1750.4583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26058,8 +26058,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -26142,6 +26142,72 @@
 					"templates": {
 						"$EFO_TED_POST_INTRO|part1": {
 							"TEDPOSTINTROpart1": "Let's see how you design experiments on your own. You’ll design four experiments."
+						}
+					}
+				}
+			},
+			"track2": {
+				"en": {
+					"node": "I want to see what you learned so...",
+					"html": "{{$EFO_TED_POST_INTRO|part2}}",
+					"text": "{{$EFO_TED_POST_INTRO|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_INTRO|part2",
+							"TEDPOSTINTROpart2": {
+								"fileid": "0a",
+								"SSML": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
+								"cues": [],
+								"duration": 5004.958333333333,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_INTRO|part2": {
+							"TEDPOSTINTROpart2": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong."
+						}
+					}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "When you’re done working...",
+					"html": "{{$EFO_TED_POST_INTRO|part3}}",
+					"text": "{{$EFO_TED_POST_INTRO|part3}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [
+						{
+							"templateVar": "$EFO_TED_POST_INTRO|part3",
+							"TEDPOSTINTROpart3": {
+								"fileid": "0a",
+								"SSML": "When you’re done working on each experiment, click the next button.",
+								"cues": [],
+								"duration": 3287.375,
+								"trim": 0,
+								"volume": 1
+							}
+						}
+					],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {
+						"$EFO_TED_POST_INTRO|part3": {
+							"TEDPOSTINTROpart3": "When you’re done working on each experiment, click the next button."
 						}
 					}
 				}
@@ -26286,7 +26352,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26294,7 +26360,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26541,8 +26607,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -26713,7 +26779,7 @@
 							},
 							"STBLA2T2V2name": {
 								"fileid": "1n",
-								"SSML": "Balloon Material",
+								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26721,7 +26787,7 @@
 							},
 							"STBLA2T2V3name": {
 								"fileid": "1o",
-								"SSML": "Amount of Sunlight",
+								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26968,8 +27034,8 @@
 							"STBLA2T1V3name": "Pattern on Glass",
 							"STBLA2T1V4name": "Shape of Glass",
 							"STBLA2T2V1name": "Balloon Color",
-							"STBLA2T2V2name": "Balloon Material",
-							"STBLA2T2V3name": "Amount of Sunlight",
+							"STBLA2T2V2name": "Amount of Sunlight",
+							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
 							"STBLA3T1V2name": "Color of Ball",
@@ -27036,72 +27102,6 @@
 						}
 					}
 				}
-			},
-			"track3": {
-				"en": {
-					"node": "I want to see what you learned so...",
-					"html": "{{$EFO_TED_POST_E|part4}}",
-					"text": "{{$EFO_TED_POST_E|part4}}",
-					"volume": [
-						1
-					],
-					"cueSet": "...............................................................",
-					"segments": [
-						{
-							"templateVar": "$EFO_TED_POST_E|part4",
-							"TEDPOSTEpart4": {
-								"fileid": "0a",
-								"SSML": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
-								"cues": [],
-								"duration": 5004.958333333333,
-								"trim": 0,
-								"volume": 1
-							}
-						}
-					],
-					"timedSet": [],
-					"trim": [
-						0
-					],
-					"templates": {
-						"$EFO_TED_POST_E|part4": {
-							"TEDPOSTEpart4": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong."
-						}
-					}
-				}
-			},
-			"track4": {
-				"en": {
-					"node": "When you’re done working...",
-					"html": "{{$EFO_TED_POST_E|part5}}",
-					"text": "{{$EFO_TED_POST_E|part5}}",
-					"volume": [
-						1
-					],
-					"cueSet": "...............................................................",
-					"segments": [
-						{
-							"templateVar": "$EFO_TED_POST_E|part5",
-							"TEDPOSTEpart5": {
-								"fileid": "0a",
-								"SSML": "When you’re done working, click the next button.",
-								"cues": [],
-								"duration": 2401.0833333333335,
-								"trim": 0,
-								"volume": 1
-							}
-						}
-					],
-					"timedSet": [],
-					"trim": [
-						0
-					],
-					"templates": {
-						"$EFO_TED_POST_E|part5": {
-							"TEDPOSTEpart5": "When you’re done working, click the next button."
-						}
-					}
-				}
 			}
 		}
 	},
@@ -27123,7 +27123,7 @@
 								"fileid": "0a",
 								"SSML": "Explain why you designed your experiment the way that you did.",
 								"cues": [],
-								"duration": 3030.7916666666665,
+								"duration": 2948.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27160,7 +27160,7 @@
 								"fileid": "0a",
 								"SSML": "The skills you have learned in this lesson can be applied any time you set up any experiment, in any domain.",
 								"cues": [],
-								"duration": 5246.791666666667,
+								"duration": 5485.083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27226,7 +27226,7 @@
 								"fileid": "0a",
 								"SSML": "This way, only that one variable you are testing can cause the result.",
 								"cues": [],
-								"duration": 3608.125,
+								"duration": 3812.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}

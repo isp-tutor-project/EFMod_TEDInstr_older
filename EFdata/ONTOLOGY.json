@@ -249,7 +249,11 @@
                     "comment":"scene18 ********************",
 
                     "part1":"Let's see how you design experiments on your own. You’ll design four experiments.",
+                    "part2":"I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
+                    "part3":"When you’re done working on each experiment, click the next button.",
+
                     "question":"<p>Set up experiments on your own now!</p>"
+                    
                 },                
                 "E": {
                     "comment":"scene19 ********************",
@@ -259,8 +263,6 @@
                     "part2":"affects the",
 
                     "part3":"You can change part of the experiment by simply clicking in the table.",
-                    "part4":"I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
-                    "part5":"When you’re done working, click the next button.",
 
                     "question":"<p>Set up experiments on your own now!</p>"
                 },                
@@ -444,13 +446,13 @@
                         "name": "Texture of Mint",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Rough",
-                            "tag":"Rough"
+                            "name": "Smooth",
+                            "tag":"Smooth"
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Smooth",
-                            "tag":"Smooth"
+                            "name": "Rough",
+                            "tag":"Rough"
                         }
                     },
                     "V4": {
@@ -564,20 +566,6 @@
                     },
                     "V2": {
                         "id": "Svar2",
-                        "name": "Balloon Material",
-                        "A": {
-                            "id": "Svar1a",
-                            "name": "Latex",
-                            "tag":"Latex"
-                        },
-                        "B": {
-                            "id": "Svar1b",
-                            "name": "Foil",
-                            "tag":"Foil"
-                        }
-                    },
-                    "V3": {
-                        "id": "Svar3",
                         "name": "Amount of Sunlight",
                         "A": {
                             "id": "Svar1a",
@@ -588,6 +576,20 @@
                             "id": "Svar1b",
                             "name": "Partial Shade",
                             "tag":"Shade"
+                        }
+                    },
+                    "V3": {
+                        "id": "Svar3",
+                        "name": "Balloon Material",
+                        "A": {
+                            "id": "Svar1a",
+                            "name": "Latex",
+                            "tag":"Latex"
+                        },
+                        "B": {
+                            "id": "Svar1b",
+                            "name": "Foil",
+                            "tag":"Foil"
                         }
                     },
                     "V4": {
@@ -733,13 +735,13 @@
                         "name": "Density of Object",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Glass",
-                            "tag":"low (glass)"
+                            "name": "Lead",
+                            "tag":"high (lead)"
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Lead",
-                            "tag":"high (lead)"
+                            "name": "Glass",
+                            "tag":"low (glass)"
                         }
                     }
                 }

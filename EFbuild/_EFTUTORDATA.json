@@ -205,6 +205,8 @@
 				"INTRO": {
 					"comment": "scene18 ********************",
 					"part1": "Let's see how you design experiments on your own. You’ll design four experiments.",
+					"part2": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
+					"part3": "When you’re done working on each experiment, click the next button.",
 					"question": "<p>Set up experiments on your own now!</p>"
 				},
 				"E": {
@@ -213,8 +215,6 @@
 					"part1": "Design an experiment that will let you find out for sure whether or not the",
 					"part2": "affects the",
 					"part3": "You can change part of the experiment by simply clicking in the table.",
-					"part4": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
-					"part5": "When you’re done working, click the next button.",
 					"question": "<p>Set up experiments on your own now!</p>"
 				},
 				"Q": {
@@ -457,13 +457,13 @@
 						"name": "Texture of Mint",
 						"A": {
 							"id": "Svar1a",
-							"name": "Rough",
-							"tag": "Rough"
+							"name": "Smooth",
+							"tag": "Smooth"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Smooth",
-							"tag": "Smooth"
+							"name": "Rough",
+							"tag": "Rough"
 						}
 					},
 					"V4": {
@@ -646,20 +646,6 @@
 					},
 					"V2": {
 						"id": "Svar2",
-						"name": "Balloon Material",
-						"A": {
-							"id": "Svar1a",
-							"name": "Latex",
-							"tag": "Latex"
-						},
-						"B": {
-							"id": "Svar1b",
-							"name": "Foil",
-							"tag": "Foil"
-						}
-					},
-					"V3": {
-						"id": "Svar3",
 						"name": "Amount of Sunlight",
 						"A": {
 							"id": "Svar1a",
@@ -670,6 +656,20 @@
 							"id": "Svar1b",
 							"name": "Partial Shade",
 							"tag": "Shade"
+						}
+					},
+					"V3": {
+						"id": "Svar3",
+						"name": "Balloon Material",
+						"A": {
+							"id": "Svar1a",
+							"name": "Latex",
+							"tag": "Latex"
+						},
+						"B": {
+							"id": "Svar1b",
+							"name": "Foil",
+							"tag": "Foil"
 						}
 					},
 					"V4": {
@@ -887,13 +887,13 @@
 						"name": "Density of Object",
 						"A": {
 							"id": "Svar1a",
-							"name": "Glass",
-							"tag": "low (glass)"
+							"name": "Lead",
+							"tag": "high (lead)"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Lead",
-							"tag": "high (lead)"
+							"name": "Glass",
+							"tag": "low (glass)"
 						}
 					}
 				}
@@ -1134,17 +1134,17 @@
 					"enumValue2a": "Salt",
 					"enumValue2b": "Brown Sugar",
 					"enumValue3": "The initial amount of crystals on the string",
-					"enumValue3a": "None",
-					"enumValue3b": "Some",
+					"enumValue3a": "Some",
+					"enumValue3b": "None",
 					"enumValue4": "The type of string",
 					"enumValue4a": "Twine",
 					"enumValue4b": "Yarn",
 					"enumValueUtt1a": "The water temperature which can be cool.",
-					"enumValueUtt1b": "Or hot might make a difference.",
+					"enumValueUtt1b": "Or hot, might make a difference.",
 					"enumValueUtt2a": "The type of crystal which can be salt",
-					"enumValueUtt2b": "Or brown sugar might make a difference.",
-					"enumValueUtt3a": "The initial amount of crystals on the string which can be none",
-					"enumValueUtt3b": "Or some might make a difference.",
+					"enumValueUtt2b": "Or brown sugar, might make a difference.",
+					"enumValueUtt3a": "The initial amount of crystals on the string which can be some",
+					"enumValueUtt3b": "Or none, might make a difference.",
 					"enumValueUtt4a": "And the type of string which can be twine.",
 					"enumValueUtt4b": "Or yarn. This might also make a difference.",
 					"RQ1": {
@@ -1197,19 +1197,19 @@
 					"enumValue2a": "Some",
 					"enumValue2b": "None",
 					"enumValue3": "The surface Texture of the mint",
-					"enumValue3a": "Rough",
-					"enumValue3b": "Smooth",
+					"enumValue3a": "Smooth",
+					"enumValue3b": "Rough",
 					"enumValue4": "The amount of carbon dioxide in the soda",
-					"enumValue4a": "Higher",
-					"enumValue4b": "Lower",
+					"enumValue4a": "High",
+					"enumValue4b": "Low",
 					"enumValueUtt1a": "The type of sweetener which can be sugar",
-					"enumValueUtt1b": "Or aspartame might make a difference",
+					"enumValueUtt1b": "Or aspartame, might make a difference",
 					"enumValueUtt2a": "The amount of caffeine in the soda which can be some",
-					"enumValueUtt2b": "Or none might make a difference",
-					"enumValueUtt3a": "The surface texture of the mint, which can be rough",
-					"enumValueUtt3b": "Or smooth might make a difference",
-					"enumValueUtt4a": "And the amount of carbon dioxide in the soda which can be higher",
-					"enumValueUtt4b": "Or lower. This might also make a difference",
+					"enumValueUtt2b": "Or none, might make a difference",
+					"enumValueUtt3a": "The surface texture of the mint, which can be smooth",
+					"enumValueUtt3b": "Or rough, might make a difference",
+					"enumValueUtt4a": "And the amount of carbon dioxide in the soda which can be high",
+					"enumValueUtt4b": "Or low. This might also make a difference",
 					"RQ1": {
 						"rqselected": "Does the type of sweetener in the soda",
 						"ExpSelected": "type of sweetener in the soda"
@@ -1268,16 +1268,16 @@
 					"enumValue3a": "Striped",
 					"enumValue3b": "Plain",
 					"enumValue4": "The shape of the glass",
-					"enumValue4a": "Shorter",
-					"enumValue4b": "Taller",
+					"enumValue4a": "Short",
+					"enumValue4b": "Tall",
 					"enumValueUtt1a": "the initial temperature of the ice cube which can be zero degrees Celsius",
-					"enumValueUtt1b": "Or negative twenty degrees Celsius might make a difference",
+					"enumValueUtt1b": "Or negative twenty degrees Celsius, might make a difference",
 					"enumValueUtt2a": "The initial temperature of the water which can be cold",
-					"enumValueUtt2b": "Or hot might make a difference",
+					"enumValueUtt2b": "Or hot, might make a difference",
 					"enumValueUtt3a": "The pattern on the glass which can be striped",
-					"enumValueUtt3b": "Or plain might make a difference",
-					"enumValueUtt4a": "And the shape of the glass which can be shorter or",
-					"enumValueUtt4b": "Taller. This might also make a difference",
+					"enumValueUtt3b": "Or plain, might make a difference",
+					"enumValueUtt4a": "And the shape of the glass which can be short or",
+					"enumValueUtt4b": "Tall. This might also make a difference",
 					"RQ1": {
 						"rqselected": "Does the initial temperature of the ice cube",
 						"ExpSelected": "initial temperature of the ice cube"
@@ -1310,8 +1310,8 @@
 					"wewillselect": "we will select the topic temperature of a gas",
 					"belowarevariables": "Below are some variables that might affect the temperature of gas in a balloon.",
 					"enumVar1": "The color of the balloon",
-					"enumVar2": "The material the balloon is made of",
-					"enumVar3": "The amount of sunlight exposure the balloon gets",
+					"enumVar2": "The amount of sunlight exposure the balloon gets",
+					"enumVar3": "The material the balloon is made of",
 					"enumVar4": "The type of chair the balloon is tied to",
 					"enumUtt4": "And the type of chair the balloon is tied to",
 					"enumMat1": "A balloon",
@@ -1327,23 +1327,23 @@
 					"enumProcess5": "We can measure the temperature of the gas after 30 minutes.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the temperature of gas in the balloon. These are the four variables you can test in this experiment",
 					"enumValue1": "The color of the balloon",
-					"enumValue1a": "Lighter",
-					"enumValue1b": "Darker",
-					"enumValue2": "The material the balloon is made of",
-					"enumValue2a": "Foil",
-					"enumValue2b": "Latex",
-					"enumValue3": "The amount of sunlight exposure the balloon gets",
-					"enumValue3a": "Full Sun",
-					"enumValue3b": "Shade",
+					"enumValue1a": "Light",
+					"enumValue1b": "Dark",
+					"enumValue2": "The amount of sunlight exposure the balloon gets",
+					"enumValue2a": "Full Sun",
+					"enumValue2b": "Shade",
+					"enumValue3": "The material the balloon is made of",
+					"enumValue3a": "Latex",
+					"enumValue3b": "Foil",
 					"enumValue4": "The type of chair the balloon is tied to",
 					"enumValue4a": "Wooden",
 					"enumValue4b": "Canvas",
-					"enumValueUtt1a": "The color of the balloon, which can be lighter",
-					"enumValueUtt1b": "Or darker might make a difference",
-					"enumValueUtt2a": "The material the balloon is made of which can be foil",
-					"enumValueUtt2b": "Or latex might make a difference",
-					"enumValueUtt3a": "The amount of sunlight exposure the balloon gets, which can be full sun",
-					"enumValueUtt3b": "Or shade might make a difference",
+					"enumValueUtt1a": "The color of the balloon, which can be light",
+					"enumValueUtt1b": "Or dark, might make a difference",
+					"enumValueUtt2a": "The amount of sunlight exposure the balloon gets, which can be full sun",
+					"enumValueUtt2b": "Or shade, might make a difference",
+					"enumValueUtt3a": "The material the balloon is made of which can be latex",
+					"enumValueUtt3b": "Or foil, might make a difference",
 					"enumValueUtt4a": "And the type of chair the balloon is tied to, which can be a wooden chair",
 					"enumValueUtt4b": "Or a canvas chair. This might also make a difference",
 					"RQ1": {
@@ -1351,12 +1351,12 @@
 						"ExpSelected": "color of the balloon"
 					},
 					"RQ2": {
-						"rqselected": "Does the material the balloon is made of",
-						"ExpSelected": "material the balloon is made of"
-					},
-					"RQ3": {
 						"rqselected": "Does the amount of sunlight exposure the balloon gets",
 						"ExpSelected": "amount of sunlight exposure the balloon gets"
+					},
+					"RQ3": {
+						"rqselected": "Does the material the balloon is made of",
+						"ExpSelected": "material the balloon is made of"
 					},
 					"RQ4": {
 						"rqselected": "Does the type of chair the balloon is tied to",
@@ -1369,8 +1369,8 @@
 					"DVs": "gas temperature within balloon after 30 minutes",
 					"DVabb": "Gas temperature",
 					"buttVarName1": "The color of the balloon",
-					"buttVarName2": "The material the balloon is made of",
-					"buttVarName3": "The amount of sunlight exposure the balloon gets",
+					"buttVarName2": "The amount of sunlight exposure the balloon gets",
+					"buttVarName3": "The material the balloon is made of",
 					"buttVarName4": "The type of chair the balloon is tied to"
 				}
 			},
@@ -1393,23 +1393,23 @@
 					"enumProcess3": "We will measure the balls speed at the bottom of the ramp.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the speed of the ball at the bottom of the ramp. These are the four variables you can test in this experiment",
 					"enumValue1": "The Slope of the Ramp",
-					"enumValue1a": "Steep",
-					"enumValue1b": "Not Steep",
+					"enumValue1a": "Not Steep",
+					"enumValue1b": "Steep",
 					"enumValue2": "The Color of the Ball",
 					"enumValue2a": "Yellow",
 					"enumValue2b": "Pink",
 					"enumValue3": "The Starting Position of the Ball",
-					"enumValue3a": "Higher",
-					"enumValue3b": "Lower",
+					"enumValue3a": "Middle",
+					"enumValue3b": "Top",
 					"enumValue4": "The Surface Texture of the Ramp",
 					"enumValue4a": "Rough",
 					"enumValue4b": "Smooth",
-					"enumValueUtt1a": "The slope of the ramp, which can be steep",
-					"enumValueUtt1b": "Or not steep might make a difference",
+					"enumValueUtt1a": "The slope of the ramp, which can be not steep",
+					"enumValueUtt1b": "Or steep, might make a difference",
 					"enumValueUtt2a": "The color of the ball which can be yellow",
-					"enumValueUtt2b": "Or pink might make a difference",
-					"enumValueUtt3a": "The starting position of the ball, which can be higher",
-					"enumValueUtt3b": "Or lower might make a difference",
+					"enumValueUtt2b": "Or pink, might make a difference",
+					"enumValueUtt3a": "The starting position of the ball, which can be in the middle",
+					"enumValueUtt3b": "Or at the top, might make a difference",
 					"enumValueUtt4a": "And the surface texture of the ramp, which can be rough",
 					"enumValueUtt4b": "Or smooth.  This might also make a difference",
 					"RQ1": {
@@ -1459,25 +1459,25 @@
 					"enumProcess5": "We can measure the time it takes for the object to sink in water.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time of it takes for objects to sink in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The Density of the Water",
-					"enumValue1a": "Lower",
-					"enumValue1b": "Higher",
+					"enumValue1a": "Low",
+					"enumValue1b": "High",
 					"enumValue2": "The Shape of the Object",
 					"enumValue2a": "Sphere",
 					"enumValue2b": "Tear-Shaped",
 					"enumValue3": "The Volume of the Object",
-					"enumValue3a": "Smaller",
-					"enumValue3b": "Larger",
+					"enumValue3a": "Small",
+					"enumValue3b": "Large",
 					"enumValue4": "The Density of the Object",
-					"enumValue4a": "Higher",
-					"enumValue4b": "Lower",
-					"enumValueUtt1a": "The density of the water, which can be lower",
-					"enumValueUtt1b": "Or higher might make a difference",
+					"enumValue4a": "High",
+					"enumValue4b": "Low",
+					"enumValueUtt1a": "The density of the water, which can be low",
+					"enumValueUtt1b": "Or high, might make a difference",
 					"enumValueUtt2a": "The shape of the object which can be a sphere",
-					"enumValueUtt2b": "Or tear-shaped might make a difference",
-					"enumValueUtt3a": "The volume of the object which can be smaller",
-					"enumValueUtt3b": "Or larger might make a difference",
-					"enumValueUtt4a": "And the density of the object which can be higher",
-					"enumValueUtt4b": "Or lower.  This might also make a difference",
+					"enumValueUtt2b": "Or tier-shaped, might make a difference",
+					"enumValueUtt3a": "The volume of the object which can be small",
+					"enumValueUtt3b": "Or large, might make a difference",
+					"enumValueUtt4a": "And the density of the object which can be high",
+					"enumValueUtt4b": "Or low.  This might also make a difference",
 					"RQ1": {
 						"rqselected": "Does the density of water",
 						"ExpSelected": "density of water"
@@ -1540,11 +1540,11 @@
 					"enumValue4a": "Rain Water",
 					"enumValue4b": "Tap Water",
 					"enumValueUtt1a": "The number of honey bees in the greenhouse, which can be zero",
-					"enumValueUtt1b": "Or a whole hive might make a difference",
+					"enumValueUtt1b": "Or a whole hive, might make a difference",
 					"enumValueUtt2a": "The amount of sunlight the greenhouse lets in, which can be full sunlight",
-					"enumValueUtt2b": "Or partial sunlight might make a difference",
+					"enumValueUtt2b": "Or partial sunlight, might make a difference",
 					"enumValueUtt3a": "The amount of fertilizer, which can be none",
-					"enumValueUtt3b": "Or some might make a difference",
+					"enumValueUtt3b": "Or some, might make a difference",
 					"enumValueUtt4a": "And the type of water, which can be rain water",
 					"enumValueUtt4b": "Or tap water.   This might also make a difference",
 					"RQ1": {
@@ -1556,12 +1556,12 @@
 						"ExpSelected": "amount of sunlight the greenhouse lets in"
 					},
 					"RQ3": {
-						"rqselected": "Does the type of water",
-						"ExpSelected": "type of water"
-					},
-					"RQ4": {
 						"rqselected": "Does the amount of fertilizer",
 						"ExpSelected": "amount of fertilizer"
+					},
+					"RQ4": {
+						"rqselected": "Does the type of water",
+						"ExpSelected": "type of water"
 					},
 					"rqselectedall": "affect the number of seeds produced by flowers at the end of the season?",
 					"rqselectedalls": "affects the number of seeds produced by flowers at the end of the season?",
@@ -1597,7 +1597,7 @@
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the weight of the algae after one week. These are the four variables you can test in this experiment",
 					"enumValue1": "The Temperature of the Water",
 					"enumValue1a": "Room Temperature",
-					"enumValue1b": "Warmer",
+					"enumValue1b": "Warm",
 					"enumValue2": "The Amount of Exposure to Music",
 					"enumValue2a": "Constant Music",
 					"enumValue2b": "No Music",
@@ -1608,13 +1608,13 @@
 					"enumValue4a": "Some",
 					"enumValue4b": "None",
 					"enumValueUtt1a": "The temperature of the water, which can be room temperature",
-					"enumValueUtt1b": "Or a warmer might make a difference",
+					"enumValueUtt1b": "Or a warm, might make a difference",
 					"enumValueUtt2a": "The amount of exposure to music which can be constant music",
-					"enumValueUtt2b": "Or no music might make a difference",
-					"enumValueUtt3a": "The amount of carbon dioxide , which can be a lot",
-					"enumValueUtt3b": "Or none might make a difference",
+					"enumValueUtt2b": "Or no music, might make a difference",
+					"enumValueUtt3a": "The amount of carbon dioxide, which can be a lot",
+					"enumValueUtt3b": "Or none, might make a difference",
 					"enumValueUtt4a": "And the amount of direct sunlight exposure, which can be some",
-					"enumValueUtt4b": "Or none.   This might also make a difference",
+					"enumValueUtt4b": "Or none. This might also make a difference",
 					"RQ1": {
 						"rqselected": "Does the temperature of the water",
 						"ExpSelected": "temperature of the water"

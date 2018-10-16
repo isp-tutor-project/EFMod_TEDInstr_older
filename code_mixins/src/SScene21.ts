@@ -67,6 +67,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $nodeAction(actionId:string) : void {
             
             switch(actionId) {
+                case "ENDOFTRACKS": 
+                this.setSceneValue("complete", true); 
+                break;
             }
         }
         
@@ -80,17 +83,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // Track methods.
         // 
         public $cuePoints(trackID:string, cueID:string) {
-
-            switch(trackID) {
-
-                case "track1":
-                    switch(cueID) {                        
-                        case "$end":
-                            this.setSceneValue("complete", true); 
-                            break;
-                    }
-                    break;
-            }
         }
 
         public $timedEvents(id:string) {

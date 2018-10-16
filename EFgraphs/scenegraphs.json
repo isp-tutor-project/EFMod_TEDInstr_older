@@ -1302,7 +1302,9 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1",  "autostep":true, "stepdelay":800,  "features":""}
+                        {"trackname":"track1",  "autostep":true,   "stepdelay":800,  "features":""},
+                        {"trackname":"track2",   "autostep":true,  "stepdelay":800,  "features":""},
+                        {"trackname":"track3",   "autostep":true,  "stepdelay":800,  "features":""}
                     ],                        
                     "edges":
 							[
@@ -1345,11 +1347,8 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1a",  "autostep":true,  "stepdelay":800,  "features":"FTR_POST1"},
-                        {"trackname":"track1",   "autostep":false, "stepdelay":800,  "features":"!FTR_POST1"},
-                        {"trackname":"track2",   "autostep":true,  "stepdelay":800,  "features":"FTR_POST1"},
-                        {"trackname":"track3",   "autostep":true,  "stepdelay":800,  "features":"FTR_POST1"},
-                        {"trackname":"track4",   "autostep":false, "stepdelay":800,  "features":"FTR_POST1"}
+                        {"trackname":"track1a",  "autostep":false,  "stepdelay":800,  "features":"FTR_POST1"},
+                        {"trackname":"track1",   "autostep":false, "stepdelay":800,  "features":"!FTR_POST1"}
                     ],                         
                     "edges":
 							[
@@ -1437,7 +1436,9 @@
                     [
                         {"trackname":"track1",  "autostep":true, "stepdelay":800,  "features":""},
                         {"trackname":"track2",  "autostep":true, "stepdelay":800,  "features":""},
-                        {"trackname":"track3",  "autostep":false, "stepdelay":800,  "features":""}
+                        {"trackname":"track3",  "autostep":true, "stepdelay":800,  "features":""},
+                        {"actionname":"ENDOFTRACKS", "autostep":false, "features":""}
+
                     ],                        
                     "edges":
 							[

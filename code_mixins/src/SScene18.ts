@@ -24,6 +24,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
+
             this.setSceneValue("complete", false);    
         }
 

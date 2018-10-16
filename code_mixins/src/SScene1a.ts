@@ -21,6 +21,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
             // define experimental group assignment
             // 
             this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
