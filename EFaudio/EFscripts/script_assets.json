@@ -59,7 +59,7 @@
 								"fileid": "1a",
 								"SSML": "Physical and Chemical Changes",
 								"cues": [],
-								"duration": 1859.9166666666667,
+								"duration": 1860.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -75,7 +75,7 @@
 								"fileid": "1c",
 								"SSML": "Forces and Motion",
 								"cues": [],
-								"duration": 1208.9166666666667,
+								"duration": 1227.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -83,7 +83,7 @@
 								"fileid": "1d",
 								"SSML": "Plant Growth",
 								"cues": [],
-								"duration": 905.625,
+								"duration": 900.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -123,7 +123,7 @@
 								"fileid": "0",
 								"SSML": "Now select a target variable for the topic",
 								"cues": [],
-								"duration": 2550.4583333333335,
+								"duration": 2614.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -134,7 +134,7 @@
 								"fileid": "1a",
 								"SSML": "Crystal Growth",
 								"cues": [],
-								"duration": 971.9166666666666,
+								"duration": 956.7083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -166,7 +166,7 @@
 								"fileid": "1e",
 								"SSML": "Inclined Planes",
 								"cues": [],
-								"duration": 1244.625,
+								"duration": 1273.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -230,7 +230,7 @@
 								"fileid": "0",
 								"SSML": "You may modify your selection before continuing. Otherwise select a section of the tutor you wish to start at, or click next to begin the tutor from the beginning.",
 								"cues": [],
-								"duration": 8315.791666666666,
+								"duration": 8362.041666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -321,7 +321,7 @@
 								"fileid": "0",
 								"SSML": "That's right! You correctly identified the one variable you are testing for this experiment.",
 								"cues": [],
-								"duration": 5100.541666666667,
+								"duration": 4760.291666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -370,23 +370,23 @@
 								"fileid": "1a",
 								"SSML": "Water Temperature",
 								"cues": [],
-								"duration": 1153.5833333333333,
+								"duration": 1145.7083333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
-								"duration": 929.75,
+								"duration": 1154.0833333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
-								"duration": 1447.1666666666667,
+								"duration": 2017.5833333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -394,7 +394,7 @@
 								"fileid": "1d",
 								"SSML": "Type of String",
 								"cues": [],
-								"duration": 939.0833333333334,
+								"duration": 930.5416666666666,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -402,7 +402,7 @@
 								"fileid": "1e",
 								"SSML": "Type of Sweetener",
 								"cues": [],
-								"duration": 1068.7083333333333,
+								"duration": 1051.9583333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -410,7 +410,7 @@
 								"fileid": "1f",
 								"SSML": "Amount of Caffeine",
 								"cues": [],
-								"duration": 1167.75,
+								"duration": 1161.2083333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -418,7 +418,7 @@
 								"fileid": "1g",
 								"SSML": "Texture of Mint",
 								"cues": [],
-								"duration": 952.0833333333334,
+								"duration": 1094.4166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -426,7 +426,7 @@
 								"fileid": "1h",
 								"SSML": "Amount of CO2",
 								"cues": [],
-								"duration": 1464.2083333333333,
+								"duration": 1489.7916666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -442,7 +442,7 @@
 								"fileid": "1j",
 								"SSML": "Initial Water Temperature",
 								"cues": [],
-								"duration": 1590.4166666666667,
+								"duration": 1589.25,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -450,7 +450,7 @@
 								"fileid": "1k",
 								"SSML": "Pattern on Glass",
 								"cues": [],
-								"duration": 1197.3333333333333,
+								"duration": 1183.375,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -458,7 +458,7 @@
 								"fileid": "1l",
 								"SSML": "Shape of Glass",
 								"cues": [],
-								"duration": 1142.9166666666667,
+								"duration": 1083.7083333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -466,7 +466,7 @@
 								"fileid": "1m",
 								"SSML": "Balloon Color",
 								"cues": [],
-								"duration": 950,
+								"duration": 949.9166666666666,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -474,7 +474,7 @@
 								"fileid": "1n",
 								"SSML": "Amount of Sunlight",
 								"cues": [],
-								"duration": 1196.9166666666667,
+								"duration": 1189.1666666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -482,7 +482,7 @@
 								"fileid": "1o",
 								"SSML": "Balloon Material",
 								"cues": [],
-								"duration": 1162.75,
+								"duration": 1138.9583333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -504,9 +504,9 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
-								"duration": 886.0416666666666,
+								"duration": 933.375,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -514,7 +514,7 @@
 								"fileid": "1s",
 								"SSML": "Starting Position",
 								"cues": [],
-								"duration": 1195.9583333333333,
+								"duration": 1210.0416666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -522,7 +522,7 @@
 								"fileid": "1t",
 								"SSML": "Ramp Surface",
 								"cues": [],
-								"duration": 1091.0833333333333,
+								"duration": 1088.5833333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -530,7 +530,7 @@
 								"fileid": "1u",
 								"SSML": "Density of Water",
 								"cues": [],
-								"duration": 1118.75,
+								"duration": 1126.125,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -538,7 +538,7 @@
 								"fileid": "1v",
 								"SSML": "Shape of Object",
 								"cues": [],
-								"duration": 1200.9166666666667,
+								"duration": 1142.4166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -546,7 +546,7 @@
 								"fileid": "1w",
 								"SSML": "Volume of Object",
 								"cues": [],
-								"duration": 1282.75,
+								"duration": 1263.7083333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -570,7 +570,7 @@
 								"fileid": "1z",
 								"SSML": "Amount of Sunlight",
 								"cues": [],
-								"duration": 1196.9166666666667,
+								"duration": 1189.1666666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -578,7 +578,7 @@
 								"fileid": "1Ba",
 								"SSML": "Amount of Fertilizer",
 								"cues": [],
-								"duration": 1332.9166666666667,
+								"duration": 1306.5,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -594,7 +594,7 @@
 								"fileid": "1Bc",
 								"SSML": "Water Temperature",
 								"cues": [],
-								"duration": 1153.5833333333333,
+								"duration": 1145.7083333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -602,7 +602,7 @@
 								"fileid": "1Bd",
 								"SSML": "Amount of Music",
 								"cues": [],
-								"duration": 1001.875,
+								"duration": 1140.4166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -610,7 +610,7 @@
 								"fileid": "1Be",
 								"SSML": "CO2 in Water",
 								"cues": [],
-								"duration": 1631.9583333333333,
+								"duration": 1670.4166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -618,7 +618,7 @@
 								"fileid": "1Bf",
 								"SSML": "Sunlight Exposure",
 								"cues": [],
-								"duration": 1372.8333333333333,
+								"duration": 1354.8333333333333,
 								"trim": 0,
 								"volume": 0.7
 							}
@@ -646,7 +646,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "3b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -654,7 +654,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "3c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -774,7 +774,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "3r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -899,7 +899,7 @@
 								"fileid": "4",
 								"SSML": "affects the,",
 								"cues": [],
-								"duration": 870.8333333333334,
+								"duration": 869,
 								"trim": 0,
 								"volume": 1
 							}
@@ -918,7 +918,7 @@
 								"fileid": "5b",
 								"SSML": "height of the soda geyser",
 								"cues": [],
-								"duration": 1422.875,
+								"duration": 1429.2083333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -934,7 +934,7 @@
 								"fileid": "5d",
 								"SSML": "gas temperature within balloon after 30 minutes",
 								"cues": [],
-								"duration": 2884.1666666666665,
+								"duration": 2872.4166666666665,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -950,7 +950,7 @@
 								"fileid": "5f",
 								"SSML": "time it takes for objects to sink in water",
 								"cues": [],
-								"duration": 2437.4583333333335,
+								"duration": 2411.4583333333335,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -964,9 +964,9 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "5h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
-								"duration": 2082.0416666666665,
+								"duration": 2425.9583333333335,
 								"trim": 0,
 								"volume": 0.7
 							}
@@ -984,8 +984,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -1000,7 +1000,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -1024,7 +1024,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -1074,7 +1074,7 @@
 								"fileid": "0",
 								"SSML": "You're right! The variable that you're testing should be different for each condition. If the variable is different, you can compare and contrast the effects of the variable.",
 								"cues": [],
-								"duration": 9004.333333333334,
+								"duration": 9005.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1115,7 +1115,7 @@
 								"fileid": "0",
 								"SSML": "Now you must decide how to set up the other variables in this experiment. Let's start with the",
 								"cues": [],
-								"duration": 5731.791666666667,
+								"duration": 5802.333333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1132,7 +1132,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1140,7 +1140,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1260,7 +1260,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1385,7 +1385,7 @@
 								"fileid": "2",
 								"SSML": ". which values would you use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 3725.8333333333335,
+								"duration": 3600.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1402,7 +1402,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "3b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1410,7 +1410,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "3c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1530,7 +1530,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "3r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1672,7 +1672,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "5b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1680,7 +1680,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "5c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1800,7 +1800,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "5r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -1925,7 +1925,7 @@
 								"fileid": "6",
 								"SSML": "has an effect on the",
 								"cues": [],
-								"duration": 1218.6666666666667,
+								"duration": 1229.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1990,7 +1990,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "7h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2012,8 +2012,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name|2": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -2028,7 +2028,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -2046,8 +2046,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|1": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -2062,7 +2062,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -2086,7 +2086,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -2119,7 +2119,7 @@
 								"fileid": "0",
 								"SSML": "Now select which",
 								"cues": [],
-								"duration": 1364,
+								"duration": 1398,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2136,7 +2136,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2144,7 +2144,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2264,7 +2264,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2389,7 +2389,7 @@
 								"fileid": "2",
 								"SSML": "you would use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 3116.1666666666665,
+								"duration": 3130.7083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2406,7 +2406,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "3b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2414,7 +2414,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "3c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2534,7 +2534,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "3r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2659,7 +2659,7 @@
 								"fileid": "4",
 								"SSML": "and only the",
 								"cues": [],
-								"duration": 818.625,
+								"duration": 818.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2676,7 +2676,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "5b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2684,7 +2684,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "5c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2804,7 +2804,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "5r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -2929,7 +2929,7 @@
 								"fileid": "6",
 								"SSML": "has an effect on the",
 								"cues": [],
-								"duration": 1218.6666666666667,
+								"duration": 1229.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2994,7 +2994,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "7h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3016,8 +3016,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name|2": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -3032,7 +3032,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -3050,8 +3050,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|1": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -3066,7 +3066,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -3090,7 +3090,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -3123,7 +3123,7 @@
 								"fileid": "0",
 								"SSML": "Finally select which",
 								"cues": [],
-								"duration": 1449.9166666666667,
+								"duration": 1448.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3140,7 +3140,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3148,7 +3148,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3268,7 +3268,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3393,7 +3393,7 @@
 								"fileid": "2",
 								"SSML": "you would use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 3116.1666666666665,
+								"duration": 3130.7083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3410,7 +3410,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "3b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3418,7 +3418,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "3c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3538,7 +3538,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "3r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3663,7 +3663,7 @@
 								"fileid": "4",
 								"SSML": "and only the",
 								"cues": [],
-								"duration": 818.625,
+								"duration": 818.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3680,7 +3680,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "5b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3688,7 +3688,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "5c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3808,7 +3808,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "5r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -3933,7 +3933,7 @@
 								"fileid": "6",
 								"SSML": "has an effect on the",
 								"cues": [],
-								"duration": 1218.6666666666667,
+								"duration": 1229.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3998,7 +3998,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "7h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4020,8 +4020,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name|2": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -4036,7 +4036,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -4054,8 +4054,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|1": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -4070,7 +4070,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -4094,7 +4094,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -4144,7 +4144,7 @@
 								"fileid": "0",
 								"SSML": "<emphasis level='strong'>You're right!</emphasis> Anything you're not testing should be kept the same between the two conditions.",
 								"cues": [],
-								"duration": 4976.708333333333,
+								"duration": 4941.666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4184,7 +4184,7 @@
 								"fileid": "0",
 								"SSML": "You have set up a good experiment to find out whether the",
 								"cues": [],
-								"duration": 2858.75,
+								"duration": 2821.1666666666665,
 								"trim": 20,
 								"volume": 1
 							}
@@ -4201,7 +4201,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4209,7 +4209,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4329,7 +4329,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4519,7 +4519,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4537,8 +4537,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -4553,7 +4553,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -4577,7 +4577,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -4601,10 +4601,10 @@
 									{
 										"name": "a",
 										"offset": 0.5714285714285714,
-										"relTime": 1878.5
+										"relTime": 1966.547619047619
 									}
 								],
-								"duration": 3287.375,
+								"duration": 3441.4583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4641,20 +4641,20 @@
 									{
 										"name": "a",
 										"offset": 0.4383561643835616,
-										"relTime": 2030.7762557077624
+										"relTime": 2022.6301369863013
 									},
 									{
 										"name": "b",
 										"offset": 0.5753424657534246,
-										"relTime": 2665.393835616438
+										"relTime": 2654.7020547945203
 									},
 									{
 										"name": "c",
 										"offset": 0.6986301369863014,
-										"relTime": 3236.5496575342463
+										"relTime": 3223.5667808219177
 									}
 								],
-								"duration": 4632.708333333333,
+								"duration": 4614.125,
 								"trim": 20,
 								"volume": 1
 							}
@@ -4671,7 +4671,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4679,7 +4679,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4799,7 +4799,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -4924,7 +4924,7 @@
 								"fileid": "2",
 								"SSML": "can cause any difference you find in the result.",
 								"cues": [],
-								"duration": 2429.9166666666665,
+								"duration": 2420.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4939,8 +4939,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -4955,7 +4955,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -4999,7 +4999,7 @@
 								"fileid": "0a",
 								"SSML": "Now we’ll look at how some other students have set up some experiments of their own for the topic of",
 								"cues": [],
-								"duration": 4822.541666666667,
+								"duration": 4647.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5114,7 +5114,7 @@
 								"fileid": "0",
 								"SSML": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help. If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly.",
 								"cues": [],
-								"duration": 11110.833333333334,
+								"duration": 11121.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5148,7 +5148,7 @@
 								"fileid": "0a",
 								"SSML": "Each experiment set up by some other students might either be a good or a bad experiment.",
 								"cues": [],
-								"duration": 4864.125,
+								"duration": 4825.541666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5210,10 +5210,9 @@
 			"track1": {
 				"en": {
 					"node": "(root)TED EXPT1 Intro",
-					"html": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
-					"text": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
+					"html": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}{{$EFO_TED_S7|part3}}",
+					"text": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}{{$EFO_TED_S7|part3}}",
 					"templateRef": {
-						"$EFO_TED_S7|part1": "$EFM_TEDExptRQ.ontologyKey",
 						"$EFO_S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
 						"$EFO_S_A?_T?|rqselectedalls": "$EFM_TEDExptRQ.ontologyKey"
 					},
@@ -5235,7 +5234,7 @@
 								"fileid": "1a",
 								"SSML": "water temperature",
 								"cues": [],
-								"duration": 1153.5833333333333,
+								"duration": 1128.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5251,7 +5250,7 @@
 								"fileid": "1c",
 								"SSML": "initial amount of crystals on the string",
 								"cues": [],
-								"duration": 2166.5416666666665,
+								"duration": 2145.7083333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5259,7 +5258,7 @@
 								"fileid": "1d",
 								"SSML": "type of string",
 								"cues": [],
-								"duration": 939.0833333333334,
+								"duration": 930.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5267,7 +5266,7 @@
 								"fileid": "1e",
 								"SSML": "type of sweetener in the soda",
 								"cues": [],
-								"duration": 1656.9166666666667,
+								"duration": 1655.8333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5275,7 +5274,7 @@
 								"fileid": "1f",
 								"SSML": "amount of caffeine in the soda",
 								"cues": [],
-								"duration": 1730.3333333333333,
+								"duration": 1733.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5283,7 +5282,7 @@
 								"fileid": "1g",
 								"SSML": "surface texture of the mint",
 								"cues": [],
-								"duration": 1646.0416666666667,
+								"duration": 1649.0416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5291,7 +5290,7 @@
 								"fileid": "1h",
 								"SSML": "amount of carbon dioxide in the soda",
 								"cues": [],
-								"duration": 2181.9583333333335,
+								"duration": 2224.2083333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5299,7 +5298,7 @@
 								"fileid": "1i",
 								"SSML": "initial temperature of the ice cube",
 								"cues": [],
-								"duration": 1942.2083333333333,
+								"duration": 1975.0416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5307,7 +5306,7 @@
 								"fileid": "1j",
 								"SSML": "initial temperature of the water",
 								"cues": [],
-								"duration": 1743.375,
+								"duration": 1757.7083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5315,7 +5314,7 @@
 								"fileid": "1k",
 								"SSML": "pattern on the glass",
 								"cues": [],
-								"duration": 1192.5416666666667,
+								"duration": 1211.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5323,7 +5322,7 @@
 								"fileid": "1l",
 								"SSML": "shape of the glass",
 								"cues": [],
-								"duration": 1203.8333333333333,
+								"duration": 1137.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5331,7 +5330,7 @@
 								"fileid": "1m",
 								"SSML": "color of the balloon",
 								"cues": [],
-								"duration": 1056.9583333333333,
+								"duration": 1057.0416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5363,7 +5362,7 @@
 								"fileid": "1q",
 								"SSML": "slope of the ramp",
 								"cues": [],
-								"duration": 1083.7083333333333,
+								"duration": 1079.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5371,7 +5370,7 @@
 								"fileid": "1r",
 								"SSML": "color of the ball",
 								"cues": [],
-								"duration": 933.375,
+								"duration": 969.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5379,7 +5378,7 @@
 								"fileid": "1s",
 								"SSML": "starting position of the ball",
 								"cues": [],
-								"duration": 1644.1666666666667,
+								"duration": 1640.9166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5387,7 +5386,7 @@
 								"fileid": "1t",
 								"SSML": "surface texture of the ramp",
 								"cues": [],
-								"duration": 1582,
+								"duration": 1650.6666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5411,7 +5410,7 @@
 								"fileid": "1w",
 								"SSML": "volume of the object",
 								"cues": [],
-								"duration": 1338.5,
+								"duration": 1351.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5419,7 +5418,7 @@
 								"fileid": "1x",
 								"SSML": "density of the object",
 								"cues": [],
-								"duration": 1319.7916666666667,
+								"duration": 1396.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5427,7 +5426,7 @@
 								"fileid": "1y",
 								"SSML": "number of honey bees in the greenhouse",
 								"cues": [],
-								"duration": 2095.6666666666665,
+								"duration": 2136.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5443,7 +5442,7 @@
 								"fileid": "1Ba",
 								"SSML": "amount of fertilizer",
 								"cues": [],
-								"duration": 1332.9166666666667,
+								"duration": 1306.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5451,7 +5450,7 @@
 								"fileid": "1Bb",
 								"SSML": "type of water",
 								"cues": [],
-								"duration": 910.3333333333334,
+								"duration": 910.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5459,7 +5458,7 @@
 								"fileid": "1Bc",
 								"SSML": "temperature of the water",
 								"cues": [],
-								"duration": 1285.7916666666667,
+								"duration": 1306.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5467,7 +5466,7 @@
 								"fileid": "1Bd",
 								"SSML": "exposure to music",
 								"cues": [],
-								"duration": 1260.7916666666667,
+								"duration": 1388.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5475,7 +5474,7 @@
 								"fileid": "1Be",
 								"SSML": "amount of carbon dioxide in the water",
 								"cues": [],
-								"duration": 2207.1666666666665,
+								"duration": 2227.6666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5483,7 +5482,7 @@
 								"fileid": "1Bf",
 								"SSML": "amount of direct sunlight exposure",
 								"cues": [],
-								"duration": 2170.5,
+								"duration": 2182.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5502,7 +5501,7 @@
 								"fileid": "2b",
 								"SSML": "affects the strength of the reaction between soda and mints?",
 								"cues": [],
-								"duration": 3199.7916666666665,
+								"duration": 3228.3333333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5518,7 +5517,7 @@
 								"fileid": "2d",
 								"SSML": "affects the gas temperature within the balloon after 30 minutes?",
 								"cues": [],
-								"duration": 3339.9166666666665,
+								"duration": 3337.6666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5526,7 +5525,7 @@
 								"fileid": "2e",
 								"SSML": "affects the speed of the ball at the bottom of the ramp?",
 								"cues": [],
-								"duration": 2495.5416666666665,
+								"duration": 2465.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5548,9 +5547,20 @@
 							},
 							"SA4T2rqselectedalls": {
 								"fileid": "2h",
-								"SSML": "affects the weight of the algae growth after one week?",
+								"SSML": "affects the weight of the algae produced after one week?",
 								"cues": [],
-								"duration": 2689.875,
+								"duration": 2833.7916666666665,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_TED_S7|part3",
+							"TEDS7part3": {
+								"fileid": "3a",
+								"SSML": "They designed the following experiment",
+								"cues": [],
+								"duration": 1983.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5560,9 +5570,11 @@
 					"trim": [
 						0,
 						0,
+						0,
 						0
 					],
 					"volume": [
+						1,
 						1,
 						1,
 						1
@@ -5614,7 +5626,10 @@
 							"SA3T1rqselectedalls": "affects the speed of the ball at the bottom of the ramp?",
 							"SA3T2rqselectedalls": "affects the time it takes for objects to sink in water?",
 							"SA4T1rqselectedalls": "affects the number of seeds produced by flowers at the end of the season?",
-							"SA4T2rqselectedalls": "affects the weight of the algae growth after one week?"
+							"SA4T2rqselectedalls": "affects the weight of the algae produced after one week?"
+						},
+						"$EFO_TED_S7|part3": {
+							"TEDS7part3": "They designed the following experiment"
 						}
 					}
 				}
@@ -5622,8 +5637,8 @@
 			"track2": {
 				"en": {
 					"node": "(root)TED EXPT1 Intro",
-					"html": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
-					"text": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
+					"html": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}{{$EFO_TED_S7|part3}}",
+					"text": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}{{$EFO_TED_S7|part3}}",
 					"templateRef": {
 						"$EFO_S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
 						"$EFO_S_A?_T?|rqselectedalls": "$EFM_TEDExptRQ.ontologyKey"
@@ -5959,7 +5974,18 @@
 							},
 							"SA4T2rqselectedalls": {
 								"fileid": "2h",
-								"SSML": "affects the weight of the algae growth after one week?",
+								"SSML": "affects the weight of the algae produced after one week?",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_TED_S7|part3",
+							"TEDS7part3": {
+								"fileid": "3a",
+								"SSML": "They designed the following experiment",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -5971,9 +5997,11 @@
 					"trim": [
 						0,
 						0,
+						0,
 						0
 					],
 					"volume": [
+						1,
 						1,
 						1,
 						1
@@ -6025,7 +6053,10 @@
 							"SA3T1rqselectedalls": "affects the speed of the ball at the bottom of the ramp?",
 							"SA3T2rqselectedalls": "affects the time it takes for objects to sink in water?",
 							"SA4T1rqselectedalls": "affects the number of seeds produced by flowers at the end of the season?",
-							"SA4T2rqselectedalls": "affects the weight of the algae growth after one week?"
+							"SA4T2rqselectedalls": "affects the weight of the algae produced after one week?"
+						},
+						"$EFO_TED_S7|part3": {
+							"TEDS7part3": "They designed the following experiment"
 						}
 					}
 				}
@@ -6050,7 +6081,7 @@
 								"fileid": "0",
 								"SSML": "The",
 								"cues": [],
-								"duration": 359.4583333333333,
+								"duration": 372.7916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -6067,7 +6098,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -6075,7 +6106,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -6195,7 +6226,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -6355,7 +6386,7 @@
 								"fileid": "3d",
 								"SSML": "Brown Sugar",
 								"cues": [],
-								"duration": 919.7083333333334,
+								"duration": 924.4583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6363,7 +6394,7 @@
 								"fileid": "3e",
 								"SSML": "A little",
 								"cues": [],
-								"duration": 549.7083333333334,
+								"duration": 550.6666666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6379,7 +6410,7 @@
 								"fileid": "3g",
 								"SSML": "Twine",
 								"cues": [],
-								"duration": 559,
+								"duration": 547.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6395,7 +6426,7 @@
 								"fileid": "3i",
 								"SSML": "Sugar",
 								"cues": [],
-								"duration": 637.8333333333334,
+								"duration": 593.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6411,7 +6442,7 @@
 								"fileid": "3k",
 								"SSML": "With Caffeine",
 								"cues": [],
-								"duration": 925.5833333333334,
+								"duration": 913.8333333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6419,7 +6450,7 @@
 								"fileid": "3l",
 								"SSML": "Caffeine Free",
 								"cues": [],
-								"duration": 1001,
+								"duration": 1003.3333333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6435,23 +6466,23 @@
 								"fileid": "3n",
 								"SSML": "Rough",
 								"cues": [],
-								"duration": 517.2916666666666,
+								"duration": 511.75,
 								"trim": 0,
 								"volume": 1
 							},
 							"STBLA1T2V4Aname": {
 								"fileid": "3o",
-								"SSML": "Higher",
+								"SSML": "High",
 								"cues": [],
-								"duration": 584.875,
+								"duration": 455.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
 							"STBLA1T2V4Bname": {
 								"fileid": "3p",
-								"SSML": "Lower",
+								"SSML": "Low",
 								"cues": [],
-								"duration": 575.4583333333334,
+								"duration": 459.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6483,7 +6514,7 @@
 								"fileid": "3t",
 								"SSML": "Hot",
 								"cues": [],
-								"duration": 571.5416666666666,
+								"duration": 523.6666666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6491,7 +6522,7 @@
 								"fileid": "3u",
 								"SSML": "Pattern",
 								"cues": [],
-								"duration": 578.7083333333334,
+								"duration": 562.8333333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6499,7 +6530,7 @@
 								"fileid": "3v",
 								"SSML": "no Pattern",
 								"cues": [],
-								"duration": 872.7916666666666,
+								"duration": 872.0833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6507,7 +6538,7 @@
 								"fileid": "3w",
 								"SSML": "Short",
 								"cues": [],
-								"duration": 697.5833333333334,
+								"duration": 674,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6523,7 +6554,7 @@
 								"fileid": "3y",
 								"SSML": "Gray",
 								"cues": [],
-								"duration": 429.5833333333333,
+								"duration": 453.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6531,7 +6562,7 @@
 								"fileid": "3z",
 								"SSML": "Black",
 								"cues": [],
-								"duration": 460.7083333333333,
+								"duration": 494,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6539,7 +6570,7 @@
 								"fileid": "3Ba",
 								"SSML": "Full Sun",
 								"cues": [],
-								"duration": 785.5416666666666,
+								"duration": 825.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6547,7 +6578,7 @@
 								"fileid": "3Bb",
 								"SSML": "Partial Shade",
 								"cues": [],
-								"duration": 975.7083333333334,
+								"duration": 967.7083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6555,7 +6586,7 @@
 								"fileid": "3Bc",
 								"SSML": "Latex",
 								"cues": [],
-								"duration": 829.6666666666666,
+								"duration": 823.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6579,7 +6610,7 @@
 								"fileid": "3Bf",
 								"SSML": "Canvas Chair",
 								"cues": [],
-								"duration": 937.75,
+								"duration": 946.7083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6595,7 +6626,7 @@
 								"fileid": "3Bh",
 								"SSML": "Steep",
 								"cues": [],
-								"duration": 649.5833333333334,
+								"duration": 656.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6619,7 +6650,7 @@
 								"fileid": "3Bk",
 								"SSML": "Middle",
 								"cues": [],
-								"duration": 469.625,
+								"duration": 469.4166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6627,7 +6658,7 @@
 								"fileid": "3Bl",
 								"SSML": "Top",
 								"cues": [],
-								"duration": 504.6666666666667,
+								"duration": 487.4166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6635,7 +6666,7 @@
 								"fileid": "3Bm",
 								"SSML": "Rough",
 								"cues": [],
-								"duration": 517.2916666666666,
+								"duration": 511.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6667,7 +6698,7 @@
 								"fileid": "3Bq",
 								"SSML": "Sphere",
 								"cues": [],
-								"duration": 649.7083333333334,
+								"duration": 654.9166666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6675,7 +6706,7 @@
 								"fileid": "3Br",
 								"SSML": "Tear Drop",
 								"cues": [],
-								"duration": 855.25,
+								"duration": 864.0416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6691,7 +6722,7 @@
 								"fileid": "3Bt",
 								"SSML": "Large",
 								"cues": [],
-								"duration": 645.0833333333334,
+								"duration": 637.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6699,7 +6730,7 @@
 								"fileid": "3Bu",
 								"SSML": "Lead",
 								"cues": [],
-								"duration": 543.625,
+								"duration": 543.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6707,7 +6738,7 @@
 								"fileid": "3Bv",
 								"SSML": "Glass",
 								"cues": [],
-								"duration": 605.0416666666666,
+								"duration": 624.8333333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6723,7 +6754,7 @@
 								"fileid": "3Bx",
 								"SSML": "Whole Hive",
 								"cues": [],
-								"duration": 874.7916666666666,
+								"duration": 862.2083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6731,7 +6762,7 @@
 								"fileid": "3By",
 								"SSML": "Full Sun",
 								"cues": [],
-								"duration": 785.5416666666666,
+								"duration": 816.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6747,7 +6778,7 @@
 								"fileid": "3Ca",
 								"SSML": "None",
 								"cues": [],
-								"duration": 464.8333333333333,
+								"duration": 483.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6779,7 +6810,7 @@
 								"fileid": "3Ce",
 								"SSML": "Room Temperature",
 								"cues": [],
-								"duration": 1150.4166666666667,
+								"duration": 1157.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6787,7 +6818,7 @@
 								"fileid": "3Cf",
 								"SSML": "Warmer",
 								"cues": [],
-								"duration": 558.7916666666666,
+								"duration": 552.7916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6795,7 +6826,7 @@
 								"fileid": "3Cg",
 								"SSML": "Constant Music",
 								"cues": [],
-								"duration": 1162.25,
+								"duration": 1168.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6835,7 +6866,7 @@
 								"fileid": "3Cl",
 								"SSML": "None",
 								"cues": [],
-								"duration": 464.8333333333333,
+								"duration": 483.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -6858,8 +6889,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -6874,7 +6905,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -6905,8 +6936,8 @@
 							"STBLA1T2V2Bname": "Caffeine Free",
 							"STBLA1T2V3Aname": "Smooth",
 							"STBLA1T2V3Bname": "Rough",
-							"STBLA1T2V4Aname": "Higher",
-							"STBLA1T2V4Bname": "Lower",
+							"STBLA1T2V4Aname": "High",
+							"STBLA1T2V4Bname": "Low",
 							"STBLA2T1V1Aname": "0 degrees",
 							"STBLA2T1V1Bname": "-20 degrees",
 							"STBLA2T1V2Aname": "Cold",
@@ -6975,7 +7006,7 @@
 								"fileid": "0",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.7083333333333,
+								"duration": 419.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -6992,7 +7023,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7000,7 +7031,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7120,7 +7151,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7366,7 +7397,7 @@
 							},
 							"STBLA1T2V4Aname": {
 								"fileid": "3o",
-								"SSML": "Higher",
+								"SSML": "High",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7374,7 +7405,7 @@
 							},
 							"STBLA1T2V4Bname": {
 								"fileid": "3p",
-								"SSML": "Lower",
+								"SSML": "Low",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7783,8 +7814,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -7799,7 +7830,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -7830,8 +7861,8 @@
 							"STBLA1T2V2Bname": "Caffeine Free",
 							"STBLA1T2V3Aname": "Smooth",
 							"STBLA1T2V3Bname": "Rough",
-							"STBLA1T2V4Aname": "Higher",
-							"STBLA1T2V4Bname": "Lower",
+							"STBLA1T2V4Aname": "High",
+							"STBLA1T2V4Bname": "Low",
 							"STBLA2T1V1Aname": "0 degrees",
 							"STBLA2T1V1Bname": "-20 degrees",
 							"STBLA2T1V2Aname": "Cold",
@@ -7900,7 +7931,7 @@
 								"fileid": "0",
 								"SSML": "The",
 								"cues": [],
-								"duration": 359.4583333333333,
+								"duration": 372.7916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -7917,7 +7948,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -7925,7 +7956,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8045,7 +8076,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8291,7 +8322,7 @@
 							},
 							"STBLA1T2V4Aname": {
 								"fileid": "3o",
-								"SSML": "Higher",
+								"SSML": "High",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8299,7 +8330,7 @@
 							},
 							"STBLA1T2V4Bname": {
 								"fileid": "3p",
-								"SSML": "Lower",
+								"SSML": "Low",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8708,8 +8739,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -8724,7 +8755,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -8755,8 +8786,8 @@
 							"STBLA1T2V2Bname": "Caffeine Free",
 							"STBLA1T2V3Aname": "Smooth",
 							"STBLA1T2V3Bname": "Rough",
-							"STBLA1T2V4Aname": "Higher",
-							"STBLA1T2V4Bname": "Lower",
+							"STBLA1T2V4Aname": "High",
+							"STBLA1T2V4Bname": "Low",
 							"STBLA2T1V1Aname": "0 degrees",
 							"STBLA2T1V1Bname": "-20 degrees",
 							"STBLA2T1V2Aname": "Cold",
@@ -8825,7 +8856,7 @@
 								"fileid": "0",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.7083333333333,
+								"duration": 419.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -8842,7 +8873,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8850,7 +8881,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -8970,7 +9001,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9095,7 +9126,7 @@
 								"fileid": "2",
 								"SSML": "for condition two is",
 								"cues": [],
-								"duration": 1440.625,
+								"duration": 1431.5416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -9216,7 +9247,7 @@
 							},
 							"STBLA1T2V4Aname": {
 								"fileid": "3o",
-								"SSML": "Higher",
+								"SSML": "High",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9224,7 +9255,7 @@
 							},
 							"STBLA1T2V4Bname": {
 								"fileid": "3p",
-								"SSML": "Lower",
+								"SSML": "Low",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9633,8 +9664,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -9649,7 +9680,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -9680,8 +9711,8 @@
 							"STBLA1T2V2Bname": "Caffeine Free",
 							"STBLA1T2V3Aname": "Smooth",
 							"STBLA1T2V3Bname": "Rough",
-							"STBLA1T2V4Aname": "Higher",
-							"STBLA1T2V4Bname": "Lower",
+							"STBLA1T2V4Aname": "High",
+							"STBLA1T2V4Bname": "Low",
 							"STBLA2T1V1Aname": "0 degrees",
 							"STBLA2T1V1Bname": "-20 degrees",
 							"STBLA2T1V2Aname": "Cold",
@@ -9750,7 +9781,7 @@
 								"fileid": "0",
 								"SSML": "The",
 								"cues": [],
-								"duration": 359.4583333333333,
+								"duration": 372.7916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -9767,7 +9798,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9775,7 +9806,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -9895,7 +9926,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10020,7 +10051,7 @@
 								"fileid": "2",
 								"SSML": "for condition one is",
 								"cues": [],
-								"duration": 1339.8333333333333,
+								"duration": 1327.5833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -10141,7 +10172,7 @@
 							},
 							"STBLA1T2V4Aname": {
 								"fileid": "3o",
-								"SSML": "Higher",
+								"SSML": "High",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10149,7 +10180,7 @@
 							},
 							"STBLA1T2V4Bname": {
 								"fileid": "3p",
-								"SSML": "Lower",
+								"SSML": "Low",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10558,8 +10589,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -10574,7 +10605,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -10605,8 +10636,8 @@
 							"STBLA1T2V2Bname": "Caffeine Free",
 							"STBLA1T2V3Aname": "Smooth",
 							"STBLA1T2V3Bname": "Rough",
-							"STBLA1T2V4Aname": "Higher",
-							"STBLA1T2V4Bname": "Lower",
+							"STBLA1T2V4Aname": "High",
+							"STBLA1T2V4Bname": "Low",
 							"STBLA2T1V1Aname": "0 degrees",
 							"STBLA2T1V1Bname": "-20 degrees",
 							"STBLA2T1V2Aname": "Cold",
@@ -10675,7 +10706,7 @@
 								"fileid": "0",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.7083333333333,
+								"duration": 419.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -10692,7 +10723,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10700,7 +10731,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -10820,7 +10851,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11066,7 +11097,7 @@
 							},
 							"STBLA1T2V4Aname": {
 								"fileid": "3o",
-								"SSML": "Higher",
+								"SSML": "High",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11074,7 +11105,7 @@
 							},
 							"STBLA1T2V4Bname": {
 								"fileid": "3p",
-								"SSML": "Lower",
+								"SSML": "Low",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11483,8 +11514,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -11499,7 +11530,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -11530,8 +11561,8 @@
 							"STBLA1T2V2Bname": "Caffeine Free",
 							"STBLA1T2V3Aname": "Smooth",
 							"STBLA1T2V3Bname": "Rough",
-							"STBLA1T2V4Aname": "Higher",
-							"STBLA1T2V4Bname": "Lower",
+							"STBLA1T2V4Aname": "High",
+							"STBLA1T2V4Bname": "Low",
 							"STBLA2T1V1Aname": "0 degrees",
 							"STBLA2T1V1Bname": "-20 degrees",
 							"STBLA2T1V2Aname": "Cold",
@@ -11600,7 +11631,7 @@
 								"fileid": "0",
 								"SSML": "The",
 								"cues": [],
-								"duration": 359.4583333333333,
+								"duration": 372.7916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -11617,7 +11648,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11625,7 +11656,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11745,7 +11776,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11991,7 +12022,7 @@
 							},
 							"STBLA1T2V4Aname": {
 								"fileid": "3o",
-								"SSML": "Higher",
+								"SSML": "High",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -11999,7 +12030,7 @@
 							},
 							"STBLA1T2V4Bname": {
 								"fileid": "3p",
-								"SSML": "Lower",
+								"SSML": "Low",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12408,8 +12439,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -12424,7 +12455,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -12455,8 +12486,8 @@
 							"STBLA1T2V2Bname": "Caffeine Free",
 							"STBLA1T2V3Aname": "Smooth",
 							"STBLA1T2V3Bname": "Rough",
-							"STBLA1T2V4Aname": "Higher",
-							"STBLA1T2V4Bname": "Lower",
+							"STBLA1T2V4Aname": "High",
+							"STBLA1T2V4Bname": "Low",
 							"STBLA2T1V1Aname": "0 degrees",
 							"STBLA2T1V1Bname": "-20 degrees",
 							"STBLA2T1V2Aname": "Cold",
@@ -12525,7 +12556,7 @@
 								"fileid": "0",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.7083333333333,
+								"duration": 419.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -12542,7 +12573,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12550,7 +12581,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12670,7 +12701,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12916,7 +12947,7 @@
 							},
 							"STBLA1T2V4Aname": {
 								"fileid": "3o",
-								"SSML": "Higher",
+								"SSML": "High",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -12924,7 +12955,7 @@
 							},
 							"STBLA1T2V4Bname": {
 								"fileid": "3p",
-								"SSML": "Lower",
+								"SSML": "Low",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13333,8 +13364,8 @@
 					"templates": {
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -13349,7 +13380,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -13380,8 +13411,8 @@
 							"STBLA1T2V2Bname": "Caffeine Free",
 							"STBLA1T2V3Aname": "Smooth",
 							"STBLA1T2V3Bname": "Rough",
-							"STBLA1T2V4Aname": "Higher",
-							"STBLA1T2V4Bname": "Lower",
+							"STBLA1T2V4Aname": "High",
+							"STBLA1T2V4Bname": "Low",
 							"STBLA2T1V1Aname": "0 degrees",
 							"STBLA2T1V1Bname": "-20 degrees",
 							"STBLA2T1V2Aname": "Cold",
@@ -13449,10 +13480,10 @@
 									{
 										"name": "a",
 										"offset": 0.7391304347826086,
-										"relTime": 2472.5452898550725
+										"relTime": 2525.454710144927
 									}
 								],
-								"duration": 3345.2083333333335,
+								"duration": 3416.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13526,7 +13557,7 @@
 								"fileid": "0a",
 								"SSML": "Is this a good way to design the experiment?",
 								"cues": [],
-								"duration": 2256.5416666666665,
+								"duration": 2266.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13559,7 +13590,7 @@
 								"fileid": "0a",
 								"SSML": "Right, it is NOT a good experiment.",
 								"cues": [],
-								"duration": 2156.2083333333335,
+								"duration": 2135.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13592,7 +13623,7 @@
 								"fileid": "0a",
 								"SSML": "Actually, it is NOT a good experiment.",
 								"cues": [],
-								"duration": 2140.6666666666665,
+								"duration": 2368.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13662,7 +13693,7 @@
 								"fileid": "0a",
 								"SSML": "<p>Why did you say it was not a good way?</p>",
 								"cues": [],
-								"duration": 1949.375,
+								"duration": 1949.3333333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13732,7 +13763,7 @@
 								"fileid": "0a",
 								"SSML": "<p>Even though you said it was a good experiment, select from the drop-down menu the best reason that explains why this is actually NOT a good experiment.</p>",
 								"cues": [],
-								"duration": 7810.041666666667,
+								"duration": 7787.541666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13840,7 +13871,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "1h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13877,7 +13908,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						},
 						"$EFO_TED_E1_Q4|part0": {
 							"TEDE1Q4part0": "may either be the same or different across conditions."
@@ -13914,7 +13945,7 @@
 								"fileid": "0a",
 								"SSML": "Imagine the results ",
 								"cues": [],
-								"duration": 1380.4583333333333,
+								"duration": 1292.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13979,7 +14010,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "1h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -13992,7 +14023,7 @@
 								"fileid": "2a",
 								"SSML": "were different across conditions, Could you tell for sure that the",
 								"cues": [],
-								"duration": 3142.25,
+								"duration": 3137.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14009,7 +14040,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "3b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14017,7 +14048,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "3c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14137,7 +14168,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "3r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14262,7 +14293,7 @@
 								"fileid": "4a",
 								"SSML": "caused the difference?",
 								"cues": [],
-								"duration": 1118.7916666666667,
+								"duration": 1130.6666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14288,15 +14319,15 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						},
 						"$EFO_TED_E1_Q4P2|part2": {
 							"TEDE1Q4P2part2": "were different across conditions, Could you tell for sure that the"
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -14311,7 +14342,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -14376,7 +14407,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14384,7 +14415,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14504,7 +14535,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14629,7 +14660,7 @@
 								"fileid": "2a",
 								"SSML": "caused the difference. That is, we could not tell for sure that one",
 								"cues": [],
-								"duration": 3753.875,
+								"duration": 3722.6666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14646,7 +14677,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "3b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14654,7 +14685,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "3c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14774,7 +14805,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "3r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -14926,7 +14957,7 @@
 								"fileid": "5c",
 								"SSML": "time to melt",
 								"cues": [],
-								"duration": 933.5833333333334,
+								"duration": 934.4583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14958,7 +14989,7 @@
 								"fileid": "5g",
 								"SSML": "number of seeds",
 								"cues": [],
-								"duration": 1124.2916666666667,
+								"duration": 1114.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14977,7 +15008,7 @@
 								"fileid": "6a",
 								"SSML": "than the other",
 								"cues": [],
-								"duration": 753.2083333333334,
+								"duration": 761.5416666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14999,8 +15030,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -15015,7 +15046,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -15096,7 +15127,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15104,7 +15135,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15224,7 +15255,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15366,7 +15397,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "3b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15374,7 +15405,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "3c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15494,7 +15525,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "3r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15619,7 +15650,7 @@
 								"fileid": "4a",
 								"SSML": "caused a greater",
 								"cues": [],
-								"duration": 1002.5416666666666,
+								"duration": 1014.8333333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15697,7 +15728,7 @@
 								"fileid": "6a",
 								"SSML": "than the other",
 								"cues": [],
-								"duration": 753.2083333333334,
+								"duration": 761.5416666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15719,8 +15750,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -15735,7 +15766,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -15793,7 +15824,7 @@
 								"fileid": "0a",
 								"SSML": "Why did you say you could not know for sure?",
 								"cues": [],
-								"duration": 2026.375,
+								"duration": 2022.0416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15851,7 +15882,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15859,7 +15890,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -15979,7 +16010,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -16110,8 +16141,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -16126,7 +16157,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -16204,7 +16235,7 @@
 								"fileid": "0a",
 								"SSML": "In this experiment, the students are testing for whether or not the",
 								"cues": [],
-								"duration": 3439.7083333333335,
+								"duration": 3254.6666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -16227,7 +16258,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [
 									{
 										"name": "a",
@@ -16241,7 +16272,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [
 									{
 										"name": "a",
@@ -16451,7 +16482,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [
 									{
 										"name": "a",
@@ -16684,8 +16715,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -16700,7 +16731,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -16773,7 +16804,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [
 									{
 										"name": "b",
@@ -16787,7 +16818,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [
 									{
 										"name": "b",
@@ -16997,7 +17028,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [
 									{
 										"name": "b",
@@ -17212,7 +17243,7 @@
 								"fileid": "2a",
 								"SSML": "is different across conditions, it could cause a difference in the results.",
 								"cues": [],
-								"duration": 3820.2916666666665,
+								"duration": 3866.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17230,8 +17261,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -17246,7 +17277,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -17293,20 +17324,20 @@
 									{
 										"name": "a",
 										"offset": 0.08695652173913043,
-										"relTime": 375.44565217391306
+										"relTime": 375.01811594202894
 									},
 									{
 										"name": "b",
 										"offset": 0.30434782608695654,
-										"relTime": 1314.0597826086957
+										"relTime": 1312.5634057971015
 									},
 									{
 										"name": "c",
 										"offset": 0.5217391304347826,
-										"relTime": 2252.673913043478
+										"relTime": 2250.1086956521735
 									}
 								],
-								"duration": 4317.625,
+								"duration": 4312.708333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17371,7 +17402,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "1h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -17408,7 +17439,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						},
 						"$EFO_TED_E1_Q7|part6": {
 							"TEDE1Q7part6": "between conditions?"
@@ -17439,10 +17470,10 @@
 									{
 										"name": "a",
 										"offset": 0.043478260869565216,
-										"relTime": 235.17210144927535
+										"relTime": 233.76086956521738
 									}
 								],
-								"duration": 5408.958333333333,
+								"duration": 5376.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17491,7 +17522,7 @@
 								"fileid": "0b",
 								"SSML": "They have set the",
 								"cues": [],
-								"duration": 924.9166666666666,
+								"duration": 915.9583333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17508,7 +17539,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -17516,7 +17547,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -17636,7 +17667,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -17761,7 +17792,7 @@
 								"fileid": "2a",
 								"SSML": "to be the same across conditions.",
 								"cues": [],
-								"duration": 1794.25,
+								"duration": 1900.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -17769,7 +17800,7 @@
 								"fileid": "2b",
 								"SSML": "to be different across conditions.",
 								"cues": [],
-								"duration": 1895.0416666666667,
+								"duration": 1889.0416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17788,8 +17819,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -17804,7 +17835,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -17852,7 +17883,7 @@
 								"fileid": "0a",
 								"SSML": "You are correct that the same",
 								"cues": [],
-								"duration": 1446.25,
+								"duration": 1468.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -17860,7 +17891,7 @@
 								"fileid": "0b",
 								"SSML": "You are correct that the different",
 								"cues": [],
-								"duration": 1408.0833333333333,
+								"duration": 1593.4583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17877,7 +17908,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -17885,7 +17916,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18005,7 +18036,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18130,7 +18161,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2688.125,
+								"duration": 2683,
 								"trim": 0,
 								"volume": 1
 							},
@@ -18138,7 +18169,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2427.75,
+								"duration": 2427.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18203,7 +18234,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18225,8 +18256,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -18241,7 +18272,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -18269,7 +18300,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -18299,7 +18330,7 @@
 								"fileid": "0a",
 								"SSML": "Actually the same",
 								"cues": [],
-								"duration": 1111.125,
+								"duration": 1227.4166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -18324,7 +18355,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18332,7 +18363,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18452,7 +18483,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18585,7 +18616,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2427.75,
+								"duration": 2442.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18650,7 +18681,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18672,8 +18703,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -18688,7 +18719,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -18716,7 +18747,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -18770,7 +18801,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18778,7 +18809,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -18898,7 +18929,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19023,7 +19054,7 @@
 								"fileid": "2a",
 								"SSML": "the same across conditions.",
 								"cues": [],
-								"duration": 1568.875,
+								"duration": 1678.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19031,7 +19062,7 @@
 								"fileid": "2b",
 								"SSML": "different across conditions.",
 								"cues": [],
-								"duration": 1626.125,
+								"duration": 1555,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19050,8 +19081,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -19066,7 +19097,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -19114,7 +19145,7 @@
 								"fileid": "0a",
 								"SSML": "You are correct that the same",
 								"cues": [],
-								"duration": 1327.2083333333333,
+								"duration": 1468.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19122,7 +19153,7 @@
 								"fileid": "0b",
 								"SSML": "You are correct that the different",
 								"cues": [],
-								"duration": 1408.0833333333333,
+								"duration": 1589.2083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19139,7 +19170,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19147,7 +19178,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19267,7 +19298,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19392,7 +19423,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2688.125,
+								"duration": 2683,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19400,7 +19431,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2427.75,
+								"duration": 2397.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19465,7 +19496,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19487,8 +19518,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -19503,7 +19534,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -19531,7 +19562,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -19569,7 +19600,7 @@
 								"fileid": "0b",
 								"SSML": "Actually the different",
 								"cues": [],
-								"duration": 1361.9583333333333,
+								"duration": 1342,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19586,7 +19617,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19594,7 +19625,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19714,7 +19745,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19847,7 +19878,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2427.75,
+								"duration": 2427.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19912,7 +19943,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -19934,8 +19965,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -19950,7 +19981,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -19978,7 +20009,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -20007,7 +20038,7 @@
 								"fileid": "0a",
 								"SSML": "The students made the",
 								"cues": [],
-								"duration": 1218.4166666666667,
+								"duration": 1225.2083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20032,7 +20063,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20040,7 +20071,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20160,7 +20191,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20285,7 +20316,7 @@
 								"fileid": "2a",
 								"SSML": "the same across conditions.",
 								"cues": [],
-								"duration": 1676.0833333333333,
+								"duration": 1678.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20312,8 +20343,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -20328,7 +20359,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -20376,7 +20407,7 @@
 								"fileid": "0a",
 								"SSML": "You are correct that the same",
 								"cues": [],
-								"duration": 1446.25,
+								"duration": 1468.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20384,7 +20415,7 @@
 								"fileid": "0b",
 								"SSML": "You are correct that the different",
 								"cues": [],
-								"duration": 1589.2083333333333,
+								"duration": 1593.4583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -20401,7 +20432,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20409,7 +20440,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20529,7 +20560,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20654,7 +20685,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2688.125,
+								"duration": 2683,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20662,7 +20693,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2427.75,
+								"duration": 2427.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -20727,7 +20758,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20749,8 +20780,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -20765,7 +20796,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -20793,7 +20824,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -20831,7 +20862,7 @@
 								"fileid": "0b",
 								"SSML": "Actually the different",
 								"cues": [],
-								"duration": 1361.9583333333333,
+								"duration": 1342,
 								"trim": 0,
 								"volume": 1
 							}
@@ -20848,7 +20879,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20856,7 +20887,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -20976,7 +21007,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21101,7 +21132,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2688.125,
+								"duration": 2683,
 								"trim": 0,
 								"volume": 1
 							},
@@ -21109,7 +21140,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2427.75,
+								"duration": 2442.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -21174,7 +21205,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21196,8 +21227,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -21212,7 +21243,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -21240,7 +21271,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -21282,7 +21313,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21290,7 +21321,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21410,7 +21441,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21541,8 +21572,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|1": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -21557,7 +21588,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -21613,7 +21644,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21621,7 +21652,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21741,7 +21772,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21872,8 +21903,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|2": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -21888,7 +21919,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -21944,7 +21975,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -21952,7 +21983,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22072,7 +22103,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22203,8 +22234,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|3": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -22219,7 +22250,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -22261,7 +22292,7 @@
 								"fileid": "0a",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.7083333333333,
+								"duration": 419.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -22278,7 +22309,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22286,7 +22317,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22406,7 +22437,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22531,7 +22562,7 @@
 								"fileid": "2a",
 								"SSML": "all also could cause a difference in the",
 								"cues": [],
-								"duration": 2029.0833333333333,
+								"duration": 2017.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -22596,7 +22627,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22617,8 +22648,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|4": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -22633,7 +22664,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -22660,7 +22691,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -22705,7 +22736,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22713,7 +22744,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -22833,7 +22864,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23023,7 +23054,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23044,8 +23075,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|1": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -23060,7 +23091,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -23087,7 +23118,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -23138,7 +23169,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23146,7 +23177,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23266,7 +23297,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23397,7 +23428,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "2b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23405,7 +23436,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "2c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23525,7 +23556,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "2r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23650,7 +23681,7 @@
 								"fileid": "3a",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.7083333333333,
+								"duration": 419.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -23667,7 +23698,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "4b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23675,7 +23706,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "4c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23795,7 +23826,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "4r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -23929,8 +23960,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|2": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -23945,7 +23976,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -23963,8 +23994,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|3": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -23979,7 +24010,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -24000,8 +24031,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|4": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -24016,7 +24047,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -24072,7 +24103,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24080,7 +24111,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24200,7 +24231,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24331,8 +24362,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|1": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -24347,7 +24378,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -24382,7 +24413,7 @@
 								"fileid": "0a",
 								"SSML": "Click next when you've completed you're selections",
 								"cues": [],
-								"duration": 2477.2083333333335,
+								"duration": 2471.3333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24424,7 +24455,7 @@
 								"fileid": "0a",
 								"SSML": "Explain why this is a good way to find out whether or not the",
 								"cues": [],
-								"duration": 3264.875,
+								"duration": 3268.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24441,7 +24472,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24449,7 +24480,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24569,7 +24600,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24712,8 +24743,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name|1": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -24728,7 +24759,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -24782,7 +24813,7 @@
 								"fileid": "0a",
 								"SSML": "This is a good experiment, because everything is the same except for what the students are trying to find out about, the",
 								"cues": [],
-								"duration": 5903.875,
+								"duration": 5606.458333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24799,7 +24830,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24807,7 +24838,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -24927,7 +24958,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25052,7 +25083,7 @@
 								"fileid": "2a",
 								"SSML": "In other words, if there is a difference between conditions in the",
 								"cues": [],
-								"duration": 3252.5833333333335,
+								"duration": 3288,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25117,7 +25148,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25147,7 +25178,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "5b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25155,7 +25186,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "5c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25275,7 +25306,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "5r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25400,7 +25431,7 @@
 								"fileid": "6a",
 								"SSML": "across conditions And if there is no difference between conditions in the",
 								"cues": [],
-								"duration": 3573.125,
+								"duration": 3603.4583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25465,7 +25496,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "7h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25478,7 +25509,7 @@
 								"fileid": "8a",
 								"SSML": "then you could know that the",
 								"cues": [],
-								"duration": 1281.0416666666667,
+								"duration": 1171.5416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25495,7 +25526,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "9b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25503,7 +25534,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "9c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25623,7 +25654,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "9r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25748,7 +25779,7 @@
 								"fileid": "10a",
 								"SSML": "does not matter. So from this experiment, you would be able to find out whether or not the",
 								"cues": [],
-								"duration": 5050.541666666667,
+								"duration": 5012.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25765,7 +25796,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "11b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25773,7 +25804,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "11c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -25893,7 +25924,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "11r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26018,7 +26049,7 @@
 								"fileid": "12a",
 								"SSML": "causes a difference in the result.",
 								"cues": [],
-								"duration": 1750.4583333333333,
+								"duration": 1775.2083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26046,8 +26077,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -26062,7 +26093,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -26089,7 +26120,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						},
 						"$EFO_TED_E1_SUMMARY|part3": {
 							"TEDE1SUMMARYpart3": "it has to be because of the different"
@@ -26129,7 +26160,7 @@
 								"fileid": "0a",
 								"SSML": "Let's see how you design experiments on your own. You’ll design four experiments.",
 								"cues": [],
-								"duration": 5025.5,
+								"duration": 5026.666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26195,7 +26226,7 @@
 								"fileid": "0a",
 								"SSML": "When you’re done working on each experiment, click the next button.",
 								"cues": [],
-								"duration": 3287.375,
+								"duration": 3274.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26256,7 +26287,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26264,7 +26295,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26384,7 +26415,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26509,7 +26540,7 @@
 								"fileid": "2a",
 								"SSML": "affects the",
 								"cues": [],
-								"duration": 870.8333333333334,
+								"duration": 869,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26574,7 +26605,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26595,8 +26626,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -26611,7 +26642,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -26638,7 +26669,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -26683,7 +26714,7 @@
 							},
 							"STBLA1T1V2name": {
 								"fileid": "1b",
-								"SSML": "Crystal Type",
+								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26691,7 +26722,7 @@
 							},
 							"STBLA1T1V3name": {
 								"fileid": "1c",
-								"SSML": "Seed Crystal Size",
+								"SSML": "Initial Amount Crystals on String",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -26811,7 +26842,7 @@
 							},
 							"STBLA3T1V2name": {
 								"fileid": "1r",
-								"SSML": "Color of Ball",
+								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -27001,7 +27032,7 @@
 							},
 							"SA4T2DVs": {
 								"fileid": "3h",
-								"SSML": "weight of the algae growth after one week",
+								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
 								"trim": 0,
@@ -27022,8 +27053,8 @@
 						},
 						"$EFO_STBL_A?_T?_V?|name": {
 							"STBLA1T1V1name": "Water Temperature",
-							"STBLA1T1V2name": "Crystal Type",
-							"STBLA1T1V3name": "Seed Crystal Size",
+							"STBLA1T1V2name": "Type of Crystals",
+							"STBLA1T1V3name": "Initial Amount Crystals on String",
 							"STBLA1T1V4name": "Type of String",
 							"STBLA1T2V1name": "Type of Sweetener",
 							"STBLA1T2V2name": "Amount of Caffeine",
@@ -27038,7 +27069,7 @@
 							"STBLA2T2V3name": "Balloon Material",
 							"STBLA2T2V4name": "Type of Chair",
 							"STBLA3T1V1name": "Slope",
-							"STBLA3T1V2name": "Color of Ball",
+							"STBLA3T1V2name": "Color of the Ball",
 							"STBLA3T1V3name": "Starting Position",
 							"STBLA3T1V4name": "Ramp Surface",
 							"STBLA3T2V1name": "Density of Water",
@@ -27065,7 +27096,7 @@
 							"SA3T1DVs": "speed of the ball at the bottom of the ramp",
 							"SA3T2DVs": "time it takes for objects to sink in water",
 							"SA4T1DVs": "number of seeds produced by the flowers at the end of the season",
-							"SA4T2DVs": "weight of the algae growth after one week"
+							"SA4T2DVs": "weight of the algae produced after one week"
 						}
 					}
 				}
@@ -27086,7 +27117,7 @@
 								"fileid": "0a",
 								"SSML": "You can change part of the experiment by simply clicking in the table.",
 								"cues": [],
-								"duration": 3534.5,
+								"duration": 3542.3333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27123,7 +27154,7 @@
 								"fileid": "0a",
 								"SSML": "Explain why you designed your experiment the way that you did.",
 								"cues": [],
-								"duration": 2948.8333333333335,
+								"duration": 3030.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27193,7 +27224,7 @@
 								"fileid": "0a",
 								"SSML": "That is, anytime you set up an experiment, you need to make everything the same except for the one variable you are testing.",
 								"cues": [],
-								"duration": 6242.583333333333,
+								"duration": 5804.541666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27226,7 +27257,7 @@
 								"fileid": "0a",
 								"SSML": "This way, only that one variable you are testing can cause the result.",
 								"cues": [],
-								"duration": 3812.8333333333335,
+								"duration": 3608.125,
 								"trim": 0,
 								"volume": 1
 							}

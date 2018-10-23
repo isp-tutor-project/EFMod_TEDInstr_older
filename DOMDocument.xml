@@ -122,13 +122,14 @@
           <Include href="Scenes/TC_TScene__Scene19.xml" itemID="5bbe1bb6-00000354" lastModified="1539538440"/>
           <Include href="Scenes/TC_TScene__Scene20.xml" itemID="5bbe1be2-0000036a" lastModified="1539538440"/>
           <Include href="Scenes/TC_TScene__Scene21.xml" itemID="5bbe1ff0-000003f6" lastModified="1539538440"/>
-          <Include href="Scenes/TC_TScene__TEDQ1Intro.xml" itemID="5bbba7dc-000037b9" lastModified="1539538440"/>
-          <Include href="Scenes/TC_TScene__TEDQuest1.xml" itemID="5baeab6b-00000879" lastModified="1539538440"/>
-          <Include href="Scenes/TC_TScene__TEDQuest1AB.xml" itemID="5baead2d-000008f0" lastModified="1539538440"/>
-          <Include href="Scenes/TC_TScene__TEDQuest4.xml" itemID="5baeabae-000008c4" lastModified="1539538440"/>
-          <Include href="Scenes/TC_TScene__TEDQuest4A.xml" itemID="5bb66a4a-00000614" lastModified="1539538440"/>
-          <Include href="Scenes/TC_TScene__TEDQuest4B.xml" itemID="5bb66a2c-00000613" lastModified="1539538440"/>
+          <Include href="Scenes/TC_TScene__TEDQ1Intro.xml" itemID="5bbba7dc-000037b9" lastModified="1540328528"/>
+          <Include href="Scenes/TC_TScene__TEDQuest1.xml" itemID="5baeab6b-00000879" lastModified="1540328513"/>
+          <Include href="Scenes/TC_TScene__TEDQuest1AB.xml" itemID="5baead2d-000008f0" lastModified="1540328544"/>
+          <Include href="Scenes/TC_TScene__TEDQuest4.xml" itemID="5baeabae-000008c4" lastModified="1540328557"/>
+          <Include href="Scenes/TC_TScene__TEDQuest4A.xml" itemID="5bb66a4a-00000614" lastModified="1540328568"/>
+          <Include href="Scenes/TC_TScene__TEDQuest4B.xml" itemID="5bb66a2c-00000613" lastModified="1540328576"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1538941553"/>
+          <Include href="TC_TObject__ExptSep.xml" itemIcon="0" loadImmediate="false" itemID="5bcf8c0b-00001b5c" lastModified="1540328459"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">

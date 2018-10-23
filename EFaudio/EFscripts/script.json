@@ -508,10 +508,9 @@
 			"track1": {
 				"en": {
 					"node": "(root)TED EXPT1 Intro",
-					"html": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
-					"text": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
+					"html": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}{{$EFO_TED_S7|part3}}",
+					"text": "{{$EFO_TED_S7|part1}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}{{$EFO_TED_S7|part3}}",
 					"templateRef": {
-						"$EFO_TED_S7|part1": "$EFM_TEDExptRQ.ontologyKey",
 						"$EFO_S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
 						"$EFO_S_A?_T?|rqselectedalls": "$EFM_TEDExptRQ.ontologyKey"
 					},
@@ -520,9 +519,11 @@
 					"trim": [
 						0,
 						0,
+						0,
 						0
 					],
 					"volume": [
+						1,
 						1,
 						1,
 						1
@@ -534,8 +535,8 @@
 			"track2": {
 				"en": {
 					"node": "(root)TED EXPT1 Intro",
-					"html": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
-					"text": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}",
+					"html": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}{{$EFO_TED_S7|part3}}",
+					"text": "{{$EFO_TED_S7|part2}}{{$EFO_S_A?_T?_RQ?|ExpSelected}}{{$EFO_S_A?_T?|rqselectedalls}}{{$EFO_TED_S7|part3}}",
 					"templateRef": {
 						"$EFO_S_A?_T?_RQ?|ExpSelected": "$EFM_TEDExptRQ.ontologyKey",
 						"$EFO_S_A?_T?|rqselectedalls": "$EFM_TEDExptRQ.ontologyKey"
@@ -545,9 +546,11 @@
 					"trim": [
 						0,
 						0,
+						0,
 						0
 					],
 					"volume": [
+						1,
 						1,
 						1,
 						1

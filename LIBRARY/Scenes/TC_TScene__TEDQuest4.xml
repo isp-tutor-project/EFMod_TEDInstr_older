@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__TEDQuest4" itemID="5baeabae-000008c4" linkageExportForAS="true" linkageClassName="TC_TScene__TEDQuest4" lastModified="1539538440">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__TEDQuest4" itemID="5baeabae-000008c4" linkageExportForAS="true" linkageClassName="TC_TScene__TEDQuest4" lastModified="1540328557">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -15,6 +15,14 @@
                   </matrix>
                   <transformationPoint>
                     <Point x="276.2" y="215.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="TC_TObject__ExptSep" name="Ssep" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="960.9" ty="399"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="277.95"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

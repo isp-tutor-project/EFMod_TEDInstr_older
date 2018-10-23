@@ -313,7 +313,7 @@
 				"Sexpt1": {
 					"src": "$$EFX.html_tagText",
 					"cssClass": "tag",
-					"fontSize": 30,
+					"fontSize": 22,
 					"htmlData": {
 						"style": {
 							"[tag].outerContainer": {
@@ -336,7 +336,7 @@
 				"Sexpt2": {
 					"src": "$$EFX.html_tagText",
 					"cssClass": "tag",
-					"fontSize": 30,
+					"fontSize": 22,
 					"htmlData": {
 						"style": {
 							"[tag].outerContainer": {
@@ -898,12 +898,16 @@
 					"tagData": {
 						"layoutsource": "$EFL_eftext.S8.Sexpt1",
 						"tag": [
-							"{{$EFO_STBL_A?_T?_V?_?|tag|1}}",
-							"{{$EFO_STBL_A?_T?_V?_?|tag|2}}",
-							"{{$EFO_STBL_A?_T?_V?_?|tag|3}}",
-							"{{$EFO_STBL_A?_T?_V?_?|tag|4}}"
+							"{{$EFO_STBL_A?_T?_V?|tagname|1}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|1}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|2}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|2}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|3}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|3}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|4}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|4}}</span>"
 						],
 						"templateRef": {
+							"STBL_A?_T?_V?|tagname|1": "$EFM_TEDExpt1V1.ontologyKey",
+							"STBL_A?_T?_V?|tagname|2": "$EFM_TEDExpt1V2.ontologyKey",
+							"STBL_A?_T?_V?|tagname|3": "$EFM_TEDExpt1V3.ontologyKey",
+							"STBL_A?_T?_V?|tagname|4": "$EFM_TEDExpt1V4.ontologyKey",
 							"STBL_A?_T?_V?_?|tag|1": "$EFM_TEDExpt1V1.ontologyKey",
 							"STBL_A?_T?_V?_?|tag|2": "$EFM_TEDExpt1V2.ontologyKey",
 							"STBL_A?_T?_V?_?|tag|3": "$EFM_TEDExpt1V3.ontologyKey",
@@ -921,12 +925,16 @@
 					"tagData": {
 						"layoutsource": "$EFL_eftext.S8.Sexpt2",
 						"tag": [
-							"{{$EFO_STBL_A?_T?_V?_?|tag|1}}",
-							"{{$EFO_STBL_A?_T?_V?_?|tag|2}}",
-							"{{$EFO_STBL_A?_T?_V?_?|tag|3}}",
-							"{{$EFO_STBL_A?_T?_V?_?|tag|4}}"
+							"{{$EFO_STBL_A?_T?_V?|tagname|1}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|1}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|2}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|2}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|3}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|3}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|4}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|4}}</span>"
 						],
 						"templateRef": {
+							"STBL_A?_T?_V?|tagname|1": "$EFM_TEDExpt2V1.ontologyKey",
+							"STBL_A?_T?_V?|tagname|2": "$EFM_TEDExpt2V2.ontologyKey",
+							"STBL_A?_T?_V?|tagname|3": "$EFM_TEDExpt2V3.ontologyKey",
+							"STBL_A?_T?_V?|tagname|4": "$EFM_TEDExpt2V4.ontologyKey",
 							"STBL_A?_T?_V?_?|tag|1": "$EFM_TEDExpt2V1.ontologyKey",
 							"STBL_A?_T?_V?_?|tag|2": "$EFM_TEDExpt2V2.ontologyKey",
 							"STBL_A?_T?_V?_?|tag|3": "$EFM_TEDExpt2V3.ontologyKey",

@@ -23,7 +23,8 @@
 			},
 			"S7": {
 				"part1": "In the first experiment, Some students need to find out whether the",
-				"part2": "Another group of students need to find out whether the"
+				"part2": "Another group of students need to find out whether the",
+				"part3": "They designed the following experiment"
 			},
 			"E1": {
 				"LISTYN": {
@@ -328,6 +329,7 @@
 					"V1": {
 						"id": "Svar1",
 						"name": "Water Temperature",
+						"tagname": "Water Temperature",
 						"A": {
 							"id": "Svar1a",
 							"name": "Cold",
@@ -341,7 +343,8 @@
 					},
 					"V2": {
 						"id": "Svar2",
-						"name": "Crystal Type",
+						"name": "Type of Crystals",
+						"tagname": "Type of Crystals",
 						"A": {
 							"id": "Svar2a",
 							"name": "Salt",
@@ -355,7 +358,8 @@
 					},
 					"V3": {
 						"id": "Svar3",
-						"name": "Seed Crystal Size",
+						"name": "Initial Amount Crystals on String",
+						"tagname": "Initial Amount Crystals",
 						"A": {
 							"id": "Svar3a",
 							"name": "A little",
@@ -370,6 +374,7 @@
 					"V4": {
 						"id": "Svar4",
 						"name": "Type of String",
+						"tagname": "Type of String",
 						"A": {
 							"id": "Svar4a",
 							"name": "Twine",
@@ -427,6 +432,7 @@
 					"V1": {
 						"id": "Svar1",
 						"name": "Type of Sweetener",
+						"tagname": "Type of Sweetener",
 						"A": {
 							"id": "Svar1a",
 							"name": "Sugar",
@@ -441,6 +447,7 @@
 					"V2": {
 						"id": "Svar2",
 						"name": "Amount of Caffeine",
+						"tagname": "Amount of Caffeine",
 						"A": {
 							"id": "Svar1a",
 							"name": "With Caffeine",
@@ -455,6 +462,7 @@
 					"V3": {
 						"id": "Svar3",
 						"name": "Texture of Mint",
+						"tagname": "Texture of Mint",
 						"A": {
 							"id": "Svar1a",
 							"name": "Smooth",
@@ -469,14 +477,15 @@
 					"V4": {
 						"id": "Svar4",
 						"name": "Amount of CO2",
+						"tagname": "Amount of CO2",
 						"A": {
 							"id": "Svar1a",
-							"name": "Higher",
+							"name": "High",
 							"tag": "High"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Lower",
+							"name": "Low",
 							"tag": "Low"
 						}
 					}
@@ -534,6 +543,7 @@
 					"V1": {
 						"id": "",
 						"name": "Initial Ice Temperature",
+						"tagname": "Initial Ice Temperature",
 						"A": {
 							"id": "Svar1a",
 							"name": "0 degrees",
@@ -548,6 +558,7 @@
 					"V2": {
 						"id": "Svar2",
 						"name": "Initial Water Temperature",
+						"tagname": "Initial Water Temperature",
 						"A": {
 							"id": "Svar1a",
 							"name": "Cold",
@@ -562,6 +573,7 @@
 					"V3": {
 						"id": "Svar3",
 						"name": "Pattern on Glass",
+						"tagname": "Pattern on Glass",
 						"A": {
 							"id": "Svar1a",
 							"name": "Pattern",
@@ -576,6 +588,7 @@
 					"V4": {
 						"id": "Svar4",
 						"name": "Shape of Glass",
+						"tagname": "Shape of Glass",
 						"A": {
 							"id": "Svar1a",
 							"name": "Short",
@@ -633,6 +646,7 @@
 					"V1": {
 						"id": "Svar1",
 						"name": "Balloon Color",
+						"tagname": "Balloon Color",
 						"A": {
 							"id": "Svar1a",
 							"name": "Gray",
@@ -647,6 +661,7 @@
 					"V2": {
 						"id": "Svar2",
 						"name": "Amount of Sunlight",
+						"tagname": "Amount of Sunlight",
 						"A": {
 							"id": "Svar1a",
 							"name": "Full Sun",
@@ -661,6 +676,7 @@
 					"V3": {
 						"id": "Svar3",
 						"name": "Balloon Material",
+						"tagname": "Balloon Material",
 						"A": {
 							"id": "Svar1a",
 							"name": "Latex",
@@ -675,6 +691,7 @@
 					"V4": {
 						"id": "Svar4",
 						"name": "Type of Chair",
+						"tagname": "Type of Chair",
 						"A": {
 							"id": "Svar1a",
 							"name": "Wooden Chair",
@@ -740,6 +757,7 @@
 					"V1": {
 						"id": "",
 						"name": "Slope",
+						"tagname": "Slope",
 						"A": {
 							"id": "Svar1a",
 							"name": "Not Steep",
@@ -753,7 +771,8 @@
 					},
 					"V2": {
 						"id": "Svar2",
-						"name": "Color of Ball",
+						"name": "Color of the Ball",
+						"tagname": "Color of the Ball",
 						"A": {
 							"id": "Svar1a",
 							"name": "Yellow",
@@ -768,6 +787,7 @@
 					"V3": {
 						"id": "Svar3",
 						"name": "Starting Position",
+						"tagname": "Starting Position",
 						"A": {
 							"id": "Svar1a",
 							"name": "Middle",
@@ -782,6 +802,7 @@
 					"V4": {
 						"id": "Svar4",
 						"name": "Ramp Surface",
+						"tagname": "Ramp Surface",
 						"A": {
 							"id": "Svar1a",
 							"name": "Rough",
@@ -843,6 +864,7 @@
 					"V1": {
 						"id": "Svar1",
 						"name": "Density of Water",
+						"tagname": "Density of Water",
 						"A": {
 							"id": "Svar1a",
 							"name": "Plain Water",
@@ -857,6 +879,7 @@
 					"V2": {
 						"id": "Svar2",
 						"name": "Shape of Object",
+						"tagname": "Shape of Object",
 						"A": {
 							"id": "Svar1a",
 							"name": "Sphere",
@@ -871,6 +894,7 @@
 					"V3": {
 						"id": "Svar3",
 						"name": "Volume of Object",
+						"tagname": "Volume of Object",
 						"A": {
 							"id": "Svar1a",
 							"name": "Small",
@@ -885,6 +909,7 @@
 					"V4": {
 						"id": "Svar4",
 						"name": "Density of Object",
+						"tagname": "Density of Object",
 						"A": {
 							"id": "Svar1a",
 							"name": "Lead",
@@ -946,6 +971,7 @@
 					"V1": {
 						"id": "",
 						"name": "Number of Bees",
+						"tagname": "Number of Bees",
 						"A": {
 							"id": "Svar1a",
 							"name": "None",
@@ -960,6 +986,7 @@
 					"V2": {
 						"id": "Svar2",
 						"name": "Amount of Sunlight",
+						"tagname": "Amount of Sunlight",
 						"A": {
 							"id": "Svar1a",
 							"name": "Full Sun",
@@ -974,6 +1001,7 @@
 					"V3": {
 						"id": "Svar3",
 						"name": "Amount of Fertilizer",
+						"tagname": "Amount of Fertilizer",
 						"A": {
 							"id": "Svar1a",
 							"name": "None",
@@ -988,6 +1016,7 @@
 					"V4": {
 						"id": "Svar4",
 						"name": "Type of Water",
+						"tagname": "Type of Water",
 						"A": {
 							"id": "Svar1a",
 							"name": "Rain Water",
@@ -1045,6 +1074,7 @@
 					"V1": {
 						"id": "Svar1",
 						"name": "Water Temperature",
+						"tagname": "Water Temperature",
 						"A": {
 							"id": "Svar1a",
 							"name": "Room Temperature",
@@ -1059,6 +1089,7 @@
 					"V2": {
 						"id": "Svar2",
 						"name": "Amount of Music",
+						"tagname": "Amount of Music",
 						"A": {
 							"id": "Svar1a",
 							"name": "Constant Music",
@@ -1073,6 +1104,7 @@
 					"V3": {
 						"id": "Svar3",
 						"name": "CO2 in Water",
+						"tagname": "CO2 in Water",
 						"A": {
 							"id": "Svar1a",
 							"name": "A Lot",
@@ -1087,6 +1119,7 @@
 					"V4": {
 						"id": "Svar4",
 						"name": "Sunlight Exposure",
+						"tagname": "Sunlight Exposure",
 						"A": {
 							"id": "Svar1a",
 							"name": "Some",
@@ -1103,7 +1136,7 @@
 		},
 		"S": {
 			"A1": {
-				"withinarea": "Within the area of physical and chemical changes",
+				"withinarea": "Within the area of Physical and Chemical Changes,",
 				"T1": {
 					"features": "FTR_CRYSTAL",
 					"wewillselect": "we will select the topic crystal growth",
@@ -1239,7 +1272,7 @@
 				}
 			},
 			"A2": {
-				"withinarea": "Within the area of, heat and temperature",
+				"withinarea": "Within the area of Heat and Temperature,",
 				"T1": {
 					"features": "FTR_ICEMELT",
 					"wewillselect": "we will select the topic ice melting time",
@@ -1375,7 +1408,7 @@
 				}
 			},
 			"A3": {
-				"withinarea": "Within the area of, forces and motion",
+				"withinarea": "Within the area of Forces and Motion,",
 				"T1": {
 					"features": "FTR_RAMPS",
 					"wewillselect": "we will select the topic the speed of balls at the bottom of ramps",
@@ -1457,7 +1490,7 @@
 					"enumProcess3": "It will sink to the bottom.",
 					"enumProcess4": "",
 					"enumProcess5": "We can measure the time it takes for the object to sink in water.",
-					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time of it takes for objects to sink in water. These are the four variables you can test in this experiment",
+					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time it takes for objects to sink in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The Density of the Water",
 					"enumValue1a": "Low",
 					"enumValue1b": "High",
@@ -1507,10 +1540,10 @@
 				}
 			},
 			"A4": {
-				"withinarea": "Within the area of Plant growth",
+				"withinarea": "Within the area of Plant Reproduction,",
 				"T1": {
 					"features": "FTR_GRHOUSE",
-					"wewillselect": "we will select the topic flower reproduction",
+					"wewillselect": "we will select the topic Flower Reproduction",
 					"belowarevariables": "Below are some variables that might affect the number of seeds produced by flowers in a greenhouse.",
 					"enumVar1": "The Number of honey bees in the greenhouse",
 					"enumVar2": "The Amount of sunlight the greenhouse lets in",
@@ -1576,8 +1609,8 @@
 				},
 				"T2": {
 					"features": "FTR_ALGAE",
-					"wewillselect": "we will select the topic algae growth",
-					"belowarevariables": "Below are some variables that might affect the amount of algae growth in water.",
+					"wewillselect": "we will select the topic Algae Reproduction",
+					"belowarevariables": "Below are some variables that might affect the amount of algae produced in water.",
 					"enumVar1": "The Temperature of the Water",
 					"enumVar2": "The Amount of Exposure to Music",
 					"enumVar3": "The Amount of Carbon Dioxide in the Water",
@@ -1593,7 +1626,7 @@
 					"enumMat8": "And a carbon dioxide machine",
 					"enumProcess1": "We will add fifty grams of algae to a fish tank filled with 16 liters of distilled water.",
 					"enumProcess2": "",
-					"enumProcess3": "We can measure the weight of the algae growth after one week.",
+					"enumProcess3": "We can measure the weight of the algae production after one week.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the weight of the algae after one week. These are the four variables you can test in this experiment",
 					"enumValue1": "The Temperature of the Water",
 					"enumValue1a": "Room Temperature",
@@ -1631,11 +1664,11 @@
 						"rqselected": "Does the amount of direct sunlight exposure",
 						"ExpSelected": "amount of direct sunlight exposure"
 					},
-					"rqselectedall": "affect the weight of the algae growth after one week?",
-					"rqselectedalls": "affects the weight of the algae growth after one week?",
-					"DVg": "Amount of algae growth in water",
-					"DVst": "The weight of the algae growth after one week",
-					"DVs": "weight of the algae growth after one week",
+					"rqselectedall": "affect the weight of the algae produced after one week?",
+					"rqselectedalls": "affects the weight of the algae produced after one week?",
+					"DVg": "Amount of algae produced in water",
+					"DVst": "The weight of the algae produced after one week",
+					"DVs": "weight of the algae produced after one week",
 					"DVabb": "algae weight",
 					"buttVarName1": "The Temperature of the Water",
 					"buttVarName2": "The Amount of Exposure to Music",
@@ -1650,10 +1683,10 @@
 				"track1": "In this lesson, we will ask you to set up and evaluate experiments.",
 				"track8": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
 				"track9": "Let's begin by focusing on one area of science",
-				"S10B1": "I'd like to test a different variable for my research question",
-				"S10B2": "I'd like to pick a different topic in this area",
-				"S10B3": "I'd like to picka a whole different area.",
-				"S10B4": "I like this question"
+				"S10B1": "I'd like to test a different variable for my research question.",
+				"S10B2": "I'd like to pick a different topic in this area.",
+				"S10B3": "I'd like to pick a whole different area.",
+				"S10B4": "I like this question."
 			},
 			"A1": {
 				"type": "choice",
@@ -1661,8 +1694,9 @@
 				"selecttopic": "please select a topic by clicking on a picture below.",
 				"selecttv": "Select the variable you would like to test. This variable is the independent variable of your experiment.",
 				"rqselected": "The research question you have chosen is",
-				"rqselectedText": "Your research question is ",
+				"rqselectedText": "Your research question is:",
 				"okselected": "OK! You have chosen as your Research Question",
+				"okselectedText": "OK! You have chosen as your Research Question:",
 				"cantest": "You can test one of these variables in your experiment.",
 				"track2": "But first you will select a general area for the experiment.",
 				"track3": "For example, you might select the general area of psychology.",
@@ -1679,8 +1713,9 @@
 				"selecttv": "We will test the following variable:",
 				"selecttv2": ", This variable is the independent variable of the experiment. Please click on the highlighted button below",
 				"rqselected": "Our research question is",
-				"rqselectedText": "Our research question is",
+				"rqselectedText": "Our research question is:",
 				"okselected": "OK! We have chosen the following Research Question",
+				"okselectedText": "OK! We have chosen the following Research Question:",
 				"cantest": "We can test one of these variables in the experiment.",
 				"track2": "But first we will select a general area for the experiment.",
 				"track3": "For example, we might select the general area of psychology.",

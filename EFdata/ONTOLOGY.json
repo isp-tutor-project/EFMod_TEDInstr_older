@@ -18,7 +18,8 @@
             },
             "S7":{
                 "part1":"In the first experiment, Some students need to find out whether the",
-                "part2":"Another group of students need to find out whether the"
+                "part2":"Another group of students need to find out whether the",
+                "part3":"They designed the following experiment"
             },
 
             "E1": {
@@ -349,9 +350,10 @@
                     "V1": {
                         "id": "Svar1",
                         "name": "Water Temperature",
+                        "tagname": "Water Temperature",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Cold",
+                            "name": "Room temp",
                             "tag":"Room temp"
                         },
                         "B": {
@@ -362,7 +364,8 @@
                     },
                     "V2": {
                         "id": "Svar2",
-                        "name": "Crystal Type",
+                        "name": "Type of Crystals",
+                        "tagname": "Type of Crystals",
                         "A": {
                             "id": "Svar2a",
                             "name": "Salt",
@@ -376,7 +379,8 @@
                     },
                     "V3": {
                         "id": "Svar3",
-                        "name": "Seed Crystal Size",
+                        "name": "Initial Amount of Crystals on String",
+                        "tagname": "Initial Amount Crystals",
                         "A": {
                             "id": "Svar3a",
                             "name": "A little",
@@ -391,6 +395,7 @@
                     "V4": {
                         "id": "Svar4",
                         "name": "Type of String",
+                        "tagname": "Type of String",
                         "A": {
                             "id": "Svar4a",
                             "name": "Twine",
@@ -416,6 +421,7 @@
                     "V1": {
                         "id": "Svar1",
                         "name": "Type of Sweetener",
+                        "tagname": "Type of Sweetener",
                         "A": {
                             "id": "Svar1a",
                             "name": "Sugar",
@@ -423,13 +429,14 @@
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Sugar-Free",
+                            "name": "Aspartame",
                             "tag":"Aspartame"
                         }
                     },
                     "V2": {
                         "id": "Svar2",
                         "name": "Amount of Caffeine",
+                        "tagname": "Amount of Caffeine",
                         "A": {
                             "id": "Svar1a",
                             "name": "With Caffeine",
@@ -444,6 +451,7 @@
                     "V3": {
                         "id": "Svar3",
                         "name": "Texture of Mint",
+                        "tagname": "Texture of Mint",
                         "A": {
                             "id": "Svar1a",
                             "name": "Smooth",
@@ -458,14 +466,15 @@
                     "V4": {
                         "id": "Svar4",
                         "name": "Amount of CO2",
+                        "tagname": "Amount of CO2",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Higher",
+                            "name": "High",
                             "tag":"High"
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Lower",
+                            "name": "Low",
                             "tag":"Low"
                         }
                     }
@@ -487,6 +496,7 @@
                     "V1": {
                         "id": "",
                         "name": "Initial Ice Temperature",
+                        "tagname": "Initial Ice Temperature",
                         "A": {
                             "id": "Svar1a",
                             "name": "0 degrees",
@@ -501,6 +511,7 @@
                     "V2": {
                         "id": "Svar2",
                         "name": "Initial Water Temperature",
+                        "tagname": "Initial Water Temperature",
                         "A": {
                             "id": "Svar1a",
                             "name": "Cold",
@@ -515,20 +526,22 @@
                     "V3": {
                         "id": "Svar3",
                         "name": "Pattern on Glass",
+                        "tagname": "Pattern on Glass",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Pattern",
+                            "name": "Striped",
                             "tag":"Striped"
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "no Pattern",
+                            "name": "Plain",
                             "tag":"Plain"
                         }
                     },
                     "V4": {
                         "id": "Svar4",
                         "name": "Shape of Glass",
+                        "tagname": "Shape of Glass",
                         "A": {
                             "id": "Svar1a",
                             "name": "Short",
@@ -553,20 +566,22 @@
                     "V1": {
                         "id": "Svar1",
                         "name": "Balloon Color",
+                        "tagname": "Balloon Color",
                         "A": {
                             "id": "Svar1a",
                             "name": "Gray",
-                            "tag":"Light (gray)"
+                            "tag":"Gray"
                         },
                         "B": {
                             "id": "Svar1b",
                             "name": "Black",
-                            "tag":"Dark (black)"
+                            "tag":"Black"
                         }
                     },
                     "V2": {
                         "id": "Svar2",
                         "name": "Amount of Sunlight",
+                        "tagname": "Amount of Sunlight",
                         "A": {
                             "id": "Svar1a",
                             "name": "Full Sun",
@@ -581,6 +596,7 @@
                     "V3": {
                         "id": "Svar3",
                         "name": "Balloon Material",
+                        "tagname": "Balloon Material",
                         "A": {
                             "id": "Svar1a",
                             "name": "Latex",
@@ -595,6 +611,7 @@
                     "V4": {
                         "id": "Svar4",
                         "name": "Type of Chair",
+                        "tagname": "Type of Chair",
                         "A": {
                             "id": "Svar1a",
                             "name": "Wooden Chair",
@@ -624,6 +641,7 @@
                     "V1": {
                         "id": "",
                         "name": "Slope",
+                        "tagname": "Slope",
                         "A": {
                             "id": "Svar1a",
                             "name": "Not Steep",
@@ -637,7 +655,8 @@
                     },
                     "V2": {
                         "id": "Svar2",
-                        "name": "Color of Ball",
+                        "name": "Color of the Ball",
+                        "tagname": "Color of the Ball",
                         "A": {
                             "id": "Svar1a",
                             "name": "Yellow",
@@ -652,6 +671,7 @@
                     "V3": {
                         "id": "Svar3",
                         "name": "Starting Position",
+                        "tagname": "Starting Position",
                         "A": {
                             "id": "Svar1a",
                             "name": "Middle",
@@ -666,15 +686,16 @@
                     "V4": {
                         "id": "Svar4",
                         "name": "Ramp Surface",
+                        "tagname": "Ramp Surface",
                         "A": {
                             "id": "Svar1a",
                             "name": "Rough",
-                            "tag":"Rough<br>(friction)"
+                            "tag":"Rough"
                         },
                         "B": {
                             "id": "Svar1b",
                             "name": "Smooth",
-                            "tag":"Smooth<br>(no friction)"
+                            "tag":"Smooth"
                         }
                     }
                 },
@@ -691,20 +712,22 @@
                     "V1": {
                         "id": "Svar1",
                         "name": "Density of Water",
+                        "tagname": "Density of Water",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Plain Water",
+                            "name": "Low",
                             "tag":"low (no salt)"
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Salt Water",
+                            "name": "High",
                             "tag":"high (salt added)"
                         }
                     },
                     "V2": {
                         "id": "Svar2",
                         "name": "Shape of Object",
+                        "tagname": "Shape of Object",
                         "A": {
                             "id": "Svar1a",
                             "name": "Sphere",
@@ -712,13 +735,14 @@
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Tear Drop",
+                            "name": "Tear shaped",
                             "tag":"Tear-shaped"
                         }
                     },
                     "V3": {
                         "id": "Svar3",
                         "name": "Volume of Object",
+                        "tagname": "Volume of Object",
                         "A": {
                             "id": "Svar1a",
                             "name": "Small",
@@ -733,22 +757,23 @@
                     "V4": {
                         "id": "Svar4",
                         "name": "Density of Object",
+                        "tagname": "Density of Object",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Lead",
-                            "tag":"high (lead)"
+                            "name": "High",
+                            "tag":"High (lead)"
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Glass",
-                            "tag":"low (glass)"
+                            "name": "Low",
+                            "tag":"Low (glass)"
                         }
                     }
                 }
             },
             "A4": {
                 "id": "",
-                "name": "Plant Growth",
+                "name": "Plant Reproduction",
                 "T1": {
                     "id": "",
                     "name": "Flower Reproduction",
@@ -762,9 +787,10 @@
                     "V1": {
                         "id": "",
                         "name": "Number of Bees",
+                        "tagname": "Number of Bees",
                         "A": {
                             "id": "Svar1a",
-                            "name": "None",
+                            "name": "Zero",
                             "tag":"Zero"
                         },
                         "B": {
@@ -776,20 +802,22 @@
                     "V2": {
                         "id": "Svar2",
                         "name": "Amount of Sunlight",
+                        "tagname": "Amount of Sunlight",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Full Sun",
+                            "name": "Full sunlight",
                             "tag":"Full sunlight"
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Partial Shade",
+                            "name": "Partial sunlight",
                             "tag":"Partial sunlight"
                         }
                     },
                     "V3": {
                         "id": "Svar3",
                         "name": "Amount of Fertilizer",
+                        "tagname": "Amount of Fertilizer",
                         "A": {
                             "id": "Svar1a",
                             "name": "None",
@@ -804,6 +832,7 @@
                     "V4": {
                         "id": "Svar4",
                         "name": "Type of Water",
+                        "tagname": "Type of Water",
                         "A": {
                             "id": "Svar1a",
                             "name": "Rain Water",
@@ -818,7 +847,7 @@
                 },
                 "T2": {
                     "id": "",
-                    "name": "Algae Growth",
+                    "name": "Algae Reproduction",
                     "expclass":"EFMod_Algae.TEDExpt",
                     "exptStruct": [
                         { "id": "Svar1", "parent": "", "depth": 0, "variants": ["a", "b"] },
@@ -829,6 +858,7 @@
                     "V1": {
                         "id": "Svar1",
                         "name": "Water Temperature",
+                        "tagname": "Water Temperature",
                         "A": {
                             "id": "Svar1a",
                             "name": "Room Temperature",
@@ -836,13 +866,14 @@
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Warmer",
+                            "name": "Warm",
                             "tag":"Warm"
                         }
                     },
                     "V2": {
                         "id": "Svar2",
                         "name": "Amount of Music",
+                        "tagname": "Amount of Music",
                         "A": {
                             "id": "Svar1a",
                             "name": "Constant Music",
@@ -857,6 +888,7 @@
                     "V3": {
                         "id": "Svar3",
                         "name": "CO2 in Water",
+                        "tagname": "CO2 in Water",
                         "A": {
                             "id": "Svar1a",
                             "name": "A Lot",
@@ -871,6 +903,7 @@
                     "V4": {
                         "id": "Svar4",
                         "name": "Sunlight Exposure",
+                        "tagname": "Sunlight Exposure",
                         "A": {
                             "id": "Svar1a",
                             "name": "Some",
