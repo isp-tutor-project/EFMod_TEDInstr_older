@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__TEDQuest1" itemID="5baeab6b-00000879" linkageExportForAS="true" linkageClassName="TC_TScene__TEDQuest1" lastModified="1540328513">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__TEDQuest1" itemID="5baeab6b-00000879" linkageExportForAS="true" linkageClassName="TC_TScene__TEDQuest1" lastModified="1540418433">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -36,14 +36,6 @@
                     <Point x="652" y="40.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="TC_TObject__ExptSep" name="Ssep" selected="true" symbolType="button">
-                  <matrix>
-                    <Matrix tx="960.9" ty="409"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point y="277.95"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
@@ -58,38 +50,6 @@
                   </matrix>
                   <transformationPoint>
                     <Point x="49.5" y="50.1"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Sexpt2" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Components/TC_TTEDContainer__AllDomains" name="Sexpt2" selected="true">
-                  <matrix>
-                    <Matrix a="0.844284057617188" d="0.844284057617188" tx="1001.15" ty="409.8"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="276.2" y="215.2"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="Sexpt1" color="#009999" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Components/TC_TTEDContainer__AllDomains" name="Sexpt1">
-                  <matrix>
-                    <Matrix a="0.844345092773438" d="0.844345092773438" tx="121.1" ty="409.8"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="276.25" y="215.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -112,13 +72,61 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="TC_TObject__CondTitle2" color="#FF800A" autoNamed="false">
+        <DOMLayer name="Sexpt2" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Components/Expt Assets/TC_TObject__CondTitle2">
+                <DOMSymbolInstance libraryItemName="Components/TC_TTEDContainer__AllDomains" name="Sexpt2" selected="true">
                   <matrix>
-                    <Matrix tx="1295.95" ty="973.65"/>
+                    <Matrix a="0.844284057617188" d="0.844284057617188" tx="1001.15" ty="515.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="276.2" y="215.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Ssep" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="TC_TObject__ExptSep" name="Ssep" selected="true" symbolType="button">
+                  <matrix>
+                    <Matrix tx="960.9" ty="515"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="277.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Sexpt1" color="#009999" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Components/TC_TTEDContainer__AllDomains" name="Sexpt1" selected="true">
+                  <matrix>
+                    <Matrix a="0.844345092773438" d="0.844345092773438" tx="121.1" ty="515.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="276.25" y="215.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="TC_TObject__CondTitle2" color="#00FFFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Components/Expt Assets/TC_TObject__CondTitle2" name="Scond2" selected="true">
+                  <matrix>
+                    <Matrix tx="1295.95" ty="441.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="124" y="29.65"/>
@@ -128,13 +136,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="TC_TObject__CondTitle1" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="TC_TObject__CondTitle1" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Components/Expt Assets/TC_TObject__CondTitle1">
+                <DOMSymbolInstance libraryItemName="Components/Expt Assets/TC_TObject__CondTitle1" name="Scond1" selected="true">
                   <matrix>
-                    <Matrix tx="406" ty="973.65"/>
+                    <Matrix tx="406" ty="441.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="129.5" y="30.65"/>
