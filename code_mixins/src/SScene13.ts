@@ -82,26 +82,19 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $cuePoints(trackID:string, cueID:string) {
 
             switch(trackID) {
-
-                case "track1":
+                case "track2":
                     switch(cueID) {                        
                         case "$start":
+                            this.Sanswer.disable();
+                            this.setSceneValue("complete", false);  
                             break;
-                        case "$end":
-                            break;
-                    }
-                    break;
 
-                case "track2":
-                    switch(cueID) {
-                        
-                        case "$start":                            
-                            break;
                         case "$end":
                             break;
                     }
                     break;
            }
+           
         }
 
         public $timedEvents(id:string) {

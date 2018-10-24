@@ -101,6 +101,9 @@
 					"part2": "caused the difference.",
 					"question": "Why could you actually not tell for sure?"
 				},
+				"Q56": {
+					"part1": "Let's think more about why we could not tell for sure. We'll now think about how each variable is set up across conditions, to see if it could cause a difference in the results."
+				},
 				"LISTQ56": {
 					"ans1": "Everything should be the same so the results will be the same in both conditions.",
 					"ans2": "Since everything is different, something else might have caused the difference.",
@@ -332,7 +335,7 @@
 						"tagname": "Water Temperature",
 						"A": {
 							"id": "Svar1a",
-							"name": "Cold",
+							"name": "Room temperature",
 							"tag": "Room temp"
 						},
 						"B": {
@@ -358,7 +361,7 @@
 					},
 					"V3": {
 						"id": "Svar3",
-						"name": "Initial Amount Crystals on String",
+						"name": "Initial Amount of Crystals on String",
 						"tagname": "Initial Amount Crystals",
 						"A": {
 							"id": "Svar3a",
@@ -440,7 +443,7 @@
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Sugar-Free",
+							"name": "Aspartame",
 							"tag": "Aspartame"
 						}
 					},
@@ -450,12 +453,12 @@
 						"tagname": "Amount of Caffeine",
 						"A": {
 							"id": "Svar1a",
-							"name": "With Caffeine",
+							"name": "Some",
 							"tag": "Some"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Caffeine Free",
+							"name": "None",
 							"tag": "None"
 						}
 					},
@@ -547,12 +550,12 @@
 						"A": {
 							"id": "Svar1a",
 							"name": "0 degrees",
-							"tag": "0˚C/32F"
+							"tag": "0˚C / 32F"
 						},
 						"B": {
 							"id": "Svar1b",
 							"name": "-20 degrees",
-							"tag": "-20˚C/-4F"
+							"tag": "-20˚C / -4F"
 						}
 					},
 					"V2": {
@@ -576,12 +579,12 @@
 						"tagname": "Pattern on Glass",
 						"A": {
 							"id": "Svar1a",
-							"name": "Pattern",
+							"name": "Striped",
 							"tag": "Striped"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "no Pattern",
+							"name": "Plain",
 							"tag": "Plain"
 						}
 					},
@@ -650,12 +653,12 @@
 						"A": {
 							"id": "Svar1a",
 							"name": "Gray",
-							"tag": "Light (gray)"
+							"tag": "Gray"
 						},
 						"B": {
 							"id": "Svar1b",
 							"name": "Black",
-							"tag": "Dark (black)"
+							"tag": "Black"
 						}
 					},
 					"V2": {
@@ -806,12 +809,12 @@
 						"A": {
 							"id": "Svar1a",
 							"name": "Rough",
-							"tag": "Rough<br>(friction)"
+							"tag": "Rough"
 						},
 						"B": {
 							"id": "Svar1b",
 							"name": "Smooth",
-							"tag": "Smooth<br>(no friction)"
+							"tag": "Smooth"
 						}
 					}
 				},
@@ -867,12 +870,12 @@
 						"tagname": "Density of Water",
 						"A": {
 							"id": "Svar1a",
-							"name": "Plain Water",
+							"name": "Low",
 							"tag": "low (no salt)"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Salt Water",
+							"name": "High",
 							"tag": "high (salt added)"
 						}
 					},
@@ -887,7 +890,7 @@
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Tear Drop",
+							"name": "Tear shaped",
 							"tag": "Tear-shaped"
 						}
 					},
@@ -912,20 +915,20 @@
 						"tagname": "Density of Object",
 						"A": {
 							"id": "Svar1a",
-							"name": "Lead",
-							"tag": "high (lead)"
+							"name": "High",
+							"tag": "High (lead)"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Glass",
-							"tag": "low (glass)"
+							"name": "Low",
+							"tag": "Low (glass)"
 						}
 					}
 				}
 			},
 			"A4": {
 				"id": "",
-				"name": "Plant Growth",
+				"name": "Plant Reproduction",
 				"T1": {
 					"id": "",
 					"name": "Flower Reproduction",
@@ -974,7 +977,7 @@
 						"tagname": "Number of Bees",
 						"A": {
 							"id": "Svar1a",
-							"name": "None",
+							"name": "Zero",
 							"tag": "Zero"
 						},
 						"B": {
@@ -989,12 +992,12 @@
 						"tagname": "Amount of Sunlight",
 						"A": {
 							"id": "Svar1a",
-							"name": "Full Sun",
+							"name": "Full sunlight",
 							"tag": "Full sunlight"
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Partial Shade",
+							"name": "Partial sunlight",
 							"tag": "Partial sunlight"
 						}
 					},
@@ -1031,7 +1034,7 @@
 				},
 				"T2": {
 					"id": "",
-					"name": "Algae Growth",
+					"name": "Algae Reproduction",
 					"expclass": "EFMod_Algae.TEDExpt",
 					"exptStruct": [
 						{
@@ -1082,7 +1085,7 @@
 						},
 						"B": {
 							"id": "Svar1b",
-							"name": "Warmer",
+							"name": "Warm",
 							"tag": "Warm"
 						}
 					},
@@ -1197,7 +1200,7 @@
 						"ExpSelected": "type of string"
 					},
 					"rqselectedall": "affect the weight of the crystal growth on a string in water after two weeks?",
-					"rqselectedalls": "affects the weight of the crystal growth on a string in water after two weeks?",
+					"rqselectedalls": "affects the weight of the crystal growth on a string after two weeks?",
 					"DVg": "amount of crystal growth on a string in water",
 					"DVst": "The weight of the crystal growth on the string after two weeks.",
 					"DVs": "weight of the crystal growth on the string after two weeks.",
@@ -1260,7 +1263,7 @@
 						"ExpSelected": "amount of carbon dioxide in the soda"
 					},
 					"rqselectedall": "affect the strength of the reaction between soda and mints?",
-					"rqselectedalls": "affects the strength of the reaction between soda and mints?",
+					"rqselectedalls": "affects the height of the soda geyser?",
 					"DVg": "Strength of the reaction between soda and mints",
 					"DVst": "The height of the soda geyser",
 					"DVs": "height of the soda geyser",
@@ -1328,7 +1331,7 @@
 						"ExpSelected": "shape of the glass"
 					},
 					"rqselectedall": "affect the time it takes for an ice cube to melt in water?",
-					"rqselectedalls": "affects the time it takes for an ice cube to melt in water?",
+					"rqselectedalls": "affects the time it takes for the ice cube to melt in water?",
 					"DVg": "Time it takes for an ice cube to melt in water",
 					"DVst": "The time it takes for the ice cube to melt in water",
 					"DVs": "time it takes for the ice cube to melt in water",
@@ -1396,7 +1399,7 @@
 						"ExpSelected": "type of chair the balloon is tied to"
 					},
 					"rqselectedall": "affect the gas temperature within the balloon after 30 minutes?",
-					"rqselectedalls": "affects the gas temperature within the balloon after 30 minutes?",
+					"rqselectedalls": "affects the gas temperature within balloon after 30 minutes?",
 					"DVg": "Temperature of gas in a balloon",
 					"DVst": "The gas temperature within balloon after 30 minutes",
 					"DVs": "gas temperature within balloon after 30 minutes",

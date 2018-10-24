@@ -1093,6 +1093,23 @@
 					],
 					"templates": {}
 				}
+			},
+			"track2": {
+				"en": {
+					"node": "Let's think more about why we...",
+					"html": "{{$EFO_TED_E1_Q56|part1}}",
+					"text": "{{$EFO_TED_E1_Q56|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
 			}
 		}
 	},
@@ -1100,7 +1117,7 @@
 		"tracks": {
 			"track1": {
 				"en": {
-					"node": "ACTUALLY...",
+					"node": "Even though you said you...",
 					"html": "{{$EFO_TED_E1_Q6|part1}}{{$EFO_STBL_A?_T?_V?|name}}",
 					"text": "{{$EFO_TED_E1_Q6|part1}}{{$EFO_STBL_A?_T?_V?|name}}",
 					"templateRef": {
@@ -1125,6 +1142,23 @@
 					"node": "caused the difference.",
 					"html": "{{$EFO_TED_E1_Q6|part2}}",
 					"text": "{{$EFO_TED_E1_Q6|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track3": {
+				"en": {
+					"node": "Let's think more about why we...",
+					"html": "{{$EFO_TED_E1_Q56|part1}}",
+					"text": "{{$EFO_TED_E1_Q56|part1}}",
 					"volume": [
 						1
 					],

@@ -95,20 +95,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(trackID) {
 
-                case "track1":
+                case "track3":
+                case "track4":
                     switch(cueID) {                        
                         case "$start":
+                            this.Sanswer.disable();
+                            this.setSceneValue("complete", false);  
                             break;
-                        case "$end":
-                            break;
-                    }
-                    break;
 
-                case "track2":
-                    switch(cueID) {
-                        
-                        case "$start":                            
-                            break;
                         case "$end":
                             break;
                     }

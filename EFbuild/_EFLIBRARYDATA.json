@@ -898,10 +898,10 @@
 					"tagData": {
 						"layoutsource": "$EFL_eftext.S8.Sexpt1",
 						"tag": [
-							"{{$EFO_STBL_A?_T?_V?|tagname|1}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|1}}</span>",
-							"{{$EFO_STBL_A?_T?_V?|tagname|2}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|2}}</span>",
-							"{{$EFO_STBL_A?_T?_V?|tagname|3}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|3}}</span>",
-							"{{$EFO_STBL_A?_T?_V?|tagname|4}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|4}}</span>"
+							"{{$EFO_STBL_A?_T?_V?|tagname|1}}<br><span style='font-size:1.2em; line-height: 1.4em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|1}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|2}}<br><span style='font-size:1.2em; line-height: 1.4em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|2}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|3}}<br><span style='font-size:1.2em; line-height: 1.4em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|3}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|4}}<br><span style='font-size:1.2em; line-height: 1.4em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|4}}</span>"
 						],
 						"templateRef": {
 							"STBL_A?_T?_V?|tagname|1": "$EFM_TEDExpt1V1.ontologyKey",
@@ -925,10 +925,10 @@
 					"tagData": {
 						"layoutsource": "$EFL_eftext.S8.Sexpt2",
 						"tag": [
-							"{{$EFO_STBL_A?_T?_V?|tagname|1}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|1}}</span>",
-							"{{$EFO_STBL_A?_T?_V?|tagname|2}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|2}}</span>",
-							"{{$EFO_STBL_A?_T?_V?|tagname|3}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|3}}</span>",
-							"{{$EFO_STBL_A?_T?_V?|tagname|4}}<br><span style='font-size:1.3em; line-height: 1.5em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|4}}</span>"
+							"{{$EFO_STBL_A?_T?_V?|tagname|1}}<br><span style='font-size:1.2em; line-height: 1.4em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|1}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|2}}<br><span style='font-size:1.2em; line-height: 1.4em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|2}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|3}}<br><span style='font-size:1.2em; line-height: 1.4em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|3}}</span>",
+							"{{$EFO_STBL_A?_T?_V?|tagname|4}}<br><span style='font-size:1.2em; line-height: 1.4em; font-weight:bold;'>{{$EFO_STBL_A?_T?_V?_?|tag|4}}</span>"
 						],
 						"templateRef": {
 							"STBL_A?_T?_V?|tagname|1": "$EFM_TEDExpt2V1.ontologyKey",
@@ -1738,7 +1738,7 @@
 					}
 				},
 				"A4": {
-					"description": "PlantGrowthTopics",
+					"description": "Plant Reproduction",
 					"listdata": {
 						"options": [
 							{
@@ -1791,7 +1791,7 @@
 						}
 					},
 					"T2": {
-						"description": "Algae growth",
+						"description": "Algae Reproduction",
 						"listdata": {
 							"options": [
 								{

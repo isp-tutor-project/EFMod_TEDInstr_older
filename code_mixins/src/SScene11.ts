@@ -82,25 +82,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $cuePoints(trackID:string, cueID:string) {
 
             switch(trackID) {
-
-                case "track1":
-                    switch(cueID) {                        
-                        case "$start":
-                            break;
-                        case "$end":
-                            break;
-                    }
-                    break;
-
-                case "track2":
-                    switch(cueID) {
-                        
-                        case "$start":                            
-                            break;
-                        case "$end":
-                            break;
-                    }
-                    break;
            }
         }
 

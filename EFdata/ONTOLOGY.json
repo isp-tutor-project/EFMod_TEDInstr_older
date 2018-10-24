@@ -110,6 +110,9 @@
                     "part2":"caused the difference.",
                     "question":"Why could you actually not tell for sure?"
                 },
+                "Q56":{
+                    "part1":"Let's think more about why we could not tell for sure. We'll now think about how each variable is set up across conditions, to see if it could cause a difference in the results."
+                },
                 "LISTQ56": {
                     "ans1":"Everything should be the same so the results will be the same in both conditions.",
                     "ans2":"Since everything is different, something else might have caused the difference.",
@@ -353,7 +356,7 @@
                         "tagname": "Water Temperature",
                         "A": {
                             "id": "Svar1a",
-                            "name": "Room temp",
+                            "name": "Room temperature",
                             "tag":"Room temp"
                         },
                         "B": {
@@ -439,12 +442,12 @@
                         "tagname": "Amount of Caffeine",
                         "A": {
                             "id": "Svar1a",
-                            "name": "With Caffeine",
+                            "name": "Some",
                             "tag":"Some"
                         },
                         "B": {
                             "id": "Svar1b",
-                            "name": "Caffeine Free",
+                            "name": "None",
                             "tag":"None"
                         }
                     },
@@ -500,12 +503,12 @@
                         "A": {
                             "id": "Svar1a",
                             "name": "0 degrees",
-                            "tag":"0˚C/32F"
+                            "tag":"0˚C / 32F"
                         },
                         "B": {
                             "id": "Svar1b",
                             "name": "-20 degrees",
-                            "tag":"-20˚C/-4F"
+                            "tag":"-20˚C / -4F"
                         }
                     },
                     "V2": {
