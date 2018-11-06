@@ -1,5 +1,15 @@
 {
     "en": {
+            "M0": {
+                    "request": {
+                            "input": {"ssml": "<content>"},
+                            "voice": {"name":"en-US-Wavenet-D",
+                                    "languageCode": "en-US", 
+                                    "ssmlGender": "MALE"},
+                            "audioConfig": {"audioEncoding": "LINEAR16"}
+                    },
+                    "parms":{"rate":1, "pitch":0 }
+            },
 
             "F0": {
                     "request": {
