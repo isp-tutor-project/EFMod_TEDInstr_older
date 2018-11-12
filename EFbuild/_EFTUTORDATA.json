@@ -112,6 +112,14 @@
 					"ans5": "The conditions are set up the wrong way, so we won't get the best possible outcome.",
 					"ans6": "I don't know."
 				},
+				"LISTPOST": {
+					"ans1": "To make the results the same in both conditions.",
+					"ans2": "To make the results different across conditions.",
+					"ans3": "To make the best possible outcomes.",
+					"ans4": "To make everything the same except what I'm testing.",
+					"ans5": "To make the variable I'm testing different across conditions (the other variables don't matter).",
+					"ans6": "I don't know."
+				},
 				"Q7": {
 					"comment": "scene15  ********************",
 					"part1": "In this experiment, the students are testing for whether or not the",
@@ -1585,7 +1593,8 @@
 					"enumValueUtt4b": "Or tap water.   This might also make a difference",
 					"RQ1": {
 						"rqselected": "Does the number of honey bees in the greenhouse",
-						"ExpSelected": "number of honey bees in the greenhouse"
+						"ExpSelected": "number of honey bees in the greenhouse",
+						"ExpSelected2": "The number of honey bees in the greenhouse"
 					},
 					"RQ2": {
 						"rqselected": "Does the amount of sunlight the greenhouse lets in",
@@ -1687,7 +1696,7 @@
 				"track8": "You will set up (but not run) an experiment on the computer to answer the research question that you have selected.",
 				"track9": "Let's begin by focusing on one area of science",
 				"S10B1": "I'd like to test a different variable for my research question.",
-				"S10B2": "I'd like to pick a different topic in this area.",
+				"S10B2": "I'd like to pick a different area or topic.",
 				"S10B3": "I'd like to pick a whole different area.",
 				"S10B4": "I like this question."
 			},
@@ -1707,6 +1716,7 @@
 				"track5": "For example, within the general area of psychology, you might select the topic attention to color.",
 				"track6": "Within that topic, you will select a research question.",
 				"track7": "For example, within the topic of attention to color, you might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+				"track10": "Please tap on the area you wish to use for your experiment design.",
 				"rqselectedall": ""
 			},
 			"A2": {
@@ -1726,6 +1736,7 @@
 				"track5": "For example, within the general area of psychology, we might select the topic attention to color.",
 				"track6": "Within that topic, we will select a research question.",
 				"track7": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
+				"track10": "we will select the topic, Plant Reproduction. Please click the highlighted picture below.",
 				"rqselectedall": ""
 			}
 		}
@@ -1838,7 +1849,7 @@
 		"STextBox1": {
 			"layoutsource": "$EFL_eftext.STextBox1",
 			"datasource": "$EFL_efdata.scene16.scenePrompt",
-			"fontSize": 65
+			"fontSize": 45
 		},
 		"STblExp1": {
 			"layoutsource": "$EFL_eftable.STblExp1",
@@ -1849,13 +1860,14 @@
 		"STextBox1": {
 			"layoutsource": "$EFL_eftext.STextBox1",
 			"datasource": "$EFL_efdata.scene17.scenePrompt",
-			"fontSize": 65
+			"xname": "SCENE17",
+			"fontSize": 60
 		},
 		"Sanswer": {
 			"layoutsource": "$EFL_eflist.S17.Sanswer",
 			"datasource": "$EFL_efdata.scene17.Sanswer",
 			"fontSize": 35,
-			"xname": "SCENE10A"
+			"xname": "SCENE17"
 		},
 		"STblExp1": {
 			"layoutsource": "$EFL_eftable.STblExp1",

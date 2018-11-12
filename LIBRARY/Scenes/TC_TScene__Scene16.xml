@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene16" itemID="5bb234bc-00001031" linkageExportForAS="true" linkageClassName="TC_TScene__Scene16" lastModified="1539538440">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene16" itemID="5bb234bc-00001031" linkageExportForAS="true" linkageClassName="TC_TScene__Scene16" lastModified="1541998201">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TScene__Scene16">
       <layers>
-        <DOMLayer name="STable1" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="STable1" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STblExp1" selected="true">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlTable__Table1" name="STblExp1">
                   <matrix>
                     <Matrix a="8.33949279785156" d="3.03999328613281" tx="543.05" ty="496.8"/>
                   </matrix>
@@ -21,13 +21,13 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="STextBox1" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="STextBox1" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1" selected="true">
                   <matrix>
-                    <Matrix a="16.4389953613281" d="3.16949462890625" tx="134.45" ty="142.05"/>
+                    <Matrix a="16.4389953613281" d="1.70042419433594" tx="134.45" ty="207.05"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50.15" y="50.1"/>

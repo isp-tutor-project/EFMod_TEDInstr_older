@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene15" itemID="5bafd8d5-00000d6a" linkageExportForAS="true" linkageClassName="TC_TScene__Scene15" lastModified="1539538440">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene15" itemID="5bafd8d5-00000d6a" linkageExportForAS="true" linkageClassName="TC_TScene__Scene15" lastModified="1541998192">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -25,7 +25,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="STextBox1" selected="true">
                   <matrix>
                     <Matrix a="16.4389953613281" d="1.70042419433594" tx="134.45" ty="107.05"/>
                   </matrix>
@@ -33,7 +33,7 @@
                     <Point x="50.15" y="50.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion" selected="true">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion">
                   <matrix>
                     <Matrix a="16.4389953613281" d="1.70042419433594" tx="134.45" ty="302"/>
                   </matrix>
