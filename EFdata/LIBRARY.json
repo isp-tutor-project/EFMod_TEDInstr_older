@@ -869,44 +869,44 @@
                     "listdata": {
                         "options": [
                             {
-                                "name": "{{$EFO_TED_E1_LISTQ56|ans1}}",
-                                "value": "$EFL_efdata.TED.E1.LISTQ56",
-                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "name": "{{$EFO_TED_E1_LISTPOST|ans1}}",
+                                "value": "$EFL_efdata.TED.E1.LISTPOST",
+                                "ontologyKey":"TED_E1_LISTPOST|yes",
                                 "index":1,
                                 "id": "1"
                             },
                             {
-                                "name": "{{$EFO_TED_E1_LISTQ56|ans2}}",
-                                "value": "$EFL_efdata.TED.E1.LISTQ56",
-                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "name": "{{$EFO_TED_E1_LISTPOST|ans2}}",
+                                "value": "$EFL_efdata.TED.E1.LISTPOST",
+                                "ontologyKey":"TED_E1_LISTPOST|yes",
                                 "index":2,
                                 "id": "2"
                             },
                             {
-                                "name": "{{$EFO_TED_E1_LISTQ56|ans3}}",
-                                "value": "$EFL_efdata.TED.E1.LISTQ56",
-                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "name": "{{$EFO_TED_E1_LISTPOST|ans3}}",
+                                "value": "$EFL_efdata.TED.E1.LISTPOST",
+                                "ontologyKey":"TED_E1_LISTPOST|yes",
                                 "index":3,
                                 "id": "3"
                             },
                             {
-                                "name": "{{$EFO_TED_E1_LISTQ56|ans4}}",
-                                "value": "$EFL_efdata.TED.E1.LISTQ56",
-                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "name": "{{$EFO_TED_E1_LISTPOST|ans4}}",
+                                "value": "$EFL_efdata.TED.E1.LISTPOST",
+                                "ontologyKey":"TED_E1_LISTPOST|yes",
                                 "index":4,
                                 "id": "4"
                             },
                             {
-                                "name": "{{$EFO_TED_E1_LISTQ56|ans5}}",
-                                "value": "$EFL_efdata.TED.E1.LISTQ56",
-                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "name": "{{$EFO_TED_E1_LISTPOST|ans5}}",
+                                "value": "$EFL_efdata.TED.E1.LISTPOST",
+                                "ontologyKey":"TED_E1_LISTPOST|yes",
                                 "index":5,
                                 "id": "5"
                             },
                             {
-                                "name": "{{$EFO_TED_E1_LISTQ56|ans6}}",
-                                "value": "$EFL_efdata.TED.E1.LISTQ56",
-                                "ontologyKey":"TED_E1_LISTQ56|yes",
+                                "name": "{{$EFO_TED_E1_LISTPOST|ans6}}",
+                                "value": "$EFL_efdata.TED.E1.LISTPOST",
+                                "ontologyKey":"TED_E1_LISTPOST|yes",
                                 "index":6,
                                 "id": "6"
                             }

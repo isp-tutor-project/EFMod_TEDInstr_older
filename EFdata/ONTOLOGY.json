@@ -121,6 +121,15 @@
                     "ans5":"The conditions are set up the wrong way, so we won't get the best possible outcome.",
                     "ans6":"I don't know."
                 },
+                                
+                "LISTPOST": {
+                    "ans1":"To make the results the same in both conditions.",
+                    "ans2":"To make the results different across conditions.",
+                    "ans3":"To make the best possible outcomes.",
+                    "ans4":"To make everything the same except what I'm testing.",
+                    "ans5":"To make the variable I'm testing different across conditions (the other variables don't matter).",
+                    "ans6":"I don't know."
+                },
 
                 "Q7":{
                     "comment":"scene15  ********************",
