@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene17" itemID="5bb234ca-00001044" linkageExportForAS="true" linkageClassName="TC_TScene__Scene17" lastModified="1539538440">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene17" itemID="5bb234ca-00001044" linkageExportForAS="true" linkageClassName="TC_TScene__Scene17" lastModified="1541999878">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
@@ -9,7 +9,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlList1__CustomList1" name="Sanswer">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlList1__CustomList1" name="Sanswer" selected="true">
                   <matrix>
                     <Matrix a="15.8139801025391" d="1.03343200683594" tx="168.05" ty="420.8"/>
                   </matrix>

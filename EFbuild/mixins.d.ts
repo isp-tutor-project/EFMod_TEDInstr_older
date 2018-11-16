@@ -679,3 +679,30 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         $onClick(target: string): void;
     }
 }
+declare namespace EFTut_Suppl.EFMod_TEDInstr {
+    class SSceneStart {
+        [key: string]: any;
+        $preCreateScene(): void;
+        $onCreateScene(): void;
+        $onEnterScene(): void;
+        $preEnterScene(): void;
+        $preShowScene(): void;
+        $preHideScene(): void;
+        $onExitScene(): void;
+        $demoInitScene(): void;
+        $logScene(): void;
+        $rewindScene(): void;
+        $resolveTemplate(templID: string): void;
+        $handleEvent(compID: string): void;
+        $nodePreEnter(nodeId: string): void;
+        $nodePreExit(nodeId: string): void;
+        $nodeAction(actionId: string): void;
+        $nodeConstraint(constrainId: string): boolean;
+        $cuePoints(trackID: string, cueID: string): void;
+        $timedEvents(id: string): void;
+        $queryFinished(): boolean;
+        $onAction(target: string): void;
+        $onSelect(target: string): void;
+        $onClick(target: string): void;
+    }
+}

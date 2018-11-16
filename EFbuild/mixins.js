@@ -154,6 +154,7 @@ var EFTut_Suppl;
         class SNavigator {
             $preCreateScene() {
                 this.setNavMode(EFMod_TEDInstr.CONST.NAVNONE, EFMod_TEDInstr.CONST.NAVSCENE);
+                this.addFeature("FTR_TEDEXP1");
             }
             $onEnterScene() {
             }
@@ -214,7 +215,7 @@ var EFTut_Suppl;
             $onCreateScene() {
                 this.STable1.listenToCells("click", 0, 1, 0, 4);
                 this.STable1.hideCells(1, 1, 2, 4);
-                this.STable1.highlightCells("#44444422", 1, 1, 2, 4);
+                this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4);
                 this.setSceneValue("rowsComplete", 0);
                 this.$IvIndex = 0;
             }
@@ -228,6 +229,7 @@ var EFTut_Suppl;
                 }
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
             }
             $preShowScene() {
             }
@@ -281,12 +283,12 @@ var EFTut_Suppl;
                     case "TVWRONG":
                         this.STable1.highlightNone();
                         this.STable1.highlightSelected("#99000044");
-                        this.STable1.highlightCells("#44444422", 1, 1, 2, 4);
+                        this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4);
                         break;
                     case "TVCORRECT":
                         this.STable1.highlightNone();
                         this.STable1.highlightSelected("#00EE0088");
-                        this.STable1.highlightCells("#44444422", 1, 1, 2, 4);
+                        this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4);
                         this.STable1.clearListeners("click");
                         this.STable1.selectedCell.processed = true;
                         break;
@@ -1385,6 +1387,7 @@ var EFTut_Suppl;
                     case "track2":
                         switch (cueID) {
                             case "$start":
+                                this.Sanswer.disable();
                                 this.setSceneValue("complete", false);
                                 break;
                             case "$end":
@@ -1581,9 +1584,6 @@ var EFTut_Suppl;
             }
             $preEnterScene() {
                 this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
-                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
-                this.addFeature("FTR_CHOICE");
-                this.addFeature("FTR_TEDEXP1");
             }
             $preShowScene() {
                 this.$("Sbutton.*").hide();
@@ -2677,6 +2677,82 @@ var EFTut_Suppl;
             }
         }
         EFMod_TEDInstr.SScene9 = SScene9;
+    })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_TEDInstr;
+    (function (EFMod_TEDInstr) {
+        class SSceneStart {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+                this.setSceneValue("complete", false);
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNONE, EFMod_TEDInstr.CONST.NAVSCENE);
+                this.addFeature("FTR_TEDEXP1");
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $onExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let result = false;
+                return result;
+            }
+            $onAction(target) {
+                switch (target) {
+                    case "Sstart":
+                        this.nextTrack("$onAction:" + this.graphState);
+                        break;
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_TEDInstr.SSceneStart = SSceneStart;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 //# sourceMappingURL=mixins.js.map

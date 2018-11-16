@@ -1738,6 +1738,11 @@
 				"track7": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
 				"track10": "we will select the topic, Plant Reproduction. Please click the highlighted picture below.",
 				"rqselectedall": ""
+			},
+			"A3": {
+				"introtitle": "<p>In this lesson, we will ask you to set up and evaluate experiments.</p><p>Here is the procedure for one practice trial for this experiment.</p>",
+				"okselected": "OK! First, design an experiment to answer this research question: Does the",
+				"okselectedText": "OK! First, design an experiment to answer this research question: Does the"
 			}
 		}
 	},
@@ -2038,5 +2043,8 @@
 			"datasource": "$EFL_efdata.scene9.Sanswer",
 			"fontSize": 35
 		}
+	},
+	"SSceneStart": {
+		"Sstart": {}
 	}
 }

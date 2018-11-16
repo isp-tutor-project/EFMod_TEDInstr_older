@@ -26,7 +26,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         public $onCreateScene() {            
             this.STable1.listenToCells("click", 0, 1, 0, 4);
             this.STable1.hideCells(1, 1, 2, 4);
-            this.STable1.highlightCells("#44444422", 1, 1, 2, 4); 
+            this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4); 
             this.setSceneValue("rowsComplete", 0);
 
             this.$IvIndex = 0;
@@ -47,6 +47,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
         }
 
         public $preShowScene() {                   
@@ -127,13 +131,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                 case "TVWRONG":
                     this.STable1.highlightNone(); 
                     this.STable1.highlightSelected("#99000044"); 
-                    this.STable1.highlightCells("#44444422", 1, 1, 2, 4); 
+                    this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4); 
                     break;
 
                 case "TVCORRECT":
                     this.STable1.highlightNone(); 
                     this.STable1.highlightSelected("#00EE0088"); 
-                    this.STable1.highlightCells("#44444422", 1, 1, 2, 4); 
+                    this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4); 
                     this.STable1.clearListeners("click");
                     this.STable1.selectedCell.processed = true;
                     break;

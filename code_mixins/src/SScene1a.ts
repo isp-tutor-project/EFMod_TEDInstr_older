@@ -26,11 +26,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             // 
             this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
 
-            // define experimental group assignment
-            // 
-            this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
-            this.addFeature("FTR_CHOICE");
-            this.addFeature("FTR_TEDEXP1");
         }
 
         public $preShowScene() {                   

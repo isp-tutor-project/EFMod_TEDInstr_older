@@ -1,15 +1,39 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" linkageExportForAS="true" linkageClassName="TC_TNavPanel__Navigator" lastModified="1539538584" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" linkageExportForAS="true" linkageClassName="TC_TNavPanel__Navigator" lastModified="1542032865" lastUniqueIdentifier="9">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TNavPanel__Navigator">
       <layers>
-        <DOMLayer name="SbreadCrumbs" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="DevNav" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="SbreadCrumbs" selected="true">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__PrevButton" name="SbackDev" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.445297241210938" d="0.445053100585938" tx="1724.8" ty="48.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TButton__NextButton" name="SnextDev" symbolType="button">
+                  <matrix>
+                    <Matrix a="0.445297241210938" d="0.445053100585938" tx="1848.2" ty="48.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.2" y="0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="SbreadCrumbs" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="SbreadCrumbs">
                   <matrix>
                     <Matrix a="8.568603515625" d="0.380401611328125" tx="93.5" ty="8.8"/>
                   </matrix>

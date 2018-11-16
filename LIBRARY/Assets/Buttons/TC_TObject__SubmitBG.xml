@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Buttons/TC_TObject__SubmitBG" itemID="5bc11c4c-00001fb3" lastModified="1539453216">
+  <timeline>
+    <DOMTimeline name="TC_TObject__SubmitBG">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="555.65" objectHeight="170.7" x="688.9" y="717.4" selected="true" lockFlag="true" topLeftRadius="15" topRightRadius="15" bottomLeftRadius="15" bottomRightRadius="15">
+                  <matrix>
+                    <Matrix tx="-688.9" ty="-717.4"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#0066FF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="3">
+                      <fill>
+                        <SolidColor color="#0000CC"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

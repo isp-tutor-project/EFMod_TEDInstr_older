@@ -37,7 +37,36 @@
 		}
 	},
 	
-    
+    "SSceneStart":
+	{	
+		"COMMENT":"Today we're going to...",
+		"type":"animation",
+		"version":"0.1.0",
+		"volatile":true,
+	
+		"CNodes":
+		{	
+			"COMMENT":"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  CNodes  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+						
+			"root":{"COMMENT":"...",
+					"type":"module", 
+					"name":"NOOP",
+                    "reuse":true,
+                    "actiontracks":		
+                    [
+                        {"actionname":"NOOP", "autostep":false, "features":""}
+                    ],                        
+					"edges":
+							[
+							]
+					}
+		},		
+			
+		"CModules":
+		{		
+		}
+    },
+
 	"SScene1a":
 	{	
 		"COMMENT":"science area topic selection...",

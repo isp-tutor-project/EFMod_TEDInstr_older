@@ -1,0 +1,137 @@
+{
+    "STBL": {
+        "name": "Areas of Science",
+        "A1": {
+            "name": "Physical and Chemical Changes",
+            "T1": {
+                "name": "Crystal Growth",
+                "V1": {
+                    "name": "Water Temperature",
+                },
+                "V2": {
+                    "name": "Type of Crystals",
+                },
+                "V3": {
+                    "name": "Initial Amount of Crystals on String",
+                },
+                "V4": {
+                    "name": "Type of String",
+                }
+            },
+            "T2": {
+                "name": "Soda-Mint Reaction",
+                "V1": {
+                    "name": "Type of Sweetener",
+                },
+                "V2": {
+                    "name": "Amount of Caffeine",
+                },
+                "V3": {
+                    "name": "Texture of Mint",
+                },
+                "V4": {
+                    "name": "Amount of CO2",
+                }
+            }
+        },
+        "A2": {
+            "name": "Heat and Temperature",
+            "T1": {
+                "name": "Melting of Ice",
+                "V1": {
+                    "name": "Initial Ice Temperature",
+                },
+                "V2": {
+                    "name": "Initial Water Temperature",
+                },
+                "V3": {
+                    "name": "Pattern on Glass",
+                },
+                "V4": {
+                    "name": "Shape of Glass",
+                }
+            },
+            "T2": {
+                "name": "Temperature of a Gas",
+                "V1": {
+                    "name": "Balloon Color",
+                },
+                "V2": {
+                    "name": "Amount of Sunlight",
+                },
+                "V3": {
+                    "name": "Balloon Material",
+                },
+                "V4": {
+                    "name": "Type of Chair",
+                }
+            }
+        },
+        "A3": {
+            "name": "Forces and Motion",
+            "T1": {
+                "name": "Inclined Planes",
+                "V1": {
+                    "name": "Slope",
+                },
+                "V2": {
+                    "name": "Color of the Ball",
+                },
+                "V3": {
+                    "name": "Starting Position",
+                },
+                "V4": {
+                    "name": "Ramp Surface",
+                }
+            },
+            "T2": {
+                "name": "Sinking Objects",
+                "V1": {
+                    "name": "Density of Water",
+                },
+                "V2": {
+                    "name": "Shape of Object",
+                },
+                "V3": {
+                    "name": "Volume of Object",
+                },
+                "V4": {
+                    "name": "Density of Object",
+                }
+            }
+        },
+        "A4": {
+            "name": "Plant Reproduction",
+            "T1": {
+                "name": "Flower Reproduction",
+                "V1": {
+                    "name": "Number of Bees",
+                },
+                "V2": {
+                    "name": "Amount of Sunlight",
+                },
+                "V3": {
+                    "name": "Amount of Fertilizer",
+                },
+                "V4": {
+                    "name": "Type of Water",
+                }
+            },
+            "T2": {
+                "name": "Algae Reproduction",
+                "V1": {
+                    "name": "Water Temperature",
+                },
+                "V2": {
+                    "name": "Amount of Music",
+                },
+                "V3": {
+                    "name": "CO2 in Water",
+                },
+                "V4": {
+                    "name": "Sunlight Exposure",
+                }
+            }
+        }
+    }
+}

@@ -20,6 +20,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             // 
             this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
 
+            this.addFeature("FTR_TEDEXP1");
+            
             // let AChosen = this.setModuleValue("selectedArea.index",3);
             // let TChosen = this.setModuleValue("selectedTopic.index",2);
 
@@ -31,6 +33,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             //@@ DEVELOPMENT ONLY
             // 
+            // this.addFeature("FTR_DAYONE_40");
             // this.setModuleValue("TEDExptArea",     {"ontologyKey":"STBL_A1", "index":1});
             // this.setModuleValue("TEDExptTopic",    {"ontologyKey":"STBL_A1_T2", "index":2});
             // this.setModuleValue("TEDExptVariable", {"ontologyKey":"STBL_A1_T2_V3", "index":3});
