@@ -41,13 +41,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             //     this.setTutorValue("experimentalGroup.ontologyKey", "EG_A3");
 
-            //     this.setModuleValue("selectedArea.ontologyKey", "STBL_A4");
+            //     this.setModuleValue("selectedArea.ontologyKey", "S_A4");
             //     this.setModuleValue("selectedArea.index", 4);
 
-            //     this.setModuleValue("selectedTopic.ontologyKey", "STBL_A4_T1");
+            //     this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
             //     this.setModuleValue("selectedTopic.index", 1);
 
-            //     this.setModuleValue("selectedVariable.ontologyKey", "STBL_A4_T1_V1|name");                
+            //     this.setModuleValue("selectedVariable.ontologyKey", "S_A4_T1_V1|name");                
             //     this.setModuleValue("selectedVariable.index", 1);
                 
             //     this.addFeature("FTR_GRHOUSE");
@@ -57,13 +57,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             //     this.setTutorValue("experimentalGroup.ontologyKey", "EG_A3");
 
-            //     this.setModuleValue("selectedArea.ontologyKey", "STBL_A4");
+            //     this.setModuleValue("selectedArea.ontologyKey", "S_A4");
             //     this.setModuleValue("selectedArea.index", 4);
                 
-            //     this.setModuleValue("selectedTopic.ontologyKey", "STBL_A4_T1");
+            //     this.setModuleValue("selectedTopic.ontologyKey", "S_A4_T1");
             //     this.setModuleValue("selectedTopic.index", 1);
 
-            //     this.setModuleValue("selectedVariable.ontologyKey", "STBL_A4_T1_V1|name");                
+            //     this.setModuleValue("selectedVariable.ontologyKey", "S_A4_T1_V1|name");                
             //     this.setModuleValue("selectedVariable.index", 1);
                 
             //     this.addFeature("FTR_GRHOUSE");

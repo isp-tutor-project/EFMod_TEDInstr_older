@@ -34,12 +34,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             //@@ DEVELOPMENT ONLY
             // 
             // this.addFeature("FTR_DAYONE_40");
-            // this.setModuleValue("TEDExptArea",     {"ontologyKey":"STBL_A1", "index":1});
-            // this.setModuleValue("TEDExptTopic",    {"ontologyKey":"STBL_A1_T2", "index":2});
-            // this.setModuleValue("TEDExptVariable", {"ontologyKey":"STBL_A1_T2_V3", "index":3});
-            // this.setModuleValue("TEDExptVarNC1",   {"ontologyKey":"STBL_A1_T2_V1", "index":1});
-            // this.setModuleValue("TEDExptVarNC2",   {"ontologyKey":"STBL_A1_T2_V2", "index":2});
-            // this.setModuleValue("TEDExptVarNC3",   {"ontologyKey":"STBL_A1_T2_V4", "index":4});
+            // this.setModuleValue("TEDExptArea",     {"ontologyKey":"S_A1", "index":1});
+            // this.setModuleValue("TEDExptTopic",    {"ontologyKey":"S_A1_T2", "index":2});
+            // this.setModuleValue("TEDExptVariable", {"ontologyKey":"S_A1_T2_V3", "index":3});
+            // this.setModuleValue("TEDExptVarNC1",   {"ontologyKey":"S_A1_T2_V1", "index":1});
+            // this.setModuleValue("TEDExptVarNC2",   {"ontologyKey":"S_A1_T2_V2", "index":2});
+            // this.setModuleValue("TEDExptVarNC3",   {"ontologyKey":"S_A1_T2_V4", "index":4});
             // this.setModuleValue("TEDExptRQ",       {"ontologyKey":"S_A1_T2_RQ3", "index":3});
 
             // this.setModuleValue("TEDExpt1V1", {"ontologyKey":"S_A1_T2_V1_A", "index":1});

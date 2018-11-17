@@ -49,8 +49,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                         {
                             "value": "$LIST",
                             "options": [
-                                `{{$EFO_STBL_A?_T?_V${confounds[i1]}_A|name}}`,
-                                `{{$EFO_STBL_A?_T?_V${confounds[i1]}_B|name}}`
+                                `{{$EFO_S_A?_T?_V${confounds[i1]}_A|name}}`,
+                                `{{$EFO_S_A?_T?_V${confounds[i1]}_B|name}}`
                             ],
                             "initialValue":`${NCvals[i2-1]}`,
                             "placeHolder": "{{$EFO_LV_PH1|name}}"

@@ -7,9 +7,9 @@
         },
         "Sexpt1": {
             "expData":{
-                "class":"{{$EFO_STBL_A?_T?|expclass}}",
+                "class":"{{$EFO_S_A?_T?|expclass}}",
                 "templateRef": {
-                    "STBL_A?_T?|expclass":"$EFM_TEDExptTopic.ontologyKey"
+                    "S_A?_T?|expclass":"$EFM_TEDExptTopic.ontologyKey"
                 },
                 "initData": {
                     "datasource": "$EFL_efdata.scene8.expt1Config"           
@@ -18,9 +18,9 @@
         },
         "Sexpt2": {
             "expData":{
-                "class":"{{$EFO_STBL_A?_T?|expclass}}",
+                "class":"{{$EFO_S_A?_T?|expclass}}",
                 "templateRef": {
-                    "STBL_A?_T?|expclass":"$EFM_TEDExptTopic.ontologyKey"
+                    "S_A?_T?|expclass":"$EFM_TEDExptTopic.ontologyKey"
                 },
                 "initData": {
                     "datasource": "$EFL_efdata.scene8.expt2Config"           

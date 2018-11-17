@@ -97,17 +97,17 @@ var EFTut_Suppl;
                 this.setModuleValue(name + "Confounds", CVars);
                 offConf.push(TV);
                 this.setModuleValue(name + "Different", offConf);
-                this.setModuleValue(name + "Area", { "ontologyKey": `STBL_A${AChosen}`, "index": AChosen });
-                this.setModuleValue(name + "Topic", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}`, "index": TChosen });
-                this.setModuleValue(name + "Variable", { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${TV}`, "index": TV });
+                this.setModuleValue(name + "Area", { "ontologyKey": `S_A${AChosen}`, "index": AChosen });
+                this.setModuleValue(name + "Topic", { "ontologyKey": `S_A${AChosen}_T${TChosen}`, "index": TChosen });
+                this.setModuleValue(name + "Variable", { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${TV}`, "index": TV });
                 this.setModuleValue(name + "RQ", { "ontologyKey": `S_A${AChosen}_T${TChosen}_RQ${TV}`, "index": TV });
                 for (let ndx = 0; ndx < NTV.length; ndx++) {
-                    this.setModuleValue(name + `VarNC${ndx + 1}`, { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${NTV[ndx]}`, "index": NTV[ndx] });
+                    this.setModuleValue(name + `VarNC${ndx + 1}`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${NTV[ndx]}`, "index": NTV[ndx] });
                 }
                 let PTV = [];
                 for (let ndx = 0; ndx < numVar; ndx++) {
                     let varNdx = (((VChosen + ndx) % 4) + 1);
-                    PTV.push({ "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${varNdx}`, "index": varNdx });
+                    PTV.push({ "ontologyKey": `S_A${AChosen}_T${TChosen}_V${varNdx}`, "index": varNdx });
                 }
                 this.setModuleValue(name + "POSTSequence", PTV);
                 for (let ndx = 1; ndx <= 4; ndx++) {
@@ -121,7 +121,7 @@ var EFTut_Suppl;
                 for (let ndx = 1; ndx <= NTV.length; ndx++) {
                     if (CVars.includes(NTV[ndx - 1])) {
                         this.setModuleValue(name + `NC${ndx}SameDiff`, { "ontologyKey": `TED_E1_Q7NC${ndx}DIFF`, "value": "diff", "index": NTV[ndx - 1] });
-                        this.setModuleValue(name + `NC${cfNdx++}Confound`, { "ontologyKey": `STBL_A${AChosen}_T${TChosen}_V${NTV[ndx - 1]}`, "index": NTV[ndx - 1] });
+                        this.setModuleValue(name + `NC${cfNdx++}Confound`, { "ontologyKey": `S_A${AChosen}_T${TChosen}_V${NTV[ndx - 1]}`, "index": NTV[ndx - 1] });
                     }
                     else {
                         this.setModuleValue(name + `NC${ndx}SameDiff`, { "ontologyKey": `TED_E1_Q7NC${ndx}SAME`, "value": "same", "index": NTV[ndx - 1] });
@@ -1248,8 +1248,8 @@ var EFTut_Suppl;
                         this.STblExp1.initElementFromData(confounds[i1], i2, {
                             "value": "$LIST",
                             "options": [
-                                `{{$EFO_STBL_A?_T?_V${confounds[i1]}_A|name}}`,
-                                `{{$EFO_STBL_A?_T?_V${confounds[i1]}_B|name}}`
+                                `{{$EFO_S_A?_T?_V${confounds[i1]}_A|name}}`,
+                                `{{$EFO_S_A?_T?_V${confounds[i1]}_B|name}}`
                             ],
                             "initialValue": `${NCvals[i2 - 1]}`,
                             "placeHolder": "{{$EFO_LV_PH1|name}}"

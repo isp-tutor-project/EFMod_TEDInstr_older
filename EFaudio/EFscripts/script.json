@@ -19,10 +19,10 @@
 			},
 			"track2": {
 				"en": {
-					"html": "<p>Now select a topic within the area {{$EFO_STBL_A?|name}}</p>",
-					"text": "Now select a topic within the area{{$EFO_STBL_A?|name}}",
+					"html": "<p>Now select a topic within the area {{$EFO_S_A?|name}}</p>",
+					"text": "Now select a topic within the area{{$EFO_S_A?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?|name": "$EFM_selectedArea.ontologyKey"
+						"$EFO_S_A?|name": "$EFM_selectedArea.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -40,10 +40,10 @@
 			},
 			"track3": {
 				"en": {
-					"html": "<p>Now select a target variable for the topic{{$EFO_STBL_A?_T?|name}}</p>",
-					"text": "Now select a target variable for the topic{{$EFO_STBL_A?_T?|name}}",
+					"html": "<p>Now select a target variable for the topic{{$EFO_S_A?_T?|name}}</p>",
+					"text": "Now select a target variable for the topic{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -133,10 +133,10 @@
 			"track4": {
 				"en": {
 					"node": "TVALUESELECTION",
-					"html": "Now choose the {{$EFO_STBL_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_STBL_A?_T?_V?|name}} affects the, {{$EFO_S_A?_T?|DVs}}",
-					"text": "Now choose the{{$EFO_STBL_A?_T?_V?|name}}for each condition that will allow you to see if the,{{$EFO_STBL_A?_T?_V?|name}}affects the,{{$EFO_S_A?_T?|DVs}}",
+					"html": "Now choose the {{$EFO_S_A?_T?_V?|name}} for each condition that will allow you to see if the, {{$EFO_S_A?_T?_V?|name}} affects the, {{$EFO_S_A?_T?|DVs}}",
+					"text": "Now choose the{{$EFO_S_A?_T?_V?|name}}for each condition that will allow you to see if the,{{$EFO_S_A?_T?_V?|name}}affects the,{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
@@ -198,11 +198,11 @@
 			"track7": {
 				"en": {
 					"node": "IVALUESELECTIONINTRO",
-					"html": "Now you must decide how to set up the other variables in this experiment. Let's start with the {{$EFO_STBL_A?_T?_V?|name|2}}.  which values would you use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_S_A?_T?|DVs}}",
-					"text": "Now you must decide how to set up the other variables in this experiment. Let's start with the{{$EFO_STBL_A?_T?_V?|name|2}}. which values would you use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
+					"html": "Now you must decide how to set up the other variables in this experiment. Let's start with the {{$EFO_S_A?_T?_V?|name|2}}.  which values would you use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name|1}} and only the {{$EFO_S_A?_T?_V?|name|1}} has an effect on the  {{$EFO_S_A?_T?|DVs}}",
+					"text": "Now you must decide how to set up the other variables in this experiment. Let's start with the{{$EFO_S_A?_T?_V?|name|2}}. which values would you use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name|1}}and only the{{$EFO_S_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
@@ -234,11 +234,11 @@
 			"track7b": {
 				"en": {
 					"node": "IVALUESELECTION",
-					"html": "Now select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the  {{$EFO_S_A?_T?|DVs}}",
-					"text": "Now select which{{$EFO_STBL_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
+					"html": "Now select which {{$EFO_S_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name|1}} and only the {{$EFO_S_A?_T?_V?|name|1}} has an effect on the  {{$EFO_S_A?_T?|DVs}}",
+					"text": "Now select which{{$EFO_S_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name|1}}and only the{{$EFO_S_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
@@ -270,11 +270,11 @@
 			"track7c": {
 				"en": {
 					"node": "IVALUESELECTION",
-					"html": "Finally select which {{$EFO_STBL_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_STBL_A?_T?_V?|name|1}} and only the {{$EFO_STBL_A?_T?_V?|name|1}} has an effect on the {{$EFO_S_A?_T?|DVs}}",
-					"text": "Finally select which{{$EFO_STBL_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_STBL_A?_T?_V?|name|1}}and only the{{$EFO_STBL_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
+					"html": "Finally select which {{$EFO_S_A?_T?_V?|name|2}} you would use for each condition in order to find out whether the {{$EFO_S_A?_T?_V?|name|1}} and only the {{$EFO_S_A?_T?_V?|name|1}} has an effect on the {{$EFO_S_A?_T?|DVs}}",
+					"text": "Finally select which{{$EFO_S_A?_T?_V?|name|2}}you would use for each condition in order to find out whether the{{$EFO_S_A?_T?_V?|name|1}}and only the{{$EFO_S_A?_T?_V?|name|1}}has an effect on the{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|1": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|2": "$EFM_independentVarN.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
@@ -344,10 +344,10 @@
 			"track1": {
 				"en": {
 					"node": "(root)SUMMARY",
-					"html": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}} affects the{{$EFO_S_A?_T?|DVs}}",
-					"text": "You have set up a good experiment to find out whether the{{$EFO_STBL_A?_T?_V?|name}}affects the{{$EFO_S_A?_T?|DVs}}",
+					"html": "You have set up a good experiment to find out whether the{{$EFO_S_A?_T?_V?|name}} affects the{{$EFO_S_A?_T?|DVs}}",
+					"text": "You have set up a good experiment to find out whether the{{$EFO_S_A?_T?_V?|name}}affects the{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
@@ -388,11 +388,11 @@
 			"track3": {
 				"en": {
 					"node": "(root)SUMMARY",
-					"html": "And all other variables are the same across conditions. This way, only the {{$EFO_STBL_A?_T?_V?|name}} can cause any difference you find in the result.",
-					"text": "And all other variables are the same across conditions. This way, only the{{$EFO_STBL_A?_T?_V?|name}}can cause any difference you find in the result.",
+					"html": "And all other variables are the same across conditions. This way, only the {{$EFO_S_A?_T?_V?|name}} can cause any difference you find in the result.",
+					"text": "And all other variables are the same across conditions. This way, only the{{$EFO_S_A?_T?_V?|name}}can cause any difference you find in the result.",
 					"cueSet": "................................a.........b........c...............................................................................................",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_selectedVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -418,9 +418,9 @@
 					"node": "(root)INTRO",
 					"datasource": "$EFL_efdata.scene3",
 					"html": "",
-					"text": "{{$EFO_TED_S3|part1}}{{$EFO_STBL_A?_T?|name}}",
+					"text": "{{$EFO_TED_S3|part1}}{{$EFO_S_A?_T?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
+						"$EFO_S_A?_T?|name": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -566,11 +566,11 @@
 			"track1a": {
 				"en": {
 					"node": "(root)TED Expt1 Var Enumeration - 1a",
-					"html": "The {{$EFO_STBL_A?_T?_V?|name}} for condition one is {{$EFO_STBL_A?_T?_V?_?|name}}",
-					"text": "The{{$EFO_STBL_A?_T?_V?|name}}for condition one is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"html": "The {{$EFO_S_A?_T?_V?|name}} for condition one is {{$EFO_S_A?_T?_V?_?|name}}",
+					"text": "The{{$EFO_S_A?_T?_V?|name}}for condition one is{{$EFO_S_A?_T?_V?_?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V1.ontologyKey",
-						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V1.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExpt1V1.ontologyKey",
+						"$EFO_S_A?_T?_V?_?|name": "$EFM_TEDExpt1V1.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -593,11 +593,11 @@
 			"track1b": {
 				"en": {
 					"node": "(root)TED Expt1 Var Enumeration - 1b",
-					"html": "and the {{$EFO_STBL_A?_T?_V?|name}} for condition two is {{$EFO_STBL_A?_T?_V?_?|name}}",
-					"text": "and the{{$EFO_STBL_A?_T?_V?|name}}for condition two is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"html": "and the {{$EFO_S_A?_T?_V?|name}} for condition two is {{$EFO_S_A?_T?_V?_?|name}}",
+					"text": "and the{{$EFO_S_A?_T?_V?|name}}for condition two is{{$EFO_S_A?_T?_V?_?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt2V1.ontologyKey",
-						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt2V1.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExpt2V1.ontologyKey",
+						"$EFO_S_A?_T?_V?_?|name": "$EFM_TEDExpt2V1.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -620,11 +620,11 @@
 			"track2a": {
 				"en": {
 					"node": "(root)TED Expt1 Var Enumeration - 2a",
-					"html": "The {{$EFO_STBL_A?_T?_V?|name}} for condition one is {{$EFO_STBL_A?_T?_V?_?|name}}",
-					"text": "The{{$EFO_STBL_A?_T?_V?|name}}for condition one is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"html": "The {{$EFO_S_A?_T?_V?|name}} for condition one is {{$EFO_S_A?_T?_V?_?|name}}",
+					"text": "The{{$EFO_S_A?_T?_V?|name}}for condition one is{{$EFO_S_A?_T?_V?_?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V2.ontologyKey",
-						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V2.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExpt1V2.ontologyKey",
+						"$EFO_S_A?_T?_V?_?|name": "$EFM_TEDExpt1V2.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -647,11 +647,11 @@
 			"track2b": {
 				"en": {
 					"node": "(root)TED Expt1 Var Enumeration - 2b",
-					"html": "and the {{$EFO_STBL_A?_T?_V?|name}} for condition two is {{$EFO_STBL_A?_T?_V?_?|name}}",
-					"text": "and the{{$EFO_STBL_A?_T?_V?|name}}for condition two is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"html": "and the {{$EFO_S_A?_T?_V?|name}} for condition two is {{$EFO_S_A?_T?_V?_?|name}}",
+					"text": "and the{{$EFO_S_A?_T?_V?|name}}for condition two is{{$EFO_S_A?_T?_V?_?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt2V2.ontologyKey",
-						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt2V2.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExpt2V2.ontologyKey",
+						"$EFO_S_A?_T?_V?_?|name": "$EFM_TEDExpt2V2.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -674,11 +674,11 @@
 			"track3a": {
 				"en": {
 					"node": "(root)TED Expt1 Var Enumeration - 3a",
-					"html": "The {{$EFO_STBL_A?_T?_V?|name}} for condition one is {{$EFO_STBL_A?_T?_V?_?|name}}",
-					"text": "The{{$EFO_STBL_A?_T?_V?|name}}for condition one is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"html": "The {{$EFO_S_A?_T?_V?|name}} for condition one is {{$EFO_S_A?_T?_V?_?|name}}",
+					"text": "The{{$EFO_S_A?_T?_V?|name}}for condition one is{{$EFO_S_A?_T?_V?_?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V3.ontologyKey",
-						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V3.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExpt1V3.ontologyKey",
+						"$EFO_S_A?_T?_V?_?|name": "$EFM_TEDExpt1V3.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -701,11 +701,11 @@
 			"track3b": {
 				"en": {
 					"node": "(root)TED Expt1 Var Enumeration - 3b",
-					"html": "and the {{$EFO_STBL_A?_T?_V?|name}} for condition two is {{$EFO_STBL_A?_T?_V?_?|name}}",
-					"text": "and the{{$EFO_STBL_A?_T?_V?|name}}for condition two is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"html": "and the {{$EFO_S_A?_T?_V?|name}} for condition two is {{$EFO_S_A?_T?_V?_?|name}}",
+					"text": "and the{{$EFO_S_A?_T?_V?|name}}for condition two is{{$EFO_S_A?_T?_V?_?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt2V3.ontologyKey",
-						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt2V3.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExpt2V3.ontologyKey",
+						"$EFO_S_A?_T?_V?_?|name": "$EFM_TEDExpt2V3.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -728,11 +728,11 @@
 			"track4a": {
 				"en": {
 					"node": "(root)TED Expt1 Var Enumeration - 4a",
-					"html": "The {{$EFO_STBL_A?_T?_V?|name}} for condition one is {{$EFO_STBL_A?_T?_V?_?|name}}",
-					"text": "The{{$EFO_STBL_A?_T?_V?|name}}for condition one is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"html": "The {{$EFO_S_A?_T?_V?|name}} for condition one is {{$EFO_S_A?_T?_V?_?|name}}",
+					"text": "The{{$EFO_S_A?_T?_V?|name}}for condition one is{{$EFO_S_A?_T?_V?_?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt1V4.ontologyKey",
-						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt1V4.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExpt1V4.ontologyKey",
+						"$EFO_S_A?_T?_V?_?|name": "$EFM_TEDExpt1V4.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -755,11 +755,11 @@
 			"track4b": {
 				"en": {
 					"node": "(root)TED Expt1 Var Enumeration - 4b",
-					"html": "and the {{$EFO_STBL_A?_T?_V?|name}} for condition two is {{$EFO_STBL_A?_T?_V?_?|name}}",
-					"text": "and the{{$EFO_STBL_A?_T?_V?|name}}for condition two is{{$EFO_STBL_A?_T?_V?_?|name}}",
+					"html": "and the {{$EFO_S_A?_T?_V?|name}} for condition two is {{$EFO_S_A?_T?_V?_?|name}}",
+					"text": "and the{{$EFO_S_A?_T?_V?|name}}for condition two is{{$EFO_S_A?_T?_V?_?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExpt2V4.ontologyKey",
-						"$EFO_STBL_A?_T?_V?_?|name": "$EFM_TEDExpt2V4.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExpt2V4.ontologyKey",
+						"$EFO_S_A?_T?_V?_?|name": "$EFM_TEDExpt2V4.ontologyKey"
 					},
 					"segments": [],
 					"timedSet": [],
@@ -981,11 +981,11 @@
 				"en": {
 					"comment": "Q4P2",
 					"node": "Imagine the result...",
-					"html": "{{$EFO_TED_E1_Q4P2|part1}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4P2|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4P2|part3}}",
-					"text": "{{$EFO_TED_E1_Q4P2|part1}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4P2|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4P2|part3}}",
+					"html": "{{$EFO_TED_E1_Q4P2|part1}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4P2|part2}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4P2|part3}}",
+					"text": "{{$EFO_TED_E1_Q4P2|part1}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q4P2|part2}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4P2|part3}}",
 					"templateRef": {
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptRQ.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1010,11 +1010,11 @@
 			"track2": {
 				"en": {
 					"node": "RIGHT...",
-					"html": "{{$EFO_TED_E1_Q4A|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4A|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4A|part3}}{{$EFO_S_A?_T?|DVabb}}{{$EFO_TED_E1_Q4A|part4}}",
-					"text": "{{$EFO_TED_E1_Q4A|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4A|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4A|part3}}{{$EFO_S_A?_T?|DVabb}}{{$EFO_TED_E1_Q4A|part4}}",
+					"html": "{{$EFO_TED_E1_Q4A|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4A|part2}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4A|part3}}{{$EFO_S_A?_T?|DVabb}}{{$EFO_TED_E1_Q4A|part4}}",
+					"text": "{{$EFO_TED_E1_Q4A|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4A|part2}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4A|part3}}{{$EFO_S_A?_T?|DVabb}}{{$EFO_TED_E1_Q4A|part4}}",
 					"templateRef": {
 						"$EFO_S_A?_T?|DVabb": "$EFM_TEDExptRQ.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1043,11 +1043,11 @@
 			"track3": {
 				"en": {
 					"node": "ACTUALLY...",
-					"html": "{{$EFO_TED_E1_Q4B|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4B|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4B|part3}}{{$EFO_S_A?_T?|DVabb}}{{$EFO_TED_E1_Q4B|part4}}",
-					"text": "{{$EFO_TED_E1_Q4B|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4B|part2}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q4B|part3}}{{$EFO_S_A?_T?|DVabb}}{{$EFO_TED_E1_Q4B|part4}}",
+					"html": "{{$EFO_TED_E1_Q4B|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4B|part2}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4B|part3}}{{$EFO_S_A?_T?|DVabb}}{{$EFO_TED_E1_Q4B|part4}}",
+					"text": "{{$EFO_TED_E1_Q4B|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4B|part2}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q4B|part3}}{{$EFO_S_A?_T?|DVabb}}{{$EFO_TED_E1_Q4B|part4}}",
 					"templateRef": {
 						"$EFO_S_A?_T?|DVabb": "$EFM_TEDExptRQ.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1118,10 +1118,10 @@
 			"track1": {
 				"en": {
 					"node": "Even though you said you...",
-					"html": "{{$EFO_TED_E1_Q6|part1}}{{$EFO_STBL_A?_T?_V?|name}}",
-					"text": "{{$EFO_TED_E1_Q6|part1}}{{$EFO_STBL_A?_T?_V?|name}}",
+					"html": "{{$EFO_TED_E1_Q6|part1}}{{$EFO_S_A?_T?_V?|name}}",
+					"text": "{{$EFO_TED_E1_Q6|part1}}{{$EFO_S_A?_T?_V?|name}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1178,10 +1178,10 @@
 			"track0A": {
 				"en": {
 					"node": "In this experiment ...  Feature Focus",
-					"html": "{{$EFO_TED_E1_Q7|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part2}}",
-					"text": "{{$EFO_TED_E1_Q7|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part2}}",
+					"html": "{{$EFO_TED_E1_Q7|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part2}}",
+					"text": "{{$EFO_TED_E1_Q7|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part2}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1203,10 +1203,10 @@
 			"track0B": {
 				"en": {
 					"node": "Because the.. is different",
-					"html": "{{$EFO_TED_E1_Q7|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part4}}",
-					"text": "{{$EFO_TED_E1_Q7|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part4}}",
+					"html": "{{$EFO_TED_E1_Q7|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part4}}",
+					"text": "{{$EFO_TED_E1_Q7|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7|part4}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1231,7 +1231,7 @@
 					"html": "{{$EFO_TED_E1_Q7|part5}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q7|part6}}",
 					"text": "{{$EFO_TED_E1_Q7|part5}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_Q7|part6}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1256,7 +1256,7 @@
 					"html": "{{$EFO_TED_E1_Q7|part7}}",
 					"text": "{{$EFO_TED_E1_Q7|part7}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1274,12 +1274,12 @@
 			"track1": {
 				"en": {
 					"node": "They have set the... to be different...",
-					"html": "{{$EFO_TED_E1_Q7NC1?|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part2}}",
-					"text": "{{$EFO_TED_E1_Q7NC1?|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part2}}",
+					"html": "{{$EFO_TED_E1_Q7NC1?|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part2}}",
+					"text": "{{$EFO_TED_E1_Q7NC1?|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part2}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC1?|part1": "$EFM_TEDExptNC1SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC1?|part2": "$EFM_TEDExptNC1SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC1.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC1.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1301,12 +1301,12 @@
 			"track1A": {
 				"en": {
 					"node": "You are correct that the different...",
-					"html": "{{$EFO_TED_E1_Q7NC1?|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part4}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7NC1?|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7NC1?|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7NC1?|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part4}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC1?|part3": "$EFM_TEDExptNC1SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC1?|part4": "$EFM_TEDExptNC1SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC1.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC1.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1330,12 +1330,12 @@
 			"track1B": {
 				"en": {
 					"node": "Actually the different...",
-					"html": "{{$EFO_TED_E1_Q7NC1?|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part6}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7NC1?|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part6}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7NC1?|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part6}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7NC1?|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC1?|part6}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC1?|part5": "$EFM_TEDExptNC1SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC1?|part6": "$EFM_TEDExptNC1SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC1.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC1.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1359,12 +1359,12 @@
 			"track2": {
 				"en": {
 					"node": "The students made...",
-					"html": "{{$EFO_TED_E1_Q7NC2?|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part2}}",
-					"text": "{{$EFO_TED_E1_Q7NC2?|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part2}}",
+					"html": "{{$EFO_TED_E1_Q7NC2?|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part2}}",
+					"text": "{{$EFO_TED_E1_Q7NC2?|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part2}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC2?|part1": "$EFM_TEDExptNC2SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC2?|part2": "$EFM_TEDExptNC2SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC2.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC2.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1386,12 +1386,12 @@
 			"track2A": {
 				"en": {
 					"node": "You are correct that the different...",
-					"html": "{{$EFO_TED_E1_Q7NC2?|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part4}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7NC2?|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7NC2?|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7NC2?|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part4}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC2?|part3": "$EFM_TEDExptNC2SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC2?|part4": "$EFM_TEDExptNC2SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC2.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC2.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1415,12 +1415,12 @@
 			"track2B": {
 				"en": {
 					"node": "Actually the different...",
-					"html": "{{$EFO_TED_E1_Q7NC2?|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part6}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7NC2?|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part6}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7NC2?|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part6}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7NC2?|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC2?|part6}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC2?|part5": "$EFM_TEDExptNC2SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC2?|part6": "$EFM_TEDExptNC2SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC2.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC2.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1444,12 +1444,12 @@
 			"track3": {
 				"en": {
 					"node": "The students made...",
-					"html": "{{$EFO_TED_E1_Q7NC3?|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part2}}",
-					"text": "{{$EFO_TED_E1_Q7NC3?|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part2}}",
+					"html": "{{$EFO_TED_E1_Q7NC3?|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part2}}",
+					"text": "{{$EFO_TED_E1_Q7NC3?|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part2}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC3?|part1": "$EFM_TEDExptNC3SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC3?|part2": "$EFM_TEDExptNC3SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC2.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC2.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1471,12 +1471,12 @@
 			"track3A": {
 				"en": {
 					"node": "You are correct that the different...",
-					"html": "{{$EFO_TED_E1_Q7NC3?|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part4}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7NC3?|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7NC3?|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7NC3?|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part4}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC3?|part3": "$EFM_TEDExptNC3SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC3?|part4": "$EFM_TEDExptNC3SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC3.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC3.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1500,12 +1500,12 @@
 			"track3B": {
 				"en": {
 					"node": "Actually the different...",
-					"html": "{{$EFO_TED_E1_Q7NC3?|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part6}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7NC3?|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part6}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7NC3?|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part6}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7NC3?|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_Q7NC3?|part6}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
 						"$EFO_TED_E1_Q7NC3?|part5": "$EFM_TEDExptNC3SameDiff.ontologyKey",
 						"$EFO_TED_E1_Q7NC3?|part6": "$EFM_TEDExptNC3SameDiff.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVarNC3.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVarNC3.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1529,10 +1529,10 @@
 			"track4A": {
 				"en": {
 					"node": "So in this experiment even though ...",
-					"html": "{{$EFO_TED_E1_Q7D|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}",
-					"text": "{{$EFO_TED_E1_Q7D|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}",
+					"html": "{{$EFO_TED_E1_Q7D|part1}}{{$EFO_S_A?_T?_V?|name|1}}",
+					"text": "{{$EFO_TED_E1_Q7D|part1}}{{$EFO_S_A?_T?_V?|name|1}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_TEDExptVariable.ontologyKey"
+						"$EFO_S_A?_T?_V?|name|1": "$EFM_TEDExptVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1551,10 +1551,10 @@
 			"track4B": {
 				"en": {
 					"node": "the ... ",
-					"html": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|2}}",
-					"text": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|2}}",
+					"html": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_S_A?_T?_V?|name|2}}",
+					"text": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_S_A?_T?_V?|name|2}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_TEDExptVarNC1.ontologyKey"
+						"$EFO_S_A?_T?_V?|name|2": "$EFM_TEDExptVarNC1.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1573,10 +1573,10 @@
 			"track4C": {
 				"en": {
 					"node": "the ... ",
-					"html": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|3}}",
-					"text": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|3}}",
+					"html": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_S_A?_T?_V?|name|3}}",
+					"text": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_S_A?_T?_V?|name|3}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|3": "$EFM_TEDExptVarNC2.ontologyKey"
+						"$EFO_S_A?_T?_V?|name|3": "$EFM_TEDExptVarNC2.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1595,10 +1595,10 @@
 			"track4D": {
 				"en": {
 					"node": "and the ... all could have ...",
-					"html": "{{$EFO_TED_E1_Q7D|part3}}{{$EFO_STBL_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7D|part4}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7D|part3}}{{$EFO_STBL_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7D|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7D|part3}}{{$EFO_S_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7D|part4}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7D|part3}}{{$EFO_S_A?_T?_V?|name|4}}{{$EFO_TED_E1_Q7D|part4}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|4": "$EFM_TEDExptVarNC3.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|4": "$EFM_TEDExptVarNC3.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1622,10 +1622,10 @@
 			"track4E": {
 				"en": {
 					"node": "the ... also could cause a difference in  ...",
-					"html": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q7D|part5}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q7D|part5}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_S_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q7D|part5}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_E1_Q7D|part2}}{{$EFO_S_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q7D|part5}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_TEDExptNC1Confound.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|1": "$EFM_TEDExptNC1Confound.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1653,12 +1653,12 @@
 			"track1": {
 				"en": {
 					"node": "Please correct this experiment by clicking in the table ...",
-					"html": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_STBL_A?_T?_V?|name|2}}{{$EFO_STBL_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q8|part2}}{{$EFO_STBL_A?_T?_V?|name|4}}",
-					"text": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_STBL_A?_T?_V?|name|2}}{{$EFO_STBL_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q8|part2}}{{$EFO_STBL_A?_T?_V?|name|4}}",
+					"html": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_S_A?_T?_V?|name|2}}{{$EFO_S_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q8|part2}}{{$EFO_S_A?_T?_V?|name|4}}",
+					"text": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_S_A?_T?_V?|name|2}}{{$EFO_S_A?_T?_V?|name|3}}{{$EFO_TED_E1_Q8|part2}}{{$EFO_S_A?_T?_V?|name|4}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|2": "$EFM_TEDExptVarNC1.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|3": "$EFM_TEDExptVarNC2.ontologyKey",
-						"$EFO_STBL_A?_T?_V?|name|4": "$EFM_TEDExptVarNC3.ontologyKey"
+						"$EFO_S_A?_T?_V?|name|2": "$EFM_TEDExptVarNC1.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|3": "$EFM_TEDExptVarNC2.ontologyKey",
+						"$EFO_S_A?_T?_V?|name|4": "$EFM_TEDExptVarNC3.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1683,10 +1683,10 @@
 			"track1A": {
 				"en": {
 					"node": "Please correct this experiment by clicking in the table ...",
-					"html": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}",
-					"text": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}",
+					"html": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_S_A?_T?_V?|name|1}}",
+					"text": "{{$EFO_TED_E1_Q8|part1}}{{$EFO_S_A?_T?_V?|name|1}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_TEDExptNC1Confound.ontologyKey"
+						"$EFO_S_A?_T?_V?|name|1": "$EFM_TEDExptNC1Confound.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1726,10 +1726,10 @@
 			"track1": {
 				"en": {
 					"node": "Explain why this is a good way to...",
-					"html": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
-					"text": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_STBL_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
+					"html": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_S_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
+					"text": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_S_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name|1": "$EFM_TEDExptVariable.ontologyKey"
+						"$EFO_S_A?_T?_V?|name|1": "$EFM_TEDExptVariable.ontologyKey"
 					},
 					"volume": [
 						1,
@@ -1750,10 +1750,10 @@
 			"track2": {
 				"en": {
 					"node": "Summary - This is a good experiment, because everything...",
-					"html": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
-					"text": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
+					"html": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
+					"text": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
@@ -1854,10 +1854,10 @@
 			"track1a": {
 				"en": {
 					"node": "First, design an experiment that will let you find out for...",
-					"html": "{{$EFO_TED_POST_E|part1a}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_POST_E|part1a}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_POST_E|part1a}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_POST_E|part1a}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [
@@ -1881,10 +1881,10 @@
 			"track1": {
 				"en": {
 					"node": "Design an experiment that will let you find out for...",
-					"html": "{{$EFO_TED_POST_E|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
-					"text": "{{$EFO_TED_POST_E|part1}}{{$EFO_STBL_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"html": "{{$EFO_TED_POST_E|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
+					"text": "{{$EFO_TED_POST_E|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_POST_E|part2}}{{$EFO_S_A?_T?|DVs}}",
 					"templateRef": {
-						"$EFO_STBL_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
+						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptPOSTTV.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_selectedTopic.ontologyKey"
 					},
 					"volume": [

@@ -151,9 +151,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             // TEDExptVariable
             // TEDExptRQ
             // 
-            this.setModuleValue(name + "Area",     {"ontologyKey":`STBL_A${AChosen}`,                    "index": AChosen});
-            this.setModuleValue(name + "Topic",    {"ontologyKey":`STBL_A${AChosen}_T${TChosen}`,        "index": TChosen});
-            this.setModuleValue(name + "Variable", {"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${TV}`, "index": TV});
+            this.setModuleValue(name + "Area",     {"ontologyKey":`S_A${AChosen}`,                    "index": AChosen});
+            this.setModuleValue(name + "Topic",    {"ontologyKey":`S_A${AChosen}_T${TChosen}`,        "index": TChosen});
+            this.setModuleValue(name + "Variable", {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${TV}`, "index": TV});
             this.setModuleValue(name + "RQ",       {"ontologyKey":`S_A${AChosen}_T${TChosen}_RQ${TV}`,   "index": TV});
             
             // Initialize the ordered array of indices not chosen as TV
@@ -161,7 +161,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             // 
             for(let ndx = 0 ; ndx < NTV.length ; ndx++) {
 
-                this.setModuleValue(name + `VarNC${ndx+1}`, {"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${NTV[ndx]}`, "index": NTV[ndx]});
+                this.setModuleValue(name + `VarNC${ndx+1}`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${NTV[ndx]}`, "index": NTV[ndx]});
             }
 
             // Generate array of indices to Post-Test variable sequence - start with CHOSEN Target Variable and increment and wrap
@@ -171,7 +171,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
                 let varNdx = (((VChosen + ndx) % 4) + 1);
 
-                PTV.push({"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${varNdx}`, "index": varNdx});
+                PTV.push({"ontologyKey":`S_A${AChosen}_T${TChosen}_V${varNdx}`, "index": varNdx});
             }
             this.setModuleValue(name + "POSTSequence", PTV);
 
@@ -205,7 +205,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
                 if(CVars.includes(NTV[ndx-1])) {
                     this.setModuleValue(name + `NC${ndx}SameDiff`, {"ontologyKey":`TED_E1_Q7NC${ndx}DIFF`, "value":"diff", "index":NTV[ndx-1]});                                       
-                    this.setModuleValue(name + `NC${cfNdx++}Confound`, {"ontologyKey":`STBL_A${AChosen}_T${TChosen}_V${NTV[ndx-1]}`, "index": NTV[ndx-1]} );   
+                    this.setModuleValue(name + `NC${cfNdx++}Confound`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${NTV[ndx-1]}`, "index": NTV[ndx-1]} );   
                 }
                 else {
                     this.setModuleValue(name + `NC${ndx}SameDiff`, {"ontologyKey":`TED_E1_Q7NC${ndx}SAME`, "value":"same", "index":NTV[ndx-1]});                   
