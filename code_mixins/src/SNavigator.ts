@@ -14,6 +14,16 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // Tutor graph methods
         //
         
+        // At SciTech, the majority of students in the Choice condition (55%) selected the Soda/Mint experiment.
+        //  (See the table below for more detail of their selections.)
+
+        // So, I'm thinking we should include the Soda/Mint experiment (for IV = CO2) 
+        // in the No-Choice and Baseline conditions if possible. And randomly assign about 75% 
+        // of students in the NoChoice & Baseline conditions to the Soda/Mint experiment and 25% to 
+        // the current Greenhouse experiment.
+        
+        // Kevin: Can you make No Choice & Baseline conditions for the Soda/Mint experiment (CO2 as IV)?
+
         public $preCreateScene() {
             
             // By default disable all Navigation - Let scenes decide
@@ -22,6 +32,20 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             this.addFeature("FTR_TEDEXP1");
             
+            if(this.testFeatures("FTR_NCPLANTS")) {
+                this.setModuleValue("TEDExptArea",     {"ontologyKey":"S_A4", "index":1});
+                this.setModuleValue("TEDExptTopic",    {"ontologyKey":"S_A4_T1", "index":2});
+                this.setModuleValue("TEDExptVariable", {"ontologyKey":"S_A4_T1_V1", "index":3});
+                this.setModuleValue("TEDExptRQ",       {"ontologyKey":"S_A4_T1_RQ1", "index":3});
+            }
+
+            if(this.testFeatures("FTR_NCSODA")) {
+                this.setModuleValue("TEDExptArea",     {"ontologyKey":"S_A1", "index":1});
+                this.setModuleValue("TEDExptTopic",    {"ontologyKey":"S_A1_T2", "index":2});
+                this.setModuleValue("TEDExptVariable", {"ontologyKey":"S_A1_T2_V4", "index":3});
+                this.setModuleValue("TEDExptRQ",       {"ontologyKey":"S_A1_T2_RQ4", "index":3});
+            }
+
             // let AChosen = this.setModuleValue("selectedArea.index",3);
             // let TChosen = this.setModuleValue("selectedTopic.index",2);
 

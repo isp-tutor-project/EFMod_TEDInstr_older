@@ -25,6 +25,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         static readonly BLUE: string;
         static readonly GREEN: string;
         static readonly RED: string;
+        static readonly LBGREEN: string;
+        static readonly LBRED: string;
         static readonly NONE: string;
     }
 }

@@ -76,7 +76,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(constrainId) {
                 case "CORRECT":
-                    result = this.getModuleValue("Expt1_Q4").value;                                        
+                    result = this.getModuleValue("Expt1_Q4").value;     
+                    
+                    if(result) {
+                        this.Sanswer.setColor(CONST.GREEN);
+                    }
+                    else {
+                        this.Sanswer.setColor(CONST.RED);
+                    }                    
                     break;
 
                     case "INCOMPLETE":

@@ -29,6 +29,8 @@ var EFTut_Suppl;
         CONST.BLUE = "#B6FFFF88";
         CONST.GREEN = "#54FF0088";
         CONST.RED = "#FF005488";
+        CONST.LBGREEN = "#009900";
+        CONST.LBRED = "#BB0000";
         CONST.NONE = "";
         EFMod_TEDInstr.CONST = CONST;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
@@ -155,6 +157,18 @@ var EFTut_Suppl;
             $preCreateScene() {
                 this.setNavMode(EFMod_TEDInstr.CONST.NAVNONE, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.addFeature("FTR_TEDEXP1");
+                if (this.testFeatures("FTR_NCPLANTS")) {
+                    this.setModuleValue("TEDExptArea", { "ontologyKey": "S_A4", "index": 1 });
+                    this.setModuleValue("TEDExptTopic", { "ontologyKey": "S_A4_T1", "index": 2 });
+                    this.setModuleValue("TEDExptVariable", { "ontologyKey": "S_A4_T1_V1", "index": 3 });
+                    this.setModuleValue("TEDExptRQ", { "ontologyKey": "S_A4_T1_RQ1", "index": 3 });
+                }
+                if (this.testFeatures("FTR_NCSODA")) {
+                    this.setModuleValue("TEDExptArea", { "ontologyKey": "S_A1", "index": 1 });
+                    this.setModuleValue("TEDExptTopic", { "ontologyKey": "S_A1_T2", "index": 2 });
+                    this.setModuleValue("TEDExptVariable", { "ontologyKey": "S_A1_T2_V4", "index": 3 });
+                    this.setModuleValue("TEDExptRQ", { "ontologyKey": "S_A1_T2_RQ4", "index": 3 });
+                }
             }
             $onEnterScene() {
             }
@@ -694,6 +708,12 @@ var EFTut_Suppl;
                 switch (constrainId) {
                     case "CORRECT":
                         result = this.getModuleValue("Expt1_Q4").value;
+                        if (result) {
+                            this.Sanswer.setColor(EFMod_TEDInstr.CONST.GREEN);
+                        }
+                        else {
+                            this.Sanswer.setColor(EFMod_TEDInstr.CONST.RED);
+                        }
                         break;
                     case "INCOMPLETE":
                         result = !this.getSceneValue("complete");
@@ -1409,8 +1429,11 @@ var EFTut_Suppl;
                 return stateComplete;
             }
             $onSelect(target) {
-                let NCarray = this.getModuleValue("TEDFeatureFocus");
-                let complete = 0;
+                switch (target) {
+                    case "Sanswer":
+                        this.setModuleValue("Expt1_Q5", this.Sanswer.selected);
+                        this.setSceneValue("complete", true);
+                }
                 this.setSceneValue("complete", true);
             }
             $onClick(target) {
@@ -2628,6 +2651,12 @@ var EFTut_Suppl;
                 switch (constrainId) {
                     case "CORRECT":
                         result = this.getModuleValue("Expt1_Q1").value;
+                        if (result) {
+                            this.Sanswer.setColor(EFMod_TEDInstr.CONST.LBGREEN);
+                        }
+                        else {
+                            this.Sanswer.setColor(EFMod_TEDInstr.CONST.LBRED);
+                        }
                         break;
                     case "INCOMPLETE":
                         result = !this.getSceneValue("complete");

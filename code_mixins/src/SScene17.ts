@@ -123,8 +123,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $onSelect(target:string) {            
 
-            let NCarray  = this.getModuleValue("TEDFeatureFocus");                
-            let complete = 0;
+            switch(target) {
+                case "Sanswer":
+                    this.setModuleValue("Expt1_Q5", this.Sanswer.selected);
+                    this.setSceneValue("complete", true);    
+            }
 
             this.setSceneValue("complete", true); 
         }

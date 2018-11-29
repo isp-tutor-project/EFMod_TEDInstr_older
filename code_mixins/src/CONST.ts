@@ -38,6 +38,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         static readonly GREEN   = "#54FF0088";    // Highlight
         static readonly RED     = "#FF005488";    // Highlight
 
+        static readonly LBGREEN   = "#009900";    // Highlight
+        static readonly LBRED     = "#BB0000";    // Highlight
+
         static readonly NONE    = "";          // Highlight
 
 
