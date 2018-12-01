@@ -39,12 +39,23 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                 this.setModuleValue("TEDExptRQ",       {"ontologyKey":"S_A4_T1_RQ1", "index":3});
             }
 
-            if(this.testFeatures("FTR_NCSODA")) {
+            else if(this.testFeatures("FTR_NCSODA")) {
                 this.setModuleValue("TEDExptArea",     {"ontologyKey":"S_A1", "index":1});
                 this.setModuleValue("TEDExptTopic",    {"ontologyKey":"S_A1_T2", "index":2});
                 this.setModuleValue("TEDExptVariable", {"ontologyKey":"S_A1_T2_V4", "index":3});
                 this.setModuleValue("TEDExptRQ",       {"ontologyKey":"S_A1_T2_RQ4", "index":3});
             }
+
+            if(this.testFeatures("FTR_CHOICE")) {
+                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+            }
+            else if(this.testFeatures("FTR_NOCHOICE")) {
+                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A2");
+            }
+            else if(this.testFeatures("FTR_BASELINE")) {
+                this.setTutorValue("experimentalGroup.ontologyKey", "EG_A3");
+            }
+
 
             // let AChosen = this.setModuleValue("selectedArea.index",3);
             // let TChosen = this.setModuleValue("selectedTopic.index",2);
