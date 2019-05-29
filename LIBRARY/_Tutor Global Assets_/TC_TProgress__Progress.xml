@@ -1,0 +1,236 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/TC_TProgress__Progress" itemID="5cd1ff01-000007f4" lastModified="1557356421">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TProgress__Progress">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-982.55" ty="64.55"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#454545"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!29496 -1280|34211 -1280!34211 -1280|34211 -901!34211 -901|29496 -901!29496 -901|29496 -1280"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TProgressEl__ProgressType2" name="Sprog4">
+                  <matrix>
+                    <Matrix a="0.916854858398438" tx="492.25" ty="21.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.2" y="10.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TProgressEl__ProgressType1" name="Sprog1" selected="true">
+                  <matrix>
+                    <Matrix tx="178.1" ty="0.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48" y="21.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" left="48.6" width="46.8" height="33.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix a="0.999984741210938" b="-0.005523681640625" c="0.005523681640625" d="0.999984741210938" tx="154.05" ty="5.85"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Design&#xD;Exp1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.6" size="14" bitmapSize="280" face="Arial-BoldMT" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TProgressEl__ProgressType1" name="Sprog2">
+                  <matrix>
+                    <Matrix tx="280.15" ty="0.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48" y="21.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" left="43.1" width="57.8" height="33.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="256.15" ty="4.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Evaluate&#xD;Exp2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.6" size="14" bitmapSize="280" face="Arial-BoldMT" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TProgressEl__ProgressType1" name="Sprog3">
+                  <matrix>
+                    <Matrix tx="381.2" ty="0.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48" y="21.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" left="43.1" width="57.8" height="33.2" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="357.2" ty="4.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Evaluate&#xD;Exp3</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.6" size="14" bitmapSize="280" face="Arial-BoldMT" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" left="28.25" width="87.5" height="15.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="544.5" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Design Exp's</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.6" size="14" bitmapSize="280" face="Arial-BoldMT" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" left="62.55" width="18.9" height="15.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="449.75" ty="24.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Q1</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.6" size="14" bitmapSize="280" face="Arial-BoldMT" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TProgressEl__ProgressType2" name="Sprog5">
+                  <matrix>
+                    <Matrix a="0.916854858398438" tx="551.25" ty="21.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.2" y="10.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" left="62.55" width="18.9" height="15.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="508.75" ty="24.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Q2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.6" size="14" bitmapSize="280" face="Arial-BoldMT" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TProgressEl__ProgressType2" name="Sprog6">
+                  <matrix>
+                    <Matrix a="0.916854858398438" tx="610.25" ty="21.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.2" y="10.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" left="62.55" width="18.9" height="15.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="567.75" ty="24.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Q3</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.6" size="14" bitmapSize="280" face="Arial-BoldMT" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TProgressEl__ProgressType2" name="Sprog7">
+                  <matrix>
+                    <Matrix a="0.916854858398438" tx="669.25" ty="21.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="32.2" y="10.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMStaticText fontRenderingMode="standard" left="62.55" width="18.9" height="15.6" autoExpand="true" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="626.75" ty="24.9"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Q4</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="15.6" size="14" bitmapSize="280" face="Arial-BoldMT" fillColor="#333333"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMGroup>
+                  <matrix>
+                    <Matrix tx="-975.2" ty="64.55"/>
+                  </matrix>
+                  <members>
+                    <DOMRectangleObject objectWidth="643.95" objectHeight="32" x="142" y="97.05" selected="true" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                      <matrix>
+                        <Matrix a="0.264419555664063" d="1.31634521484375" tx="-37.55" ty="-127.05"/>
+                      </matrix>
+                      <fill>
+                        <SolidColor color="#0000FF"/>
+                      </fill>
+                      <stroke>
+                        <SolidStroke scaleMode="normal">
+                          <fill>
+                            <SolidColor color="#454545"/>
+                          </fill>
+                        </SolidStroke>
+                      </stroke>
+                    </DOMRectangleObject>
+                    <DOMStaticText selected="true" fontRenderingMode="standard" left="-0.1" width="144.2" height="26.85" autoExpand="true" isSelectable="false">
+                      <matrix>
+                        <Matrix tx="13.1" ty="8.35"/>
+                      </matrix>
+                      <textRuns>
+                        <DOMTextRun>
+                          <characters>My Progress</characters>
+                          <textAttrs>
+                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="26.85" size="24" bitmapSize="480" face="Arial-BoldMT" fillColor="#FFFFFF"/>
+                          </textAttrs>
+                        </DOMTextRun>
+                      </textRuns>
+                    </DOMStaticText>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

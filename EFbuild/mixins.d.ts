@@ -113,6 +113,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene10 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -139,6 +141,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene11 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -191,6 +195,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene12A {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -217,6 +223,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene13 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -243,6 +251,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene14 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -269,6 +279,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene15 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -295,6 +307,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene16 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -321,6 +335,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene17 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -373,6 +389,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene19 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -450,6 +468,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene20 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;
@@ -658,6 +678,8 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class SScene9 {
         [key: string]: any;
+        static $QuestionNdx: number;
+        $QuestionId: string;
         $preCreateScene(): void;
         $onCreateScene(): void;
         $onEnterScene(): void;

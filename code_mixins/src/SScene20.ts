@@ -9,7 +9,10 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // 
         [key: string]: any;
 
-        
+        public static $QuestionNdx:number = 0;
+        public        $QuestionId:string;
+                
+
         //***********************************************
         // Tutor graph methods
         //
@@ -24,6 +27,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
+            SScene20.$QuestionNdx++;
+            this.$QuestionId = "POSTQ:"+ SScene20.$QuestionNdx + "_Reason:";
+
             this.setSceneValue("complete", false);    
         }
 
@@ -62,7 +72,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
 
         public $nodePreExit(nodeId:string) {
-
         }
 
         public $nodeAction(actionId:string) : void {
@@ -111,6 +120,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
         public $onSelect(target:string) {            
 
+            this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
             this.setSceneValue("complete", true); 
         }
 

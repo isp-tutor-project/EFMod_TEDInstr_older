@@ -207,7 +207,7 @@
 					"part1": "This is a good experiment, because everything is the same except for what the students are trying to find out about, the",
 					"part2": "In other words, if there is a difference between conditions in the",
 					"part3": "it has to be because of the different",
-					"part4": "across conditions And if there is no difference between conditions in the",
+					"part4": "across conditions. And if there is no difference between conditions in the",
 					"part5": "then you could know that the",
 					"part6": "does not matter. So from this experiment, you would be able to find out whether or not the",
 					"part7": "causes a difference in the result."
@@ -414,9 +414,9 @@
 					"enumMat7": "and a digital scale",
 					"enumProcess1": "We will mix a crystal salt or sugar in water so it dissolves.",
 					"enumProcess2": "We will continue to add the crystals and mix until no more crystals can be dissolved in the water. This is the saturation point.",
-					"enumProcess3": "",
+					"enumProcess3": " ",
 					"enumProcess4": "Then we will put a string in the water.",
-					"enumProcess5": "",
+					"enumProcess5": " ",
 					"enumProcess6": "We can measure the weight of the crystal growth after two weeks.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the amount of crystal growth on a string in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The Water Temperature",
@@ -573,7 +573,7 @@
 					"belowarevariables": "Below are some variables that might affect the reaction between soda and mints.",
 					"enumVar1": "The type of sweetener in the soda",
 					"enumVar2": "The amount of caffeine in the soda",
-					"enumVar3": "The surface area of the mint",
+					"enumVar3": "The surface texture of the mint",
 					"enumVar4": "The amount of carbon dioxide in the soda",
 					"enumUtt4": "And the amount of carbon dioxide in the soda",
 					"enumMat1": "A mint",
@@ -617,7 +617,8 @@
 					},
 					"RQ4": {
 						"rqselected": "Does the amount of carbon dioxide in the soda",
-						"ExpSelected": "amount of carbon dioxide in the soda"
+						"ExpSelected": "amount of carbon dioxide in the soda",
+						"ExpSelected2": "The amount of carbon dioxide in the soda"
 					},
 					"rqselectedall": "affect the strength of the reaction between soda and mints?",
 					"rqselectedalls": "affects the height of the soda geyser?",
@@ -630,7 +631,8 @@
 					"buttVarName3": "The surface Texture of the mint",
 					"buttVarName4": "The amount of carbon dioxide in the soda"
 				},
-				"withinarea": "Within the area of Physical and Chemical Changes,"
+				"withinarea": "Within the area of Physical and Chemical Changes,",
+				"nochoicearea": "Physical and Chemical Changes"
 			},
 			"A2": {
 				"id": "",
@@ -922,7 +924,7 @@
 					"enumMat5": "A helium tank",
 					"enumMat6": "And an umbrella",
 					"enumProcess1": "We will pump 5 grams of Helium at 15 degrees Celsius into a balloon.",
-					"enumProcess2": "",
+					"enumProcess2": " ",
 					"enumProcess3": "Then we will place the balloon outside for 30 minutes.",
 					"enumProcess4": "The temperature of the outside air is 27 degrees Celsius.",
 					"enumProcess5": "We can measure the temperature of the gas after 30 minutes.",
@@ -974,7 +976,8 @@
 					"buttVarName3": "The material the balloon is made of",
 					"buttVarName4": "The type of chair the balloon is tied to"
 				},
-				"withinarea": "Within the area of Heat and Temperature,"
+				"withinarea": "Within the area of Heat and Temperature,",
+				"nochoicearea": "Heat and Temperature"
 			},
 			"A3": {
 				"id": "",
@@ -1266,9 +1269,9 @@
 					"enumMat3": "A graduated cylinder",
 					"enumMat4": "And water",
 					"enumProcess1": "We will place an object into a graduated cylinder filled with water.",
-					"enumProcess2": "",
+					"enumProcess2": " ",
 					"enumProcess3": "It will sink to the bottom.",
-					"enumProcess4": "",
+					"enumProcess4": " ",
 					"enumProcess5": "We can measure the time it takes for the object to sink in water.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time it takes for objects to sink in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The Density of the Water",
@@ -1318,7 +1321,8 @@
 					"buttVarName3": "The Volume of the Object",
 					"buttVarName4": "The Density of the Object"
 				},
-				"withinarea": "Within the area of Forces and Motion,"
+				"withinarea": "Within the area of Forces and Motion,",
+				"nochoicearea": "Forces and Motion"
 			},
 			"A4": {
 				"id": "",
@@ -1439,7 +1443,7 @@
 					"enumMat4": "Fertilizer",
 					"enumMat5": "And water",
 					"enumProcess1": "We will plant twelve sunflowers in the ground in a greenhouse at the beginning of Spring.",
-					"enumProcess2": "",
+					"enumProcess2": " ",
 					"enumProcess3": "The flowers will produce seeds then die by the end of the season.",
 					"enumProcess4": "We can measure the number of seeds produced by the flowers at the end of the season. ",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the number of seeds produced by the flowers at the end of the season. These are the four variables you can test in this experiment",
@@ -1610,7 +1614,7 @@
 					"enumMat7": "A thermometer",
 					"enumMat8": "And a carbon dioxide machine",
 					"enumProcess1": "We will add fifty grams of algae to a fish tank filled with 16 liters of distilled water.",
-					"enumProcess2": "",
+					"enumProcess2": " ",
 					"enumProcess3": "We can measure the weight of the algae production after one week.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the weight of the algae after one week. These are the four variables you can test in this experiment",
 					"enumValue1": "The Temperature of the Water",
@@ -1660,7 +1664,8 @@
 					"buttVarName3": "The Amount of Carbon Dioxide in the Water",
 					"buttVarName4": "The Amount of Direct Sunlight Exposure"
 				},
-				"withinarea": "Within the area of Plant Reproduction,"
+				"withinarea": "Within the area of Plant Reproduction,",
+				"nochoicearea": "Plant Reproduction"
 			}
 		},
 		"EG": {
@@ -1710,7 +1715,8 @@
 				"track5": "For example, within the general area of psychology, we might select the topic attention to color.",
 				"track6": "Within that topic, we will select a research question.",
 				"track7": "For example, within the topic of attention to color, we might select a research question such as does the color of the t-shirt a person is wearing affect attention?",
-				"track10": "we will select the topic, Plant Reproduction. Please click the highlighted picture below.",
+				"track10": "we will select the topic",
+				"track10b": "Please click the highlighted picture below.",
 				"rqselectedall": ""
 			},
 			"A3": {

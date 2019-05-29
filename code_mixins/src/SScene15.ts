@@ -9,6 +9,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // 
         [key: string]: any;
 
+        public static $QuestionNdx:number = 0;
+        public        $QuestionId:string;
+
         
         //***********************************************
         // Tutor graph methods
@@ -24,6 +27,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
+            SScene15.$QuestionNdx++;
+            this.$QuestionId = "FFocus:"+ SScene15.$QuestionNdx;
+            this.setModuleValue(this.$QuestionId, {}); 
+
             this.setSceneValue("complete", false);    
         }
 
@@ -391,6 +402,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(target) {
                 case "STblExp1": 
+
+                    let key = `Row-${this.STblExp1.selectedCell.row} Col-${this.STblExp1.selectedCell.col}`;
+
+                    let tblObj:any = this.getModuleValue(this.$QuestionId);
+                    tblObj[key] = this.STblExp1.selectedCell.selectedValue;
+                    this.setModuleValue("CHG:" + this.$QuestionId  + ":" + key, this.STblExp1.selectedCell.selectedValue);   
+
                     NCarray[this.STblExp1.selectedCell.row-1] = this.STblExp1.selectedCell.selectedValue;
 
                     this.setModuleValue("TEDFeatureFocus", NCarray); 

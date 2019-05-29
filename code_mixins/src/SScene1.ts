@@ -130,13 +130,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(nodeId) {
                 case "TVWRONG":
                     this.STable1.highlightNone(); 
-                    this.STable1.highlightSelected("#99000044"); 
+                    this.STable1.highlightSelected("#990000"); 
                     this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4); 
                     break;
 
                 case "TVCORRECT":
                     this.STable1.highlightNone(); 
-                    this.STable1.highlightSelected("#00EE0088"); 
+                    this.STable1.highlightSelected("#00EE00"); 
                     this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4); 
                     this.STable1.clearListeners("click");
                     this.STable1.selectedCell.processed = true;
@@ -151,11 +151,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     break;
 
                 case "TVALWRONG":
-                    this.STable1.highlightCells("#99000044", 1, row, 2, row);
+                    this.STable1.highlightCells("#990000", 1, row, 2, row);
                     break;
 
                 case "TVALCORRECT":
-                    this.STable1.highlightRow("#00EE0088", row);
+                    this.STable1.highlightRow("#00EE00", row);
                     this.STable1.clearListeners("change");
                     this.setModuleValue("differentRow", this.STable1.selectedCell.row);                
                     this.setSceneValue("rowsComplete", this.getSceneValue("rowsComplete")+1);
@@ -172,11 +172,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                     break;
 
                 case "IVALWRONG":
-                    this.STable1.highlightCells("#99000044", 1, row, 2, row);
+                    this.STable1.highlightCells("#990000", 1, row, 2, row);
                     break;
 
                 case "IVALCORRECT":
-                    this.STable1.highlightRow("#00EE0088", row);
+                    this.STable1.highlightRow("#00EE00", row);
                     this.STable1.clearListeners("change");
 
                     this.setModuleValue("sameRow" + this.getSceneValue("rowsComplete"), this.STable1.selectedCell.row);                

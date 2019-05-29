@@ -1725,7 +1725,7 @@
 		"tracks": {
 			"track1": {
 				"en": {
-					"node": "Explain why this is a good way to...",
+					"node": "Explain why this is a good way to find out whether or not the ??? makes a difference.",
 					"html": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_S_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
 					"text": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_S_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
 					"templateRef": {
@@ -1750,13 +1750,16 @@
 			"track2": {
 				"en": {
 					"node": "Summary - This is a good experiment, because everything...",
-					"html": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
-					"text": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
+					"html": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}.{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}},{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}},{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
+					"text": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}.{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}},{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}},{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
 					"templateRef": {
 						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
+						1,
+						1,
+						1,
 						1,
 						1,
 						1,
@@ -1775,6 +1778,9 @@
 					"segments": [],
 					"timedSet": [],
 					"trim": [
+						0,
+						0,
+						0,
 						0,
 						0,
 						0,

@@ -25,12 +25,12 @@ var EFTut_Suppl;
         CONST.CHANGED = "changed";
         CONST.FTRS_ALL = null;
         CONST.VAR_FTR = "varsel";
-        CONST.YELLOW = "#FFFF5488";
-        CONST.BLUE = "#B6FFFF88";
-        CONST.GREEN = "#54FF0088";
-        CONST.RED = "#FF005488";
+        CONST.YELLOW = "#FFFF54";
+        CONST.BLUE = "#B6FFFF";
+        CONST.GREEN = "#54FF00";
+        CONST.RED = "#FF0054";
         CONST.LBGREEN = "#009900";
-        CONST.LBRED = "#BB0000";
+        CONST.LBRED = "#CC0000";
         CONST.NONE = "";
         EFMod_TEDInstr.CONST = CONST;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
@@ -157,17 +157,51 @@ var EFTut_Suppl;
             $preCreateScene() {
                 this.setNavMode(EFMod_TEDInstr.CONST.NAVNONE, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.addFeature("FTR_TEDEXP1");
-                if (this.testFeatures("FTR_NCPLANTS")) {
-                    this.setModuleValue("TEDExptArea", { "ontologyKey": "S_A4", "index": 1 });
-                    this.setModuleValue("TEDExptTopic", { "ontologyKey": "S_A4_T1", "index": 2 });
-                    this.setModuleValue("TEDExptVariable", { "ontologyKey": "S_A4_T1_V1", "index": 3 });
-                    this.setModuleValue("TEDExptRQ", { "ontologyKey": "S_A4_T1_RQ1", "index": 3 });
+                if (this.testFeatures("FTR_CHOICE")) {
+                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A1");
+                    let x = this.getModuleValue("selectedArea.index");
+                    let y = this.getModuleValue("selectedTopic.index");
+                    if (x && y) {
+                        this.addFeaturebyQuery(`S_A${x}_T${y}|features`, null);
+                    }
                 }
-                if (this.testFeatures("FTR_NCSODA")) {
-                    this.setModuleValue("TEDExptArea", { "ontologyKey": "S_A1", "index": 1 });
-                    this.setModuleValue("TEDExptTopic", { "ontologyKey": "S_A1_T2", "index": 2 });
-                    this.setModuleValue("TEDExptVariable", { "ontologyKey": "S_A1_T2_V4", "index": 3 });
-                    this.setModuleValue("TEDExptRQ", { "ontologyKey": "S_A1_T2_RQ4", "index": 3 });
+                else if (this.testFeatures("FTR_NOCHOICE")) {
+                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A2");
+                }
+                else if (this.testFeatures("FTR_BASELINE")) {
+                    this.setTutorValue("experimentalGroup.ontologyKey", "EG_A3");
+                }
+                if (this.testFeatures("FTR_NCPLANTS")) {
+                    this.setModuleValue("selectedArea", { "ontologyKey": "S_A4|name", "index": 4 });
+                    this.setModuleValue("selectedTopic", { "ontologyKey": "S_A4_T1|name", "index": 1 });
+                    this.setModuleValue("selectedVariable", { "ontologyKey": "S_A4_T1_V1|name", "index": 1 });
+                    this.setModuleValue("selectedRQ", { "ontologyKey": "S_A4_T1_RQ1" });
+                    this.addFeature("FTR_GRHOUSE");
+                    this.setModuleValue("AreaSelectedID", "Sarea4|Sselected");
+                    this.setModuleValue("AreaButtonID", "Sbutton4");
+                    this.setModuleValue("TopicSelectedID", "Stopic1|Sselected");
+                    this.setModuleValue("TopicButtonID", "Sbutton1");
+                    this.setModuleValue("VariableHighlightID", "SbuttonHL1");
+                    this.setModuleValue("VariableClickMaskID", "SclickMask1");
+                }
+                else if (this.testFeatures("FTR_NCSODA")) {
+                    this.setModuleValue("selectedArea", { "ontologyKey": "S_A1|name", "index": 1 });
+                    this.setModuleValue("selectedTopic", { "ontologyKey": "S_A1_T2|name", "index": 2 });
+                    this.setModuleValue("selectedVariable", { "ontologyKey": "S_A1_T2_V4|name", "index": 4 });
+                    this.setModuleValue("selectedRQ", { "ontologyKey": "S_A1_T2_RQ4" });
+                    this.addFeature("FTR_SODA");
+                    this.setModuleValue("AreaSelectedID", "Sarea1|Sselected");
+                    this.setModuleValue("AreaButtonID", "Sbutton1");
+                    this.setModuleValue("TopicSelectedID", "Stopic2|Sselected");
+                    this.setModuleValue("TopicButtonID", "Sbutton2");
+                    this.setModuleValue("VariableHighlightID", "SbuttonHL4");
+                    this.setModuleValue("VariableClickMaskID", "SclickMask4");
+                }
+                if (this.testFeatures("FTR_TEDEXP1")) {
+                    this.$generateExpt("TEDExpt", 1, 2, 3, 4);
+                }
+                else if (this.testFeatures("FTR_TEDEXP2")) {
+                    this.$generateExpt("TEDExpt", 2, 1);
                 }
             }
             $onEnterScene() {
@@ -296,12 +330,12 @@ var EFTut_Suppl;
                 switch (nodeId) {
                     case "TVWRONG":
                         this.STable1.highlightNone();
-                        this.STable1.highlightSelected("#99000044");
+                        this.STable1.highlightSelected("#990000");
                         this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4);
                         break;
                     case "TVCORRECT":
                         this.STable1.highlightNone();
-                        this.STable1.highlightSelected("#00EE0088");
+                        this.STable1.highlightSelected("#00EE00");
                         this.STable1.highlightCells("#DDDDDD", 1, 1, 2, 4);
                         this.STable1.clearListeners("click");
                         this.STable1.selectedCell.processed = true;
@@ -313,10 +347,10 @@ var EFTut_Suppl;
                         this.setSceneValue("correct", false);
                         break;
                     case "TVALWRONG":
-                        this.STable1.highlightCells("#99000044", 1, row, 2, row);
+                        this.STable1.highlightCells("#990000", 1, row, 2, row);
                         break;
                     case "TVALCORRECT":
-                        this.STable1.highlightRow("#00EE0088", row);
+                        this.STable1.highlightRow("#00EE00", row);
                         this.STable1.clearListeners("change");
                         this.setModuleValue("differentRow", this.STable1.selectedCell.row);
                         this.setSceneValue("rowsComplete", this.getSceneValue("rowsComplete") + 1);
@@ -330,10 +364,10 @@ var EFTut_Suppl;
                         this.setSceneValue("correct", false);
                         break;
                     case "IVALWRONG":
-                        this.STable1.highlightCells("#99000044", 1, row, 2, row);
+                        this.STable1.highlightCells("#990000", 1, row, 2, row);
                         break;
                     case "IVALCORRECT":
-                        this.STable1.highlightRow("#00EE0088", row);
+                        this.STable1.highlightRow("#00EE00", row);
                         this.STable1.clearListeners("change");
                         this.setModuleValue("sameRow" + this.getSceneValue("rowsComplete"), this.STable1.selectedCell.row);
                         this.setSceneValue("rowsComplete", this.getSceneValue("rowsComplete") + 1);
@@ -451,6 +485,8 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                this.$QuestionId = "Expt" + EFMod_TEDInstr.SScene9.$QuestionNdx + "_Reason";
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -500,7 +536,7 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                     case "Sanswer":
-                        this.setModuleValue("Expt1_Q2_RIGHT", this.Sanswer.selected);
+                        this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                         this.setSceneValue("complete", true);
                         break;
                 }
@@ -510,6 +546,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene10.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene10 = SScene10;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -525,6 +562,8 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                this.$QuestionId = "Expt" + EFMod_TEDInstr.SScene9.$QuestionNdx + "_Reason";
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -574,7 +613,7 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                     case "Sanswer":
-                        this.setModuleValue("Expt1_Q3_WRONG", this.Sanswer.selected);
+                        this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                         this.setSceneValue("complete", true);
                         break;
                 }
@@ -584,6 +623,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene11.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene11 = SScene11;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -599,6 +639,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -676,6 +717,9 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                SScene12A.$QuestionNdx++;
+                this.$QuestionId = "Imagine" + SScene12A.$QuestionNdx;
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -708,11 +752,12 @@ var EFTut_Suppl;
                 switch (constrainId) {
                     case "CORRECT":
                         result = this.getModuleValue("Expt1_Q4").value;
+                        result = this.getModuleValue(this.$QuestionId).value;
                         if (result) {
-                            this.Sanswer.setColor(EFMod_TEDInstr.CONST.GREEN);
+                            this.Sanswer.setColor(EFMod_TEDInstr.CONST.LBGREEN);
                         }
                         else {
-                            this.Sanswer.setColor(EFMod_TEDInstr.CONST.RED);
+                            this.Sanswer.setColor(EFMod_TEDInstr.CONST.LBRED);
                         }
                         break;
                     case "INCOMPLETE":
@@ -753,6 +798,7 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q4", this.Sanswer.selected);
+                        this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                         this.setSceneValue("complete", true);
                         break;
                 }
@@ -762,6 +808,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene12A.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene12A = SScene12A;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -777,6 +824,8 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                this.$QuestionId = "Imagine" + EFMod_TEDInstr.SScene12A.$QuestionNdx + "_Reason";
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -836,7 +885,7 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                     case "Sanswer":
-                        this.setModuleValue("Expt1_Q4A_RIGHT", this.Sanswer.selected);
+                        this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                         this.setSceneValue("complete", true);
                 }
             }
@@ -845,6 +894,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene13.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene13 = SScene13;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -860,9 +910,11 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                this.$QuestionId = "Imagine" + EFMod_TEDInstr.SScene12A.$QuestionNdx + "_Reason";
+                this.setSceneValue("complete", false);
             }
             $preExitScene() {
-                this.setSceneValue("complete", false);
             }
             $preShowScene() {
             }
@@ -919,7 +971,7 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                     case "Sanswer":
-                        this.setModuleValue("Expt1_Q4B_WRONG", this.Sanswer.selected);
+                        this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                         this.setSceneValue("complete", true);
                 }
             }
@@ -928,6 +980,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene14.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene14 = SScene14;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -943,6 +996,10 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                SScene15.$QuestionNdx++;
+                this.$QuestionId = "FFocus:" + SScene15.$QuestionNdx;
+                this.setModuleValue(this.$QuestionId, {});
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -1223,6 +1280,10 @@ var EFTut_Suppl;
                 let complete = 0;
                 switch (target) {
                     case "STblExp1":
+                        let key = `Row-${this.STblExp1.selectedCell.row} Col-${this.STblExp1.selectedCell.col}`;
+                        let tblObj = this.getModuleValue(this.$QuestionId);
+                        tblObj[key] = this.STblExp1.selectedCell.selectedValue;
+                        this.setModuleValue("CHG:" + this.$QuestionId + ":" + key, this.STblExp1.selectedCell.selectedValue);
                         NCarray[this.STblExp1.selectedCell.row - 1] = this.STblExp1.selectedCell.selectedValue;
                         this.setModuleValue("TEDFeatureFocus", NCarray);
                         NCarray.forEach((element) => {
@@ -1238,6 +1299,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene15.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene15 = SScene15;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -1253,6 +1315,10 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                SScene16.$QuestionNdx++;
+                this.$QuestionId = "FFocus:" + SScene16.$QuestionNdx + "_CorrExp:";
+                this.setModuleValue(this.$QuestionId, {});
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -1330,6 +1396,10 @@ var EFTut_Suppl;
                 let row = this.STblExp1.selectedCell.row;
                 switch (target) {
                     case "STblExp1":
+                        let key = `Row-${this.STblExp1.selectedCell.row} Col-${this.STblExp1.selectedCell.col}`;
+                        let tblObj = this.getModuleValue(this.$QuestionId);
+                        tblObj[key] = this.STblExp1.selectedCell.selectedValue;
+                        this.setModuleValue("CHG:" + this.$QuestionId + ":" + key, this.STblExp1.selectedCell.selectedValue);
                         let val1 = this.STblExp1.getCellValue(row, 1);
                         let val2 = this.STblExp1.getCellValue(row, 2);
                         if (val1 === val2) {
@@ -1355,6 +1425,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene16.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene16 = SScene16;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -1370,6 +1441,9 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                SScene17.$QuestionNdx++;
+                this.$QuestionId = "FFocus:" + SScene17.$QuestionNdx + "_Explain:";
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -1431,7 +1505,7 @@ var EFTut_Suppl;
             $onSelect(target) {
                 switch (target) {
                     case "Sanswer":
-                        this.setModuleValue("Expt1_Q5", this.Sanswer.selected);
+                        this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                         this.setSceneValue("complete", true);
                 }
                 this.setSceneValue("complete", true);
@@ -1441,6 +1515,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene17.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene17 = SScene17;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -1528,6 +1603,9 @@ var EFTut_Suppl;
             $preCreateScene() {
                 let PTVarray = this.getModuleValue("TEDExptPOSTSequence");
                 this.setModuleValue("TEDExptPOSTTV", PTVarray.shift());
+                SScene19.$QuestionNdx++;
+                this.$QuestionId = "POSTQ:" + SScene19.$QuestionNdx;
+                this.setModuleValue(this.$QuestionId, {});
             }
             $onCreateScene() {
                 this.STable1.listenToCells("change", 1, 1, 2, 4);
@@ -1584,6 +1662,11 @@ var EFTut_Suppl;
                 return stateComplete;
             }
             $onSelect(target) {
+                console.log(this.STable1.selectedCell);
+                let key = `Row-${this.STable1.selectedCell.row} Col-${this.STable1.selectedCell.col}`;
+                let tblObj = this.getModuleValue(this.$QuestionId);
+                tblObj[key] = this.STable1.selectedCell.selectedValue;
+                this.setModuleValue("CHG:" + this.$QuestionId + ":" + key, this.STable1.selectedCell.selectedValue);
                 let result = this.STable1.cellsHaveValues(1, 1, 2, 4);
                 this.setSceneValue("complete", result);
             }
@@ -1592,6 +1675,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene19.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene19 = SScene19;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -1784,6 +1868,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -1885,6 +1970,9 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                SScene20.$QuestionNdx++;
+                this.$QuestionId = "POSTQ:" + SScene20.$QuestionNdx + "_Reason:";
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -1933,6 +2021,7 @@ var EFTut_Suppl;
                 return stateComplete;
             }
             $onSelect(target) {
+                this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                 this.setSceneValue("complete", true);
             }
             $onClick(target) {
@@ -1940,6 +2029,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene20.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene20 = SScene20;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
@@ -1955,6 +2045,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -2024,6 +2115,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -2104,6 +2196,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -2184,6 +2277,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -2264,7 +2358,9 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
+                this.delFeature("FTR_TED_1_6");
             }
             $preExitScene() {
             }
@@ -2339,15 +2435,16 @@ var EFTut_Suppl;
     (function (EFMod_TEDInstr) {
         class SScene7 {
             $preCreateScene() {
+                if (this.testFeatures("FTR_TEDEXP2")) {
+                    this.$generateExpt("TEDExpt", 2, 1);
+                }
             }
             $onCreateScene() {
             }
             $onEnterScene() {
             }
             $preEnterScene() {
-                if (this.testFeatures("FTR_TEDEXP2")) {
-                    this.$generateExpt("TEDExpt", 2, 1);
-                }
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
                 let AChosen = this.getModuleValue("TEDExptArea.index");
                 let TChosen = this.getModuleValue("TEDExptTopic.index");
@@ -2439,6 +2536,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -2619,6 +2717,9 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_TEDInstr.CONST.NAVNEXT, EFMod_TEDInstr.CONST.NAVSCENE);
+                SScene9.$QuestionNdx++;
+                this.$QuestionId = "Expt" + SScene9.$QuestionNdx + "_Q";
                 this.setSceneValue("complete", false);
             }
             $preExitScene() {
@@ -2696,6 +2797,7 @@ var EFTut_Suppl;
                 switch (target) {
                     case "Sanswer":
                         this.setModuleValue("Expt1_Q1", this.Sanswer.selected);
+                        this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                         this.setSceneValue("complete", true);
                         break;
                 }
@@ -2705,6 +2807,7 @@ var EFTut_Suppl;
                 }
             }
         }
+        SScene9.$QuestionNdx = 0;
         EFMod_TEDInstr.SScene9 = SScene9;
     })(EFMod_TEDInstr = EFTut_Suppl.EFMod_TEDInstr || (EFTut_Suppl.EFMod_TEDInstr = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));

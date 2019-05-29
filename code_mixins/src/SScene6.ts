@@ -25,7 +25,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
             this.setSceneValue("complete", false);    
+            this.delFeature("FTR_TED_1_6");             // repeal the early exit Feature
         }
 
         public $preExitScene() {

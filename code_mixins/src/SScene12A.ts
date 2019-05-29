@@ -8,6 +8,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // on syntax like => this[<element name>]
         // 
         [key: string]: any;
+        public static $QuestionNdx:number = 0;
+        public        $QuestionId:string;
 
         
         //***********************************************
@@ -24,6 +26,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
+            SScene12A.$QuestionNdx++;
+            this.$QuestionId = "Imagine" + SScene12A.$QuestionNdx;
+
             this.setSceneValue("complete", false);    
         }
 
@@ -76,13 +85,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(constrainId) {
                 case "CORRECT":
-                    result = this.getModuleValue("Expt1_Q4").value;     
+                    result = this.getModuleValue("Expt1_Q4").value;     // used by tutorgraph
+                    result = this.getModuleValue(this.$QuestionId).value;     
                     
                     if(result) {
-                        this.Sanswer.setColor(CONST.GREEN);
+                        this.Sanswer.setColor(CONST.LBGREEN);
                     }
                     else {
-                        this.Sanswer.setColor(CONST.RED);
+                        this.Sanswer.setColor(CONST.LBRED);
                     }                    
                     break;
 
@@ -144,7 +154,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(target) {
 
                 case "Sanswer":
-                    this.setModuleValue("Expt1_Q4", this.Sanswer.selected);
+                    this.setModuleValue("Expt1_Q4", this.Sanswer.selected); // Used by tutorgraph
+                    this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                     this.setSceneValue("complete", true);    
                     break;
             }

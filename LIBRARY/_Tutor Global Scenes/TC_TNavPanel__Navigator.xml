@@ -1,11 +1,27 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" linkageExportForAS="true" linkageClassName="TC_TNavPanel__Navigator" lastModified="1542032865" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" linkageExportForAS="true" linkageClassName="TC_TNavPanel__Navigator" lastModified="1557356614" lastUniqueIdentifier="9">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TNavPanel__Navigator">
       <layers>
-        <DOMLayer name="DevNav" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Progress" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/TC_TProgress__Progress" name="Sprogress">
+                  <matrix>
+                    <Matrix tx="595.9" ty="1136"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="364" y="21.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="DevNav" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -29,7 +45,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="SbreadCrumbs" color="#9933CC" autoNamed="false">
+        <DOMLayer name="SbreadCrumbs" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -45,7 +61,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Snext" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="Snext" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -61,7 +77,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Sback" color="#009999" autoNamed="false">
+        <DOMLayer name="Sback" color="#009999" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -77,7 +93,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask3" color="#FF800A" autoNamed="false">
+        <DOMLayer name="Smask3" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -93,7 +109,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask2" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="Smask2" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -109,7 +125,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask1" color="#FF4FFF" autoNamed="false">
+        <DOMLayer name="Smask1" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -125,7 +141,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask0" color="#FF800A" autoNamed="false">
+        <DOMLayer name="Smask0" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -141,11 +157,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Sbackground" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="Sbackground" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__NavBackground" name="Sbackground" centerPoint3DX="512" centerPoint3DY="384">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__NavBackground" name="Sbackground" selected="true" centerPoint3DX="512" centerPoint3DY="384">
                   <transformationPoint>
                     <Point x="275" y="200"/>
                   </transformationPoint>

@@ -46,7 +46,7 @@
 					"[stextbox1].outerContainer": {
 						"text-align": "center",
 						"user-select": "none",
-						"box-shadow": "6px 6px 4px 4px #3a2c2c66",
+						"box-shadow": "6px 6px 4px 4px #3a2c2c",
 						"background": "rgb(255, 255, 255)",
 						"border": ".20em solid #000000",
 						"font-size": "12px",

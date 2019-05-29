@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Assets_/Progress Components&amp;#032/TC_TProgressEl__ProgressType2" itemID="5cd1ff16-000007f9" lastModified="1557266198">
+  <timeline>
+    <DOMTimeline name="TC_TProgressEl__ProgressType2">
+      <layers>
+        <DOMLayer name="TC_TObject_ProgressState2" color="#009999" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TObject__ProgressState2" name="Sstate2" selected="true">
+                  <matrix>
+                    <Matrix a="0.669967651367188" d="0.5029296875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48" y="21.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="TC_TObject_ProgressState1" color="#FF0000" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TObject__ProgressState1" name="Sstate1">
+                  <matrix>
+                    <Matrix a="0.669967651367188" d="0.5029296875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48" y="21.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="TC_TObject_ProgressBackGnd" color="#669900" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/Progress Components&amp;#032/TC_TObject__ProgressBackGnd" name="Sstate0" selected="true">
+                  <matrix>
+                    <Matrix a="0.669967651367188" d="0.5029296875"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="48" y="21.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

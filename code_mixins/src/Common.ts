@@ -188,7 +188,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
                 this.setModuleValue(name + `2V${ndx}`, {"ontologyKey":`S_A${AChosen}_T${TChosen}_V${ndx}_A`, "index":ndx});   
             }
 
-            // Counfound the desired entry and set the TV as different across conditions.   (i.e. confound Expt2 to variant B)
+            // Confound the desired entry and set the TV as different across conditions.   (i.e. confound Expt2 to variant B)
             // TEDExpt1V?
             // TEDExpt2V?
             for(let ndx = 0 ; ndx < offConf.length ; ndx++) {

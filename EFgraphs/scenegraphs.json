@@ -645,15 +645,15 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"trackname":"track1a",  "autostep":true, "stepdelay": 800, "features":""},
-                        {"trackname":"track1b", "autostep":true, "stepdelay": 1200, "features":""},
-                        {"trackname":"track2a",  "autostep":true, "stepdelay": 800, "features":""},
-                        {"trackname":"track2b", "autostep":true, "stepdelay": 1200, "features":""},
-                        {"trackname":"track3a",  "autostep":true, "stepdelay": 800, "features":""},
-                        {"trackname":"track3b", "autostep":true, "stepdelay": 1200, "features":""},
-                        {"trackname":"track4a",  "autostep":true, "stepdelay": 800, "features":""},
-                        {"trackname":"track4b", "autostep":true,  "stepdelay":1200, "features":""},
-                        {"trackname":"track5",  "autostep":false,  "stepdelay": 100, "features":""}
+                        {"trackname":"track1a",  "autostep":true, "stepdelay": 600, "features":""},
+                        {"trackname":"track1b", "autostep":true, "stepdelay":  800, "features":""},
+                        {"trackname":"track2a",  "autostep":true, "stepdelay": 600, "features":""},
+                        {"trackname":"track2b", "autostep":true, "stepdelay":  800, "features":""},
+                        {"trackname":"track3a",  "autostep":true, "stepdelay": 600, "features":""},
+                        {"trackname":"track3b", "autostep":true, "stepdelay":  800, "features":""},
+                        {"trackname":"track4a",  "autostep":true, "stepdelay": 600, "features":""},
+                        {"trackname":"track4b", "autostep":true,  "stepdelay": 800, "features":""},
+                        {"trackname":"track5",  "autostep":false,  "stepdelay":  0, "features":""}
                     ],                        
                     "edges":
 							[

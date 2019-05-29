@@ -9,6 +9,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // 
         [key: string]: any;
 
+        public static $QuestionNdx:number = 0;
+        public         $QuestionId:string;
+
         
         //***********************************************
         // Tutor graph methods
@@ -19,6 +22,11 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             let PTVarray = this.getModuleValue("TEDExptPOSTSequence"); 
 
             this.setModuleValue("TEDExptPOSTTV", PTVarray.shift());
+
+            SScene19.$QuestionNdx++;
+            this.$QuestionId = "POSTQ:"+ SScene19.$QuestionNdx;
+
+            this.setModuleValue(this.$QuestionId, {}); 
         }
 
         public $onCreateScene() {                 
@@ -73,7 +81,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
 
         public $nodePreExit(nodeId:string) {
-
         }
 
         public $nodeAction(actionId:string) : void {
@@ -122,6 +129,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
 
         public $onSelect(target:string) {            
+
+            console.log(this.STable1.selectedCell);
+
+            let key = `Row-${this.STable1.selectedCell.row} Col-${this.STable1.selectedCell.col}`;
+
+            let tblObj:any = this.getModuleValue(this.$QuestionId);
+            tblObj[key] = this.STable1.selectedCell.selectedValue;
+            this.setModuleValue("CHG:" + this.$QuestionId + ":" + key, this.STable1.selectedCell.selectedValue);
 
             let result = this.STable1.cellsHaveValues(1,1,2,4);
 

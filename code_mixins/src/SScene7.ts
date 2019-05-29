@@ -15,6 +15,14 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         //
         
         public $preCreateScene() {
+
+            // On the second pass we reinitialize the experimental set up.
+            // With one confound only
+            // 
+            if(this.testFeatures("FTR_TEDEXP2")) {
+
+                this.$generateExpt("TEDExpt", 2, 1);
+            }
         }
 
         public $onCreateScene() {        
@@ -26,13 +34,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         
         public $preEnterScene() {
 
-            // On the second pass we reinitialize the experimental set up.
-            // With one confound only
+            // Next button only - navigate scene tracks
             // 
-            if(this.testFeatures("FTR_TEDEXP2")) {
-
-                this.$generateExpt("TEDExpt", 2, 1);
-            }
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
 
             this.setSceneValue("complete", false);    
 

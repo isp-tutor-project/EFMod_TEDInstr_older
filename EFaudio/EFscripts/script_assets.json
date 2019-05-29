@@ -16,7 +16,7 @@
 								"fileid": "0",
 								"SSML": "First select an area of science in which you would like to work",
 								"cues": [],
-								"duration": 3369.0833333333335,
+								"duration": 3414.5833333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -48,7 +48,7 @@
 								"fileid": "0",
 								"SSML": "Now select a topic within the area",
 								"cues": [],
-								"duration": 2138.375,
+								"duration": 2159.4166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -59,7 +59,7 @@
 								"fileid": "1a",
 								"SSML": "Physical and Chemical Changes",
 								"cues": [],
-								"duration": 1814.2916666666667,
+								"duration": 1844.1666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -67,7 +67,7 @@
 								"fileid": "1b",
 								"SSML": "Heat and Temperature",
 								"cues": [],
-								"duration": 1149.3333333333333,
+								"duration": 1252.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -75,7 +75,7 @@
 								"fileid": "1c",
 								"SSML": "Forces and Motion",
 								"cues": [],
-								"duration": 1175.0416666666667,
+								"duration": 1238.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -83,7 +83,7 @@
 								"fileid": "1d",
 								"SSML": "Plant Reproduction",
 								"cues": [],
-								"duration": 1173.0416666666667,
+								"duration": 1221.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -123,7 +123,7 @@
 								"fileid": "0",
 								"SSML": "Now select a target variable for the topic",
 								"cues": [],
-								"duration": 2573.8333333333335,
+								"duration": 2677.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -134,7 +134,7 @@
 								"fileid": "1a",
 								"SSML": "Crystal Growth",
 								"cues": [],
-								"duration": 972.6666666666666,
+								"duration": 948.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -142,7 +142,7 @@
 								"fileid": "1b",
 								"SSML": "Soda-Mint Reaction",
 								"cues": [],
-								"duration": 1411.2916666666667,
+								"duration": 1452.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -150,7 +150,7 @@
 								"fileid": "1c",
 								"SSML": "Melting of Ice",
 								"cues": [],
-								"duration": 1074.9583333333333,
+								"duration": 1110.9583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -158,7 +158,7 @@
 								"fileid": "1d",
 								"SSML": "Temperature of a Gas",
 								"cues": [],
-								"duration": 1319.875,
+								"duration": 1386.9166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -166,7 +166,7 @@
 								"fileid": "1e",
 								"SSML": "Inclined Planes",
 								"cues": [],
-								"duration": 1230.3333333333333,
+								"duration": 1240.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -174,7 +174,7 @@
 								"fileid": "1f",
 								"SSML": "Sinking Objects",
 								"cues": [],
-								"duration": 1295.7083333333333,
+								"duration": 1329.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -182,7 +182,7 @@
 								"fileid": "1g",
 								"SSML": "Flower Reproduction",
 								"cues": [],
-								"duration": 1309.7916666666667,
+								"duration": 1383.4166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -190,7 +190,7 @@
 								"fileid": "1h",
 								"SSML": "Algae Reproduction",
 								"cues": [],
-								"duration": 1267,
+								"duration": 1371.5833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -230,7 +230,7 @@
 								"fileid": "0",
 								"SSML": "You may modify your selection before continuing. Otherwise select a section of the tutor you wish to start at, or click next to begin the tutor from the beginning.",
 								"cues": [],
-								"duration": 8447.791666666666,
+								"duration": 8568.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -263,7 +263,7 @@
 								"fileid": "0",
 								"SSML": "In this table, tap on the one variable that the question is testing in this experiment",
 								"cues": [],
-								"duration": 4580.125,
+								"duration": 4678.916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -292,7 +292,7 @@
 								"fileid": "0",
 								"SSML": "Actually, that is not the one variable that you are testing for this experiment. Please try again.",
 								"cues": [],
-								"duration": 5946.25,
+								"duration": 6027.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -321,7 +321,7 @@
 								"fileid": "0",
 								"SSML": "That's right! You correctly identified the one variable you are testing for this experiment.",
 								"cues": [],
-								"duration": 5144.583333333333,
+								"duration": 5317.916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -359,7 +359,7 @@
 								"fileid": "0",
 								"SSML": "Now choose the",
 								"cues": [],
-								"duration": 959.25,
+								"duration": 1091.7916666666667,
 								"trim": -20,
 								"volume": 1
 							}
@@ -370,7 +370,7 @@
 								"fileid": "1a",
 								"SSML": "Water Temperature",
 								"cues": [],
-								"duration": 1141.375,
+								"duration": 1233.3333333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -378,7 +378,7 @@
 								"fileid": "1b",
 								"SSML": "Type of Crystals",
 								"cues": [],
-								"duration": 1122.25,
+								"duration": 1164.5,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -386,7 +386,7 @@
 								"fileid": "1c",
 								"SSML": "Initial Amount of Crystals on String",
 								"cues": [],
-								"duration": 2100.625,
+								"duration": 2160.4583333333335,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -394,7 +394,7 @@
 								"fileid": "1d",
 								"SSML": "Type of String",
 								"cues": [],
-								"duration": 896.1666666666666,
+								"duration": 949.3333333333334,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -402,7 +402,7 @@
 								"fileid": "1e",
 								"SSML": "Type of Sweetener",
 								"cues": [],
-								"duration": 1032.5416666666667,
+								"duration": 1093.4166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -410,7 +410,7 @@
 								"fileid": "1f",
 								"SSML": "Amount of Caffeine",
 								"cues": [],
-								"duration": 1130,
+								"duration": 1188.0416666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -418,7 +418,7 @@
 								"fileid": "1g",
 								"SSML": "Texture of Mint",
 								"cues": [],
-								"duration": 1092.375,
+								"duration": 1092.2916666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -426,7 +426,7 @@
 								"fileid": "1h",
 								"SSML": "Amount of CO2",
 								"cues": [],
-								"duration": 1468.6666666666667,
+								"duration": 1414.4583333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -434,7 +434,7 @@
 								"fileid": "1i",
 								"SSML": "Initial Ice Temperature",
 								"cues": [],
-								"duration": 1523.7916666666667,
+								"duration": 1530.1666666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -442,7 +442,7 @@
 								"fileid": "1j",
 								"SSML": "Initial Water Temperature",
 								"cues": [],
-								"duration": 1588.0833333333333,
+								"duration": 1633.1666666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -450,7 +450,7 @@
 								"fileid": "1k",
 								"SSML": "Pattern on Glass",
 								"cues": [],
-								"duration": 1182.25,
+								"duration": 1264.125,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -458,7 +458,7 @@
 								"fileid": "1l",
 								"SSML": "Shape of Glass",
 								"cues": [],
-								"duration": 1055.0833333333333,
+								"duration": 1126.625,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -466,7 +466,7 @@
 								"fileid": "1m",
 								"SSML": "Balloon Color",
 								"cues": [],
-								"duration": 928.625,
+								"duration": 973.0416666666666,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -474,7 +474,7 @@
 								"fileid": "1n",
 								"SSML": "Amount of Sunlight",
 								"cues": [],
-								"duration": 1153,
+								"duration": 1199.875,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -482,7 +482,7 @@
 								"fileid": "1o",
 								"SSML": "Balloon Material",
 								"cues": [],
-								"duration": 1116.125,
+								"duration": 1175.5,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -490,7 +490,7 @@
 								"fileid": "1p",
 								"SSML": "Type of Chair",
 								"cues": [],
-								"duration": 860.8333333333334,
+								"duration": 900.2083333333334,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -498,7 +498,7 @@
 								"fileid": "1q",
 								"SSML": "Slope",
 								"cues": [],
-								"duration": 678,
+								"duration": 636.9166666666666,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -506,7 +506,7 @@
 								"fileid": "1r",
 								"SSML": "Color of the Ball",
 								"cues": [],
-								"duration": 927.2916666666666,
+								"duration": 983.1666666666666,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -514,7 +514,7 @@
 								"fileid": "1s",
 								"SSML": "Starting Position",
 								"cues": [],
-								"duration": 1158.5833333333333,
+								"duration": 1207.5416666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -522,7 +522,7 @@
 								"fileid": "1t",
 								"SSML": "Ramp Surface",
 								"cues": [],
-								"duration": 1070.125,
+								"duration": 1150.5,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -530,7 +530,7 @@
 								"fileid": "1u",
 								"SSML": "Density of Water",
 								"cues": [],
-								"duration": 1095.5416666666667,
+								"duration": 1118.625,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -538,7 +538,7 @@
 								"fileid": "1v",
 								"SSML": "Shape of Object",
 								"cues": [],
-								"duration": 1164.2916666666667,
+								"duration": 1202,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -546,7 +546,7 @@
 								"fileid": "1w",
 								"SSML": "Volume of Object",
 								"cues": [],
-								"duration": 1317,
+								"duration": 1302.5833333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -554,7 +554,7 @@
 								"fileid": "1x",
 								"SSML": "Density of Object",
 								"cues": [],
-								"duration": 1300.4166666666667,
+								"duration": 1320.9166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -562,7 +562,7 @@
 								"fileid": "1y",
 								"SSML": "Number of Bees",
 								"cues": [],
-								"duration": 975.7083333333334,
+								"duration": 1068.5,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -570,7 +570,7 @@
 								"fileid": "1z",
 								"SSML": "Amount of Sunlight",
 								"cues": [],
-								"duration": 1153,
+								"duration": 1199.875,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -578,7 +578,7 @@
 								"fileid": "1Ba",
 								"SSML": "Amount of Fertilizer",
 								"cues": [],
-								"duration": 1323.75,
+								"duration": 1360.4583333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -586,7 +586,7 @@
 								"fileid": "1Bb",
 								"SSML": "Type of Water",
 								"cues": [],
-								"duration": 870.375,
+								"duration": 936.5,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -594,7 +594,7 @@
 								"fileid": "1Bc",
 								"SSML": "Water Temperature",
 								"cues": [],
-								"duration": 1141.375,
+								"duration": 1233.3333333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -602,7 +602,7 @@
 								"fileid": "1Bd",
 								"SSML": "Amount of Music",
 								"cues": [],
-								"duration": 1115.0833333333333,
+								"duration": 1146.9583333333333,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -610,7 +610,7 @@
 								"fileid": "1Be",
 								"SSML": "CO2 in Water",
 								"cues": [],
-								"duration": 1706.75,
+								"duration": 1590.5,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -618,7 +618,7 @@
 								"fileid": "1Bf",
 								"SSML": "Sunlight Exposure",
 								"cues": [],
-								"duration": 1327.75,
+								"duration": 1343.0416666666667,
 								"trim": 0,
 								"volume": 0.7
 							}
@@ -629,7 +629,7 @@
 								"fileid": "2",
 								"SSML": "for each condition that will allow you to see if the,",
 								"cues": [],
-								"duration": 2428.8333333333335,
+								"duration": 2531.8333333333335,
 								"trim": -20,
 								"volume": 1
 							}
@@ -899,7 +899,7 @@
 								"fileid": "4",
 								"SSML": "affects the,",
 								"cues": [],
-								"duration": 822.375,
+								"duration": 843.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -910,7 +910,7 @@
 								"fileid": "5a",
 								"SSML": "weight of the crystal growth on the string after two weeks.",
 								"cues": [],
-								"duration": 2928,
+								"duration": 3006.6666666666665,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -918,7 +918,7 @@
 								"fileid": "5b",
 								"SSML": "height of the soda geyser",
 								"cues": [],
-								"duration": 1386.7916666666667,
+								"duration": 1450.9166666666667,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -926,7 +926,7 @@
 								"fileid": "5c",
 								"SSML": "time it takes for the ice cube to melt in water",
 								"cues": [],
-								"duration": 2654.1666666666665,
+								"duration": 2666.25,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -934,7 +934,7 @@
 								"fileid": "5d",
 								"SSML": "gas temperature within balloon after 30 minutes",
 								"cues": [],
-								"duration": 2884.7083333333335,
+								"duration": 2941.4583333333335,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -942,7 +942,7 @@
 								"fileid": "5e",
 								"SSML": "speed of the ball at the bottom of the ramp",
 								"cues": [],
-								"duration": 2082.2916666666665,
+								"duration": 2216.4583333333335,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -950,7 +950,7 @@
 								"fileid": "5f",
 								"SSML": "time it takes for objects to sink in water",
 								"cues": [],
-								"duration": 2370.625,
+								"duration": 2527.875,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -958,7 +958,7 @@
 								"fileid": "5g",
 								"SSML": "number of seeds produced by the flowers at the end of the season",
 								"cues": [],
-								"duration": 3232.875,
+								"duration": 3268.1666666666665,
 								"trim": 0,
 								"volume": 0.7
 							},
@@ -966,7 +966,7 @@
 								"fileid": "5h",
 								"SSML": "weight of the algae produced after one week",
 								"cues": [],
-								"duration": 2413.375,
+								"duration": 2450.75,
 								"trim": 0,
 								"volume": 0.7
 							}
@@ -1045,7 +1045,7 @@
 								"fileid": "0",
 								"SSML": "Actually, that is incorrect. Please try again.",
 								"cues": [],
-								"duration": 3280.875,
+								"duration": 3387.7083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1074,7 +1074,7 @@
 								"fileid": "0",
 								"SSML": "You're right! The variable that you're testing should be different for each condition. If the variable is different, you can compare and contrast the effects of the variable.",
 								"cues": [],
-								"duration": 8865.5,
+								"duration": 9261.333333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1115,7 +1115,7 @@
 								"fileid": "0",
 								"SSML": "Now you must decide how to set up the other variables in this experiment. Let's start with the",
 								"cues": [],
-								"duration": 5668.166666666667,
+								"duration": 5920.666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1385,7 +1385,7 @@
 								"fileid": "2",
 								"SSML": ". which values would you use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 3771.4583333333335,
+								"duration": 3891.7083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1655,7 +1655,7 @@
 								"fileid": "4",
 								"SSML": "and only the",
 								"cues": [],
-								"duration": 774.2083333333334,
+								"duration": 785.2916666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -1925,7 +1925,7 @@
 								"fileid": "6",
 								"SSML": "has an effect on the",
 								"cues": [],
-								"duration": 1190.25,
+								"duration": 1279.7083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2119,7 +2119,7 @@
 								"fileid": "0",
 								"SSML": "Now select which",
 								"cues": [],
-								"duration": 1250.2083333333333,
+								"duration": 1366.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2389,7 +2389,7 @@
 								"fileid": "2",
 								"SSML": "you would use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 3122.6666666666665,
+								"duration": 3250.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2659,7 +2659,7 @@
 								"fileid": "4",
 								"SSML": "and only the",
 								"cues": [],
-								"duration": 774.2083333333334,
+								"duration": 785.2916666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -2929,7 +2929,7 @@
 								"fileid": "6",
 								"SSML": "has an effect on the",
 								"cues": [],
-								"duration": 1190.25,
+								"duration": 1279.7083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3123,7 +3123,7 @@
 								"fileid": "0",
 								"SSML": "Finally select which",
 								"cues": [],
-								"duration": 1454.7083333333333,
+								"duration": 1490.9583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3393,7 +3393,7 @@
 								"fileid": "2",
 								"SSML": "you would use for each condition in order to find out whether the",
 								"cues": [],
-								"duration": 3122.6666666666665,
+								"duration": 3250.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3663,7 +3663,7 @@
 								"fileid": "4",
 								"SSML": "and only the",
 								"cues": [],
-								"duration": 774.2083333333334,
+								"duration": 785.2916666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -3933,7 +3933,7 @@
 								"fileid": "6",
 								"SSML": "has an effect on the",
 								"cues": [],
-								"duration": 1190.25,
+								"duration": 1279.7083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4115,7 +4115,7 @@
 								"fileid": "0",
 								"SSML": "Actually, anything you're not testing should be kept the same between the two conditions. Please correct the experiment.",
 								"cues": [],
-								"duration": 6925.625,
+								"duration": 6907.833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4144,7 +4144,7 @@
 								"fileid": "0",
 								"SSML": "<emphasis level='strong'>You're right!</emphasis> Anything you're not testing should be kept the same between the two conditions.",
 								"cues": [],
-								"duration": 4799.625,
+								"duration": 4990.833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4184,7 +4184,7 @@
 								"fileid": "0",
 								"SSML": "You have set up a good experiment to find out whether the",
 								"cues": [],
-								"duration": 2908.875,
+								"duration": 2950.625,
 								"trim": 20,
 								"volume": 1
 							}
@@ -4454,7 +4454,7 @@
 								"fileid": "2",
 								"SSML": "affects the",
 								"cues": [],
-								"duration": 822.375,
+								"duration": 839.7083333333334,
 								"trim": 20,
 								"volume": 1
 							}
@@ -4601,10 +4601,10 @@
 									{
 										"name": "a",
 										"offset": 0.5714285714285714,
-										"relTime": 1947.3809523809523
+										"relTime": 2019.0238095238094
 									}
 								],
-								"duration": 3407.9166666666665,
+								"duration": 3533.2916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4641,20 +4641,20 @@
 									{
 										"name": "a",
 										"offset": 0.4383561643835616,
-										"relTime": 2024.7853881278538
+										"relTime": 2048.2374429223746
 									},
 									{
 										"name": "b",
 										"offset": 0.5753424657534246,
-										"relTime": 2657.530821917808
+										"relTime": 2688.3116438356165
 									},
 									{
 										"name": "c",
 										"offset": 0.6986301369863014,
-										"relTime": 3227.0017123287676
+										"relTime": 3264.3784246575347
 									}
 								],
-								"duration": 4619.041666666667,
+								"duration": 4672.541666666667,
 								"trim": 20,
 								"volume": 1
 							}
@@ -4924,7 +4924,7 @@
 								"fileid": "2",
 								"SSML": "can cause any difference you find in the result.",
 								"cues": [],
-								"duration": 2451.375,
+								"duration": 2462.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -4999,7 +4999,7 @@
 								"fileid": "0a",
 								"SSML": "Now we’ll look at how some other students have set up some experiments of their own for the topic of",
 								"cues": [],
-								"duration": 4775.541666666667,
+								"duration": 4927.666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5114,7 +5114,7 @@
 								"fileid": "0",
 								"SSML": "Remember to THINK and work carefully so that TED can tell whether or not you need extra help. If you answer quickly and incorrectly, you will be asked more questions than if you answer carefully and correctly.",
 								"cues": [],
-								"duration": 10970.375,
+								"duration": 11391.958333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5148,7 +5148,7 @@
 								"fileid": "0a",
 								"SSML": "Each experiment set up by some other students might either be a good or a bad experiment.",
 								"cues": [],
-								"duration": 4767.833333333333,
+								"duration": 4900.541666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5186,7 +5186,7 @@
 								"fileid": "0a",
 								"SSML": "A 'good' experiment will let you figure out if the variable you are testing really does or really does not make a difference. We will ask you if you think each experiment is a good or bad experiment.",
 								"cues": [],
-								"duration": 10461.75,
+								"duration": 10880.166666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5223,7 +5223,7 @@
 								"fileid": "0a",
 								"SSML": "In the first experiment, Some students need to find out whether the",
 								"cues": [],
-								"duration": 3523.5833333333335,
+								"duration": 3605.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5234,7 +5234,7 @@
 								"fileid": "1a",
 								"SSML": "water temperature",
 								"cues": [],
-								"duration": 1141.375,
+								"duration": 1233.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5242,7 +5242,7 @@
 								"fileid": "1b",
 								"SSML": "type of crystal",
 								"cues": [],
-								"duration": 995.25,
+								"duration": 1018.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5250,7 +5250,7 @@
 								"fileid": "1c",
 								"SSML": "initial amount of crystals on the string",
 								"cues": [],
-								"duration": 2156.7916666666665,
+								"duration": 2170.9166666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5258,7 +5258,7 @@
 								"fileid": "1d",
 								"SSML": "type of string",
 								"cues": [],
-								"duration": 896.1666666666666,
+								"duration": 949.3333333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5266,7 +5266,7 @@
 								"fileid": "1e",
 								"SSML": "type of sweetener in the soda",
 								"cues": [],
-								"duration": 1627.5,
+								"duration": 1707.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5274,7 +5274,7 @@
 								"fileid": "1f",
 								"SSML": "amount of caffeine in the soda",
 								"cues": [],
-								"duration": 1711.7083333333333,
+								"duration": 1766.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5282,7 +5282,7 @@
 								"fileid": "1g",
 								"SSML": "surface texture of the mint",
 								"cues": [],
-								"duration": 1681.5,
+								"duration": 1669.6666666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5290,7 +5290,7 @@
 								"fileid": "1h",
 								"SSML": "amount of carbon dioxide in the soda",
 								"cues": [],
-								"duration": 2264.0416666666665,
+								"duration": 2358.5833333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5298,7 +5298,7 @@
 								"fileid": "1i",
 								"SSML": "initial temperature of the ice cube",
 								"cues": [],
-								"duration": 1970.3333333333333,
+								"duration": 2002.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5306,7 +5306,7 @@
 								"fileid": "1j",
 								"SSML": "initial temperature of the water",
 								"cues": [],
-								"duration": 1700.0416666666667,
+								"duration": 1788.8333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5314,7 +5314,7 @@
 								"fileid": "1k",
 								"SSML": "pattern on the glass",
 								"cues": [],
-								"duration": 1215,
+								"duration": 1260.5416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5322,7 +5322,7 @@
 								"fileid": "1l",
 								"SSML": "shape of the glass",
 								"cues": [],
-								"duration": 1120.375,
+								"duration": 1188.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5330,7 +5330,7 @@
 								"fileid": "1m",
 								"SSML": "color of the balloon",
 								"cues": [],
-								"duration": 1014.2916666666666,
+								"duration": 1080.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5338,7 +5338,7 @@
 								"fileid": "1n",
 								"SSML": "amount of sunlight exposure the balloon gets",
 								"cues": [],
-								"duration": 2590.9166666666665,
+								"duration": 2673.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5346,7 +5346,7 @@
 								"fileid": "1o",
 								"SSML": "material the balloon is made of",
 								"cues": [],
-								"duration": 1792.2916666666667,
+								"duration": 1845.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5354,7 +5354,7 @@
 								"fileid": "1p",
 								"SSML": "type of chair the balloon is tied to",
 								"cues": [],
-								"duration": 2024.0416666666667,
+								"duration": 2168.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5362,7 +5362,7 @@
 								"fileid": "1q",
 								"SSML": "slope of the ramp",
 								"cues": [],
-								"duration": 1107.4583333333333,
+								"duration": 1123.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5370,7 +5370,7 @@
 								"fileid": "1r",
 								"SSML": "color of the ball",
 								"cues": [],
-								"duration": 927.2916666666666,
+								"duration": 983.1666666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5378,7 +5378,7 @@
 								"fileid": "1s",
 								"SSML": "starting position of the ball",
 								"cues": [],
-								"duration": 1586.7083333333333,
+								"duration": 1619.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5386,7 +5386,7 @@
 								"fileid": "1t",
 								"SSML": "surface texture of the ramp",
 								"cues": [],
-								"duration": 1698.3333333333333,
+								"duration": 1668.2083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5394,7 +5394,7 @@
 								"fileid": "1u",
 								"SSML": "density of water",
 								"cues": [],
-								"duration": 1095.5416666666667,
+								"duration": 1118.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5402,7 +5402,7 @@
 								"fileid": "1v",
 								"SSML": "shape of the object",
 								"cues": [],
-								"duration": 1263.6666666666667,
+								"duration": 1282.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5410,7 +5410,7 @@
 								"fileid": "1w",
 								"SSML": "volume of the object",
 								"cues": [],
-								"duration": 1457,
+								"duration": 1386.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5418,7 +5418,7 @@
 								"fileid": "1x",
 								"SSML": "density of the object",
 								"cues": [],
-								"duration": 1448.875,
+								"duration": 1416.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5426,7 +5426,7 @@
 								"fileid": "1y",
 								"SSML": "number of honey bees in the greenhouse",
 								"cues": [],
-								"duration": 2127.4583333333335,
+								"duration": 2152.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5434,7 +5434,7 @@
 								"fileid": "1z",
 								"SSML": "amount of sunlight the greenhouse lets in",
 								"cues": [],
-								"duration": 2308.75,
+								"duration": 2384.5416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5442,7 +5442,7 @@
 								"fileid": "1Ba",
 								"SSML": "amount of fertilizer",
 								"cues": [],
-								"duration": 1323.75,
+								"duration": 1360.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5450,7 +5450,7 @@
 								"fileid": "1Bb",
 								"SSML": "type of water",
 								"cues": [],
-								"duration": 870.375,
+								"duration": 936.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5458,7 +5458,7 @@
 								"fileid": "1Bc",
 								"SSML": "temperature of the water",
 								"cues": [],
-								"duration": 1260,
+								"duration": 1338.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5466,7 +5466,7 @@
 								"fileid": "1Bd",
 								"SSML": "exposure to music",
 								"cues": [],
-								"duration": 1389.5,
+								"duration": 1416.7083333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5474,7 +5474,7 @@
 								"fileid": "1Be",
 								"SSML": "amount of carbon dioxide in the water",
 								"cues": [],
-								"duration": 2250.7916666666665,
+								"duration": 2344.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5482,7 +5482,7 @@
 								"fileid": "1Bf",
 								"SSML": "amount of direct sunlight exposure",
 								"cues": [],
-								"duration": 2212.7083333333335,
+								"duration": 2182.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5493,7 +5493,7 @@
 								"fileid": "2a",
 								"SSML": "affects the weight of the crystal growth on a string after two weeks?",
 								"cues": [],
-								"duration": 3294.0833333333335,
+								"duration": 3386.2916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5501,7 +5501,7 @@
 								"fileid": "2b",
 								"SSML": "affects the height of the soda geyser?",
 								"cues": [],
-								"duration": 1857.25,
+								"duration": 1897.4583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5509,7 +5509,7 @@
 								"fileid": "2c",
 								"SSML": "affects the time it takes for the ice cube to melt in water?",
 								"cues": [],
-								"duration": 2981.2083333333335,
+								"duration": 3038.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5517,7 +5517,7 @@
 								"fileid": "2d",
 								"SSML": "affects the gas temperature within balloon after 30 minutes?",
 								"cues": [],
-								"duration": 3226.5416666666665,
+								"duration": 3324.2916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5525,7 +5525,7 @@
 								"fileid": "2e",
 								"SSML": "affects the speed of the ball at the bottom of the ramp?",
 								"cues": [],
-								"duration": 2491.4583333333335,
+								"duration": 2571.2916666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5533,7 +5533,7 @@
 								"fileid": "2f",
 								"SSML": "affects the time it takes for objects to sink in water?",
 								"cues": [],
-								"duration": 2807.2083333333335,
+								"duration": 2905.6666666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5541,7 +5541,7 @@
 								"fileid": "2g",
 								"SSML": "affects the number of seeds produced by flowers at the end of the season?",
 								"cues": [],
-								"duration": 3546.125,
+								"duration": 3558.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -5549,7 +5549,7 @@
 								"fileid": "2h",
 								"SSML": "affects the weight of the algae produced after one week?",
 								"cues": [],
-								"duration": 2777.5,
+								"duration": 2812.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5560,7 +5560,7 @@
 								"fileid": "3a",
 								"SSML": "They designed the following experiment",
 								"cues": [],
-								"duration": 1996.2083333333333,
+								"duration": 2032.3333333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -5650,7 +5650,7 @@
 								"fileid": "0a",
 								"SSML": "Another group of students need to find out whether the",
 								"cues": [],
-								"duration": 2703.5,
+								"duration": 2763.7083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -6081,7 +6081,7 @@
 								"fileid": "0",
 								"SSML": "The",
 								"cues": [],
-								"duration": 343.5833333333333,
+								"duration": 356.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -6351,7 +6351,7 @@
 								"fileid": "2",
 								"SSML": "for condition one is",
 								"cues": [],
-								"duration": 1285.3333333333333,
+								"duration": 1316.0416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -6362,7 +6362,7 @@
 								"fileid": "3a",
 								"SSML": "Room temperature",
 								"cues": [],
-								"duration": 1082.9583333333333,
+								"duration": 1220.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6370,7 +6370,7 @@
 								"fileid": "3b",
 								"SSML": "Hot",
 								"cues": [],
-								"duration": 540.375,
+								"duration": 553.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6378,7 +6378,7 @@
 								"fileid": "3c",
 								"SSML": "Salt",
 								"cues": [],
-								"duration": 695.375,
+								"duration": 638.9583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6386,7 +6386,7 @@
 								"fileid": "3d",
 								"SSML": "Brown Sugar",
 								"cues": [],
-								"duration": 892.5833333333334,
+								"duration": 919.7916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6394,7 +6394,7 @@
 								"fileid": "3e",
 								"SSML": "A little",
 								"cues": [],
-								"duration": 559.2083333333334,
+								"duration": 617.2083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6402,7 +6402,7 @@
 								"fileid": "3f",
 								"SSML": "None",
 								"cues": [],
-								"duration": 495.7083333333333,
+								"duration": 515.9166666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6410,7 +6410,7 @@
 								"fileid": "3g",
 								"SSML": "Twine",
 								"cues": [],
-								"duration": 553.7916666666666,
+								"duration": 552.9583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6418,7 +6418,7 @@
 								"fileid": "3h",
 								"SSML": "Yarn",
 								"cues": [],
-								"duration": 601.875,
+								"duration": 543.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6426,7 +6426,7 @@
 								"fileid": "3i",
 								"SSML": "Sugar",
 								"cues": [],
-								"duration": 573.7916666666666,
+								"duration": 603.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6434,7 +6434,7 @@
 								"fileid": "3j",
 								"SSML": "Aspartame",
 								"cues": [],
-								"duration": 840.4166666666666,
+								"duration": 829.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6442,7 +6442,7 @@
 								"fileid": "3k",
 								"SSML": "Some",
 								"cues": [],
-								"duration": 578.9583333333334,
+								"duration": 563.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6450,7 +6450,7 @@
 								"fileid": "3l",
 								"SSML": "None",
 								"cues": [],
-								"duration": 495.7083333333333,
+								"duration": 515.9166666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6458,7 +6458,7 @@
 								"fileid": "3m",
 								"SSML": "Smooth",
 								"cues": [],
-								"duration": 731,
+								"duration": 690,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6466,7 +6466,7 @@
 								"fileid": "3n",
 								"SSML": "Rough",
 								"cues": [],
-								"duration": 533.5416666666666,
+								"duration": 577,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6474,7 +6474,7 @@
 								"fileid": "3o",
 								"SSML": "High",
 								"cues": [],
-								"duration": 486.875,
+								"duration": 523,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6482,7 +6482,7 @@
 								"fileid": "3p",
 								"SSML": "Low",
 								"cues": [],
-								"duration": 425.375,
+								"duration": 522.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6490,7 +6490,7 @@
 								"fileid": "3q",
 								"SSML": "0 degrees",
 								"cues": [],
-								"duration": 1073.5,
+								"duration": 1189.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6498,7 +6498,7 @@
 								"fileid": "3r",
 								"SSML": "-20 degrees",
 								"cues": [],
-								"duration": 1392.7083333333333,
+								"duration": 1502.5,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6506,7 +6506,7 @@
 								"fileid": "3s",
 								"SSML": "Cold",
 								"cues": [],
-								"duration": 544.9583333333334,
+								"duration": 549.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6514,7 +6514,7 @@
 								"fileid": "3t",
 								"SSML": "Hot",
 								"cues": [],
-								"duration": 540.375,
+								"duration": 553.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6522,7 +6522,7 @@
 								"fileid": "3u",
 								"SSML": "Striped",
 								"cues": [],
-								"duration": 752.2916666666666,
+								"duration": 782.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6530,7 +6530,7 @@
 								"fileid": "3v",
 								"SSML": "Plain",
 								"cues": [],
-								"duration": 494.0833333333333,
+								"duration": 497.7916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6538,7 +6538,7 @@
 								"fileid": "3w",
 								"SSML": "Short",
 								"cues": [],
-								"duration": 663.2083333333334,
+								"duration": 639.2083333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6546,7 +6546,7 @@
 								"fileid": "3x",
 								"SSML": "Tall",
 								"cues": [],
-								"duration": 500.25,
+								"duration": 481.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6554,7 +6554,7 @@
 								"fileid": "3y",
 								"SSML": "Gray",
 								"cues": [],
-								"duration": 436.6666666666667,
+								"duration": 459.5833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6562,7 +6562,7 @@
 								"fileid": "3z",
 								"SSML": "Black",
 								"cues": [],
-								"duration": 550.7916666666666,
+								"duration": 523.375,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6570,7 +6570,7 @@
 								"fileid": "3Ba",
 								"SSML": "Full Sun",
 								"cues": [],
-								"duration": 791.1666666666666,
+								"duration": 790.125,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6578,7 +6578,7 @@
 								"fileid": "3Bb",
 								"SSML": "Partial Shade",
 								"cues": [],
-								"duration": 947.5,
+								"duration": 977.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6586,7 +6586,7 @@
 								"fileid": "3Bc",
 								"SSML": "Latex",
 								"cues": [],
-								"duration": 824.125,
+								"duration": 867.5833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6594,7 +6594,7 @@
 								"fileid": "3Bd",
 								"SSML": "Foil",
 								"cues": [],
-								"duration": 592.0833333333334,
+								"duration": 564.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6602,7 +6602,7 @@
 								"fileid": "3Be",
 								"SSML": "Wooden Chair",
 								"cues": [],
-								"duration": 821.2916666666666,
+								"duration": 903.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6610,7 +6610,7 @@
 								"fileid": "3Bf",
 								"SSML": "Canvas Chair",
 								"cues": [],
-								"duration": 960.9166666666666,
+								"duration": 939.7916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6618,7 +6618,7 @@
 								"fileid": "3Bg",
 								"SSML": "Not Steep",
 								"cues": [],
-								"duration": 799.3333333333334,
+								"duration": 888,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6626,7 +6626,7 @@
 								"fileid": "3Bh",
 								"SSML": "Steep",
 								"cues": [],
-								"duration": 649.3333333333334,
+								"duration": 636.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6634,7 +6634,7 @@
 								"fileid": "3Bi",
 								"SSML": "Yellow",
 								"cues": [],
-								"duration": 580.7083333333334,
+								"duration": 592.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6642,7 +6642,7 @@
 								"fileid": "3Bj",
 								"SSML": "Pink",
 								"cues": [],
-								"duration": 543.125,
+								"duration": 535.2916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6650,7 +6650,7 @@
 								"fileid": "3Bk",
 								"SSML": "Middle",
 								"cues": [],
-								"duration": 466.875,
+								"duration": 490.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6658,7 +6658,7 @@
 								"fileid": "3Bl",
 								"SSML": "Top",
 								"cues": [],
-								"duration": 509.125,
+								"duration": 503.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6666,7 +6666,7 @@
 								"fileid": "3Bm",
 								"SSML": "Rough",
 								"cues": [],
-								"duration": 533.5416666666666,
+								"duration": 577,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6674,7 +6674,7 @@
 								"fileid": "3Bn",
 								"SSML": "Smooth",
 								"cues": [],
-								"duration": 731,
+								"duration": 690,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6682,7 +6682,7 @@
 								"fileid": "3Bo",
 								"SSML": "Low",
 								"cues": [],
-								"duration": 425.375,
+								"duration": 522.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6690,7 +6690,7 @@
 								"fileid": "3Bp",
 								"SSML": "High",
 								"cues": [],
-								"duration": 486.875,
+								"duration": 523,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6698,7 +6698,7 @@
 								"fileid": "3Bq",
 								"SSML": "Sphere",
 								"cues": [],
-								"duration": 648.2083333333334,
+								"duration": 642.4583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6706,7 +6706,7 @@
 								"fileid": "3Br",
 								"SSML": "Tear shaped",
 								"cues": [],
-								"duration": 938.5833333333334,
+								"duration": 941.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6714,7 +6714,7 @@
 								"fileid": "3Bs",
 								"SSML": "Small",
 								"cues": [],
-								"duration": 651.0833333333334,
+								"duration": 626.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6722,7 +6722,7 @@
 								"fileid": "3Bt",
 								"SSML": "Large",
 								"cues": [],
-								"duration": 700.0833333333334,
+								"duration": 668.4583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6730,7 +6730,7 @@
 								"fileid": "3Bu",
 								"SSML": "High",
 								"cues": [],
-								"duration": 486.875,
+								"duration": 523,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6738,7 +6738,7 @@
 								"fileid": "3Bv",
 								"SSML": "Low",
 								"cues": [],
-								"duration": 425.375,
+								"duration": 522.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6746,7 +6746,7 @@
 								"fileid": "3Bw",
 								"SSML": "Zero",
 								"cues": [],
-								"duration": 594.0833333333334,
+								"duration": 630.4583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6754,7 +6754,7 @@
 								"fileid": "3Bx",
 								"SSML": "Whole Hive",
 								"cues": [],
-								"duration": 812.25,
+								"duration": 931.2916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6762,7 +6762,7 @@
 								"fileid": "3By",
 								"SSML": "Full sunlight",
 								"cues": [],
-								"duration": 1001.3333333333334,
+								"duration": 1058.9583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6770,7 +6770,7 @@
 								"fileid": "3Bz",
 								"SSML": "Partial sunlight",
 								"cues": [],
-								"duration": 1105.2083333333333,
+								"duration": 1173.4166666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6778,7 +6778,7 @@
 								"fileid": "3Ca",
 								"SSML": "None",
 								"cues": [],
-								"duration": 495.7083333333333,
+								"duration": 515.9166666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6786,7 +6786,7 @@
 								"fileid": "3Cb",
 								"SSML": "Some",
 								"cues": [],
-								"duration": 578.9583333333334,
+								"duration": 563.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6794,7 +6794,7 @@
 								"fileid": "3Cc",
 								"SSML": "Rain Water",
 								"cues": [],
-								"duration": 815.2083333333334,
+								"duration": 938.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6802,7 +6802,7 @@
 								"fileid": "3Cd",
 								"SSML": "Tap Water",
 								"cues": [],
-								"duration": 832.2916666666666,
+								"duration": 858.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6810,7 +6810,7 @@
 								"fileid": "3Ce",
 								"SSML": "Room Temperature",
 								"cues": [],
-								"duration": 1082.9583333333333,
+								"duration": 1220.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6818,7 +6818,7 @@
 								"fileid": "3Cf",
 								"SSML": "Warm",
 								"cues": [],
-								"duration": 517.0833333333334,
+								"duration": 548.1666666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6826,7 +6826,7 @@
 								"fileid": "3Cg",
 								"SSML": "Constant Music",
 								"cues": [],
-								"duration": 1162.625,
+								"duration": 1174.9583333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6834,7 +6834,7 @@
 								"fileid": "3Ch",
 								"SSML": "No Music",
 								"cues": [],
-								"duration": 920.5833333333334,
+								"duration": 981.6666666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6842,7 +6842,7 @@
 								"fileid": "3Ci",
 								"SSML": "A Lot",
 								"cues": [],
-								"duration": 612.3333333333334,
+								"duration": 674.0833333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6850,7 +6850,7 @@
 								"fileid": "3Cj",
 								"SSML": "None",
 								"cues": [],
-								"duration": 495.7083333333333,
+								"duration": 515.9166666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6858,7 +6858,7 @@
 								"fileid": "3Ck",
 								"SSML": "Some",
 								"cues": [],
-								"duration": 578.9583333333334,
+								"duration": 563.625,
 								"trim": 0,
 								"volume": 1
 							},
@@ -6866,7 +6866,7 @@
 								"fileid": "3Cl",
 								"SSML": "None",
 								"cues": [],
-								"duration": 495.7083333333333,
+								"duration": 515.9166666666666,
 								"trim": 0,
 								"volume": 1
 							}
@@ -7006,7 +7006,7 @@
 								"fileid": "0",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.3333333333333,
+								"duration": 452.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -7276,7 +7276,7 @@
 								"fileid": "2",
 								"SSML": "for condition two is",
 								"cues": [],
-								"duration": 1399.8333333333333,
+								"duration": 1389.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -7931,7 +7931,7 @@
 								"fileid": "0",
 								"SSML": "The",
 								"cues": [],
-								"duration": 343.5833333333333,
+								"duration": 356.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -8201,7 +8201,7 @@
 								"fileid": "2",
 								"SSML": "for condition one is",
 								"cues": [],
-								"duration": 1285.3333333333333,
+								"duration": 1316.0416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -8856,7 +8856,7 @@
 								"fileid": "0",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.3333333333333,
+								"duration": 452.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -9126,7 +9126,7 @@
 								"fileid": "2",
 								"SSML": "for condition two is",
 								"cues": [],
-								"duration": 1399.8333333333333,
+								"duration": 1389.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -9781,7 +9781,7 @@
 								"fileid": "0",
 								"SSML": "The",
 								"cues": [],
-								"duration": 343.5833333333333,
+								"duration": 356.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -10051,7 +10051,7 @@
 								"fileid": "2",
 								"SSML": "for condition one is",
 								"cues": [],
-								"duration": 1285.3333333333333,
+								"duration": 1316.0416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -10706,7 +10706,7 @@
 								"fileid": "0",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.3333333333333,
+								"duration": 452.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -10976,7 +10976,7 @@
 								"fileid": "2",
 								"SSML": "for condition two is",
 								"cues": [],
-								"duration": 1399.8333333333333,
+								"duration": 1389.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -11631,7 +11631,7 @@
 								"fileid": "0",
 								"SSML": "The",
 								"cues": [],
-								"duration": 343.5833333333333,
+								"duration": 356.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -11901,7 +11901,7 @@
 								"fileid": "2",
 								"SSML": "for condition one is",
 								"cues": [],
-								"duration": 1285.3333333333333,
+								"duration": 1316.0416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -12556,7 +12556,7 @@
 								"fileid": "0",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.3333333333333,
+								"duration": 452.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -12826,7 +12826,7 @@
 								"fileid": "2",
 								"SSML": "for condition two is",
 								"cues": [],
-								"duration": 1399.8333333333333,
+								"duration": 1389.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13480,10 +13480,10 @@
 									{
 										"name": "a",
 										"offset": 0.7391304347826086,
-										"relTime": 2525.947463768116
+										"relTime": 2596.3496376811595
 									}
 								],
-								"duration": 3417.4583333333335,
+								"duration": 3512.7083333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13557,7 +13557,7 @@
 								"fileid": "0a",
 								"SSML": "Is this a good way to design the experiment?",
 								"cues": [],
-								"duration": 2285.375,
+								"duration": 2361.5833333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13590,7 +13590,7 @@
 								"fileid": "0a",
 								"SSML": "Right, it is NOT a good experiment.",
 								"cues": [],
-								"duration": 2098.375,
+								"duration": 2229.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13623,7 +13623,7 @@
 								"fileid": "0a",
 								"SSML": "Actually, it is NOT a good experiment.",
 								"cues": [],
-								"duration": 2404.5416666666665,
+								"duration": 2445.4166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13693,7 +13693,7 @@
 								"fileid": "0a",
 								"SSML": "<p>Why did you say it was not a good way?</p>",
 								"cues": [],
-								"duration": 1899.875,
+								"duration": 2020.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13763,7 +13763,7 @@
 								"fileid": "0a",
 								"SSML": "<p>Even though you said it was a good experiment, select from the drop-down menu the best reason that explains why this is actually NOT a good experiment.</p>",
 								"cues": [],
-								"duration": 7670.625,
+								"duration": 7964.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13806,7 +13806,7 @@
 								"fileid": "0a",
 								"SSML": "If you were to run the experiment, the",
 								"cues": [],
-								"duration": 1966.5,
+								"duration": 2044.0416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13884,7 +13884,7 @@
 								"fileid": "2a",
 								"SSML": "may either be the same or different across conditions.",
 								"cues": [],
-								"duration": 2817.6666666666665,
+								"duration": 3075.0416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -13945,7 +13945,7 @@
 								"fileid": "0a",
 								"SSML": "Imagine the results ",
 								"cues": [],
-								"duration": 1313.5833333333333,
+								"duration": 1361.4166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14023,7 +14023,7 @@
 								"fileid": "2a",
 								"SSML": "were different across conditions, Could you tell for sure that the",
 								"cues": [],
-								"duration": 3139.75,
+								"duration": 3232.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14293,7 +14293,7 @@
 								"fileid": "4a",
 								"SSML": "caused the difference?",
 								"cues": [],
-								"duration": 1116,
+								"duration": 1150.1666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14390,7 +14390,7 @@
 								"fileid": "0a",
 								"SSML": "You're right, we could not tell for sure that the",
 								"cues": [],
-								"duration": 2288.7916666666665,
+								"duration": 2390.1666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14660,7 +14660,7 @@
 								"fileid": "2a",
 								"SSML": "caused the difference. That is, we could not tell for sure that one",
 								"cues": [],
-								"duration": 3703.375,
+								"duration": 3765.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14930,7 +14930,7 @@
 								"fileid": "4a",
 								"SSML": "caused a greater",
 								"cues": [],
-								"duration": 1009.5,
+								"duration": 1032.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -14941,7 +14941,7 @@
 								"fileid": "5a",
 								"SSML": "crystal weight",
 								"cues": [],
-								"duration": 922.2916666666666,
+								"duration": 926.9583333333334,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14949,7 +14949,7 @@
 								"fileid": "5b",
 								"SSML": "geyser height",
 								"cues": [],
-								"duration": 902.4166666666666,
+								"duration": 941.4166666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14957,7 +14957,7 @@
 								"fileid": "5c",
 								"SSML": "time to melt",
 								"cues": [],
-								"duration": 911.0833333333334,
+								"duration": 993.5416666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14965,7 +14965,7 @@
 								"fileid": "5d",
 								"SSML": "Gas temperature",
 								"cues": [],
-								"duration": 1115.25,
+								"duration": 1137.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14973,7 +14973,7 @@
 								"fileid": "5e",
 								"SSML": "Speed of the ball at the bottom of the ramp",
 								"cues": [],
-								"duration": 2112.75,
+								"duration": 2216.4583333333335,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14981,7 +14981,7 @@
 								"fileid": "5f",
 								"SSML": "time to sink",
 								"cues": [],
-								"duration": 933.5416666666666,
+								"duration": 953.7916666666666,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14989,7 +14989,7 @@
 								"fileid": "5g",
 								"SSML": "number of seeds",
 								"cues": [],
-								"duration": 1070.0416666666667,
+								"duration": 1111.0416666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -14997,7 +14997,7 @@
 								"fileid": "5h",
 								"SSML": "algae weight",
 								"cues": [],
-								"duration": 921.5833333333334,
+								"duration": 1015.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15008,7 +15008,7 @@
 								"fileid": "6a",
 								"SSML": "than the other",
 								"cues": [],
-								"duration": 736.625,
+								"duration": 740.0833333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15110,7 +15110,7 @@
 								"fileid": "0a",
 								"SSML": "Actually, we could not tell for sure that the",
 								"cues": [],
-								"duration": 2427.8333333333335,
+								"duration": 2449.0416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15380,7 +15380,7 @@
 								"fileid": "2a",
 								"SSML": "caused the difference. That is, we could not tell for sure that one",
 								"cues": [],
-								"duration": 3703.375,
+								"duration": 3765.8333333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15650,7 +15650,7 @@
 								"fileid": "4a",
 								"SSML": "caused a greater",
 								"cues": [],
-								"duration": 1009.5,
+								"duration": 1032.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15728,7 +15728,7 @@
 								"fileid": "6a",
 								"SSML": "than the other",
 								"cues": [],
-								"duration": 736.625,
+								"duration": 740.0833333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15824,7 +15824,7 @@
 								"fileid": "0a",
 								"SSML": "Why did you say you could not know for sure?",
 								"cues": [],
-								"duration": 2017.125,
+								"duration": 2168.0416666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15857,7 +15857,7 @@
 								"fileid": "0a",
 								"SSML": "Let's think more about why we could not tell for sure. We'll now think about how each variable is set up across conditions, to see if it could cause a difference in the results.",
 								"cues": [],
-								"duration": 9308,
+								"duration": 9620.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -15898,7 +15898,7 @@
 								"fileid": "0a",
 								"SSML": "Even though you said you could tell for sure, try and explain the best reason for why you actually could NOT tell for sure from this experiment that the",
 								"cues": [],
-								"duration": 7234.416666666667,
+								"duration": 7401.791666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -16225,7 +16225,7 @@
 								"fileid": "0a",
 								"SSML": "caused the difference.",
 								"cues": [],
-								"duration": 1175.2083333333333,
+								"duration": 1205.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -16301,7 +16301,7 @@
 								"fileid": "0a",
 								"SSML": "In this experiment, the students are testing for whether or not the",
 								"cues": [],
-								"duration": 3344.125,
+								"duration": 3524.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -16763,7 +16763,7 @@
 								"fileid": "2a",
 								"SSML": "makes a difference for the result.",
 								"cues": [],
-								"duration": 1653.5416666666667,
+								"duration": 1700.8333333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -16844,10 +16844,10 @@
 									{
 										"name": "a",
 										"offset": 0.2608695652173913,
-										"relTime": 165.3913043478261
+										"relTime": 170.59782608695653
 									}
 								],
-								"duration": 634,
+								"duration": 653.9583333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17123,7 +17123,7 @@
 										"relTime": 0
 									}
 								],
-								"duration": 3837.1666666666665,
+								"duration": 3945.75,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17204,20 +17204,20 @@
 									{
 										"name": "a",
 										"offset": 0.08695652173913043,
-										"relTime": 373.60507246376807
+										"relTime": 380.3369565217391
 									},
 									{
 										"name": "b",
 										"offset": 0.30434782608695654,
-										"relTime": 1307.6177536231885
+										"relTime": 1331.179347826087
 									},
 									{
 										"name": "c",
 										"offset": 0.5217391304347826,
-										"relTime": 2241.6304347826085
+										"relTime": 2282.0217391304345
 									}
 								],
-								"duration": 4296.458333333333,
+								"duration": 4373.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17295,7 +17295,7 @@
 								"fileid": "2a",
 								"SSML": "between conditions?",
 								"cues": [],
-								"duration": 1203.625,
+								"duration": 1211.5416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17350,10 +17350,10 @@
 									{
 										"name": "a",
 										"offset": 0.043478260869565216,
-										"relTime": 235.2626811594203
+										"relTime": 240.6376811594203
 									}
 								],
-								"duration": 5411.041666666667,
+								"duration": 5534.666666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17394,7 +17394,7 @@
 								"fileid": "0a",
 								"SSML": "They have set the",
 								"cues": [],
-								"duration": 895.75,
+								"duration": 935.875,
 								"trim": 0,
 								"volume": 1
 							},
@@ -17402,7 +17402,7 @@
 								"fileid": "0b",
 								"SSML": "They have set the",
 								"cues": [],
-								"duration": 895.75,
+								"duration": 935.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17672,7 +17672,7 @@
 								"fileid": "2a",
 								"SSML": "to be the same across conditions.",
 								"cues": [],
-								"duration": 1917.125,
+								"duration": 1930.75,
 								"trim": 0,
 								"volume": 1
 							},
@@ -17680,7 +17680,7 @@
 								"fileid": "2b",
 								"SSML": "to be different across conditions.",
 								"cues": [],
-								"duration": 1876,
+								"duration": 1935.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -17763,7 +17763,7 @@
 								"fileid": "0a",
 								"SSML": "You are correct that the same",
 								"cues": [],
-								"duration": 1461.4166666666667,
+								"duration": 1538.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -17771,7 +17771,7 @@
 								"fileid": "0b",
 								"SSML": "You are correct that the different",
 								"cues": [],
-								"duration": 1586.9583333333333,
+								"duration": 1719.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18041,7 +18041,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2607.7083333333335,
+								"duration": 2737.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -18049,7 +18049,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2421.3333333333335,
+								"duration": 2470.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18210,7 +18210,7 @@
 								"fileid": "0a",
 								"SSML": "Actually the same",
 								"cues": [],
-								"duration": 1258.625,
+								"duration": 1195.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -18218,7 +18218,7 @@
 								"fileid": "0b",
 								"SSML": "Actually the different",
 								"cues": [],
-								"duration": 1361.5,
+								"duration": 1357.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18488,7 +18488,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2607.7083333333335,
+								"duration": 2737.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -18496,7 +18496,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2421.3333333333335,
+								"duration": 2470.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18656,7 +18656,7 @@
 								"fileid": "0a",
 								"SSML": "The students made the",
 								"cues": [],
-								"duration": 1177.4583333333333,
+								"duration": 1214.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -18664,7 +18664,7 @@
 								"fileid": "0b",
 								"SSML": "The students made the",
 								"cues": [],
-								"duration": 1177.4583333333333,
+								"duration": 1214.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -18934,7 +18934,7 @@
 								"fileid": "2a",
 								"SSML": "the same across conditions.",
 								"cues": [],
-								"duration": 1687.0833333333333,
+								"duration": 1676.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -18942,7 +18942,7 @@
 								"fileid": "2b",
 								"SSML": "different across conditions.",
 								"cues": [],
-								"duration": 1629.5416666666667,
+								"duration": 1671.5833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19025,7 +19025,7 @@
 								"fileid": "0a",
 								"SSML": "You are correct that the same",
 								"cues": [],
-								"duration": 1461.4166666666667,
+								"duration": 1538.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19033,7 +19033,7 @@
 								"fileid": "0b",
 								"SSML": "You are correct that the different",
 								"cues": [],
-								"duration": 1586.9583333333333,
+								"duration": 1719.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19303,7 +19303,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2607.7083333333335,
+								"duration": 2737.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19311,7 +19311,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2421.3333333333335,
+								"duration": 2470.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19472,7 +19472,7 @@
 								"fileid": "0a",
 								"SSML": "Actually the same",
 								"cues": [],
-								"duration": 1258.625,
+								"duration": 1195.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19480,7 +19480,7 @@
 								"fileid": "0b",
 								"SSML": "Actually the different",
 								"cues": [],
-								"duration": 1361.5,
+								"duration": 1357.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19750,7 +19750,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2607.7083333333335,
+								"duration": 2737.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19758,7 +19758,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2421.3333333333335,
+								"duration": 2470.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -19918,7 +19918,7 @@
 								"fileid": "0a",
 								"SSML": "The students made the",
 								"cues": [],
-								"duration": 1177.4583333333333,
+								"duration": 1214.2916666666667,
 								"trim": 0,
 								"volume": 1
 							},
@@ -19926,7 +19926,7 @@
 								"fileid": "0b",
 								"SSML": "The students made the",
 								"cues": [],
-								"duration": 1177.4583333333333,
+								"duration": 1214.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -20196,7 +20196,7 @@
 								"fileid": "2a",
 								"SSML": "the same across conditions.",
 								"cues": [],
-								"duration": 1687.0833333333333,
+								"duration": 1676.25,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20204,7 +20204,7 @@
 								"fileid": "2b",
 								"SSML": "different across conditions.",
 								"cues": [],
-								"duration": 1629.5416666666667,
+								"duration": 1671.5833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -20287,7 +20287,7 @@
 								"fileid": "0a",
 								"SSML": "You are correct that the same",
 								"cues": [],
-								"duration": 1461.4166666666667,
+								"duration": 1538.3333333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20295,7 +20295,7 @@
 								"fileid": "0b",
 								"SSML": "You are correct that the different",
 								"cues": [],
-								"duration": 1586.9583333333333,
+								"duration": 1719.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -20565,7 +20565,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2607.7083333333335,
+								"duration": 2737.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20573,7 +20573,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2421.3333333333335,
+								"duration": 2470.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -20734,7 +20734,7 @@
 								"fileid": "0a",
 								"SSML": "Actually the same",
 								"cues": [],
-								"duration": 1258.625,
+								"duration": 1195.0833333333333,
 								"trim": 0,
 								"volume": 1
 							},
@@ -20742,7 +20742,7 @@
 								"fileid": "0b",
 								"SSML": "Actually the different",
 								"cues": [],
-								"duration": 1361.5,
+								"duration": 1357.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -21012,7 +21012,7 @@
 								"fileid": "2a",
 								"SSML": "across conditions could not cause a difference in the",
 								"cues": [],
-								"duration": 2607.7083333333335,
+								"duration": 2737.0416666666665,
 								"trim": 0,
 								"volume": 1
 							},
@@ -21020,7 +21020,7 @@
 								"fileid": "2b",
 								"SSML": "across conditions could cause a difference in the",
 								"cues": [],
-								"duration": 2421.3333333333335,
+								"duration": 2470.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -21176,7 +21176,7 @@
 								"fileid": "0a",
 								"SSML": "So, in this experiment, even though the students are testing the",
 								"cues": [],
-								"duration": 3425.75,
+								"duration": 3561.625,
 								"trim": 0,
 								"volume": 1
 							}
@@ -21507,7 +21507,7 @@
 								"fileid": "0a",
 								"SSML": "the",
 								"cues": [],
-								"duration": 347.125,
+								"duration": 356.2916666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -22172,7 +22172,7 @@
 								"fileid": "0a",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.3333333333333,
+								"duration": 452.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -22442,7 +22442,7 @@
 								"fileid": "2a",
 								"SSML": "all also could cause a difference in the",
 								"cues": [],
-								"duration": 2012.4583333333333,
+								"duration": 2146.9166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -22869,7 +22869,7 @@
 								"fileid": "2a",
 								"SSML": "also could cause a difference in the",
 								"cues": [],
-								"duration": 1795.7083333333333,
+								"duration": 1882,
 								"trim": 0,
 								"volume": 1
 							}
@@ -23032,7 +23032,7 @@
 								"fileid": "0a",
 								"SSML": "Please correct this experiment by clicking in the table and selecting correct ways to set up the",
 								"cues": [],
-								"duration": 4884.166666666667,
+								"duration": 4971.541666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -23561,7 +23561,7 @@
 								"fileid": "3a",
 								"SSML": "and the",
 								"cues": [],
-								"duration": 416.3333333333333,
+								"duration": 452.0833333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24293,7 +24293,7 @@
 								"fileid": "0a",
 								"SSML": "Click next when you've completed you're selections",
 								"cues": [],
-								"duration": 2468.1666666666665,
+								"duration": 2550.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24316,7 +24316,7 @@
 		"tracks": {
 			"track1": {
 				"en": {
-					"node": "Explain why this is a good way to...",
+					"node": "Explain why this is a good way to find out whether or not the ??? makes a difference.",
 					"html": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_S_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
 					"text": "{{$EFO_TED_E1_Q9|part1}}{{$EFO_S_A?_T?_V?|name|1}}{{$EFO_TED_E1_Q9|part2}}",
 					"templateRef": {
@@ -24335,7 +24335,7 @@
 								"fileid": "0a",
 								"SSML": "Explain why this is a good way to find out whether or not the",
 								"cues": [],
-								"duration": 3238.4166666666665,
+								"duration": 3385.9583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24605,7 +24605,7 @@
 								"fileid": "2a",
 								"SSML": "makes a difference.",
 								"cues": [],
-								"duration": 1088.2916666666667,
+								"duration": 1119.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24664,13 +24664,16 @@
 			"track2": {
 				"en": {
 					"node": "Summary - This is a good experiment, because everything...",
-					"html": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
-					"text": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
+					"html": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}.{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}},{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}},{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
+					"text": "{{$EFO_TED_E1_SUMMARY|part1}}{{$EFO_S_A?_T?_V?|name}}.{{$EFO_TED_E1_SUMMARY|part2}}{{$EFO_S_A?_T?|DVs}},{{$EFO_TED_E1_SUMMARY|part3}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part4}}{{$EFO_S_A?_T?|DVs}}{{$EFO_TED_E1_SUMMARY|part5}}{{$EFO_S_A?_T?_V?|name}},{{$EFO_TED_E1_SUMMARY|part6}}{{$EFO_S_A?_T?_V?|name}}{{$EFO_TED_E1_SUMMARY|part7}}",
 					"templateRef": {
 						"$EFO_S_A?_T?_V?|name": "$EFM_TEDExptVariable.ontologyKey",
 						"$EFO_S_A?_T?|DVs": "$EFM_TEDExptTopic.ontologyKey"
 					},
 					"volume": [
+						1,
+						1,
+						1,
 						1,
 						1,
 						1,
@@ -24693,7 +24696,7 @@
 								"fileid": "0a",
 								"SSML": "This is a good experiment, because everything is the same except for what the students are trying to find out about, the",
 								"cues": [],
-								"duration": 5809.75,
+								"duration": 5997,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24958,12 +24961,23 @@
 							}
 						},
 						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "2",
+								"SSML": ".",
+								"cues": [],
+								"duration": 492.5,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
 							"templateVar": "$EFO_TED_E1_SUMMARY|part2",
 							"TEDE1SUMMARYpart2": {
-								"fileid": "2a",
+								"fileid": "3a",
 								"SSML": "In other words, if there is a difference between conditions in the",
 								"cues": [],
-								"duration": 3229.5416666666665,
+								"duration": 3347.7916666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -24971,7 +24985,7 @@
 						{
 							"templateVar": "$EFO_S_A?_T?|DVs",
 							"SA1T1DVs": {
-								"fileid": "3a",
+								"fileid": "4a",
 								"SSML": "weight of the crystal growth on the string after two weeks.",
 								"cues": [],
 								"duration": 0,
@@ -24979,7 +24993,7 @@
 								"volume": 1
 							},
 							"SA1T2DVs": {
-								"fileid": "3b",
+								"fileid": "4b",
 								"SSML": "height of the soda geyser",
 								"cues": [],
 								"duration": 0,
@@ -24987,7 +25001,7 @@
 								"volume": 1
 							},
 							"SA2T1DVs": {
-								"fileid": "3c",
+								"fileid": "4c",
 								"SSML": "time it takes for the ice cube to melt in water",
 								"cues": [],
 								"duration": 0,
@@ -24995,7 +25009,7 @@
 								"volume": 1
 							},
 							"SA2T2DVs": {
-								"fileid": "3d",
+								"fileid": "4d",
 								"SSML": "gas temperature within balloon after 30 minutes",
 								"cues": [],
 								"duration": 0,
@@ -25003,7 +25017,7 @@
 								"volume": 1
 							},
 							"SA3T1DVs": {
-								"fileid": "3e",
+								"fileid": "4e",
 								"SSML": "speed of the ball at the bottom of the ramp",
 								"cues": [],
 								"duration": 0,
@@ -25011,7 +25025,7 @@
 								"volume": 1
 							},
 							"SA3T2DVs": {
-								"fileid": "3f",
+								"fileid": "4f",
 								"SSML": "time it takes for objects to sink in water",
 								"cues": [],
 								"duration": 0,
@@ -25019,7 +25033,7 @@
 								"volume": 1
 							},
 							"SA4T1DVs": {
-								"fileid": "3g",
+								"fileid": "4g",
 								"SSML": "number of seeds produced by the flowers at the end of the season",
 								"cues": [],
 								"duration": 0,
@@ -25027,7 +25041,7 @@
 								"volume": 1
 							},
 							"SA4T2DVs": {
-								"fileid": "3h",
+								"fileid": "4h",
 								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
@@ -25036,12 +25050,23 @@
 							}
 						},
 						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "5",
+								"SSML": ",",
+								"cues": [],
+								"duration": 462.125,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
 							"templateVar": "$EFO_TED_E1_SUMMARY|part3",
 							"TEDE1SUMMARYpart3": {
-								"fileid": "4a",
+								"fileid": "6a",
 								"SSML": "it has to be because of the different",
 								"cues": [],
-								"duration": 1781.9166666666667,
+								"duration": 1892.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25049,7 +25074,7 @@
 						{
 							"templateVar": "$EFO_S_A?_T?_V?|name",
 							"SA1T1V1name": {
-								"fileid": "5a",
+								"fileid": "7a",
 								"SSML": "Water Temperature",
 								"cues": [],
 								"duration": 0,
@@ -25057,7 +25082,7 @@
 								"volume": 1
 							},
 							"SA1T1V2name": {
-								"fileid": "5b",
+								"fileid": "7b",
 								"SSML": "Type of Crystals",
 								"cues": [],
 								"duration": 0,
@@ -25065,7 +25090,7 @@
 								"volume": 1
 							},
 							"SA1T1V3name": {
-								"fileid": "5c",
+								"fileid": "7c",
 								"SSML": "Initial Amount of Crystals on String",
 								"cues": [],
 								"duration": 0,
@@ -25073,7 +25098,7 @@
 								"volume": 1
 							},
 							"SA1T1V4name": {
-								"fileid": "5d",
+								"fileid": "7d",
 								"SSML": "Type of String",
 								"cues": [],
 								"duration": 0,
@@ -25081,7 +25106,7 @@
 								"volume": 1
 							},
 							"SA1T2V1name": {
-								"fileid": "5e",
+								"fileid": "7e",
 								"SSML": "Type of Sweetener",
 								"cues": [],
 								"duration": 0,
@@ -25089,7 +25114,7 @@
 								"volume": 1
 							},
 							"SA1T2V2name": {
-								"fileid": "5f",
+								"fileid": "7f",
 								"SSML": "Amount of Caffeine",
 								"cues": [],
 								"duration": 0,
@@ -25097,7 +25122,7 @@
 								"volume": 1
 							},
 							"SA1T2V3name": {
-								"fileid": "5g",
+								"fileid": "7g",
 								"SSML": "Texture of Mint",
 								"cues": [],
 								"duration": 0,
@@ -25105,7 +25130,7 @@
 								"volume": 1
 							},
 							"SA1T2V4name": {
-								"fileid": "5h",
+								"fileid": "7h",
 								"SSML": "Amount of CO2",
 								"cues": [],
 								"duration": 0,
@@ -25113,7 +25138,7 @@
 								"volume": 1
 							},
 							"SA2T1V1name": {
-								"fileid": "5i",
+								"fileid": "7i",
 								"SSML": "Initial Ice Temperature",
 								"cues": [],
 								"duration": 0,
@@ -25121,7 +25146,7 @@
 								"volume": 1
 							},
 							"SA2T1V2name": {
-								"fileid": "5j",
+								"fileid": "7j",
 								"SSML": "Initial Water Temperature",
 								"cues": [],
 								"duration": 0,
@@ -25129,7 +25154,7 @@
 								"volume": 1
 							},
 							"SA2T1V3name": {
-								"fileid": "5k",
+								"fileid": "7k",
 								"SSML": "Pattern on Glass",
 								"cues": [],
 								"duration": 0,
@@ -25137,7 +25162,7 @@
 								"volume": 1
 							},
 							"SA2T1V4name": {
-								"fileid": "5l",
+								"fileid": "7l",
 								"SSML": "Shape of Glass",
 								"cues": [],
 								"duration": 0,
@@ -25145,7 +25170,7 @@
 								"volume": 1
 							},
 							"SA2T2V1name": {
-								"fileid": "5m",
+								"fileid": "7m",
 								"SSML": "Balloon Color",
 								"cues": [],
 								"duration": 0,
@@ -25153,7 +25178,7 @@
 								"volume": 1
 							},
 							"SA2T2V2name": {
-								"fileid": "5n",
+								"fileid": "7n",
 								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
@@ -25161,7 +25186,7 @@
 								"volume": 1
 							},
 							"SA2T2V3name": {
-								"fileid": "5o",
+								"fileid": "7o",
 								"SSML": "Balloon Material",
 								"cues": [],
 								"duration": 0,
@@ -25169,7 +25194,7 @@
 								"volume": 1
 							},
 							"SA2T2V4name": {
-								"fileid": "5p",
+								"fileid": "7p",
 								"SSML": "Type of Chair",
 								"cues": [],
 								"duration": 0,
@@ -25177,7 +25202,7 @@
 								"volume": 1
 							},
 							"SA3T1V1name": {
-								"fileid": "5q",
+								"fileid": "7q",
 								"SSML": "Slope",
 								"cues": [],
 								"duration": 0,
@@ -25185,7 +25210,7 @@
 								"volume": 1
 							},
 							"SA3T1V2name": {
-								"fileid": "5r",
+								"fileid": "7r",
 								"SSML": "Color of the Ball",
 								"cues": [],
 								"duration": 0,
@@ -25193,7 +25218,7 @@
 								"volume": 1
 							},
 							"SA3T1V3name": {
-								"fileid": "5s",
+								"fileid": "7s",
 								"SSML": "Starting Position",
 								"cues": [],
 								"duration": 0,
@@ -25201,7 +25226,7 @@
 								"volume": 1
 							},
 							"SA3T1V4name": {
-								"fileid": "5t",
+								"fileid": "7t",
 								"SSML": "Ramp Surface",
 								"cues": [],
 								"duration": 0,
@@ -25209,7 +25234,7 @@
 								"volume": 1
 							},
 							"SA3T2V1name": {
-								"fileid": "5u",
+								"fileid": "7u",
 								"SSML": "Density of Water",
 								"cues": [],
 								"duration": 0,
@@ -25217,7 +25242,7 @@
 								"volume": 1
 							},
 							"SA3T2V2name": {
-								"fileid": "5v",
+								"fileid": "7v",
 								"SSML": "Shape of Object",
 								"cues": [],
 								"duration": 0,
@@ -25225,7 +25250,7 @@
 								"volume": 1
 							},
 							"SA3T2V3name": {
-								"fileid": "5w",
+								"fileid": "7w",
 								"SSML": "Volume of Object",
 								"cues": [],
 								"duration": 0,
@@ -25233,7 +25258,7 @@
 								"volume": 1
 							},
 							"SA3T2V4name": {
-								"fileid": "5x",
+								"fileid": "7x",
 								"SSML": "Density of Object",
 								"cues": [],
 								"duration": 0,
@@ -25241,7 +25266,7 @@
 								"volume": 1
 							},
 							"SA4T1V1name": {
-								"fileid": "5y",
+								"fileid": "7y",
 								"SSML": "Number of Bees",
 								"cues": [],
 								"duration": 0,
@@ -25249,7 +25274,7 @@
 								"volume": 1
 							},
 							"SA4T1V2name": {
-								"fileid": "5z",
+								"fileid": "7z",
 								"SSML": "Amount of Sunlight",
 								"cues": [],
 								"duration": 0,
@@ -25257,7 +25282,7 @@
 								"volume": 1
 							},
 							"SA4T1V3name": {
-								"fileid": "5Ba",
+								"fileid": "7Ba",
 								"SSML": "Amount of Fertilizer",
 								"cues": [],
 								"duration": 0,
@@ -25265,7 +25290,7 @@
 								"volume": 1
 							},
 							"SA4T1V4name": {
-								"fileid": "5Bb",
+								"fileid": "7Bb",
 								"SSML": "Type of Water",
 								"cues": [],
 								"duration": 0,
@@ -25273,7 +25298,7 @@
 								"volume": 1
 							},
 							"SA4T2V1name": {
-								"fileid": "5Bc",
+								"fileid": "7Bc",
 								"SSML": "Water Temperature",
 								"cues": [],
 								"duration": 0,
@@ -25281,7 +25306,7 @@
 								"volume": 1
 							},
 							"SA4T2V2name": {
-								"fileid": "5Bd",
+								"fileid": "7Bd",
 								"SSML": "Amount of Music",
 								"cues": [],
 								"duration": 0,
@@ -25289,7 +25314,7 @@
 								"volume": 1
 							},
 							"SA4T2V3name": {
-								"fileid": "5Be",
+								"fileid": "7Be",
 								"SSML": "CO2 in Water",
 								"cues": [],
 								"duration": 0,
@@ -25297,7 +25322,7 @@
 								"volume": 1
 							},
 							"SA4T2V4name": {
-								"fileid": "5Bf",
+								"fileid": "7Bf",
 								"SSML": "Sunlight Exposure",
 								"cues": [],
 								"duration": 0,
@@ -25308,10 +25333,10 @@
 						{
 							"templateVar": "$EFO_TED_E1_SUMMARY|part4",
 							"TEDE1SUMMARYpart4": {
-								"fileid": "6a",
-								"SSML": "across conditions And if there is no difference between conditions in the",
+								"fileid": "8a",
+								"SSML": "across conditions. And if there is no difference between conditions in the",
 								"cues": [],
-								"duration": 3581.5,
+								"duration": 4145.583333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25319,7 +25344,7 @@
 						{
 							"templateVar": "$EFO_S_A?_T?|DVs",
 							"SA1T1DVs": {
-								"fileid": "7a",
+								"fileid": "9a",
 								"SSML": "weight of the crystal growth on the string after two weeks.",
 								"cues": [],
 								"duration": 0,
@@ -25327,7 +25352,7 @@
 								"volume": 1
 							},
 							"SA1T2DVs": {
-								"fileid": "7b",
+								"fileid": "9b",
 								"SSML": "height of the soda geyser",
 								"cues": [],
 								"duration": 0,
@@ -25335,7 +25360,7 @@
 								"volume": 1
 							},
 							"SA2T1DVs": {
-								"fileid": "7c",
+								"fileid": "9c",
 								"SSML": "time it takes for the ice cube to melt in water",
 								"cues": [],
 								"duration": 0,
@@ -25343,7 +25368,7 @@
 								"volume": 1
 							},
 							"SA2T2DVs": {
-								"fileid": "7d",
+								"fileid": "9d",
 								"SSML": "gas temperature within balloon after 30 minutes",
 								"cues": [],
 								"duration": 0,
@@ -25351,7 +25376,7 @@
 								"volume": 1
 							},
 							"SA3T1DVs": {
-								"fileid": "7e",
+								"fileid": "9e",
 								"SSML": "speed of the ball at the bottom of the ramp",
 								"cues": [],
 								"duration": 0,
@@ -25359,7 +25384,7 @@
 								"volume": 1
 							},
 							"SA3T2DVs": {
-								"fileid": "7f",
+								"fileid": "9f",
 								"SSML": "time it takes for objects to sink in water",
 								"cues": [],
 								"duration": 0,
@@ -25367,7 +25392,7 @@
 								"volume": 1
 							},
 							"SA4T1DVs": {
-								"fileid": "7g",
+								"fileid": "9g",
 								"SSML": "number of seeds produced by the flowers at the end of the season",
 								"cues": [],
 								"duration": 0,
@@ -25375,7 +25400,7 @@
 								"volume": 1
 							},
 							"SA4T2DVs": {
-								"fileid": "7h",
+								"fileid": "9h",
 								"SSML": "weight of the algae produced after one week",
 								"cues": [],
 								"duration": 0,
@@ -25386,280 +25411,10 @@
 						{
 							"templateVar": "$EFO_TED_E1_SUMMARY|part5",
 							"TEDE1SUMMARYpart5": {
-								"fileid": "8a",
+								"fileid": "10a",
 								"SSML": "then you could know that the",
 								"cues": [],
-								"duration": 1183.9583333333333,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "$EFO_S_A?_T?_V?|name",
-							"SA1T1V1name": {
-								"fileid": "9a",
-								"SSML": "Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V2name": {
-								"fileid": "9b",
-								"SSML": "Type of Crystals",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V3name": {
-								"fileid": "9c",
-								"SSML": "Initial Amount of Crystals on String",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T1V4name": {
-								"fileid": "9d",
-								"SSML": "Type of String",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V1name": {
-								"fileid": "9e",
-								"SSML": "Type of Sweetener",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V2name": {
-								"fileid": "9f",
-								"SSML": "Amount of Caffeine",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V3name": {
-								"fileid": "9g",
-								"SSML": "Texture of Mint",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA1T2V4name": {
-								"fileid": "9h",
-								"SSML": "Amount of CO2",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V1name": {
-								"fileid": "9i",
-								"SSML": "Initial Ice Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V2name": {
-								"fileid": "9j",
-								"SSML": "Initial Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V3name": {
-								"fileid": "9k",
-								"SSML": "Pattern on Glass",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T1V4name": {
-								"fileid": "9l",
-								"SSML": "Shape of Glass",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V1name": {
-								"fileid": "9m",
-								"SSML": "Balloon Color",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V2name": {
-								"fileid": "9n",
-								"SSML": "Amount of Sunlight",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V3name": {
-								"fileid": "9o",
-								"SSML": "Balloon Material",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA2T2V4name": {
-								"fileid": "9p",
-								"SSML": "Type of Chair",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V1name": {
-								"fileid": "9q",
-								"SSML": "Slope",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V2name": {
-								"fileid": "9r",
-								"SSML": "Color of the Ball",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V3name": {
-								"fileid": "9s",
-								"SSML": "Starting Position",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T1V4name": {
-								"fileid": "9t",
-								"SSML": "Ramp Surface",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V1name": {
-								"fileid": "9u",
-								"SSML": "Density of Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V2name": {
-								"fileid": "9v",
-								"SSML": "Shape of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V3name": {
-								"fileid": "9w",
-								"SSML": "Volume of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA3T2V4name": {
-								"fileid": "9x",
-								"SSML": "Density of Object",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V1name": {
-								"fileid": "9y",
-								"SSML": "Number of Bees",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V2name": {
-								"fileid": "9z",
-								"SSML": "Amount of Sunlight",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V3name": {
-								"fileid": "9Ba",
-								"SSML": "Amount of Fertilizer",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T1V4name": {
-								"fileid": "9Bb",
-								"SSML": "Type of Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V1name": {
-								"fileid": "9Bc",
-								"SSML": "Water Temperature",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V2name": {
-								"fileid": "9Bd",
-								"SSML": "Amount of Music",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V3name": {
-								"fileid": "9Be",
-								"SSML": "CO2 in Water",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							},
-							"SA4T2V4name": {
-								"fileid": "9Bf",
-								"SSML": "Sunlight Exposure",
-								"cues": [],
-								"duration": 0,
-								"trim": 0,
-								"volume": 1
-							}
-						},
-						{
-							"templateVar": "$EFO_TED_E1_SUMMARY|part6",
-							"TEDE1SUMMARYpart6": {
-								"fileid": "10a",
-								"SSML": "does not matter. So from this experiment, you would be able to find out whether or not the",
-								"cues": [],
-								"duration": 4933.541666666667,
+								"duration": 1257.4166666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25924,12 +25679,293 @@
 							}
 						},
 						{
+							"templateVar": "__novar",
+							"__novar": {
+								"fileid": "12",
+								"SSML": ",",
+								"cues": [],
+								"duration": 462.125,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_TED_E1_SUMMARY|part6",
+							"TEDE1SUMMARYpart6": {
+								"fileid": "13a",
+								"SSML": "does not matter. So from this experiment, you would be able to find out whether or not the",
+								"cues": [],
+								"duration": 5241.958333333333,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
+							"templateVar": "$EFO_S_A?_T?_V?|name",
+							"SA1T1V1name": {
+								"fileid": "14a",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V2name": {
+								"fileid": "14b",
+								"SSML": "Type of Crystals",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V3name": {
+								"fileid": "14c",
+								"SSML": "Initial Amount of Crystals on String",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T1V4name": {
+								"fileid": "14d",
+								"SSML": "Type of String",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V1name": {
+								"fileid": "14e",
+								"SSML": "Type of Sweetener",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V2name": {
+								"fileid": "14f",
+								"SSML": "Amount of Caffeine",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V3name": {
+								"fileid": "14g",
+								"SSML": "Texture of Mint",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA1T2V4name": {
+								"fileid": "14h",
+								"SSML": "Amount of CO2",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V1name": {
+								"fileid": "14i",
+								"SSML": "Initial Ice Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V2name": {
+								"fileid": "14j",
+								"SSML": "Initial Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V3name": {
+								"fileid": "14k",
+								"SSML": "Pattern on Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T1V4name": {
+								"fileid": "14l",
+								"SSML": "Shape of Glass",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V1name": {
+								"fileid": "14m",
+								"SSML": "Balloon Color",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V2name": {
+								"fileid": "14n",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V3name": {
+								"fileid": "14o",
+								"SSML": "Balloon Material",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA2T2V4name": {
+								"fileid": "14p",
+								"SSML": "Type of Chair",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V1name": {
+								"fileid": "14q",
+								"SSML": "Slope",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V2name": {
+								"fileid": "14r",
+								"SSML": "Color of the Ball",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V3name": {
+								"fileid": "14s",
+								"SSML": "Starting Position",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T1V4name": {
+								"fileid": "14t",
+								"SSML": "Ramp Surface",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V1name": {
+								"fileid": "14u",
+								"SSML": "Density of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V2name": {
+								"fileid": "14v",
+								"SSML": "Shape of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V3name": {
+								"fileid": "14w",
+								"SSML": "Volume of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA3T2V4name": {
+								"fileid": "14x",
+								"SSML": "Density of Object",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V1name": {
+								"fileid": "14y",
+								"SSML": "Number of Bees",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V2name": {
+								"fileid": "14z",
+								"SSML": "Amount of Sunlight",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V3name": {
+								"fileid": "14Ba",
+								"SSML": "Amount of Fertilizer",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T1V4name": {
+								"fileid": "14Bb",
+								"SSML": "Type of Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V1name": {
+								"fileid": "14Bc",
+								"SSML": "Water Temperature",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V2name": {
+								"fileid": "14Bd",
+								"SSML": "Amount of Music",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V3name": {
+								"fileid": "14Be",
+								"SSML": "CO2 in Water",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							},
+							"SA4T2V4name": {
+								"fileid": "14Bf",
+								"SSML": "Sunlight Exposure",
+								"cues": [],
+								"duration": 0,
+								"trim": 0,
+								"volume": 1
+							}
+						},
+						{
 							"templateVar": "$EFO_TED_E1_SUMMARY|part7",
 							"TEDE1SUMMARYpart7": {
-								"fileid": "12a",
+								"fileid": "15a",
 								"SSML": "causes a difference in the result.",
 								"cues": [],
-								"duration": 1781.125,
+								"duration": 1824.375,
 								"trim": 0,
 								"volume": 1
 							}
@@ -25937,6 +25973,9 @@
 					],
 					"timedSet": [],
 					"trim": [
+						0,
+						0,
+						0,
 						0,
 						0,
 						0,
@@ -26006,7 +26045,7 @@
 							"TEDE1SUMMARYpart3": "it has to be because of the different"
 						},
 						"$EFO_TED_E1_SUMMARY|part4": {
-							"TEDE1SUMMARYpart4": "across conditions And if there is no difference between conditions in the"
+							"TEDE1SUMMARYpart4": "across conditions. And if there is no difference between conditions in the"
 						},
 						"$EFO_TED_E1_SUMMARY|part5": {
 							"TEDE1SUMMARYpart5": "then you could know that the"
@@ -26040,7 +26079,7 @@
 								"fileid": "0a",
 								"SSML": "Let's see how you design experiments on your own. You’ll design four experiments.",
 								"cues": [],
-								"duration": 4986.333333333333,
+								"duration": 5112.083333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26073,7 +26112,7 @@
 								"fileid": "0a",
 								"SSML": "I want to see what you learned from this lesson. So, I won’t tell you if you are right or wrong.",
 								"cues": [],
-								"duration": 5057,
+								"duration": 5196.958333333333,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26106,7 +26145,7 @@
 								"fileid": "0a",
 								"SSML": "When you’re done working on each experiment, click the next button.",
 								"cues": [],
-								"duration": 3279.0416666666665,
+								"duration": 3288.875,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26150,7 +26189,7 @@
 								"fileid": "0a",
 								"SSML": "First, design an experiment that will let you find out for sure whether or not the",
 								"cues": [],
-								"duration": 4296.958333333333,
+								"duration": 4352.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26420,7 +26459,7 @@
 								"fileid": "2a",
 								"SSML": "affects the",
 								"cues": [],
-								"duration": 822.375,
+								"duration": 839.7083333333334,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26577,7 +26616,7 @@
 								"fileid": "0a",
 								"SSML": "Design an experiment that will let you find out for sure whether or not the",
 								"cues": [],
-								"duration": 3831.7083333333335,
+								"duration": 3894.4166666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -26997,7 +27036,7 @@
 								"fileid": "0a",
 								"SSML": "You can change part of the experiment by simply clicking in the table.",
 								"cues": [],
-								"duration": 3488.875,
+								"duration": 3718.4583333333335,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27034,7 +27073,7 @@
 								"fileid": "0a",
 								"SSML": "Explain why you designed your experiment the way that you did.",
 								"cues": [],
-								"duration": 2982.875,
+								"duration": 3081.6666666666665,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27071,7 +27110,7 @@
 								"fileid": "0a",
 								"SSML": "The skills you have learned in this lesson can be applied any time you set up any experiment, in any domain.",
 								"cues": [],
-								"duration": 5449.166666666667,
+								"duration": 5575.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27104,7 +27143,7 @@
 								"fileid": "0a",
 								"SSML": "That is, anytime you set up an experiment, you need to make everything the same except for the one variable you are testing.",
 								"cues": [],
-								"duration": 6212.875,
+								"duration": 6323.25,
 								"trim": 0,
 								"volume": 1
 							}
@@ -27137,7 +27176,7 @@
 								"fileid": "0a",
 								"SSML": "This way, only that one variable you are testing can cause the result.",
 								"cues": [],
-								"duration": 3845.8333333333335,
+								"duration": 3897.0833333333335,
 								"trim": 0,
 								"volume": 1
 							}

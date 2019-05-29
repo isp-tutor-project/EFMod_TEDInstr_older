@@ -8,6 +8,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // on syntax like => this[<element name>]
         // 
         [key: string]: any;
+        public static $QuestionNdx:number = 0;
+        public        $QuestionId:string;
 
         
         //***********************************************
@@ -24,6 +26,12 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
+            this.$QuestionId = "Imagine" + SScene12A.$QuestionNdx + "_Reason";
+
             this.setSceneValue("complete", false);    
         }
 
@@ -123,7 +131,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(target) {
                 case "Sanswer":
-                this.setModuleValue("Expt1_Q4A_RIGHT", this.Sanswer.selected);
+                this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                 this.setSceneValue("complete", true);    
             }
         }

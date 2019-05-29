@@ -8,7 +8,8 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         // on syntax like => this[<element name>]
         // 
         [key: string]: any;
-
+        public static $QuestionNdx:number = 0;
+        public        $QuestionId:string;
         
         //***********************************************
         // Tutor graph methods
@@ -24,6 +25,13 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
         }
         
         public $preEnterScene() {
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+
+            SScene9.$QuestionNdx++;
+            this.$QuestionId = "Expt" + SScene9.$QuestionNdx + "_Q";
+
             this.setSceneValue("complete", false);    
         }
 
@@ -61,7 +69,6 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
 
         public $nodePreExit(nodeId:string) {
-
         }
 
         public $nodeAction(actionId:string) : void {
@@ -76,7 +83,7 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
 
             switch(constrainId) {
                 case "CORRECT":
-                    result = this.getModuleValue("Expt1_Q1").value;   
+                    result = this.getModuleValue("Expt1_Q1").value;   // used by tutorgraph
                     
                     if(result) {
                         this.Sanswer.setColor(CONST.LBGREEN);
@@ -144,7 +151,9 @@ namespace EFTut_Suppl.EFMod_TEDInstr {
             switch(target) {
 
                 case "Sanswer":
-                    this.setModuleValue("Expt1_Q1", this.Sanswer.selected);
+                    this.setModuleValue("Expt1_Q1", this.Sanswer.selected); // Used by tutor graph
+
+                    this.setModuleValue(this.$QuestionId, this.Sanswer.selected);
                     this.setSceneValue("complete", true);    
                     break;
             }
