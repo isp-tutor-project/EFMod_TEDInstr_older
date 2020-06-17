@@ -1,6 +1,6 @@
 {
     "_MODULEDATA":"v1.0.0",
-    "_IMPORT":["EFMOD_RQSelect|ONTOLOGY.json"],
+    "_IMPORT":["EFMod_RQSelect|ONTOLOGY.json"],
     "_ONTOLOGY": {
         "TED": {
             "S3":{

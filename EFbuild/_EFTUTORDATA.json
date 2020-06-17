@@ -398,7 +398,7 @@
 						}
 					},
 					"features": "FTR_CRYSTAL",
-					"wewillselect": "we will select the topic crystal growth",
+					"wewillselect": "we will select the topic Crystal Growth.",
 					"belowarevariables": "Below are some variables that might affect the amount of crystal growth on a string in water.",
 					"enumVar1": "Water temperature",
 					"enumVar2": "The type of crystals",
@@ -420,8 +420,8 @@
 					"enumProcess6": "We can measure the weight of the crystal growth after two weeks.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the amount of crystal growth on a string in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The Water Temperature",
-					"enumValue1a": "Cool (16c)",
-					"enumValue1b": "Hot (50c)",
+					"enumValue1a": "Cool (16°C)",
+					"enumValue1b": "Hot (50°C)",
 					"enumValue2": "The Type of Crystal",
 					"enumValue2a": "Salt",
 					"enumValue2b": "Brown Sugar",
@@ -441,7 +441,8 @@
 					"enumValueUtt4b": "Or yarn. This might also make a difference.",
 					"RQ1": {
 						"rqselected": "Does the water temperature",
-						"ExpSelected": "water temperature"
+						"ExpSelected": "water temperature",
+						"ExpSelected2": "The water temperature"
 					},
 					"RQ2": {
 						"rqselected": "Does the type of crystal",
@@ -589,7 +590,7 @@
 					"enumValue2": "The amount of caffeine in the soda",
 					"enumValue2a": "Some",
 					"enumValue2b": "None",
-					"enumValue3": "The surface Texture of the mint",
+					"enumValue3": "The surface texture of the mint",
 					"enumValue3a": "Smooth",
 					"enumValue3b": "Rough",
 					"enumValue4": "The amount of carbon dioxide in the soda",
@@ -628,7 +629,7 @@
 					"DVabb": "geyser height",
 					"buttVarName1": "The type of sweetener in the soda",
 					"buttVarName2": "The amount of caffeine in the soda",
-					"buttVarName3": "The surface Texture of the mint",
+					"buttVarName3": "The surface texture of the mint",
 					"buttVarName4": "The amount of carbon dioxide in the soda"
 				},
 				"withinarea": "Within the area of Physical and Chemical Changes,",
@@ -761,8 +762,8 @@
 					"enumProcess3": "We can measure the time it takes for the ice cube to melt in water.",
 					"fourcanchange": "In this experiment, there are only four things we can change. Any of these might make a difference in the time it takes for the ice cube to melt in water. These are the four variables you can test in this experiment",
 					"enumValue1": "The initial temperature of the ice cube",
-					"enumValue1a": "0c",
-					"enumValue1b": "-20c",
+					"enumValue1a": "0°C",
+					"enumValue1b": "-20°C",
 					"enumValue2": "The initial temperature of the water",
 					"enumValue2a": "Cold",
 					"enumValue2b": "Hot",
@@ -1430,7 +1431,7 @@
 						}
 					},
 					"features": "FTR_GRHOUSE",
-					"wewillselect": "we will select the topic Flower Reproduction",
+					"wewillselect": "we will select the topic Flower Reproduction.",
 					"belowarevariables": "Below are some variables that might affect the number of seeds produced by flowers in a greenhouse.",
 					"enumVar1": "The Number of honey bees in the greenhouse",
 					"enumVar2": "The Amount of sunlight the greenhouse lets in",
@@ -1598,7 +1599,7 @@
 						}
 					},
 					"features": "FTR_ALGAE",
-					"wewillselect": "we will select the topic Algae Reproduction",
+					"wewillselect": "we will select the topic Algae Reproduction.",
 					"belowarevariables": "Below are some variables that might affect the amount of algae produced in water.",
 					"enumVar1": "The Temperature of the Water",
 					"enumVar2": "The Amount of Exposure to Music",
