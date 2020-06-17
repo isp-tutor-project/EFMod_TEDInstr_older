@@ -1,16 +1,16 @@
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
     class CONST {
-        static readonly TUTORCONTAINER: string;
-        static readonly NAVNONE: number;
-        static readonly NAVBACK: number;
-        static readonly NAVNEXT: number;
-        static readonly NAVBOTH: number;
-        static readonly NEXTSCENE: string;
-        static readonly PREVSCENE: string;
-        static readonly HIDE: boolean;
-        static readonly SHOW: boolean;
-        static readonly NAVSCENE: string;
-        static readonly NAVTUTOR: string;
+        static readonly TUTORCONTAINER = "STutorContainer";
+        static readonly NAVNONE = 0;
+        static readonly NAVBACK = 1;
+        static readonly NAVNEXT = 2;
+        static readonly NAVBOTH = 3;
+        static readonly NEXTSCENE = "nextbutton";
+        static readonly PREVSCENE = "prevbutton";
+        static readonly HIDE = false;
+        static readonly SHOW = true;
+        static readonly NAVSCENE = "SCENE";
+        static readonly NAVTUTOR = "TUTOR";
         static readonly MOUSE_MOVE: string;
         static readonly MOUSE_DOWN: string;
         static readonly MOUSE_UP: string;
@@ -20,14 +20,14 @@ declare namespace EFTut_Suppl.EFMod_TEDInstr {
         static readonly CLICK: string;
         static readonly CHANGED: string;
         static readonly FTRS_ALL: any;
-        static readonly VAR_FTR: string;
-        static readonly YELLOW: string;
-        static readonly BLUE: string;
-        static readonly GREEN: string;
-        static readonly RED: string;
-        static readonly LBGREEN: string;
-        static readonly LBRED: string;
-        static readonly NONE: string;
+        static readonly VAR_FTR = "varsel";
+        static readonly YELLOW = "#FFFF54";
+        static readonly BLUE = "#B6FFFF";
+        static readonly GREEN = "#54FF00";
+        static readonly RED = "#FF0054";
+        static readonly LBGREEN = "#009900";
+        static readonly LBRED = "#CC0000";
+        static readonly NONE = "";
     }
 }
 declare namespace EFTut_Suppl.EFMod_TEDInstr {
