@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run compile && npm run copy",
+    "build": "tsc --project tsconfig.json",
     "compile": "tsc",
     "copy": "copyfiles -u 2 ../graphs/*.json* ../../EFTutors/Std_Login/",
     "test": "echo \"Error: no test specified\" && exit 1"
